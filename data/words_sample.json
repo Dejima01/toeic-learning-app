@@ -1,0 +1,661 @@
+[
+  {
+    "id": "q_word_600_001",
+    "word": "attend",
+    "meaning": "出席する、参加する",
+    "part_of_speech": "verb",
+    "level": 600,
+    "chapter_num": 1,
+    "example_sentences": [
+      {
+        "sentence": "All employees must attend the safety training next Monday.",
+        "translation": "全従業員は来週の月曜日に安全研修に参加しなければなりません。"
+      },
+      {
+        "sentence": "I will attend the conference in Tokyo this weekend.",
+        "translation": "私は今週末、東京で開催される会議に出席する予定です。"
+      }
+    ],
+    "derivatives": [
+      { "part": "noun", "word": "attendance", "meaning": "出席、参加" },
+      { "part": "noun", "word": "attendee", "meaning": "出席者" }
+    ]
+  },
+  {
+    "id": "q_word_600_002",
+    "word": "schedule",
+    "meaning": "予定、スケジュール / 予定する",
+    "part_of_speech": "noun/verb",
+    "level": 600,
+    "chapter_num": 1,
+    "example_sentences": [
+      {
+        "sentence": "The meeting has been scheduled for 3 p.m. tomorrow.",
+        "translation": "その会議は明日の午後3時に予定されています。"
+      },
+      {
+        "sentence": "Please check your schedule before booking the room.",
+        "translation": "部屋を予約する前に、ご自身のスケジュールを確認してください。"
+      }
+    ],
+    "derivatives": [
+      { "part": "adj", "word": "scheduled", "meaning": "予定された" },
+      { "part": "noun", "word": "rescheduling", "meaning": "予定変更" }
+    ]
+  },
+  {
+    "id": "q_word_600_003",
+    "word": "customer",
+    "meaning": "顧客、お客様",
+    "part_of_speech": "noun",
+    "level": 600,
+    "chapter_num": 1,
+    "example_sentences": [
+      {
+        "sentence": "Our company values long-term relationships with customers.",
+        "translation": "私たちの会社は顧客との長期的な関係を大切にしています。"
+      },
+      {
+        "sentence": "Customer satisfaction is our highest priority.",
+        "translation": "顧客満足度が私たちの最優先事項です。"
+      }
+    ],
+    "derivatives": [
+      { "part": "noun", "word": "customization", "meaning": "カスタマイズ" },
+      { "part": "adj", "word": "customary", "meaning": "慣習的な" }
+    ]
+  },
+  {
+    "id": "q_word_600_004",
+    "word": "deliver",
+    "meaning": "配達する、届ける",
+    "part_of_speech": "verb",
+    "level": 600,
+    "chapter_num": 1,
+    "example_sentences": [
+      {
+        "sentence": "The package will be delivered to your office by 5 p.m.",
+        "translation": "その荷物は午後5時までにあなたのオフィスに配達されます。"
+      },
+      {
+        "sentence": "We deliver fresh vegetables every morning.",
+        "translation": "私たちは毎朝、新鮮な野菜を配達しています。"
+      }
+    ],
+    "derivatives": [
+      { "part": "noun", "word": "delivery", "meaning": "配達、配送" },
+      { "part": "noun", "word": "deliverer", "meaning": "配達人" }
+    ]
+  },
+  {
+    "id": "q_word_600_005",
+    "word": "expense",
+    "meaning": "費用、経費",
+    "part_of_speech": "noun",
+    "level": 600,
+    "chapter_num": 1,
+    "example_sentences": [
+      {
+        "sentence": "Please submit your travel expenses by Friday.",
+        "translation": "金曜日までに出張費を提出してください。"
+      },
+      {
+        "sentence": "Living expenses in this city are quite high.",
+        "translation": "この街の生活費はかなり高いです。"
+      }
+    ],
+    "derivatives": [
+      { "part": "adj", "word": "expensive", "meaning": "高価な" },
+      { "part": "verb", "word": "expend", "meaning": "費やす、消費する" }
+    ]
+  },
+  {
+    "id": "q_word_600_006",
+    "word": "manage",
+    "meaning": "管理する、なんとか〜する",
+    "part_of_speech": "verb",
+    "level": 600,
+    "chapter_num": 1,
+    "example_sentences": [
+      {
+        "sentence": "She manages a team of ten developers.",
+        "translation": "彼女は10人の開発者のチームを管理しています。"
+      },
+      {
+        "sentence": "We managed to finish the project on time.",
+        "translation": "私たちは何とかプロジェクトを期限内に終わらせました。"
+      }
+    ],
+    "derivatives": [
+      { "part": "noun", "word": "management", "meaning": "経営、管理" },
+      { "part": "noun", "word": "manager", "meaning": "管理者、マネージャー" }
+    ]
+  },
+  {
+    "id": "q_word_600_007",
+    "word": "prepare",
+    "meaning": "準備する",
+    "part_of_speech": "verb",
+    "level": 600,
+    "chapter_num": 1,
+    "example_sentences": [
+      {
+        "sentence": "Please prepare the documents before the meeting starts.",
+        "translation": "会議が始まる前に書類を準備してください。"
+      },
+      {
+        "sentence": "He is preparing a presentation for the client.",
+        "translation": "彼はクライアント向けのプレゼンを準備しています。"
+      }
+    ],
+    "derivatives": [
+      { "part": "noun", "word": "preparation", "meaning": "準備" },
+      { "part": "adj", "word": "prepared", "meaning": "準備された" }
+    ]
+  },
+  {
+    "id": "q_word_600_008",
+    "word": "receive",
+    "meaning": "受け取る",
+    "part_of_speech": "verb",
+    "level": 600,
+    "chapter_num": 1,
+    "example_sentences": [
+      {
+        "sentence": "I received your email this morning.",
+        "translation": "今朝あなたのメールを受け取りました。"
+      },
+      {
+        "sentence": "She received an award for her outstanding work.",
+        "translation": "彼女は素晴らしい仕事ぶりで表彰されました。"
+      }
+    ],
+    "derivatives": [
+      { "part": "noun", "word": "receipt", "meaning": "領収書、受領" },
+      { "part": "noun", "word": "receiver", "meaning": "受信機、受取人" }
+    ]
+  },
+  {
+    "id": "q_word_600_009",
+    "word": "request",
+    "meaning": "要求、依頼 / 依頼する",
+    "part_of_speech": "noun/verb",
+    "level": 600,
+    "chapter_num": 1,
+    "example_sentences": [
+      {
+        "sentence": "Your request will be processed within 24 hours.",
+        "translation": "あなたの依頼は24時間以内に処理されます。"
+      },
+      {
+        "sentence": "He requested a copy of the contract.",
+        "translation": "彼は契約書のコピーを依頼しました。"
+      }
+    ],
+    "derivatives": [
+      { "part": "noun", "word": "requester", "meaning": "依頼者" },
+      { "part": "adj", "word": "requested", "meaning": "依頼された" }
+    ]
+  },
+  {
+    "id": "q_word_600_010",
+    "word": "supply",
+    "meaning": "供給、備品 / 供給する",
+    "part_of_speech": "noun/verb",
+    "level": 600,
+    "chapter_num": 1,
+    "example_sentences": [
+      {
+        "sentence": "The company supplies office equipment to small businesses.",
+        "translation": "その会社は小規模事業者にオフィス機器を供給しています。"
+      },
+      {
+        "sentence": "We need to order more office supplies next week.",
+        "translation": "来週、もっとオフィス用品を注文する必要があります。"
+      }
+    ],
+    "derivatives": [
+      { "part": "noun", "word": "supplier", "meaning": "供給業者" },
+      { "part": "noun", "word": "supplies", "meaning": "備品、物資" }
+    ]
+  },
+
+  {
+    "id": "q_word_750_001",
+    "word": "accommodate",
+    "meaning": "収容する、適応させる",
+    "part_of_speech": "verb",
+    "level": 750,
+    "chapter_num": 1,
+    "example_sentences": [
+      {
+        "sentence": "The hotel can accommodate up to three hundred guests.",
+        "translation": "そのホテルは最大で300人のゲストを収容できます。"
+      },
+      {
+        "sentence": "We will accommodate your schedule as much as possible.",
+        "translation": "できる限りあなたのスケジュールに合わせます。"
+      }
+    ],
+    "derivatives": [
+      { "part": "noun", "word": "accommodation", "meaning": "宿泊施設、収容能力" },
+      { "part": "adj", "word": "accommodating", "meaning": "親切な、融通がきく" }
+    ]
+  },
+  {
+    "id": "q_word_750_002",
+    "word": "priority",
+    "meaning": "優先事項、優先権",
+    "part_of_speech": "noun",
+    "level": 750,
+    "chapter_num": 1,
+    "example_sentences": [
+      {
+        "sentence": "You should offer priority seats to elderly people.",
+        "translation": "高齢の方に優先席を譲るべきです。"
+      },
+      {
+        "sentence": "Safety is always our top priority.",
+        "translation": "安全は常に最優先事項です。"
+      }
+    ],
+    "derivatives": [
+      { "part": "verb", "word": "prioritize", "meaning": "優先順位をつける" },
+      { "part": "adj", "word": "prioritized", "meaning": "優先された" }
+    ]
+  },
+  {
+    "id": "q_word_750_003",
+    "word": "subsequent",
+    "meaning": "その次の、後続の",
+    "part_of_speech": "adj",
+    "level": 750,
+    "chapter_num": 1,
+    "example_sentences": [
+      {
+        "sentence": "Subsequent meetings will be held online.",
+        "translation": "それ以降の会議はオンラインで行われます。"
+      },
+      {
+        "sentence": "The subsequent chapters discuss this issue in detail.",
+        "translation": "後続の章ではこの問題が詳しく論じられます。"
+      }
+    ],
+    "derivatives": [
+      { "part": "adv", "word": "subsequently", "meaning": "その後、次に" },
+      { "part": "noun", "word": "subsequence", "meaning": "続発、次に起こること" }
+    ]
+  },
+  {
+    "id": "q_word_750_004",
+    "word": "acquire",
+    "meaning": "獲得する、買収する",
+    "part_of_speech": "verb",
+    "level": 750,
+    "chapter_num": 1,
+    "example_sentences": [
+      {
+        "sentence": "Our firm acquired three smaller companies last year.",
+        "translation": "当社は昨年、3つの小規模企業を買収しました。"
+      },
+      {
+        "sentence": "It takes time to acquire new skills.",
+        "translation": "新しい技能を習得するには時間がかかります。"
+      }
+    ],
+    "derivatives": [
+      { "part": "noun", "word": "acquisition", "meaning": "獲得、買収" },
+      { "part": "adj", "word": "acquired", "meaning": "後天的な、獲得された" }
+    ]
+  },
+  {
+    "id": "q_word_750_005",
+    "word": "allocate",
+    "meaning": "割り当てる、配分する",
+    "part_of_speech": "verb",
+    "level": 750,
+    "chapter_num": 1,
+    "example_sentences": [
+      {
+        "sentence": "The budget was allocated to three departments.",
+        "translation": "予算は3つの部署に割り当てられました。"
+      },
+      {
+        "sentence": "We need to allocate more resources to this project.",
+        "translation": "このプロジェクトにもっとリソースを配分する必要があります。"
+      }
+    ],
+    "derivatives": [
+      { "part": "noun", "word": "allocation", "meaning": "割り当て、配分" },
+      { "part": "adj", "word": "allocated", "meaning": "割り当てられた" }
+    ]
+  },
+  {
+    "id": "q_word_750_006",
+    "word": "approve",
+    "meaning": "承認する、賛成する",
+    "part_of_speech": "verb",
+    "level": 750,
+    "chapter_num": 1,
+    "example_sentences": [
+      {
+        "sentence": "The board approved the new marketing plan.",
+        "translation": "取締役会は新しいマーケティング計画を承認しました。"
+      },
+      {
+        "sentence": "Her parents did not approve of her decision.",
+        "translation": "彼女の両親は彼女の決断に賛成しませんでした。"
+      }
+    ],
+    "derivatives": [
+      { "part": "noun", "word": "approval", "meaning": "承認、賛成" },
+      { "part": "adj", "word": "approved", "meaning": "承認された" }
+    ]
+  },
+  {
+    "id": "q_word_750_007",
+    "word": "distribute",
+    "meaning": "配布する、流通させる",
+    "part_of_speech": "verb",
+    "level": 750,
+    "chapter_num": 1,
+    "example_sentences": [
+      {
+        "sentence": "The flyers will be distributed at the entrance.",
+        "translation": "チラシは入口で配布されます。"
+      },
+      {
+        "sentence": "This product is distributed in over fifty countries.",
+        "translation": "この商品は50か国以上で流通しています。"
+      }
+    ],
+    "derivatives": [
+      { "part": "noun", "word": "distribution", "meaning": "配布、流通" },
+      { "part": "noun", "word": "distributor", "meaning": "販売代理店" }
+    ]
+  },
+  {
+    "id": "q_word_750_008",
+    "word": "evaluate",
+    "meaning": "評価する、査定する",
+    "part_of_speech": "verb",
+    "level": 750,
+    "chapter_num": 1,
+    "example_sentences": [
+      {
+        "sentence": "Managers evaluate employees twice a year.",
+        "translation": "管理職は年2回、従業員を評価します。"
+      },
+      {
+        "sentence": "We need to evaluate the risks before proceeding.",
+        "translation": "進める前にリスクを評価する必要があります。"
+      }
+    ],
+    "derivatives": [
+      { "part": "noun", "word": "evaluation", "meaning": "評価、査定" },
+      { "part": "adj", "word": "evaluative", "meaning": "評価の" }
+    ]
+  },
+  {
+    "id": "q_word_750_009",
+    "word": "implement",
+    "meaning": "実施する、導入する",
+    "part_of_speech": "verb",
+    "level": 750,
+    "chapter_num": 1,
+    "example_sentences": [
+      {
+        "sentence": "The new policy will be implemented next month.",
+        "translation": "新しい方針は来月から実施されます。"
+      },
+      {
+        "sentence": "We implemented a feedback system last quarter.",
+        "translation": "前四半期にフィードバックシステムを導入しました。"
+      }
+    ],
+    "derivatives": [
+      { "part": "noun", "word": "implementation", "meaning": "実施、導入" },
+      { "part": "adj", "word": "implemented", "meaning": "実施された" }
+    ]
+  },
+  {
+    "id": "q_word_750_010",
+    "word": "negotiate",
+    "meaning": "交渉する",
+    "part_of_speech": "verb",
+    "level": 750,
+    "chapter_num": 1,
+    "example_sentences": [
+      {
+        "sentence": "We negotiated the contract for several weeks.",
+        "translation": "私たちは数週間にわたって契約を交渉しました。"
+      },
+      {
+        "sentence": "She is good at negotiating with suppliers.",
+        "translation": "彼女は仕入先との交渉が得意です。"
+      }
+    ],
+    "derivatives": [
+      { "part": "noun", "word": "negotiation", "meaning": "交渉" },
+      { "part": "noun", "word": "negotiator", "meaning": "交渉者" }
+    ]
+  },
+
+  {
+    "id": "q_word_900_001",
+    "word": "speculate",
+    "meaning": "推測する、考察する",
+    "part_of_speech": "verb",
+    "level": 900,
+    "chapter_num": 1,
+    "example_sentences": [
+      {
+        "sentence": "Analysts speculate that the labor shortage in the IT industry will take a toll on the economy.",
+        "translation": "アナリストたちは、IT業界の労働力不足が経済に悪影響を及ぼすだろうと推測している。"
+      },
+      {
+        "sentence": "Investors are speculating about the company's future direction.",
+        "translation": "投資家たちはその会社の今後の方向性について憶測している。"
+      }
+    ],
+    "derivatives": [
+      { "part": "noun", "word": "speculation", "meaning": "憶測、思索" },
+      { "part": "adj", "word": "speculative", "meaning": "推測の" },
+      { "part": "adv", "word": "speculatively", "meaning": "推測で" }
+    ]
+  },
+  {
+    "id": "q_word_900_002",
+    "word": "refund",
+    "meaning": "返金する、払い戻す",
+    "part_of_speech": "verb/noun",
+    "level": 900,
+    "chapter_num": 1,
+    "example_sentences": [
+      {
+        "sentence": "The airline decided to refund the full ticket price to all the passengers due to the massive flight delay.",
+        "translation": "航空会社は、大規模なフライト遅延のため、すべての乗客にチケット代の全額を返金することを決定した。"
+      },
+      {
+        "sentence": "You can request a refund within 30 days of purchase.",
+        "translation": "購入後30日以内であれば返金を依頼できます。"
+      }
+    ],
+    "derivatives": [
+      { "part": "adj", "word": "refundable", "meaning": "返金可能な" },
+      { "part": "adj", "word": "non-refundable", "meaning": "返金不可の" }
+    ]
+  },
+  {
+    "id": "q_word_900_003",
+    "word": "be subjected to",
+    "meaning": "〜にさらされる、〜を受ける",
+    "part_of_speech": "phrase",
+    "level": 900,
+    "chapter_num": 1,
+    "example_sentences": [
+      {
+        "sentence": "All humanity is subjected to the pull of gravity.",
+        "translation": "すべての人類は重力の影響を受けている。"
+      },
+      {
+        "sentence": "The product was subjected to a series of safety tests.",
+        "translation": "その製品は一連の安全試験にかけられた。"
+      }
+    ],
+    "derivatives": [
+      { "part": "verb", "word": "subject", "meaning": "服従させる、〜にさらす" },
+      { "part": "noun", "word": "subjection", "meaning": "服従、従属" }
+    ]
+  },
+  {
+    "id": "q_word_900_004",
+    "word": "attribute",
+    "meaning": "〜のせいにする、〜に起因する",
+    "part_of_speech": "verb",
+    "level": 900,
+    "chapter_num": 1,
+    "example_sentences": [
+      {
+        "sentence": "He attributes his high TOEIC score to consistent practice.",
+        "translation": "彼は自分の高いTOEICスコアを継続的な学習のおかげだとしている。"
+      },
+      {
+        "sentence": "The success was attributed to teamwork.",
+        "translation": "その成功はチームワークのおかげだと考えられた。"
+      }
+    ],
+    "derivatives": [
+      { "part": "noun", "word": "attribution", "meaning": "帰属、原因" },
+      { "part": "adj", "word": "attributable", "meaning": "〜に起因する" }
+    ]
+  },
+  {
+    "id": "q_word_900_005",
+    "word": "penetrate",
+    "meaning": "浸透する、貫く",
+    "part_of_speech": "verb",
+    "level": 900,
+    "chapter_num": 1,
+    "example_sentences": [
+      {
+        "sentence": "The company is trying to penetrate the Asian market.",
+        "translation": "その会社はアジア市場に浸透しようとしている。"
+      },
+      {
+        "sentence": "The arrow penetrated the wooden board.",
+        "translation": "矢が木の板を貫いた。"
+      }
+    ],
+    "derivatives": [
+      { "part": "noun", "word": "penetration", "meaning": "浸透、貫通" },
+      { "part": "adj", "word": "penetrating", "meaning": "鋭い、浸透する" }
+    ]
+  },
+  {
+    "id": "q_word_900_006",
+    "word": "reimburse",
+    "meaning": "払い戻す、返済する",
+    "part_of_speech": "verb",
+    "level": 900,
+    "chapter_num": 1,
+    "example_sentences": [
+      {
+        "sentence": "The company will reimburse travel expenses within two weeks.",
+        "translation": "会社は2週間以内に出張費を払い戻します。"
+      },
+      {
+        "sentence": "Please submit receipts to be reimbursed.",
+        "translation": "払い戻しを受けるには領収書を提出してください。"
+      }
+    ],
+    "derivatives": [
+      { "part": "noun", "word": "reimbursement", "meaning": "返済、払い戻し" }
+    ]
+  },
+  {
+    "id": "q_word_900_007",
+    "word": "fiscal",
+    "meaning": "会計の、財政の",
+    "part_of_speech": "adj",
+    "level": 900,
+    "chapter_num": 1,
+    "example_sentences": [
+      {
+        "sentence": "Our fiscal year ends in March.",
+        "translation": "当社の会計年度は3月に終わります。"
+      },
+      {
+        "sentence": "The government announced new fiscal policies.",
+        "translation": "政府は新しい財政政策を発表した。"
+      }
+    ],
+    "derivatives": [
+      { "part": "adv", "word": "fiscally", "meaning": "財政的に" }
+    ]
+  },
+  {
+    "id": "q_word_900_008",
+    "word": "comprise",
+    "meaning": "構成する、含む",
+    "part_of_speech": "verb",
+    "level": 900,
+    "chapter_num": 1,
+    "example_sentences": [
+      {
+        "sentence": "The team comprises five engineers and two designers.",
+        "translation": "そのチームは5人のエンジニアと2人のデザイナーで構成されている。"
+      },
+      {
+        "sentence": "Water comprises about 70 percent of the human body.",
+        "translation": "水は人体の約70%を占めている。"
+      }
+    ],
+    "derivatives": [
+      { "part": "adj", "word": "comprised", "meaning": "構成された" }
+    ]
+  },
+  {
+    "id": "q_word_900_009",
+    "word": "mitigate",
+    "meaning": "和らげる、軽減する",
+    "part_of_speech": "verb",
+    "level": 900,
+    "chapter_num": 1,
+    "example_sentences": [
+      {
+        "sentence": "We must take steps to mitigate the risks of cyber attacks.",
+        "translation": "サイバー攻撃のリスクを軽減するための対策が必要だ。"
+      },
+      {
+        "sentence": "The policy aims to mitigate the impact of climate change.",
+        "translation": "その政策は気候変動の影響を和らげることを目的としている。"
+      }
+    ],
+    "derivatives": [
+      { "part": "noun", "word": "mitigation", "meaning": "緩和、軽減" },
+      { "part": "adj", "word": "mitigating", "meaning": "緩和する" }
+    ]
+  },
+  {
+    "id": "q_word_900_010",
+    "word": "jeopardize",
+    "meaning": "危険にさらす",
+    "part_of_speech": "verb",
+    "level": 900,
+    "chapter_num": 1,
+    "example_sentences": [
+      {
+        "sentence": "Missing the deadline could jeopardize the entire project.",
+        "translation": "期限を逃せば、プロジェクト全体を危険にさらしかねない。"
+      },
+      {
+        "sentence": "His careless remarks jeopardized the negotiation.",
+        "translation": "彼の不注意な発言が交渉を台無しにしかけた。"
+      }
+    ],
+    "derivatives": [
+      { "part": "noun", "word": "jeopardy", "meaning": "危険、危機" }
+    ]
+  }
+]

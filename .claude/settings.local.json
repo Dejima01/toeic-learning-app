@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"g:\\\\VScode_tukuttaFILE\\\\test2_clone\\\\english-learnig-app\" -Recurse -Force)",
+      "Bash(Select-Object -Property FullName)",
+      "Bash(Sort-Object FullName)",
+      "Bash(Get-ChildItem -Path \"g:\\\\VScode_tukuttaFILE\\\\test2_clone\" -Force)",
+      "Bash(Select-Object Name, PSIsContainer)",
+      "Bash(Format-Table -AutoSize)",
+      "Bash(Select-Object -Property Name, Mode)",
+      "Bash(grep -E \"\\\\.\\(json|js|ts|jsx|tsx|env\\)$\")"
+    ]
+  }
+}

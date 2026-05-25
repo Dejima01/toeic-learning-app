@@ -1,0 +1,154 @@
+[
+  {
+    "id": "q_grammar_600_001",
+    "question_text": "The new employees ______ the orientation tomorrow morning.",
+    "choices": ["attend", "attends", "will attend", "attended"],
+    "correct_index": 2,
+    "explanation": "「tomorrow morning」という未来を表す副詞句があるので、未来時制 will attend が正解です。(A)(B)(D) は時制が合いません。",
+    "translation": "新入社員たちは明日の朝、オリエンテーションに出席する予定です。",
+    "level": 600,
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_600_002",
+    "question_text": "Please send the report ______ Friday.",
+    "choices": ["in", "on", "at", "by"],
+    "correct_index": 3,
+    "explanation": "「金曜日までに」という期限を表すので by が正解。on Friday は「金曜日に」の意味で、期限ではなくその日にあたる出来事を表します。",
+    "translation": "金曜日までにそのレポートを送ってください。",
+    "level": 600,
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_600_003",
+    "question_text": "There ______ many books on the desk.",
+    "choices": ["is", "are", "was", "be"],
+    "correct_index": 1,
+    "explanation": "主語が複数 (many books) なので are が正解。there is/are 構文では、後ろの名詞が単複の判断基準です。",
+    "translation": "机の上にたくさんの本があります。",
+    "level": 600,
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_600_004",
+    "question_text": "I have worked here ______ five years.",
+    "choices": ["since", "for", "during", "while"],
+    "correct_index": 1,
+    "explanation": "「five years」という期間の長さを表しているので for。since は「〜以来」で起点を示し、during は特定の期間中、while は接続詞です。",
+    "translation": "私はここで5年間働いてきました。",
+    "level": 600,
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_600_005",
+    "question_text": "If it ______ tomorrow, we will cancel the event.",
+    "choices": ["rain", "rains", "will rain", "rained"],
+    "correct_index": 1,
+    "explanation": "「if 節」内では未来のことでも現在形を使うルール。三人称単数の主語 it なので rains が正解です。",
+    "translation": "もし明日雨が降れば、私たちはそのイベントを中止します。",
+    "level": 600,
+    "chapter_num": 1
+  },
+
+  {
+    "id": "q_grammar_750_001",
+    "question_text": "Employees are required to attend the training session ______ they have received prior approval from their manager.",
+    "choices": ["otherwise", "unless", "despite", "therefore"],
+    "correct_index": 1,
+    "explanation": "「〜でない限り」という条件を表す接続詞が文脈に最も適しています。(A)副詞「そうでなければ〜」(C)前置詞「〜にもかかわらず」(D)副詞「したがって」。",
+    "translation": "事前の承認を得ていない限り、参加が必須となります。",
+    "level": 750,
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_750_002",
+    "question_text": "The updated security protocol, ______ last month, has significantly reduced the number of unauthorized access attempts.",
+    "choices": ["implements", "implementing", "implemented", "implement"],
+    "correct_index": 2,
+    "explanation": "「〜された」という受動の意味で、直前の名詞 (protocol) を後ろから修飾する過去分詞が文法的に最も適しています。文のメインの動詞は後半の has reduced であるため、空所には動詞ではなく形容詞の働きをする分詞が入ります。",
+    "translation": "先月導入された最新のセキュリティプロトコルは、不正アクセスの試行回数を大幅に減少させた。",
+    "level": 750,
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_750_003",
+    "question_text": "______ the heavy rain, the outdoor concert will be held as scheduled.",
+    "choices": ["Although", "Because of", "Despite", "However"],
+    "correct_index": 2,
+    "explanation": "後ろに名詞句 (the heavy rain) が続いているので前置詞が必要。「〜にもかかわらず」の意味で despite が正解。although は接続詞なので節を導く必要があります。",
+    "translation": "激しい雨にもかかわらず、屋外コンサートは予定通り開催されます。",
+    "level": 750,
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_750_004",
+    "question_text": "The manager asked the team ______ the report by the end of the week.",
+    "choices": ["finish", "finishing", "to finish", "finished"],
+    "correct_index": 2,
+    "explanation": "ask + 目的語 + to do の形で「〜に〜するよう頼む」。to 不定詞 to finish が正解です。",
+    "translation": "マネージャーはチームに週末までにレポートを完成させるように頼みました。",
+    "level": 750,
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_750_005",
+    "question_text": "______ you submit the application by Friday, we cannot process it next week.",
+    "choices": ["Unless", "If", "Although", "Whereas"],
+    "correct_index": 0,
+    "explanation": "「もし〜しなければ」という条件を表す unless が文脈に合います。「金曜までに申請しなければ来週処理できない」という意味です。",
+    "translation": "金曜日までに申請を提出しない限り、来週処理することはできません。",
+    "level": 750,
+    "chapter_num": 1
+  },
+
+  {
+    "id": "q_grammar_900_001",
+    "question_text": "Had the team ______ the issue earlier, the project would not have been delayed.",
+    "choices": ["addressed", "addressing", "to address", "address"],
+    "correct_index": 0,
+    "explanation": "倒置形の仮定法過去完了 (Had + S + 過去分詞 〜, S would have + 過去分詞)。過去分詞 addressed が正解です。",
+    "translation": "もしチームがその問題にもっと早く対処していたら、プロジェクトは遅れなかっただろう。",
+    "level": 900,
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_900_002",
+    "question_text": "The committee, ______ members are elected annually, oversees the budget allocation.",
+    "choices": ["which", "whose", "who", "that"],
+    "correct_index": 1,
+    "explanation": "後ろの名詞 (members) を修飾する所有格の関係代名詞 whose が正解。「その委員会のメンバーは…」の意味になります。",
+    "translation": "そのメンバーが毎年選出される委員会は、予算配分を監督している。",
+    "level": 900,
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_900_003",
+    "question_text": "Only after the contract was signed ______ the project officially begin.",
+    "choices": ["it did", "did it", "it does", "does it"],
+    "correct_index": 1,
+    "explanation": "文頭の「Only after 〜」は否定的・限定的な副詞句で、続く節は倒置になります。過去の出来事なので did it が正解です。",
+    "translation": "契約が結ばれて初めて、そのプロジェクトは正式に始まった。",
+    "level": 900,
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_900_004",
+    "question_text": "The proposal was rejected on the grounds ______ it lacked sufficient financial backing.",
+    "choices": ["of", "that", "which", "for"],
+    "correct_index": 1,
+    "explanation": "on the grounds that 〜 で「〜という理由で」という決まり文句。同格の that 節が続きます。",
+    "translation": "その提案は、十分な財政的裏付けが欠けているという理由で却下された。",
+    "level": 900,
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_900_005",
+    "question_text": "Not only ______ on time, but he also exceeded the sales target.",
+    "choices": ["he arrived", "did he arrive", "he did arrive", "arrived he"],
+    "correct_index": 1,
+    "explanation": "文頭の「Not only」のあとは倒置形が必要。過去の出来事なので did he arrive が正解です。",
+    "translation": "彼は時間通りに到着しただけでなく、販売目標も超えた。",
+    "level": 900,
+    "chapter_num": 1
+  }
+]
