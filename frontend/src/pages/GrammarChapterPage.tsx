@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import {
   collection,
   query,
@@ -19,6 +19,7 @@ import type { GrammarQuestion } from '../types/grammar';
 
 export default function GrammarChapterPage() {
   const { level: levelStr, chapter: chapterStr } = useParams();
+  const navigate = useNavigate();
   const level = Number(levelStr);
   const chapter = Number(chapterStr);
   const user = auth.currentUser;
@@ -100,7 +101,18 @@ export default function GrammarChapterPage() {
           <div className="h-8 w-8 animate-spin rounded-full border-b-2 border-sky-400" />
         </div>
       ) : questions.length === 0 ? (
-        <p className="pt-16 text-center text-gray-400">問題データがありません</p>
+        <div className="flex flex-col items-center gap-6 px-6 pt-24">
+          <p className="text-3xl">📝</p>
+          <p className="text-center text-lg font-bold text-gray-700">この章は現在準備中です</p>
+          <p className="text-center text-gray-500">お楽しみに！</p>
+          <button
+            type="button"
+            onClick={() => navigate(-1)}
+            className="mt-4 rounded-full bg-sky-400 px-8 py-3 font-bold text-white hover:bg-sky-500"
+          >
+            章一覧へ戻る
+          </button>
+        </div>
       ) : (
         <div>
           {questions.map((q, idx) => (

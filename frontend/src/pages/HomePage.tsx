@@ -50,12 +50,12 @@ export default function HomePage() {
 
         {/* ── ランクバッジサークル（中央） ── */}
         <div className="flex justify-center pt-10 pb-6">
-          <div className="flex h-24 w-24 flex-col items-center justify-center rounded-full bg-sky-200 text-center">
+          <div className="flex h-24 w-24 flex-col items-center justify-center rounded-full text-center">
             {badge ? (
               <img
                 src={`/badges/${badge}.png`}
                 alt={BADGE_LABEL[badge]}
-                className="h-[106px] w-[106px] object-contain"
+                className="h-24 w-24 object-contain"
               />
             ) : (
               <span className="text-sm font-medium leading-snug text-gray-700">

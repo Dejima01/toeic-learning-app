@@ -1,6 +1,5 @@
 import type { ReactNode } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { BottomNav } from './BottomNav';
 
 interface AuthLayoutProps {
   title?: string;
@@ -32,7 +31,6 @@ export function AuthLayout({ title, showBack = false, children }: AuthLayoutProp
         </header>
       )}
       <main className="flex-1 px-6 py-8">{children}</main>
-      <BottomNav />
     </div>
   );
 }

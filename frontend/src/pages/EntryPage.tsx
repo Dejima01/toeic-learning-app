@@ -1,6 +1,5 @@
 import { useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-import { BottomNav } from '../components/BottomNav';
 import { useAuth } from '../contexts/AuthContext';
 
 export default function EntryPage() {
@@ -47,7 +46,6 @@ export default function EntryPage() {
           ID・パスワードを忘れた方はこちら
         </Link>
       </main>
-      <BottomNav />
     </div>
   );
 }
