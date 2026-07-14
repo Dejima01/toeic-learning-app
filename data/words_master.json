@@ -1,0 +1,5002 @@
+[
+  {
+    "word": "purchase",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "receive",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "offer",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "provide",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "include",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "attend",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "schedule",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "order",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "deliver",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "customer",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "product",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "service",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "price",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "meeting",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "office",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "employee",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "manager",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "company",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "business",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "contract",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "sign",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "send",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "contact",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "request",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "reply",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "confirm",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "cancel",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "arrive",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "depart",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "available",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "item",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "store",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "market",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "sale",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "discount",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "payment",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "invoice",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "address",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "document",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "report",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "copy",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "staff",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "client",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "appointment",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "deadline",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "project",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "task",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "update",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "complete",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "prepare",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "word": "hire",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "train",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "retire",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "promote",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "salary",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "wage",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "benefit",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "bonus",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "interview",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "resume",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "applicant",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "candidate",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "position",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "department",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "division",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "branch",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "headquarters",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "factory",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "warehouse",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "equipment",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "supply",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "material",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "inventory",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "shipment",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "package",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "envelope",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "postage",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "receipt",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "refund",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "exchange",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "warranty",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "repair",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "maintain",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "install",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "replace",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "broken",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "damage",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "defect",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "quality",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "quantity",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "brochure",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "catalog",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "advertisement",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "announce",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "notice",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "register",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "subscribe",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "membership",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "renew",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "expire",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "word": "reserve",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "reservation",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "book",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "flight",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "passenger",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "luggage",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "baggage",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "boarding",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "destination",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "itinerary",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "fare",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "round-trip",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "aisle",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "transfer",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "delay",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "departure",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "arrival",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "accommodation",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "lodging",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "check-in",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "amenity",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "vacancy",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "tourist",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "sightseeing",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "souvenir",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "vehicle",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "traffic",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "highway",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "pedestrian",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "intersection",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "parking",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "fuel",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "rental",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "license",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "route",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "direction",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "downtown",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "suburb",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "neighborhood",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "resident",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "apartment",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "lease",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "tenant",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "landlord",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "utility",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "furniture",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "appliance",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "renovation",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "plumber",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "electricity",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "word": "correspondence",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "memo",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "agenda",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "minutes",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "presentation",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "conference",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "seminar",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "workshop",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "session",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "participant",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "attendee",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "organizer",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "venue",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "postpone",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "reschedule",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "remind",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "reminder",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "distribute",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "handout",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "submit",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "approval",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "approve",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "reject",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "permission",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "authorize",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "assign",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "assignment",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "colleague",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "coworker",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "supervisor",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "executive",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "president",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "founder",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "board",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "committee",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "chairperson",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "spokesperson",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "representative",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "receptionist",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "secretary",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "intern",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "workload",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "overtime",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "shift",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "payroll",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "paycheck",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "timesheet",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "absence",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "attendance",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "attach",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "word": "budget",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "expense",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "cost",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "afford",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "charge",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "fee",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "bill",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "deposit",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "withdraw",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "account",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "balance",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "loan",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "interest",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "mortgage",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "insurance",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "tax",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "income",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "profit",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "revenue",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "earn",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "spend",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "owe",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "currency",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "cash",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "credit",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "transaction",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "bargain",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "coupon",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "voucher",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "cashier",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "checkout",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "wholesale",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "retail",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "merchandise",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "vendor",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "supplier",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "consumer",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "demand",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "estimate",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "quote",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "bid",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "negotiate",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "agreement",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "term",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "condition",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "clause",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "breach",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "valid",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "due",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "overdue",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "word": "efficient",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "effective",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "convenient",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "reliable",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "flexible",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "punctual",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "temporary",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "permanent",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "additional",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "various",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "several",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "entire",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "current",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "recent",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "previous",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "upcoming",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "annual",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "monthly",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "quarterly",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "weekly",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "frequent",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "occasionally",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "immediately",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "promptly",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "approximately",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "nearly",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "especially",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "particularly",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "extremely",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "slightly",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "gradually",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "rapidly",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "currently",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "recently",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "eventually",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "finally",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "normally",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "typically",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "regularly",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "properly",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "carefully",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "thoroughly",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "briefly",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "directly",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "exactly",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "mainly",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "mostly",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "otherwise",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "moreover",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "therefore",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "word": "develop",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "improve",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "increase",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "decrease",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "reduce",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "expand",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "extend",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "establish",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "organize",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "arrange",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "manage",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "operate",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "produce",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "manufacture",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "design",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "create",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "launch",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "introduce",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "release",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "publish",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "print",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "edit",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "revise",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "review",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "examine",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "inspect",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "investigate",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "analyze",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "compare",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "measure",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "calculate",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "record",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "track",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "monitor",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "observe",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "recognize",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "identify",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "determine",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "decide",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "select",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "choose",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "recommend",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "suggest",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "propose",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "advise",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "encourage",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "persuade",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "convince",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "inform",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "notify",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "word": "opportunity",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "experience",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "skill",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "ability",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "knowledge",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "education",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "degree",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "qualification",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "certificate",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "training",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "career",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "achievement",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "goal",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "objective",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "purpose",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "result",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "outcome",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "effect",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "cause",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "reason",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "issue",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "problem",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "solution",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "method",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "process",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "procedure",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "policy",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "regulation",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "rule",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "law",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "requirement",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "standard",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "guideline",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "instruction",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "manual",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "detail",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "feature",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "function",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "disadvantage",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "drawback",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "option",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "alternative",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "choice",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "decision",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "conclusion",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "summary",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "description",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "explanation",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "example",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "information",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "word": "in charge of",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "in advance",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "on time",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "out of stock",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "due to",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "as of",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "according to",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "in addition to",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "instead of",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "on behalf of",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "be responsible for",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "take place",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "carry out",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "fill out",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "find out",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "figure out",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "turn in",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "hand in",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "set up",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "pick up",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "drop off",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "look forward to",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "get in touch with",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "run out of",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "deal with",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "sign up for",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "take over",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "put off",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "come up with",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "go over",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "focus on",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "participate in",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "apply for",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "respond to",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "depend on",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "lead to",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "result in",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "contribute to",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "consist of",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "be supposed to",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "no later than",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "free of charge",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "under construction",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "out of order",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "up to date",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "in person",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "on duty",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "at the latest",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "right away",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "as soon as possible",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "word": "accomplish",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "acquire",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "adjust",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "admit",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "adopt",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "anticipate",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "apologize",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "appreciate",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "assist",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "assume",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "assure",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "avoid",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "aware",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "capable",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "cautious",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "committed",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "competitive",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "complicated",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "confident",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "considerable",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "consistent",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "crucial",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "dedicated",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "delighted",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "eager",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "enthusiastic",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "essential",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "exceptional",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "familiar",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "grateful",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "hesitate",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "impressive",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "initial",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "innovative",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "mandatory",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "numerous",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "outstanding",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "pleased",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "potential",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "primary",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "prior",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "professional",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "prominent",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "prompt",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "relevant",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "significant",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "sufficient",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "suitable",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "urgent",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "willing",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "word": "implement",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "facilitate",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "allocate",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "collaborate",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "coordinate",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "delegate",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "designate",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "enhance",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "evaluate",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "execute",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "generate",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "incorporate",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "integrate",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "leverage",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "optimize",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "prioritize",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "streamline",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "undertake",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "comply",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "adhere",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "oversee",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "supervise",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "mentor",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "recruit",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "retain",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "compensate",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "reimburse",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "expenditure",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "procurement",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "acquisition",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "merger",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "subsidiary",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "affiliate",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "stakeholder",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "shareholder",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "entrepreneur",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "enterprise",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "corporation",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "venture",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "asset",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "liability",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "equity",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "dividend",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "portfolio",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "audit",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "compliance",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "fiscal",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "monetary",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "surplus",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "deficit",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "word": "accountability",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "transparency",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "initiative",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "strategy",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "strategic",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "tactical",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "comprehensive",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "extensive",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "substantial",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "subsequent",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "preliminary",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "tentative",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "provisional",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "contingency",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "feasibility",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "viable",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "lucrative",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "profitable",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "cost-effective",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "overhead",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "margin",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "benchmark",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "milestone",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "deliverable",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "specification",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "prototype",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "patent",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "trademark",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "copyright",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "intellectual",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "proprietary",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "confidential",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "disclosure",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "provision",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "amendment",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "arbitration",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "litigation",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "settlement",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "plaintiff",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "defendant",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "verdict",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "statute",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "mandate",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "enforce",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "infringe",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "waive",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "certify",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "verify",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "validate",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "authenticate",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "word": "workforce",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "personnel",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "turnover",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "attrition",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "retention",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "onboarding",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "orientation",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "appraisal",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "promotion",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "incentive",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "perk",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "severance",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "pension",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "tenure",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "probation",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "grievance",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "morale",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "productivity",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "absenteeism",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "empowerment",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "autonomy",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "hierarchy",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "bureaucracy",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "protocol",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "etiquette",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "consensus",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "unanimous",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "deliberate",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "advocate",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "endorse",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "commend",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "acknowledge",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "clarify",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "elaborate",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "articulate",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "concise",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "coherent",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "persuasive",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "compelling",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "feasible",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "plausible",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "credible",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "skeptical",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "optimistic",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "pessimistic",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "pragmatic",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "meticulous",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "diligent",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "proficient",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "versatile",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "word": "campaign",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "publicity",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "sponsorship",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "outreach",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "demographic",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "segment",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "niche",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "brand",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "awareness",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "loyalty",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "testimonial",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "referral",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "conversion",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "engagement",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "impression",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "exposure",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "circulation",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "subscription",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "premiere",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "debut",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "exhibit",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "exhibition",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "auditorium",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "pavilion",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "admission",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "enrollment",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "curriculum",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "tuition",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "scholarship",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "alumni",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "faculty",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "dean",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "laboratory",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "experiment",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "hypothesis",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "analysis",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "findings",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "survey",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "questionnaire",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "respondent",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "feedback",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "criteria",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "assessment",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "metric",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "quota",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "threshold",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "baseline",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "projection",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "forecast",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "trend",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "word": "logistics",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "distribution",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "freight",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "cargo",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "consignment",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "customs",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "tariff",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "duty",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "quarantine",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "embargo",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "expedite",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "dispatch",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "courier",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "carrier",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "fleet",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "depot",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "terminal",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "transit",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "turnaround",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "backlog",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "bottleneck",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "capacity",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "utilization",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "throughput",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "downtime",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "outage",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "malfunction",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "calibrate",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "overhaul",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "refurbish",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "salvage",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "dispose",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "disposal",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "sustainability",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "emission",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "conservation",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "contamination",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "hazard",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "precaution",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "safeguard",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "inspection",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "ventilation",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "insulation",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "corrosion",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "durable",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "sturdy",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "fragile",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "perishable",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "flammable",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "toxic",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "word": "consecutive",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "cumulative",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "incremental",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "exponential",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "marginal",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "negligible",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "ambiguous",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "explicit",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "implicit",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "redundant",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "obsolete",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "outdated",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "cutting-edge",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "state-of-the-art",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "unprecedented",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "noteworthy",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "remarkable",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "striking",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "drastic",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "abrupt",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "imminent",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "pending",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "forthcoming",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "retroactive",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "interim",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "thereafter",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "whereby",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "nonetheless",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "nevertheless",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "albeit",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "whereas",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "hence",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "thereby",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "accordingly",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "consequently",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "furthermore",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "alongside",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "amid",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "undergo",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "undermine",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "outweigh",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "surpass",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "exceed",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "diminish",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "deteriorate",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "fluctuate",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "stabilize",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "accelerate",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "plummet",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "soar",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "word": "scrutinize",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "discrepancy",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "anomaly",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "deviation",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "irregularity",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "oversight",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "lapse",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "glitch",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "setback",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "impediment",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "hindrance",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "constraint",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "deterrent",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "contingent",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "stipulate",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "preclude",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "presume",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "infer",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "allege",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "attest",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "corroborate",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "substantiate",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "vindicate",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "rebut",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "refute",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "concede",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "relinquish",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "forfeit",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "rescind",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "revoke",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "nullify",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "void",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "annul",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "supersede",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "repeal",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "abolish",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "enact",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "ratify",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "adjourn",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "convene",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "preside",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "summon",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "testify",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "acquit",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "solicit",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "entail",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "warrant",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "uphold",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "withhold",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "abide",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "word": "astute",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "shrewd",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "prudent",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "frugal",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "thrifty",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "lavish",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "exorbitant",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "astronomical",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "nominal",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "negligent",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "culpable",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "liable",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "exempt",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "immune",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "susceptible",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "vulnerable",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "detrimental",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "adverse",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "conducive",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "instrumental",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "pivotal",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "indispensable",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "imperative",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "compulsory",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "obligatory",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "discretionary",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "arbitrary",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "cohesive",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "intricate",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "convoluted",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "cumbersome",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "tedious",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "mundane",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "monotonous",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "lucid",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "succinct",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "terse",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "eloquent",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "candid",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "forthright",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "discreet",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "tactful",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "courteous",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "amiable",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "affable",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "cordial",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "hospitable",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "gracious",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "impeccable",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "flawless",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "word": "exemplify",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "epitomize",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "embody",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "encompass",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "envisage",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "foresee",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "preempt",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "avert",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "mitigate",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "alleviate",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "exacerbate",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "aggravate",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "curtail",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "condense",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "consolidate",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "amalgamate",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "synthesize",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "extrapolate",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "deduce",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "discern",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "decipher",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "elucidate",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "expound",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "reiterate",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "underscore",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "accentuate",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "allude",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "insinuate",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "denote",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "ascertain",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "divulge",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "disseminate",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "promulgate",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "proliferate",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "permeate",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "culminate",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "commence",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "cease",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "wane",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "dwindle",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "taper",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "rebound",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "recoup",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "recuperate",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "reinstate",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "redeem",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "remit",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "liaison",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "embark",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "endeavor",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "word": "caveat",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "loophole",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "pitfall",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "quandary",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "predicament",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "conundrum",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "ramification",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "repercussion",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "aftermath",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "onset",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "inception",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "outset",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "juncture",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "precedent",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "prerogative",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "discretion",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "jurisdiction",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "austerity",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "windfall",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "lump sum",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "collateral",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "bankruptcy",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "liquidation",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "depreciation",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "amortization",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "valuation",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "arrears",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "default",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "delinquent",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "recession",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "downturn",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "upturn",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "volatility",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "turmoil",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "upheaval",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "synergy",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "economies of scale",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "due diligence",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "rule of thumb",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "in light of",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "with regard to",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "in lieu of",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "on the verge of",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "in the wake of",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "at stake",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "at one's disposal",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "by and large",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "on a par with",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "to date",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "word": "across the board",
+    "level": "900",
+    "chapter_num": 4
+  }
+]

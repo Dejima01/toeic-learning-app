@@ -50,7 +50,7 @@ export default function WordChapterPage() {
     getDocs(
       query(
         collection(db, 'word_questions'),
-        where('level', '==', level),
+        where('level', '==', String(level)),
         where('chapter_num', '==', chapter),
       ),
     )
