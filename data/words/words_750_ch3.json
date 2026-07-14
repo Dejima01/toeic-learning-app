@@ -1,0 +1,656 @@
+[
+  {
+    "id": "q_word_750_101",
+    "word": "workforce",
+    "meaning": "労働力、従業員全体",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The company's workforce has grown by 20 percent this year.", "translation": "その会社の従業員数は今年20パーセント増加しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_102",
+    "word": "personnel",
+    "meaning": "人員、職員",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Only authorized personnel are allowed in this area.", "translation": "この区域には許可を得た職員のみ立ち入ることができます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_103",
+    "word": "turnover",
+    "meaning": "離職率、総売上高",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Employee turnover decreased after the new benefits were introduced.", "translation": "新しい福利厚生の導入後、従業員の離職率は下がりました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_104",
+    "word": "attrition",
+    "meaning": "自然減、離職",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The department plans to reduce staff through attrition rather than layoffs.", "translation": "その部門は解雇ではなく自然減によって人員を削減する計画です。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_105",
+    "word": "retention",
+    "meaning": "維持、引き留め",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Employee retention improved after the salary increase.", "translation": "昇給後、従業員の定着率が改善しました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "retain", "meaning": "維持する、引き留める"}
+    ]
+  },
+  {
+    "id": "q_word_750_106",
+    "word": "onboarding",
+    "meaning": "新人研修、受け入れ準備",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The onboarding process for new hires takes about a week.", "translation": "新入社員の受け入れ研修には約1週間かかります。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_107",
+    "word": "orientation",
+    "meaning": "オリエンテーション、方向付け",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "All new employees must attend an orientation session on their first day.", "translation": "新入社員は全員、初日にオリエンテーションに出席しなければなりません。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_108",
+    "word": "appraisal",
+    "meaning": "評価、査定",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Performance appraisals are conducted every six months.", "translation": "人事評価は6か月ごとに実施されます。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "appraise", "meaning": "評価する、査定する"}
+    ]
+  },
+  {
+    "id": "q_word_750_109",
+    "word": "promotion",
+    "meaning": "昇進、販売促進",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "She received a promotion to senior manager last month.", "translation": "彼女は先月、シニアマネージャーに昇進しました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "promote", "meaning": "昇進させる、促進する"}
+    ]
+  },
+  {
+    "id": "q_word_750_110",
+    "word": "incentive",
+    "meaning": "奨励金、動機付け",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The company offers incentives for employees who exceed their targets.", "translation": "その会社は目標を上回った社員に奨励金を支給しています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_111",
+    "word": "perk",
+    "meaning": "特典、役得",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Free lunches are one of the perks of working here.", "translation": "無料の昼食はここで働く役得の一つです。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_112",
+    "word": "severance",
+    "meaning": "退職金、解雇手当",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Employees who are laid off will receive a severance package.", "translation": "解雇される社員には退職手当が支給されます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_113",
+    "word": "pension",
+    "meaning": "年金",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The company offers a generous pension plan for long-term employees.", "translation": "その会社は長期勤続社員向けに充実した年金制度を提供しています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_114",
+    "word": "tenure",
+    "meaning": "在職期間、終身在職権",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "His tenure as CEO lasted more than fifteen years.", "translation": "彼のCEOとしての在職期間は15年以上に及びました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_115",
+    "word": "probation",
+    "meaning": "試用期間、見習い期間",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "New employees are on probation for the first three months.", "translation": "新入社員は最初の3か月間、試用期間となります。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_116",
+    "word": "grievance",
+    "meaning": "苦情、不満",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Employees can file a grievance through the human resources department.", "translation": "社員は人事部を通じて苦情を申し立てることができます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_117",
+    "word": "morale",
+    "meaning": "士気",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The team-building event helped boost employee morale.", "translation": "そのチームビルディングイベントは社員の士気を高めるのに役立ちました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_118",
+    "word": "productivity",
+    "meaning": "生産性",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The new equipment increased productivity by 30 percent.", "translation": "新しい設備は生産性を30パーセント向上させました。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "productive", "meaning": "生産的な"}
+    ]
+  },
+  {
+    "id": "q_word_750_119",
+    "word": "absenteeism",
+    "meaning": "常習的欠勤",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Absenteeism dropped after the company introduced flexible hours.", "translation": "会社がフレックスタイムを導入した後、常習的な欠勤は減少しました。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "absent", "meaning": "欠席の、不在の"}
+    ]
+  },
+  {
+    "id": "q_word_750_120",
+    "word": "empowerment",
+    "meaning": "権限委譲、力を与えること",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The manager focuses on employee empowerment and independence.", "translation": "そのマネージャーは社員への権限委譲と自立を重視しています。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "empower", "meaning": "権限を与える"}
+    ]
+  },
+  {
+    "id": "q_word_750_121",
+    "word": "autonomy",
+    "meaning": "自主性、自律性",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Employees are given a high degree of autonomy in this company.", "translation": "この会社では社員に高い自主性が与えられています。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "autonomous", "meaning": "自主的な、自律した"}
+    ]
+  },
+  {
+    "id": "q_word_750_122",
+    "word": "hierarchy",
+    "meaning": "階層、序列",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The new organization has a flatter management hierarchy.", "translation": "その新しい組織はより階層の少ない管理体制になっています。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "hierarchical", "meaning": "階層的な"}
+    ]
+  },
+  {
+    "id": "q_word_750_123",
+    "word": "bureaucracy",
+    "meaning": "官僚制、お役所仕事",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Excessive bureaucracy often slows down decision-making.", "translation": "過剰なお役所仕事はしばしば意思決定を遅らせます。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "bureaucratic", "meaning": "官僚的な"}
+    ]
+  },
+  {
+    "id": "q_word_750_124",
+    "word": "protocol",
+    "meaning": "手順、規約、儀礼",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Staff must follow the safety protocol during an emergency.", "translation": "緊急時には職員が安全手順に従わなければなりません。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_125",
+    "word": "etiquette",
+    "meaning": "礼儀作法、エチケット",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Business etiquette varies from country to country.", "translation": "ビジネスマナーは国によって異なります。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_126",
+    "word": "consensus",
+    "meaning": "合意、総意",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The board reached a consensus on the new budget.", "translation": "取締役会は新しい予算について合意に達しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_127",
+    "word": "unanimous",
+    "meaning": "全会一致の",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The committee gave unanimous approval to the proposal.", "translation": "委員会はその提案を全会一致で承認しました。"}
+    ],
+    "derivatives": [
+      {"part": "adv", "word": "unanimously", "meaning": "満場一致で"}
+    ]
+  },
+  {
+    "id": "q_word_750_128",
+    "word": "deliberate",
+    "meaning": "熟考する、慎重な、意図的な",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The jury deliberated for two days before reaching a decision.", "translation": "陪審員は決定に達するまで2日間審議しました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "deliberation", "meaning": "審議、熟考"}
+    ]
+  },
+  {
+    "id": "q_word_750_129",
+    "word": "advocate",
+    "meaning": "支持する、擁護する、支持者",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The manager advocates for more flexible working hours.", "translation": "そのマネージャーはより柔軟な勤務時間を支持しています。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "advocacy", "meaning": "擁護、支持"}
+    ]
+  },
+  {
+    "id": "q_word_750_130",
+    "word": "endorse",
+    "meaning": "支持する、推薦する、承認する",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The board endorsed the new marketing strategy.", "translation": "取締役会は新しいマーケティング戦略を承認しました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "endorsement", "meaning": "支持、承認"}
+    ]
+  },
+  {
+    "id": "q_word_750_131",
+    "word": "commend",
+    "meaning": "称賛する、推奨する",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The manager commended the team for their hard work.", "translation": "マネージャーはチームの努力を称賛しました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "commendation", "meaning": "称賛、表彰"}
+    ]
+  },
+  {
+    "id": "q_word_750_132",
+    "word": "acknowledge",
+    "meaning": "認める、承認する",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Please acknowledge receipt of this e-mail.", "translation": "このメールの受領を確認していただけますようお願いします。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "acknowledgment", "meaning": "承認、確認"}
+    ]
+  },
+  {
+    "id": "q_word_750_133",
+    "word": "clarify",
+    "meaning": "明確にする、はっきりさせる",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Could you clarify what you mean by that comment?", "translation": "そのコメントの意味をもう少し明確にしていただけますか。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "clarification", "meaning": "明確化、説明"}
+    ]
+  },
+  {
+    "id": "q_word_750_134",
+    "word": "elaborate",
+    "meaning": "詳しく説明する、精巧な",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Could you elaborate on the reasons for the delay?", "translation": "遅延の理由についてもう少し詳しく説明していただけますか。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "elaboration", "meaning": "詳しい説明"}
+    ]
+  },
+  {
+    "id": "q_word_750_135",
+    "word": "articulate",
+    "meaning": "明確に表現する、明瞭な",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "She articulated her concerns clearly during the meeting.", "translation": "彼女は会議中、自分の懸念を明確に述べました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_136",
+    "word": "concise",
+    "meaning": "簡潔な",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Please keep your report concise and to the point.", "translation": "報告書は簡潔に要点をまとめてください。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_137",
+    "word": "coherent",
+    "meaning": "首尾一貫した、筋の通った",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The proposal presented a coherent plan for growth.", "translation": "その提案は成長に向けた筋の通った計画を示していました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "coherence", "meaning": "一貫性"}
+    ]
+  },
+  {
+    "id": "q_word_750_138",
+    "word": "persuasive",
+    "meaning": "説得力のある",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Her persuasive argument convinced the board to approve the plan.", "translation": "彼女の説得力ある主張は取締役会にその計画を承認させました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "persuade", "meaning": "説得する"}
+    ]
+  },
+  {
+    "id": "q_word_750_139",
+    "word": "compelling",
+    "meaning": "説得力のある、心を引きつける",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The data provided compelling evidence for the new strategy.", "translation": "そのデータは新しい戦略に説得力のある根拠を与えました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_140",
+    "word": "feasible",
+    "meaning": "実現可能な",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The engineers confirmed that the design is technically feasible.", "translation": "技術者たちはその設計が技術的に実現可能であることを確認しました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "feasibility", "meaning": "実現可能性"}
+    ]
+  },
+  {
+    "id": "q_word_750_141",
+    "word": "plausible",
+    "meaning": "もっともらしい、説得力のある",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "He offered a plausible explanation for the delay.", "translation": "彼は遅延についてもっともらしい説明をしました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_142",
+    "word": "credible",
+    "meaning": "信頼できる、信ぴょう性のある",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The report was based on credible sources.", "translation": "その報告書は信頼できる情報源に基づいていました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "credibility", "meaning": "信頼性"}
+    ]
+  },
+  {
+    "id": "q_word_750_143",
+    "word": "skeptical",
+    "meaning": "懐疑的な",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Investors remain skeptical about the company's growth forecast.", "translation": "投資家たちはその会社の成長予測について懐疑的なままです。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "skepticism", "meaning": "懐疑"}
+    ]
+  },
+  {
+    "id": "q_word_750_144",
+    "word": "optimistic",
+    "meaning": "楽観的な",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The CEO remains optimistic about next year's sales.", "translation": "CEOは来年の売上について楽観的な見方を崩していません。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "optimism", "meaning": "楽観主義"}
+    ]
+  },
+  {
+    "id": "q_word_750_145",
+    "word": "pessimistic",
+    "meaning": "悲観的な",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Some analysts are pessimistic about the industry's future.", "translation": "一部のアナリストはその業界の将来について悲観的です。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "pessimism", "meaning": "悲観主義"}
+    ]
+  },
+  {
+    "id": "q_word_750_146",
+    "word": "pragmatic",
+    "meaning": "現実的な、実用的な",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The manager took a pragmatic approach to solving the problem.", "translation": "そのマネージャーはその問題を解決するのに現実的なアプローチを取りました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_147",
+    "word": "meticulous",
+    "meaning": "細心の、几帳面な",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "She is known for her meticulous attention to detail.", "translation": "彼女は細部への細心の注意で知られています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_148",
+    "word": "diligent",
+    "meaning": "勤勉な、真面目な",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The diligent intern finished the task ahead of schedule.", "translation": "その勤勉なインターンは予定より早く作業を終えました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "diligence", "meaning": "勤勉さ"}
+    ]
+  },
+  {
+    "id": "q_word_750_149",
+    "word": "proficient",
+    "meaning": "熟達した、堪能な",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Applicants must be proficient in both English and Japanese.", "translation": "応募者は英語と日本語の両方に堪能である必要があります。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "proficiency", "meaning": "熟達、堪能さ"}
+    ]
+  },
+  {
+    "id": "q_word_750_150",
+    "word": "versatile",
+    "meaning": "多才な、用途の広い",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The new tool is versatile enough to handle several tasks.", "translation": "その新しい道具は複数の作業をこなせるほど汎用性があります。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "versatility", "meaning": "多才、汎用性"}
+    ]
+  }
+]

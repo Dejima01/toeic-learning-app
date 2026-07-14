@@ -1,0 +1,701 @@
+[
+  {
+    "id": "q_word_600_251",
+    "word": "efficient",
+    "meaning": "効率的な、無駄のない",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The new system is more efficient than the old one.", "translation": "新しいシステムは旧型より効率的です。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "efficiency", "meaning": "効率、能率"},
+      {"part": "adv", "word": "efficiently", "meaning": "効率的に"}
+    ]
+  },
+  {
+    "id": "q_word_600_252",
+    "word": "effective",
+    "meaning": "効果的な、有効な",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The new policy will be effective from April 1.", "translation": "新しい方針は4月1日から有効になります。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "effect", "meaning": "効果、影響"},
+      {"part": "adv", "word": "effectively", "meaning": "効果的に"}
+    ]
+  },
+  {
+    "id": "q_word_600_253",
+    "word": "convenient",
+    "meaning": "便利な、都合のよい",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "Please let me know a convenient time for the meeting.", "translation": "会議のご都合のよい時間をお知らせください。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "convenience", "meaning": "便利、好都合"},
+      {"part": "adv", "word": "conveniently", "meaning": "便利に、都合よく"}
+    ]
+  },
+  {
+    "id": "q_word_600_254",
+    "word": "reliable",
+    "meaning": "信頼できる、頼りになる",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "We need a reliable supplier for our main parts.", "translation": "主要部品については信頼できる仕入先が必要です。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "rely", "meaning": "頼る、当てにする"},
+      {"part": "noun", "word": "reliability", "meaning": "信頼性"}
+    ]
+  },
+  {
+    "id": "q_word_600_255",
+    "word": "flexible",
+    "meaning": "柔軟な、融通の利く",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The company offers flexible working hours.", "translation": "その会社は柔軟な勤務時間制度を導入しています。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "flexibility", "meaning": "柔軟性"}
+    ]
+  },
+  {
+    "id": "q_word_600_256",
+    "word": "punctual",
+    "meaning": "時間を守る、時間に正確な",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "Please be punctual for tomorrow's interview.", "translation": "明日の面接には時間どおりにお越しください。"}
+    ],
+    "derivatives": [
+      {"part": "adv", "word": "punctually", "meaning": "時間どおりに"},
+      {"part": "noun", "word": "punctuality", "meaning": "時間厳守"}
+    ]
+  },
+  {
+    "id": "q_word_600_257",
+    "word": "temporary",
+    "meaning": "一時的な、臨時の",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "We hired temporary staff for the busy season.", "translation": "繁忙期に備えて臨時スタッフを雇いました。"}
+    ],
+    "derivatives": [
+      {"part": "adv", "word": "temporarily", "meaning": "一時的に"}
+    ]
+  },
+  {
+    "id": "q_word_600_258",
+    "word": "permanent",
+    "meaning": "永続的な、常勤の",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "She was offered a permanent position after six months.", "translation": "彼女は半年後に正社員の職を提示されました。"}
+    ],
+    "derivatives": [
+      {"part": "adv", "word": "permanently", "meaning": "永久に、恒久的に"}
+    ]
+  },
+  {
+    "id": "q_word_600_259",
+    "word": "additional",
+    "meaning": "追加の、さらなる",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "There is an additional charge for express delivery.", "translation": "速達には追加料金がかかります。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "add", "meaning": "加える"},
+      {"part": "noun", "word": "addition", "meaning": "追加"},
+      {"part": "adv", "word": "additionally", "meaning": "さらに、加えて"}
+    ]
+  },
+  {
+    "id": "q_word_600_260",
+    "word": "various",
+    "meaning": "さまざまな、多様な",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The store sells various types of office furniture.", "translation": "その店ではさまざまな種類のオフィス家具を扱っています。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "vary", "meaning": "異なる、変わる"},
+      {"part": "noun", "word": "variety", "meaning": "多様性、種類"}
+    ]
+  },
+  {
+    "id": "q_word_600_261",
+    "word": "several",
+    "meaning": "いくつかの、数個の",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "Several employees have already signed up for the seminar.", "translation": "すでに数名の社員がセミナーに申し込んでいます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_262",
+    "word": "entire",
+    "meaning": "全体の、全部の",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The entire building will be closed for repairs.", "translation": "建物全体が補修のため閉鎖されます。"}
+    ],
+    "derivatives": [
+      {"part": "adv", "word": "entirely", "meaning": "完全に、まったく"}
+    ]
+  },
+  {
+    "id": "q_word_600_263",
+    "word": "current",
+    "meaning": "現在の、今の",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "Our current contract expires at the end of the year.", "translation": "現在の契約は年末で満了します。"}
+    ],
+    "derivatives": [
+      {"part": "adv", "word": "currently", "meaning": "現在、今のところ"}
+    ]
+  },
+  {
+    "id": "q_word_600_264",
+    "word": "recent",
+    "meaning": "最近の、近ごろの",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "A recent survey showed that customers want faster service.", "translation": "最近の調査では、顧客がより迅速なサービスを求めていることが分かりました。"}
+    ],
+    "derivatives": [
+      {"part": "adv", "word": "recently", "meaning": "最近"}
+    ]
+  },
+  {
+    "id": "q_word_600_265",
+    "word": "previous",
+    "meaning": "以前の、前の",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "This model is lighter than the previous version.", "translation": "このモデルは前の型より軽量です。"}
+    ],
+    "derivatives": [
+      {"part": "adv", "word": "previously", "meaning": "以前に"}
+    ]
+  },
+  {
+    "id": "q_word_600_266",
+    "word": "upcoming",
+    "meaning": "今度の、近づいている",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "Details of the upcoming event will be announced soon.", "translation": "今度のイベントの詳細は近日中に発表されます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_267",
+    "word": "annual",
+    "meaning": "年1回の、年次の、年間の",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The annual report will be published in June.", "translation": "年次報告書は6月に公表されます。"}
+    ],
+    "derivatives": [
+      {"part": "adv", "word": "annually", "meaning": "毎年、年1回"}
+    ]
+  },
+  {
+    "id": "q_word_600_268",
+    "word": "monthly",
+    "meaning": "毎月の、月1回の",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "We hold a monthly meeting on the first Tuesday.", "translation": "毎月第1火曜日に月例会議を開いています。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "month", "meaning": "月"}
+    ]
+  },
+  {
+    "id": "q_word_600_269",
+    "word": "quarterly",
+    "meaning": "四半期ごとの、年4回の",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The quarterly sales figures will be released next week.", "translation": "四半期の売上高は来週発表されます。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "quarter", "meaning": "四半期、4分の1"}
+    ]
+  },
+  {
+    "id": "q_word_600_270",
+    "word": "weekly",
+    "meaning": "毎週の、週1回の",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "Please submit a weekly progress report every Friday.", "translation": "毎週金曜日に週次の進捗報告を提出してください。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "week", "meaning": "週"}
+    ]
+  },
+  {
+    "id": "q_word_600_271",
+    "word": "frequent",
+    "meaning": "頻繁な、たびたびの",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "Frequent delays have upset many passengers.", "translation": "たび重なる遅延で多くの乗客が不満を抱いています。"}
+    ],
+    "derivatives": [
+      {"part": "adv", "word": "frequently", "meaning": "頻繁に"},
+      {"part": "noun", "word": "frequency", "meaning": "頻度"}
+    ]
+  },
+  {
+    "id": "q_word_600_272",
+    "word": "occasionally",
+    "meaning": "時々、たまに",
+    "part_of_speech": "adv",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "He occasionally works from home on Fridays.", "translation": "彼は金曜日にたまに在宅勤務をします。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "occasional", "meaning": "時折の"},
+      {"part": "noun", "word": "occasion", "meaning": "機会、場合"}
+    ]
+  },
+  {
+    "id": "q_word_600_273",
+    "word": "immediately",
+    "meaning": "ただちに、すぐに",
+    "part_of_speech": "adv",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "Please contact us immediately if the item is damaged.", "translation": "商品が破損していた場合はただちにご連絡ください。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "immediate", "meaning": "即座の、当面の"}
+    ]
+  },
+  {
+    "id": "q_word_600_274",
+    "word": "promptly",
+    "meaning": "迅速に、時間どおりに",
+    "part_of_speech": "adv",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The meeting will begin promptly at nine o'clock.", "translation": "会議は9時ちょうどに始まります。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "prompt", "meaning": "迅速な、即座の"}
+    ]
+  },
+  {
+    "id": "q_word_600_275",
+    "word": "approximately",
+    "meaning": "およそ、約",
+    "part_of_speech": "adv",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The flight takes approximately two hours.", "translation": "その便は約2時間かかります。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "approximate", "meaning": "おおよその"}
+    ]
+  },
+  {
+    "id": "q_word_600_276",
+    "word": "nearly",
+    "meaning": "ほとんど、もう少しで",
+    "part_of_speech": "adv",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "Nearly all of the tickets have already been sold.", "translation": "チケットはほぼすべて売り切れています。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "near", "meaning": "近い"}
+    ]
+  },
+  {
+    "id": "q_word_600_277",
+    "word": "especially",
+    "meaning": "特に、とりわけ",
+    "part_of_speech": "adv",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The store is busy on weekends, especially on Sunday.", "translation": "その店は週末、特に日曜日が混みます。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "special", "meaning": "特別な"}
+    ]
+  },
+  {
+    "id": "q_word_600_278",
+    "word": "particularly",
+    "meaning": "特に、とりわけ",
+    "part_of_speech": "adv",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "This model is particularly popular among young customers.", "translation": "このモデルは特に若い客層に人気があります。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "particular", "meaning": "特定の、特別な"}
+    ]
+  },
+  {
+    "id": "q_word_600_279",
+    "word": "extremely",
+    "meaning": "極めて、非常に",
+    "part_of_speech": "adv",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The customer was extremely satisfied with our service.", "translation": "その顧客は当社のサービスに非常に満足していました。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "extreme", "meaning": "極端な"}
+    ]
+  },
+  {
+    "id": "q_word_600_280",
+    "word": "slightly",
+    "meaning": "わずかに、少し",
+    "part_of_speech": "adv",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "Sales were slightly lower than last month.", "translation": "売上は先月よりわずかに下がりました。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "slight", "meaning": "わずかな"}
+    ]
+  },
+  {
+    "id": "q_word_600_281",
+    "word": "gradually",
+    "meaning": "徐々に、次第に",
+    "part_of_speech": "adv",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The number of online orders has gradually increased.", "translation": "オンライン注文の数は徐々に増えています。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "gradual", "meaning": "徐々の、緩やかな"}
+    ]
+  },
+  {
+    "id": "q_word_600_282",
+    "word": "rapidly",
+    "meaning": "急速に、素早く",
+    "part_of_speech": "adv",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The company is growing rapidly in Asian markets.", "translation": "その会社はアジア市場で急速に成長しています。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "rapid", "meaning": "急速な"}
+    ]
+  },
+  {
+    "id": "q_word_600_283",
+    "word": "currently",
+    "meaning": "現在、今のところ",
+    "part_of_speech": "adv",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The item is currently out of stock.", "translation": "その商品は現在、在庫切れです。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "current", "meaning": "現在の"}
+    ]
+  },
+  {
+    "id": "q_word_600_284",
+    "word": "recently",
+    "meaning": "最近、近ごろ",
+    "part_of_speech": "adv",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "We recently opened a new branch in Fukuoka.", "translation": "最近、福岡に新しい支店を開設しました。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "recent", "meaning": "最近の"}
+    ]
+  },
+  {
+    "id": "q_word_600_285",
+    "word": "eventually",
+    "meaning": "最終的に、結局",
+    "part_of_speech": "adv",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The two sides eventually reached an agreement.", "translation": "両者は最終的に合意に達しました。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "eventual", "meaning": "最終的な"}
+    ]
+  },
+  {
+    "id": "q_word_600_286",
+    "word": "finally",
+    "meaning": "ついに、最後に",
+    "part_of_speech": "adv",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The delayed shipment finally arrived this morning.", "translation": "遅れていた荷物が今朝ようやく届きました。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "final", "meaning": "最後の、最終の"}
+    ]
+  },
+  {
+    "id": "q_word_600_287",
+    "word": "normally",
+    "meaning": "通常は、普段は",
+    "part_of_speech": "adv",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The office is normally open until six p.m.", "translation": "オフィスは通常、午後6時まで開いています。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "normal", "meaning": "通常の、普通の"}
+    ]
+  },
+  {
+    "id": "q_word_600_288",
+    "word": "typically",
+    "meaning": "たいてい、通常、典型的に",
+    "part_of_speech": "adv",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "Deliveries typically take three to five business days.", "translation": "配達には通常3〜5営業日ほどかかります。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "typical", "meaning": "典型的な、よくある"}
+    ]
+  },
+  {
+    "id": "q_word_600_289",
+    "word": "regularly",
+    "meaning": "定期的に、規則正しく",
+    "part_of_speech": "adv",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The machines are regularly inspected for safety.", "translation": "機械は安全のため定期的に点検されています。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "regular", "meaning": "定期的な、通常の"}
+    ]
+  },
+  {
+    "id": "q_word_600_290",
+    "word": "properly",
+    "meaning": "適切に、正しく",
+    "part_of_speech": "adv",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The printer will not work unless it is properly connected.", "translation": "プリンターは正しく接続されていないと動きません。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "proper", "meaning": "適切な、正しい"}
+    ]
+  },
+  {
+    "id": "q_word_600_291",
+    "word": "carefully",
+    "meaning": "注意深く、慎重に",
+    "part_of_speech": "adv",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "Please read the instructions carefully before use.", "translation": "ご使用の前に説明書をよくお読みください。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "careful", "meaning": "注意深い"},
+      {"part": "noun", "word": "care", "meaning": "注意、世話"}
+    ]
+  },
+  {
+    "id": "q_word_600_292",
+    "word": "thoroughly",
+    "meaning": "徹底的に、完全に",
+    "part_of_speech": "adv",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "Each product is thoroughly tested before shipping.", "translation": "各製品は出荷前に徹底的に検査されます。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "thorough", "meaning": "徹底的な、入念な"}
+    ]
+  },
+  {
+    "id": "q_word_600_293",
+    "word": "briefly",
+    "meaning": "簡潔に、手短に",
+    "part_of_speech": "adv",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "Could you briefly explain the new procedure?", "translation": "新しい手順を手短に説明していただけますか。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "brief", "meaning": "短い、簡潔な"}
+    ]
+  },
+  {
+    "id": "q_word_600_294",
+    "word": "directly",
+    "meaning": "直接に、まっすぐに",
+    "part_of_speech": "adv",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "Please contact the manager directly about this issue.", "translation": "この件については部長に直接ご連絡ください。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "direct", "meaning": "直接の"}
+    ]
+  },
+  {
+    "id": "q_word_600_295",
+    "word": "exactly",
+    "meaning": "正確に、ちょうど",
+    "part_of_speech": "adv",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The package weighs exactly two kilograms.", "translation": "その小包はちょうど2キログラムです。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "exact", "meaning": "正確な"}
+    ]
+  },
+  {
+    "id": "q_word_600_296",
+    "word": "mainly",
+    "meaning": "主に、主として",
+    "part_of_speech": "adv",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "Our customers are mainly small businesses.", "translation": "当社の顧客は主に中小企業です。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "main", "meaning": "主な、主要な"}
+    ]
+  },
+  {
+    "id": "q_word_600_297",
+    "word": "mostly",
+    "meaning": "たいていは、大部分は",
+    "part_of_speech": "adv",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The audience was mostly made up of local residents.", "translation": "聴衆の大半は地元の住民でした。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_298",
+    "word": "otherwise",
+    "meaning": "そうでなければ、その他の点では",
+    "part_of_speech": "adv",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "Please confirm by Friday; otherwise, your booking will be canceled.", "translation": "金曜日までにご確認ください。そうでない場合、ご予約は取り消されます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_299",
+    "word": "moreover",
+    "meaning": "さらに、その上",
+    "part_of_speech": "adv",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The hotel is close to the station. Moreover, it offers free breakfast.", "translation": "そのホテルは駅に近く、さらに朝食も無料です。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_300",
+    "word": "therefore",
+    "meaning": "したがって、それゆえ",
+    "part_of_speech": "adv",
+    "level": "600",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "Costs have risen; therefore, we must raise our prices.", "translation": "コストが上がったため、価格を引き上げざるを得ません。"}
+    ],
+    "derivatives": []
+  }
+]

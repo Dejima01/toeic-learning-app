@@ -1,0 +1,676 @@
+[
+  {
+    "id": "q_word_750_001",
+    "word": "implement",
+    "meaning": "実施する、導入する",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "The company will implement the new policy starting next month.", "translation": "その会社は来月から新しい方針を実施します。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "implementation", "meaning": "実施、導入"}
+    ]
+  },
+  {
+    "id": "q_word_750_002",
+    "word": "facilitate",
+    "meaning": "促進する、円滑にする",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "The new software facilitates communication between departments.", "translation": "その新しいソフトは部門間のコミュニケーションを円滑にします。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "facilitation", "meaning": "促進、円滑化"},
+      {"part": "noun", "word": "facilitator", "meaning": "進行役、まとめ役"}
+    ]
+  },
+  {
+    "id": "q_word_750_003",
+    "word": "allocate",
+    "meaning": "割り当てる、配分する",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "The budget was allocated to three different departments.", "translation": "予算は3つの異なる部署に配分されました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "allocation", "meaning": "割り当て、配分"}
+    ]
+  },
+  {
+    "id": "q_word_750_004",
+    "word": "collaborate",
+    "meaning": "協力する、共同で行う",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "The two companies collaborated on developing a new vaccine.", "translation": "両社は新しいワクチンの開発で協力しました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "collaboration", "meaning": "協力、共同作業"}
+    ]
+  },
+  {
+    "id": "q_word_750_005",
+    "word": "coordinate",
+    "meaning": "調整する、まとめる",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "She coordinates schedules for all the sales representatives.", "translation": "彼女は全営業担当者の予定を調整しています。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "coordination", "meaning": "調整"},
+      {"part": "noun", "word": "coordinator", "meaning": "調整役、コーディネーター"}
+    ]
+  },
+  {
+    "id": "q_word_750_006",
+    "word": "delegate",
+    "meaning": "委任する、権限を委譲する",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "The director delegated the task to his assistant.", "translation": "部長はその業務を助手に委任しました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "delegation", "meaning": "委任、代表団"}
+    ]
+  },
+  {
+    "id": "q_word_750_007",
+    "word": "designate",
+    "meaning": "指名する、指定する",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "A specific area has been designated for employee parking.", "translation": "従業員用の駐車場として特定の区域が指定されています。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "designation", "meaning": "指定、指名"}
+    ]
+  },
+  {
+    "id": "q_word_750_008",
+    "word": "enhance",
+    "meaning": "高める、強化する",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "The update is designed to enhance the app's security.", "translation": "そのアップデートはアプリのセキュリティを強化するために設計されています。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "enhancement", "meaning": "強化、向上"}
+    ]
+  },
+  {
+    "id": "q_word_750_009",
+    "word": "evaluate",
+    "meaning": "評価する",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "Managers evaluate employee performance twice a year.", "translation": "管理職は年に2回、社員の業績を評価します。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "evaluation", "meaning": "評価"}
+    ]
+  },
+  {
+    "id": "q_word_750_010",
+    "word": "execute",
+    "meaning": "実行する、遂行する",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "The plan was executed exactly as scheduled.", "translation": "その計画は予定どおりに実行されました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "execution", "meaning": "実行、遂行"},
+      {"part": "noun", "word": "executive", "meaning": "重役、経営幹部"}
+    ]
+  },
+  {
+    "id": "q_word_750_011",
+    "word": "generate",
+    "meaning": "生み出す、発生させる",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "The new store is expected to generate significant revenue.", "translation": "その新店舗はかなりの収益を生み出すと見込まれています。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "generation", "meaning": "生成、発生"}
+    ]
+  },
+  {
+    "id": "q_word_750_012",
+    "word": "incorporate",
+    "meaning": "取り入れる、組み込む",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "The designer incorporated customer feedback into the new model.", "translation": "デザイナーは顧客の意見を新しいモデルに取り入れました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "incorporation", "meaning": "組み込み、法人化"}
+    ]
+  },
+  {
+    "id": "q_word_750_013",
+    "word": "integrate",
+    "meaning": "統合する",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "The two systems were integrated into a single platform.", "translation": "その2つのシステムは1つのプラットフォームに統合されました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "integration", "meaning": "統合"}
+    ]
+  },
+  {
+    "id": "q_word_750_014",
+    "word": "leverage",
+    "meaning": "活用する、てこ入れする",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "The company leveraged its brand name to enter new markets.", "translation": "その会社は自社のブランド名を活用して新市場に参入しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_015",
+    "word": "optimize",
+    "meaning": "最適化する",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "We optimized the website to load faster on mobile devices.", "translation": "モバイル端末での読み込みを速くするためウェブサイトを最適化しました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "optimization", "meaning": "最適化"}
+    ]
+  },
+  {
+    "id": "q_word_750_016",
+    "word": "prioritize",
+    "meaning": "優先させる、優先順位をつける",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "Please prioritize the urgent orders first.", "translation": "緊急の注文を最優先にしてください。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "priority", "meaning": "優先事項"}
+    ]
+  },
+  {
+    "id": "q_word_750_017",
+    "word": "streamline",
+    "meaning": "合理化する、効率化する",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "The new software helped streamline the ordering process.", "translation": "その新しいソフトは注文プロセスの効率化に役立ちました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_018",
+    "word": "undertake",
+    "meaning": "引き受ける、着手する",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "The firm undertook a major renovation of its headquarters.", "translation": "その会社は本社の大規模な改装に着手しました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "undertaking", "meaning": "事業、引き受けること"}
+    ]
+  },
+  {
+    "id": "q_word_750_019",
+    "word": "comply",
+    "meaning": "従う、遵守する",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "All employees must comply with the safety regulations.", "translation": "全社員は安全規則を遵守しなければなりません。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "compliance", "meaning": "遵守"}
+    ]
+  },
+  {
+    "id": "q_word_750_020",
+    "word": "adhere",
+    "meaning": "順守する、固く守る",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "The contractor must adhere to the agreed schedule.", "translation": "業者は合意した工程表を順守しなければなりません。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "adherence", "meaning": "順守"}
+    ]
+  },
+  {
+    "id": "q_word_750_021",
+    "word": "oversee",
+    "meaning": "監督する、統括する",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "Ms. Kato oversees all operations at the branch.", "translation": "加藤さんはその支店のすべての業務を統括しています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_022",
+    "word": "supervise",
+    "meaning": "監督する、指導する",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "He supervises a team of twelve engineers.", "translation": "彼は12名のエンジニアからなるチームを監督しています。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "supervisor", "meaning": "上司、監督者"},
+      {"part": "noun", "word": "supervision", "meaning": "監督"}
+    ]
+  },
+  {
+    "id": "q_word_750_023",
+    "word": "mentor",
+    "meaning": "指導する、助言者",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "Senior staff members mentor new employees during their first year.", "translation": "先輩社員が入社1年目の新入社員を指導します。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "mentorship", "meaning": "指導、助言関係"}
+    ]
+  },
+  {
+    "id": "q_word_750_024",
+    "word": "recruit",
+    "meaning": "採用する、募集する",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "The company plans to recruit twenty new graduates this year.", "translation": "その会社は今年、新卒者を20名採用する予定です。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "recruitment", "meaning": "採用、募集"},
+      {"part": "noun", "word": "recruiter", "meaning": "採用担当者"}
+    ]
+  },
+  {
+    "id": "q_word_750_025",
+    "word": "retain",
+    "meaning": "維持する、保持する、引き留める",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "The company offers bonuses to retain skilled employees.", "translation": "その会社は優秀な社員を引き留めるためにボーナスを提供しています。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "retention", "meaning": "維持、保持"}
+    ]
+  },
+  {
+    "id": "q_word_750_026",
+    "word": "compensate",
+    "meaning": "補償する、埋め合わせる",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "The airline compensated passengers for the long delay.", "translation": "その航空会社は長時間の遅延について乗客に補償しました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "compensation", "meaning": "補償、報酬"}
+    ]
+  },
+  {
+    "id": "q_word_750_027",
+    "word": "reimburse",
+    "meaning": "払い戻す、返金する",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "The company will reimburse you for your travel expenses.", "translation": "会社が出張費用を払い戻します。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "reimbursement", "meaning": "払い戻し、返金"}
+    ]
+  },
+  {
+    "id": "q_word_750_028",
+    "word": "expenditure",
+    "meaning": "支出、経費",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "The government reduced its expenditure on public projects.", "translation": "政府は公共事業への支出を削減しました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "expend", "meaning": "費やす、支出する"}
+    ]
+  },
+  {
+    "id": "q_word_750_029",
+    "word": "procurement",
+    "meaning": "調達、購買",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "The procurement department negotiates prices with suppliers.", "translation": "調達部門が仕入先と価格交渉を行います。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "procure", "meaning": "調達する"}
+    ]
+  },
+  {
+    "id": "q_word_750_030",
+    "word": "acquisition",
+    "meaning": "買収、獲得",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "The acquisition of the startup was completed in March.", "translation": "そのスタートアップの買収は3月に完了しました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "acquire", "meaning": "獲得する、買収する"}
+    ]
+  },
+  {
+    "id": "q_word_750_031",
+    "word": "merger",
+    "meaning": "合併",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "The merger of the two banks was approved by regulators.", "translation": "その2行の合併は当局によって承認されました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "merge", "meaning": "合併する"}
+    ]
+  },
+  {
+    "id": "q_word_750_032",
+    "word": "subsidiary",
+    "meaning": "子会社",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "The company established a subsidiary in Vietnam last year.", "translation": "その会社は昨年、ベトナムに子会社を設立しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_033",
+    "word": "affiliate",
+    "meaning": "系列会社、提携する",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "The product is distributed through our affiliate in Korea.", "translation": "その製品は韓国の系列会社を通じて流通しています。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "affiliation", "meaning": "提携、加盟"}
+    ]
+  },
+  {
+    "id": "q_word_750_034",
+    "word": "stakeholder",
+    "meaning": "利害関係者",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "All major stakeholders were invited to the planning meeting.", "translation": "主要な利害関係者は全員、企画会議に招かれました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_035",
+    "word": "shareholder",
+    "meaning": "株主",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "The annual shareholder meeting will be held in June.", "translation": "年次株主総会は6月に開催されます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_036",
+    "word": "entrepreneur",
+    "meaning": "起業家",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "The young entrepreneur launched her first business at age 22.", "translation": "その若い起業家は22歳で最初の事業を立ち上げました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "entrepreneurship", "meaning": "起業家精神"}
+    ]
+  },
+  {
+    "id": "q_word_750_037",
+    "word": "enterprise",
+    "meaning": "企業、事業",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "The software is designed for use by large enterprises.", "translation": "そのソフトは大企業での使用を想定して設計されています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_038",
+    "word": "corporation",
+    "meaning": "企業、法人",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "She works for a large multinational corporation.", "translation": "彼女は大手多国籍企業に勤めています。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "corporate", "meaning": "企業の、法人の"}
+    ]
+  },
+  {
+    "id": "q_word_750_039",
+    "word": "venture",
+    "meaning": "事業、ベンチャー、思い切って行う",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "The two firms formed a joint venture to develop the technology.", "translation": "両社はその技術を開発するため合弁事業を設立しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_040",
+    "word": "asset",
+    "meaning": "資産",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "The company's main asset is its brand reputation.", "translation": "その会社の主な資産はブランドの評判です。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_041",
+    "word": "liability",
+    "meaning": "負債、責任",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "The firm's total liabilities increased slightly this year.", "translation": "その会社の総負債は今年わずかに増加しました。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "liable", "meaning": "責任がある"}
+    ]
+  },
+  {
+    "id": "q_word_750_042",
+    "word": "equity",
+    "meaning": "株式、自己資本",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "Investors bought a ten percent equity stake in the company.", "translation": "投資家たちはその会社の株式10パーセントを取得しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_043",
+    "word": "dividend",
+    "meaning": "配当金",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "The company will pay a dividend of 50 yen per share.", "translation": "その会社は1株あたり50円の配当金を支払います。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_044",
+    "word": "portfolio",
+    "meaning": "ポートフォリオ、投資組み合わせ、作品集",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "Her investment portfolio includes stocks and bonds.", "translation": "彼女の投資ポートフォリオには株式と債券が含まれています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_045",
+    "word": "audit",
+    "meaning": "監査、監査する",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "The company undergoes an audit every year.", "translation": "その会社は毎年、監査を受けています。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "auditor", "meaning": "監査人"}
+    ]
+  },
+  {
+    "id": "q_word_750_046",
+    "word": "compliance",
+    "meaning": "遵守、法令順守",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "The department ensures compliance with environmental regulations.", "translation": "その部署は環境規制の遵守を確保しています。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "comply", "meaning": "従う、遵守する"},
+      {"part": "adj", "word": "compliant", "meaning": "準拠した、従順な"}
+    ]
+  },
+  {
+    "id": "q_word_750_047",
+    "word": "fiscal",
+    "meaning": "会計の、財政の",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "The fiscal year ends on March 31.", "translation": "会計年度は3月31日に終了します。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_048",
+    "word": "monetary",
+    "meaning": "金銭の、通貨の",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "The central bank adjusted its monetary policy last week.", "translation": "中央銀行は先週、金融政策を調整しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_049",
+    "word": "surplus",
+    "meaning": "余剰、黒字",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "The country recorded a trade surplus for the third year in a row.", "translation": "その国は3年連続で貿易黒字を記録しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_050",
+    "word": "deficit",
+    "meaning": "赤字、不足",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 1,
+    "example_sentences": [
+      {"sentence": "The company reported a budget deficit for the second quarter.", "translation": "その会社は第2四半期の予算赤字を報告しました。"}
+    ],
+    "derivatives": []
+  }
+]

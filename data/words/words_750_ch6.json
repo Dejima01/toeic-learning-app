@@ -1,0 +1,640 @@
+[
+  {
+    "id": "q_word_750_251",
+    "word": "consecutive",
+    "meaning": "連続する",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The team won the championship for three consecutive years.", "translation": "そのチームは3年連続で優勝しました。"}
+    ],
+    "derivatives": [
+      {"part": "adv", "word": "consecutively", "meaning": "連続して"}
+    ]
+  },
+  {
+    "id": "q_word_750_252",
+    "word": "cumulative",
+    "meaning": "累積的な、積み重なった",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The cumulative effect of small changes led to significant savings.", "translation": "小さな変更の積み重ねがかなりの節約につながりました。"}
+    ],
+    "derivatives": [
+      {"part": "adv", "word": "cumulatively", "meaning": "累積的に"}
+    ]
+  },
+  {
+    "id": "q_word_750_253",
+    "word": "incremental",
+    "meaning": "段階的な、少しずつ増える",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The company made incremental improvements to the product each year.", "translation": "その会社は毎年、製品に段階的な改良を加えてきました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "increment", "meaning": "増加分"}
+    ]
+  },
+  {
+    "id": "q_word_750_254",
+    "word": "exponential",
+    "meaning": "急激な、指数関数的な",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The startup experienced exponential growth after the product launch.", "translation": "そのスタートアップは製品発売後、急激な成長を経験しました。"}
+    ],
+    "derivatives": [
+      {"part": "adv", "word": "exponentially", "meaning": "急激に"}
+    ]
+  },
+  {
+    "id": "q_word_750_255",
+    "word": "marginal",
+    "meaning": "わずかな、限界の",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The new design showed only a marginal improvement in efficiency.", "translation": "その新デザインは効率においてわずかな改善しか示しませんでした。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "margin", "meaning": "利益率、余白"}
+    ]
+  },
+  {
+    "id": "q_word_750_256",
+    "word": "negligible",
+    "meaning": "取るに足らない、無視できるほどの",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The price difference between the two options is negligible.", "translation": "その2つの選択肢の価格差はごくわずかです。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_257",
+    "word": "ambiguous",
+    "meaning": "あいまいな、不明確な",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The instructions in the manual were somewhat ambiguous.", "translation": "その説明書の指示はいくぶんあいまいでした。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "ambiguity", "meaning": "あいまいさ"}
+    ]
+  },
+  {
+    "id": "q_word_750_258",
+    "word": "explicit",
+    "meaning": "明確な、明示的な",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The manager gave explicit instructions about the new procedure.", "translation": "マネージャーは新しい手順について明確な指示を出しました。"}
+    ],
+    "derivatives": [
+      {"part": "adv", "word": "explicitly", "meaning": "明確に、はっきりと"}
+    ]
+  },
+  {
+    "id": "q_word_750_259",
+    "word": "implicit",
+    "meaning": "暗黙の、それとなく示された",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "There was an implicit understanding that overtime would be paid.", "translation": "残業代が支払われるという暗黙の了解がありました。"}
+    ],
+    "derivatives": [
+      {"part": "adv", "word": "implicitly", "meaning": "暗黙のうちに"}
+    ]
+  },
+  {
+    "id": "q_word_750_260",
+    "word": "redundant",
+    "meaning": "余分な、冗長な、余剰人員の",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The report contained several redundant sections that could be cut.", "translation": "その報告書には削除できる冗長な部分がいくつかありました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "redundancy", "meaning": "冗長性、余剰"}
+    ]
+  },
+  {
+    "id": "q_word_750_261",
+    "word": "obsolete",
+    "meaning": "時代遅れの、廃れた",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The old software became obsolete after the system upgrade.", "translation": "その古いソフトウェアはシステムのアップグレード後、使われなくなりました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_262",
+    "word": "outdated",
+    "meaning": "旧式の、時代遅れの",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "We need to replace the outdated equipment in the warehouse.", "translation": "倉庫にある旧式の設備を交換する必要があります。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_263",
+    "word": "cutting-edge",
+    "meaning": "最先端の",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The lab uses cutting-edge technology to develop new materials.", "translation": "その研究室は新素材の開発に最先端の技術を使用しています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_264",
+    "word": "state-of-the-art",
+    "meaning": "最新式の、最先端の",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The new factory is equipped with state-of-the-art machinery.", "translation": "その新しい工場には最新式の機械が備わっています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_265",
+    "word": "unprecedented",
+    "meaning": "前例のない、空前の",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The company achieved unprecedented growth last year.", "translation": "その会社は昨年、前例のない成長を遂げました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_266",
+    "word": "noteworthy",
+    "meaning": "注目に値する、注目すべき",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "One noteworthy feature of the device is its long battery life.", "translation": "その機器の注目すべき特徴の一つは電池の持ちが良いことです。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_267",
+    "word": "remarkable",
+    "meaning": "注目すべき、著しい",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The company made remarkable progress in reducing costs.", "translation": "その会社はコスト削減において著しい進歩を遂げました。"}
+    ],
+    "derivatives": [
+      {"part": "adv", "word": "remarkably", "meaning": "著しく、驚くほど"}
+    ]
+  },
+  {
+    "id": "q_word_750_268",
+    "word": "striking",
+    "meaning": "著しい、印象的な",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "There was a striking difference between the two designs.", "translation": "その2つのデザインには著しい違いがありました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_269",
+    "word": "drastic",
+    "meaning": "抜本的な、思い切った",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The company took drastic measures to cut costs.", "translation": "その会社はコスト削減のため抜本的な対策を講じました。"}
+    ],
+    "derivatives": [
+      {"part": "adv", "word": "drastically", "meaning": "大幅に、抜本的に"}
+    ]
+  },
+  {
+    "id": "q_word_750_270",
+    "word": "abrupt",
+    "meaning": "突然の、急な",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The meeting came to an abrupt end when the fire alarm went off.", "translation": "火災警報が鳴り、会議は突然打ち切られました。"}
+    ],
+    "derivatives": [
+      {"part": "adv", "word": "abruptly", "meaning": "突然に"}
+    ]
+  },
+  {
+    "id": "q_word_750_271",
+    "word": "imminent",
+    "meaning": "差し迫った、今にも起こりそうな",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "An announcement about the merger is believed to be imminent.", "translation": "合併に関する発表は差し迫っていると見られています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_272",
+    "word": "pending",
+    "meaning": "保留中の、未決定の",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The contract is still pending approval from the board.", "translation": "その契約はまだ取締役会の承認待ちです。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_273",
+    "word": "forthcoming",
+    "meaning": "来たるべき、今度の",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "Details of the forthcoming event will be announced next week.", "translation": "今度のイベントの詳細は来週発表されます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_274",
+    "word": "retroactive",
+    "meaning": "遡及的な、さかのぼって適用される",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The salary increase will be retroactive to January.", "translation": "その昇給は1月にさかのぼって適用されます。"}
+    ],
+    "derivatives": [
+      {"part": "adv", "word": "retroactively", "meaning": "遡及的に"}
+    ]
+  },
+  {
+    "id": "q_word_750_275",
+    "word": "interim",
+    "meaning": "暫定の、その間の",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "An interim manager was appointed until a permanent replacement is found.", "translation": "正式な後任が見つかるまで、暫定の管理職が任命されました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_276",
+    "word": "thereafter",
+    "meaning": "その後、それ以降",
+    "part_of_speech": "adv",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The trial period ends in June; thereafter, a full fee applies.", "translation": "試用期間は6月に終了し、それ以降は正規料金が適用されます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_277",
+    "word": "whereby",
+    "meaning": "それによって、〜する",
+    "part_of_speech": "adv",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The company adopted a new system whereby orders are processed automatically.", "translation": "その会社は注文が自動処理される新しいシステムを導入しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_278",
+    "word": "nonetheless",
+    "meaning": "それにもかかわらず",
+    "part_of_speech": "adv",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "Sales were slow at first; nonetheless, the product became popular.", "translation": "当初は売上が伸び悩みましたが、それでもその製品は人気になりました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_279",
+    "word": "nevertheless",
+    "meaning": "それにもかかわらず、それでも",
+    "part_of_speech": "adv",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The cost was high; nevertheless, the board approved the project.", "translation": "費用は高額でしたが、それでも取締役会はそのプロジェクトを承認しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_280",
+    "word": "albeit",
+    "meaning": "〜ではあるが、〜だけれども",
+    "part_of_speech": "conj",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The plan succeeded, albeit with some delays.", "translation": "多少の遅れはあったものの、その計画は成功しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_281",
+    "word": "whereas",
+    "meaning": "〜である一方、それに対して",
+    "part_of_speech": "conj",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "Sales rose in Asia, whereas they declined in Europe.", "translation": "アジアでは売上が伸びた一方、ヨーロッパでは減少しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_282",
+    "word": "hence",
+    "meaning": "したがって、それゆえ",
+    "part_of_speech": "adv",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "Demand has increased, and hence, so has production.", "translation": "需要が増加し、それに伴って生産量も増えました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_283",
+    "word": "thereby",
+    "meaning": "それによって",
+    "part_of_speech": "adv",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The company automated the process, thereby reducing labor costs.", "translation": "その会社は工程を自動化し、それによって人件費を削減しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_284",
+    "word": "accordingly",
+    "meaning": "それに応じて、したがって",
+    "part_of_speech": "adv",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "Prices vary by season; please plan your budget accordingly.", "translation": "価格は季節によって異なりますので、それに応じてご予算をお立てください。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_285",
+    "word": "consequently",
+    "meaning": "その結果、したがって",
+    "part_of_speech": "adv",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The factory closed for repairs; consequently, shipments were delayed.", "translation": "工場が修理のため休業し、その結果、出荷が遅れました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "consequence", "meaning": "結果"}
+    ]
+  },
+  {
+    "id": "q_word_750_286",
+    "word": "furthermore",
+    "meaning": "さらに、その上",
+    "part_of_speech": "adv",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The plan reduces costs; furthermore, it improves efficiency.", "translation": "その計画はコストを削減し、さらに効率も向上させます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_287",
+    "word": "alongside",
+    "meaning": "〜と並んで、〜と一緒に",
+    "part_of_speech": "prep",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The new model will be sold alongside the existing product line.", "translation": "その新モデルは既存の製品ラインと並んで販売されます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_288",
+    "word": "amid",
+    "meaning": "〜の最中に、〜の中で",
+    "part_of_speech": "prep",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The company raised prices amid rising material costs.", "translation": "その会社は原材料費の高騰の中、価格を引き上げました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_289",
+    "word": "undergo",
+    "meaning": "経験する、(検査などを)受ける",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The building will undergo major renovations next year.", "translation": "その建物は来年、大規模な改修を受ける予定です。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_290",
+    "word": "undermine",
+    "meaning": "弱体化させる、損なう",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The delays undermined customer confidence in the company.", "translation": "その遅延は会社に対する顧客の信頼を損ないました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_291",
+    "word": "outweigh",
+    "meaning": "上回る、〜より重要である",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The benefits of the new system outweigh its costs.", "translation": "新システムの利点はそのコストを上回ります。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_292",
+    "word": "surpass",
+    "meaning": "上回る、しのぐ",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "This year's sales are expected to surpass last year's record.", "translation": "今年の売上は昨年の記録を上回ると予想されています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_293",
+    "word": "exceed",
+    "meaning": "超える、上回る",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The project's budget exceeded the original estimate.", "translation": "そのプロジェクトの予算は当初の見積もりを超えました。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "excessive", "meaning": "過度の"}
+    ]
+  },
+  {
+    "id": "q_word_750_294",
+    "word": "diminish",
+    "meaning": "減少する、減らす",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "Customer interest in the product has diminished over time.", "translation": "その製品への顧客の関心は時間とともに薄れてきました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_295",
+    "word": "deteriorate",
+    "meaning": "悪化する",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The condition of the old building has deteriorated over the years.", "translation": "その古い建物の状態は年々悪化してきました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "deterioration", "meaning": "悪化"}
+    ]
+  },
+  {
+    "id": "q_word_750_296",
+    "word": "fluctuate",
+    "meaning": "変動する",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "Oil prices tend to fluctuate depending on global demand.", "translation": "原油価格は世界的な需要によって変動する傾向があります。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "fluctuation", "meaning": "変動"}
+    ]
+  },
+  {
+    "id": "q_word_750_297",
+    "word": "stabilize",
+    "meaning": "安定させる、安定する",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The government took steps to stabilize the currency.", "translation": "政府は通貨を安定させるための措置を講じました。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "stable", "meaning": "安定した"}
+    ]
+  },
+  {
+    "id": "q_word_750_298",
+    "word": "accelerate",
+    "meaning": "加速する、早める",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The company accelerated its plans to expand overseas.", "translation": "その会社は海外展開の計画を加速させました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "acceleration", "meaning": "加速"}
+    ]
+  },
+  {
+    "id": "q_word_750_299",
+    "word": "plummet",
+    "meaning": "急落する",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "The company's stock price plummeted after the announcement.", "translation": "その会社の株価は発表後、急落しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_300",
+    "word": "soar",
+    "meaning": "急騰する、急上昇する",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 6,
+    "example_sentences": [
+      {"sentence": "Demand for the product soared after the celebrity endorsement.", "translation": "有名人の推薦後、その製品の需要は急上昇しました。"}
+    ],
+    "derivatives": []
+  }
+]

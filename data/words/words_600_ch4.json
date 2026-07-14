@@ -1,0 +1,716 @@
+[
+  {
+    "id": "q_word_600_151",
+    "word": "correspondence",
+    "meaning": "通信、文書のやり取り、一致",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "All correspondence with clients should be kept on file.", "translation": "顧客とのやり取りはすべて記録として保管してください。"},
+      {"sentence": "Please direct any correspondence to the address below.", "translation": "ご連絡はすべて下記の住所までお願いいたします。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "correspond", "meaning": "文通する、一致する"},
+      {"part": "noun", "word": "correspondent", "meaning": "通信員、文通相手"}
+    ]
+  },
+  {
+    "id": "q_word_600_152",
+    "word": "memo",
+    "meaning": "メモ、社内連絡文書",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The manager sent a memo about the new dress code.", "translation": "部長は新しい服装規定に関する社内文書を送りました。"},
+      {"sentence": "Did you read the memo about Friday's meeting?", "translation": "金曜日の会議についてのメモは読みましたか。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_153",
+    "word": "agenda",
+    "meaning": "議題、議事日程",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The agenda for tomorrow's meeting is attached.", "translation": "明日の会議の議題を添付しました。"},
+      {"sentence": "Budget cuts are the first item on the agenda.", "translation": "予算削減が議題の最初の項目です。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_154",
+    "word": "minutes",
+    "meaning": "議事録",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Ms. Chen will take the minutes at today's meeting.", "translation": "本日の会議ではチェンさんが議事録を取ります。"},
+      {"sentence": "The minutes of the last meeting were sent by e-mail.", "translation": "前回の会議の議事録はメールで送付されました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_155",
+    "word": "presentation",
+    "meaning": "発表、プレゼンテーション、提示",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Her presentation on sales trends was very informative.", "translation": "売上動向についての彼女の発表はとても参考になりました。"},
+      {"sentence": "The presentation will last about twenty minutes.", "translation": "プレゼンは20分ほどの予定です。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "present", "meaning": "発表する、提示する"},
+      {"part": "noun", "word": "presenter", "meaning": "発表者"}
+    ]
+  },
+  {
+    "id": "q_word_600_156",
+    "word": "conference",
+    "meaning": "会議、協議会、学会",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The annual sales conference will be held in Osaka.", "translation": "年次営業会議は大阪で開催されます。"},
+      {"sentence": "He is attending an international conference this week.", "translation": "彼は今週、国際会議に出席しています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_157",
+    "word": "seminar",
+    "meaning": "セミナー、研修会",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The marketing seminar starts at nine on Monday.", "translation": "マーケティングのセミナーは月曜9時に始まります。"},
+      {"sentence": "Registration for the seminar closes this Friday.", "translation": "セミナーの申し込みは今週の金曜日で締め切られます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_158",
+    "word": "workshop",
+    "meaning": "講習会、研修、作業場",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "We attended a workshop on effective communication.", "translation": "効果的なコミュニケーションに関する講習会に参加しました。"},
+      {"sentence": "The workshop is limited to twenty participants.", "translation": "その講習会は参加者20名までに限られています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_159",
+    "word": "session",
+    "meaning": "会合、(活動の)時間、部会",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The morning session will focus on customer service.", "translation": "午前の部では顧客サービスを中心に取り上げます。"},
+      {"sentence": "A question-and-answer session will follow the speech.", "translation": "講演の後に質疑応答の時間があります。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_160",
+    "word": "participant",
+    "meaning": "参加者",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Each participant will receive a certificate.", "translation": "参加者にはそれぞれ修了証が授与されます。"},
+      {"sentence": "The number of participants exceeded our expectations.", "translation": "参加者数は予想を上回りました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "participate", "meaning": "参加する"},
+      {"part": "noun", "word": "participation", "meaning": "参加"}
+    ]
+  },
+  {
+    "id": "q_word_600_161",
+    "word": "attendee",
+    "meaning": "出席者、参加者",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Attendees are asked to sign in at the front desk.", "translation": "出席者は受付で記帳をお願いします。"},
+      {"sentence": "Lunch will be provided for all attendees.", "translation": "出席者全員に昼食が用意されます。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "attend", "meaning": "出席する"}
+    ]
+  },
+  {
+    "id": "q_word_600_162",
+    "word": "organizer",
+    "meaning": "主催者、まとめ役",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Please contact the organizer if you cannot attend.", "translation": "出席できない場合は主催者にご連絡ください。"},
+      {"sentence": "The organizers expect more than 500 guests.", "translation": "主催者側は500人以上の来場を見込んでいます。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "organize", "meaning": "主催する、まとめる"},
+      {"part": "noun", "word": "organization", "meaning": "組織、団体"}
+    ]
+  },
+  {
+    "id": "q_word_600_163",
+    "word": "venue",
+    "meaning": "会場、開催地",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The venue for the concert has been changed.", "translation": "コンサートの会場が変更になりました。"},
+      {"sentence": "We are looking for a larger venue for the ceremony.", "translation": "式典のためにもっと広い会場を探しています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_164",
+    "word": "postpone",
+    "meaning": "延期する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The outdoor event was postponed until next Saturday.", "translation": "屋外イベントは次の土曜日に延期されました。"},
+      {"sentence": "We had to postpone the launch due to a technical problem.", "translation": "技術的な問題のため、発売を延期せざるを得ませんでした。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "postponement", "meaning": "延期"}
+    ]
+  },
+  {
+    "id": "q_word_600_165",
+    "word": "reschedule",
+    "meaning": "予定を変更する、日程を組み直す",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Could we reschedule our meeting for Thursday?", "translation": "打ち合わせを木曜日に変更できますか。"},
+      {"sentence": "The appointment has been rescheduled for 2 p.m.", "translation": "予約は午後2時に変更されました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_166",
+    "word": "remind",
+    "meaning": "思い出させる、念を押す",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Please remind me to call the client tomorrow.", "translation": "明日クライアントに電話するよう声をかけてください。"},
+      {"sentence": "This e-mail is to remind you of the deadline.", "translation": "このメールは締め切りのご確認のためのものです。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "reminder", "meaning": "リマインダー、確認の通知"}
+    ]
+  },
+  {
+    "id": "q_word_600_167",
+    "word": "reminder",
+    "meaning": "リマインダー、確認の通知、思い出させるもの",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "I set a reminder so I wouldn't forget the appointment.", "translation": "約束を忘れないようにリマインダーを設定しました。"},
+      {"sentence": "This is a friendly reminder that payment is due Friday.", "translation": "お支払い期限が金曜日であることを念のためお知らせします。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "remind", "meaning": "思い出させる"}
+    ]
+  },
+  {
+    "id": "q_word_600_168",
+    "word": "distribute",
+    "meaning": "配布する、流通させる",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Please distribute these handouts before the session begins.", "translation": "開始前にこの配布資料を配ってください。"},
+      {"sentence": "The company distributes its products in over ten countries.", "translation": "その会社は10か国以上で製品を流通させています。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "distribution", "meaning": "配布、流通"},
+      {"part": "noun", "word": "distributor", "meaning": "販売代理店、流通業者"}
+    ]
+  },
+  {
+    "id": "q_word_600_169",
+    "word": "handout",
+    "meaning": "配布資料、プリント",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "You can find the figures on page two of the handout.", "translation": "数値は配布資料の2ページ目に載っています。"},
+      {"sentence": "There are extra handouts on the table by the door.", "translation": "予備の資料はドア横のテーブルにあります。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_170",
+    "word": "submit",
+    "meaning": "提出する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Please submit your expense report by the end of the month.", "translation": "経費報告書を月末までに提出してください。"},
+      {"sentence": "All applications must be submitted online.", "translation": "申込書はすべてオンラインで提出する必要があります。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "submission", "meaning": "提出、提出物"}
+    ]
+  },
+  {
+    "id": "q_word_600_171",
+    "word": "approval",
+    "meaning": "承認、許可",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The budget is waiting for the director's approval.", "translation": "予算は部長の承認待ちです。"},
+      {"sentence": "You need written approval before ordering new equipment.", "translation": "新しい機器を発注する前に書面での承認が必要です。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "approve", "meaning": "承認する"}
+    ]
+  },
+  {
+    "id": "q_word_600_172",
+    "word": "approve",
+    "meaning": "承認する、賛成する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The manager approved my request for a day off.", "translation": "部長は私の休暇申請を承認しました。"},
+      {"sentence": "The plan was approved at yesterday's meeting.", "translation": "その計画は昨日の会議で承認されました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "approval", "meaning": "承認、許可"}
+    ]
+  },
+  {
+    "id": "q_word_600_173",
+    "word": "reject",
+    "meaning": "拒否する、却下する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The committee rejected the proposal for being too costly.", "translation": "委員会は費用がかかりすぎるとしてその提案を却下しました。"},
+      {"sentence": "Items that fail inspection are rejected immediately.", "translation": "検査に合格しなかった品はただちに不合格となります。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "rejection", "meaning": "拒否、却下"}
+    ]
+  },
+  {
+    "id": "q_word_600_174",
+    "word": "permission",
+    "meaning": "許可",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "You need permission to enter the laboratory.", "translation": "実験室に入るには許可が必要です。"},
+      {"sentence": "She asked for permission to leave early.", "translation": "彼女は早退の許可を求めました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "permit", "meaning": "許可する"}
+    ]
+  },
+  {
+    "id": "q_word_600_175",
+    "word": "authorize",
+    "meaning": "権限を与える、正式に許可する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Only managers are authorized to sign these documents.", "translation": "これらの書類に署名する権限があるのは管理職だけです。"},
+      {"sentence": "The board authorized the purchase of new machinery.", "translation": "取締役会は新しい機械の購入を正式に承認しました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "authorization", "meaning": "承認、許可"},
+      {"part": "noun", "word": "authority", "meaning": "権限、当局"}
+    ]
+  },
+  {
+    "id": "q_word_600_176",
+    "word": "assign",
+    "meaning": "割り当てる、任命する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The manager assigned the task to a new employee.", "translation": "部長はその業務を新入社員に割り当てました。"},
+      {"sentence": "Each team member was assigned a specific role.", "translation": "チームの各メンバーに具体的な役割が割り振られました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "assignment", "meaning": "任務、割り当て、課題"}
+    ]
+  },
+  {
+    "id": "q_word_600_177",
+    "word": "assignment",
+    "meaning": "任務、割り当て、課題",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "He completed the assignment ahead of schedule.", "translation": "彼は予定より早くその任務を終えました。"},
+      {"sentence": "Your first assignment will be to review the contract.", "translation": "最初の仕事は契約書の確認になります。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "assign", "meaning": "割り当てる"}
+    ]
+  },
+  {
+    "id": "q_word_600_178",
+    "word": "colleague",
+    "meaning": "同僚",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "I discussed the idea with a colleague from another team.", "translation": "その案について別のチームの同僚と話し合いました。"},
+      {"sentence": "My colleagues threw a party for my promotion.", "translation": "同僚たちが私の昇進祝いのパーティーを開いてくれました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_179",
+    "word": "coworker",
+    "meaning": "同僚、仕事仲間",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "A coworker offered to help me finish the report.", "translation": "同僚が報告書を仕上げるのを手伝うと申し出てくれました。"},
+      {"sentence": "She gets along well with her coworkers.", "translation": "彼女は仕事仲間とうまくやっています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_180",
+    "word": "supervisor",
+    "meaning": "上司、監督者",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Please report any problems to your supervisor.", "translation": "問題があれば上司に報告してください。"},
+      {"sentence": "My supervisor approved the schedule change.", "translation": "上司が予定の変更を承認してくれました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "supervise", "meaning": "監督する、指導する"},
+      {"part": "noun", "word": "supervision", "meaning": "監督、管理"}
+    ]
+  },
+  {
+    "id": "q_word_600_181",
+    "word": "executive",
+    "meaning": "重役、幹部、経営幹部の",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Several executives attended the shareholders' meeting.", "translation": "数名の幹部が株主総会に出席しました。"},
+      {"sentence": "She was hired as a marketing executive last year.", "translation": "彼女は昨年、マーケティング部門の幹部として採用されました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_182",
+    "word": "president",
+    "meaning": "社長、会長、大統領",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The president will give a speech at the ceremony.", "translation": "社長が式典で挨拶をします。"},
+      {"sentence": "He was appointed president of the company in April.", "translation": "彼は4月にその会社の社長に就任しました。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "presidential", "meaning": "社長の、大統領の"}
+    ]
+  },
+  {
+    "id": "q_word_600_183",
+    "word": "founder",
+    "meaning": "創業者、設立者",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The founder of the company started it in his garage.", "translation": "その会社の創業者は自宅のガレージで事業を始めました。"},
+      {"sentence": "A statue of the founder stands in the lobby.", "translation": "ロビーには創業者の像が立っています。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "found", "meaning": "設立する、創立する"},
+      {"part": "noun", "word": "foundation", "meaning": "設立、財団、基礎"}
+    ]
+  },
+  {
+    "id": "q_word_600_184",
+    "word": "board",
+    "meaning": "取締役会、委員会、板",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The board will meet to discuss the merger next week.", "translation": "取締役会は来週、合併について話し合うために集まります。"},
+      {"sentence": "She was elected to the board of directors.", "translation": "彼女は取締役会のメンバーに選出されました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_185",
+    "word": "committee",
+    "meaning": "委員会",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The planning committee meets on the first Monday of each month.", "translation": "企画委員会は毎月第1月曜日に開かれます。"},
+      {"sentence": "A committee was formed to review the safety rules.", "translation": "安全規則を見直すために委員会が設置されました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_186",
+    "word": "chairperson",
+    "meaning": "議長、委員長",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The chairperson opened the meeting at nine o'clock.", "translation": "議長は9時に会議を開始しました。"},
+      {"sentence": "Ms. Ito was elected chairperson of the committee.", "translation": "伊藤さんが委員会の委員長に選ばれました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "chair", "meaning": "議長を務める"}
+    ]
+  },
+  {
+    "id": "q_word_600_187",
+    "word": "spokesperson",
+    "meaning": "広報担当者、報道官",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "A company spokesperson answered questions from reporters.", "translation": "会社の広報担当者が記者からの質問に答えました。"},
+      {"sentence": "The spokesperson confirmed the new product's release date.", "translation": "広報担当者は新製品の発売日を認めました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_188",
+    "word": "representative",
+    "meaning": "代表者、担当者、代理人",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "A sales representative will visit your office on Thursday.", "translation": "営業担当者が木曜日に御社を訪問します。"},
+      {"sentence": "Please speak with a customer service representative.", "translation": "顧客サービス担当者にお話しください。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "represent", "meaning": "代表する、表す"}
+    ]
+  },
+  {
+    "id": "q_word_600_189",
+    "word": "receptionist",
+    "meaning": "受付係",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Please check in with the receptionist when you arrive.", "translation": "到着されましたら受付係にお声がけください。"},
+      {"sentence": "The receptionist handed me a visitor's badge.", "translation": "受付係が来訪者用のバッジを渡してくれました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "reception", "meaning": "受付、歓迎会"}
+    ]
+  },
+  {
+    "id": "q_word_600_190",
+    "word": "secretary",
+    "meaning": "秘書、書記",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "My secretary will send you the details by e-mail.", "translation": "秘書が詳細をメールでお送りします。"},
+      {"sentence": "The secretary arranged the president's travel schedule.", "translation": "秘書が社長の出張日程を手配しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_191",
+    "word": "intern",
+    "meaning": "インターン、研修生",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "We hired three interns for the summer.", "translation": "夏の期間に3名のインターンを採用しました。"},
+      {"sentence": "The intern helped organize the customer database.", "translation": "そのインターンは顧客データベースの整理を手伝いました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "internship", "meaning": "インターンシップ、就業体験"}
+    ]
+  },
+  {
+    "id": "q_word_600_192",
+    "word": "workload",
+    "meaning": "仕事量、作業量",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "My workload has increased since the merger.", "translation": "合併以来、私の仕事量は増えました。"},
+      {"sentence": "The new system will reduce the staff's workload.", "translation": "新しいシステムはスタッフの作業量を減らすでしょう。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_193",
+    "word": "overtime",
+    "meaning": "残業、時間外労働",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Employees are paid extra for overtime.", "translation": "社員には残業に対して追加の手当が支払われます。"},
+      {"sentence": "We had to work overtime to meet the deadline.", "translation": "締め切りに間に合わせるため残業しなければなりませんでした。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_194",
+    "word": "shift",
+    "meaning": "交代勤務、シフト、変更",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "I work the night shift three times a week.", "translation": "私は週に3回、夜勤に入っています。"},
+      {"sentence": "Could you cover my shift on Saturday?", "translation": "土曜日のシフトを代わってもらえますか。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_195",
+    "word": "payroll",
+    "meaning": "給与支払名簿、給与総額",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The company has over 200 employees on its payroll.", "translation": "その会社には200人を超える従業員が在籍しています。"},
+      {"sentence": "Contact the payroll department about your salary.", "translation": "給与については給与課にお問い合わせください。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_196",
+    "word": "paycheck",
+    "meaning": "給料、給与支払小切手",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Employees receive their paychecks every other Friday.", "translation": "社員は隔週の金曜日に給料を受け取ります。"},
+      {"sentence": "There was an error in my paycheck this month.", "translation": "今月の給与に誤りがありました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_197",
+    "word": "timesheet",
+    "meaning": "勤務時間記録表、タイムシート",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Please submit your timesheet by Friday afternoon.", "translation": "勤務時間記録表を金曜の午後までに提出してください。"},
+      {"sentence": "Don't forget to record your overtime on the timesheet.", "translation": "タイムシートに残業時間を記入するのを忘れないでください。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_198",
+    "word": "absence",
+    "meaning": "欠席、不在、欠勤",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Ms. Kim will lead the team in my absence.", "translation": "私の不在中はキムさんがチームをまとめます。"},
+      {"sentence": "Please explain the reason for your absence yesterday.", "translation": "昨日の欠勤の理由を説明してください。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "absent", "meaning": "欠席の、不在の"}
+    ]
+  },
+  {
+    "id": "q_word_600_199",
+    "word": "attendance",
+    "meaning": "出席、出席者数",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Attendance at the safety training is mandatory.", "translation": "安全研修への出席は必須です。"},
+      {"sentence": "Attendance at this year's festival was much higher.", "translation": "今年の祭りの来場者数は大幅に増えました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "attend", "meaning": "出席する"},
+      {"part": "noun", "word": "attendant", "meaning": "係員、案内係"}
+    ]
+  },
+  {
+    "id": "q_word_600_200",
+    "word": "attach",
+    "meaning": "添付する、取り付ける",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "I have attached the sales report to this e-mail.", "translation": "このメールに売上報告書を添付しました。"},
+      {"sentence": "Please attach a copy of your receipt to the form.", "translation": "用紙に領収書のコピーを添付してください。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "attachment", "meaning": "添付ファイル、付属品"},
+      {"part": "adj", "word": "attached", "meaning": "添付された、付属の"}
+    ]
+  }
+]

@@ -1,0 +1,661 @@
+[
+  {
+    "id": "q_word_750_051",
+    "word": "accountability",
+    "meaning": "説明責任、責任",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The new policy increases accountability among managers.", "translation": "その新しい方針は管理職の間の説明責任を高めます。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "accountable", "meaning": "責任を負うべき"}
+    ]
+  },
+  {
+    "id": "q_word_750_052",
+    "word": "transparency",
+    "meaning": "透明性",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The company values transparency in its financial reporting.", "translation": "その会社は財務報告における透明性を重視しています。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "transparent", "meaning": "透明な、明白な"}
+    ]
+  },
+  {
+    "id": "q_word_750_053",
+    "word": "initiative",
+    "meaning": "新しい取り組み、主導権、率先",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The company launched a new sustainability initiative this year.", "translation": "その会社は今年、新しい持続可能性への取り組みを開始しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_054",
+    "word": "strategy",
+    "meaning": "戦略",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The marketing team presented its strategy for the new product.", "translation": "マーケティングチームは新製品の戦略を発表しました。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "strategic", "meaning": "戦略的な"}
+    ]
+  },
+  {
+    "id": "q_word_750_055",
+    "word": "strategic",
+    "meaning": "戦略的な",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The two firms formed a strategic partnership last spring.", "translation": "両社は昨年の春、戦略的提携を結びました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "strategy", "meaning": "戦略"}
+    ]
+  },
+  {
+    "id": "q_word_750_056",
+    "word": "tactical",
+    "meaning": "戦術的な、当面の",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The team made a tactical decision to delay the launch.", "translation": "そのチームは発売を遅らせるという戦術的な決定を下しました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "tactic", "meaning": "戦術、方策"}
+    ]
+  },
+  {
+    "id": "q_word_750_057",
+    "word": "comprehensive",
+    "meaning": "包括的な、総合的な",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The consultant prepared a comprehensive report on market trends.", "translation": "コンサルタントは市場動向に関する包括的な報告書を作成しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_058",
+    "word": "extensive",
+    "meaning": "広範な、大規模な",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The building underwent extensive renovations last year.", "translation": "その建物は昨年、大規模な改修を受けました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "extend", "meaning": "拡張する、延長する"}
+    ]
+  },
+  {
+    "id": "q_word_750_059",
+    "word": "substantial",
+    "meaning": "かなりの、相当な",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The company made a substantial investment in new equipment.", "translation": "その会社は新しい機器にかなりの投資を行いました。"}
+    ],
+    "derivatives": [
+      {"part": "adv", "word": "substantially", "meaning": "かなり、実質的に"}
+    ]
+  },
+  {
+    "id": "q_word_750_060",
+    "word": "subsequent",
+    "meaning": "その後の、続く",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The issue was resolved in a subsequent meeting.", "translation": "その問題はその後の会議で解決されました。"}
+    ],
+    "derivatives": [
+      {"part": "adv", "word": "subsequently", "meaning": "その後、続いて"}
+    ]
+  },
+  {
+    "id": "q_word_750_061",
+    "word": "preliminary",
+    "meaning": "予備の、事前の",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The preliminary results will be released next week.", "translation": "予備的な結果は来週公表される予定です。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_062",
+    "word": "tentative",
+    "meaning": "仮の、暫定的な",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "We have a tentative schedule for the product launch.", "translation": "製品発売について暫定的な日程があります。"}
+    ],
+    "derivatives": [
+      {"part": "adv", "word": "tentatively", "meaning": "仮に、暫定的に"}
+    ]
+  },
+  {
+    "id": "q_word_750_063",
+    "word": "provisional",
+    "meaning": "暫定的な、仮の",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "A provisional agreement was signed until the final contract is ready.", "translation": "最終契約が準備できるまで、暫定的な合意書に署名しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_064",
+    "word": "contingency",
+    "meaning": "不測の事態、緊急事態への備え",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The company has a contingency plan in case of a power outage.", "translation": "その会社には停電に備えた緊急対応計画があります。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_065",
+    "word": "feasibility",
+    "meaning": "実現可能性",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "A feasibility study was conducted before the project began.", "translation": "プロジェクト開始前に実現可能性調査が行われました。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "feasible", "meaning": "実現可能な"}
+    ]
+  },
+  {
+    "id": "q_word_750_066",
+    "word": "viable",
+    "meaning": "実行可能な、成り立つ",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The team is exploring a viable alternative to the current supplier.", "translation": "チームは現在の仕入先に代わる実行可能な選択肢を検討しています。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "viability", "meaning": "実行可能性"}
+    ]
+  },
+  {
+    "id": "q_word_750_067",
+    "word": "lucrative",
+    "meaning": "利益の多い、儲かる",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The company entered a lucrative contract with a major retailer.", "translation": "その会社は大手小売業者と利益の多い契約を結びました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_068",
+    "word": "profitable",
+    "meaning": "利益になる、もうかる",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The new division became profitable within two years.", "translation": "その新部門は2年以内に黒字化しました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "profit", "meaning": "利益"}
+    ]
+  },
+  {
+    "id": "q_word_750_069",
+    "word": "cost-effective",
+    "meaning": "費用対効果の高い",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "Switching suppliers proved to be a cost-effective solution.", "translation": "仕入先の変更は費用対効果の高い解決策だと分かりました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_070",
+    "word": "overhead",
+    "meaning": "諸経費、固定費",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "Working remotely helped the company reduce overhead costs.", "translation": "リモートワークの導入によりその会社は諸経費を削減できました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_071",
+    "word": "margin",
+    "meaning": "利益率、余白、差",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The company's profit margin improved this quarter.", "translation": "その会社の利益率は今四半期に改善しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_072",
+    "word": "benchmark",
+    "meaning": "基準、指標",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The team set a benchmark for customer satisfaction scores.", "translation": "チームは顧客満足度スコアの基準を設定しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_073",
+    "word": "milestone",
+    "meaning": "節目、画期的な出来事",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "Reaching one million users was a major milestone for the app.", "translation": "ユーザー数100万人到達はそのアプリにとって大きな節目でした。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_074",
+    "word": "deliverable",
+    "meaning": "成果物、納品物",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The first deliverable is due at the end of this month.", "translation": "最初の成果物は今月末が納期です。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "deliver", "meaning": "届ける、納品する"}
+    ]
+  },
+  {
+    "id": "q_word_750_075",
+    "word": "specification",
+    "meaning": "仕様、仕様書",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The product must meet the client's technical specifications.", "translation": "その製品はクライアントの技術仕様を満たさなければなりません。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "specify", "meaning": "明記する、指定する"}
+    ]
+  },
+  {
+    "id": "q_word_750_076",
+    "word": "prototype",
+    "meaning": "試作品、プロトタイプ",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The engineers built a prototype to test the new design.", "translation": "技術者たちは新しい設計を試すため試作品を製作しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_077",
+    "word": "patent",
+    "meaning": "特許、特許を取る",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The company filed a patent for its new invention.", "translation": "その会社は新しい発明について特許を出願しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_078",
+    "word": "trademark",
+    "meaning": "商標",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The logo is a registered trademark of the company.", "translation": "そのロゴはその会社の登録商標です。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_079",
+    "word": "copyright",
+    "meaning": "著作権",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The article is protected by copyright law.", "translation": "その記事は著作権法によって保護されています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_080",
+    "word": "intellectual",
+    "meaning": "知的な、知性の",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The company takes intellectual property rights very seriously.", "translation": "その会社は知的財産権を非常に重視しています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_081",
+    "word": "proprietary",
+    "meaning": "独自の、専有の",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The company uses proprietary software developed in-house.", "translation": "その会社は自社開発の独自ソフトウェアを使用しています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_082",
+    "word": "confidential",
+    "meaning": "機密の、秘密の",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "All employees must keep client information confidential.", "translation": "全社員は顧客情報を機密として扱わなければなりません。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "confidentiality", "meaning": "機密性"}
+    ]
+  },
+  {
+    "id": "q_word_750_083",
+    "word": "disclosure",
+    "meaning": "開示、公表",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "Full disclosure of the risks is required before the investment.", "translation": "投資の前にはリスクの完全な開示が必要です。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "disclose", "meaning": "開示する、公表する"}
+    ]
+  },
+  {
+    "id": "q_word_750_084",
+    "word": "provision",
+    "meaning": "条項、規定、供給",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The contract includes a provision for early termination.", "translation": "その契約には早期解約に関する条項が含まれています。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "provide", "meaning": "提供する"}
+    ]
+  },
+  {
+    "id": "q_word_750_085",
+    "word": "amendment",
+    "meaning": "改正、修正",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "An amendment to the contract was signed by both parties.", "translation": "契約の修正条項が両当事者によって署名されました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "amend", "meaning": "改正する、修正する"}
+    ]
+  },
+  {
+    "id": "q_word_750_086",
+    "word": "arbitration",
+    "meaning": "仲裁",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The dispute was resolved through arbitration rather than a lawsuit.", "translation": "その紛争は訴訟ではなく仲裁によって解決されました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "arbitrate", "meaning": "仲裁する"}
+    ]
+  },
+  {
+    "id": "q_word_750_087",
+    "word": "litigation",
+    "meaning": "訴訟",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The company wants to avoid costly litigation if possible.", "translation": "その会社は可能であれば費用のかかる訴訟を避けたいと考えています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_088",
+    "word": "settlement",
+    "meaning": "和解、示談、決済",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The two sides reached a settlement outside of court.", "translation": "両者は法廷外で和解に達しました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "settle", "meaning": "解決する、和解する"}
+    ]
+  },
+  {
+    "id": "q_word_750_089",
+    "word": "plaintiff",
+    "meaning": "原告",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The plaintiff claimed the product caused injury.", "translation": "原告はその製品が負傷の原因になったと主張しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_090",
+    "word": "defendant",
+    "meaning": "被告",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The defendant denied all of the allegations in court.", "translation": "被告は法廷ですべての主張を否認しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_091",
+    "word": "verdict",
+    "meaning": "評決、判決",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The jury reached a verdict after three hours of deliberation.", "translation": "陪審員は3時間の審議の後、評決に達しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_092",
+    "word": "statute",
+    "meaning": "法令、成文法",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The new statute requires companies to disclose data breaches.", "translation": "新しい法令は企業に情報漏えいの開示を義務付けています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_093",
+    "word": "mandate",
+    "meaning": "命令、権限、義務付ける",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The government issued a mandate requiring safety inspections.", "translation": "政府は安全点検を義務付ける命令を出しました。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "mandatory", "meaning": "義務的な、必須の"}
+    ]
+  },
+  {
+    "id": "q_word_750_094",
+    "word": "enforce",
+    "meaning": "施行する、強制する",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The city plans to enforce the new parking regulations strictly.", "translation": "市は新しい駐車規則を厳格に施行する予定です。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "enforcement", "meaning": "施行、強制"}
+    ]
+  },
+  {
+    "id": "q_word_750_095",
+    "word": "infringe",
+    "meaning": "侵害する、違反する",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The company was accused of infringing on the patent.", "translation": "その会社は特許を侵害したとして訴えられました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "infringement", "meaning": "侵害"}
+    ]
+  },
+  {
+    "id": "q_word_750_096",
+    "word": "waive",
+    "meaning": "放棄する、免除する",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The bank agreed to waive the late payment fee.", "translation": "銀行は延滞手数料を免除することに同意しました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "waiver", "meaning": "権利放棄、免除"}
+    ]
+  },
+  {
+    "id": "q_word_750_097",
+    "word": "certify",
+    "meaning": "証明する、認定する",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The factory was certified as meeting international safety standards.", "translation": "その工場は国際安全基準を満たしていると認定されました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "certificate", "meaning": "証明書"},
+      {"part": "noun", "word": "certification", "meaning": "認定、証明"}
+    ]
+  },
+  {
+    "id": "q_word_750_098",
+    "word": "verify",
+    "meaning": "確認する、証明する",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "Please verify your identity before proceeding with the transaction.", "translation": "お取引を進める前に本人確認をお願いいたします。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "verification", "meaning": "確認、証明"}
+    ]
+  },
+  {
+    "id": "q_word_750_099",
+    "word": "validate",
+    "meaning": "有効にする、正当性を確認する",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The system automatically validates each entry before saving it.", "translation": "そのシステムは保存前に各入力項目を自動で検証します。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "validation", "meaning": "検証、正当化"},
+      {"part": "adj", "word": "valid", "meaning": "有効な"}
+    ]
+  },
+  {
+    "id": "q_word_750_100",
+    "word": "authenticate",
+    "meaning": "本物と証明する、認証する",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The app requires a password to authenticate the user.", "translation": "そのアプリはユーザーを認証するためにパスワードを必要とします。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "authentication", "meaning": "認証"},
+      {"part": "adj", "word": "authentic", "meaning": "本物の"}
+    ]
+  }
+]

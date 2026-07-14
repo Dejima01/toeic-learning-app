@@ -1,0 +1,620 @@
+[
+  {
+    "id": "q_word_900_151",
+    "word": "caveat",
+    "meaning": "注意事項、但し書き",
+    "part_of_speech": "noun",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The offer comes with one caveat: it expires at the end of the month.", "translation": "その提案には一つ注意事項があります。月末に期限切れになるということです。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_152",
+    "word": "loophole",
+    "meaning": "抜け穴、法の抜け道",
+    "part_of_speech": "noun",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The company exploited a loophole in the tax code.", "translation": "その会社は税法の抜け穴を利用しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_153",
+    "word": "pitfall",
+    "meaning": "落とし穴、思わぬ危険",
+    "part_of_speech": "noun",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The consultant warned us about common pitfalls in contract negotiations.", "translation": "コンサルタントは契約交渉によくある落とし穴について警告してくれました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_154",
+    "word": "quandary",
+    "meaning": "板挟み、ジレンマ",
+    "part_of_speech": "noun",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The manager was in a quandary over which candidate to hire.", "translation": "マネージャーはどちらの候補者を採用するか板挟みの状態でした。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_155",
+    "word": "predicament",
+    "meaning": "苦境、窮地",
+    "part_of_speech": "noun",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The company found itself in a difficult predicament after the recall.", "translation": "その会社はリコールの後、厳しい苦境に立たされました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_156",
+    "word": "conundrum",
+    "meaning": "難問、謎",
+    "part_of_speech": "noun",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Balancing cost and quality remains a conundrum for the design team.", "translation": "コストと品質のバランスは設計チームにとって依然として難問です。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_157",
+    "word": "ramification",
+    "meaning": "影響、波及効果",
+    "part_of_speech": "noun",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The policy change had far-reaching ramifications for small businesses.", "translation": "その方針変更は中小企業に広範囲な影響を及ぼしました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_158",
+    "word": "repercussion",
+    "meaning": "反響、影響",
+    "part_of_speech": "noun",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The scandal had serious repercussions for the company's reputation.", "translation": "その不祥事はその会社の評判に深刻な影響を及ぼしました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_159",
+    "word": "aftermath",
+    "meaning": "余波、後始末",
+    "part_of_speech": "noun",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "In the aftermath of the merger, several employees were reassigned.", "translation": "合併の余波を受けて、数名の従業員が配置転換されました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_160",
+    "word": "onset",
+    "meaning": "始まり、発症",
+    "part_of_speech": "noun",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Sales typically rise at the onset of the holiday season.", "translation": "売上は通常、休暇シーズンの始まりに上昇します。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_161",
+    "word": "inception",
+    "meaning": "発端、開始",
+    "part_of_speech": "noun",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The company has grown steadily since its inception in 2005.", "translation": "その会社は2005年の設立以来、着実に成長してきました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_162",
+    "word": "outset",
+    "meaning": "始め、当初",
+    "part_of_speech": "noun",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The goals were clearly defined at the outset of the project.", "translation": "そのプロジェクトの当初に目標が明確に定められました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_163",
+    "word": "juncture",
+    "meaning": "時点、局面",
+    "part_of_speech": "noun",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "At this juncture, we cannot confirm the launch date.", "translation": "現時点では発売日を確定することはできません。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_164",
+    "word": "precedent",
+    "meaning": "先例、前例",
+    "part_of_speech": "noun",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The court ruling set a precedent for future cases.", "translation": "その判決は今後の案件に対する先例となりました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_165",
+    "word": "prerogative",
+    "meaning": "特権、裁量権",
+    "part_of_speech": "noun",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Setting the final price is the manager's prerogative.", "translation": "最終価格を決定するのはマネージャーの裁量権です。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_166",
+    "word": "discretion",
+    "meaning": "裁量、判断",
+    "part_of_speech": "noun",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Refunds are issued at the manager's discretion.", "translation": "返金はマネージャーの裁量で行われます。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "discreet", "meaning": "慎重な"}
+    ]
+  },
+  {
+    "id": "q_word_900_167",
+    "word": "jurisdiction",
+    "meaning": "管轄権、権限",
+    "part_of_speech": "noun",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The dispute falls outside the jurisdiction of the local court.", "translation": "その紛争は地方裁判所の管轄外です。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_168",
+    "word": "austerity",
+    "meaning": "緊縮、節約",
+    "part_of_speech": "noun",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The government introduced austerity measures to reduce the deficit.", "translation": "政府は赤字削減のため緊縮策を導入しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_169",
+    "word": "windfall",
+    "meaning": "思いがけない利益、棚ぼた",
+    "part_of_speech": "noun",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The company received a windfall from the unexpected contract.", "translation": "その会社は予期せぬ契約から思いがけない利益を得ました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_170",
+    "word": "lump sum",
+    "meaning": "一括払い、一時金",
+    "part_of_speech": "noun",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Employees can choose to receive their bonus as a lump sum.", "translation": "従業員はボーナスを一括で受け取ることを選べます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_171",
+    "word": "collateral",
+    "meaning": "担保",
+    "part_of_speech": "noun",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The bank required property as collateral for the loan.", "translation": "銀行はそのローンの担保として不動産を求めました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_172",
+    "word": "bankruptcy",
+    "meaning": "破産、倒産",
+    "part_of_speech": "noun",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The retailer filed for bankruptcy after years of declining sales.", "translation": "その小売業者は長年の売上減少の末、破産を申請しました。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "bankrupt", "meaning": "破産した"}
+    ]
+  },
+  {
+    "id": "q_word_900_173",
+    "word": "liquidation",
+    "meaning": "清算、廃業処分",
+    "part_of_speech": "noun",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The company entered liquidation after failing to secure new funding.", "translation": "その会社は新たな資金調達に失敗し、清算手続きに入りました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "liquidate", "meaning": "清算する"}
+    ]
+  },
+  {
+    "id": "q_word_900_174",
+    "word": "depreciation",
+    "meaning": "減価償却、価値の下落",
+    "part_of_speech": "noun",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The accountant calculated the depreciation of the company's vehicles.", "translation": "経理担当者は会社の車両の減価償却を計算しました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "depreciate", "meaning": "価値が下がる"}
+    ]
+  },
+  {
+    "id": "q_word_900_175",
+    "word": "amortization",
+    "meaning": "償却、分割返済",
+    "part_of_speech": "noun",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The loan comes with a ten-year amortization schedule.", "translation": "そのローンには10年間の償却スケジュールが設定されています。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "amortize", "meaning": "償却する"}
+    ]
+  },
+  {
+    "id": "q_word_900_176",
+    "word": "valuation",
+    "meaning": "評価額、査定",
+    "part_of_speech": "noun",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The startup's valuation doubled after the latest funding round.", "translation": "そのスタートアップの評価額は最新の資金調達で2倍になりました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "value", "meaning": "評価する"}
+    ]
+  },
+  {
+    "id": "q_word_900_177",
+    "word": "arrears",
+    "meaning": "滞納金、未払い金",
+    "part_of_speech": "noun",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The tenant was several months in arrears on rent.", "translation": "その入居者は家賃を数か月滞納していました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_178",
+    "word": "default",
+    "meaning": "債務不履行、初期設定",
+    "part_of_speech": "noun",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The company was at risk of default on its loan payments.", "translation": "その会社はローンの返済で債務不履行に陥る危険がありました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_179",
+    "word": "delinquent",
+    "meaning": "滞納した、非行の",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Delinquent accounts are sent a reminder after 30 days.", "translation": "滞納している口座には30日後に督促状が送られます。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "delinquency", "meaning": "滞納、非行"}
+    ]
+  },
+  {
+    "id": "q_word_900_180",
+    "word": "recession",
+    "meaning": "景気後退",
+    "part_of_speech": "noun",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Many companies cut jobs during the recession.", "translation": "多くの企業が景気後退の間に人員を削減しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_181",
+    "word": "downturn",
+    "meaning": "下降、悪化",
+    "part_of_speech": "noun",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The industry experienced a sharp downturn last year.", "translation": "その業界は昨年、急激な下降を経験しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_182",
+    "word": "upturn",
+    "meaning": "好転、上昇",
+    "part_of_speech": "noun",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Economists predict an upturn in consumer spending next quarter.", "translation": "エコノミストたちは来四半期の個人消費の好転を予測しています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_183",
+    "word": "volatility",
+    "meaning": "変動性、不安定さ",
+    "part_of_speech": "noun",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Investors are concerned about the volatility of the stock market.", "translation": "投資家たちは株式市場の変動性を懸念しています。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "volatile", "meaning": "不安定な"}
+    ]
+  },
+  {
+    "id": "q_word_900_184",
+    "word": "turmoil",
+    "meaning": "混乱、動揺",
+    "part_of_speech": "noun",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The industry has been in turmoil since the new regulations took effect.", "translation": "その業界は新しい規制が施行されて以来、混乱状態にあります。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_185",
+    "word": "upheaval",
+    "meaning": "大変動、激変",
+    "part_of_speech": "noun",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The merger caused significant upheaval within the organization.", "translation": "その合併は組織内に大きな激変をもたらしました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_186",
+    "word": "synergy",
+    "meaning": "相乗効果",
+    "part_of_speech": "noun",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The merger is expected to create synergy between the two companies.", "translation": "その合併は両社の間に相乗効果を生むと期待されています。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "synergistic", "meaning": "相乗的な"}
+    ]
+  },
+  {
+    "id": "q_word_900_187",
+    "word": "economies of scale",
+    "meaning": "規模の経済",
+    "part_of_speech": "phrase",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Larger factories can achieve economies of scale that smaller ones cannot.", "translation": "大規模な工場は小規模な工場にはない規模の経済を実現できます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_188",
+    "word": "due diligence",
+    "meaning": "デューデリジェンス、事前調査",
+    "part_of_speech": "phrase",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The firm conducted due diligence before finalizing the acquisition.", "translation": "その会社は買収を確定する前にデューデリジェンスを実施しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_189",
+    "word": "rule of thumb",
+    "meaning": "経験則、目安",
+    "part_of_speech": "phrase",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "As a rule of thumb, save at least 20 percent of your income.", "translation": "経験則として、収入の少なくとも20パーセントは貯蓄すべきです。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_190",
+    "word": "in light of",
+    "meaning": "〜を考慮して、〜に鑑みて",
+    "part_of_speech": "phrase",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "In light of recent events, the meeting has been postponed.", "translation": "最近の出来事を考慮し、会議は延期されました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_191",
+    "word": "with regard to",
+    "meaning": "〜に関して",
+    "part_of_speech": "phrase",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "With regard to your inquiry, we will respond within 48 hours.", "translation": "お問い合わせに関しては、48時間以内にご返答いたします。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_192",
+    "word": "in lieu of",
+    "meaning": "〜の代わりに",
+    "part_of_speech": "phrase",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Employees received extra vacation days in lieu of a bonus this year.", "translation": "今年、社員はボーナスの代わりに追加の休暇日を受け取りました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_193",
+    "word": "on the verge of",
+    "meaning": "〜の間際で、〜寸前で",
+    "part_of_speech": "phrase",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The company was on the verge of bankruptcy before the buyout.", "translation": "その会社は買収前、破産寸前でした。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_194",
+    "word": "in the wake of",
+    "meaning": "〜の後を受けて、〜に続いて",
+    "part_of_speech": "phrase",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "In the wake of the scandal, several executives resigned.", "translation": "その不祥事の後を受けて、数名の重役が辞任しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_195",
+    "word": "at stake",
+    "meaning": "危機に瀕して、賭けられて",
+    "part_of_speech": "phrase",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The company's reputation is at stake if the recall is mishandled.", "translation": "リコール対応を誤れば、その会社の評判が危機に瀕します。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_196",
+    "word": "at one's disposal",
+    "meaning": "自由に使える、思いのままに",
+    "part_of_speech": "phrase",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The consultant has a full research team at her disposal.", "translation": "そのコンサルタントは研究チーム全体を自由に使うことができます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_197",
+    "word": "by and large",
+    "meaning": "概して、大体において",
+    "part_of_speech": "phrase",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "By and large, the new policy has been well received by employees.", "translation": "概して、新しい方針は社員に好意的に受け止められています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_198",
+    "word": "on a par with",
+    "meaning": "〜と同等で、〜に匹敵して",
+    "part_of_speech": "phrase",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The new model's performance is on a par with its top competitors.", "translation": "その新モデルの性能は主要な競合製品に匹敵しています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_199",
+    "word": "to date",
+    "meaning": "これまでのところ、現在までに",
+    "part_of_speech": "phrase",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "To date, the company has opened twelve new stores this year.", "translation": "これまでのところ、その会社は今年12店舗を新規開店しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_200",
+    "word": "across the board",
+    "meaning": "全面的に、一律に",
+    "part_of_speech": "phrase",
+    "level": "900",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The company implemented a five percent salary increase across the board.", "translation": "その会社は全社員一律で5パーセントの昇給を実施しました。"}
+    ],
+    "derivatives": []
+  }
+]

@@ -1,0 +1,714 @@
+[
+  {
+    "id": "q_word_600_201",
+    "word": "budget",
+    "meaning": "予算、経費",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The marketing budget was cut by ten percent this year.", "translation": "今年、マーケティング予算は10パーセント削減されました。"},
+      {"sentence": "We need to stay within the budget for this project.", "translation": "このプロジェクトは予算内に収める必要があります。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "budgetary", "meaning": "予算の、予算上の"}
+    ]
+  },
+  {
+    "id": "q_word_600_202",
+    "word": "expense",
+    "meaning": "費用、経費、支出",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "Please submit your travel expenses by the end of the month.", "translation": "出張経費は月末までに提出してください。"},
+      {"sentence": "The company covers all expenses related to training.", "translation": "研修に関する費用はすべて会社が負担します。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "expensive", "meaning": "高価な、費用のかかる"}
+    ]
+  },
+  {
+    "id": "q_word_600_203",
+    "word": "cost",
+    "meaning": "費用、原価、(費用が)かかる",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The total cost of the renovation was higher than expected.", "translation": "改装の総費用は予想を上回りました。"},
+      {"sentence": "The new software will cost about 50,000 yen.", "translation": "その新しいソフトは5万円ほどかかります。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "costly", "meaning": "高価な、犠牲の大きい"}
+    ]
+  },
+  {
+    "id": "q_word_600_204",
+    "word": "afford",
+    "meaning": "(金銭的・時間的に)余裕がある",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "We cannot afford to hire more staff right now.", "translation": "今のところ、これ以上人を雇う余裕はありません。"},
+      {"sentence": "Can you afford a new car on your current salary?", "translation": "今の給料で新車を買う余裕はありますか。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "affordable", "meaning": "手頃な価格の"}
+    ]
+  },
+  {
+    "id": "q_word_600_205",
+    "word": "charge",
+    "meaning": "請求する、料金、担当",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The hotel charges an extra fee for late check-out.", "translation": "そのホテルはレイトチェックアウトに追加料金を請求します。"},
+      {"sentence": "Ms. Yamada is in charge of the new project.", "translation": "山田さんが新しいプロジェクトの担当です。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "charge", "meaning": "料金、請求額"}
+    ]
+  },
+  {
+    "id": "q_word_600_206",
+    "word": "fee",
+    "meaning": "料金、手数料、会費",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "There is a small fee for using the parking lot.", "translation": "駐車場の利用には少額の料金がかかります。"},
+      {"sentence": "The membership fee is 5,000 yen per year.", "translation": "会費は年間5,000円です。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_207",
+    "word": "bill",
+    "meaning": "請求書、紙幣、請求する",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "Could we have the bill, please?", "translation": "お会計をお願いできますか。"},
+      {"sentence": "The electricity bill was higher than usual last month.", "translation": "先月の電気代はいつもより高かったです。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "billing", "meaning": "請求、請求事務"}
+    ]
+  },
+  {
+    "id": "q_word_600_208",
+    "word": "deposit",
+    "meaning": "預金、頭金、保証金、預ける",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "A deposit of 10,000 yen is required to reserve the room.", "translation": "部屋の予約には1万円の保証金が必要です。"},
+      {"sentence": "She deposited her paycheck into her savings account.", "translation": "彼女は給料を普通預金口座に預け入れました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_209",
+    "word": "withdraw",
+    "meaning": "引き出す、撤回する、取り下げる",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "I need to withdraw some cash from the ATM.", "translation": "ATMで現金をいくらか引き出す必要があります。"},
+      {"sentence": "The company withdrew its offer after the negotiation failed.", "translation": "交渉が決裂した後、その会社は提案を撤回しました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "withdrawal", "meaning": "引き出し、撤回"}
+    ]
+  },
+  {
+    "id": "q_word_600_210",
+    "word": "account",
+    "meaning": "口座、取引先、説明",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "Please transfer the money to our company account.", "translation": "当社の口座にお振り込みください。"},
+      {"sentence": "He manages several important accounts in Asia.", "translation": "彼はアジアの重要な取引先をいくつか担当しています。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "accountant", "meaning": "会計士、経理担当者"},
+      {"part": "noun", "word": "accounting", "meaning": "会計、経理"}
+    ]
+  },
+  {
+    "id": "q_word_600_211",
+    "word": "balance",
+    "meaning": "残高、収支、均衡",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "You can check your account balance online.", "translation": "口座残高はオンラインで確認できます。"},
+      {"sentence": "The remaining balance must be paid within 30 days.", "translation": "残額は30日以内にお支払いいただく必要があります。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_212",
+    "word": "loan",
+    "meaning": "融資、ローン、貸付金",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The company applied for a bank loan to expand its factory.", "translation": "その会社は工場拡張のため銀行融資を申請しました。"},
+      {"sentence": "He is still paying off his student loan.", "translation": "彼は今も学生ローンを返済しています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_213",
+    "word": "interest",
+    "meaning": "利子、利息、関心",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The bank offers a low interest rate on car loans.", "translation": "その銀行は自動車ローンに低い金利を提供しています。"},
+      {"sentence": "Several companies have shown interest in our product.", "translation": "数社が当社の製品に関心を示しています。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "interested", "meaning": "興味を持った"},
+      {"part": "adj", "word": "interesting", "meaning": "興味深い"}
+    ]
+  },
+  {
+    "id": "q_word_600_214",
+    "word": "mortgage",
+    "meaning": "住宅ローン、抵当",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "They took out a mortgage to buy their first house.", "translation": "彼らは最初の家を買うために住宅ローンを組みました。"},
+      {"sentence": "Mortgage payments are due on the first of each month.", "translation": "住宅ローンの支払いは毎月1日が期日です。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_215",
+    "word": "insurance",
+    "meaning": "保険",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The company provides health insurance for all employees.", "translation": "その会社は全社員に健康保険を提供しています。"},
+      {"sentence": "Does your travel insurance cover lost luggage?", "translation": "その旅行保険は荷物の紛失も補償しますか。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "insure", "meaning": "保険をかける"},
+      {"part": "noun", "word": "insurer", "meaning": "保険会社"}
+    ]
+  },
+  {
+    "id": "q_word_600_216",
+    "word": "tax",
+    "meaning": "税、税金",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "All prices include consumption tax.", "translation": "表示価格はすべて消費税込みです。"},
+      {"sentence": "The deadline for filing your taxes is March 15.", "translation": "確定申告の期限は3月15日です。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "taxable", "meaning": "課税対象の"}
+    ]
+  },
+  {
+    "id": "q_word_600_217",
+    "word": "income",
+    "meaning": "収入、所得",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "His monthly income increased after the promotion.", "translation": "昇進後、彼の月収は増えました。"},
+      {"sentence": "The store's main source of income is online sales.", "translation": "その店の主な収入源はオンライン販売です。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_218",
+    "word": "profit",
+    "meaning": "利益、収益",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The company made a profit of 20 million yen last year.", "translation": "その会社は昨年、2,000万円の利益を上げました。"},
+      {"sentence": "Profits fell slightly in the third quarter.", "translation": "第3四半期は利益がわずかに減少しました。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "profitable", "meaning": "もうかる、利益になる"}
+    ]
+  },
+  {
+    "id": "q_word_600_219",
+    "word": "revenue",
+    "meaning": "収益、売上高、歳入",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "Annual revenue grew by 15 percent this year.", "translation": "年間の売上高は今年15パーセント伸びました。"},
+      {"sentence": "Advertising accounts for most of the company's revenue.", "translation": "広告がその会社の収益の大半を占めています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_220",
+    "word": "earn",
+    "meaning": "稼ぐ、得る、獲得する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "She earns a good salary as a software engineer.", "translation": "彼女はソフトウェアエンジニアとして高い給料を得ています。"},
+      {"sentence": "The team earned praise for finishing ahead of schedule.", "translation": "そのチームは予定より早く完了して称賛を得ました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "earnings", "meaning": "収益、所得"}
+    ]
+  },
+  {
+    "id": "q_word_600_221",
+    "word": "spend",
+    "meaning": "(お金・時間を)使う、費やす",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "We spent too much on advertising last quarter.", "translation": "前四半期は広告に使いすぎました。"},
+      {"sentence": "He spends two hours a day commuting to work.", "translation": "彼は通勤に1日2時間費やしています。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "spending", "meaning": "支出、出費"}
+    ]
+  },
+  {
+    "id": "q_word_600_222",
+    "word": "owe",
+    "meaning": "借りがある、支払う義務がある",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "You still owe us 30,000 yen for the last order.", "translation": "前回のご注文分3万円がまだ未払いです。"},
+      {"sentence": "I owe you a favor for helping me yesterday.", "translation": "昨日助けてもらった借りがあります。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_223",
+    "word": "currency",
+    "meaning": "通貨、貨幣",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "You can exchange foreign currency at the airport.", "translation": "空港で外貨を両替できます。"},
+      {"sentence": "Changes in currency rates affect our export prices.", "translation": "為替レートの変動は当社の輸出価格に影響します。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_224",
+    "word": "cash",
+    "meaning": "現金",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "Would you like to pay in cash or by card?", "translation": "お支払いは現金ですか、カードですか。"},
+      {"sentence": "The shop only accepts cash for small purchases.", "translation": "その店では少額の買い物は現金のみの取り扱いです。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_225",
+    "word": "credit",
+    "meaning": "信用、掛け売り、クレジット",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "Most customers pay by credit card.", "translation": "ほとんどのお客様はクレジットカードで支払います。"},
+      {"sentence": "The store gave me a store credit instead of a refund.", "translation": "その店は返金の代わりに店内で使えるクレジットをくれました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "creditor", "meaning": "債権者"}
+    ]
+  },
+  {
+    "id": "q_word_600_226",
+    "word": "transaction",
+    "meaning": "取引、売買",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "All transactions are recorded in the system automatically.", "translation": "すべての取引はシステムに自動的に記録されます。"},
+      {"sentence": "The bank charges a small fee for each transaction.", "translation": "その銀行は取引ごとに少額の手数料を取ります。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "transact", "meaning": "取引する"}
+    ]
+  },
+  {
+    "id": "q_word_600_227",
+    "word": "bargain",
+    "meaning": "お買い得品、掘り出し物、交渉する",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "This jacket is a real bargain at half price.", "translation": "このジャケットは半額で本当にお買い得です。"},
+      {"sentence": "They bargained with the supplier over the price.", "translation": "彼らは価格について仕入先と交渉しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_228",
+    "word": "coupon",
+    "meaning": "クーポン、割引券",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "This coupon gives you 20 percent off any item.", "translation": "このクーポンでどの商品も20パーセント引きになります。"},
+      {"sentence": "Please present the coupon at the register.", "translation": "レジでクーポンをご提示ください。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_229",
+    "word": "voucher",
+    "meaning": "引換券、商品券",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "Each guest will receive a voucher for a free breakfast.", "translation": "宿泊客には無料朝食の引換券が配られます。"},
+      {"sentence": "The voucher can be used at any of our branches.", "translation": "その商品券は当社のどの店舗でもご利用いただけます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_230",
+    "word": "cashier",
+    "meaning": "レジ係、会計係",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "Please pay the cashier at the front of the store.", "translation": "店の前方のレジ係にお支払いください。"},
+      {"sentence": "The cashier handed me a receipt and my change.", "translation": "レジ係はレシートとお釣りを渡してくれました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_231",
+    "word": "checkout",
+    "meaning": "会計、レジ、チェックアウト",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "There was a long line at the checkout counter.", "translation": "レジには長い列ができていました。"},
+      {"sentence": "Checkout time is eleven o'clock in the morning.", "translation": "チェックアウトの時間は午前11時です。"}
+    ],
+    "derivatives": [
+      {"part": "phrase", "word": "check out", "meaning": "会計を済ませる、チェックアウトする"}
+    ]
+  },
+  {
+    "id": "q_word_600_232",
+    "word": "wholesale",
+    "meaning": "卸売の、卸売",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "We buy our materials at wholesale prices.", "translation": "当社は材料を卸売価格で仕入れています。"},
+      {"sentence": "The company sells its products wholesale to retailers.", "translation": "その会社は小売業者に製品を卸売しています。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "wholesaler", "meaning": "卸売業者"}
+    ]
+  },
+  {
+    "id": "q_word_600_233",
+    "word": "retail",
+    "meaning": "小売、小売の",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "She has ten years of experience in retail.", "translation": "彼女には小売業での10年の経験があります。"},
+      {"sentence": "The retail price is nearly double the wholesale price.", "translation": "小売価格は卸売価格のほぼ2倍です。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "retailer", "meaning": "小売業者、小売店"}
+    ]
+  },
+  {
+    "id": "q_word_600_234",
+    "word": "merchandise",
+    "meaning": "商品",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "All merchandise on this shelf is 30 percent off.", "translation": "この棚の商品はすべて30パーセント引きです。"},
+      {"sentence": "Damaged merchandise can be returned within a week.", "translation": "破損した商品は1週間以内に返品できます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_235",
+    "word": "vendor",
+    "meaning": "販売業者、売り主、露天商",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "We are looking for a new vendor for office supplies.", "translation": "事務用品の新しい販売業者を探しています。"},
+      {"sentence": "Several food vendors will set up booths at the festival.", "translation": "祭りでは複数の飲食業者が屋台を出します。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_236",
+    "word": "supplier",
+    "meaning": "供給業者、仕入先",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "Our supplier promised to deliver the parts by Friday.", "translation": "仕入先は金曜日までに部品を納入すると約束しました。"},
+      {"sentence": "We changed suppliers to reduce production costs.", "translation": "生産コストを下げるため仕入先を変更しました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "supply", "meaning": "供給する"}
+    ]
+  },
+  {
+    "id": "q_word_600_237",
+    "word": "consumer",
+    "meaning": "消費者",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "Consumers are becoming more sensitive to prices.", "translation": "消費者は価格に対してより敏感になっています。"},
+      {"sentence": "The survey asked consumers about their shopping habits.", "translation": "その調査では消費者に買い物の習慣について尋ねました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "consume", "meaning": "消費する"},
+      {"part": "noun", "word": "consumption", "meaning": "消費"}
+    ]
+  },
+  {
+    "id": "q_word_600_238",
+    "word": "demand",
+    "meaning": "需要、要求、要求する",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "Demand for electric cars is growing rapidly.", "translation": "電気自動車の需要は急速に伸びています。"},
+      {"sentence": "Customers are demanding faster delivery.", "translation": "顧客はより迅速な配送を求めています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_239",
+    "word": "estimate",
+    "meaning": "見積もり、見積もる、推定する",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "Could you send us an estimate for the repair work?", "translation": "修理作業の見積もりを送っていただけますか。"},
+      {"sentence": "Experts estimate that the project will take six months.", "translation": "専門家はそのプロジェクトに6か月かかると見積もっています。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "estimated", "meaning": "見積もりの、推定の"}
+    ]
+  },
+  {
+    "id": "q_word_600_240",
+    "word": "quote",
+    "meaning": "見積もり(を出す)、引用する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The contractor quoted 300,000 yen for the job.", "translation": "業者はその工事に30万円の見積もりを出しました。"},
+      {"sentence": "Please request a quote before placing the order.", "translation": "注文の前に見積もりを依頼してください。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "quotation", "meaning": "見積書、引用"}
+    ]
+  },
+  {
+    "id": "q_word_600_241",
+    "word": "bid",
+    "meaning": "入札、入札する、付け値",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "Three companies submitted bids for the construction project.", "translation": "3社がその建設プロジェクトに入札しました。"},
+      {"sentence": "Our firm won the bid for the city contract.", "translation": "当社は市の契約の入札を落札しました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "bidder", "meaning": "入札者"}
+    ]
+  },
+  {
+    "id": "q_word_600_242",
+    "word": "negotiate",
+    "meaning": "交渉する、話し合って決める",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "We negotiated a lower price with the supplier.", "translation": "私たちは仕入先とより安い価格を交渉しました。"},
+      {"sentence": "Both sides are still negotiating the terms of the contract.", "translation": "両者は今も契約条件について交渉中です。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "negotiation", "meaning": "交渉"},
+      {"part": "adj", "word": "negotiable", "meaning": "交渉の余地がある"}
+    ]
+  },
+  {
+    "id": "q_word_600_243",
+    "word": "agreement",
+    "meaning": "合意、契約、同意",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The two companies signed an agreement last week.", "translation": "両社は先週、契約書に署名しました。"},
+      {"sentence": "We finally reached an agreement on the price.", "translation": "私たちはようやく価格について合意に達しました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "agree", "meaning": "同意する、合意する"}
+    ]
+  },
+  {
+    "id": "q_word_600_244",
+    "word": "term",
+    "meaning": "条件、期間、用語",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "Please read the terms of the contract carefully.", "translation": "契約条件をよくお読みください。"},
+      {"sentence": "The loan has a term of five years.", "translation": "そのローンの期間は5年です。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_245",
+    "word": "condition",
+    "meaning": "条件、状態",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "Returns are accepted on the condition that the box is unopened.", "translation": "箱が未開封であることを条件に返品を受け付けます。"},
+      {"sentence": "The used copier is still in good condition.", "translation": "その中古のコピー機はまだ良好な状態です。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "conditional", "meaning": "条件付きの"}
+    ]
+  },
+  {
+    "id": "q_word_600_246",
+    "word": "clause",
+    "meaning": "条項、箇条",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The contract includes a clause about early cancellation.", "translation": "その契約には早期解約に関する条項が含まれています。"},
+      {"sentence": "Our lawyer suggested removing the third clause.", "translation": "当社の弁護士は第3条項を削除するよう提案しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_247",
+    "word": "breach",
+    "meaning": "違反、契約違反、違反する",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "Late delivery may be considered a breach of contract.", "translation": "納品の遅れは契約違反とみなされる可能性があります。"},
+      {"sentence": "The company was sued for breaching the agreement.", "translation": "その会社は契約に違反したとして訴えられました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_248",
+    "word": "valid",
+    "meaning": "有効な、正当な",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "This ticket is valid for three months from the date of purchase.", "translation": "このチケットは購入日から3か月間有効です。"},
+      {"sentence": "You must show a valid ID at the entrance.", "translation": "入口で有効な身分証明書を提示する必要があります。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "validity", "meaning": "有効性、正当性"},
+      {"part": "verb", "word": "validate", "meaning": "有効にする、確認する"}
+    ]
+  },
+  {
+    "id": "q_word_600_249",
+    "word": "due",
+    "meaning": "期限の、支払期日の、予定されて",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The final payment is due on June 30.", "translation": "最終支払いの期日は6月30日です。"},
+      {"sentence": "The report is due at the end of this week.", "translation": "報告書の提出期限は今週末です。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_250",
+    "word": "overdue",
+    "meaning": "期限切れの、支払いが遅れた",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "Your payment is two weeks overdue.", "translation": "お支払いが2週間遅れています。"},
+      {"sentence": "There is a small fine for overdue library books.", "translation": "図書館の本を延滞すると少額の罰金がかかります。"}
+    ],
+    "derivatives": []
+  }
+]

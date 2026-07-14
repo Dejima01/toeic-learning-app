@@ -1,0 +1,663 @@
+[
+  {
+    "id": "q_word_600_351",
+    "word": "opportunity",
+    "meaning": "機会、好機",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "This internship is a great opportunity to gain experience.", "translation": "このインターンシップは経験を積む絶好の機会です。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_352",
+    "word": "experience",
+    "meaning": "経験、経験する",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "Applicants should have at least three years of experience.", "translation": "応募者には最低3年の経験が求められます。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "experienced", "meaning": "経験豊富な"}
+    ]
+  },
+  {
+    "id": "q_word_600_353",
+    "word": "skill",
+    "meaning": "技能、技術",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "Good communication skills are essential for this position.", "translation": "この職には優れたコミュニケーション能力が不可欠です。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "skilled", "meaning": "熟練した"}
+    ]
+  },
+  {
+    "id": "q_word_600_354",
+    "word": "ability",
+    "meaning": "能力、才能",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "She has the ability to manage several projects at once.", "translation": "彼女には複数のプロジェクトを同時に管理する能力があります。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "able", "meaning": "できる、能力がある"}
+    ]
+  },
+  {
+    "id": "q_word_600_355",
+    "word": "knowledge",
+    "meaning": "知識",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "The position requires knowledge of accounting software.", "translation": "この職には会計ソフトの知識が求められます。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "knowledgeable", "meaning": "知識が豊富な"}
+    ]
+  },
+  {
+    "id": "q_word_600_356",
+    "word": "education",
+    "meaning": "教育、学歴",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "The company offers continuing education programs for staff.", "translation": "その会社は社員向けに継続教育プログラムを提供しています。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "educate", "meaning": "教育する"},
+      {"part": "adj", "word": "educational", "meaning": "教育的な"}
+    ]
+  },
+  {
+    "id": "q_word_600_357",
+    "word": "degree",
+    "meaning": "学位、程度",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "A bachelor's degree in business is preferred for this role.", "translation": "この職には経営学の学士号があると望ましいです。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_358",
+    "word": "qualification",
+    "meaning": "資格、条件",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "Please list your qualifications on the application form.", "translation": "申込用紙にあなたの資格をご記入ください。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "qualify", "meaning": "資格を得る"},
+      {"part": "adj", "word": "qualified", "meaning": "資格のある"}
+    ]
+  },
+  {
+    "id": "q_word_600_359",
+    "word": "certificate",
+    "meaning": "証明書、修了証",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "Participants will receive a certificate at the end of the course.", "translation": "参加者は講座終了時に修了証を受け取ります。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "certify", "meaning": "証明する"},
+      {"part": "noun", "word": "certification", "meaning": "認定、資格認定"}
+    ]
+  },
+  {
+    "id": "q_word_600_360",
+    "word": "training",
+    "meaning": "研修、訓練",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "New employees must complete safety training within a month.", "translation": "新入社員は1か月以内に安全研修を修了しなければなりません。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "train", "meaning": "訓練する"}
+    ]
+  },
+  {
+    "id": "q_word_600_361",
+    "word": "career",
+    "meaning": "経歴、キャリア",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "He built his career in the finance industry.", "translation": "彼は金融業界でキャリアを築いてきました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_362",
+    "word": "achievement",
+    "meaning": "業績、達成",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "The award recognizes her achievements in research.", "translation": "その賞は研究における彼女の業績を称えるものです。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "achieve", "meaning": "達成する"}
+    ]
+  },
+  {
+    "id": "q_word_600_363",
+    "word": "goal",
+    "meaning": "目標",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "Our sales goal for this year is 50 million yen.", "translation": "今年の売上目標は5,000万円です。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_364",
+    "word": "objective",
+    "meaning": "目的、目標",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "The main objective of the meeting is to finalize the budget.", "translation": "この会議の主な目的は予算を確定することです。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_365",
+    "word": "purpose",
+    "meaning": "目的",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "The purpose of this survey is to improve our services.", "translation": "この調査の目的はサービスを改善することです。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_366",
+    "word": "result",
+    "meaning": "結果",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "The test results will be available next Monday.", "translation": "検査結果は次の月曜日に判明します。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "result", "meaning": "結果として生じる"}
+    ]
+  },
+  {
+    "id": "q_word_600_367",
+    "word": "outcome",
+    "meaning": "結果、成果",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "We are satisfied with the outcome of the negotiations.", "translation": "私たちは交渉の結果に満足しています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_368",
+    "word": "effect",
+    "meaning": "効果、影響",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "The new policy had a positive effect on employee morale.", "translation": "新しい方針は社員の士気に良い影響を与えました。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "effective", "meaning": "効果的な"}
+    ]
+  },
+  {
+    "id": "q_word_600_369",
+    "word": "cause",
+    "meaning": "原因、引き起こす",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "The engineer identified the cause of the malfunction.", "translation": "技術者は故障の原因を特定しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_370",
+    "word": "reason",
+    "meaning": "理由",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "Please state the reason for your absence in writing.", "translation": "欠勤の理由を書面でお知らせください。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "reasonable", "meaning": "妥当な、手頃な"}
+    ]
+  },
+  {
+    "id": "q_word_600_371",
+    "word": "issue",
+    "meaning": "問題、論点、発行する",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "We need to address this issue before the launch.", "translation": "発売前にこの問題に対処する必要があります。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_372",
+    "word": "problem",
+    "meaning": "問題",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "The technician quickly solved the printer problem.", "translation": "技術者はプリンターの問題をすばやく解決しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_373",
+    "word": "solution",
+    "meaning": "解決策、解決",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "We are looking for a long-term solution to this issue.", "translation": "私たちはこの問題の長期的な解決策を探しています。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "solve", "meaning": "解決する"}
+    ]
+  },
+  {
+    "id": "q_word_600_374",
+    "word": "method",
+    "meaning": "方法、方式",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "Please select your preferred payment method at checkout.", "translation": "お会計の際に希望のお支払い方法をお選びください。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_375",
+    "word": "process",
+    "meaning": "過程、工程、処理する",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "The hiring process usually takes about three weeks.", "translation": "採用プロセスには通常3週間ほどかかります。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "procedure", "meaning": "手順"}
+    ]
+  },
+  {
+    "id": "q_word_600_376",
+    "word": "procedure",
+    "meaning": "手順、手続き",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "Employees must follow the safety procedure at all times.", "translation": "社員は常に安全手順に従わなければなりません。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_377",
+    "word": "policy",
+    "meaning": "方針、政策、規定",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "Our return policy allows exchanges within 14 days.", "translation": "当社の返品規定では14日以内の交換が可能です。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_378",
+    "word": "regulation",
+    "meaning": "規則、規制",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "The factory must comply with strict safety regulations.", "translation": "その工場は厳しい安全規則を遵守しなければなりません。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "regulate", "meaning": "規制する"}
+    ]
+  },
+  {
+    "id": "q_word_600_379",
+    "word": "rule",
+    "meaning": "規則、ルール",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "Please review the company rules before your first day.", "translation": "出勤初日の前に会社の規則をご確認ください。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_380",
+    "word": "law",
+    "meaning": "法律",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "The new law will take effect next January.", "translation": "その新しい法律は来年1月に施行されます。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "lawyer", "meaning": "弁護士"}
+    ]
+  },
+  {
+    "id": "q_word_600_381",
+    "word": "requirement",
+    "meaning": "必要条件、要件",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "Please check the visa requirements before you travel.", "translation": "渡航前にビザの必要条件をご確認ください。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "require", "meaning": "必要とする"}
+    ]
+  },
+  {
+    "id": "q_word_600_382",
+    "word": "standard",
+    "meaning": "基準、標準、標準的な",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "Our products meet international quality standards.", "translation": "当社の製品は国際的な品質基準を満たしています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_383",
+    "word": "guideline",
+    "meaning": "指針、ガイドライン",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "Please follow the guidelines when submitting your report.", "translation": "報告書を提出する際は指針に従ってください。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_384",
+    "word": "instruction",
+    "meaning": "指示、説明",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "Follow the instructions carefully to assemble the desk.", "translation": "机を組み立てるには指示に注意深く従ってください。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "instruct", "meaning": "指示する"}
+    ]
+  },
+  {
+    "id": "q_word_600_385",
+    "word": "manual",
+    "meaning": "説明書、マニュアル、手作業の",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "Please refer to the manual if you have any questions.", "translation": "ご不明な点は説明書をご参照ください。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_386",
+    "word": "detail",
+    "meaning": "詳細",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "Please provide additional details about your request.", "translation": "ご要望について追加の詳細をお知らせください。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "detailed", "meaning": "詳細な"}
+    ]
+  },
+  {
+    "id": "q_word_600_387",
+    "word": "feature",
+    "meaning": "特徴、機能",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "The new model has several useful features.", "translation": "その新モデルにはいくつかの便利な機能があります。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_388",
+    "word": "function",
+    "meaning": "機能、働き",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "This button controls the printer's copy function.", "translation": "このボタンでプリンターのコピー機能を操作します。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "functional", "meaning": "機能的な"}
+    ]
+  },
+  {
+    "id": "q_word_600_389",
+    "word": "disadvantage",
+    "meaning": "不利な点、欠点",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "The main disadvantage of this plan is its high cost.", "translation": "このプランの主な欠点はコストが高いことです。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_390",
+    "word": "drawback",
+    "meaning": "欠点、難点",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "One drawback of the new system is its slow start-up time.", "translation": "新しいシステムの難点の一つは起動が遅いことです。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_391",
+    "word": "option",
+    "meaning": "選択肢、オプション",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "We offer several payment options for our customers.", "translation": "当社はお客様にいくつかの支払いオプションを提供しています。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "optional", "meaning": "任意の、選択できる"}
+    ]
+  },
+  {
+    "id": "q_word_600_392",
+    "word": "alternative",
+    "meaning": "代替案、選択肢",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "We are looking for an alternative to the current supplier.", "translation": "現在の仕入先に代わる選択肢を探しています。"}
+    ],
+    "derivatives": [
+      {"part": "adv", "word": "alternatively", "meaning": "代わりに、あるいは"}
+    ]
+  },
+  {
+    "id": "q_word_600_393",
+    "word": "choice",
+    "meaning": "選択、選択肢",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "The restaurant offers a wide choice of vegetarian dishes.", "translation": "そのレストランは幅広い種類のベジタリアン料理を提供しています。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "choose", "meaning": "選ぶ"}
+    ]
+  },
+  {
+    "id": "q_word_600_394",
+    "word": "decision",
+    "meaning": "決定、決断",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "The board will make a final decision by Friday.", "translation": "取締役会は金曜日までに最終決定を下します。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "decide", "meaning": "決める"}
+    ]
+  },
+  {
+    "id": "q_word_600_395",
+    "word": "conclusion",
+    "meaning": "結論、結末",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "The report reached the conclusion that costs must be cut.", "translation": "その報告書はコストを削減しなければならないという結論に達しました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "conclude", "meaning": "結論づける"}
+    ]
+  },
+  {
+    "id": "q_word_600_396",
+    "word": "summary",
+    "meaning": "要約、概要",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "Please provide a brief summary of the findings.", "translation": "調査結果の簡潔な要約を提出してください。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "summarize", "meaning": "要約する"}
+    ]
+  },
+  {
+    "id": "q_word_600_397",
+    "word": "description",
+    "meaning": "説明、記述",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "The job description lists the main responsibilities.", "translation": "その職務記述書には主な業務内容が記載されています。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "describe", "meaning": "説明する、描写する"}
+    ]
+  },
+  {
+    "id": "q_word_600_398",
+    "word": "explanation",
+    "meaning": "説明",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "The manager gave a clear explanation of the new policy.", "translation": "部長は新しい方針について明確な説明をしてくれました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "explain", "meaning": "説明する"}
+    ]
+  },
+  {
+    "id": "q_word_600_399",
+    "word": "example",
+    "meaning": "例、実例",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "Let me give you an example of how this works.", "translation": "これがどう機能するか、一例をお示しします。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_400",
+    "word": "information",
+    "meaning": "情報",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 8,
+    "example_sentences": [
+      {"sentence": "For further information, please visit our website.", "translation": "詳細については当社のウェブサイトをご覧ください。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "inform", "meaning": "知らせる"}
+    ]
+  }
+]
