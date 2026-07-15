@@ -95,7 +95,7 @@ export default function RankTestPage() {
 
       for (const level of [600, 750, 900] as QuestionLevel[]) {
         const wSnap = await getDocs(
-          query(collection(db, 'word_questions'), where('level', '==', level)),
+          query(collection(db, 'word_questions'), where('level', '==', String(level))),
         );
         wordsByLevel[level] = wSnap.docs.map((d) => ({ id: d.id, ...d.data() } as WordQuestion));
 

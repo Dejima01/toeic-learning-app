@@ -1,0 +1,902 @@
+[
+  {
+    "id": "q_grammar_750_001",
+    "question_text": "There ______ be a bookstore on this corner.",
+    "choices": [
+      "is used to",
+      "uses to",
+      "was used to",
+      "used to"
+    ],
+    "correct_index": 3,
+    "category": "used_to_habit",
+    "category_ja": "過去の習慣(used to)",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_750_002",
+    "question_text": "Please respond to this email ______ 48 hours.",
+    "choices": [
+      "along",
+      "until",
+      "among",
+      "within"
+    ],
+    "correct_index": 3,
+    "category": "prepositions_within",
+    "category_ja": "前置詞(期限内のwithin)",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_750_003",
+    "question_text": "______ the manager was absent, the meeting was postponed.",
+    "choices": [
+      "During",
+      "Because of",
+      "Despite",
+      "Since"
+    ],
+    "correct_index": 3,
+    "category": "conjunction_since_reason",
+    "category_ja": "接続詞(since・理由)",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_750_004",
+    "question_text": "Working at heights without a harness is ______.",
+    "choices": [
+      "danger",
+      "endanger",
+      "dangerously",
+      "dangerous"
+    ],
+    "correct_index": 3,
+    "category": "pos_adjective_suffix_ous",
+    "category_ja": "品詞(形容詞の接尾辞-ous)",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_750_005",
+    "question_text": "We look forward to ______ from you soon.",
+    "choices": [
+      "hear",
+      "to hear",
+      "hearing",
+      "heard"
+    ],
+    "correct_index": 2,
+    "category": "gerund_look_forward_to",
+    "category_ja": "動名詞(look forward to -ing)",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_750_006",
+    "question_text": "The invoice has already ______ sent to the client.",
+    "choices": [
+      "be",
+      "being",
+      "been",
+      "was"
+    ],
+    "correct_index": 2,
+    "category": "passive_present_perfect",
+    "category_ja": "受動態(現在完了)",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_750_007",
+    "question_text": "I still remember the day ______ our store first opened.",
+    "choices": [
+      "who",
+      "when",
+      "what",
+      "which"
+    ],
+    "correct_index": 1,
+    "category": "relative_adverb_when",
+    "category_ja": "関係副詞(when)",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_750_008",
+    "question_text": "The number of online orders ______ increasing every year.",
+    "choices": [
+      "is",
+      "were",
+      "have",
+      "are"
+    ],
+    "correct_index": 0,
+    "category": "sv_agreement_number_of",
+    "category_ja": "主語と動詞の一致(the number of)",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_750_009",
+    "question_text": "The new office is ______ larger than the old one.",
+    "choices": [
+      "very",
+      "much",
+      "most",
+      "more"
+    ],
+    "correct_index": 1,
+    "category": "comparison_much_emphasis",
+    "category_ja": "比較級の強調(much)",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_750_010",
+    "question_text": "You have finished the report, ______?",
+    "choices": [
+      "haven't you",
+      "don't you",
+      "didn't you",
+      "have you"
+    ],
+    "correct_index": 0,
+    "category": "tag_question",
+    "category_ja": "付加疑問文",
+    "level": "750",
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_750_011",
+    "question_text": "Mr. Cole ______ this company in 2015.",
+    "choices": [
+      "has been joining",
+      "joined",
+      "joins",
+      "has joined"
+    ],
+    "correct_index": 1,
+    "category": "tense_present_perfect_vs_past",
+    "category_ja": "現在完了と過去形の使い分け",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "id": "q_grammar_750_012",
+    "question_text": "The delay in shipping was ______ a system error.",
+    "choices": [
+      "despite of",
+      "owing",
+      "because",
+      "due to"
+    ],
+    "correct_index": 3,
+    "category": "prepositions_due_to",
+    "category_ja": "前置詞(原因のdue to)",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "id": "q_grammar_750_013",
+    "question_text": "______ you complete the training, you will receive a certificate.",
+    "choices": [
+      "During",
+      "Until",
+      "Once",
+      "Despite"
+    ],
+    "correct_index": 2,
+    "category": "conjunction_once",
+    "category_ja": "接続詞(once)",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "id": "q_grammar_750_014",
+    "question_text": "Your ______ at the annual meeting is highly appreciated.",
+    "choices": [
+      "attendance",
+      "attend",
+      "attendant",
+      "attended"
+    ],
+    "correct_index": 0,
+    "category": "pos_noun_suffix_ance",
+    "category_ja": "品詞(名詞の接尾辞-ance)",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "id": "q_grammar_750_015",
+    "question_text": "Please remember ______ the door when you leave the office.",
+    "choices": [
+      "locking",
+      "locked",
+      "lock",
+      "to lock"
+    ],
+    "correct_index": 3,
+    "category": "verb_remember_to",
+    "category_ja": "不定詞と動名詞(remember to do)",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "id": "q_grammar_750_016",
+    "question_text": "Ms. Hall ______ promoted to regional manager last month.",
+    "choices": [
+      "got",
+      "went",
+      "came",
+      "made"
+    ],
+    "correct_index": 0,
+    "category": "passive_get",
+    "category_ja": "受動態(get+過去分詞)",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "id": "q_grammar_750_017",
+    "question_text": "______ we need right now is more accurate data.",
+    "choices": [
+      "What",
+      "Which",
+      "Who",
+      "That"
+    ],
+    "correct_index": 0,
+    "category": "relative_pronoun_what",
+    "category_ja": "関係代名詞(what)",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "id": "q_grammar_750_018",
+    "question_text": "You ______ better book a hotel room before prices go up.",
+    "choices": [
+      "should",
+      "have",
+      "had",
+      "would"
+    ],
+    "correct_index": 2,
+    "category": "modal_had_better",
+    "category_ja": "助動詞相当(had better)",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "id": "q_grammar_750_019",
+    "question_text": "It ______ about two hours to get to the airport from here.",
+    "choices": [
+      "spends",
+      "needs",
+      "takes",
+      "costs"
+    ],
+    "correct_index": 2,
+    "category": "it_takes_time",
+    "category_ja": "It takes+時間+to do",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "id": "q_grammar_750_020",
+    "question_text": "The woman ______ the presentation is our new CEO.",
+    "choices": [
+      "giving",
+      "give",
+      "gave",
+      "given"
+    ],
+    "correct_index": 0,
+    "category": "participle_postmodifying_present",
+    "category_ja": "現在分詞の後置修飾",
+    "level": "750",
+    "chapter_num": 2
+  },
+  {
+    "id": "q_grammar_750_021",
+    "question_text": "The IT team ______ on the server issue since early this morning.",
+    "choices": [
+      "has been working",
+      "is working",
+      "works",
+      "worked"
+    ],
+    "correct_index": 0,
+    "category": "present_perfect_progressive",
+    "category_ja": "現在完了進行形",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "id": "q_grammar_750_022",
+    "question_text": "______ the heavy rain, the outdoor event was held as scheduled.",
+    "choices": [
+      "Despite",
+      "Even",
+      "Although",
+      "However"
+    ],
+    "correct_index": 0,
+    "category": "prepositions_despite",
+    "category_ja": "前置詞(譲歩のdespite)",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "id": "q_grammar_750_023",
+    "question_text": "Please speak louder ______ everyone in the back can hear you.",
+    "choices": [
+      "so that",
+      "in order to",
+      "because of",
+      "despite"
+    ],
+    "correct_index": 0,
+    "category": "conjunction_so_that",
+    "category_ja": "接続詞(目的のso that)",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "id": "q_grammar_750_024",
+    "question_text": "The team proposed a highly ______ marketing campaign.",
+    "choices": [
+      "innovation",
+      "innovate",
+      "innovative",
+      "innovatively"
+    ],
+    "correct_index": 2,
+    "category": "pos_adjective_suffix_ive",
+    "category_ja": "品詞(形容詞の接尾辞-ive)",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "id": "q_grammar_750_025",
+    "question_text": "The box is too heavy for me ______ alone.",
+    "choices": [
+      "carried",
+      "carrying",
+      "carry",
+      "to carry"
+    ],
+    "correct_index": 3,
+    "category": "infinitive_too_to",
+    "category_ja": "不定詞(too ~ to do)",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "id": "q_grammar_750_026",
+    "question_text": "Please review the report ______ by the finance team.",
+    "choices": [
+      "prepares",
+      "preparation",
+      "preparing",
+      "prepared"
+    ],
+    "correct_index": 3,
+    "category": "participle_postmodifying_past",
+    "category_ja": "過去分詞の後置修飾",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "id": "q_grammar_750_027",
+    "question_text": "I ______ rather take the early flight than the late one.",
+    "choices": [
+      "should",
+      "could",
+      "had",
+      "would"
+    ],
+    "correct_index": 3,
+    "category": "modal_would_rather",
+    "category_ja": "助動詞(would rather)",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "id": "q_grammar_750_028",
+    "question_text": "Either the manager or his assistants ______ going to attend the trade show.",
+    "choices": [
+      "is",
+      "been",
+      "are",
+      "be"
+    ],
+    "correct_index": 2,
+    "category": "sv_agreement_either_or",
+    "category_ja": "主語と動詞の一致(either A or B)",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "id": "q_grammar_750_029",
+    "question_text": "This design doesn't work well. Let's try ______ one.",
+    "choices": [
+      "others",
+      "another",
+      "other",
+      "the another"
+    ],
+    "correct_index": 1,
+    "category": "pronoun_another",
+    "category_ja": "代名詞(another)",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "id": "q_grammar_750_030",
+    "question_text": "The success of the outdoor event will depend ______ the weather.",
+    "choices": [
+      "on",
+      "for",
+      "of",
+      "at"
+    ],
+    "correct_index": 0,
+    "category": "prepositions_depend_on",
+    "category_ja": "動詞+前置詞(depend on)",
+    "level": "750",
+    "chapter_num": 3
+  },
+  {
+    "id": "q_grammar_750_031",
+    "question_text": "By the time we arrived at the hall, the seminar ______.",
+    "choices": [
+      "had already started",
+      "already starts",
+      "is already starting",
+      "has already started"
+    ],
+    "correct_index": 0,
+    "category": "past_perfect",
+    "category_ja": "過去完了",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "id": "q_grammar_750_032",
+    "question_text": "Everyone attended the workshop ______ Mr. Jones, who was on a business trip.",
+    "choices": [
+      "without",
+      "besides",
+      "among",
+      "except"
+    ],
+    "correct_index": 3,
+    "category": "prepositions_except",
+    "category_ja": "前置詞(除外のexcept)",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "id": "q_grammar_750_033",
+    "question_text": "The seminar was ______ informative and enjoyable.",
+    "choices": [
+      "either",
+      "neither",
+      "both",
+      "not only"
+    ],
+    "correct_index": 2,
+    "category": "conjunction_both_and",
+    "category_ja": "相関接続詞(both A and B)",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "id": "q_grammar_750_034",
+    "question_text": "The ______ of our delivery service is our top priority.",
+    "choices": [
+      "rely",
+      "reliably",
+      "reliable",
+      "reliability"
+    ],
+    "correct_index": 3,
+    "category": "pos_noun_suffix_ity",
+    "category_ja": "品詞(名詞の接尾辞-ity)",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "id": "q_grammar_750_035",
+    "question_text": "Ms. Sun is used to ______ in front of large audiences.",
+    "choices": [
+      "speak",
+      "spoke",
+      "speaking",
+      "to speak"
+    ],
+    "correct_index": 2,
+    "category": "gerund_be_used_to",
+    "category_ja": "動名詞(be used to -ing)",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "id": "q_grammar_750_036",
+    "question_text": "This contract has ______ signed by both parties before Friday.",
+    "choices": [
+      "be",
+      "to",
+      "being",
+      "to be"
+    ],
+    "correct_index": 3,
+    "category": "passive_infinitive",
+    "category_ja": "受動態の不定詞(to be done)",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "id": "q_grammar_750_037",
+    "question_text": "The company moved its headquarters to Osaka, ______ surprised many employees.",
+    "choices": [
+      "that",
+      "which",
+      "it",
+      "what"
+    ],
+    "correct_index": 1,
+    "category": "relative_nonrestrictive_which",
+    "category_ja": "関係代名詞(非制限用法のwhich)",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "id": "q_grammar_750_038",
+    "question_text": "Mr. Reed isn't at his desk. He ______ have left for the day.",
+    "choices": [
+      "will",
+      "shall",
+      "can",
+      "must"
+    ],
+    "correct_index": 3,
+    "category": "modal_must_have_past",
+    "category_ja": "助動詞+完了形(must have done)",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "id": "q_grammar_750_039",
+    "question_text": "Ms. Ruiz is familiar ______ the local business customs.",
+    "choices": [
+      "to",
+      "with",
+      "of",
+      "at"
+    ],
+    "correct_index": 1,
+    "category": "prepositions_familiar_with",
+    "category_ja": "形容詞+前置詞(familiar with)",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "id": "q_grammar_750_040",
+    "question_text": "The more you practice, ______ your presentation will become.",
+    "choices": [
+      "the better",
+      "better",
+      "the best",
+      "best"
+    ],
+    "correct_index": 0,
+    "category": "comparison_the_comparative",
+    "category_ja": "比較(the+比較級, the+比較級)",
+    "level": "750",
+    "chapter_num": 4
+  },
+  {
+    "id": "q_grammar_750_041",
+    "question_text": "This time tomorrow, I ______ to New York for the conference.",
+    "choices": [
+      "have flown",
+      "am flown",
+      "fly",
+      "will be flying"
+    ],
+    "correct_index": 3,
+    "category": "future_progressive",
+    "category_ja": "未来進行形",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "id": "q_grammar_750_042",
+    "question_text": "We decided to take the train ______ of driving.",
+    "choices": [
+      "in spite",
+      "instead",
+      "in case",
+      "because"
+    ],
+    "correct_index": 1,
+    "category": "prepositions_instead_of",
+    "category_ja": "前置詞(instead of)",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "id": "q_grammar_750_043",
+    "question_text": "We haven't decided ______ we will attend the trade fair.",
+    "choices": [
+      "during",
+      "whether",
+      "despite",
+      "about"
+    ],
+    "correct_index": 1,
+    "category": "conjunction_whether",
+    "category_ja": "接続詞(whether)",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "id": "q_grammar_750_044",
+    "question_text": "The staff worked ______ to meet the tight deadline.",
+    "choices": [
+      "harden",
+      "hardly",
+      "hardness",
+      "hard"
+    ],
+    "correct_index": 3,
+    "category": "pos_adjective_vs_adverb_hard",
+    "category_ja": "紛らわしい副詞(hard/hardly)",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "id": "q_grammar_750_045",
+    "question_text": "It is important ______ all staff to attend the safety training.",
+    "choices": [
+      "to",
+      "for",
+      "with",
+      "of"
+    ],
+    "correct_index": 1,
+    "category": "infinitive_it_for_to",
+    "category_ja": "不定詞(It is ~ for A to do)",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "id": "q_grammar_750_046",
+    "question_text": "If I ______ you, I would accept the job offer.",
+    "choices": [
+      "were",
+      "am",
+      "will be",
+      "have been"
+    ],
+    "correct_index": 0,
+    "category": "conditional_second_were",
+    "category_ja": "仮定法過去(If I were you)",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "id": "q_grammar_750_047",
+    "question_text": "Ms. Ford speaks Spanish fluently, and ______.",
+    "choices": [
+      "Mr. Kim does so",
+      "so does Mr. Kim",
+      "does Mr. Kim so",
+      "so Mr. Kim does"
+    ],
+    "correct_index": 1,
+    "category": "word_order_so_do_i",
+    "category_ja": "語順(so+助動詞+主語)",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "id": "q_grammar_750_048",
+    "question_text": "______ to the weather forecast, it will snow this weekend.",
+    "choices": [
+      "According",
+      "Thanks",
+      "Owing",
+      "Due"
+    ],
+    "correct_index": 0,
+    "category": "prepositions_according_to",
+    "category_ja": "前置詞(according to)",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "id": "q_grammar_750_049",
+    "question_text": "The report shows a significant increase ______ overseas sales.",
+    "choices": [
+      "to",
+      "of",
+      "in",
+      "on"
+    ],
+    "correct_index": 2,
+    "category": "prepositions_increase_in",
+    "category_ja": "名詞+前置詞(increase in)",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "id": "q_grammar_750_050",
+    "question_text": "I'll have my assistant ______ you the meeting details.",
+    "choices": [
+      "sent",
+      "to send",
+      "send",
+      "sending"
+    ],
+    "correct_index": 2,
+    "category": "causative_have_base",
+    "category_ja": "使役動詞(have+人+動詞の原形)",
+    "level": "750",
+    "chapter_num": 5
+  },
+  {
+    "id": "q_grammar_750_051",
+    "question_text": "By next March, Ms. Ono ______ for this firm for ten years.",
+    "choices": [
+      "will have worked",
+      "has worked",
+      "is working",
+      "will work"
+    ],
+    "correct_index": 0,
+    "category": "future_perfect",
+    "category_ja": "未来完了",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "id": "q_grammar_750_052",
+    "question_text": "It rained heavily ______ the night, so the morning game was canceled.",
+    "choices": [
+      "throughout",
+      "while",
+      "onto",
+      "among"
+    ],
+    "correct_index": 0,
+    "category": "prepositions_throughout",
+    "category_ja": "前置詞(throughout)",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "id": "q_grammar_750_053",
+    "question_text": "We will begin production ______ the contract is signed.",
+    "choices": [
+      "as soon as",
+      "in order to",
+      "despite",
+      "because of"
+    ],
+    "correct_index": 0,
+    "category": "conjunction_as_soon_as",
+    "category_ja": "接続詞(as soon as)",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "id": "q_grammar_750_054",
+    "question_text": "Please review the attached sales ______ before the meeting.",
+    "choices": [
+      "reportable",
+      "report",
+      "reportedly",
+      "reported"
+    ],
+    "correct_index": 1,
+    "category": "pos_compound_noun",
+    "category_ja": "品詞(複合名詞)",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "id": "q_grammar_750_055",
+    "question_text": "I wish I ______ how to use this software.",
+    "choices": [
+      "have known",
+      "knew",
+      "will know",
+      "know"
+    ],
+    "correct_index": 1,
+    "category": "subjunctive_wish_past",
+    "category_ja": "仮定法(I wish+過去形)",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "id": "q_grammar_750_056",
+    "question_text": "You cannot enter the laboratory ______ you have a permit.",
+    "choices": [
+      "unless",
+      "if",
+      "in case",
+      "whether"
+    ],
+    "correct_index": 0,
+    "category": "conditional_unless",
+    "category_ja": "条件文(unless)",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "id": "q_grammar_750_057",
+    "question_text": "It was ______ that we had to extend the deadline.",
+    "choices": [
+      "such complex a project",
+      "such a complex project",
+      "a such complex project",
+      "a complex such project"
+    ],
+    "correct_index": 1,
+    "category": "word_order_such_a",
+    "category_ja": "語順(such a+形容詞+名詞)",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "id": "q_grammar_750_058",
+    "question_text": "Ms. Perez said that she ______ too busy to attend.",
+    "choices": [
+      "has been",
+      "will be",
+      "was",
+      "is"
+    ],
+    "correct_index": 2,
+    "category": "reported_speech_tense_shift",
+    "category_ja": "話法(時制の一致)",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "id": "q_grammar_750_059",
+    "question_text": "All electronic devices must be turned off ______ to takeoff.",
+    "choices": [
+      "ahead",
+      "before",
+      "prior",
+      "previous"
+    ],
+    "correct_index": 2,
+    "category": "prepositions_prior_to",
+    "category_ja": "前置詞(prior to)",
+    "level": "750",
+    "chapter_num": 6
+  },
+  {
+    "id": "q_grammar_750_060",
+    "question_text": "Please contact the HR department ______ your benefits package.",
+    "choices": [
+      "onto",
+      "regarding",
+      "despite",
+      "among"
+    ],
+    "correct_index": 1,
+    "category": "prepositions_regarding",
+    "category_ja": "前置詞(話題のregarding)",
+    "level": "750",
+    "chapter_num": 6
+  }
+]

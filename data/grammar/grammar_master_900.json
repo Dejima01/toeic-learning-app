@@ -1,0 +1,602 @@
+[
+  {
+    "id": "q_grammar_900_001",
+    "question_text": "By the time the contract was signed, the two companies ______ for over a year.",
+    "choices": [
+      "had been negotiating",
+      "have been negotiating",
+      "will have negotiated",
+      "are negotiating"
+    ],
+    "correct_index": 0,
+    "category": "past_perfect_progressive",
+    "category_ja": "過去完了進行形",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_900_002",
+    "question_text": "Ms. Ito accepted the award ______ behalf of the entire design team.",
+    "choices": [
+      "on",
+      "by",
+      "at",
+      "in"
+    ],
+    "correct_index": 0,
+    "category": "prepositions_on_behalf_of",
+    "category_ja": "群前置詞(on behalf of)",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_900_003",
+    "question_text": "______ that the merger is complete, we can focus on system integration.",
+    "choices": [
+      "Since",
+      "Now",
+      "Because",
+      "So"
+    ],
+    "correct_index": 1,
+    "category": "conjunction_now_that",
+    "category_ja": "接続詞(now that)",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_900_004",
+    "question_text": "The laboratory purchased new ______ for the research project.",
+    "choices": [
+      "an equipment",
+      "equipment",
+      "equipments",
+      "equipment's"
+    ],
+    "correct_index": 1,
+    "category": "pos_uncountable_noun",
+    "category_ja": "不可算名詞(equipment等)",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_900_005",
+    "question_text": "The keynote speech is well worth ______ if you have time.",
+    "choices": [
+      "attended",
+      "attend",
+      "to attend",
+      "attending"
+    ],
+    "correct_index": 3,
+    "category": "gerund_worth_doing",
+    "category_ja": "動名詞(worth -ing)",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_900_006",
+    "question_text": "We had the air-conditioning system ______ before the summer season.",
+    "choices": [
+      "to inspect",
+      "inspect",
+      "inspecting",
+      "inspected"
+    ],
+    "correct_index": 3,
+    "category": "causative_have_past_participle",
+    "category_ja": "使役(have+物+過去分詞)",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_900_007",
+    "question_text": "This is the conference room ______ the board meeting will be held.",
+    "choices": [
+      "in which",
+      "where in",
+      "which",
+      "in where"
+    ],
+    "correct_index": 0,
+    "category": "relative_preposition_in_which",
+    "category_ja": "前置詞+関係代名詞(in which)",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_900_008",
+    "question_text": "The director, along with her assistants, ______ attending the awards ceremony.",
+    "choices": [
+      "have",
+      "is",
+      "are",
+      "be"
+    ],
+    "correct_index": 1,
+    "category": "sv_agreement_along_with",
+    "category_ja": "主語と動詞の一致(A along with B)",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_900_009",
+    "question_text": "You ______ have submitted the expense report last week; now it is overdue.",
+    "choices": [
+      "should",
+      "can",
+      "need",
+      "ought"
+    ],
+    "correct_index": 0,
+    "category": "modal_should_have_regret",
+    "category_ja": "助動詞+完了形(should have done・後悔)",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_900_010",
+    "question_text": "______ the sales figures, she noticed several inconsistencies.",
+    "choices": [
+      "Reviewing",
+      "Reviewed",
+      "To reviewing",
+      "Review"
+    ],
+    "correct_index": 0,
+    "category": "participle_construction_present",
+    "category_ja": "分詞構文(現在分詞)",
+    "level": "900",
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_900_011",
+    "question_text": "By the end of this year, Ms. Tan ______ this branch for a decade.",
+    "choices": [
+      "is managing",
+      "will have been managing",
+      "has been managing",
+      "will be managing"
+    ],
+    "correct_index": 1,
+    "category": "future_perfect_progressive",
+    "category_ja": "未来完了進行形",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "id": "q_grammar_900_012",
+    "question_text": "All vendors must comply ______ the updated safety regulations.",
+    "choices": [
+      "at",
+      "to",
+      "with",
+      "for"
+    ],
+    "correct_index": 2,
+    "category": "prepositions_comply_with",
+    "category_ja": "動詞+前置詞(comply with)",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "id": "q_grammar_900_013",
+    "question_text": "The new device is ______ only compact but also energy-efficient.",
+    "choices": [
+      "no",
+      "not",
+      "none",
+      "never"
+    ],
+    "correct_index": 1,
+    "category": "conjunction_not_only_but_also",
+    "category_ja": "相関接続詞(not only A but also B)",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "id": "q_grammar_900_014",
+    "question_text": "The merger will require a ______ amount of paperwork.",
+    "choices": [
+      "considerate",
+      "considered",
+      "considering",
+      "considerable"
+    ],
+    "correct_index": 3,
+    "category": "pos_confusing_adjectives",
+    "category_ja": "紛らわしい形容詞(considerable/considerate)",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "id": "q_grammar_900_015",
+    "question_text": "The documents seem ______ misplaced during last month's office relocation.",
+    "choices": [
+      "having been",
+      "being",
+      "to have been",
+      "to be"
+    ],
+    "correct_index": 2,
+    "category": "infinitive_perfect_to_have_done",
+    "category_ja": "完了不定詞(to have done)",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "id": "q_grammar_900_016",
+    "question_text": "The staff were made ______ overtime during the year-end rush.",
+    "choices": [
+      "worked",
+      "work",
+      "to work",
+      "working"
+    ],
+    "correct_index": 2,
+    "category": "passive_causative_make_to",
+    "category_ja": "使役makeの受動態(be made to do)",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "id": "q_grammar_900_017",
+    "question_text": "______ completes the certification course first will receive a bonus.",
+    "choices": [
+      "Whom",
+      "Anyone",
+      "Whoever",
+      "Those"
+    ],
+    "correct_index": 2,
+    "category": "compound_relative_whoever",
+    "category_ja": "複合関係詞(whoever)",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "id": "q_grammar_900_018",
+    "question_text": "Mr. Diaz ______ have written this code himself; it is far too advanced.",
+    "choices": [
+      "had not",
+      "ought not",
+      "cannot",
+      "does not"
+    ],
+    "correct_index": 2,
+    "category": "modal_cannot_have_deduction",
+    "category_ja": "助動詞+完了形(cannot have done・推量)",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "id": "q_grammar_900_019",
+    "question_text": "______ who wish to attend the seminar should register by Friday.",
+    "choices": [
+      "These",
+      "Those",
+      "They",
+      "Them"
+    ],
+    "correct_index": 1,
+    "category": "pronoun_those_who",
+    "category_ja": "代名詞(those who)",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "id": "q_grammar_900_020",
+    "question_text": "______ in 1985, the firm has grown into a global leader in optics.",
+    "choices": [
+      "Founded",
+      "Found",
+      "Founding",
+      "To found"
+    ],
+    "correct_index": 0,
+    "category": "participle_construction_past",
+    "category_ja": "分詞構文(過去分詞)",
+    "level": "900",
+    "chapter_num": 2
+  },
+  {
+    "id": "q_grammar_900_021",
+    "question_text": "The renovation ______ completed by the time the tenants return.",
+    "choices": [
+      "will have",
+      "has been being",
+      "will being",
+      "will have been"
+    ],
+    "correct_index": 3,
+    "category": "future_perfect_passive",
+    "category_ja": "未来完了受動態",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "id": "q_grammar_900_022",
+    "question_text": "The system upgrade resulted ______ a 20 percent increase in processing speed.",
+    "choices": [
+      "from",
+      "at",
+      "in",
+      "to"
+    ],
+    "correct_index": 2,
+    "category": "prepositions_result_in",
+    "category_ja": "動詞+前置詞(result in)",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "id": "q_grammar_900_023",
+    "question_text": "The shipment was delayed; ______, we still met the project deadline.",
+    "choices": [
+      "nevertheless",
+      "despite",
+      "although",
+      "whereas"
+    ],
+    "correct_index": 0,
+    "category": "pos_conjunctive_adverb",
+    "category_ja": "接続副詞(nevertheless等)",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "id": "q_grammar_900_024",
+    "question_text": "The contractor denied ______ the mandatory safety inspection.",
+    "choices": [
+      "skip",
+      "having skipped",
+      "to skip",
+      "to have skipped"
+    ],
+    "correct_index": 1,
+    "category": "gerund_perfect_having_done",
+    "category_ja": "完了動名詞(having done)",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "id": "q_grammar_900_025",
+    "question_text": "The courier was seen ______ the building through the rear entrance.",
+    "choices": [
+      "to entering",
+      "enter",
+      "entered",
+      "to enter"
+    ],
+    "correct_index": 3,
+    "category": "passive_perception_to_infinitive",
+    "category_ja": "知覚動詞の受動態(be seen to do)",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "id": "q_grammar_900_026",
+    "question_text": "The publisher released three new titles, all ______ sold out within a week.",
+    "choices": [
+      "of which",
+      "of that",
+      "which",
+      "of whom"
+    ],
+    "correct_index": 0,
+    "category": "relative_quantifier_of_which",
+    "category_ja": "数量詞+of which",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "id": "q_grammar_900_027",
+    "question_text": "If we ______ the market research earlier, we could have avoided the losses.",
+    "choices": [
+      "had conducted",
+      "would conduct",
+      "have conducted",
+      "conducted"
+    ],
+    "correct_index": 0,
+    "category": "subjunctive_past_perfect",
+    "category_ja": "仮定法過去完了",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "id": "q_grammar_900_028",
+    "question_text": "The board recommended that the travel policy ______ revised immediately.",
+    "choices": [
+      "was",
+      "has been",
+      "be",
+      "is"
+    ],
+    "correct_index": 2,
+    "category": "subjunctive_mandative_that",
+    "category_ja": "仮定法現在(要求・提案のthat節)",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "id": "q_grammar_900_029",
+    "question_text": "It was the marketing director ______ proposed the rebranding strategy.",
+    "choices": [
+      "which",
+      "whom",
+      "that",
+      "what"
+    ],
+    "correct_index": 2,
+    "category": "cleft_it_is_that",
+    "category_ja": "強調構文(It is ~ that)",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "id": "q_grammar_900_030",
+    "question_text": "______ finished the audit, the team submitted its findings to the CFO.",
+    "choices": [
+      "Have",
+      "Having",
+      "Has",
+      "Had"
+    ],
+    "correct_index": 1,
+    "category": "participle_construction_perfect",
+    "category_ja": "完了分詞構文(Having done)",
+    "level": "900",
+    "chapter_num": 3
+  },
+  {
+    "id": "q_grammar_900_031",
+    "question_text": "The two proposals differ significantly ______ terms of cost and feasibility.",
+    "choices": [
+      "by",
+      "in",
+      "on",
+      "at"
+    ],
+    "correct_index": 1,
+    "category": "prepositions_in_terms_of",
+    "category_ja": "群前置詞(in terms of)",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "id": "q_grammar_900_032",
+    "question_text": "______ the weather been better, the ceremony would have been held outdoors.",
+    "choices": [
+      "Should",
+      "Were",
+      "Had",
+      "If"
+    ],
+    "correct_index": 2,
+    "category": "subjunctive_inversion_had",
+    "category_ja": "仮定法過去完了(if省略の倒置)",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "id": "q_grammar_900_033",
+    "question_text": "If I had accepted that job offer, I ______ in London now.",
+    "choices": [
+      "would have been",
+      "would be",
+      "will be",
+      "am"
+    ],
+    "correct_index": 1,
+    "category": "subjunctive_mixed_conditional",
+    "category_ja": "混合仮定法",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "id": "q_grammar_900_034",
+    "question_text": "Rarely ______ such a generous benefits package.",
+    "choices": [
+      "have seen we",
+      "have we seen",
+      "we have seen",
+      "we saw"
+    ],
+    "correct_index": 1,
+    "category": "inversion_negative_adverb",
+    "category_ja": "否定副詞による倒置(Rarely等)",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "id": "q_grammar_900_035",
+    "question_text": "Only after the audit was completed ______ the accounting errors.",
+    "choices": [
+      "discovered we",
+      "did we discover",
+      "we discovered",
+      "we did discover"
+    ],
+    "correct_index": 1,
+    "category": "inversion_only_after",
+    "category_ja": "Only afterによる倒置",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "id": "q_grammar_900_036",
+    "question_text": "______ had the meeting started than the fire alarm went off.",
+    "choices": [
+      "Hardly",
+      "As soon as",
+      "No sooner",
+      "Scarcely"
+    ],
+    "correct_index": 2,
+    "category": "inversion_no_sooner_than",
+    "category_ja": "倒置(No sooner ~ than)",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "id": "q_grammar_900_037",
+    "question_text": "The announcement ______ the factory would close shocked the employees.",
+    "choices": [
+      "which",
+      "what",
+      "that",
+      "it"
+    ],
+    "correct_index": 2,
+    "category": "appositive_that",
+    "category_ja": "同格のthat",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "id": "q_grammar_900_038",
+    "question_text": "Please report any discrepancies, ______ any, to the accounting department.",
+    "choices": [
+      "whether",
+      "so",
+      "if",
+      "as"
+    ],
+    "correct_index": 2,
+    "category": "ellipsis_if_any",
+    "category_ja": "省略(if any)",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "id": "q_grammar_900_039",
+    "question_text": "All things ______, the product launch was a great success.",
+    "choices": [
+      "consider",
+      "considering",
+      "to consider",
+      "considered"
+    ],
+    "correct_index": 3,
+    "category": "participle_construction_independent",
+    "category_ja": "独立分詞構文(慣用表現)",
+    "level": "900",
+    "chapter_num": 4
+  },
+  {
+    "id": "q_grammar_900_040",
+    "question_text": "He delivered the entire presentation ______ his arms crossed.",
+    "choices": [
+      "during",
+      "while",
+      "with",
+      "as"
+    ],
+    "correct_index": 2,
+    "category": "participle_with_attendant",
+    "category_ja": "付帯状況のwith(with+O+分詞)",
+    "level": "900",
+    "chapter_num": 4
+  }
+]
