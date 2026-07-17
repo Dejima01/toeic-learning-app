@@ -1,0 +1,172 @@
+[
+  {
+    "id": "q_grammar_600_071",
+    "question_text": "If it ______ tomorrow, the event will be moved indoors.",
+    "choices": [
+      "raining",
+      "rained",
+      "will rain",
+      "rains"
+    ],
+    "correct_index": 3,
+    "category": "conditional_first_real",
+    "category_ja": "条件文(if+現在形, will)",
+    "level": "600",
+    "chapter_num": 8,
+    "explanation": "起こりうる未来の条件を表す文では、if の中は未来のことでも現在形を使い、主節で will を使います。ここでも If it rains 〜, ... will ... の形になるので、現在形の rains が正解です。「時・条件を表す if の中では未来形 will を使わない」というルールがポイントです。",
+    "translation": "もし明日雨が降ったら、そのイベントは屋内に移されます。"
+  },
+  {
+    "id": "q_grammar_600_072",
+    "question_text": "We had a long discussion ______ the new marketing plan.",
+    "choices": [
+      "in",
+      "about",
+      "at",
+      "to"
+    ],
+    "correct_index": 1,
+    "category": "prepositions_about_topic",
+    "category_ja": "前置詞(話題のabout)",
+    "level": "600",
+    "chapter_num": 8,
+    "explanation": "「新しいマーケティング計画について」と話題・テーマを表すので、前置詞 about が正解です。about は「〜について」と、話や議論の内容を示すときに使います。a discussion about 〜 で「〜についての議論」という自然なつながりになります。",
+    "translation": "私たちは新しいマーケティング計画について、長い議論をしました。"
+  },
+  {
+    "id": "q_grammar_600_073",
+    "question_text": "The traffic was heavy, ______ we arrived at the meeting late.",
+    "choices": [
+      "because",
+      "so",
+      "if",
+      "or"
+    ],
+    "correct_index": 1,
+    "category": "conjunction_so",
+    "category_ja": "接続詞(so・結果)",
+    "level": "600",
+    "chapter_num": 8,
+    "explanation": "「交通量が多かった」という原因の後に、「会議に遅れて着いた」という結果が続いているので、結果を表す接続詞 so が正解です。so は「だから・その結果」と、前の内容から導かれる結果をつなぎます。because は理由を導く語なので、前後の関係が逆になります。",
+    "translation": "交通量が多かったので、私たちは会議に遅れて到着しました。"
+  },
+  {
+    "id": "q_grammar_600_074",
+    "question_text": "These containers are ______ and eco-friendly.",
+    "choices": [
+      "reusably",
+      "reusable",
+      "reuse",
+      "reusing"
+    ],
+    "correct_index": 1,
+    "category": "pos_adjective_suffix_able",
+    "category_ja": "品詞(形容詞の接尾辞-able)",
+    "level": "600",
+    "chapter_num": 8,
+    "explanation": "空欄はbe動詞 are の後ろにあり、and で形容詞 eco-friendly と並んでいるので、同じく形容詞の reusable(再利用できる)が正解です。動詞 reuse に -able を付けると「〜できる」という意味の形容詞になります。reuse は動詞、reusably は副詞なので、ここには合いません。",
+    "translation": "これらの容器は再利用可能で、環境にやさしいです。"
+  },
+  {
+    "id": "q_grammar_600_075",
+    "question_text": "______ regular exercise is important for your health.",
+    "choices": [
+      "Get",
+      "Gets",
+      "Getting",
+      "Gotten"
+    ],
+    "correct_index": 2,
+    "category": "gerund_as_subject",
+    "category_ja": "動名詞(主語)",
+    "level": "600",
+    "chapter_num": 8,
+    "explanation": "文の主語として「〜すること」という意味を表すには、動名詞〈-ing形〉を使います。ここでは Getting regular exercise(定期的に運動すること)が主語になるので、Getting が正解です。動詞の原形 Get は主語にはなれません。動名詞は文の主語として使える点がポイントです。",
+    "translation": "定期的に運動することは、健康にとって大切です。"
+  },
+  {
+    "id": "q_grammar_600_076",
+    "question_text": "The meeting room is ______ for twenty people.",
+    "choices": [
+      "enough large",
+      "enough largely",
+      "large enough",
+      "largely enough"
+    ],
+    "correct_index": 2,
+    "category": "word_order_enough",
+    "category_ja": "語順(形容詞+enough)",
+    "level": "600",
+    "chapter_num": 8,
+    "explanation": "enough が形容詞を修飾するときは、〈形容詞 + enough〉の語順になります。よって large enough(十分に広い)が正解です。enough large のように enough を前に置くのは誤りです。「形容詞・副詞の後ろに enough」という語順を覚えておきましょう。",
+    "translation": "その会議室は、20人が入るのに十分な広さです。"
+  },
+  {
+    "id": "q_grammar_600_077",
+    "question_text": "This form ______ completed online.",
+    "choices": [
+      "is can",
+      "can",
+      "can being",
+      "can be"
+    ],
+    "correct_index": 3,
+    "category": "passive_modal_can",
+    "category_ja": "受動態(助動詞can+be+過去分詞)",
+    "level": "600",
+    "chapter_num": 8,
+    "explanation": "主語 This form(この用紙)は「記入される」側なので受動態が入り、「オンラインで記入できる」と可能の意味も含みます。助動詞を含む受動態は〈助動詞 + be + 過去分詞〉の形になるので、can be completed となる can be が正解です。助動詞の後ろは動詞の原形なので、be が続く点がポイントです。",
+    "translation": "この用紙はオンラインで記入できます。"
+  },
+  {
+    "id": "q_grammar_600_078",
+    "question_text": "This is the restaurant ______ we held our year-end party.",
+    "choices": [
+      "who",
+      "which",
+      "what",
+      "where"
+    ],
+    "correct_index": 3,
+    "category": "relative_adverb_where",
+    "category_ja": "関係副詞(where)",
+    "level": "600",
+    "chapter_num": 8,
+    "explanation": "空欄の前は the restaurant(場所)で、後ろは we held our year-end party(私たちが忘年会を開いた)と、要素の欠けていない完全な文が続いています。場所を表す先行詞を受けて、後ろに完全な文が続くときは関係副詞 where を使うので、これが正解です。which は後ろに主語や目的語の欠けた文が続く場合に使います。",
+    "translation": "ここが、私たちが忘年会を開いたレストランです。"
+  },
+  {
+    "id": "q_grammar_600_079",
+    "question_text": "Mr. Silva flew ______ Chicago for a conference.",
+    "choices": [
+      "at",
+      "in",
+      "to",
+      "on"
+    ],
+    "correct_index": 2,
+    "category": "prepositions_direction_to",
+    "category_ja": "前置詞(方向のto)",
+    "level": "600",
+    "chapter_num": 8,
+    "explanation": "「シカゴへ(向かって)飛んだ」と、移動の方向・目的地を表すので、前置詞 to が正解です。to は「〜へ・〜まで」と、動作が向かう先を示します。fly to 〜 で「〜へ飛行機で行く」を表します。at や in は場所を表しますが、方向・目的地を示すには合いません。",
+    "translation": "シルバさんは、会議のためにシカゴへ飛行機で行きました。"
+  },
+  {
+    "id": "q_grammar_600_080",
+    "question_text": "The presentation about the new technology was very ______.",
+    "choices": [
+      "interesting",
+      "interested",
+      "interest",
+      "interests"
+    ],
+    "correct_index": 0,
+    "category": "participle_present_adjective",
+    "category_ja": "分詞形容詞(-ing)",
+    "level": "600",
+    "chapter_num": 8,
+    "explanation": "主語は The presentation(物事)で、「(人を)興味深がらせる」という意味を表すので、-ing形の interesting が正解です。物事が「〜させる」側のときは -ing、人が「〜させられる」側のときは -ed を使います。interested(興味を持った)は人が主語のときに使うので、ここでは合いません。",
+    "translation": "新技術についてのそのプレゼンテーションは、とても興味深いものでした。"
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "id": "q_grammar_900_011",
+    "question_text": "By the end of this year, Ms. Tan ______ this branch for a decade.",
+    "choices": [
+      "is managing",
+      "will have been managing",
+      "has been managing",
+      "will be managing"
+    ],
+    "correct_index": 1,
+    "category": "future_perfect_progressive",
+    "category_ja": "未来完了進行形",
+    "level": "900",
+    "chapter_num": 2,
+    "explanation": "「By the end of this year(今年の終わりまでに)」という未来の時点までに、支店運営が10年間続いていることを表すので、未来完了進行形〈will have been + -ing〉の will have been managing が正解です。未来のある時点まで動作が継続することを強調する形です。has been managing は現在完了進行形で、未来の基準時点には合いません。",
+    "translation": "今年の終わりで、タンさんはこの支店を10年間運営してきたことになります。"
+  },
+  {
+    "id": "q_grammar_900_012",
+    "question_text": "All vendors must comply ______ the updated safety regulations.",
+    "choices": [
+      "at",
+      "to",
+      "with",
+      "for"
+    ],
+    "correct_index": 2,
+    "category": "prepositions_comply_with",
+    "category_ja": "動詞+前置詞(comply with)",
+    "level": "900",
+    "chapter_num": 2,
+    "explanation": "動詞 comply は前置詞 with と結びついて、comply with 〜「〜に従う・〜を遵守する」という意味になります。よって with が正解です。「すべての業者は最新の安全規則を遵守しなければならない」という意味になります。comply は to や for ではなく with をとる、という動詞と前置詞の組み合わせで覚えておきましょう。",
+    "translation": "すべての業者は、最新の安全規則を遵守しなければなりません。"
+  },
+  {
+    "id": "q_grammar_900_013",
+    "question_text": "The new device is ______ only compact but also energy-efficient.",
+    "choices": [
+      "no",
+      "not",
+      "none",
+      "never"
+    ],
+    "correct_index": 1,
+    "category": "conjunction_not_only_but_also",
+    "category_ja": "相関接続詞(not only A but also B)",
+    "level": "900",
+    "chapter_num": 2,
+    "explanation": "後ろに but also があることに注目します。〈not only A but also B〉で「AだけでなくBも」を表す相関接続詞なので、not が正解です。but also と呼応するのは not only の not です。no や none は名詞を否定する語で、この相関表現の一部にはなりません。",
+    "translation": "その新しい機器は、小型であるだけでなく、省エネでもあります。"
+  },
+  {
+    "id": "q_grammar_900_014",
+    "question_text": "The merger will require a ______ amount of paperwork.",
+    "choices": [
+      "considerate",
+      "considered",
+      "considering",
+      "considerable"
+    ],
+    "correct_index": 3,
+    "category": "pos_confusing_adjectives",
+    "category_ja": "紛らわしい形容詞(considerable/considerate)",
+    "level": "900",
+    "chapter_num": 2,
+    "explanation": "「かなりの量の書類」という意味なので、「かなりの・相当な」を表す形容詞 considerable が正解です。紛らわしい considerate は「思いやりのある」という意味で、人の性質を表す語なので、量を表すこの文には合いません。considerable(量が多い)と considerate(思いやりがある)の意味の違いが問われる、900点台頻出のひっかけです。",
+    "translation": "その合併には、かなりの量の書類手続きが必要になります。"
+  },
+  {
+    "id": "q_grammar_900_015",
+    "question_text": "The documents seem ______ misplaced during last month's office relocation.",
+    "choices": [
+      "having been",
+      "being",
+      "to have been",
+      "to be"
+    ],
+    "correct_index": 2,
+    "category": "infinitive_perfect_to_have_done",
+    "category_ja": "完了不定詞(to have done)",
+    "level": "900",
+    "chapter_num": 2,
+    "explanation": "「(今)〜のようだ」を表す seem よりも前の時点(先月の移転中)に起きたことを述べているので、〈to have + 過去分詞〉の完了不定詞を使います。さらに書類は「置き忘れられた」側なので受動態になり、to have been misplaced が正解です。述語動詞(seem)よりも前の出来事は、完了不定詞 to have done で表す点がポイントです。",
+    "translation": "その書類は、先月のオフィス移転中に置き忘れられたようです。"
+  },
+  {
+    "id": "q_grammar_900_016",
+    "question_text": "The staff were made ______ overtime during the year-end rush.",
+    "choices": [
+      "worked",
+      "work",
+      "to work",
+      "working"
+    ],
+    "correct_index": 2,
+    "category": "passive_causative_make_to",
+    "category_ja": "使役makeの受動態(be made to do)",
+    "level": "900",
+    "chapter_num": 2,
+    "explanation": "使役動詞 make は能動態では〈make + 人 + 動詞の原形〉ですが、受動態になると原形不定詞が to 付き不定詞に変わり、〈be made to do〉の形になります。よって to work が正解です。「スタッフは残業させられた」という意味になります。能動態の原形が受動態では to 付きになる、という点が問われる難問です。",
+    "translation": "スタッフは、年末の繁忙期に残業をさせられました。"
+  },
+  {
+    "id": "q_grammar_900_017",
+    "question_text": "______ completes the certification course first will receive a bonus.",
+    "choices": [
+      "Whom",
+      "Anyone",
+      "Whoever",
+      "Those"
+    ],
+    "correct_index": 2,
+    "category": "compound_relative_whoever",
+    "category_ja": "複合関係詞(whoever)",
+    "level": "900",
+    "chapter_num": 2,
+    "explanation": "空欄からcourse firstまでが主語のかたまりで、「最初に修了する人は誰でも」という意味を表します。先行詞を含んで「〜する人は誰でも」を表す複合関係代名詞 whoever が正解です。whoever は anyone who とほぼ同じ働きを一語で表します。Anyone は関係詞ではないため、後ろに動詞 completes を直接続けて主語のかたまりを作ることはできません。",
+    "translation": "認定コースを最初に修了した人は、誰でもボーナスを受け取ります。"
+  },
+  {
+    "id": "q_grammar_900_018",
+    "question_text": "Mr. Diaz ______ have written this code himself; it is far too advanced.",
+    "choices": [
+      "had not",
+      "ought not",
+      "cannot",
+      "does not"
+    ],
+    "correct_index": 2,
+    "category": "modal_cannot_have_deduction",
+    "category_ja": "助動詞+完了形(cannot have done・推量)",
+    "level": "900",
+    "chapter_num": 2,
+    "explanation": "「あまりに高度なので、自分で書いたはずがない」という、過去のことへの強い否定的推量を表しています。〈cannot have + 過去分詞〉で「〜したはずがない」を表すので、cannot が正解です。cannot have written で「書いたはずがない」となります。〈must have + 過去分詞〉(〜したにちがいない)の反対の意味を表す表現です。",
+    "translation": "ディアスさんが、このコードを自分で書いたはずがありません。あまりにも高度すぎます。"
+  },
+  {
+    "id": "q_grammar_900_019",
+    "question_text": "______ who wish to attend the seminar should register by Friday.",
+    "choices": [
+      "These",
+      "Those",
+      "They",
+      "Them"
+    ],
+    "correct_index": 1,
+    "category": "pronoun_those_who",
+    "category_ja": "代名詞(those who)",
+    "level": "900",
+    "chapter_num": 2,
+    "explanation": "〈those who + 動詞〉で「〜する人々」を表す決まった言い方なので、Those が正解です。those who wish to attend で「参加を希望する人々」となります。those は「人々」を指す代名詞として who 節を伴い使えます。These は「これら」で人を一般的に指す用法がなく、They や Them は後ろに who 節を続けてこの形を作りません。",
+    "translation": "セミナーへの参加を希望する方は、金曜日までに登録してください。"
+  },
+  {
+    "id": "q_grammar_900_020",
+    "question_text": "______ in 1985, the firm has grown into a global leader in optics.",
+    "choices": [
+      "Founded",
+      "Found",
+      "Founding",
+      "To found"
+    ],
+    "correct_index": 0,
+    "category": "participle_construction_past",
+    "category_ja": "分詞構文(過去分詞)",
+    "level": "900",
+    "chapter_num": 2,
+    "explanation": "主語 the firm は「1985年に設立された」という受動の関係なので、過去分詞で始まる分詞構文にします。よって Founded が正解です。受動の意味を表す分詞構文は過去分詞で始め、ここでは Since it was founded in 1985 〜 とほぼ同じ意味になります。現在分詞 Founding では「会社が設立する」という能動になり、意味が通りません。",
+    "translation": "1985年に設立されて以来、その会社は光学分野の世界的リーダーへと成長しました。"
+  }
+]

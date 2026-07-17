@@ -1,0 +1,172 @@
+[
+  {
+    "id": "q_grammar_900_001",
+    "question_text": "By the time the contract was signed, the two companies ______ for over a year.",
+    "choices": [
+      "had been negotiating",
+      "have been negotiating",
+      "will have negotiated",
+      "are negotiating"
+    ],
+    "correct_index": 0,
+    "category": "past_perfect_progressive",
+    "category_ja": "過去完了進行形",
+    "level": "900",
+    "chapter_num": 1,
+    "explanation": "「契約が結ばれた」という過去の時点までに、交渉が1年以上ずっと続いていたことを表すので、過去完了進行形〈had been + -ing〉の had been negotiating が正解です。過去のある時点を基準に、それ以前から継続していた動作を強調する形です。基準が過去なので、現在完了進行形 have been negotiating は使えません。",
+    "translation": "契約が結ばれた時点で、その2社は1年以上にわたって交渉を続けてきていました。"
+  },
+  {
+    "id": "q_grammar_900_002",
+    "question_text": "Ms. Ito accepted the award ______ behalf of the entire design team.",
+    "choices": [
+      "on",
+      "by",
+      "at",
+      "in"
+    ],
+    "correct_index": 0,
+    "category": "prepositions_on_behalf_of",
+    "category_ja": "群前置詞(on behalf of)",
+    "level": "900",
+    "chapter_num": 1,
+    "explanation": "〈on behalf of + 人/組織〉で「〜を代表して・〜の代わりに」を表す群前置詞です。ここでは on behalf of the entire design team で「デザインチーム全体を代表して」となるので、on が正解です。behalf は on behalf of という決まった形で使われる語で、他の前置詞とは組み合わせません。",
+    "translation": "イトウさんは、デザインチーム全体を代表してその賞を受け取りました。"
+  },
+  {
+    "id": "q_grammar_900_003",
+    "question_text": "______ that the merger is complete, we can focus on system integration.",
+    "choices": [
+      "Since",
+      "Now",
+      "Because",
+      "So"
+    ],
+    "correct_index": 1,
+    "category": "conjunction_now_that",
+    "category_ja": "接続詞(now that)",
+    "level": "900",
+    "chapter_num": 1,
+    "explanation": "空欄の直後に that があることに注目します。〈now that + 主語 + 動詞〉で「今や〜なので・〜した今」という理由を表すので、Now が正解です。now that は「(状況が変わった)今はもう〜だから」というニュアンスを持つ接続詞です。Since や Because は単独で理由を表し、that を伴わないため、直後の that と合いません。",
+    "translation": "合併が完了した今、私たちはシステム統合に専念できます。"
+  },
+  {
+    "id": "q_grammar_900_004",
+    "question_text": "The laboratory purchased new ______ for the research project.",
+    "choices": [
+      "an equipment",
+      "equipment",
+      "equipments",
+      "equipment's"
+    ],
+    "correct_index": 1,
+    "category": "pos_uncountable_noun",
+    "category_ja": "不可算名詞(equipment等)",
+    "level": "900",
+    "chapter_num": 1,
+    "explanation": "equipment(機器・設備)は数えられない不可算名詞なので、複数形の -s を付けたり、a/an を付けたりできません。そのまま equipment とするのが正しいので、これが正解です。equipments や an equipment は不可算名詞の扱いとして誤りです。information や furniture など、同じく不可算名詞として扱う語も一緒に覚えておきましょう。",
+    "translation": "その研究所は、研究プロジェクトのために新しい機器を購入しました。"
+  },
+  {
+    "id": "q_grammar_900_005",
+    "question_text": "The keynote speech is well worth ______ if you have time.",
+    "choices": [
+      "attended",
+      "attend",
+      "to attend",
+      "attending"
+    ],
+    "correct_index": 3,
+    "category": "gerund_worth_doing",
+    "category_ja": "動名詞(worth -ing)",
+    "level": "900",
+    "chapter_num": 1,
+    "explanation": "〈be worth + -ing〉で「〜する価値がある」を表すので、動名詞の attending が正解です。worth は前置詞的に働き、後ろに動名詞をとります。worth to do や worth attend の形にはならない点がポイントです。前の well は「十分に」と worth を強調しています。",
+    "translation": "その基調講演は、時間があればぜひ聴く価値があります。"
+  },
+  {
+    "id": "q_grammar_900_006",
+    "question_text": "We had the air-conditioning system ______ before the summer season.",
+    "choices": [
+      "to inspect",
+      "inspect",
+      "inspecting",
+      "inspected"
+    ],
+    "correct_index": 3,
+    "category": "causative_have_past_participle",
+    "category_ja": "使役(have+物+過去分詞)",
+    "level": "900",
+    "chapter_num": 1,
+    "explanation": "使役動詞 have は〈have + 物 + 過去分詞〉の形で「(物)を〜してもらう・〜させる」を表します。エアコンは「点検される」側なので、過去分詞 inspected が正解です。have the system inspected で「システムを点検してもらう」となります。目的語が「する側」なら原形、「される側」なら過去分詞、という使い分けがポイントです。",
+    "translation": "私たちは夏の時期の前に、空調システムを点検してもらいました。"
+  },
+  {
+    "id": "q_grammar_900_007",
+    "question_text": "This is the conference room ______ the board meeting will be held.",
+    "choices": [
+      "in which",
+      "where in",
+      "which",
+      "in where"
+    ],
+    "correct_index": 0,
+    "category": "relative_preposition_in_which",
+    "category_ja": "前置詞+関係代名詞(in which)",
+    "level": "900",
+    "chapter_num": 1,
+    "explanation": "空欄の後ろは the board meeting will be held と要素の欠けていない完全な文で、「その部屋で(in the room)会議が開かれる」という関係です。前置詞 in と関係代名詞 which がまとまった in which が正解で、関係副詞 where と同じ働きをします。which だけでは前置詞 in が欠け、in where という語順は存在しません。",
+    "translation": "ここが、役員会議が開かれる会議室です。"
+  },
+  {
+    "id": "q_grammar_900_008",
+    "question_text": "The director, along with her assistants, ______ attending the awards ceremony.",
+    "choices": [
+      "have",
+      "is",
+      "are",
+      "be"
+    ],
+    "correct_index": 1,
+    "category": "sv_agreement_along_with",
+    "category_ja": "主語と動詞の一致(A along with B)",
+    "level": "900",
+    "chapter_num": 1,
+    "explanation": "文の主語は The director(単数)で、along with her assistants はコンマで挟まれた挿入句にすぎません。主語が単数なので、動詞は is が正解です。along with / together with / as well as などで付け加えられた語は主語に含めず、動詞はもとの主語に合わせる点がポイントです。直後の assistants につられて are を選ばないよう注意しましょう。",
+    "translation": "部長は、アシスタントたちとともに、その授賞式に出席する予定です。"
+  },
+  {
+    "id": "q_grammar_900_009",
+    "question_text": "You ______ have submitted the expense report last week; now it is overdue.",
+    "choices": [
+      "should",
+      "can",
+      "need",
+      "ought"
+    ],
+    "correct_index": 0,
+    "category": "modal_should_have_regret",
+    "category_ja": "助動詞+完了形(should have done・後悔)",
+    "level": "900",
+    "chapter_num": 1,
+    "explanation": "「先週提出すべきだったのに(しなかった)」という、過去にしなかったことへの後悔・非難を表しています。〈should have + 過去分詞〉で「〜すべきだったのに」を表すので、should が正解です。ought も同じ意味を表せますが ought to have の形になり、to が必要なため、to のないここでは使えません。",
+    "translation": "あなたは先週その経費報告書を提出すべきでした。今では期限切れです。"
+  },
+  {
+    "id": "q_grammar_900_010",
+    "question_text": "______ the sales figures, she noticed several inconsistencies.",
+    "choices": [
+      "Reviewing",
+      "Reviewed",
+      "To reviewing",
+      "Review"
+    ],
+    "correct_index": 0,
+    "category": "participle_construction_present",
+    "category_ja": "分詞構文(現在分詞)",
+    "level": "900",
+    "chapter_num": 1,
+    "explanation": "「売上の数字を見ているときに、彼女はいくつかの矛盾に気づいた」という、主語 she の能動的な動作を分詞構文で表しています。主語が「見る」という能動の関係なので、現在分詞〈-ing形〉の Reviewing が正解です。分詞構文は接続詞と主語を省略し、動詞を -ing 形にして文をつなぐ表現で、ここでは When she reviewed 〜 とほぼ同じ意味になります。",
+    "translation": "売上の数字を見直していて、彼女はいくつかの食い違いに気づきました。"
+  }
+]

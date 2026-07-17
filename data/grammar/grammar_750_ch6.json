@@ -1,0 +1,172 @@
+[
+  {
+    "id": "q_grammar_750_051",
+    "question_text": "By next March, Ms. Ono ______ for this firm for ten years.",
+    "choices": [
+      "will have worked",
+      "has worked",
+      "is working",
+      "will work"
+    ],
+    "correct_index": 0,
+    "category": "future_perfect",
+    "category_ja": "未来完了",
+    "level": "750",
+    "chapter_num": 6,
+    "explanation": "「By next March(来年の3月までに)」という未来の時点までに、勤続10年が完了することを表すので、未来完了〈will have + 過去分詞〉の will have worked が正解です。未来完了は「(未来のある時点までに)〜し終えている・〜し続けていることになる」を表します。By + 未来の時点は未来完了とセットでよく使われます。",
+    "translation": "来年の3月で、オノさんはこの会社に10年間勤めたことになります。"
+  },
+  {
+    "id": "q_grammar_750_052",
+    "question_text": "It rained heavily ______ the night, so the morning game was canceled.",
+    "choices": [
+      "throughout",
+      "while",
+      "onto",
+      "among"
+    ],
+    "correct_index": 0,
+    "category": "prepositions_throughout",
+    "category_ja": "前置詞(throughout)",
+    "level": "750",
+    "chapter_num": 6,
+    "explanation": "「夜通しずっと」と、ある期間の初めから終わりまで続いたことを表すので、前置詞 throughout(〜の間ずっと)が正解です。throughout は後ろに名詞をとり、期間全体にわたることを強調します。while は接続詞なので、後ろには名詞ではなく〈主語+動詞〉の文が必要です。",
+    "translation": "夜通し激しく雨が降ったため、午前中の試合は中止になりました。"
+  },
+  {
+    "id": "q_grammar_750_053",
+    "question_text": "We will begin production ______ the contract is signed.",
+    "choices": [
+      "as soon as",
+      "in order to",
+      "despite",
+      "because of"
+    ],
+    "correct_index": 0,
+    "category": "conjunction_as_soon_as",
+    "category_ja": "接続詞(as soon as)",
+    "level": "750",
+    "chapter_num": 6,
+    "explanation": "「契約が結ばれ次第すぐに」と、ある動作の直後を表しているので、接続詞 as soon as が正解です。as soon as は「〜するとすぐに」という意味で、後ろに〈主語+動詞〉の文を続けます。なお、この as soon as は時を表す副詞節なので、中は未来のことでも現在形(is signed)になっている点にも注目しましょう。",
+    "translation": "契約が結ばれ次第、私たちは生産を開始します。"
+  },
+  {
+    "id": "q_grammar_750_054",
+    "question_text": "Please review the attached sales ______ before the meeting.",
+    "choices": [
+      "reportable",
+      "report",
+      "reportedly",
+      "reported"
+    ],
+    "correct_index": 1,
+    "category": "pos_compound_noun",
+    "category_ja": "品詞(複合名詞)",
+    "level": "750",
+    "chapter_num": 6,
+    "explanation": "空欄には前の名詞 sales と結びついて sales report(売上報告書)という複合名詞を作る名詞が入るので、report が正解です。〈名詞 + 名詞〉で一つの意味のまとまりを作るのが複合名詞です。reportable は形容詞、reportedly は副詞なので、名詞のまとまりを作るこの位置には合いません。",
+    "translation": "会議の前に、添付の売上報告書をご確認ください。"
+  },
+  {
+    "id": "q_grammar_750_055",
+    "question_text": "I wish I ______ how to use this software.",
+    "choices": [
+      "have known",
+      "knew",
+      "will know",
+      "know"
+    ],
+    "correct_index": 1,
+    "category": "subjunctive_wish_past",
+    "category_ja": "仮定法(I wish+過去形)",
+    "level": "750",
+    "chapter_num": 6,
+    "explanation": "〈I wish + 主語 + 過去形〉で「(今)〜であればいいのに」という、現在の事実に反する願望を表します。実際には使い方を知らないという現在の事実の逆を願っているので、過去形の knew が正解です。wish の後ろでは、現在の願望でも過去形を使うのが仮定法のポイントです。",
+    "translation": "このソフトの使い方を知っていればいいのに、と思います。"
+  },
+  {
+    "id": "q_grammar_750_056",
+    "question_text": "You cannot enter the laboratory ______ you have a permit.",
+    "choices": [
+      "unless",
+      "if",
+      "in case",
+      "whether"
+    ],
+    "correct_index": 0,
+    "category": "conditional_unless",
+    "category_ja": "条件文(unless)",
+    "level": "750",
+    "chapter_num": 6,
+    "explanation": "「許可証を持っていない限り、入れない」という意味なので、「〜しない限り・〜でなければ」を表す接続詞 unless が正解です。unless は if ... not(もし〜でなければ)とほぼ同じ意味を、一語で表します。if を選ぶと「許可証を持っていれば入れない」となり、意味が逆になってしまいます。",
+    "translation": "許可証を持っていない限り、その実験室には入れません。"
+  },
+  {
+    "id": "q_grammar_750_057",
+    "question_text": "It was ______ that we had to extend the deadline.",
+    "choices": [
+      "such complex a project",
+      "such a complex project",
+      "a such complex project",
+      "a complex such project"
+    ],
+    "correct_index": 1,
+    "category": "word_order_such_a",
+    "category_ja": "語順(such a+形容詞+名詞)",
+    "level": "750",
+    "chapter_num": 6,
+    "explanation": "such が「そんなに〜な」と名詞のまとまりを強調するときは、〈such + a/an + 形容詞 + 名詞〉の語順になります。よって such a complex project が正解です。such は冠詞 a より前に置く点がポイントで、a such のような語順にはなりません。so を使う場合は so complex a project という別の語順になります。",
+    "translation": "それはとても複雑なプロジェクトだったので、私たちは締め切りを延長せざるを得ませんでした。"
+  },
+  {
+    "id": "q_grammar_750_058",
+    "question_text": "Ms. Perez said that she ______ too busy to attend.",
+    "choices": [
+      "has been",
+      "will be",
+      "was",
+      "is"
+    ],
+    "correct_index": 2,
+    "category": "reported_speech_tense_shift",
+    "category_ja": "話法(時制の一致)",
+    "level": "750",
+    "chapter_num": 6,
+    "explanation": "主節の動詞が said(過去形)なので、that 節の中の動詞も時制を一致させて過去形にします。よって was が正解です。「忙しすぎて参加できない」という発言を過去形 said で伝えているため、is ではなく was になります。主節が過去なら従属節も過去にそろえる、という時制の一致がポイントです。",
+    "translation": "ペレスさんは、忙しすぎて参加できないと言いました。"
+  },
+  {
+    "id": "q_grammar_750_059",
+    "question_text": "All electronic devices must be turned off ______ to takeoff.",
+    "choices": [
+      "ahead",
+      "before",
+      "prior",
+      "previous"
+    ],
+    "correct_index": 2,
+    "category": "prepositions_prior_to",
+    "category_ja": "前置詞(prior to)",
+    "level": "750",
+    "chapter_num": 6,
+    "explanation": "空欄の直後に to があることに注目します。〈prior to + 名詞〉で「〜の前に」を表すので、prior が正解です。prior to takeoff で「離陸前に」となります。before も「〜の前に」ですが、before は後ろに直接名詞をとり to を伴わないため、直後に to があるこの文には prior が適切です。",
+    "translation": "すべての電子機器は、離陸前に電源をお切りください。"
+  },
+  {
+    "id": "q_grammar_750_060",
+    "question_text": "Please contact the HR department ______ your benefits package.",
+    "choices": [
+      "onto",
+      "regarding",
+      "despite",
+      "among"
+    ],
+    "correct_index": 1,
+    "category": "prepositions_regarding",
+    "category_ja": "前置詞(話題のregarding)",
+    "level": "750",
+    "chapter_num": 6,
+    "explanation": "「福利厚生について」と話題・テーマを表すので、前置詞 regarding(〜に関して)が正解です。regarding は about とほぼ同じ意味で、ビジネス文書でよく使われるややかたい表現です。despite(〜にもかかわらず)や among(〜の間で)では、話題を示す意味になりません。",
+    "translation": "福利厚生について、人事部までお問い合わせください。"
+  }
+]

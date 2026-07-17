@@ -1,0 +1,172 @@
+[
+  {
+    "id": "q_grammar_600_051",
+    "question_text": "Ms. Garcia ______ for this company since 2020.",
+    "choices": [
+      "works",
+      "worked",
+      "is work",
+      "has worked"
+    ],
+    "correct_index": 3,
+    "category": "present_perfect_continuation",
+    "category_ja": "現在完了(継続)",
+    "level": "600",
+    "chapter_num": 6,
+    "explanation": "「since 2020(2020年から)」という起点を表す表現があり、過去から現在まで状態が続いていることを表すので、現在完了〈have/has + 過去分詞〉の has worked が正解です。〈since + 過去の一時点〉は現在完了の継続用法とセットで使われます。works(現在形)では「ずっと続いている」というニュアンスが出せません。",
+    "translation": "ガルシアさんは2020年から、この会社で働いています。"
+  },
+  {
+    "id": "q_grammar_600_052",
+    "question_text": "The store is open ______ 9 p.m. every day.",
+    "choices": [
+      "on",
+      "until",
+      "at",
+      "by"
+    ],
+    "correct_index": 1,
+    "category": "prepositions_until",
+    "category_ja": "前置詞(継続のuntil)",
+    "level": "600",
+    "chapter_num": 6,
+    "explanation": "「午後9時まで(ずっと)開いている」という状態の継続を表すので、前置詞 until が正解です。until は「〜までずっと」と、動作や状態がその時点まで続くことを表します。紛らわしい by は「〜までに(期限)」で、1回で終わる動作に使うため、営業時間の継続には合いません。",
+    "translation": "その店は毎日、午後9時まで営業しています。"
+  },
+  {
+    "id": "q_grammar_600_053",
+    "question_text": "Please turn off your computer ______ you leave the office.",
+    "choices": [
+      "before",
+      "during",
+      "until",
+      "by"
+    ],
+    "correct_index": 0,
+    "category": "conjunction_before",
+    "category_ja": "接続詞(before)",
+    "level": "600",
+    "chapter_num": 6,
+    "explanation": "空欄の後ろに〈主語 + 動詞〉(you leave)が続き、「退社する前に」と時の前後関係を表しているので、接続詞 before が正解です。before は後ろに文を続けて「〜する前に」を表します。during は前置詞で、後ろに名詞しか置けないため、文を続けることはできません。",
+    "translation": "退社する前に、コンピューターの電源を切ってください。"
+  },
+  {
+    "id": "q_grammar_600_054",
+    "question_text": "______ you send me the file again, please?",
+    "choices": [
+      "May",
+      "Shall",
+      "Must",
+      "Could"
+    ],
+    "correct_index": 3,
+    "category": "modal_could_polite_request",
+    "category_ja": "助動詞(could・丁寧な依頼)",
+    "level": "600",
+    "chapter_num": 6,
+    "explanation": "「もう一度ファイルを送っていただけますか」と、相手に丁寧に依頼する場面なので、助動詞 Could が正解です。Could you 〜? は「〜していただけますか」と丁寧に頼む決まった言い方です。May I 〜? は自分が許可を求める形なので、相手にお願いするこの文には合いません。",
+    "translation": "もう一度そのファイルを送っていただけますか。"
+  },
+  {
+    "id": "q_grammar_600_055",
+    "question_text": "The ______ of the new system will begin next month.",
+    "choices": [
+      "developed",
+      "develop",
+      "developing",
+      "development"
+    ],
+    "correct_index": 3,
+    "category": "pos_noun_suffix_ment",
+    "category_ja": "品詞(名詞の接尾辞-ment)",
+    "level": "600",
+    "chapter_num": 6,
+    "explanation": "空欄は前に The、後ろに of があり、文の主語となる名詞が入る位置です。よって名詞の development(開発)が正解です。develop は動詞で、-ment を付けると名詞になります。動詞の develop や -ing 形の developing は、この主語の位置には置けません。",
+    "translation": "新しいシステムの開発は、来月から始まります。"
+  },
+  {
+    "id": "q_grammar_600_056",
+    "question_text": "Have you finished ______ the sales data?",
+    "choices": [
+      "to analyze",
+      "analyze",
+      "analyzed",
+      "analyzing"
+    ],
+    "correct_index": 3,
+    "category": "gerund_after_finish",
+    "category_ja": "動名詞(finish -ing)",
+    "level": "600",
+    "chapter_num": 6,
+    "explanation": "動詞 finish は、後ろに動名詞〈-ing形〉をとって「〜し終える」を表すので、analyzing が正解です。finish は不定詞(to analyze)を目的語にとらず、必ず動名詞をとる動詞です。enjoy などと同じグループとして覚えておきましょう。",
+    "translation": "売上データの分析はもう終わりましたか。"
+  },
+  {
+    "id": "q_grammar_600_057",
+    "question_text": "Everyone in the office ______ the new coffee machine.",
+    "choices": [
+      "likes",
+      "liking",
+      "are liking",
+      "like"
+    ],
+    "correct_index": 0,
+    "category": "sv_agreement_everyone_singular",
+    "category_ja": "主語と動詞の一致(everyone)",
+    "level": "600",
+    "chapter_num": 6,
+    "explanation": "everyone は「みんな」と大勢を指しますが、文法上は単数扱いなので、動詞は三人称単数の likes が正解です。in the office は everyone を修飾する部分にすぎません。意味につられて複数扱いの like を選ばないよう注意しましょう。",
+    "translation": "オフィスのみんなが、その新しいコーヒーマシンを気に入っています。"
+  },
+  {
+    "id": "q_grammar_600_058",
+    "question_text": "This report was written ______ Mr. Yamada.",
+    "choices": [
+      "from",
+      "by",
+      "of",
+      "with"
+    ],
+    "correct_index": 1,
+    "category": "passive_with_by_agent",
+    "category_ja": "受動態(行為者のby)",
+    "level": "600",
+    "chapter_num": 6,
+    "explanation": "受動態〈be動詞 + 過去分詞〉の文で「誰によって〜されたか」という行為者を示すときは、前置詞 by を使います。ここでは「山田さんによって書かれた」という意味なので、by が正解です。受動態の行為者は〈by + 人〉で表すのが基本です。",
+    "translation": "この報告書は山田さんによって書かれました。"
+  },
+  {
+    "id": "q_grammar_600_059",
+    "question_text": "This is the laptop ______ I bought last week.",
+    "choices": [
+      "who",
+      "whose",
+      "what",
+      "that"
+    ],
+    "correct_index": 3,
+    "category": "relative_pronoun_that",
+    "category_ja": "関係代名詞(that)",
+    "level": "600",
+    "chapter_num": 6,
+    "explanation": "空欄は前の the laptop(物)を説明する関係代名詞で、後ろは I bought(私が買った)と目的語が欠けた文が続きます。先行詞が「物」で目的格なので、that が正解です(which も可)。who は「人」に使い、what は先行詞をとらないため、ここでは使えません。",
+    "translation": "これは私が先週買ったノートパソコンです。"
+  },
+  {
+    "id": "q_grammar_600_060",
+    "question_text": "The seminar will run ______ 1 p.m. to 5 p.m.",
+    "choices": [
+      "since",
+      "between",
+      "from",
+      "at"
+    ],
+    "correct_index": 2,
+    "category": "prepositions_from_to",
+    "category_ja": "前置詞(from A to B)",
+    "level": "600",
+    "chapter_num": 6,
+    "explanation": "後ろに to 5 p.m. があることに注目します。〈from A to B〉で「AからBまで」という範囲を表すので、from が正解です。「午後1時から午後5時まで」という開始と終了の両方を示します。since は「〜以来ずっと」で継続を表すため、to と組み合わせる範囲表現には合いません。",
+    "translation": "そのセミナーは午後1時から午後5時まで行われます。"
+  }
+]

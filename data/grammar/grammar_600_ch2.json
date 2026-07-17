@@ -1,0 +1,172 @@
+[
+  {
+    "id": "q_grammar_600_011",
+    "question_text": "Ms. Sato ______ the client yesterday afternoon.",
+    "choices": [
+      "will visit",
+      "visited",
+      "visits",
+      "visit"
+    ],
+    "correct_index": 1,
+    "category": "past_simple_regular",
+    "category_ja": "過去形(規則動詞)",
+    "level": "600",
+    "chapter_num": 2,
+    "explanation": "「yesterday afternoon(昨日の午後)」という過去を表す時間表現があるので、過去形の visited が正解です。visit は規則動詞なので、語尾に -ed を付けて過去形を作ります。will visit は未来、visits は現在形なので、過去の内容には合いません。",
+    "translation": "佐藤さんは昨日の午後、その顧客を訪問しました。"
+  },
+  {
+    "id": "q_grammar_600_012",
+    "question_text": "We stayed at a small hotel. ______ hotel was near the beach.",
+    "choices": [
+      "A",
+      "Some",
+      "The",
+      "An"
+    ],
+    "correct_index": 2,
+    "category": "articles_the",
+    "category_ja": "冠詞(the)",
+    "level": "600",
+    "chapter_num": 2,
+    "explanation": "前の文で a small hotel と一度登場したホテルを、2文目で「そのホテル」と受けています。すでに話題に出た特定のものを指すときは、定冠詞 the を使うので The が正解です。初めて登場するときは a、2回目以降は the という使い分けがポイントです。",
+    "translation": "私たちは小さなホテルに泊まりました。そのホテルはビーチの近くにありました。"
+  },
+  {
+    "id": "q_grammar_600_013",
+    "question_text": "The workshop will be held ______ Monday.",
+    "choices": [
+      "in",
+      "on",
+      "at",
+      "for"
+    ],
+    "correct_index": 1,
+    "category": "prepositions_time_on",
+    "category_ja": "前置詞(時のon)",
+    "level": "600",
+    "chapter_num": 2,
+    "explanation": "Monday のような曜日を表すときは、前置詞 on を使います。at は時刻、in は月・年・季節に使うので、曜日には合いません。「on + 曜日/日付」はTOEIC頻出の基本パターンです。",
+    "translation": "そのワークショップは月曜日に開催されます。"
+  },
+  {
+    "id": "q_grammar_600_014",
+    "question_text": "The product is expensive, ______ it is very popular.",
+    "choices": [
+      "or",
+      "and",
+      "because",
+      "but"
+    ],
+    "correct_index": 3,
+    "category": "conjunction_but",
+    "category_ja": "接続詞(but)",
+    "level": "600",
+    "chapter_num": 2,
+    "explanation": "「値段が高い」と「とても人気がある」という対立する内容をつないでいるので、逆接の接続詞 but が正解です。but は「しかし・だが」と、前後で相反する内容を結びます。and(順接)や because(理由)では、この対比の関係を表せません。",
+    "translation": "その製品は高価ですが、とても人気があります。"
+  },
+  {
+    "id": "q_grammar_600_015",
+    "question_text": "All visitors ______ wear an ID badge inside the building.",
+    "choices": [
+      "would",
+      "may",
+      "can",
+      "must"
+    ],
+    "correct_index": 3,
+    "category": "modal_must_obligation",
+    "category_ja": "助動詞(must・義務)",
+    "level": "600",
+    "chapter_num": 2,
+    "explanation": "「建物内ではIDバッジを着用しなければならない」という義務・規則を表すので、助動詞 must が正解です。must は「〜しなければならない」という強い義務を表します。may(〜してもよい)や can(〜できる)では義務の意味になりません。",
+    "translation": "すべての来訪者は、建物内ではIDバッジを着用しなければなりません。"
+  },
+  {
+    "id": "q_grammar_600_016",
+    "question_text": "The documents you requested ______ on your desk.",
+    "choices": [
+      "are",
+      "is",
+      "been",
+      "be"
+    ],
+    "correct_index": 0,
+    "category": "sv_agreement_plural_subject",
+    "category_ja": "主語と動詞の一致(複数主語)",
+    "level": "600",
+    "chapter_num": 2,
+    "explanation": "この文の主語は The documents(複数)で、you requested は documents を修飾する部分です。主語が複数なので、be動詞は are が正解です。been や be は単独で文の動詞にならないため不適切です。",
+    "translation": "あなたが依頼した書類は、あなたの机の上にあります。"
+  },
+  {
+    "id": "q_grammar_600_017",
+    "question_text": "Sales increased ______ in the last quarter.",
+    "choices": [
+      "significantly",
+      "significant",
+      "significance",
+      "signify"
+    ],
+    "correct_index": 0,
+    "category": "pos_adverb_suffix_ly",
+    "category_ja": "品詞(-ly副詞の語形成)",
+    "level": "600",
+    "chapter_num": 2,
+    "explanation": "空欄は動詞 increased(増加した)を修飾しているので、動詞を修飾する副詞 significantly が正解です。significant は形容詞、significance は名詞、signify は動詞なので、動詞を修飾する働きには合いません。多くの副詞は形容詞に -ly を付けて作ります。",
+    "translation": "前四半期に、売上は大幅に増加しました。"
+  },
+  {
+    "id": "q_grammar_600_018",
+    "question_text": "Mr. Brown ______ a phone call right now.",
+    "choices": [
+      "is making",
+      "make",
+      "makes",
+      "made"
+    ],
+    "correct_index": 0,
+    "category": "present_continuous",
+    "category_ja": "現在進行形",
+    "level": "600",
+    "chapter_num": 2,
+    "explanation": "「right now(たった今)」という、今まさに進行中であることを表す表現があるので、現在進行形の is making が正解です。現在進行形は「be動詞 + 動詞のing形」で「〜している最中だ」を表します。makes(現在形)や made(過去形)では、今進行中の動作を表せません。",
+    "translation": "ブラウンさんは今、電話中です。"
+  },
+  {
+    "id": "q_grammar_600_019",
+    "question_text": "Let's meet ______ the main entrance at seven.",
+    "choices": [
+      "on",
+      "of",
+      "in",
+      "at"
+    ],
+    "correct_index": 3,
+    "category": "prepositions_place_at",
+    "category_ja": "前置詞(場所のat)",
+    "level": "600",
+    "chapter_num": 2,
+    "explanation": "「正面玄関で」のように、待ち合わせの地点をピンポイントで示すときは、前置詞 at を使います。in は「広がりのある空間の中」、on は「接触・表面」を表すため、地点を表す at が適切です。「at + 地点」で「〜で」を表します。",
+    "translation": "7時に正面玄関で会いましょう。"
+  },
+  {
+    "id": "q_grammar_600_020",
+    "question_text": "This is the ______ building in the city.",
+    "choices": [
+      "taller",
+      "tall",
+      "most tall",
+      "tallest"
+    ],
+    "correct_index": 3,
+    "category": "superlative_est",
+    "category_ja": "最上級(-est)",
+    "level": "600",
+    "chapter_num": 2,
+    "explanation": "「the ___ building in the city(市内で最も〜な建物)」と、範囲の中で一番であることを表すので、最上級が入ります。tall は短い単語なので、most をつけず -est を付けて tallest とします(most tall は誤り)。直前の the も最上級の目印です。",
+    "translation": "これは市内で最も高い建物です。"
+  }
+]

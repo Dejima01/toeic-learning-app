@@ -1,0 +1,172 @@
+[
+  {
+    "id": "q_grammar_750_011",
+    "question_text": "Mr. Cole ______ this company in 2015.",
+    "choices": [
+      "has been joining",
+      "joined",
+      "joins",
+      "has joined"
+    ],
+    "correct_index": 1,
+    "category": "tense_present_perfect_vs_past",
+    "category_ja": "現在完了と過去形の使い分け",
+    "level": "750",
+    "chapter_num": 2,
+    "explanation": "「in 2015」という、過去のはっきりした一時点を示す表現があるので、過去形の joined が正解です。現在完了(has joined)は、yesterday や in 2015 のような明確な過去を表す語とは一緒に使えません。過去の特定時点が示されているときは過去形を使う、というのがこの問題のポイントです。",
+    "translation": "コールさんは2015年にこの会社に入社しました。"
+  },
+  {
+    "id": "q_grammar_750_012",
+    "question_text": "The delay in shipping was ______ a system error.",
+    "choices": [
+      "despite of",
+      "owing",
+      "because",
+      "due to"
+    ],
+    "correct_index": 3,
+    "category": "prepositions_due_to",
+    "category_ja": "前置詞(原因のdue to)",
+    "level": "750",
+    "chapter_num": 2,
+    "explanation": "「システムエラーが原因で」と理由を表し、後ろに名詞(a system error)が続くので、群前置詞 due to が正解です。due to は「〜が原因で・〜のために」を表し、後ろに名詞をとります。because は接続詞で、後ろには〈主語+動詞〉の文が必要なため、名詞の前には置けません。",
+    "translation": "配送の遅れは、システムエラーが原因でした。"
+  },
+  {
+    "id": "q_grammar_750_013",
+    "question_text": "______ you complete the training, you will receive a certificate.",
+    "choices": [
+      "During",
+      "Until",
+      "Once",
+      "Despite"
+    ],
+    "correct_index": 2,
+    "category": "conjunction_once",
+    "category_ja": "接続詞(once)",
+    "level": "750",
+    "chapter_num": 2,
+    "explanation": "「いったん研修を修了すれば」と、ある動作が完了した後の条件を表しているので、接続詞 Once が正解です。once は「いったん〜すると・〜するとすぐに」という意味で、後ろに〈主語+動詞〉の文を続けます。During や Despite は前置詞なので、後ろに文を続けることはできません。",
+    "translation": "研修を修了すれば、修了証が授与されます。"
+  },
+  {
+    "id": "q_grammar_750_014",
+    "question_text": "Your ______ at the annual meeting is highly appreciated.",
+    "choices": [
+      "attendance",
+      "attend",
+      "attendant",
+      "attended"
+    ],
+    "correct_index": 0,
+    "category": "pos_noun_suffix_ance",
+    "category_ja": "品詞(名詞の接尾辞-ance)",
+    "level": "750",
+    "chapter_num": 2,
+    "explanation": "空欄は所有格 Your の後ろにあり、文の主語となる名詞が入る位置です。よって名詞の attendance(出席)が正解です。動詞 attend に -ance を付けると名詞になります。attendant も名詞ですが「案内係・接客係」という人を表す語なので、「出席」という意味のこの文脈には attendance が適切です。",
+    "translation": "年次総会へのご出席、誠にありがとうございます。"
+  },
+  {
+    "id": "q_grammar_750_015",
+    "question_text": "Please remember ______ the door when you leave the office.",
+    "choices": [
+      "locking",
+      "locked",
+      "lock",
+      "to lock"
+    ],
+    "correct_index": 3,
+    "category": "verb_remember_to",
+    "category_ja": "不定詞と動名詞(remember to do)",
+    "level": "750",
+    "chapter_num": 2,
+    "explanation": "remember to do は「(これから)〜するのを忘れない」という、未来の動作を表します。ここは「退社時に施錠するのを忘れないで」という意味なので、不定詞の to lock が正解です。remember -ing は「(過去に)〜したのを覚えている」と意味が変わるため、これから行う動作には不定詞を使います。",
+    "translation": "退社するときは、忘れずにドアの鍵をかけてください。"
+  },
+  {
+    "id": "q_grammar_750_016",
+    "question_text": "Ms. Hall ______ promoted to regional manager last month.",
+    "choices": [
+      "got",
+      "went",
+      "came",
+      "made"
+    ],
+    "correct_index": 0,
+    "category": "passive_get",
+    "category_ja": "受動態(get+過去分詞)",
+    "level": "750",
+    "chapter_num": 2,
+    "explanation": "主語 Ms. Hall は「昇進させられた=昇進した」側なので受動態が入ります。受動態は be動詞のほかに get を使って〈get + 過去分詞〉の形でも表せ、口語的に「〜される」を表します。ここでは got promoted で「昇進した」となるので、got が正解です。went や came は過去分詞 promoted と結びついて受動態を作ることはできません。",
+    "translation": "ホールさんは先月、地域マネージャーに昇進しました。"
+  },
+  {
+    "id": "q_grammar_750_017",
+    "question_text": "______ we need right now is more accurate data.",
+    "choices": [
+      "What",
+      "Which",
+      "Who",
+      "That"
+    ],
+    "correct_index": 0,
+    "category": "relative_pronoun_what",
+    "category_ja": "関係代名詞(what)",
+    "level": "750",
+    "chapter_num": 2,
+    "explanation": "空欄から need までが文の主語のかたまりで、その前に先行詞となる名詞がありません。先行詞を含んで「〜すること・〜するもの」を表す関係代名詞 what が正解です。What we need で「私たちが必要とするもの」という名詞のかたまりを作ります。which や that は前に先行詞となる名詞が必要なので、ここでは使えません。",
+    "translation": "私たちが今まさに必要としているのは、より正確なデータです。"
+  },
+  {
+    "id": "q_grammar_750_018",
+    "question_text": "You ______ better book a hotel room before prices go up.",
+    "choices": [
+      "should",
+      "have",
+      "had",
+      "would"
+    ],
+    "correct_index": 2,
+    "category": "modal_had_better",
+    "category_ja": "助動詞相当(had better)",
+    "level": "750",
+    "chapter_num": 2,
+    "explanation": "空欄の直後に better があることに注目します。〈had better + 動詞の原形〉で「〜したほうがよい(さもないと困る)」という強めの助言を表すので、had が正解です。had better は形の上では had ですが、現在や未来のことに使います。should better のような言い方はしない点に注意しましょう。",
+    "translation": "値段が上がる前に、ホテルの部屋を予約しておいたほうがよいですよ。"
+  },
+  {
+    "id": "q_grammar_750_019",
+    "question_text": "It ______ about two hours to get to the airport from here.",
+    "choices": [
+      "spends",
+      "needs",
+      "takes",
+      "costs"
+    ],
+    "correct_index": 2,
+    "category": "it_takes_time",
+    "category_ja": "It takes+時間+to do",
+    "level": "750",
+    "chapter_num": 2,
+    "explanation": "〈It takes + 時間 + to do〉で「〜するのに(時間が)かかる」を表す構文です。時間について「かかる」というときは take を使うので、takes が正解です。spend は「(人が)お金・時間を費やす」で主語が人になり、cost は主に「(お金が)かかる」ときに使うため、この時間を表す構文には合いません。",
+    "translation": "ここから空港まで行くのに、約2時間かかります。"
+  },
+  {
+    "id": "q_grammar_750_020",
+    "question_text": "The woman ______ the presentation is our new CEO.",
+    "choices": [
+      "giving",
+      "give",
+      "gave",
+      "given"
+    ],
+    "correct_index": 0,
+    "category": "participle_postmodifying_present",
+    "category_ja": "現在分詞の後置修飾",
+    "level": "750",
+    "chapter_num": 2,
+    "explanation": "The woman(女性)が「プレゼンをしている」という能動の関係なので、現在分詞〈-ing形〉の giving が名詞を後ろから修飾します。よって giving が正解です。giving the presentation が the woman を説明し、「プレゼンをしている女性」となります。過去分詞 given は「〜される」という受動の意味になるため、ここでは合いません。",
+    "translation": "プレゼンテーションをしている女性が、私たちの新しいCEOです。"
+  }
+]

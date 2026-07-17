@@ -1,0 +1,172 @@
+[
+  {
+    "id": "q_grammar_900_031",
+    "question_text": "The two proposals differ significantly ______ terms of cost and feasibility.",
+    "choices": [
+      "by",
+      "in",
+      "on",
+      "at"
+    ],
+    "correct_index": 1,
+    "category": "prepositions_in_terms_of",
+    "category_ja": "群前置詞(in terms of)",
+    "level": "900",
+    "chapter_num": 4,
+    "explanation": "〈in terms of + 名詞〉で「〜の点で・〜に関して」を表す群前置詞です。ここでは in terms of cost and feasibility で「費用と実現可能性の点で」となるので、in が正解です。in terms of は決まった形で使われる表現で、他の前置詞には置き換えられません。",
+    "translation": "その2つの提案は、費用と実現可能性の点で大きく異なります。"
+  },
+  {
+    "id": "q_grammar_900_032",
+    "question_text": "______ the weather been better, the ceremony would have been held outdoors.",
+    "choices": [
+      "Should",
+      "Were",
+      "Had",
+      "If"
+    ],
+    "correct_index": 2,
+    "category": "subjunctive_inversion_had",
+    "category_ja": "仮定法過去完了(if省略の倒置)",
+    "level": "900",
+    "chapter_num": 4,
+    "explanation": "これは仮定法過去完了の文で、主節が would have been held となっています。仮定法過去完了で if を省略すると、had が主語の前に出る倒置が起こります。元の If the weather had been better から if を省き had を前に出した形なので、Had が正解です。文頭に Had があれば「if 省略の倒置」と見抜くのがポイントです。",
+    "translation": "天気がもっと良ければ、その式典は屋外で開催されていたでしょう。"
+  },
+  {
+    "id": "q_grammar_900_033",
+    "question_text": "If I had accepted that job offer, I ______ in London now.",
+    "choices": [
+      "would have been",
+      "would be",
+      "will be",
+      "am"
+    ],
+    "correct_index": 1,
+    "category": "subjunctive_mixed_conditional",
+    "category_ja": "混合仮定法",
+    "level": "900",
+    "chapter_num": 4,
+    "explanation": "if の中は had accepted(過去完了=過去の事実に反する仮定)ですが、主節には now(今)があり現在のことを述べています。過去の仮定が現在に及ぼす結果を表すこの混合仮定法では、主節を〈would + 動詞の原形〉にするので、would be が正解です。過去なら would have been ですが、now があるため現在の形になる点が最大のポイントです。",
+    "translation": "もしあの仕事のオファーを受けていたら、私は今ごろロンドンにいるでしょう。"
+  },
+  {
+    "id": "q_grammar_900_034",
+    "question_text": "Rarely ______ such a generous benefits package.",
+    "choices": [
+      "have seen we",
+      "have we seen",
+      "we have seen",
+      "we saw"
+    ],
+    "correct_index": 1,
+    "category": "inversion_negative_adverb",
+    "category_ja": "否定副詞による倒置(Rarely等)",
+    "level": "900",
+    "chapter_num": 4,
+    "explanation": "Rarely(めったに〜ない)のような否定的な意味の副詞が文頭に出ると、その後は疑問文と同じ〈助動詞 + 主語 + 動詞〉の倒置の語順になります。現在完了の文なので、have we seen が正解です。文頭の否定副詞(Rarely / Seldom / Never / Little など)を見たら倒置、と覚えておきましょう。",
+    "translation": "これほど手厚い福利厚生を、私たちはめったに見たことがありません。"
+  },
+  {
+    "id": "q_grammar_900_035",
+    "question_text": "Only after the audit was completed ______ the accounting errors.",
+    "choices": [
+      "discovered we",
+      "did we discover",
+      "we discovered",
+      "we did discover"
+    ],
+    "correct_index": 1,
+    "category": "inversion_only_after",
+    "category_ja": "Only afterによる倒置",
+    "level": "900",
+    "chapter_num": 4,
+    "explanation": "〈Only + 副詞句〉が文頭に出ると、その後は〈助動詞 + 主語 + 動詞〉の倒置の語順になります。過去の一般動詞の文なので、do の過去形 did を使った did we discover が正解です。Only after 〜(〜して初めて)のように Only で始まる副詞句が前に出ると倒置が起こる、という点がポイントです。",
+    "translation": "監査が完了して初めて、私たちは会計上の誤りを発見しました。"
+  },
+  {
+    "id": "q_grammar_900_036",
+    "question_text": "______ had the meeting started than the fire alarm went off.",
+    "choices": [
+      "Hardly",
+      "As soon as",
+      "No sooner",
+      "Scarcely"
+    ],
+    "correct_index": 2,
+    "category": "inversion_no_sooner_than",
+    "category_ja": "倒置(No sooner ~ than)",
+    "level": "900",
+    "chapter_num": 4,
+    "explanation": "後ろに than があることに注目します。〈No sooner had + 主語 + 過去分詞 ~ than ...〉で「~するやいなや…した」を表すので、No sooner が正解です。No sooner が文頭に出て倒置(had the meeting started)が起こり、than と呼応します。Hardly や Scarcely も似た構文を作りますが、それらは than ではなく when と呼応するため、than があるここでは No sooner が適切です。",
+    "translation": "会議が始まるやいなや、火災報知器が鳴りました。"
+  },
+  {
+    "id": "q_grammar_900_037",
+    "question_text": "The announcement ______ the factory would close shocked the employees.",
+    "choices": [
+      "which",
+      "what",
+      "that",
+      "it"
+    ],
+    "correct_index": 2,
+    "category": "appositive_that",
+    "category_ja": "同格のthat",
+    "level": "900",
+    "chapter_num": 4,
+    "explanation": "The announcement(発表)の具体的な中身を「工場が閉鎖されるという(発表)」と説明しています。名詞の内容を後ろから説明する同格の that なので、これが正解です。同格の that の後ろは要素の欠けていない完全な文が続きます。関係代名詞 which なら後ろの文に主語や目的語の欠けが生じるはずですが、ここは完全な文なので同格の that が適切です。",
+    "translation": "工場が閉鎖されるという発表は、従業員に衝撃を与えました。"
+  },
+  {
+    "id": "q_grammar_900_038",
+    "question_text": "Please report any discrepancies, ______ any, to the accounting department.",
+    "choices": [
+      "whether",
+      "so",
+      "if",
+      "as"
+    ],
+    "correct_index": 2,
+    "category": "ellipsis_if_any",
+    "category_ja": "省略(if any)",
+    "level": "900",
+    "chapter_num": 4,
+    "explanation": "if any は「もしあれば」を表す慣用表現で、if there are any (discrepancies) の主語・動詞が省略された形です。よって if が正解です。「相違点があれば(それを)報告してください」という意味を添えます。〈if + any / necessary / possible〉のように、if の後ろの〈主語+be動詞〉が省略される形は900点台で頻出です。",
+    "translation": "相違点があれば、それを経理部までご報告ください。"
+  },
+  {
+    "id": "q_grammar_900_039",
+    "question_text": "All things ______, the product launch was a great success.",
+    "choices": [
+      "consider",
+      "considering",
+      "to consider",
+      "considered"
+    ],
+    "correct_index": 3,
+    "category": "participle_construction_independent",
+    "category_ja": "独立分詞構文(慣用表現)",
+    "level": "900",
+    "chapter_num": 4,
+    "explanation": "All things considered は「すべてを考慮すると」を表す独立分詞構文の慣用表現です。All things(すべてのこと)は「考慮される」側なので、過去分詞 considered を使うのが正しく、これが正解です。分詞構文の主語(All things)が主節の主語と異なるため、分詞の前に主語を残した独立分詞構文になっています。慣用句としてそのまま覚えておきましょう。",
+    "translation": "すべてを考慮すると、その製品発表は大成功でした。"
+  },
+  {
+    "id": "q_grammar_900_040",
+    "question_text": "He delivered the entire presentation ______ his arms crossed.",
+    "choices": [
+      "during",
+      "while",
+      "with",
+      "as"
+    ],
+    "correct_index": 2,
+    "category": "participle_with_attendant",
+    "category_ja": "付帯状況のwith(with+O+分詞)",
+    "level": "900",
+    "chapter_num": 4,
+    "explanation": "〈with + 目的語 + 分詞〉で「〜を…した状態で」という付帯状況を表します。ここでは with his arms crossed で「腕を組んだ状態で」となるので、with が正解です。腕は「組まれる」側なので過去分詞 crossed が使われています。during や while は後ろにこの〈目的語+分詞〉の形をとらないため、付帯状況を表すには with が適切です。",
+    "translation": "彼は腕を組んだ状態で、プレゼンテーション全体を行いました。"
+  }
+]

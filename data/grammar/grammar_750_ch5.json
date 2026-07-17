@@ -1,0 +1,172 @@
+[
+  {
+    "id": "q_grammar_750_041",
+    "question_text": "This time tomorrow, I ______ to New York for the conference.",
+    "choices": [
+      "have flown",
+      "am flown",
+      "fly",
+      "will be flying"
+    ],
+    "correct_index": 3,
+    "category": "future_progressive",
+    "category_ja": "未来進行形",
+    "level": "750",
+    "chapter_num": 5,
+    "explanation": "「This time tomorrow(明日の今ごろ)」という未来のある時点で、動作が進行中であることを表すので、未来進行形〈will be + -ing〉の will be flying が正解です。未来進行形は「(未来のある時点で)〜しているだろう」を表します。単なる未来形ではなく、その時に進行中である点を強調する形です。",
+    "translation": "明日の今ごろ、私は会議のためにニューヨークへ向かって飛んでいるでしょう。"
+  },
+  {
+    "id": "q_grammar_750_042",
+    "question_text": "We decided to take the train ______ of driving.",
+    "choices": [
+      "in spite",
+      "instead",
+      "in case",
+      "because"
+    ],
+    "correct_index": 1,
+    "category": "prepositions_instead_of",
+    "category_ja": "前置詞(instead of)",
+    "level": "750",
+    "chapter_num": 5,
+    "explanation": "空欄の直後に of があることに注目します。〈instead of + 名詞/動名詞〉で「〜の代わりに・〜せずに」を表すので、instead が正解です。ここでは instead of driving で「車で行く代わりに」となります。in spite も of を伴いますが in spite of は「〜にもかかわらず」で意味が異なります。",
+    "translation": "私たちは車で行く代わりに、電車に乗ることにしました。"
+  },
+  {
+    "id": "q_grammar_750_043",
+    "question_text": "We haven't decided ______ we will attend the trade fair.",
+    "choices": [
+      "during",
+      "whether",
+      "despite",
+      "about"
+    ],
+    "correct_index": 1,
+    "category": "conjunction_whether",
+    "category_ja": "接続詞(whether)",
+    "level": "750",
+    "chapter_num": 5,
+    "explanation": "「見本市に参加するかどうか」と、決めていない内容(〜かどうか)を表しているので、接続詞 whether が正解です。whether は「〜かどうか」という意味で、後ろに〈主語+動詞〉の文を続け、動詞の目的語となる名詞節を作ります。during や about は前置詞なので、後ろに文を続けることはできません。",
+    "translation": "私たちは、その見本市に参加するかどうか、まだ決めていません。"
+  },
+  {
+    "id": "q_grammar_750_044",
+    "question_text": "The staff worked ______ to meet the tight deadline.",
+    "choices": [
+      "harden",
+      "hardly",
+      "hardness",
+      "hard"
+    ],
+    "correct_index": 3,
+    "category": "pos_adjective_vs_adverb_hard",
+    "category_ja": "紛らわしい副詞(hard/hardly)",
+    "level": "750",
+    "chapter_num": 5,
+    "explanation": "空欄は動詞 worked を修飾して「一生懸命に働いた」という意味を表すので、副詞 hard(熱心に)が正解です。hard は形容詞「難しい・硬い」だけでなく、副詞「一生懸命に」の意味もあります。紛らわしい hardly は「ほとんど〜ない」という否定的な意味の副詞なので、混同しないよう注意しましょう。",
+    "translation": "スタッフは、厳しい締め切りに間に合わせるために一生懸命に働きました。"
+  },
+  {
+    "id": "q_grammar_750_045",
+    "question_text": "It is important ______ all staff to attend the safety training.",
+    "choices": [
+      "to",
+      "for",
+      "with",
+      "of"
+    ],
+    "correct_index": 1,
+    "category": "infinitive_it_for_to",
+    "category_ja": "不定詞(It is ~ for A to do)",
+    "level": "750",
+    "chapter_num": 5,
+    "explanation": "〈It is + 形容詞 + for A + to do〉で「Aが〜するのは…だ」を表す構文です。to attend の意味上の主語(誰が参加するのか)を示すには for を使うので、for が正解です。for all staff が「全スタッフが」という不定詞の主語を表します。人の性質を評価する形容詞(kind など)のときは of を使いますが、important では for を使います。",
+    "translation": "全スタッフが安全研修に参加することが重要です。"
+  },
+  {
+    "id": "q_grammar_750_046",
+    "question_text": "If I ______ you, I would accept the job offer.",
+    "choices": [
+      "were",
+      "am",
+      "will be",
+      "have been"
+    ],
+    "correct_index": 0,
+    "category": "conditional_second_were",
+    "category_ja": "仮定法過去(If I were you)",
+    "level": "750",
+    "chapter_num": 5,
+    "explanation": "現在の事実に反する仮定(実際には自分は相手ではない)を表す仮定法過去では、if の中の be動詞は主語が I でも were を使うのが原則です。よって were が正解です。If I were you(もし私があなたなら)は助言でよく使われる決まった言い方で、主節も would accept と〈would + 原形〉になっています。",
+    "translation": "もし私があなたなら、その仕事のオファーを受けるでしょう。"
+  },
+  {
+    "id": "q_grammar_750_047",
+    "question_text": "Ms. Ford speaks Spanish fluently, and ______.",
+    "choices": [
+      "Mr. Kim does so",
+      "so does Mr. Kim",
+      "does Mr. Kim so",
+      "so Mr. Kim does"
+    ],
+    "correct_index": 1,
+    "category": "word_order_so_do_i",
+    "category_ja": "語順(so+助動詞+主語)",
+    "level": "750",
+    "chapter_num": 5,
+    "explanation": "「〜もそうだ」と前の肯定文に同意するときは、〈so + 助動詞 + 主語〉の倒置の語順になります。ここでは一般動詞 speaks を受けて、so does Mr. Kim が正解です。「キムさんもそうだ(スペイン語を流暢に話す)」という意味になります。助動詞と主語の順番が入れ替わる点がポイントです。",
+    "translation": "フォードさんはスペイン語を流暢に話しますが、キムさんもそうです。"
+  },
+  {
+    "id": "q_grammar_750_048",
+    "question_text": "______ to the weather forecast, it will snow this weekend.",
+    "choices": [
+      "According",
+      "Thanks",
+      "Owing",
+      "Due"
+    ],
+    "correct_index": 0,
+    "category": "prepositions_according_to",
+    "category_ja": "前置詞(according to)",
+    "level": "750",
+    "chapter_num": 5,
+    "explanation": "「天気予報によると」と情報の出どころを示すので、according to(〜によれば)が正解です。空欄の直後の to と結びついて according to の形になります。thanks to は「〜のおかげで」、owing to / due to は「〜が原因で」と、いずれも意味が異なるため、情報源を示すこの文には合いません。",
+    "translation": "天気予報によると、今週末は雪が降るそうです。"
+  },
+  {
+    "id": "q_grammar_750_049",
+    "question_text": "The report shows a significant increase ______ overseas sales.",
+    "choices": [
+      "to",
+      "of",
+      "in",
+      "on"
+    ],
+    "correct_index": 2,
+    "category": "prepositions_increase_in",
+    "category_ja": "名詞+前置詞(increase in)",
+    "level": "750",
+    "chapter_num": 5,
+    "explanation": "名詞 increase(増加)は前置詞 in と結びついて、increase in 〜「〜における増加・〜の伸び」を表します。よって in が正解です。「海外売上の大幅な増加」という意味になります。an increase in sales のように、何が増えたかを示すときは in を使う、という名詞と前置詞の組み合わせで覚えておきましょう。",
+    "translation": "その報告書は、海外売上の大幅な増加を示しています。"
+  },
+  {
+    "id": "q_grammar_750_050",
+    "question_text": "I'll have my assistant ______ you the meeting details.",
+    "choices": [
+      "sent",
+      "to send",
+      "send",
+      "sending"
+    ],
+    "correct_index": 2,
+    "category": "causative_have_base",
+    "category_ja": "使役動詞(have+人+動詞の原形)",
+    "level": "750",
+    "chapter_num": 5,
+    "explanation": "使役動詞 have は〈have + 人 + 動詞の原形〉の形で「(人)に〜してもらう・させる」を表します。ここでは have my assistant send 〜 で「アシスタントに送らせる」となるので、原形の send が正解です。使役動詞 have の後ろに置く動詞は、to のつかない原形になる点がポイントです。",
+    "translation": "アシスタントに、会議の詳細をあなたへ送らせます。"
+  }
+]

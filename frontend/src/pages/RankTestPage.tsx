@@ -100,7 +100,7 @@ export default function RankTestPage() {
         wordsByLevel[level] = wSnap.docs.map((d) => ({ id: d.id, ...d.data() } as WordQuestion));
 
         const gSnap = await getDocs(
-          query(collection(db, 'grammar_questions'), where('level', '==', level)),
+          query(collection(db, 'grammar_questions'), where('level', '==', String(level))),
         );
         grammarByLevel[level] = gSnap.docs.map(
           (d) => ({ id: d.id, ...d.data() } as GrammarQuestion),

@@ -1,0 +1,172 @@
+[
+  {
+    "id": "q_grammar_600_081",
+    "question_text": "The express train ______ at 9:15 every morning.",
+    "choices": [
+      "is leave",
+      "leaves",
+      "leaving",
+      "leave"
+    ],
+    "correct_index": 1,
+    "category": "present_simple_schedule",
+    "category_ja": "現在形(確定した予定)",
+    "level": "600",
+    "chapter_num": 9,
+    "explanation": "時刻表など、あらかじめ決まっている予定を表すときは現在形を使います。主語 The express train は三人称単数で「every morning(毎朝)」という習慣も表すので、三単現の leaves が正解です。確定した発着時刻は未来のことでも現在形で表す点がポイントです。",
+    "translation": "その特急列車は毎朝9時15分に発車します。"
+  },
+  {
+    "id": "q_grammar_600_082",
+    "question_text": "Most employees come to work ______ bus.",
+    "choices": [
+      "in",
+      "by",
+      "with",
+      "on"
+    ],
+    "correct_index": 1,
+    "category": "prepositions_means_by",
+    "category_ja": "前置詞(手段のby)",
+    "level": "600",
+    "chapter_num": 9,
+    "explanation": "「バスで(という交通手段で)」通勤することを表すので、手段を表す前置詞 by が正解です。〈by + 乗り物〉で「〜(交通手段)で」を表し、by bus / by train / by car のように、間に a や the を付けずに使います。with は「道具・持ち物」を表すため、交通手段には合いません。",
+    "translation": "ほとんどの従業員は、バスで通勤しています。"
+  },
+  {
+    "id": "q_grammar_600_083",
+    "question_text": "Please do not use your phone ______ you are driving.",
+    "choices": [
+      "while",
+      "between",
+      "until",
+      "during"
+    ],
+    "correct_index": 0,
+    "category": "conjunction_while",
+    "category_ja": "接続詞(while)",
+    "level": "600",
+    "chapter_num": 9,
+    "explanation": "空欄の後ろに〈主語 + 動詞〉(you are driving)が続き、「運転している間は」と同時に起きていることを表しているので、接続詞 while が正解です。while は後ろに文を続けて「〜している間」を表します。during も「〜の間」ですが前置詞なので、後ろには名詞しか置けません。",
+    "translation": "運転している間は、携帯電話を使用しないでください。"
+  },
+  {
+    "id": "q_grammar_600_084",
+    "question_text": "The instructions in the manual were ______ clear.",
+    "choices": [
+      "perfected",
+      "perfect",
+      "perfection",
+      "perfectly"
+    ],
+    "correct_index": 3,
+    "category": "pos_adverb_modifying_adjective",
+    "category_ja": "品詞(形容詞を修飾する副詞)",
+    "level": "600",
+    "chapter_num": 9,
+    "explanation": "空欄の直後にある形容詞 clear(明確な)を修飾しているので、形容詞を修飾する副詞 perfectly が正解です。perfectly clear で「完璧に明確な」という意味になります。perfect は形容詞、perfection は名詞なので、別の形容詞を修飾する働きはできません。",
+    "translation": "そのマニュアルの説明は、完璧なほど明確でした。"
+  },
+  {
+    "id": "q_grammar_600_085",
+    "question_text": "We plan ______ a new branch in Osaka next year.",
+    "choices": [
+      "open",
+      "to open",
+      "opened",
+      "opening"
+    ],
+    "correct_index": 1,
+    "category": "infinitive_after_plan",
+    "category_ja": "不定詞(plan to do)",
+    "level": "600",
+    "chapter_num": 9,
+    "explanation": "動詞 plan は、後ろに「to + 動詞の原形」の不定詞をとって「〜する予定だ・〜するつもりだ」を表すので、to open が正解です。plan to do は頻出の形です。plan は動名詞(opening)を目的語にとらない点に注意しましょう。",
+    "translation": "私たちは来年、大阪に新しい支店を開設する予定です。"
+  },
+  {
+    "id": "q_grammar_600_086",
+    "question_text": "We were very ______ with the survey results.",
+    "choices": [
+      "satisfied",
+      "satisfy",
+      "satisfying",
+      "satisfaction"
+    ],
+    "correct_index": 0,
+    "category": "participle_past_adjective",
+    "category_ja": "分詞形容詞(-ed)",
+    "level": "600",
+    "chapter_num": 9,
+    "explanation": "主語は We(人)で、「(調査結果に)満足させられた=満足した」という意味を表すので、-ed形の satisfied が正解です。人が「〜させられる」側のときは -ed、物事が「〜させる」側のときは -ing を使います。be satisfied with 〜 で「〜に満足している」という決まった言い方です。",
+    "translation": "私たちはその調査結果にとても満足していました。"
+  },
+  {
+    "id": "q_grammar_600_087",
+    "question_text": "Please read the first page ______ the user manual.",
+    "choices": [
+      "from",
+      "in",
+      "of",
+      "off"
+    ],
+    "correct_index": 2,
+    "category": "prepositions_of_possession",
+    "category_ja": "前置詞(所有・所属のof)",
+    "level": "600",
+    "chapter_num": 9,
+    "explanation": "「取扱説明書の最初のページ」と、あるものの一部・所属を表すので、前置詞 of が正解です。〈A of B〉で「BのA」という所有・所属の関係を表します。the first page of the manual で「マニュアルの最初のページ」という自然なつながりになります。",
+    "translation": "取扱説明書の最初のページをお読みください。"
+  },
+  {
+    "id": "q_grammar_600_088",
+    "question_text": "Thank you for ______ our store today.",
+    "choices": [
+      "visiting",
+      "to visit",
+      "visit",
+      "visited"
+    ],
+    "correct_index": 0,
+    "category": "gerund_after_preposition",
+    "category_ja": "動名詞(前置詞の後)",
+    "level": "600",
+    "chapter_num": 9,
+    "explanation": "前置詞 for の後ろに動詞を続けるときは、動名詞〈-ing形〉にします。よって visiting が正解です。Thank you for -ing で「〜してくれてありがとう」という頻出の形になります。前置詞の後ろに不定詞(to visit)は置けない点がポイントです。",
+    "translation": "本日は当店にご来店いただき、ありがとうございます。"
+  },
+  {
+    "id": "q_grammar_600_089",
+    "question_text": "There is a convenience store ______ our office.",
+    "choices": [
+      "near",
+      "nearly",
+      "next",
+      "close"
+    ],
+    "correct_index": 0,
+    "category": "prepositions_near_location",
+    "category_ja": "前置詞(near)",
+    "level": "600",
+    "chapter_num": 9,
+    "explanation": "「オフィスの近くに」と近い位置を表すので、前置詞 near が正解です。near は後ろに直接名詞を続けて「〜の近くに」を表します。nearly は「ほとんど」という意味の副詞、next や close は near と近い意味ですが、それぞれ next to / close to のように to が必要なため、単独では合いません。",
+    "translation": "私たちのオフィスの近くに、コンビニがあります。"
+  },
+  {
+    "id": "q_grammar_600_090",
+    "question_text": "We appreciate your ______ during the renovation.",
+    "choices": [
+      "patiently",
+      "patient",
+      "patience",
+      "patients"
+    ],
+    "correct_index": 2,
+    "category": "pos_noun_after_possessive",
+    "category_ja": "品詞(所有格の後の名詞)",
+    "level": "600",
+    "chapter_num": 9,
+    "explanation": "空欄は所有格 your の後ろにあり、動詞 appreciate(〜に感謝する)の目的語にもなるので、名詞が入ります。「あなたの忍耐(=ご辛抱)」という意味の名詞 patience が正解です。patient は形容詞、patiently は副詞なので、所有格の後ろには置けません。patients(患者たち)では意味が通りません。",
+    "translation": "改装期間中は、ご辛抱いただきありがとうございます。"
+  }
+]

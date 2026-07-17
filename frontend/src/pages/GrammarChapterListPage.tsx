@@ -4,7 +4,11 @@ import { useNavigate, Link, useSearchParams } from 'react-router-dom';
 const LEVELS = [600, 750, 900] as const;
 type Level = (typeof LEVELS)[number];
 
-const ALL_CHAPTERS = Array.from({ length: 10 }, (_, i) => i + 1);
+const CHAPTERS_PER_LEVEL: Record<number, number> = {
+  600: 10,
+  750: 6,
+  900: 4,
+};
 
 export default function GrammarChapterListPage() {
   const navigate = useNavigate();
@@ -71,7 +75,7 @@ export default function GrammarChapterListPage() {
       {/* チャプターリスト */}
       <main className="flex-1 overflow-y-auto px-6 py-6">
         <div className="flex flex-col gap-4">
-          {ALL_CHAPTERS.map((ch) => (
+          {Array.from({ length: CHAPTERS_PER_LEVEL[level] ?? 10 }, (_, i) => i + 1).map((ch) => (
             <Link
               key={ch}
               to={`/grammar/${level}/${ch}`}

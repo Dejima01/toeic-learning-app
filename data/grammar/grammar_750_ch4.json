@@ -1,0 +1,172 @@
+[
+  {
+    "id": "q_grammar_750_031",
+    "question_text": "By the time we arrived at the hall, the seminar ______.",
+    "choices": [
+      "had already started",
+      "already starts",
+      "is already starting",
+      "has already started"
+    ],
+    "correct_index": 0,
+    "category": "past_perfect",
+    "category_ja": "過去完了",
+    "level": "750",
+    "chapter_num": 4,
+    "explanation": "「私たちが着いた」という過去の時点よりも、さらに前に「セミナーが始まった」ことを表すので、過去完了〈had + 過去分詞〉の had already started が正解です。過去のある時点を基準に、それより前に完了していた出来事を表すときに過去完了を使います。過去の2つの出来事の前後関係を示すのがポイントです。",
+    "translation": "私たちがホールに着いたときには、セミナーはすでに始まっていました。"
+  },
+  {
+    "id": "q_grammar_750_032",
+    "question_text": "Everyone attended the workshop ______ Mr. Jones, who was on a business trip.",
+    "choices": [
+      "without",
+      "besides",
+      "among",
+      "except"
+    ],
+    "correct_index": 3,
+    "category": "prepositions_except",
+    "category_ja": "前置詞(除外のexcept)",
+    "level": "750",
+    "chapter_num": 4,
+    "explanation": "「出張中だったジョーンズさんを除いて、全員が参加した」と、全体から一部を除外する意味なので、前置詞 except(〜を除いて)が正解です。except は「(前述の全体)から〜を除く」を表します。紛らわしい besides は「〜に加えて」と追加を表すため、意味が逆になります。",
+    "translation": "出張中だったジョーンズさんを除いて、全員がそのワークショップに参加しました。"
+  },
+  {
+    "id": "q_grammar_750_033",
+    "question_text": "The seminar was ______ informative and enjoyable.",
+    "choices": [
+      "either",
+      "neither",
+      "both",
+      "not only"
+    ],
+    "correct_index": 2,
+    "category": "conjunction_both_and",
+    "category_ja": "相関接続詞(both A and B)",
+    "level": "750",
+    "chapter_num": 4,
+    "explanation": "後ろに and があり、「有益で、かつ楽しい」と2つの性質を両方あわせ持つことを表すので、both が正解です。〈both A and B〉で「AとBの両方」を表します。and と呼応するのは both で、either は or、neither は nor と組み合わせる点を区別して覚えておきましょう。",
+    "translation": "そのセミナーは有益で、かつ楽しいものでした。"
+  },
+  {
+    "id": "q_grammar_750_034",
+    "question_text": "The ______ of our delivery service is our top priority.",
+    "choices": [
+      "rely",
+      "reliably",
+      "reliable",
+      "reliability"
+    ],
+    "correct_index": 3,
+    "category": "pos_noun_suffix_ity",
+    "category_ja": "品詞(名詞の接尾辞-ity)",
+    "level": "750",
+    "chapter_num": 4,
+    "explanation": "空欄は前に The、後ろに of があり、文の主語となる名詞が入る位置です。よって名詞の reliability(信頼性)が正解です。形容詞 reliable に -ity を付けると名詞になります。rely は動詞、reliable は形容詞、reliably は副詞なので、主語の位置には合いません。",
+    "translation": "当社の配送サービスの信頼性が、私たちの最優先事項です。"
+  },
+  {
+    "id": "q_grammar_750_035",
+    "question_text": "Ms. Sun is used to ______ in front of large audiences.",
+    "choices": [
+      "speak",
+      "spoke",
+      "speaking",
+      "to speak"
+    ],
+    "correct_index": 2,
+    "category": "gerund_be_used_to",
+    "category_ja": "動名詞(be used to -ing)",
+    "level": "750",
+    "chapter_num": 4,
+    "explanation": "be used to の to は前置詞なので、後ろには動名詞〈-ing形〉が続きます。よって speaking が正解です。be used to -ing で「〜することに慣れている」を表します。似た形の used to do(以前は〜した)とは意味も形も異なるので、to の後ろだからと原形 speak を選ばないよう注意しましょう。",
+    "translation": "サンさんは、大勢の聴衆の前で話すことに慣れています。"
+  },
+  {
+    "id": "q_grammar_750_036",
+    "question_text": "This contract has ______ signed by both parties before Friday.",
+    "choices": [
+      "be",
+      "to",
+      "being",
+      "to be"
+    ],
+    "correct_index": 3,
+    "category": "passive_infinitive",
+    "category_ja": "受動態の不定詞(to be done)",
+    "level": "750",
+    "chapter_num": 4,
+    "explanation": "〈have to + 動詞の原形〉で「〜しなければならない」を表し、契約書は「署名される」側なので、動詞部分は受動態の不定詞〈to be + 過去分詞〉になります。has to be signed で「署名されなければならない」となるので、to be が正解です。受動態を不定詞にすると to be done の形になる点がポイントです。",
+    "translation": "この契約書は、金曜日までに両者によって署名される必要があります。"
+  },
+  {
+    "id": "q_grammar_750_037",
+    "question_text": "The company moved its headquarters to Osaka, ______ surprised many employees.",
+    "choices": [
+      "that",
+      "which",
+      "it",
+      "what"
+    ],
+    "correct_index": 1,
+    "category": "relative_nonrestrictive_which",
+    "category_ja": "関係代名詞(非制限用法のwhich)",
+    "level": "750",
+    "chapter_num": 4,
+    "explanation": "コンマの後ろで、前の文全体(本社を大阪へ移したこと)を受けて「そのことが従業員を驚かせた」と説明しています。前の文の内容を受けて補足説明する非制限用法では which を使うので、これが正解です。関係代名詞 that はコンマの後ろ(非制限用法)では使えない点がポイントです。",
+    "translation": "その会社は本社を大阪へ移転し、そのことが多くの従業員を驚かせました。"
+  },
+  {
+    "id": "q_grammar_750_038",
+    "question_text": "Mr. Reed isn't at his desk. He ______ have left for the day.",
+    "choices": [
+      "will",
+      "shall",
+      "can",
+      "must"
+    ],
+    "correct_index": 3,
+    "category": "modal_must_have_past",
+    "category_ja": "助動詞+完了形(must have done)",
+    "level": "750",
+    "chapter_num": 4,
+    "explanation": "「席にいない」という状況から、「もう退社したにちがいない」と過去のことを強く推量しています。〈must have + 過去分詞〉で「〜したにちがいない」という過去への確信を表すので、must が正解です。must have left で「退社してしまったにちがいない」となります。can have done はこの肯定の推量には使いません。",
+    "translation": "リードさんは席にいません。もう退社したにちがいありません。"
+  },
+  {
+    "id": "q_grammar_750_039",
+    "question_text": "Ms. Ruiz is familiar ______ the local business customs.",
+    "choices": [
+      "to",
+      "with",
+      "of",
+      "at"
+    ],
+    "correct_index": 1,
+    "category": "prepositions_familiar_with",
+    "category_ja": "形容詞+前置詞(familiar with)",
+    "level": "750",
+    "chapter_num": 4,
+    "explanation": "形容詞 familiar は前置詞 with と結びついて、be familiar with 〜「〜をよく知っている・〜に精通している」という意味になります。よって with が正解です。「ルイスさんは現地の商習慣に精通している」という意味になります。人を主語にするときは familiar with、物を主語にする familiar to 〜(〜にとってなじみがある)との違いも押さえておきましょう。",
+    "translation": "ルイスさんは、現地の商習慣に精通しています。"
+  },
+  {
+    "id": "q_grammar_750_040",
+    "question_text": "The more you practice, ______ your presentation will become.",
+    "choices": [
+      "the better",
+      "better",
+      "the best",
+      "best"
+    ],
+    "correct_index": 0,
+    "category": "comparison_the_comparative",
+    "category_ja": "比較(the+比較級, the+比較級)",
+    "level": "750",
+    "chapter_num": 4,
+    "explanation": "〈The + 比較級 ..., the + 比較級 ...〉で「〜すればするほど、ますます…」を表す構文です。前半が The more you practice なので、後半も〈the + 比較級〉の形にそろえた the better が正解です。この呼応の形が決まっているため、the をつけない better や、最上級の the best は入りません。",
+    "translation": "練習すればするほど、あなたのプレゼンテーションはますます良くなります。"
+  }
+]
