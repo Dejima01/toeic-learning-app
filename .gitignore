@@ -16,3 +16,5 @@ serviceAccount.json
 dist/
 english-learnig-app/
 .firebase/
+firebase-debug.log
+firebase-debug.*.log
