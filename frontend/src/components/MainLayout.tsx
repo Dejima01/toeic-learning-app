@@ -22,7 +22,7 @@ export function MainLayout({
   const showHeader = !!(title || showBack || showChatBot);
 
   return (
-    <div className="relative mx-auto flex h-screen max-w-sm flex-col bg-white">
+    <div className="app-container relative mx-auto flex max-w-sm flex-col bg-white">
       {/* 固定ヘッダー（title / showBack / showChatBot のいずれかがあれば表示） */}
       {showHeader && (
         <header className="flex shrink-0 items-center border-b border-gray-200 bg-white px-4 py-3">

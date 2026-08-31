@@ -36,7 +36,7 @@ export default function HomePage() {
   return (
     // ホーム画面はヘッダーなし（ランク表示・設定ボタンがコンテンツ内に入る）
     <MainLayout>
-      <div className="flex h-full flex-col px-5 pt-5 pb-3">
+      <div className="flex h-full flex-col overflow-y-auto px-5 pt-4 pb-2">
 
         {/* ── 右上: 設定ボタン ── */}
         <div className="flex justify-end">
@@ -49,7 +49,7 @@ export default function HomePage() {
         </div>
 
         {/* ── ランクバッジサークル（中央） ── */}
-        <div className="flex justify-center pt-10 pb-6">
+        <div className="flex justify-center pt-4 pb-3">
           <div className="flex h-24 w-24 flex-col items-center justify-center rounded-full text-center">
             {badge ? (
               <img
@@ -68,16 +68,16 @@ export default function HomePage() {
         </div>
 
         {/* ── 中央: モードボタン ── */}
-        <div className="flex flex-1 flex-col items-stretch justify-center gap-5">
+        <div className="flex flex-1 flex-col items-stretch justify-center gap-4">
           <Link
             to="/word"
-            className="block rounded bg-sky-200 py-5 text-center text-xl font-bold text-gray-800 hover:bg-sky-300 transition-colors"
+            className="block rounded bg-sky-200 py-4 text-center text-xl font-bold text-gray-800 hover:bg-sky-300 transition-colors"
           >
             単語モード
           </Link>
           <Link
             to="/grammar"
-            className="block rounded bg-sky-200 py-5 text-center text-xl font-bold text-gray-800 hover:bg-sky-300 transition-colors"
+            className="block rounded bg-sky-200 py-4 text-center text-xl font-bold text-gray-800 hover:bg-sky-300 transition-colors"
           >
             文法モード
           </Link>

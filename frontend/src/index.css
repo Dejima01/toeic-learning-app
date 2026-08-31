@@ -14,3 +14,11 @@ body {
 #root {
   min-height: 100svh;
 }
+
+/* dvh + safe-area 対応コンテナ（MainLayout で使用） */
+.app-container {
+  height: 100vh; /* fallback for older browsers */
+  height: 100dvh;
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+}
