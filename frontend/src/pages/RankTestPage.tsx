@@ -190,7 +190,7 @@ export default function RankTestPage() {
   // ── ローディング ──────────────────────────────────
   if (phase === 'loading') {
     return (
-      <div className="mx-auto flex h-screen max-w-sm flex-col items-center justify-center bg-white">
+      <div className="app-container mx-auto flex max-w-sm flex-col items-center justify-center bg-white">
         <div className="h-8 w-8 animate-spin rounded-full border-b-2 border-sky-400" />
         <p className="mt-3 text-sm text-gray-500">問題を準備しています…</p>
       </div>
@@ -210,7 +210,7 @@ export default function RankTestPage() {
     const totalCorrect = wordCorrect + grammarCorrect;
 
     return (
-      <div className="mx-auto flex h-screen max-w-sm flex-col bg-white">
+      <div className="app-container mx-auto flex max-w-sm flex-col bg-white">
         <header className="flex shrink-0 items-center border-b border-gray-200 px-4 py-3">
           <div className="w-8" />
           <h1 className="flex-1 text-center text-lg font-bold">ランク認定テスト：結果</h1>
@@ -334,27 +334,28 @@ export default function RankTestPage() {
           );
         })}
 
-        {/* 下部ボタン */}
-        <div className="px-4 py-6">
-          {isExplanation ? (
-            <button
-              type="button"
-              onClick={handleShowResult}
-              className="w-full rounded bg-gray-200 py-4 text-center font-bold text-gray-800 hover:bg-gray-300 transition-colors"
-            >
-              結果を見る
-            </button>
-          ) : (
-            <button
-              type="button"
-              onClick={handleFinishTest}
-              className="w-full rounded bg-gray-200 py-4 text-center font-bold text-gray-800 hover:bg-gray-300 transition-colors"
-            >
-              テストを終了する
-            </button>
-          )}
-        </div>
       </main>
+
+      {/* 固定フッター: ボタン（スクロール外に常時表示） */}
+      <div className="shrink-0 border-t border-gray-100 px-4 py-3">
+        {isExplanation ? (
+          <button
+            type="button"
+            onClick={handleShowResult}
+            className="w-full rounded bg-gray-200 py-4 text-center font-bold text-gray-800 hover:bg-gray-300 transition-colors"
+          >
+            結果を見る
+          </button>
+        ) : (
+          <button
+            type="button"
+            onClick={handleFinishTest}
+            className="w-full rounded bg-gray-200 py-4 text-center font-bold text-gray-800 hover:bg-gray-300 transition-colors"
+          >
+            テストを終了する
+          </button>
+        )}
+      </div>
     </div>
   );
 }
