@@ -25,13 +25,15 @@ export function GrammarCard({
 
   return (
     <article
-      className={`px-4 py-5 border-b border-gray-100 ${
-        isBookmarked ? 'bg-yellow-50' : 'bg-white'
+      className={`px-4 py-5 border-b border-gray-100 dark:border-gray-700 ${
+        isBookmarked
+          ? 'bg-yellow-50 dark:bg-yellow-900/20'
+          : 'bg-white dark:bg-gray-900'
       }`}
     >
       {/* 問題番号 + 復習フラグ */}
       <div className="flex items-center justify-between mb-3">
-        <span className="text-base font-bold">{questionNumber}.</span>
+        <span className="text-base font-bold dark:text-gray-100">{questionNumber}.</span>
         <button
           type="button"
           onClick={onToggleBookmark}
@@ -71,7 +73,7 @@ export function GrammarCard({
       </div>
 
       {/* 問題文 */}
-      <p className="mb-4 text-base leading-relaxed">{question.question_text}</p>
+      <p className="mb-4 text-base leading-relaxed dark:text-gray-100">{question.question_text}</p>
 
       {/* 選択肢 2×2 グリッド */}
       <div className="grid grid-cols-2 gap-2 mb-4">
@@ -80,9 +82,9 @@ export function GrammarCard({
             key={i}
             type="button"
             onClick={() => !isAnswered && onSelectChoice(i)}
-            className={`rounded bg-sky-200 py-3 px-3 text-left text-sm text-gray-800 transition-all
-              ${isAnswered ? 'cursor-default' : 'hover:bg-sky-300 active:scale-95'}
-              ${selectedChoice === i ? 'ring-2 ring-inset ring-gray-900' : ''}
+            className={`rounded bg-sky-200 dark:bg-sky-800 py-3 px-3 text-left text-sm text-gray-800 dark:text-gray-100 transition-all
+              ${isAnswered ? 'cursor-default' : 'hover:bg-sky-300 dark:hover:bg-sky-700 active:scale-95'}
+              ${selectedChoice === i ? 'ring-2 ring-inset ring-gray-900 dark:ring-gray-100' : ''}
             `}
           >
             {LABELS[i]} : {choice}
@@ -92,15 +94,15 @@ export function GrammarCard({
 
       {/* 解説エリア：未解答時は青カバー */}
       {!isAnswered ? (
-        <div className="rounded bg-sky-200 py-5 text-center text-sm font-bold text-gray-700">
+        <div className="rounded bg-sky-200 dark:bg-sky-800 py-5 text-center text-sm font-bold text-gray-700 dark:text-gray-200">
           選択肢を選ぶと解説が表示されます
         </div>
       ) : (
-        <div className="rounded bg-gray-50 px-3 py-3 text-sm leading-relaxed text-gray-700">
+        <div className="rounded bg-gray-50 dark:bg-gray-800 px-3 py-3 text-sm leading-relaxed text-gray-700 dark:text-gray-300">
           <p className="mb-2">
             <span className="font-bold">({correctLabel})</span> {question.explanation}
           </p>
-          <p className="text-gray-500">【和訳】{question.translation}</p>
+          <p className="text-gray-500 dark:text-gray-400">【和訳】{question.translation}</p>
         </div>
       )}
     </article>

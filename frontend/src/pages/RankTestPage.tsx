@@ -190,9 +190,9 @@ export default function RankTestPage() {
   // ── ローディング ──────────────────────────────────
   if (phase === 'loading') {
     return (
-      <div className="app-container mx-auto flex max-w-sm flex-col items-center justify-center bg-white">
+      <div className="app-container mx-auto flex max-w-sm flex-col items-center justify-center bg-white dark:bg-gray-900">
         <div className="h-8 w-8 animate-spin rounded-full border-b-2 border-sky-400" />
-        <p className="mt-3 text-sm text-gray-500">問題を準備しています…</p>
+        <p className="mt-3 text-sm text-gray-500 dark:text-gray-400">問題を準備しています…</p>
       </div>
     );
   }
@@ -210,10 +210,10 @@ export default function RankTestPage() {
     const totalCorrect = wordCorrect + grammarCorrect;
 
     return (
-      <div className="app-container mx-auto flex max-w-sm flex-col bg-white">
-        <header className="flex shrink-0 items-center border-b border-gray-200 px-4 py-3">
+      <div className="app-container mx-auto flex max-w-sm flex-col bg-white dark:bg-gray-900">
+        <header className="flex shrink-0 items-center border-b border-gray-200 dark:border-gray-700 px-4 py-3">
           <div className="w-8" />
-          <h1 className="flex-1 text-center text-lg font-bold">ランク認定テスト：結果</h1>
+          <h1 className="flex-1 text-center text-lg font-bold dark:text-gray-100">ランク認定テスト：結果</h1>
           <div className="w-8" />
         </header>
 
@@ -228,31 +228,31 @@ export default function RankTestPage() {
           )}
 
           {/* 認定バナー */}
-          <div className="w-full rounded bg-sky-200 py-2 text-center text-xl font-bold text-gray-800">
+          <div className="w-full rounded bg-sky-200 dark:bg-sky-800 py-2 text-center text-xl font-bold text-gray-800 dark:text-gray-100">
             {earnedBadge ? `${BADGE_LABEL[earnedBadge]}認定！` : 'もう少し！'}
           </div>
 
           {/* 合計スコア */}
-          <p className="text-lg text-gray-700">合計：{totalCorrect} / 30</p>
+          <p className="text-lg text-gray-700 dark:text-gray-300">合計：{totalCorrect} / 30</p>
 
           {/* 内訳 */}
-          <div className="text-center text-base text-gray-700 leading-relaxed">
+          <div className="text-center text-base text-gray-700 dark:text-gray-300 leading-relaxed">
             <p>単語：{wordCorrect} / 15</p>
             <p>文法：{grammarCorrect} / 15</p>
           </div>
 
           {/* 点数帯 */}
           <div className="text-center">
-            <p className="text-base text-gray-500">現在</p>
-            <p className="text-4xl font-bold text-gray-800">{scoreLabel(score)}</p>
-            <p className="text-base text-gray-500">の実力があります</p>
+            <p className="text-base text-gray-500 dark:text-gray-400">現在</p>
+            <p className="text-4xl font-bold text-gray-800 dark:text-gray-100">{scoreLabel(score)}</p>
+            <p className="text-base text-gray-500 dark:text-gray-400">の実力があります</p>
           </div>
 
           {/* ホームへ */}
           <button
             type="button"
             onClick={() => navigate('/home')}
-            className="w-full rounded bg-gray-200 py-3 text-center font-bold text-gray-800 hover:bg-gray-300 transition-colors"
+            className="w-full rounded bg-gray-200 dark:bg-gray-700 py-3 text-center font-bold text-gray-800 dark:text-gray-100 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
           >
             ホームへ
           </button>
@@ -265,10 +265,10 @@ export default function RankTestPage() {
   const isExplanation = phase === 'explanation';
 
   return (
-    <div className="mx-auto flex h-screen max-w-sm flex-col bg-white">
-      <header className="flex shrink-0 items-center border-b border-gray-200 px-4 py-3">
+    <div className="mx-auto flex h-screen max-w-sm flex-col bg-white dark:bg-gray-900">
+      <header className="flex shrink-0 items-center border-b border-gray-200 dark:border-gray-700 px-4 py-3">
         <div className="w-8" />
-        <h1 className="flex-1 text-center text-lg font-bold">
+        <h1 className="flex-1 text-center text-lg font-bold dark:text-gray-100">
           {isExplanation ? 'ランク認定テスト：解説' : 'ランク認定テスト'}
         </h1>
         <div className="w-8" />
@@ -280,10 +280,10 @@ export default function RankTestPage() {
           const isCorrect = selectedChoice === q.correct_index;
 
           return (
-            <div key={q.id} className="border-b border-gray-100 px-4 py-5">
+            <div key={q.id} className="border-b border-gray-100 dark:border-gray-700 px-4 py-5">
               {/* 問題番号 + 正誤マーク（解説時） */}
               <div className="mb-3 flex items-center gap-2">
-                <span className="font-bold">{idx + 1}.</span>
+                <span className="font-bold dark:text-gray-100">{idx + 1}.</span>
                 {isExplanation && (
                   <span
                     className={`text-lg font-bold ${
@@ -297,9 +297,9 @@ export default function RankTestPage() {
 
               {/* 問題本文 */}
               {q.type === 'word' ? (
-                <h2 className="mb-4 text-center text-3xl font-bold">{q.word}</h2>
+                <h2 className="mb-4 text-center text-3xl font-bold dark:text-gray-100">{q.word}</h2>
               ) : (
-                <p className="mb-4 pl-2 text-sm leading-relaxed text-gray-800">
+                <p className="mb-4 pl-2 text-sm leading-relaxed text-gray-800 dark:text-gray-200">
                   {q.question_text}
                 </p>
               )}
@@ -310,9 +310,9 @@ export default function RankTestPage() {
                   let ringClass = '';
                   if (isExplanation) {
                     if (ci === q.correct_index) ringClass = 'ring-2 ring-inset ring-red-500';
-                    else if (ci === selectedChoice) ringClass = 'ring-2 ring-inset ring-gray-900';
+                    else if (ci === selectedChoice) ringClass = 'ring-2 ring-inset ring-gray-900 dark:ring-gray-100';
                   } else {
-                    if (ci === selectedChoice) ringClass = 'ring-2 ring-inset ring-gray-900';
+                    if (ci === selectedChoice) ringClass = 'ring-2 ring-inset ring-gray-900 dark:ring-gray-100';
                   }
 
                   return (
@@ -320,8 +320,8 @@ export default function RankTestPage() {
                       key={ci}
                       type="button"
                       onClick={() => !isExplanation && handleSelectAnswer(q.id, ci)}
-                      className={`rounded bg-sky-200 px-3 py-3 text-left text-sm text-gray-800 transition-all
-                        ${isExplanation ? 'cursor-default' : 'hover:bg-sky-300 active:scale-95'}
+                      className={`rounded bg-sky-200 dark:bg-sky-800 px-3 py-3 text-left text-sm text-gray-800 dark:text-gray-100 transition-all
+                        ${isExplanation ? 'cursor-default' : 'hover:bg-sky-300 dark:hover:bg-sky-700 active:scale-95'}
                         ${ringClass}
                       `}
                     >
@@ -337,12 +337,12 @@ export default function RankTestPage() {
       </main>
 
       {/* 固定フッター: ボタン（スクロール外に常時表示） */}
-      <div className="shrink-0 border-t border-gray-100 px-4 py-3">
+      <div className="shrink-0 border-t border-gray-100 dark:border-gray-700 px-4 py-3">
         {isExplanation ? (
           <button
             type="button"
             onClick={handleShowResult}
-            className="w-full rounded bg-gray-200 py-4 text-center font-bold text-gray-800 hover:bg-gray-300 transition-colors"
+            className="w-full rounded bg-gray-200 dark:bg-gray-700 py-4 text-center font-bold text-gray-800 dark:text-gray-100 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
           >
             結果を見る
           </button>
@@ -350,7 +350,7 @@ export default function RankTestPage() {
           <button
             type="button"
             onClick={handleFinishTest}
-            className="w-full rounded bg-gray-200 py-4 text-center font-bold text-gray-800 hover:bg-gray-300 transition-colors"
+            className="w-full rounded bg-gray-200 dark:bg-gray-700 py-4 text-center font-bold text-gray-800 dark:text-gray-100 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors"
           >
             テストを終了する
           </button>

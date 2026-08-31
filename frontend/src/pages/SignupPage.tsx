@@ -55,7 +55,7 @@ export default function SignupPage() {
     <AuthLayout title="アカウント新規作成" showBack>
       <form onSubmit={handleSubmit} className="flex flex-col gap-6">
         <div>
-          <label className="mb-1 block text-sm font-medium text-gray-700">
+          <label className="mb-1 block text-sm font-medium text-gray-700 dark:text-gray-300">
             1.ID（メールアドレス）
           </label>
           <input
@@ -63,12 +63,12 @@ export default function SignupPage() {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
-            className="w-full rounded border border-gray-800 bg-gray-100 px-3 py-2 focus:outline-none focus:ring-1 focus:ring-sky-400"
+            className="w-full rounded border border-gray-800 dark:border-gray-500 bg-gray-100 dark:bg-gray-700 dark:text-gray-100 px-3 py-2 focus:outline-none focus:ring-1 focus:ring-sky-400"
           />
         </div>
 
         <div>
-          <label className="mb-1 block text-sm font-medium text-gray-700">
+          <label className="mb-1 block text-sm font-medium text-gray-700 dark:text-gray-300">
             2.パスワード
           </label>
           <input
@@ -76,12 +76,12 @@ export default function SignupPage() {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required
-            className="w-full rounded border border-gray-800 bg-gray-100 px-3 py-2 focus:outline-none focus:ring-1 focus:ring-sky-400"
+            className="w-full rounded border border-gray-800 dark:border-gray-500 bg-gray-100 dark:bg-gray-700 dark:text-gray-100 px-3 py-2 focus:outline-none focus:ring-1 focus:ring-sky-400"
           />
         </div>
 
         <div>
-          <label className="mb-1 block text-sm font-medium text-gray-700">
+          <label className="mb-1 block text-sm font-medium text-gray-700 dark:text-gray-300">
             （再確認用）
           </label>
           <input
@@ -89,19 +89,19 @@ export default function SignupPage() {
             value={confirm}
             onChange={(e) => setConfirm(e.target.value)}
             required
-            className="w-full rounded border border-gray-800 bg-gray-100 px-3 py-2 focus:outline-none focus:ring-1 focus:ring-sky-400"
+            className="w-full rounded border border-gray-800 dark:border-gray-500 bg-gray-100 dark:bg-gray-700 dark:text-gray-100 px-3 py-2 focus:outline-none focus:ring-1 focus:ring-sky-400"
           />
         </div>
 
         {error && (
-          <p className="rounded bg-red-50 px-3 py-2 text-sm text-red-600">{error}</p>
+          <p className="rounded bg-red-50 dark:bg-red-900/30 px-3 py-2 text-sm text-red-600 dark:text-red-400">{error}</p>
         )}
 
         <div className="flex justify-center pt-4">
           <button
             type="submit"
             disabled={submitting}
-            className="w-48 rounded bg-sky-200 py-3 text-lg font-bold text-gray-800 hover:bg-sky-300 transition-colors disabled:opacity-50"
+            className="w-48 rounded bg-sky-200 dark:bg-sky-800 py-3 text-lg font-bold text-gray-800 dark:text-gray-100 hover:bg-sky-300 dark:hover:bg-sky-700 transition-colors disabled:opacity-50"
           >
             {submitting ? '...' : '上記内容で登録'}
           </button>

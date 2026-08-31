@@ -135,8 +135,8 @@ export default function WordChapterPage() {
       ) : words.length === 0 ? (
         <div className="flex flex-col items-center gap-6 px-6 pt-24">
           <p className="text-3xl">📚</p>
-          <p className="text-center text-lg font-bold text-gray-700">この章は現在準備中です</p>
-          <p className="text-center text-gray-500">お楽しみに！</p>
+          <p className="text-center text-lg font-bold text-gray-700 dark:text-gray-300">この章は現在準備中です</p>
+          <p className="text-center text-gray-500 dark:text-gray-400">お楽しみに！</p>
           <button
             type="button"
             onClick={() => navigate(-1)}

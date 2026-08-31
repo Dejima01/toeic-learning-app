@@ -50,11 +50,11 @@ export default function PasswordResetPage() {
     return (
       <AuthLayout title="ID（メールアドレス）再設定">
         <div className="flex flex-col items-center gap-6 pt-8">
-          <p className="text-center text-gray-700">パスワードを再設定しました。</p>
+          <p className="text-center text-gray-700 dark:text-gray-300">パスワードを再設定しました。</p>
           <button
             type="button"
             onClick={() => navigate('/', { replace: true })}
-            className="w-40 rounded bg-sky-200 py-3 text-lg font-bold text-gray-800 hover:bg-sky-300 transition-colors"
+            className="w-40 rounded bg-sky-200 dark:bg-sky-800 py-3 text-lg font-bold text-gray-800 dark:text-gray-100 hover:bg-sky-300 dark:hover:bg-sky-700 transition-colors"
           >
             ログインへ
           </button>
@@ -67,7 +67,7 @@ export default function PasswordResetPage() {
     <AuthLayout title="ID（メールアドレス）再設定">
       <form onSubmit={handleSubmit} className="flex flex-col gap-6">
         <div>
-          <label className="mb-1 block text-sm font-medium text-gray-700">
+          <label className="mb-1 block text-sm font-medium text-gray-700 dark:text-gray-300">
             新しいパスワード
           </label>
           <input
@@ -75,12 +75,12 @@ export default function PasswordResetPage() {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required
-            className="w-full rounded border border-gray-800 bg-gray-100 px-3 py-2 focus:outline-none focus:ring-1 focus:ring-sky-400"
+            className="w-full rounded border border-gray-800 dark:border-gray-500 bg-gray-100 dark:bg-gray-700 dark:text-gray-100 px-3 py-2 focus:outline-none focus:ring-1 focus:ring-sky-400"
           />
         </div>
 
         <div>
-          <label className="mb-1 block text-sm font-medium text-gray-700">
+          <label className="mb-1 block text-sm font-medium text-gray-700 dark:text-gray-300">
             （再確認用）
           </label>
           <input
@@ -88,19 +88,19 @@ export default function PasswordResetPage() {
             value={confirm}
             onChange={(e) => setConfirm(e.target.value)}
             required
-            className="w-full rounded border border-gray-800 bg-gray-100 px-3 py-2 focus:outline-none focus:ring-1 focus:ring-sky-400"
+            className="w-full rounded border border-gray-800 dark:border-gray-500 bg-gray-100 dark:bg-gray-700 dark:text-gray-100 px-3 py-2 focus:outline-none focus:ring-1 focus:ring-sky-400"
           />
         </div>
 
         {error && (
-          <p className="rounded bg-red-50 px-3 py-2 text-sm text-red-600">{error}</p>
+          <p className="rounded bg-red-50 dark:bg-red-900/30 px-3 py-2 text-sm text-red-600 dark:text-red-400">{error}</p>
         )}
 
         <div className="flex justify-center pt-4">
           <button
             type="submit"
             disabled={submitting}
-            className="w-36 rounded bg-sky-200 py-3 text-lg font-bold text-gray-800 hover:bg-sky-300 transition-colors disabled:opacity-50"
+            className="w-36 rounded bg-sky-200 dark:bg-sky-800 py-3 text-lg font-bold text-gray-800 dark:text-gray-100 hover:bg-sky-300 dark:hover:bg-sky-700 transition-colors disabled:opacity-50"
           >
             {submitting ? '...' : '再設定'}
           </button>

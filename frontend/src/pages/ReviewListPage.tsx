@@ -141,23 +141,23 @@ export default function ReviewListPage() {
           <div className="h-8 w-8 animate-spin rounded-full border-b-2 border-sky-400" />
         </div>
       ) : bookmarkIds.length === 0 ? (
-        <p className="pt-16 text-center text-gray-400">復習マークが付いた単語がありません</p>
+        <p className="pt-16 text-center text-gray-400 dark:text-gray-500">復習マークが付いた単語がありません</p>
       ) : (
         <div className="flex flex-col gap-3 px-4 py-4">
           {bookmarkIds.map((id) => {
             const word = words.get(id);
             if (!word) {
-              return <div key={id} className="h-14 animate-pulse rounded bg-sky-100" />;
+              return <div key={id} className="h-14 animate-pulse rounded bg-sky-100 dark:bg-sky-900/30" />;
             }
             return (
               <button
                 key={id}
                 type="button"
                 onClick={() => setSelectedId(id)}
-                className="w-full rounded bg-sky-200 px-4 py-3 text-left hover:bg-sky-300 transition-colors"
+                className="w-full rounded bg-sky-200 dark:bg-sky-800 px-4 py-3 text-left hover:bg-sky-300 dark:hover:bg-sky-700 transition-colors"
               >
-                <span className="font-bold">{word.word}</span>
-                <span className="ml-2 text-sm text-gray-700">
+                <span className="font-bold dark:text-gray-100">{word.word}</span>
+                <span className="ml-2 text-sm text-gray-700 dark:text-gray-300">
                   {word.meaning}({posShort(word.part_of_speech)})
                 </span>
               </button>
@@ -174,7 +174,7 @@ export default function ReviewListPage() {
         >
           <div
             className={`w-full max-w-sm overflow-y-auto rounded-xl shadow-xl ${
-              isSelectedBookmarked ? 'bg-yellow-100' : 'bg-white'
+              isSelectedBookmarked ? 'bg-yellow-100 dark:bg-yellow-900/20' : 'bg-white dark:bg-gray-800'
             }`}
             style={{ maxHeight: '80vh' }}
             onClick={(e) => e.stopPropagation()}
@@ -206,7 +206,7 @@ export default function ReviewListPage() {
               </button>
 
               {/* 英単語 */}
-              <h2 className="flex-1 text-center text-2xl font-bold tracking-wide">
+              <h2 className="flex-1 text-center text-2xl font-bold tracking-wide dark:text-gray-100">
                 {selectedWord.word}
               </h2>
 
@@ -269,7 +269,7 @@ export default function ReviewListPage() {
 
             {/* 英語例文 */}
             {currentExample && (
-              <p className="px-4 pb-3 text-center text-sm leading-relaxed">
+              <p className="px-4 pb-3 text-center text-sm leading-relaxed dark:text-gray-200">
                 <HighlightedSentence
                   sentence={currentExample.sentence}
                   word={selectedWord.word}
@@ -277,27 +277,27 @@ export default function ReviewListPage() {
               </p>
             )}
 
-            <hr className="mx-4 border-gray-300" />
+            <hr className="mx-4 border-gray-300 dark:border-gray-600" />
 
             <div className="px-4 py-3">
               {/* 品詞：意味 */}
-              <p className="mb-2 text-center font-bold">
+              <p className="mb-2 text-center font-bold dark:text-gray-100">
                 {translatePos(selectedWord.part_of_speech)}：{selectedWord.meaning}
               </p>
 
               {/* 例文の和訳 */}
               {currentExample && (
-                <p className="mb-3 text-center text-sm leading-relaxed text-gray-700">
+                <p className="mb-3 text-center text-sm leading-relaxed text-gray-700 dark:text-gray-300">
                   {currentExample.translation}
                 </p>
               )}
 
               {/* 派生語 */}
               {selectedWord.derivatives.length > 0 && (
-                <div className="space-y-0.5 pl-2 text-sm text-gray-600">
+                <div className="space-y-0.5 pl-2 text-sm text-gray-600 dark:text-gray-400">
                   {selectedWord.derivatives.map((d, i) => (
                     <p key={i}>
-                      <span className="text-gray-500">{translateDerivPart(d.part)}：</span>
+                      <span className="text-gray-500 dark:text-gray-500">{translateDerivPart(d.part)}：</span>
                       {d.word}　{d.meaning}
                     </p>
                   ))}

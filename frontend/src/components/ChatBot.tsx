@@ -40,7 +40,7 @@ export function ChatBot({ isOpen, onClose }: ChatBotProps) {
 
   return (
     <div
-      className="absolute bottom-0 left-0 right-0 z-50 flex-col rounded-t-2xl border-t border-gray-200 bg-white shadow-2xl"
+      className="absolute bottom-0 left-0 right-0 z-50 flex-col rounded-t-2xl border-t border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 shadow-2xl"
       style={{ height: '340px', display: isOpen ? 'flex' : 'none' }}
     >
       {/* ヘッダー */}
@@ -51,7 +51,7 @@ export function ChatBot({ isOpen, onClose }: ChatBotProps) {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="h-6 w-6 text-gray-500"
+          className="h-6 w-6 text-gray-500 dark:text-gray-400"
         >
           <path
             strokeLinecap="round"
@@ -63,7 +63,7 @@ export function ChatBot({ isOpen, onClose }: ChatBotProps) {
         <button
           type="button"
           onClick={onClose}
-          className="flex h-7 w-7 items-center justify-center rounded-full bg-gray-200 text-gray-600 hover:bg-gray-300"
+          className="flex h-7 w-7 items-center justify-center rounded-full bg-gray-200 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -86,8 +86,10 @@ export function ChatBot({ isOpen, onClose }: ChatBotProps) {
             className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}
           >
             <div
-              className={`max-w-[80%] rounded-2xl px-4 py-2 text-sm leading-relaxed text-gray-800 ${
-                msg.role === 'user' ? 'bg-sky-200' : 'bg-gray-200'
+              className={`max-w-[80%] rounded-2xl px-4 py-2 text-sm leading-relaxed ${
+                msg.role === 'user'
+                  ? 'bg-sky-200 dark:bg-sky-800 text-gray-800 dark:text-gray-100'
+                  : 'bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200'
               }`}
             >
               {msg.content}
@@ -96,7 +98,7 @@ export function ChatBot({ isOpen, onClose }: ChatBotProps) {
         ))}
         {sending && (
           <div className="flex justify-start">
-            <div className="rounded-2xl bg-gray-200 px-4 py-3 text-sm text-gray-400">
+            <div className="rounded-2xl bg-gray-200 dark:bg-gray-700 px-4 py-3 text-sm text-gray-400 dark:text-gray-500">
               <span className="animate-pulse">…</span>
             </div>
           </div>
@@ -105,7 +107,7 @@ export function ChatBot({ isOpen, onClose }: ChatBotProps) {
       </div>
 
       {/* 入力エリア */}
-      <div className="flex shrink-0 items-center gap-2 border-t border-gray-200 px-4 py-3">
+      <div className="flex shrink-0 items-center gap-2 border-t border-gray-200 dark:border-gray-700 px-4 py-3">
         <input
           type="text"
           value={input}
@@ -115,7 +117,7 @@ export function ChatBot({ isOpen, onClose }: ChatBotProps) {
           }}
           placeholder="メッセージ..."
           disabled={sending}
-          className="flex-1 rounded-full bg-gray-100 px-4 py-2 text-sm outline-none"
+          className="flex-1 rounded-full bg-gray-100 dark:bg-gray-800 px-4 py-2 text-sm dark:text-gray-100 outline-none"
         />
         <button
           type="button"

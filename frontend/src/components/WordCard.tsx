@@ -49,8 +49,10 @@ export function WordCard({
 
   return (
     <article
-      className={`px-4 py-5 border-b border-gray-100 ${
-        isBookmarked ? 'bg-yellow-100' : 'bg-white'
+      className={`px-4 py-5 border-b border-gray-100 dark:border-gray-700 ${
+        isBookmarked
+          ? 'bg-yellow-100 dark:bg-amber-900/55'
+          : 'bg-white dark:bg-gray-900'
       }`}
     >
       {/* ── ヘッダー行: リロード | 英単語 | 復習フラグ ── */}
@@ -97,7 +99,7 @@ export function WordCard({
         </button>
 
         {/* 英単語 */}
-        <h2 className="flex-1 text-center text-2xl font-bold tracking-wide">{word.word}</h2>
+        <h2 className="flex-1 text-center text-2xl font-bold tracking-wide dark:text-gray-100">{word.word}</h2>
 
         {/* Step4: 復習フラグボタン */}
         <button
@@ -111,7 +113,7 @@ export function WordCard({
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
-              className="h-6 w-6 text-yellow-500"
+              className="h-6 w-6 text-yellow-400"
             >
               <path
                 fillRule="evenodd"
@@ -140,43 +142,43 @@ export function WordCard({
 
       {/* 英語例文（対象単語を太字） */}
       {currentExample && (
-        <p className="text-center text-sm leading-relaxed mb-4">
+        <p className="text-center text-sm leading-relaxed mb-4 dark:text-gray-200">
           <HighlightedSentence sentence={currentExample.sentence} word={word.word} />
         </p>
       )}
 
       {/* セパレーター */}
-      <hr className="border-gray-300 mb-3" />
+      <hr className="border-gray-300 dark:border-gray-600 mb-3" />
 
       {/* Step3: 暗記シート（青カバー）or 和訳・派生語 */}
       {!isRevealed ? (
         <button
           type="button"
           onClick={onToggleReveal}
-          className="w-full rounded bg-sky-200 py-6 text-center font-bold text-gray-700 hover:bg-sky-300 transition-colors"
+          className="w-full rounded bg-sky-200 dark:bg-sky-800 py-6 text-center font-bold text-gray-700 dark:text-gray-200 hover:bg-sky-300 dark:hover:bg-sky-700 transition-colors"
         >
           タップして意味と和訳を表示
         </button>
       ) : (
         <div onClick={onToggleReveal} className="cursor-pointer">
           {/* 品詞：意味 */}
-          <p className="mb-2 text-center font-bold">
+          <p className="mb-2 text-center font-bold dark:text-gray-100">
             {translatePos(word.part_of_speech)}：{word.meaning}
           </p>
 
           {/* 例文の和訳 */}
           {currentExample && (
-            <p className="mb-3 text-center text-sm leading-relaxed text-gray-700">
+            <p className="mb-3 text-center text-sm leading-relaxed text-gray-700 dark:text-gray-300">
               {currentExample.translation}
             </p>
           )}
 
           {/* 派生語 */}
           {word.derivatives.length > 0 && (
-            <div className="space-y-0.5 pl-2 text-sm text-gray-600">
+            <div className="space-y-0.5 pl-2 text-sm text-gray-600 dark:text-gray-400">
               {word.derivatives.map((d, i) => (
                 <p key={i}>
-                  <span className="text-gray-500">{translateDerivPart(d.part)}：</span>
+                  <span className="text-gray-500 dark:text-gray-500">{translateDerivPart(d.part)}：</span>
                   {d.word}　{d.meaning}
                 </p>
               ))}

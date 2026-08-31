@@ -30,13 +30,13 @@ export default function GrammarChapterListPage() {
   }
 
   return (
-    <div className="mx-auto flex h-screen max-w-sm flex-col bg-white">
+    <div className="mx-auto flex h-screen max-w-sm flex-col bg-white dark:bg-gray-900">
       {/* ヘッダー：戻るボタン */}
       <div className="px-4 pt-3">
         <button
           type="button"
           onClick={() => navigate(-1)}
-          className="flex h-8 w-8 items-center justify-center rounded-full border border-gray-400 text-gray-600"
+          className="flex h-8 w-8 items-center justify-center rounded-full border border-gray-400 dark:border-gray-600 text-gray-600 dark:text-gray-300"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -52,21 +52,21 @@ export default function GrammarChapterListPage() {
       </div>
 
       {/* レベル切り替えバー */}
-      <div className="flex items-center justify-center border-b border-gray-200 px-4 py-3">
+      <div className="flex items-center justify-center border-b border-gray-200 dark:border-gray-700 px-4 py-3">
         <button
           type="button"
           onClick={prevLevel}
-          className="px-2 text-xl font-bold text-gray-600 hover:text-gray-900"
+          className="px-2 text-xl font-bold text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100"
         >
           ◀
         </button>
-        <span className="mx-4 min-w-[160px] text-center text-xl font-bold">
+        <span className="mx-4 min-w-[160px] text-center text-xl font-bold dark:text-gray-100">
           文法：{level}点台
         </span>
         <button
           type="button"
           onClick={nextLevel}
-          className="px-2 text-xl font-bold text-gray-600 hover:text-gray-900"
+          className="px-2 text-xl font-bold text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100"
         >
           ▶
         </button>
@@ -79,7 +79,7 @@ export default function GrammarChapterListPage() {
             <Link
               key={ch}
               to={`/grammar/${level}/${ch}`}
-              className="block rounded bg-sky-200 py-4 text-center text-lg font-bold text-gray-800 transition-colors hover:bg-sky-300"
+              className="block rounded bg-sky-200 dark:bg-sky-800 py-4 text-center text-lg font-bold text-gray-800 dark:text-gray-100 transition-colors hover:bg-sky-300 dark:hover:bg-sky-700"
             >
               第{ch}章
             </Link>
