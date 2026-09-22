@@ -58,11 +58,11 @@ export default function HomePage() {
                 className="h-24 w-24 object-contain"
               />
             ) : (
-              <span className="text-sm font-medium leading-snug text-gray-700 dark:text-gray-300">
-                ランク
-                <br />
-                表示
-              </span>
+              <img
+                src="/badges/rookie.png"
+                alt="ルーキー"
+                className="h-24 w-24 object-contain"
+              />
             )}
           </div>
         </div>
