@@ -32,7 +32,7 @@ export function GrammarReviewModal({
     >
       <div
         className={`w-full max-w-sm overflow-y-auto rounded-xl shadow-xl ${
-          isBookmarked ? 'bg-yellow-100 dark:bg-yellow-900/20' : 'bg-white dark:bg-gray-800'
+          isBookmarked ? 'bg-yellow-100 dark:bg-amber-950' : 'bg-white dark:bg-gray-800'
         }`}
         style={{ maxHeight: '80vh' }}
         onClick={(e) => e.stopPropagation()}
@@ -53,7 +53,7 @@ export function GrammarReviewModal({
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                className="h-6 w-6 text-yellow-500"
+                className="h-6 w-6 text-yellow-400"
               >
                 <path
                   fillRule="evenodd"
