@@ -5,6 +5,8 @@ import { ChatBot } from './ChatBot';
 
 interface MainLayoutProps {
   title?: string;
+  /** ヘッダー中央に任意の要素を置く（指定時は title より優先） */
+  titleContent?: ReactNode;
   showBack?: boolean;
   showChatBot?: boolean;
   children: ReactNode;
@@ -12,6 +14,7 @@ interface MainLayoutProps {
 
 export function MainLayout({
   title,
+  titleContent,
   showBack = false,
   showChatBot = false,
   children,
@@ -19,7 +22,7 @@ export function MainLayout({
   const navigate = useNavigate();
   const [chatOpen, setChatOpen] = useState(false);
 
-  const showHeader = !!(title || showBack || showChatBot);
+  const showHeader = !!(title || titleContent || showBack || showChatBot);
 
   return (
     <div className="app-container relative mx-auto flex max-w-sm flex-col bg-white dark:bg-gray-900">
@@ -47,7 +50,11 @@ export function MainLayout({
             <div className="w-8" />
           )}
 
-          <h1 className="flex-1 text-center text-lg font-bold dark:text-gray-100">{title}</h1>
+          {titleContent ? (
+            <div className="flex flex-1 items-center justify-center">{titleContent}</div>
+          ) : (
+            <h1 className="flex-1 text-center text-lg font-bold dark:text-gray-100">{title}</h1>
+          )}
 
           {showChatBot ? (
             <button

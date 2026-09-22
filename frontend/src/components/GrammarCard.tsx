@@ -1,6 +1,5 @@
+import { CHOICE_LABELS as LABELS } from '../types/grammar';
 import type { GrammarQuestion } from '../types/grammar';
-
-const LABELS = ['A', 'B', 'C', 'D'] as const;
 
 interface GrammarCardProps {
   question: GrammarQuestion;

@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 import {
   collection,
   query,
@@ -14,8 +15,19 @@ import { db } from '../firebase';
 import { auth } from '../firebase';
 import { callGemini } from '../lib/proxyClient';
 import { MainLayout } from '../components/MainLayout';
+import { FilledQuestionText } from '../components/FilledQuestionText';
+import { GrammarReviewModal } from '../components/GrammarReviewModal';
 import type { WordQuestion, ExampleSentence } from '../types/word';
 import { translatePos, translateDerivPart } from '../types/word';
+import type { GrammarQuestion } from '../types/grammar';
+
+const MODES = ['word', 'grammar'] as const;
+type ReviewMode = (typeof MODES)[number];
+
+const MODE_LABEL: Record<ReviewMode, string> = {
+  word: '単語復習',
+  grammar: '文法復習',
+};
 
 /** 品詞の短縮表記（一覧行用） */
 function posShort(pos: string): string {
@@ -45,6 +57,13 @@ function HighlightedSentence({ sentence, word }: { sentence: string; word: strin
 
 export default function ReviewListPage() {
   const user = auth.currentUser;
+  const navigate = useNavigate();
+  const [searchParams] = useSearchParams();
+
+  // 表示モード（単語復習 / 文法復習）
+  const initialMode: ReviewMode =
+    searchParams.get('mode') === 'grammar' ? 'grammar' : 'word';
+  const [mode, setMode] = useState<ReviewMode>(initialMode);
 
   // 復習マーク済みの単語ID（added_at 昇順）
   const [bookmarkIds, setBookmarkIds] = useState<string[]>([]);
@@ -58,6 +77,19 @@ export default function ReviewListPage() {
   const [reloading, setReloading] = useState<Set<string>>(new Set());
   // 取得済みIDの重複フェッチ防止
   const fetchedIds = useRef<Set<string>>(new Set());
+
+  // ── 文法復習 ──
+  // 復習マーク済みの問題ID（手動マーク・誤答による自動マークの両方。added_at 昇順）
+  const [grammarBookmarkIds, setGrammarBookmarkIds] = useState<string[]>([]);
+  // 問題詳細キャッシュ
+  const [grammarQuestions, setGrammarQuestions] = useState<Map<string, GrammarQuestion>>(new Map());
+  const [grammarLoading, setGrammarLoading] = useState(true);
+  // 詳細モーダルで表示中の問題（番号は開いた時点の一覧での位置を保持する。
+  // モーダル内で復習マークを外すと一覧から消えるため、indexOf では番号が崩れる）
+  const [selectedGrammar, setSelectedGrammar] = useState<{ id: string; number: number } | null>(
+    null,
+  );
+  const fetchedGrammarIds = useRef<Set<string>>(new Set());
 
   // word_bookmarks をリアルタイム監視（added_at 昇順）
   useEffect(() => {
@@ -91,6 +123,75 @@ export default function ReviewListPage() {
       });
     });
   }, [bookmarkIds, user]);
+
+  // grammar_bookmarks をリアルタイム監視（added_at 昇順）
+  useEffect(() => {
+    if (!user) return;
+    return onSnapshot(
+      query(
+        collection(db, 'users', user.uid, 'grammar_bookmarks'),
+        orderBy('added_at', 'asc'),
+      ),
+      (snap) => {
+        setGrammarBookmarkIds(snap.docs.map((d) => d.id));
+        setGrammarLoading(false);
+      },
+    );
+  }, [user]);
+
+  // grammarBookmarkIds が変わったら未取得の問題詳細をフェッチ
+  useEffect(() => {
+    if (!user) return;
+    const missingIds = grammarBookmarkIds.filter((id) => !fetchedGrammarIds.current.has(id));
+    if (missingIds.length === 0) return;
+    missingIds.forEach((id) => fetchedGrammarIds.current.add(id));
+
+    Promise.all(missingIds.map((id) => getDoc(doc(db, 'grammar_questions', id)))).then((docs) => {
+      setGrammarQuestions((prev) => {
+        const next = new Map(prev);
+        docs.forEach((d) => {
+          if (d.exists()) next.set(d.id, { id: d.id, ...d.data() } as GrammarQuestion);
+        });
+        return next;
+      });
+    });
+  }, [grammarBookmarkIds, user]);
+
+  // 文法の復習マークをトグル
+  const toggleGrammarBookmark = useCallback(
+    async (questionId: string) => {
+      if (!user) return;
+      const ref = doc(db, 'users', user.uid, 'grammar_bookmarks', questionId);
+      if (grammarBookmarkIds.includes(questionId)) {
+        await deleteDoc(ref);
+      } else {
+        await setDoc(ref, { source: 'manual', added_at: serverTimestamp() });
+      }
+    },
+    [user, grammarBookmarkIds],
+  );
+
+  // モード切り替え（単語モードのレベル切り替えと同じ剰余ロジック）
+  const changeMode = useCallback(
+    (next: ReviewMode) => {
+      setMode(next);
+      // 詳細モーダルが開いたまま切り替わるのを防ぐ
+      setSelectedId(null);
+      setSelectedGrammar(null);
+      navigate(`/review?mode=${next}`, { replace: true });
+    },
+    [navigate],
+  );
+
+  const prevMode = useCallback(() => {
+    const idx = MODES.indexOf(mode);
+    changeMode(MODES[(idx - 1 + MODES.length) % MODES.length]);
+  }, [mode, changeMode]);
+
+  const nextMode = useCallback(() => {
+    const idx = MODES.indexOf(mode);
+    changeMode(MODES[(idx + 1) % MODES.length]);
+  }, [mode, changeMode]);
 
   // 復習マークをトグル
   const toggleBookmark = useCallback(
@@ -127,16 +228,81 @@ export default function ReviewListPage() {
     }
   }, []);
 
+  const selectedGrammarQuestion = selectedGrammar
+    ? grammarQuestions.get(selectedGrammar.id)
+    : undefined;
   const selectedWord = selectedId ? words.get(selectedId) : undefined;
   const isSelectedBookmarked = selectedId ? bookmarkIds.includes(selectedId) : false;
   const currentExample = selectedWord
     ? (generatedExamples.get(selectedWord.id) ?? selectedWord.example_sentences[0])
     : undefined;
 
+  // ヘッダー中央のモード切り替えバー（単語モードのレベル切り替えと同じ組み方）
+  const modeSwitcher = (
+    <>
+      <button
+        type="button"
+        onClick={prevMode}
+        aria-label="前の復習モード"
+        className="px-2 text-xl font-bold text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100"
+      >
+        ◀
+      </button>
+      <span className="mx-2 text-center text-lg font-bold dark:text-gray-100">
+        {MODE_LABEL[mode]}
+      </span>
+      <button
+        type="button"
+        onClick={nextMode}
+        aria-label="次の復習モード"
+        className="px-2 text-xl font-bold text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100"
+      >
+        ▶
+      </button>
+    </>
+  );
+
   return (
-    <MainLayout title="復習問題一覧" showBack showChatBot>
-      {/* ── 一覧 ── */}
-      {loading ? (
+    <MainLayout titleContent={modeSwitcher} showBack showChatBot>
+      {/* ── 文法復習：一覧（問題文の空欄に正解を下線付きで表示） ── */}
+      {mode === 'grammar' &&
+        (grammarLoading ? (
+          <div className="flex justify-center pt-16">
+            <div className="h-8 w-8 animate-spin rounded-full border-b-2 border-sky-400" />
+          </div>
+        ) : grammarBookmarkIds.length === 0 ? (
+          <p className="pt-16 text-center text-gray-400 dark:text-gray-500">
+            復習マークが付いた文法問題がありません
+          </p>
+        ) : (
+          <div className="flex flex-col gap-3 px-4 py-4">
+            {grammarBookmarkIds.map((id, idx) => {
+              const question = grammarQuestions.get(id);
+              if (!question) {
+                return (
+                  <div key={id} className="h-14 animate-pulse rounded bg-sky-100 dark:bg-sky-900/30" />
+                );
+              }
+              return (
+                <button
+                  key={id}
+                  type="button"
+                  onClick={() => setSelectedGrammar({ id, number: idx + 1 })}
+                  className="w-full rounded bg-sky-200 dark:bg-sky-800 px-4 py-3 text-left text-sm leading-relaxed text-gray-800 dark:text-gray-100 hover:bg-sky-300 dark:hover:bg-sky-700 transition-colors"
+                >
+                  <FilledQuestionText
+                    questionText={question.question_text}
+                    answer={question.choices[question.correct_index]}
+                  />
+                </button>
+              );
+            })}
+          </div>
+        ))}
+
+      {/* ── 単語復習：一覧 ── */}
+      {mode === 'word' &&
+        (loading ? (
         <div className="flex justify-center pt-16">
           <div className="h-8 w-8 animate-spin rounded-full border-b-2 border-sky-400" />
         </div>
@@ -164,9 +330,20 @@ export default function ReviewListPage() {
             );
           })}
         </div>
+        ))}
+
+      {/* ── 文法復習：詳細モーダル ── */}
+      {selectedGrammarQuestion && selectedGrammar && (
+        <GrammarReviewModal
+          question={selectedGrammarQuestion}
+          questionNumber={selectedGrammar.number}
+          isBookmarked={grammarBookmarkIds.includes(selectedGrammar.id)}
+          onToggleBookmark={() => toggleGrammarBookmark(selectedGrammar.id)}
+          onClose={() => setSelectedGrammar(null)}
+        />
       )}
 
-      {/* ── 詳細モーダル ── */}
+      {/* ── 単語復習：詳細モーダル（モード切り替え時に selectedId をクリアするので単語モード専用） ── */}
       {selectedId && selectedWord && (
         <div
           className="fixed inset-0 z-50 flex items-start justify-center bg-black/40 px-4 pt-10"
