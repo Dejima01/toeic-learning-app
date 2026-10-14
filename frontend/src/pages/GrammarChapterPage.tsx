@@ -12,7 +12,7 @@ import {
   serverTimestamp,
 } from 'firebase/firestore';
 import { db } from '../firebase';
-import { auth } from '../firebase';
+import { useAuth } from '../contexts/AuthContext';
 import { MainLayout } from '../components/MainLayout';
 import { GrammarCard } from '../components/GrammarCard';
 import type { GrammarQuestion } from '../types/grammar';
@@ -22,7 +22,7 @@ export default function GrammarChapterPage() {
   const navigate = useNavigate();
   const level = Number(levelStr);
   const chapter = Number(chapterStr);
-  const user = auth.currentUser;
+  const { user } = useAuth();
 
   const [questions, setQuestions] = useState<GrammarQuestion[]>([]);
   const [loading, setLoading] = useState(true);

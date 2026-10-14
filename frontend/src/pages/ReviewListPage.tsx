@@ -12,7 +12,7 @@ import {
   serverTimestamp,
 } from 'firebase/firestore';
 import { db } from '../firebase';
-import { auth } from '../firebase';
+import { useAuth } from '../contexts/AuthContext';
 import { callGemini } from '../lib/proxyClient';
 import { MainLayout } from '../components/MainLayout';
 import { FilledQuestionText } from '../components/FilledQuestionText';
@@ -56,7 +56,7 @@ function HighlightedSentence({ sentence, word }: { sentence: string; word: strin
 }
 
 export default function ReviewListPage() {
-  const user = auth.currentUser;
+  const { user } = useAuth();
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
 

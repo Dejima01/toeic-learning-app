@@ -12,7 +12,7 @@ import {
   serverTimestamp,
 } from 'firebase/firestore';
 import { db } from '../firebase';
-import { auth } from '../firebase';
+import { useAuth } from '../contexts/AuthContext';
 import { callGemini } from '../lib/proxyClient';
 import { MainLayout } from '../components/MainLayout';
 import { WordCard } from '../components/WordCard';
@@ -23,7 +23,7 @@ export default function WordChapterPage() {
   const navigate = useNavigate();
   const level = Number(levelStr);
   const chapter = Number(chapterStr);
-  const user = auth.currentUser;
+  const { user } = useAuth();
 
   // ── データ ──
   const [words, setWords] = useState<WordQuestion[]>([]);
