@@ -1,0 +1,711 @@
+[
+  {
+    "id": "q_word_600_101",
+    "word": "reserve",
+    "meaning": "予約する、取っておく",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "I would like to reserve a table for four at seven.", "translation": "7時に4名でテーブルを予約したいのですが。"},
+      {"sentence": "Please reserve a meeting room for Friday afternoon.", "translation": "金曜日の午後に会議室を押さえておいてください。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "reservation", "meaning": "予約"}
+    ]
+  },
+  {
+    "id": "q_word_600_102",
+    "word": "reservation",
+    "meaning": "予約",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "I have a reservation under the name Sato.", "translation": "佐藤の名前で予約しています。"},
+      {"sentence": "You can cancel your reservation up to 24 hours in advance.", "translation": "ご予約は24時間前までキャンセルできます。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "reserve", "meaning": "予約する"}
+    ]
+  },
+  {
+    "id": "q_word_600_103",
+    "word": "book",
+    "meaning": "予約する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "She booked a hotel room near the conference center.", "translation": "彼女は会議場の近くにホテルの部屋を予約しました。"},
+      {"sentence": "All flights to Osaka are fully booked this weekend.", "translation": "今週末の大阪行きの便はすべて満席です。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "booking", "meaning": "予約"}
+    ]
+  },
+  {
+    "id": "q_word_600_104",
+    "word": "flight",
+    "meaning": "(飛行機の)便、フライト、飛行",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "My flight to Seoul leaves at 9:15 tomorrow morning.", "translation": "ソウル行きの便は明日の朝9時15分に出発します。"},
+      {"sentence": "The flight was canceled because of bad weather.", "translation": "悪天候のため、その便は欠航になりました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "fly", "meaning": "飛ぶ、飛行機で行く"}
+    ]
+  },
+  {
+    "id": "q_word_600_105",
+    "word": "passenger",
+    "meaning": "乗客、旅客",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "All passengers must show their boarding passes at the gate.", "translation": "乗客の皆様はゲートで搭乗券をご提示ください。"},
+      {"sentence": "The train was crowded with passengers this morning.", "translation": "今朝、電車は乗客で混雑していました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_106",
+    "word": "luggage",
+    "meaning": "手荷物、旅行かばん",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "You can leave your luggage at the front desk.", "translation": "お荷物はフロントに預けていただけます。"},
+      {"sentence": "Each passenger is allowed one piece of carry-on luggage.", "translation": "乗客一人につき機内持ち込み手荷物1個が認められています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_107",
+    "word": "baggage",
+    "meaning": "手荷物、荷物",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Please pick up your baggage at carousel number three.", "translation": "お荷物は3番のターンテーブルでお受け取りください。"},
+      {"sentence": "There is an extra charge for excess baggage.", "translation": "重量超過の荷物には追加料金がかかります。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_108",
+    "word": "boarding",
+    "meaning": "搭乗、乗車",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Boarding will begin about thirty minutes before departure.", "translation": "搭乗は出発の約30分前に開始します。"},
+      {"sentence": "Please have your boarding pass ready.", "translation": "搭乗券をご用意ください。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "board", "meaning": "搭乗する、乗り込む"}
+    ]
+  },
+  {
+    "id": "q_word_600_109",
+    "word": "destination",
+    "meaning": "目的地、行き先",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Kyoto is a popular destination for foreign tourists.", "translation": "京都は外国人観光客に人気の目的地です。"},
+      {"sentence": "We should arrive at our destination by six o'clock.", "translation": "6時までには目的地に到着するはずです。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_110",
+    "word": "itinerary",
+    "meaning": "旅程、旅行日程表",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "I have attached the itinerary for your business trip.", "translation": "出張の旅程表を添付いたしました。"},
+      {"sentence": "The itinerary includes a factory tour on the second day.", "translation": "旅程には2日目の工場見学が含まれています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_111",
+    "word": "fare",
+    "meaning": "運賃、料金",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The bus fare from the airport is 1,200 yen.", "translation": "空港からのバス運賃は1,200円です。"},
+      {"sentence": "Train fares will increase starting next April.", "translation": "電車の運賃は来年4月から値上げされます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_112",
+    "word": "round-trip",
+    "meaning": "往復の",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "A round-trip ticket is cheaper than two one-way tickets.", "translation": "往復券は片道券を2枚買うより安いです。"},
+      {"sentence": "The company will cover your round-trip airfare.", "translation": "会社が往復の航空券代を負担します。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_113",
+    "word": "aisle",
+    "meaning": "通路",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "I would prefer an aisle seat, please.", "translation": "通路側の席をお願いしたいのですが。"},
+      {"sentence": "You can find batteries in aisle five.", "translation": "電池は5番通路にございます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_114",
+    "word": "transfer",
+    "meaning": "乗り換える、移す、転勤する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "You need to transfer to the green line at Shibuya Station.", "translation": "渋谷駅で緑の路線に乗り換える必要があります。"},
+      {"sentence": "He was transferred to the London office last spring.", "translation": "彼は昨年の春、ロンドン支社に異動しました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "transfer", "meaning": "乗り換え、異動、振替"},
+      {"part": "adj", "word": "transferable", "meaning": "譲渡できる、移動可能な"}
+    ]
+  },
+  {
+    "id": "q_word_600_115",
+    "word": "delay",
+    "meaning": "遅延、遅れ、遅らせる",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "We apologize for the delay in your departure.", "translation": "ご出発が遅れておりますことをお詫び申し上げます。"},
+      {"sentence": "The heavy snow delayed all trains this morning.", "translation": "大雪により今朝はすべての電車が遅れました。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "delayed", "meaning": "遅れた、遅延した"}
+    ]
+  },
+  {
+    "id": "q_word_600_116",
+    "word": "departure",
+    "meaning": "出発、発車",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Please check the departure time on the screen.", "translation": "画面で出発時刻をご確認ください。"},
+      {"sentence": "The departure gate has been changed to B12.", "translation": "出発ゲートはB12に変更されました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "depart", "meaning": "出発する"}
+    ]
+  },
+  {
+    "id": "q_word_600_117",
+    "word": "arrival",
+    "meaning": "到着",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The estimated arrival time is 3:40 p.m.", "translation": "到着予定時刻は午後3時40分です。"},
+      {"sentence": "Please call me upon your arrival at the hotel.", "translation": "ホテルに到着されましたらお電話ください。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "arrive", "meaning": "到着する"}
+    ]
+  },
+  {
+    "id": "q_word_600_118",
+    "word": "accommodation",
+    "meaning": "宿泊施設、宿泊設備",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The company will arrange accommodation for all speakers.", "translation": "会社がすべての講演者の宿泊先を手配します。"},
+      {"sentence": "Accommodation near the station tends to be expensive.", "translation": "駅の近くの宿泊施設は高くなりがちです。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "accommodate", "meaning": "収容する、宿泊させる"}
+    ]
+  },
+  {
+    "id": "q_word_600_119",
+    "word": "lodging",
+    "meaning": "宿泊、宿、宿泊先",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The tour price includes meals and lodging.", "translation": "ツアー料金には食事と宿泊が含まれています。"},
+      {"sentence": "We found affordable lodging near the beach.", "translation": "ビーチの近くに手頃な宿を見つけました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "lodge", "meaning": "宿泊する、泊める"}
+    ]
+  },
+  {
+    "id": "q_word_600_120",
+    "word": "check-in",
+    "meaning": "チェックイン、搭乗手続き",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Check-in begins at three o'clock in the afternoon.", "translation": "チェックインは午後3時から開始します。"},
+      {"sentence": "The check-in counter is on the second floor.", "translation": "チェックインカウンターは2階にあります。"}
+    ],
+    "derivatives": [
+      {"part": "phrase", "word": "check in", "meaning": "チェックインする、搭乗手続きをする"}
+    ]
+  },
+  {
+    "id": "q_word_600_121",
+    "word": "amenity",
+    "meaning": "設備、備品、アメニティ",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The hotel offers amenities such as a gym and a pool.", "translation": "そのホテルにはジムやプールなどの設備があります。"},
+      {"sentence": "Free Wi-Fi is a standard amenity in most hotels.", "translation": "無料Wi-Fiはほとんどのホテルで標準的な設備です。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_122",
+    "word": "vacancy",
+    "meaning": "空室、空き、欠員",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Do you have any vacancies for tonight?", "translation": "今晩、空室はありますか。"},
+      {"sentence": "There is a vacancy in the accounting department.", "translation": "経理部に欠員が出ています。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "vacant", "meaning": "空いている、空席の"}
+    ]
+  },
+  {
+    "id": "q_word_600_123",
+    "word": "tourist",
+    "meaning": "観光客、旅行者",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The museum attracts thousands of tourists every year.", "translation": "その博物館は毎年何千人もの観光客を集めています。"},
+      {"sentence": "You can get a free map at the tourist information center.", "translation": "観光案内所で無料の地図がもらえます。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "tourism", "meaning": "観光業、観光"},
+      {"part": "noun", "word": "tour", "meaning": "旅行、見学"}
+    ]
+  },
+  {
+    "id": "q_word_600_124",
+    "word": "sightseeing",
+    "meaning": "観光、見物",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "We went sightseeing in Rome on our last day.", "translation": "最終日にローマを観光しました。"},
+      {"sentence": "A sightseeing bus tour departs from the station every hour.", "translation": "観光バスツアーは駅から1時間おきに出発します。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_125",
+    "word": "souvenir",
+    "meaning": "土産、記念品",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "I bought some souvenirs for my colleagues.", "translation": "同僚のためにお土産をいくつか買いました。"},
+      {"sentence": "The souvenir shop is located next to the exit.", "translation": "土産物店は出口の隣にあります。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_126",
+    "word": "vehicle",
+    "meaning": "車両、乗り物",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "No vehicles are allowed in this area on weekends.", "translation": "週末はこの区域への車両の乗り入れが禁止されています。"},
+      {"sentence": "The company purchased three new delivery vehicles.", "translation": "その会社は新しい配送車両を3台購入しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_127",
+    "word": "traffic",
+    "meaning": "交通、交通量、往来",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "I was late for the meeting because of heavy traffic.", "translation": "交通渋滞のせいで会議に遅刻しました。"},
+      {"sentence": "Traffic is usually light on Sunday mornings.", "translation": "日曜の朝は普段、交通量が少ないです。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_128",
+    "word": "highway",
+    "meaning": "幹線道路、高速道路",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The highway will be closed for repairs this weekend.", "translation": "その幹線道路は今週末、補修工事のため通行止めになります。"},
+      {"sentence": "Take the highway to save about thirty minutes.", "translation": "高速道路を使えば30分ほど節約できます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_129",
+    "word": "pedestrian",
+    "meaning": "歩行者",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Drivers must stop for pedestrians at the crosswalk.", "translation": "運転手は横断歩道で歩行者のために停止しなければなりません。"},
+      {"sentence": "The street was closed to create a pedestrian zone.", "translation": "歩行者天国にするため、その通りは閉鎖されました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_130",
+    "word": "intersection",
+    "meaning": "交差点",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Turn right at the next intersection.", "translation": "次の交差点を右に曲がってください。"},
+      {"sentence": "The bank is located at the intersection of Fifth and Main.", "translation": "銀行は5番通りとメイン通りの交差点にあります。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "intersect", "meaning": "交差する"}
+    ]
+  },
+  {
+    "id": "q_word_600_131",
+    "word": "parking",
+    "meaning": "駐車、駐車場",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Free parking is available for hotel guests.", "translation": "ホテルの宿泊客は駐車場を無料でご利用いただけます。"},
+      {"sentence": "The parking lot behind the building is full.", "translation": "建物の裏の駐車場は満車です。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "park", "meaning": "駐車する"}
+    ]
+  },
+  {
+    "id": "q_word_600_132",
+    "word": "fuel",
+    "meaning": "燃料、燃料を供給する",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Rising fuel prices have increased shipping costs.", "translation": "燃料価格の高騰により輸送費が増加しました。"},
+      {"sentence": "This model uses less fuel than the previous one.", "translation": "このモデルは前のモデルより燃料の消費が少ないです。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_133",
+    "word": "rental",
+    "meaning": "賃貸、レンタル、賃貸の",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "We picked up a rental car at the airport.", "translation": "空港でレンタカーを借りました。"},
+      {"sentence": "The monthly rental for the office is quite reasonable.", "translation": "そのオフィスの月々の賃料はかなり手頃です。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "rent", "meaning": "借りる、貸す"}
+    ]
+  },
+  {
+    "id": "q_word_600_134",
+    "word": "license",
+    "meaning": "免許、許可証",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "You need a valid driver's license to rent a car.", "translation": "車を借りるには有効な運転免許証が必要です。"},
+      {"sentence": "The restaurant recently obtained a license to sell alcohol.", "translation": "そのレストランは最近、酒類販売の許可を取得しました。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "licensed", "meaning": "免許を持った、認可された"}
+    ]
+  },
+  {
+    "id": "q_word_600_135",
+    "word": "route",
+    "meaning": "経路、道筋、路線",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "This is the fastest route to the airport.", "translation": "これが空港までの最短ルートです。"},
+      {"sentence": "The bus route was changed due to road construction.", "translation": "道路工事のため、バスの路線が変更されました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_136",
+    "word": "direction",
+    "meaning": "方向、道順、指示",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Could you give me directions to the station?", "translation": "駅までの道順を教えていただけますか。"},
+      {"sentence": "Follow the directions in the manual carefully.", "translation": "説明書の指示に注意深く従ってください。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "direct", "meaning": "指示する、案内する"},
+      {"part": "adv", "word": "directly", "meaning": "直接に、まっすぐに"}
+    ]
+  },
+  {
+    "id": "q_word_600_137",
+    "word": "downtown",
+    "meaning": "中心街、繁華街、中心街へ",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Our new office is located in downtown Nagoya.", "translation": "当社の新しいオフィスは名古屋の中心街にあります。"},
+      {"sentence": "Let's go downtown for lunch today.", "translation": "今日は昼食に街の中心部へ行きましょう。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_138",
+    "word": "suburb",
+    "meaning": "郊外",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "They moved to a quiet suburb of Tokyo last year.", "translation": "彼らは昨年、東京の静かな郊外に引っ越しました。"},
+      {"sentence": "Housing in the suburbs is cheaper than in the city center.", "translation": "郊外の住宅は都心よりも安いです。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "suburban", "meaning": "郊外の"}
+    ]
+  },
+  {
+    "id": "q_word_600_139",
+    "word": "neighborhood",
+    "meaning": "近所、地域、地区",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "There are several good restaurants in this neighborhood.", "translation": "この地域にはいい飲食店がいくつかあります。"},
+      {"sentence": "The neighborhood has become popular with young families.", "translation": "その地区は若い家族に人気が出てきました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "neighbor", "meaning": "隣人、近所の人"}
+    ]
+  },
+  {
+    "id": "q_word_600_140",
+    "word": "resident",
+    "meaning": "住民、居住者",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Residents will be notified about the construction next week.", "translation": "住民には来週、工事についてお知らせします。"},
+      {"sentence": "Only residents may use the building's parking lot.", "translation": "この建物の駐車場は居住者のみ利用できます。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "reside", "meaning": "居住する"},
+      {"part": "noun", "word": "residence", "meaning": "住居、居住"},
+      {"part": "adj", "word": "residential", "meaning": "住宅の、居住用の"}
+    ]
+  },
+  {
+    "id": "q_word_600_141",
+    "word": "apartment",
+    "meaning": "アパート、集合住宅の一室",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "She rented an apartment close to her office.", "translation": "彼女は職場の近くにアパートを借りました。"},
+      {"sentence": "The apartment comes with a small balcony.", "translation": "その部屋には小さなバルコニーが付いています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_142",
+    "word": "lease",
+    "meaning": "賃貸借契約、賃貸する、賃借する",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Our office lease expires at the end of the year.", "translation": "当社のオフィスの賃貸契約は年末で切れます。"},
+      {"sentence": "The company leased a larger space downtown.", "translation": "その会社は中心街により広いスペースを借りました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_143",
+    "word": "tenant",
+    "meaning": "賃借人、入居者、テナント",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Tenants must pay the rent by the fifth of each month.", "translation": "入居者は毎月5日までに家賃を支払う必要があります。"},
+      {"sentence": "A new tenant will move into the office next door.", "translation": "隣のオフィスに新しいテナントが入居します。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_144",
+    "word": "landlord",
+    "meaning": "家主、大家",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "I asked my landlord to fix the air conditioner.", "translation": "大家さんにエアコンを直してもらうよう頼みました。"},
+      {"sentence": "The landlord agreed to lower the rent slightly.", "translation": "家主は家賃を少し下げることに同意しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_145",
+    "word": "utility",
+    "meaning": "公共料金、公共設備、実用性",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The rent includes utilities such as water and gas.", "translation": "家賃には水道やガスなどの公共料金が含まれています。"},
+      {"sentence": "Utility bills tend to be higher in winter.", "translation": "光熱費は冬に高くなる傾向があります。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_146",
+    "word": "furniture",
+    "meaning": "家具",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The apartment comes with basic furniture.", "translation": "その部屋には基本的な家具が備え付けられています。"},
+      {"sentence": "We ordered new office furniture for the meeting room.", "translation": "会議室用に新しいオフィス家具を注文しました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "furnish", "meaning": "家具を備え付ける"},
+      {"part": "adj", "word": "furnished", "meaning": "家具付きの"}
+    ]
+  },
+  {
+    "id": "q_word_600_147",
+    "word": "appliance",
+    "meaning": "電化製品、器具",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The store is having a sale on kitchen appliances.", "translation": "その店ではキッチン家電のセールを行っています。"},
+      {"sentence": "All appliances in the room are less than a year old.", "translation": "部屋の電化製品はすべて購入から1年未満です。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_148",
+    "word": "renovation",
+    "meaning": "改装、改修",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The hotel is closed for renovation until March.", "translation": "そのホテルは3月まで改装のため休業しています。"},
+      {"sentence": "The renovation of the lobby cost more than expected.", "translation": "ロビーの改装費用は予想より高くつきました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "renovate", "meaning": "改装する、修復する"}
+    ]
+  },
+  {
+    "id": "q_word_600_149",
+    "word": "plumber",
+    "meaning": "配管工、水道業者",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "We called a plumber to fix the leaking pipe.", "translation": "水漏れしている配管を直してもらうため業者を呼びました。"},
+      {"sentence": "The plumber will come tomorrow between ten and noon.", "translation": "配管工は明日、10時から正午の間に来ます。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "plumbing", "meaning": "配管、配管工事"}
+    ]
+  },
+  {
+    "id": "q_word_600_150",
+    "word": "electricity",
+    "meaning": "電気、電力",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The electricity will be turned off for two hours on Sunday.", "translation": "日曜日は2時間ほど電気が止まります。"},
+      {"sentence": "The new system uses less electricity than the old one.", "translation": "新しいシステムは旧型より消費電力が少ないです。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "electric", "meaning": "電気の、電動の"},
+      {"part": "noun", "word": "electrician", "meaning": "電気技師"}
+    ]
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "id": "q_grammar_900_021",
+    "question_text": "The renovation ______ completed by the time the tenants return.",
+    "choices": [
+      "will have",
+      "has been being",
+      "will being",
+      "will have been"
+    ],
+    "correct_index": 3,
+    "category": "future_perfect_passive",
+    "category_ja": "未来完了受動態",
+    "level": "900",
+    "chapter_num": 3,
+    "explanation": "「入居者が戻る時までに」という未来の時点までに、改装が完了していることを表し、改装は「完了される」側なので受動態になります。未来完了の受動態は〈will have been + 過去分詞〉なので、will have been completed となる will have been が正解です。未来完了(will have + 過去分詞)と受動態(be + 過去分詞)が組み合わさり、be が been になる点がポイントです。",
+    "translation": "改装は、入居者が戻る時までに完了しているでしょう。"
+  },
+  {
+    "id": "q_grammar_900_022",
+    "question_text": "The system upgrade resulted ______ a 20 percent increase in processing speed.",
+    "choices": [
+      "from",
+      "at",
+      "in",
+      "to"
+    ],
+    "correct_index": 2,
+    "category": "prepositions_result_in",
+    "category_ja": "動詞+前置詞(result in)",
+    "level": "900",
+    "chapter_num": 3,
+    "explanation": "動詞 result は前置詞 in と結びついて、result in 〜「(結果として)〜をもたらす」を表します。よって in が正解です。「システムのアップグレードは、処理速度の20%向上をもたらした」という意味になります。紛らわしい result from 〜 は「〜が原因で起こる」と因果が逆になるため、原因と結果のどちらを述べるかで in と from を使い分ける点に注意しましょう。",
+    "translation": "システムのアップグレードによって、処理速度が20%向上しました。"
+  },
+  {
+    "id": "q_grammar_900_023",
+    "question_text": "The shipment was delayed; ______, we still met the project deadline.",
+    "choices": [
+      "nevertheless",
+      "despite",
+      "although",
+      "whereas"
+    ],
+    "correct_index": 0,
+    "category": "pos_conjunctive_adverb",
+    "category_ja": "接続副詞(nevertheless等)",
+    "level": "900",
+    "chapter_num": 3,
+    "explanation": "セミコロン(;)で区切られた2つの独立した文を、「それでも」と逆接でつないでいます。このように独立した文の間に置いて意味をつなぐのは接続副詞で、「それにもかかわらず」を表す nevertheless が正解です。although や whereas は接続詞で2つの節を1文につなぐ働きをするため、セミコロンの後に置いて独立した文を導くこの位置には合いません。",
+    "translation": "配送は遅れましたが、それでも私たちはプロジェクトの締め切りに間に合わせました。"
+  },
+  {
+    "id": "q_grammar_900_024",
+    "question_text": "The contractor denied ______ the mandatory safety inspection.",
+    "choices": [
+      "skip",
+      "having skipped",
+      "to skip",
+      "to have skipped"
+    ],
+    "correct_index": 1,
+    "category": "gerund_perfect_having_done",
+    "category_ja": "完了動名詞(having done)",
+    "level": "900",
+    "chapter_num": 3,
+    "explanation": "動詞 deny は動名詞を目的語にとります。さらに「(過去に)検査を省いたことを否定した」と、否定する時点より前の行為を表すので、完了動名詞〈having + 過去分詞〉の having skipped が正解です。deny は不定詞(to skip)を目的語にとらず、また述語動詞より前の出来事は having done で表す点がポイントです。",
+    "translation": "その請負業者は、義務付けられた安全検査を省いたことを否定しました。"
+  },
+  {
+    "id": "q_grammar_900_025",
+    "question_text": "The courier was seen ______ the building through the rear entrance.",
+    "choices": [
+      "to entering",
+      "enter",
+      "entered",
+      "to enter"
+    ],
+    "correct_index": 3,
+    "category": "passive_perception_to_infinitive",
+    "category_ja": "知覚動詞の受動態(be seen to do)",
+    "level": "900",
+    "chapter_num": 3,
+    "explanation": "知覚動詞 see は能動態では〈see + 人 + 動詞の原形〉ですが、受動態になると原形不定詞が to 付き不定詞に変わり、〈be seen to do〉の形になります。よって to enter が正解です。「配達員が建物に入るのを見られた」という意味になります。使役 make の受動態(be made to do)と同じく、能動態の原形が受動態では to 付きになる点がポイントです。",
+    "translation": "その配達員は、裏口から建物に入るところを目撃されました。"
+  },
+  {
+    "id": "q_grammar_900_026",
+    "question_text": "The publisher released three new titles, all ______ sold out within a week.",
+    "choices": [
+      "of which",
+      "of that",
+      "which",
+      "of whom"
+    ],
+    "correct_index": 0,
+    "category": "relative_quantifier_of_which",
+    "category_ja": "数量詞+of which",
+    "level": "900",
+    "chapter_num": 3,
+    "explanation": "コンマの後ろで、前の three new titles(物)を受けて「そのすべてが1週間以内に売り切れた」と補足しています。〈数量詞 + of which〉の形で先行詞の一部・全部を表すので、all of which が正解です。先行詞が物なので of whom(人)ではなく of which を使い、また of that という形は関係代名詞では使えません。",
+    "translation": "その出版社は3つの新刊を発売し、そのすべてが1週間以内に売り切れました。"
+  },
+  {
+    "id": "q_grammar_900_027",
+    "question_text": "If we ______ the market research earlier, we could have avoided the losses.",
+    "choices": [
+      "had conducted",
+      "would conduct",
+      "have conducted",
+      "conducted"
+    ],
+    "correct_index": 0,
+    "category": "subjunctive_past_perfect",
+    "category_ja": "仮定法過去完了",
+    "level": "900",
+    "chapter_num": 3,
+    "explanation": "過去の事実に反する仮定(実際にはもっと早く調査しなかった)を表すのが仮定法過去完了です。〈If + 主語 + had + 過去分詞, 主語 + could/would have + 過去分詞〉の形をとり、主節が could have avoided なので、if の中は過去完了の had conducted が正解です。過去の後悔を表すこの形は900点台の頻出パターンです。",
+    "translation": "もっと早く市場調査を実施していれば、私たちはその損失を避けられたのですが。"
+  },
+  {
+    "id": "q_grammar_900_028",
+    "question_text": "The board recommended that the travel policy ______ revised immediately.",
+    "choices": [
+      "was",
+      "has been",
+      "be",
+      "is"
+    ],
+    "correct_index": 2,
+    "category": "subjunctive_mandative_that",
+    "category_ja": "仮定法現在(要求・提案のthat節)",
+    "level": "900",
+    "chapter_num": 3,
+    "explanation": "recommend(勧める)のような要求・提案・命令を表す動詞に続く that 節の中では、主語に関係なく動詞は原形になります(仮定法現在)。ここでは方針が「改訂される」側なので受動態になり、原形の be を使った be revised が正解です。should が省略された形と考えると分かりやすく、is や was は入りません。suggest / demand / insist なども同じルールで使われます。",
+    "translation": "取締役会は、出張規定を直ちに改訂するよう勧告しました。"
+  },
+  {
+    "id": "q_grammar_900_029",
+    "question_text": "It was the marketing director ______ proposed the rebranding strategy.",
+    "choices": [
+      "which",
+      "whom",
+      "that",
+      "what"
+    ],
+    "correct_index": 2,
+    "category": "cleft_it_is_that",
+    "category_ja": "強調構文(It is ~ that)",
+    "level": "900",
+    "chapter_num": 3,
+    "explanation": "〈It is/was ... that ~〉で「~なのは…だ」と特定の要素を強調する強調構文です。ここでは the marketing director(人)を強調しており、強調構文では強調する語が人でも物でも that を使えるので、that が正解です。この文は元々 The marketing director proposed 〜 で、主語を強調した形です。what は先行詞を含む関係代名詞で強調構文には使えません。",
+    "translation": "リブランディング戦略を提案したのは、マーケティング部長でした。"
+  },
+  {
+    "id": "q_grammar_900_030",
+    "question_text": "______ finished the audit, the team submitted its findings to the CFO.",
+    "choices": [
+      "Have",
+      "Having",
+      "Has",
+      "Had"
+    ],
+    "correct_index": 1,
+    "category": "participle_construction_perfect",
+    "category_ja": "完了分詞構文(Having done)",
+    "level": "900",
+    "chapter_num": 3,
+    "explanation": "「監査を終えた後で、報告書を提出した」と、主節(提出した)よりも前に完了した動作を分詞構文で表しています。主節より前の出来事を表す分詞構文は〈Having + 過去分詞〉の完了形にするので、Having が正解です。Having finished 〜 で「〜を終えてしまってから」となり、After the team had finished 〜 とほぼ同じ意味になります。",
+    "translation": "監査を終えたあと、チームはその調査結果をCFOに提出しました。"
+  }
+]

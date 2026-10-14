@@ -1,0 +1,602 @@
+[
+  {
+    "id": "q_word_600_401",
+    "word": "in charge of",
+    "meaning": "〜を担当して、〜の責任者で",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "Ms. Sato is in charge of the marketing department.", "translation": "佐藤さんがマーケティング部門を担当しています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_402",
+    "word": "in advance",
+    "meaning": "前もって、事前に",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "Please book your seat in advance to avoid disappointment.", "translation": "満席を避けるため、事前に座席をご予約ください。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_403",
+    "word": "on time",
+    "meaning": "時間どおりに、定刻に",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "The train departed exactly on time.", "translation": "電車はちょうど定刻に発車しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_404",
+    "word": "out of stock",
+    "meaning": "在庫切れで",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "The item you ordered is currently out of stock.", "translation": "ご注文の商品は現在、在庫切れとなっております。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_405",
+    "word": "due to",
+    "meaning": "〜が原因で、〜のために",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "The flight was delayed due to bad weather.", "translation": "悪天候のため、その便は遅延しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_406",
+    "word": "as of",
+    "meaning": "〜時点で、〜付けで",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "As of next Monday, the office will move to a new building.", "translation": "来週の月曜日付けで、オフィスは新しいビルに移転します。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_407",
+    "word": "according to",
+    "meaning": "〜によれば、〜に従って",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "According to the schedule, the meeting starts at ten.", "translation": "予定表によると、会議は10時に始まります。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_408",
+    "word": "in addition to",
+    "meaning": "〜に加えて",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "In addition to her salary, she receives a monthly bonus.", "translation": "給料に加えて、彼女は毎月ボーナスを受け取っています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_409",
+    "word": "instead of",
+    "meaning": "〜の代わりに",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "We decided to use e-mail instead of phone calls.", "translation": "私たちは電話の代わりにメールを使うことにしました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_410",
+    "word": "on behalf of",
+    "meaning": "〜を代表して、〜に代わって",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "I would like to thank you all on behalf of the team.", "translation": "チームを代表して、皆様に感謝申し上げます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_411",
+    "word": "be responsible for",
+    "meaning": "〜に責任がある、〜を担当している",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "Each manager is responsible for their own department's budget.", "translation": "各マネージャーが自部門の予算に責任を持っています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_412",
+    "word": "take place",
+    "meaning": "行われる、開催される",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "The award ceremony will take place in the main hall.", "translation": "表彰式はメインホールで行われます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_413",
+    "word": "carry out",
+    "meaning": "実行する、遂行する",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "The team carried out the plan without any problems.", "translation": "チームはその計画を問題なく実行しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_414",
+    "word": "fill out",
+    "meaning": "記入する",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "Please fill out this form before your appointment.", "translation": "ご予約の前にこの用紙にご記入ください。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_415",
+    "word": "find out",
+    "meaning": "見つけ出す、知る、分かる",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "I need to find out why the shipment was delayed.", "translation": "なぜ発送が遅れたのか調べる必要があります。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_416",
+    "word": "figure out",
+    "meaning": "理解する、解決する",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "It took a while to figure out how the software works.", "translation": "そのソフトの使い方を理解するのに時間がかかりました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_417",
+    "word": "turn in",
+    "meaning": "提出する",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "Please turn in your report by Friday afternoon.", "translation": "報告書は金曜日の午後までに提出してください。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_418",
+    "word": "hand in",
+    "meaning": "提出する",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "Students must hand in their assignments by Monday.", "translation": "学生は月曜日までに課題を提出しなければなりません。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_419",
+    "word": "set up",
+    "meaning": "設置する、設立する、準備する",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "We need to set up the projector before the presentation.", "translation": "発表の前にプロジェクターを設置する必要があります。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_420",
+    "word": "pick up",
+    "meaning": "受け取る、迎えに行く、拾い上げる",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "Could you pick up some office supplies on your way in?", "translation": "出社の途中で事務用品を買ってきてもらえますか。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_421",
+    "word": "drop off",
+    "meaning": "届ける、降ろす",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "I will drop off the documents at your office this afternoon.", "translation": "今日の午後、書類を御社に届けます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_422",
+    "word": "look forward to",
+    "meaning": "〜を楽しみにする",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "We look forward to seeing you at the conference.", "translation": "会議でお会いできることを楽しみにしております。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_423",
+    "word": "get in touch with",
+    "meaning": "〜と連絡を取る",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "Please get in touch with us if you have any questions.", "translation": "ご質問がございましたらご連絡ください。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_424",
+    "word": "run out of",
+    "meaning": "〜を使い果たす、〜がなくなる",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "We are about to run out of printer paper.", "translation": "もうすぐコピー用紙がなくなりそうです。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_425",
+    "word": "deal with",
+    "meaning": "対処する、取り扱う",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "The customer service team deals with complaints daily.", "translation": "顧客サービスチームは日々苦情に対応しています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_426",
+    "word": "sign up for",
+    "meaning": "〜に申し込む、〜に登録する",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "Employees can sign up for the workshop online.", "translation": "社員は講習会にオンラインで申し込めます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_427",
+    "word": "take over",
+    "meaning": "引き継ぐ、買収する",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "Mr. Lee will take over the project next week.", "translation": "リーさんが来週、そのプロジェクトを引き継ぎます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_428",
+    "word": "put off",
+    "meaning": "延期する",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "The company put off the product launch until autumn.", "translation": "その会社は製品の発売を秋まで延期しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_429",
+    "word": "come up with",
+    "meaning": "思いつく、考え出す",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "The team came up with a creative solution to the problem.", "translation": "チームはその問題に対する独創的な解決策を思いつきました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_430",
+    "word": "go over",
+    "meaning": "見直す、検討する",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "Let's go over the details before the meeting.", "translation": "会議の前に詳細を確認しましょう。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_431",
+    "word": "focus on",
+    "meaning": "〜に集中する、〜に重点を置く",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "This quarter, we will focus on improving customer satisfaction.", "translation": "今四半期は顧客満足度の向上に重点を置きます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_432",
+    "word": "participate in",
+    "meaning": "〜に参加する",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "More than 100 employees participated in the training session.", "translation": "100人を超える社員がその研修に参加しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_433",
+    "word": "apply for",
+    "meaning": "〜に応募する、〜を申し込む",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "She applied for the manager position last week.", "translation": "彼女は先週、マネージャー職に応募しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_434",
+    "word": "respond to",
+    "meaning": "〜に応答する、〜に対応する",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "Please respond to this e-mail by Thursday.", "translation": "木曜日までにこのメールにご返信ください。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_435",
+    "word": "depend on",
+    "meaning": "〜に頼る、〜次第である",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "The final price depends on the size of the order.", "translation": "最終的な価格は注文の量によります。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_436",
+    "word": "lead to",
+    "meaning": "〜につながる、〜を引き起こす",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "Poor communication can lead to misunderstandings.", "translation": "コミュニケーション不足は誤解につながることがあります。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_437",
+    "word": "result in",
+    "meaning": "〜という結果になる",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "The new marketing campaign resulted in higher sales.", "translation": "新しいマーケティング施策は売上の増加という結果になりました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_438",
+    "word": "contribute to",
+    "meaning": "〜に貢献する、〜の一因となる",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "Her hard work contributed to the project's success.", "translation": "彼女の努力がそのプロジェクトの成功に貢献しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_439",
+    "word": "consist of",
+    "meaning": "〜から成る、〜で構成される",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "The committee consists of five members from different departments.", "translation": "その委員会は異なる部門の5名から構成されています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_440",
+    "word": "be supposed to",
+    "meaning": "〜することになっている、〜するはずだ",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "The delivery is supposed to arrive by noon.", "translation": "配達は正午までに届くことになっています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_441",
+    "word": "no later than",
+    "meaning": "遅くとも〜までに",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "Please submit the form no later than Friday.", "translation": "遅くとも金曜日までに用紙を提出してください。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_442",
+    "word": "free of charge",
+    "meaning": "無料で",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "Repairs are free of charge during the warranty period.", "translation": "保証期間中の修理は無料です。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_443",
+    "word": "under construction",
+    "meaning": "工事中で、建設中で",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "The new station building is still under construction.", "translation": "新しい駅舎はまだ建設中です。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_444",
+    "word": "out of order",
+    "meaning": "故障して",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "The elevator on the third floor is out of order.", "translation": "3階のエレベーターは故障中です。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_445",
+    "word": "up to date",
+    "meaning": "最新の、最新情報に合わせて",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "Please keep your contact information up to date.", "translation": "連絡先情報は常に最新の状態に保ってください。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_446",
+    "word": "in person",
+    "meaning": "直接、本人が",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "You must sign the contract in person at our office.", "translation": "契約書には当社の事務所で直接ご署名いただく必要があります。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_447",
+    "word": "on duty",
+    "meaning": "勤務中で、当番で",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "Two security guards are on duty at all times.", "translation": "常時2名の警備員が勤務しています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_448",
+    "word": "at the latest",
+    "meaning": "遅くとも",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "We need your reply by Wednesday at the latest.", "translation": "遅くとも水曜日までにご返信をお願いします。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_449",
+    "word": "right away",
+    "meaning": "すぐに、ただちに",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "I will send you the file right away.", "translation": "すぐにそのファイルをお送りします。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_450",
+    "word": "as soon as possible",
+    "meaning": "できるだけ早く",
+    "part_of_speech": "phrase",
+    "level": "600",
+    "chapter_num": 9,
+    "example_sentences": [
+      {"sentence": "Please reply to this message as soon as possible.", "translation": "このメッセージにできるだけ早くご返信ください。"}
+    ],
+    "derivatives": []
+  }
+]

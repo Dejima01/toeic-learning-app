@@ -1,0 +1,172 @@
+[
+  {
+    "id": "q_grammar_600_021",
+    "question_text": "Our team ______ the sales target last month.",
+    "choices": [
+      "meeting",
+      "met",
+      "meets",
+      "meet"
+    ],
+    "correct_index": 1,
+    "category": "past_simple_irregular",
+    "category_ja": "過去形(不規則動詞)",
+    "level": "600",
+    "chapter_num": 3,
+    "explanation": "「last month(先月)」という過去を表す時間表現があるので、過去形が入ります。meet は不規則動詞で、過去形は meeted ではなく met になります。ここでの meet the target は「目標を達成する」という意味です。meets は現在形なので過去の内容には合いません。",
+    "translation": "私たちのチームは先月、売上目標を達成しました。"
+  },
+  {
+    "id": "q_grammar_600_022",
+    "question_text": "The new store will open ______ March.",
+    "choices": [
+      "in",
+      "at",
+      "by",
+      "on"
+    ],
+    "correct_index": 0,
+    "category": "prepositions_time_in",
+    "category_ja": "前置詞(時のin)",
+    "level": "600",
+    "chapter_num": 3,
+    "explanation": "March のような「月」を表すときは、前置詞 in を使います。at は時刻、on は曜日や日付に使うので、月には合いません。「in + 月/年/季節」はTOEIC頻出の基本パターンです。",
+    "translation": "その新しい店舗は3月にオープンします。"
+  },
+  {
+    "id": "q_grammar_600_023",
+    "question_text": "You can pay by credit card ______ in cash.",
+    "choices": [
+      "or",
+      "and",
+      "but",
+      "so"
+    ],
+    "correct_index": 0,
+    "category": "conjunction_or",
+    "category_ja": "接続詞(or)",
+    "level": "600",
+    "chapter_num": 3,
+    "explanation": "「クレジットカード」と「現金」という2つの支払い方法を選択肢として並べているので、「または」を表す接続詞 or が正解です。or はどちらか一方を選ぶ関係を表します。and(両方)では「どちらでも選べる」という意味になりません。",
+    "translation": "クレジットカードまたは現金でお支払いいただけます。"
+  },
+  {
+    "id": "q_grammar_600_024",
+    "question_text": "You ______ confirm your reservation in advance.",
+    "choices": [
+      "are",
+      "have",
+      "ought",
+      "should"
+    ],
+    "correct_index": 3,
+    "category": "modal_should_advice",
+    "category_ja": "助動詞(should・助言)",
+    "level": "600",
+    "chapter_num": 3,
+    "explanation": "「前もって予約を確認したほうがよい」という助言・アドバイスを表すので、助動詞 should が正解です。should は動詞の原形の前に置いて「〜すべきだ・〜したほうがよい」を表します。ought は ought to の形なら同じ意味ですが、to がないここでは使えません。",
+    "translation": "前もって予約を確認しておいたほうがよいでしょう。"
+  },
+  {
+    "id": "q_grammar_600_025",
+    "question_text": "There ______ several restaurants near the hotel.",
+    "choices": [
+      "has",
+      "be",
+      "are",
+      "is"
+    ],
+    "correct_index": 2,
+    "category": "sv_agreement_there_is_are",
+    "category_ja": "There is/areの一致",
+    "level": "600",
+    "chapter_num": 3,
+    "explanation": "There is/are 構文では、be動詞の後ろにくる名詞に合わせて is と are を選びます。ここでは several restaurants(複数)が続くので、are が正解です。後ろの名詞が複数なら are、単数なら is という一致がポイントです。",
+    "translation": "そのホテルの近くには、レストランがいくつかあります。"
+  },
+  {
+    "id": "q_grammar_600_026",
+    "question_text": "We made a ______ to expand our business overseas.",
+    "choices": [
+      "decidedly",
+      "decisive",
+      "decide",
+      "decision"
+    ],
+    "correct_index": 3,
+    "category": "pos_noun_after_article",
+    "category_ja": "品詞(冠詞の後の名詞)",
+    "level": "600",
+    "chapter_num": 3,
+    "explanation": "空欄の前に冠詞 a があるので、冠詞の後ろにくる名詞 decision が正解です。make a decision で「決定する」という決まった言い方になります。decide は動詞、decisive は形容詞、decidedly は副詞なので、冠詞のあとには置けません。",
+    "translation": "私たちは海外へ事業を拡大するという決定をしました。"
+  },
+  {
+    "id": "q_grammar_600_027",
+    "question_text": "We ______ launch a new product next month.",
+    "choices": [
+      "go to",
+      "going to",
+      "gone to",
+      "are going to"
+    ],
+    "correct_index": 3,
+    "category": "future_tense_be_going_to",
+    "category_ja": "未来表現(be going to)",
+    "level": "600",
+    "chapter_num": 3,
+    "explanation": "「next month(来月)」という未来を表す表現があり、予定を述べているので、be going to の形が入ります。主語 We に合う be動詞を含む are going to が正解です。be going to + 動詞の原形で「〜する予定だ」を表します。be動詞のない going to だけでは文が成り立ちません。",
+    "translation": "私たちは来月、新製品を発売する予定です。"
+  },
+  {
+    "id": "q_grammar_600_028",
+    "question_text": "Please put the files ______ my desk.",
+    "choices": [
+      "on",
+      "in",
+      "at",
+      "of"
+    ],
+    "correct_index": 0,
+    "category": "prepositions_place_on",
+    "category_ja": "前置詞(場所のon)",
+    "level": "600",
+    "chapter_num": 3,
+    "explanation": "机の「上(表面に接して)」に置くことを表すので、接触を表す前置詞 on が正解です。on は「〜の表面に接して」という位置関係を表します。in は「〜の中に」を表すので、机の上に置く場面には合いません。",
+    "translation": "そのファイルを私の机の上に置いてください。"
+  },
+  {
+    "id": "q_grammar_600_029",
+    "question_text": "This software is ______ than the previous version.",
+    "choices": [
+      "useful",
+      "more useful",
+      "usefully",
+      "most useful"
+    ],
+    "correct_index": 1,
+    "category": "comparative_more_than",
+    "category_ja": "比較級(more ~ than)",
+    "level": "600",
+    "chapter_num": 3,
+    "explanation": "後ろに than があるので、2つを比べる比較級が入ります。useful のように比較的長い形容詞は、-er を付けず前に more を置いて比較級を作るため、more useful が正解です。most useful は最上級なので than とは一緒に使いません。",
+    "translation": "このソフトウェアは以前のバージョンよりも便利です。"
+  },
+  {
+    "id": "q_grammar_600_030",
+    "question_text": "I want ______ a new laptop for work.",
+    "choices": [
+      "buying",
+      "bought",
+      "buy",
+      "to buy"
+    ],
+    "correct_index": 3,
+    "category": "infinitive_after_want",
+    "category_ja": "不定詞(want to do)",
+    "level": "600",
+    "chapter_num": 3,
+    "explanation": "動詞 want は、後ろに「to + 動詞の原形」の不定詞をとって「〜したい」を表すので、to buy が正解です。want to do は「〜することを望む」という頻出の形です。want は動名詞(buying)を目的語にとらない点に注意しましょう。",
+    "translation": "私は仕事用に新しいノートパソコンを買いたいです。"
+  }
+]

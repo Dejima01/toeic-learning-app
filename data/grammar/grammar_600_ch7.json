@@ -1,0 +1,172 @@
+[
+  {
+    "id": "q_grammar_600_061",
+    "question_text": "I ______ lunch when the phone rang.",
+    "choices": [
+      "has had",
+      "was having",
+      "have",
+      "am having"
+    ],
+    "correct_index": 1,
+    "category": "past_continuous",
+    "category_ja": "過去進行形",
+    "level": "600",
+    "chapter_num": 7,
+    "explanation": "「電話が鳴った(過去のある時点)」の、ちょうどそのとき進行中だった動作を表すので、過去進行形〈was/were + 動詞のing形〉の was having が正解です。「〜していた最中に…した」という場面で使います。am having は現在進行形なので、過去の場面には合いません。",
+    "translation": "電話が鳴ったとき、私は昼食を食べているところでした。"
+  },
+  {
+    "id": "q_grammar_600_062",
+    "question_text": "Please turn off your phone ______ the presentation.",
+    "choices": [
+      "for",
+      "while",
+      "since",
+      "during"
+    ],
+    "correct_index": 3,
+    "category": "prepositions_duration_during",
+    "category_ja": "前置詞(during)",
+    "level": "600",
+    "chapter_num": 7,
+    "explanation": "空欄の後ろは the presentation という名詞なので、名詞の前に置ける前置詞 during が正解です。during は「〜の間ずっと」と、特定の期間中であることを表します。紛らわしい while も「〜の間」を表しますが、while は接続詞で後ろに〈主語+動詞〉の文が必要なため、名詞の前には置けません。",
+    "translation": "プレゼンテーションの間は、携帯電話の電源をお切りください。"
+  },
+  {
+    "id": "q_grammar_600_063",
+    "question_text": "We will send you a confirmation email ______ we receive your payment.",
+    "choices": [
+      "by",
+      "during",
+      "after",
+      "until"
+    ],
+    "correct_index": 2,
+    "category": "conjunction_after",
+    "category_ja": "接続詞(after)",
+    "level": "600",
+    "chapter_num": 7,
+    "explanation": "空欄の後ろに〈主語 + 動詞〉(we receive)が続き、「入金を確認した後で」という時の前後関係を表しているので、接続詞 after が正解です。after は後ろに文を続けて「〜した後で」を表します。by や during は前置詞で、後ろに文を続けることはできません。",
+    "translation": "ご入金を確認しましたら、確認メールをお送りします。"
+  },
+  {
+    "id": "q_grammar_600_064",
+    "question_text": "______ you like some coffee or tea?",
+    "choices": [
+      "May",
+      "Would",
+      "Can",
+      "Will"
+    ],
+    "correct_index": 1,
+    "category": "modal_would_polite_offer",
+    "category_ja": "助動詞(would・丁寧な申し出)",
+    "level": "600",
+    "chapter_num": 7,
+    "explanation": "「コーヒーか紅茶はいかがですか」と相手に丁寧に勧める場面なので、助動詞 Would が正解です。Would you like 〜? は「〜はいかがですか」と、飲み物などを勧めたり申し出たりするときの決まった言い方です。Do you like 〜?(好きですか)とは意味が異なる点に注意しましょう。",
+    "translation": "コーヒーか紅茶はいかがですか。"
+  },
+  {
+    "id": "q_grammar_600_065",
+    "question_text": "We are ______ for your continued support.",
+    "choices": [
+      "gratitude",
+      "grate",
+      "gratefully",
+      "grateful"
+    ],
+    "correct_index": 3,
+    "category": "pos_adjective_suffix_ful",
+    "category_ja": "品詞(形容詞の接尾辞-ful)",
+    "level": "600",
+    "chapter_num": 7,
+    "explanation": "空欄はbe動詞 are の後ろにあり、主語 We の状態を説明する補語が入るので、形容詞 grateful(感謝している)が正解です。be grateful for 〜 で「〜に感謝している」を表します。gratitude は名詞、gratefully は副詞なので、ここには合いません。",
+    "translation": "私たちは、変わらぬご支援に感謝しております。"
+  },
+  {
+    "id": "q_grammar_600_066",
+    "question_text": "Ms. Novak went to the bank ______ some money.",
+    "choices": [
+      "to withdraw",
+      "withdraw",
+      "withdrawing",
+      "withdrawn"
+    ],
+    "correct_index": 0,
+    "category": "infinitive_of_purpose",
+    "category_ja": "不定詞(目的)",
+    "level": "600",
+    "chapter_num": 7,
+    "explanation": "「お金を引き出すために銀行へ行った」と、行った目的を表しているので、「〜するために」を表す不定詞〈to + 動詞の原形〉の to withdraw が正解です。この不定詞の副詞的用法(目的)はTOEIC頻出です。withdrawing や withdrawn では目的の意味を表せません。",
+    "translation": "ノヴァクさんは、お金を引き出すために銀行へ行きました。"
+  },
+  {
+    "id": "q_grammar_600_067",
+    "question_text": "Each employee ______ a company email address.",
+    "choices": [
+      "are having",
+      "having",
+      "have",
+      "has"
+    ],
+    "correct_index": 3,
+    "category": "sv_agreement_each_singular",
+    "category_ja": "主語と動詞の一致(each)",
+    "level": "600",
+    "chapter_num": 7,
+    "explanation": "〈Each + 単数名詞〉が主語のときは単数扱いになるので、動詞は三人称単数の has が正解です。Each employee は「それぞれの従業員(1人ひとり)」という意味で単数として扱います。複数のように感じても have を選ばないよう注意しましょう。",
+    "translation": "従業員は一人ひとり、会社のメールアドレスを持っています。"
+  },
+  {
+    "id": "q_grammar_600_068",
+    "question_text": "The results ______ announced next Monday.",
+    "choices": [
+      "is",
+      "will be",
+      "will",
+      "has"
+    ],
+    "correct_index": 1,
+    "category": "passive_future_will",
+    "category_ja": "受動態(未来形)",
+    "level": "600",
+    "chapter_num": 7,
+    "explanation": "主語 The results(結果)は「発表される」側で、「next Monday(次の月曜日)」という未来の表現があるので、未来の受動態〈will be + 過去分詞〉が入ります。よって will be announced となる will be が正解です。will だけでは be動詞が足りず、受動態の形になりません。",
+    "translation": "結果は次の月曜日に発表されます。"
+  },
+  {
+    "id": "q_grammar_600_069",
+    "question_text": "I met a designer ______ work has won several awards.",
+    "choices": [
+      "who",
+      "whose",
+      "whom",
+      "which"
+    ],
+    "correct_index": 1,
+    "category": "relative_pronoun_whose",
+    "category_ja": "関係代名詞(whose)",
+    "level": "600",
+    "chapter_num": 7,
+    "explanation": "空欄の後ろは work has won(作品が受賞した)と続き、「そのデザイナーの作品」という所有の関係になっています。「〜の」という所有を表す関係代名詞は whose なので、これが正解です。who は主格、whom は目的格で、所有の意味は表せません。",
+    "translation": "私は、作品がいくつもの賞を受賞しているデザイナーに会いました。"
+  },
+  {
+    "id": "q_grammar_600_070",
+    "question_text": "The bank is ______ the post office and the cafe.",
+    "choices": [
+      "among",
+      "between",
+      "at",
+      "from"
+    ],
+    "correct_index": 1,
+    "category": "prepositions_between",
+    "category_ja": "前置詞(between)",
+    "level": "600",
+    "chapter_num": 7,
+    "explanation": "「郵便局とカフェの間に」と、2つのものにはさまれた位置を表すので、前置詞 between が正解です。between A and B で「AとBの間に」を表します。among も「〜の間に」ですが、こちらは3つ以上のものに囲まれている場合に使うため、2つを結ぶこの文には合いません。",
+    "translation": "その銀行は、郵便局とカフェの間にあります。"
+  }
+]

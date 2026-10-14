@@ -1,0 +1,172 @@
+[
+  {
+    "id": "q_grammar_750_001",
+    "question_text": "There ______ be a bookstore on this corner.",
+    "choices": [
+      "is used to",
+      "uses to",
+      "was used to",
+      "used to"
+    ],
+    "correct_index": 3,
+    "category": "used_to_habit",
+    "category_ja": "過去の習慣(used to)",
+    "level": "750",
+    "chapter_num": 1,
+    "explanation": "「以前はこの角に書店があった(今はない)」という過去の習慣・状態を表すので、〈used to + 動詞の原形〉が正解です。used to は「以前は〜だった」という、現在とは異なる過去の状態を表します。似た形の be used to -ing(〜に慣れている)とは意味も形も異なるので、混同しないよう注意しましょう。",
+    "translation": "以前は、この角に書店がありました。"
+  },
+  {
+    "id": "q_grammar_750_002",
+    "question_text": "Please respond to this email ______ 48 hours.",
+    "choices": [
+      "along",
+      "until",
+      "among",
+      "within"
+    ],
+    "correct_index": 3,
+    "category": "prepositions_within",
+    "category_ja": "前置詞(期限内のwithin)",
+    "level": "750",
+    "chapter_num": 1,
+    "explanation": "「48時間以内に」と、ある時間の範囲内であることを表すので、前置詞 within が正解です。within は「〜以内に」と期間の枠内を示します。until は「〜までずっと」という継続を表すため、「〜以内」という締め切りの意味にはなりません。",
+    "translation": "このメールには、48時間以内にご返信ください。"
+  },
+  {
+    "id": "q_grammar_750_003",
+    "question_text": "______ the manager was absent, the meeting was postponed.",
+    "choices": [
+      "During",
+      "Because of",
+      "Despite",
+      "Since"
+    ],
+    "correct_index": 3,
+    "category": "conjunction_since_reason",
+    "category_ja": "接続詞(since・理由)",
+    "level": "750",
+    "chapter_num": 1,
+    "explanation": "空欄の後ろに〈主語 + 動詞〉(the manager was absent)が続き、「マネージャーが不在だったので」と理由を表しているので、接続詞 Since が正解です。since は「〜なので」と理由を表す用法があり、後ろに文を続けます。Because of や During は前置詞句・前置詞で、後ろに文を続けることはできません。",
+    "translation": "マネージャーが不在だったため、会議は延期されました。"
+  },
+  {
+    "id": "q_grammar_750_004",
+    "question_text": "Working at heights without a harness is ______.",
+    "choices": [
+      "danger",
+      "endanger",
+      "dangerously",
+      "dangerous"
+    ],
+    "correct_index": 3,
+    "category": "pos_adjective_suffix_ous",
+    "category_ja": "品詞(形容詞の接尾辞-ous)",
+    "level": "750",
+    "chapter_num": 1,
+    "explanation": "空欄はbe動詞 is の後ろにあり、主語(高所での作業)の状態を説明する補語が入るので、形容詞 dangerous(危険な)が正解です。名詞 danger に -ous を付けると形容詞になります。danger は名詞、endanger は動詞、dangerously は副詞なので、補語の位置には合いません。",
+    "translation": "安全帯なしで高所作業をするのは危険です。"
+  },
+  {
+    "id": "q_grammar_750_005",
+    "question_text": "We look forward to ______ from you soon.",
+    "choices": [
+      "hear",
+      "to hear",
+      "hearing",
+      "heard"
+    ],
+    "correct_index": 2,
+    "category": "gerund_look_forward_to",
+    "category_ja": "動名詞(look forward to -ing)",
+    "level": "750",
+    "chapter_num": 1,
+    "explanation": "look forward to の to は不定詞の to ではなく前置詞の to なので、後ろには動名詞〈-ing形〉が続きます。よって hearing が正解です。look forward to -ing で「〜するのを楽しみに待つ」という頻出表現になります。to の後ろだからと動詞の原形(hear)を選ばないよう注意しましょう。",
+    "translation": "近いうちにお返事をいただけるのを楽しみにしております。"
+  },
+  {
+    "id": "q_grammar_750_006",
+    "question_text": "The invoice has already ______ sent to the client.",
+    "choices": [
+      "be",
+      "being",
+      "been",
+      "was"
+    ],
+    "correct_index": 2,
+    "category": "passive_present_perfect",
+    "category_ja": "受動態(現在完了)",
+    "level": "750",
+    "chapter_num": 1,
+    "explanation": "主語 The invoice(請求書)は「送られる」側で、has already 〜 と現在完了の形になっています。現在完了の受動態は〈have/has + been + 過去分詞〉なので、has been sent となる been が正解です。has の後ろは過去分詞、その受動態の be動詞部分は been になる点がポイントです。",
+    "translation": "その請求書は、すでに顧客へ送付されています。"
+  },
+  {
+    "id": "q_grammar_750_007",
+    "question_text": "I still remember the day ______ our store first opened.",
+    "choices": [
+      "who",
+      "when",
+      "what",
+      "which"
+    ],
+    "correct_index": 1,
+    "category": "relative_adverb_when",
+    "category_ja": "関係副詞(when)",
+    "level": "750",
+    "chapter_num": 1,
+    "explanation": "空欄の前は the day(時)で、後ろは our store first opened と、要素の欠けていない完全な文が続いています。時を表す先行詞を受けて、後ろに完全な文が続くときは関係副詞 when を使うので、これが正解です。which は後ろに主語や目的語の欠けた不完全な文が続く場合に使います。",
+    "translation": "私は、うちの店が初めて開店した日のことを、今でも覚えています。"
+  },
+  {
+    "id": "q_grammar_750_008",
+    "question_text": "The number of online orders ______ increasing every year.",
+    "choices": [
+      "is",
+      "were",
+      "have",
+      "are"
+    ],
+    "correct_index": 0,
+    "category": "sv_agreement_number_of",
+    "category_ja": "主語と動詞の一致(the number of)",
+    "level": "750",
+    "chapter_num": 1,
+    "explanation": "〈the number of + 複数名詞〉は「〜の数」という意味で、主語の中心は the number(単数)です。したがって動詞は単数扱いの is が正解です。直後の複数名詞 orders につられて are を選ばないよう注意しましょう。なお a number of 〜(多くの〜)は複数扱いになる点も区別して覚えておくと便利です。",
+    "translation": "オンライン注文の数は、年々増加しています。"
+  },
+  {
+    "id": "q_grammar_750_009",
+    "question_text": "The new office is ______ larger than the old one.",
+    "choices": [
+      "very",
+      "much",
+      "most",
+      "more"
+    ],
+    "correct_index": 1,
+    "category": "comparison_much_emphasis",
+    "category_ja": "比較級の強調(much)",
+    "level": "750",
+    "chapter_num": 1,
+    "explanation": "後ろに larger than があり、比較級を「ずっと・はるかに」と強調しています。比較級を強調するときは much を使うので、much larger が正解です。very は原級(large など)を強調する語で、比較級(larger)を強調することはできません。この very と much の使い分けがポイントです。",
+    "translation": "新しいオフィスは、以前のオフィスよりもずっと広いです。"
+  },
+  {
+    "id": "q_grammar_750_010",
+    "question_text": "You have finished the report, ______?",
+    "choices": [
+      "haven't you",
+      "don't you",
+      "didn't you",
+      "have you"
+    ],
+    "correct_index": 0,
+    "category": "tag_question",
+    "category_ja": "付加疑問文",
+    "level": "750",
+    "chapter_num": 1,
+    "explanation": "付加疑問文は、前の文が肯定なら否定の疑問形を、文で使った助動詞を用いて作ります。ここは have finished(現在完了)の肯定文なので、have を使った否定形 haven't you が正解です。didn't you は過去形用、don't you は一般動詞の現在形用なので、現在完了の文には合いません。",
+    "translation": "あなたは報告書を仕上げましたよね。"
+  }
+]

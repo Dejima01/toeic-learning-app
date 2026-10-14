@@ -1,0 +1,648 @@
+[
+  {
+    "id": "q_word_750_151",
+    "word": "campaign",
+    "meaning": "キャンペーン、運動",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The company launched a new advertising campaign last week.", "translation": "その会社は先週、新しい広告キャンペーンを開始しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_152",
+    "word": "publicity",
+    "meaning": "宣伝、広報、知名度",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The event received a lot of publicity in the local media.", "translation": "そのイベントは地元メディアで大きく取り上げられました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "publicize", "meaning": "宣伝する、公表する"}
+    ]
+  },
+  {
+    "id": "q_word_750_153",
+    "word": "sponsorship",
+    "meaning": "後援、スポンサー契約",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The festival relies heavily on corporate sponsorship.", "translation": "その祭りは企業の後援に大きく依存しています。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "sponsor", "meaning": "スポンサー、後援者"}
+    ]
+  },
+  {
+    "id": "q_word_750_154",
+    "word": "outreach",
+    "meaning": "地域活動、支援活動",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The organization runs an outreach program for local schools.", "translation": "その団体は地元の学校向けに支援活動プログラムを運営しています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_155",
+    "word": "demographic",
+    "meaning": "人口統計上の、対象層",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The product targets a younger demographic.", "translation": "その製品はより若い層をターゲットにしています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_156",
+    "word": "segment",
+    "meaning": "部分、区分、セグメント",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The company divided its customers into three market segments.", "translation": "その会社は顧客を3つの市場セグメントに分けました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "segmentation", "meaning": "セグメント化、区分"}
+    ]
+  },
+  {
+    "id": "q_word_750_157",
+    "word": "niche",
+    "meaning": "隙間市場、ニッチ",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The startup found a niche in the eco-friendly packaging market.", "translation": "そのスタートアップは環境に優しい包装市場でニッチを見つけました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_158",
+    "word": "brand",
+    "meaning": "ブランド、銘柄",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The company wants to strengthen its brand image overseas.", "translation": "その会社は海外でのブランドイメージを強化したいと考えています。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "branding", "meaning": "ブランディング"}
+    ]
+  },
+  {
+    "id": "q_word_750_159",
+    "word": "awareness",
+    "meaning": "認知、意識",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The campaign aims to raise awareness of the new product.", "translation": "そのキャンペーンは新製品の認知度を高めることを目指しています。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "aware", "meaning": "気づいている"}
+    ]
+  },
+  {
+    "id": "q_word_750_160",
+    "word": "loyalty",
+    "meaning": "忠誠心、愛顧",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The rewards program helps build customer loyalty.", "translation": "そのポイントプログラムは顧客の愛顧を築くのに役立っています。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "loyal", "meaning": "忠実な"}
+    ]
+  },
+  {
+    "id": "q_word_750_161",
+    "word": "testimonial",
+    "meaning": "推薦の言葉、体験談",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The website features testimonials from satisfied customers.", "translation": "そのウェブサイトには満足した顧客からの推薦の言葉が掲載されています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_162",
+    "word": "referral",
+    "meaning": "紹介、推薦",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Many new clients come from referrals by existing customers.", "translation": "新規顧客の多くは既存顧客からの紹介によるものです。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "refer", "meaning": "紹介する、言及する"}
+    ]
+  },
+  {
+    "id": "q_word_750_163",
+    "word": "conversion",
+    "meaning": "転換、変換、成約",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The redesigned website improved the conversion rate significantly.", "translation": "サイトのリニューアルによりコンバージョン率が大幅に改善しました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "convert", "meaning": "転換する、変える"}
+    ]
+  },
+  {
+    "id": "q_word_750_164",
+    "word": "engagement",
+    "meaning": "関与、エンゲージメント、婚約",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Social media posts increased customer engagement with the brand.", "translation": "SNSの投稿はブランドに対する顧客エンゲージメントを高めました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "engage", "meaning": "関与させる、引き込む"}
+    ]
+  },
+  {
+    "id": "q_word_750_165",
+    "word": "impression",
+    "meaning": "印象、表示回数",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The online ad received over one million impressions last month.", "translation": "そのオンライン広告は先月100万回以上表示されました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "impress", "meaning": "感銘を与える"}
+    ]
+  },
+  {
+    "id": "q_word_750_166",
+    "word": "exposure",
+    "meaning": "露出、知名度、さらされること",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The sponsorship gave the brand significant media exposure.", "translation": "そのスポンサー契約はブランドに大きなメディア露出をもたらしました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "expose", "meaning": "さらす、露出させる"}
+    ]
+  },
+  {
+    "id": "q_word_750_167",
+    "word": "circulation",
+    "meaning": "発行部数、流通、循環",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The magazine's circulation has declined over the past decade.", "translation": "その雑誌の発行部数はこの10年で減少しました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "circulate", "meaning": "流通させる、循環する"}
+    ]
+  },
+  {
+    "id": "q_word_750_168",
+    "word": "subscription",
+    "meaning": "定期購読、加入契約",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Subscription sales grew significantly after the price cut.", "translation": "値下げ後、定期購読の売上が大幅に伸びました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "subscribe", "meaning": "定期購読する"}
+    ]
+  },
+  {
+    "id": "q_word_750_169",
+    "word": "premiere",
+    "meaning": "初演、初公開",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The film's premiere attracted a large crowd of fans.", "translation": "その映画の初公開には多くのファンが集まりました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_170",
+    "word": "debut",
+    "meaning": "初登場、デビュー",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The new product will make its debut at the trade show.", "translation": "その新製品は展示会でお披露目される予定です。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_171",
+    "word": "exhibit",
+    "meaning": "展示品、展示する",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The museum's newest exhibit focuses on local history.", "translation": "その博物館の最新の展示は地元の歴史を取り上げています。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "exhibition", "meaning": "展覧会、展示会"}
+    ]
+  },
+  {
+    "id": "q_word_750_172",
+    "word": "exhibition",
+    "meaning": "展覧会、展示会",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The art exhibition runs through the end of September.", "translation": "その美術展は9月末まで開催されます。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "exhibit", "meaning": "展示品、展示する"}
+    ]
+  },
+  {
+    "id": "q_word_750_173",
+    "word": "auditorium",
+    "meaning": "講堂、大講義室",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The graduation ceremony will be held in the main auditorium.", "translation": "卒業式はメイン講堂で行われます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_174",
+    "word": "pavilion",
+    "meaning": "パビリオン、展示館",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Each country has its own pavilion at the international expo.", "translation": "その国際博覧会では各国がそれぞれ独自のパビリオンを持っています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_175",
+    "word": "admission",
+    "meaning": "入場料、入学、入場許可",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Admission to the museum is free on the first Sunday of each month.", "translation": "その博物館の入場料は毎月第1日曜日は無料です。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "admit", "meaning": "入場を認める、認める"}
+    ]
+  },
+  {
+    "id": "q_word_750_176",
+    "word": "enrollment",
+    "meaning": "入学、登録、入会",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Enrollment in the online course has doubled this year.", "translation": "そのオンライン講座の登録者数は今年2倍になりました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "enroll", "meaning": "登録する、入会する"}
+    ]
+  },
+  {
+    "id": "q_word_750_177",
+    "word": "curriculum",
+    "meaning": "カリキュラム、教育課程",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The school revised its curriculum to include more practical training.", "translation": "その学校はより実践的な研修を含めるようカリキュラムを改訂しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_178",
+    "word": "tuition",
+    "meaning": "授業料、学費",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Tuition fees will increase by five percent next semester.", "translation": "来学期、授業料は5パーセント上昇します。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_179",
+    "word": "scholarship",
+    "meaning": "奨学金",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "She received a scholarship to study abroad for a year.", "translation": "彼女は1年間の海外留学のために奨学金を受け取りました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_180",
+    "word": "alumni",
+    "meaning": "卒業生、同窓生",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The university invited alumni to speak at the career fair.", "translation": "その大学は就職イベントで講演するため卒業生を招きました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_181",
+    "word": "faculty",
+    "meaning": "教授陣、学部",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The faculty voted to update the course requirements.", "translation": "教授陣は履修要件の更新について投票しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_182",
+    "word": "dean",
+    "meaning": "学部長",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The dean welcomed the new students at the ceremony.", "translation": "学部長は式典で新入生を歓迎しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_183",
+    "word": "laboratory",
+    "meaning": "研究室、実験室",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The samples were sent to the laboratory for testing.", "translation": "そのサンプルは検査のため研究室に送られました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_184",
+    "word": "experiment",
+    "meaning": "実験",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The researchers conducted several experiments to test the theory.", "translation": "研究者たちはその理論を検証するため複数の実験を行いました。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "experimental", "meaning": "実験的な"}
+    ]
+  },
+  {
+    "id": "q_word_750_185",
+    "word": "hypothesis",
+    "meaning": "仮説",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The data supported the researchers' original hypothesis.", "translation": "そのデータは研究者たちの当初の仮説を裏付けました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_186",
+    "word": "analysis",
+    "meaning": "分析",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The analysis revealed a clear trend in customer preferences.", "translation": "その分析により顧客の好みに明確な傾向があることが分かりました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "analyze", "meaning": "分析する"}
+    ]
+  },
+  {
+    "id": "q_word_750_187",
+    "word": "findings",
+    "meaning": "調査結果、研究結果",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The findings of the study will be published next month.", "translation": "その研究の結果は来月発表される予定です。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "find", "meaning": "見つける、分かる"}
+    ]
+  },
+  {
+    "id": "q_word_750_188",
+    "word": "survey",
+    "meaning": "調査、アンケート",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The company conducted a survey to measure customer satisfaction.", "translation": "その会社は顧客満足度を測るため調査を実施しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_189",
+    "word": "questionnaire",
+    "meaning": "アンケート用紙、質問票",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Please complete the questionnaire before you leave the store.", "translation": "お店を出る前にアンケート用紙にご記入ください。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_190",
+    "word": "respondent",
+    "meaning": "回答者",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Most respondents said they were satisfied with the service.", "translation": "ほとんどの回答者はサービスに満足していると答えました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "respond", "meaning": "回答する、応答する"}
+    ]
+  },
+  {
+    "id": "q_word_750_191",
+    "word": "feedback",
+    "meaning": "フィードバック、意見",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "We welcome any feedback on how to improve our service.", "translation": "サービス改善のためのご意見をお待ちしております。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_192",
+    "word": "criteria",
+    "meaning": "基準、判断基準",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Candidates must meet several criteria to qualify for the position.", "translation": "候補者はその職の資格を得るためにいくつかの基準を満たす必要があります。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_193",
+    "word": "assessment",
+    "meaning": "評価、査定",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The manager conducted a risk assessment before starting the project.", "translation": "マネージャーはプロジェクト開始前にリスク評価を行いました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "assess", "meaning": "評価する"}
+    ]
+  },
+  {
+    "id": "q_word_750_194",
+    "word": "metric",
+    "meaning": "評価基準、指標",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Customer satisfaction is the key metric for this project.", "translation": "顧客満足度がこのプロジェクトの主要な指標です。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_195",
+    "word": "quota",
+    "meaning": "割り当て、ノルマ",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The sales team exceeded its monthly quota again this month.", "translation": "営業チームは今月も月間ノルマを上回りました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_196",
+    "word": "threshold",
+    "meaning": "しきい値、境界、限界点",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Orders above a certain threshold qualify for free shipping.", "translation": "一定のしきい値を超える注文は送料無料の対象になります。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_197",
+    "word": "baseline",
+    "meaning": "基準線、基準値",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Last year's sales figures will serve as the baseline for comparison.", "translation": "昨年の売上数値が比較の基準値として使われます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_198",
+    "word": "projection",
+    "meaning": "予測、見通し",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "Sales projections for next year look promising.", "translation": "来年の売上予測は明るい見通しです。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "project", "meaning": "予測する、見積もる"}
+    ]
+  },
+  {
+    "id": "q_word_750_199",
+    "word": "forecast",
+    "meaning": "予測、予報",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The economic forecast predicts steady growth next year.", "translation": "経済予測は来年の安定した成長を見込んでいます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_200",
+    "word": "trend",
+    "meaning": "傾向、トレンド",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 4,
+    "example_sentences": [
+      {"sentence": "The report highlights the latest trends in online shopping.", "translation": "その報告書はオンラインショッピングの最新の傾向を取り上げています。"}
+    ],
+    "derivatives": []
+  }
+]

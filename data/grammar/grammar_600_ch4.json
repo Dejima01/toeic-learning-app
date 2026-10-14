@@ -1,0 +1,172 @@
+[
+  {
+    "id": "q_grammar_600_031",
+    "question_text": "Mr. Ito has ______ abroad three times on business.",
+    "choices": [
+      "being",
+      "be",
+      "is",
+      "been"
+    ],
+    "correct_index": 3,
+    "category": "present_perfect_experience",
+    "category_ja": "現在完了(経験)",
+    "level": "600",
+    "chapter_num": 4,
+    "explanation": "「three times(3回)」という回数の表現があり、これまでの経験を表しているので、現在完了〈have/has + 過去分詞〉が入ります。has の後ろには過去分詞が必要で、be動詞の過去分詞は been なので been が正解です。have been abroad で「海外に行ったことがある」という経験を表します。",
+    "translation": "伊藤さんは仕事で3回、海外に行ったことがあります。"
+  },
+  {
+    "id": "q_grammar_600_032",
+    "question_text": "We have known each other ______ ten years.",
+    "choices": [
+      "for",
+      "since",
+      "during",
+      "from"
+    ],
+    "correct_index": 0,
+    "category": "prepositions_duration_for",
+    "category_ja": "前置詞(期間のfor)",
+    "level": "600",
+    "chapter_num": 4,
+    "explanation": "「ten years(10年間)」のように期間の長さを表すときは、前置詞 for を使います。since は「〜以来」と起点を表し、後ろには過去の一時点(2010, last year など)が続くため、期間の長さには合いません。「for + 期間」で「〜の間」を表します。",
+    "translation": "私たちは10年間、お互いに知り合いです。"
+  },
+  {
+    "id": "q_grammar_600_033",
+    "question_text": "The flight was delayed ______ the weather was bad.",
+    "choices": [
+      "because",
+      "if",
+      "but",
+      "so"
+    ],
+    "correct_index": 0,
+    "category": "conjunction_because",
+    "category_ja": "接続詞(because)",
+    "level": "600",
+    "chapter_num": 4,
+    "explanation": "「天候が悪かった」という理由が、「フライトが遅れた」結果を説明しているので、理由を表す接続詞 because が正解です。because は後ろに〈主語+動詞〉の文を続けて「〜だから」という原因・理由を表します。so(だから)は結果を導く語なので、前後の関係が逆になります。",
+    "translation": "天候が悪かったため、フライトは遅れました。"
+  },
+  {
+    "id": "q_grammar_600_034",
+    "question_text": "______ I borrow your pen for a moment?",
+    "choices": [
+      "Must",
+      "Would",
+      "Should",
+      "May"
+    ],
+    "correct_index": 3,
+    "category": "modal_may_permission",
+    "category_ja": "助動詞(may・許可)",
+    "level": "600",
+    "chapter_num": 4,
+    "explanation": "「ペンを少し借りてもいいですか」と許可を求める場面なので、助動詞 may が正解です。May I 〜? は「〜してもよろしいですか」と丁寧に許可を求める決まった言い方です。Must I(〜しなければなりませんか)では許可を求める意味になりません。",
+    "translation": "少しの間、あなたのペンをお借りしてもよろしいですか。"
+  },
+  {
+    "id": "q_grammar_600_035",
+    "question_text": "Please handle the package ______.",
+    "choices": [
+      "care",
+      "careful",
+      "carefully",
+      "caring"
+    ],
+    "correct_index": 2,
+    "category": "pos_adverb_modifying_verb",
+    "category_ja": "品詞(動詞を修飾する副詞)",
+    "level": "600",
+    "chapter_num": 4,
+    "explanation": "空欄は動詞 handle(扱う)を修飾して「どのように扱うか」を表すので、動詞を修飾する副詞 carefully が正解です。care は名詞・動詞、careful は形容詞なので、動詞を修飾する働きには合いません。「動詞を説明するのは副詞」がポイントです。",
+    "translation": "その荷物は丁寧に扱ってください。"
+  },
+  {
+    "id": "q_grammar_600_036",
+    "question_text": "Our clients enjoyed ______ the new factory.",
+    "choices": [
+      "visit",
+      "visiting",
+      "to visit",
+      "visited"
+    ],
+    "correct_index": 1,
+    "category": "gerund_after_enjoy",
+    "category_ja": "動名詞(enjoy -ing)",
+    "level": "600",
+    "chapter_num": 4,
+    "explanation": "動詞 enjoy は、後ろに動名詞〈-ing形〉をとって「〜するのを楽しむ」を表すので、visiting が正解です。enjoy は不定詞(to visit)を目的語にとらず、必ず動名詞をとる動詞です。この形はTOEICで頻出なので覚えておきましょう。",
+    "translation": "私たちの顧客は、新しい工場の見学を楽しみました。"
+  },
+  {
+    "id": "q_grammar_600_037",
+    "question_text": "______ you have any questions about the schedule?",
+    "choices": [
+      "Is",
+      "Does",
+      "Are",
+      "Do"
+    ],
+    "correct_index": 3,
+    "category": "word_order_question_do",
+    "category_ja": "語順(doを使う疑問文)",
+    "level": "600",
+    "chapter_num": 4,
+    "explanation": "一般動詞 have を使った疑問文で、主語が you なので、文頭には Do を置きます。〈Do + 主語 + 動詞の原形 ...?〉が一般動詞の疑問文の形です。主語が三人称単数なら Does ですが、you には Do を使います。Are や Is はbe動詞用なので、一般動詞 have の疑問文には使えません。",
+    "translation": "スケジュールについて何かご質問はありますか。"
+  },
+  {
+    "id": "q_grammar_600_038",
+    "question_text": "English ______ in many countries around the world.",
+    "choices": [
+      "is speaking",
+      "speaks",
+      "spoke",
+      "is spoken"
+    ],
+    "correct_index": 3,
+    "category": "passive_present_simple",
+    "category_ja": "受動態(現在形)",
+    "level": "600",
+    "chapter_num": 4,
+    "explanation": "主語の English(英語)は「話す」のではなく「話される」側なので、受動態〈be動詞 + 過去分詞〉の is spoken が正解です。「世界中の多くの国で話されている」という意味になります。is speaking(進行形)では「英語が話している」となり意味が通りません。",
+    "translation": "英語は世界中の多くの国で話されています。"
+  },
+  {
+    "id": "q_grammar_600_039",
+    "question_text": "The woman ______ is standing at the door is our new manager.",
+    "choices": [
+      "where",
+      "whose",
+      "who",
+      "which"
+    ],
+    "correct_index": 2,
+    "category": "relative_pronoun_who",
+    "category_ja": "関係代名詞(who)",
+    "level": "600",
+    "chapter_num": 4,
+    "explanation": "空欄は前の The woman(人)を説明する関係代名詞で、後ろに動詞 is standing が続く主語の働きをします。先行詞が「人」で主格なので、who が正解です。which は「物」に使う関係代名詞なので、人には使えません。",
+    "translation": "ドアのところに立っている女性が、私たちの新しいマネージャーです。"
+  },
+  {
+    "id": "q_grammar_600_040",
+    "question_text": "This is the ______ important meeting of the year.",
+    "choices": [
+      "more",
+      "many",
+      "most",
+      "much"
+    ],
+    "correct_index": 2,
+    "category": "superlative_most",
+    "category_ja": "最上級(most)",
+    "level": "600",
+    "chapter_num": 4,
+    "explanation": "「今年で最も重要な会議」と、範囲の中で一番であることを表すので最上級が入ります。important のような長い形容詞は、-est を付けず前に most を置いて最上級を作るため、most が正解です。直前の the も最上級の目印です。more は比較級なので「最も」の意味にはなりません。",
+    "translation": "これは今年で最も重要な会議です。"
+  }
+]

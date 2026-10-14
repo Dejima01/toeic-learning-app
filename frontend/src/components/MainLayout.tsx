@@ -5,6 +5,8 @@ import { ChatBot } from './ChatBot';
 
 interface MainLayoutProps {
   title?: string;
+  /** ヘッダー中央に任意の要素を置く（指定時は title より優先） */
+  titleContent?: ReactNode;
   showBack?: boolean;
   showChatBot?: boolean;
   children: ReactNode;
@@ -12,6 +14,7 @@ interface MainLayoutProps {
 
 export function MainLayout({
   title,
+  titleContent,
   showBack = false,
   showChatBot = false,
   children,
@@ -19,18 +22,18 @@ export function MainLayout({
   const navigate = useNavigate();
   const [chatOpen, setChatOpen] = useState(false);
 
-  const showHeader = !!(title || showBack || showChatBot);
+  const showHeader = !!(title || titleContent || showBack || showChatBot);
 
   return (
-    <div className="relative mx-auto flex h-screen max-w-sm flex-col bg-white">
+    <div className="app-container relative mx-auto flex max-w-sm flex-col bg-white dark:bg-gray-900">
       {/* 固定ヘッダー（title / showBack / showChatBot のいずれかがあれば表示） */}
       {showHeader && (
-        <header className="flex shrink-0 items-center border-b border-gray-200 bg-white px-4 py-3">
+        <header className="flex shrink-0 items-center border-b border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 px-4 py-3">
           {showBack ? (
             <button
               type="button"
               onClick={() => navigate(-1)}
-              className="flex h-8 w-8 items-center justify-center rounded-full border border-gray-400 text-gray-600"
+              className="flex h-8 w-8 items-center justify-center rounded-full border border-gray-400 dark:border-gray-600 text-gray-600 dark:text-gray-300"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -47,13 +50,17 @@ export function MainLayout({
             <div className="w-8" />
           )}
 
-          <h1 className="flex-1 text-center text-lg font-bold">{title}</h1>
+          {titleContent ? (
+            <div className="flex flex-1 items-center justify-center">{titleContent}</div>
+          ) : (
+            <h1 className="flex-1 text-center text-lg font-bold dark:text-gray-100">{title}</h1>
+          )}
 
           {showChatBot ? (
             <button
               type="button"
               onClick={() => setChatOpen((v) => !v)}
-              className="flex h-8 w-8 items-center justify-center rounded-full bg-sky-100 text-sky-600 hover:bg-sky-200"
+              className="flex h-8 w-8 items-center justify-center rounded-full bg-sky-100 dark:bg-sky-900 text-sky-600 dark:text-sky-300 hover:bg-sky-200 dark:hover:bg-sky-800"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

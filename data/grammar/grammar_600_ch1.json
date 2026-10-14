@@ -1,0 +1,172 @@
+[
+  {
+    "id": "q_grammar_600_001",
+    "question_text": "Mr. Tanaka ______ to the office by train every day.",
+    "choices": [
+      "go",
+      "going",
+      "to go",
+      "goes"
+    ],
+    "correct_index": 3,
+    "category": "present_simple_third_person",
+    "category_ja": "現在形(三単現のs)",
+    "level": "600",
+    "chapter_num": 1,
+    "explanation": "主語が Mr. Tanaka(三人称単数)で、「every day(毎日)」という習慣を表すので、現在形の三単現 goes が正解です。三人称単数が主語のときは、現在形の動詞に -s / -es を付けます。going や to go は単独では文の動詞になれず、原形の go は三単現の s が欠けているため不適切です。",
+    "translation": "田中さんは毎日、電車で会社に通っています。"
+  },
+  {
+    "id": "q_grammar_600_002",
+    "question_text": "We need to hire ______ engineer for the new project.",
+    "choices": [
+      "a",
+      "the",
+      "an",
+      "any"
+    ],
+    "correct_index": 2,
+    "category": "articles_a_an",
+    "category_ja": "冠詞(a/an)",
+    "level": "600",
+    "chapter_num": 1,
+    "explanation": "engineer は母音の音(e)で始まる単語なので、不定冠詞は a ではなく an を使います。ここでは「(不特定の)エンジニアを1人」雇うという意味なので、an engineer が正解です。母音の音で始まる語の前では a → an になる点がポイントです。",
+    "translation": "私たちは新しいプロジェクトのために、エンジニアを1人雇う必要があります。"
+  },
+  {
+    "id": "q_grammar_600_003",
+    "question_text": "The meeting will start ______ 10 a.m.",
+    "choices": [
+      "at",
+      "on",
+      "in",
+      "by"
+    ],
+    "correct_index": 0,
+    "category": "prepositions_time_at",
+    "category_ja": "前置詞(時のat)",
+    "level": "600",
+    "chapter_num": 1,
+    "explanation": "「10 a.m.」のような具体的な時刻を表すときは、前置詞 at を使います。on は曜日や日付、in は月・年・季節に使う前置詞なので、時刻には合いません。「at + 時刻」はTOEIC頻出の基本パターンです。",
+    "translation": "会議は午前10時に始まります。"
+  },
+  {
+    "id": "q_grammar_600_004",
+    "question_text": "Please fill out this form ______ submit it to the front desk.",
+    "choices": [
+      "but",
+      "or",
+      "and",
+      "so"
+    ],
+    "correct_index": 2,
+    "category": "conjunction_and",
+    "category_ja": "接続詞(and)",
+    "level": "600",
+    "chapter_num": 1,
+    "explanation": "「記入する」と「提出する」という2つの動作を並べてつなぐので、順接の接続詞 and が正解です。but(しかし)や or(または)、so(だから)では2つの指示を自然につなげません。and は同じ種類の語句や動作を対等に結びます。",
+    "translation": "この用紙にご記入のうえ、受付にご提出ください。"
+  },
+  {
+    "id": "q_grammar_600_005",
+    "question_text": "Ms. Lee ______ speak three languages fluently.",
+    "choices": [
+      "can",
+      "should",
+      "must",
+      "shall"
+    ],
+    "correct_index": 0,
+    "category": "modal_can_ability",
+    "category_ja": "助動詞(can・能力)",
+    "level": "600",
+    "chapter_num": 1,
+    "explanation": "「3か国語を流暢に話せる」という能力を表すので、助動詞 can が正解です。can は「〜できる」という能力・可能を表します。should(〜すべき)、must(〜しなければならない)では能力の意味になりません。",
+    "translation": "リーさんは3か国語を流暢に話すことができます。"
+  },
+  {
+    "id": "q_grammar_600_006",
+    "question_text": "The price of these products ______ very reasonable.",
+    "choices": [
+      "are",
+      "being",
+      "is",
+      "be"
+    ],
+    "correct_index": 2,
+    "category": "sv_agreement_singular_subject",
+    "category_ja": "主語と動詞の一致(単数主語)",
+    "level": "600",
+    "chapter_num": 1,
+    "explanation": "この文の主語は The price(単数)で、these products は of に続く修飾語にすぎません。主語が単数なので、be動詞は is が正解です。直前の複数名詞 products につられて are を選ばないよう注意しましょう。",
+    "translation": "これらの製品の価格は、とてもお手頃です。"
+  },
+  {
+    "id": "q_grammar_600_007",
+    "question_text": "The hotel offers ______ service to all guests.",
+    "choices": [
+      "excellence",
+      "excel",
+      "excellently",
+      "excellent"
+    ],
+    "correct_index": 3,
+    "category": "pos_adjective_before_noun",
+    "category_ja": "品詞(名詞の前の形容詞)",
+    "level": "600",
+    "chapter_num": 1,
+    "explanation": "空欄の直後に名詞 service があるので、名詞を修飾する形容詞 excellent が正解です。excellence は名詞、excellently は副詞、excel は動詞なので、名詞の前を修飾する働きには合いません。「形容詞+名詞」の語順がポイントです。",
+    "translation": "そのホテルはすべての宿泊客に素晴らしいサービスを提供しています。"
+  },
+  {
+    "id": "q_grammar_600_008",
+    "question_text": "The new employees ______ the orientation tomorrow morning.",
+    "choices": [
+      "attends",
+      "will attend",
+      "attend",
+      "attended"
+    ],
+    "correct_index": 1,
+    "category": "future_tense_will",
+    "category_ja": "未来時制(will)",
+    "level": "600",
+    "chapter_num": 1,
+    "explanation": "「tomorrow morning(明日の朝)」という未来を表す時間表現があるので、未来時制の will attend が正解です。will + 動詞の原形で「〜する予定だ・〜するだろう」という未来を表します。attended は過去形なので未来の内容には合いません。",
+    "translation": "新入社員たちは明日の朝、オリエンテーションに出席します。"
+  },
+  {
+    "id": "q_grammar_600_009",
+    "question_text": "Our headquarters is located ______ Tokyo.",
+    "choices": [
+      "on",
+      "to",
+      "in",
+      "at"
+    ],
+    "correct_index": 2,
+    "category": "prepositions_place_in",
+    "category_ja": "前置詞(場所のin)",
+    "level": "600",
+    "chapter_num": 1,
+    "explanation": "Tokyo のような都市など「広い場所・地域」の中にあることを表すときは、前置詞 in を使います。at は「地点」を、on は「接触・表面」を表すため、都市名には in が適切です。be located in 〜 で「〜に位置している」という決まった言い方です。",
+    "translation": "当社の本社は東京にあります。"
+  },
+  {
+    "id": "q_grammar_600_010",
+    "question_text": "This printer is ______ than the old one.",
+    "choices": [
+      "more fast",
+      "faster",
+      "fastest",
+      "fast"
+    ],
+    "correct_index": 1,
+    "category": "comparative_er_than",
+    "category_ja": "比較級(-er than)",
+    "level": "600",
+    "chapter_num": 1,
+    "explanation": "後ろに than があるので、2つを比べる比較級が入ります。fast は短い単語なので、more をつけず -er を付けて faster とします(more fast は誤り)。fastest は最上級なので than とは一緒に使いません。「比較級 + than」の形がポイントです。",
+    "translation": "このプリンターは古いものよりも速いです。"
+  }
+]

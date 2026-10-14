@@ -1,0 +1,172 @@
+[
+  {
+    "id": "q_grammar_600_091",
+    "question_text": "I will email you as soon as the report ______ ready.",
+    "choices": [
+      "be",
+      "will be",
+      "is",
+      "was"
+    ],
+    "correct_index": 2,
+    "category": "future_in_time_clause",
+    "category_ja": "時の副詞節(未来でも現在形)",
+    "level": "600",
+    "chapter_num": 10,
+    "explanation": "as soon as(〜するとすぐに)が導く「時を表す副詞節」の中では、未来のことでも will を使わず現在形で表します。主語 the report は単数なので、be動詞は is が正解です。主節では will email と未来形を使いますが、as soon as の中は現在形にする点がポイントです。",
+    "translation": "報告書が準備でき次第、すぐにメールでお送りします。"
+  },
+  {
+    "id": "q_grammar_600_092",
+    "question_text": "If I ______ more time, I would travel abroad.",
+    "choices": [
+      "will have",
+      "had",
+      "have",
+      "has"
+    ],
+    "correct_index": 1,
+    "category": "conditional_second_basic",
+    "category_ja": "仮定法過去(基本形)",
+    "level": "600",
+    "chapter_num": 10,
+    "explanation": "現在の事実に反する仮定(実際には時間がない)を表すのが仮定法過去です。〈If + 主語 + 過去形, 主語 + would + 動詞の原形〉の形をとり、主節が would travel なので、if の中は過去形の had が正解です。現在の話でも過去形を使うのが仮定法過去の特徴です。",
+    "translation": "もしもっと時間があれば、私は海外を旅行するのですが。"
+  },
+  {
+    "id": "q_grammar_600_093",
+    "question_text": "A new bridge ______ built across the river now.",
+    "choices": [
+      "is being",
+      "is",
+      "been",
+      "be"
+    ],
+    "correct_index": 0,
+    "category": "passive_present_progressive",
+    "category_ja": "受動態(現在進行形)",
+    "level": "600",
+    "chapter_num": 10,
+    "explanation": "主語 A new bridge(新しい橋)は「建設される」側で、「now(今)」まさに進行中なので、受動態の進行形〈be動詞 + being + 過去分詞〉が入ります。よって is being built となる is being が正解です。「今、建設されているところだ」という意味になります。",
+    "translation": "新しい橋が今、川に架けられているところです。"
+  },
+  {
+    "id": "q_grammar_600_094",
+    "question_text": "Could you tell me where ______?",
+    "choices": [
+      "the meeting room is",
+      "is the meeting room",
+      "does the meeting room",
+      "the meeting room does"
+    ],
+    "correct_index": 0,
+    "category": "word_order_indirect_question",
+    "category_ja": "語順(間接疑問文)",
+    "level": "600",
+    "chapter_num": 10,
+    "explanation": "疑問詞 where が文の一部に組み込まれる間接疑問文では、その後ろは疑問文の語順ではなく〈主語 + 動詞〉の平叙文の語順になります。よって the meeting room is が正解です。is the meeting room のように疑問文の語順にしないよう注意しましょう。",
+    "translation": "会議室がどこにあるか教えていただけますか。"
+  },
+  {
+    "id": "q_grammar_600_095",
+    "question_text": "______ the price was high, we decided to buy the software.",
+    "choices": [
+      "So",
+      "However",
+      "Although",
+      "Because"
+    ],
+    "correct_index": 2,
+    "category": "conjunction_although",
+    "category_ja": "接続詞(although)",
+    "level": "600",
+    "chapter_num": 10,
+    "explanation": "「値段は高かった」ことと「それでも購入を決めた」ことが逆の内容になっているので、譲歩を表す接続詞 Although(〜だけれども)が正解です。although は後ろに〈主語+動詞〉の文を続けます。However(しかしながら)は副詞で、2つの文をこのように直接つなぐ働きはありません。",
+    "translation": "値段は高かったものの、私たちはそのソフトウェアを購入することにしました。"
+  },
+  {
+    "id": "q_grammar_600_096",
+    "question_text": "Mr. Weber has lived in Japan ______ 2019.",
+    "choices": [
+      "from",
+      "for",
+      "since",
+      "during"
+    ],
+    "correct_index": 2,
+    "category": "prepositions_since_starting_point",
+    "category_ja": "前置詞(起点のsince)",
+    "level": "600",
+    "chapter_num": 10,
+    "explanation": "「2019年から(ずっと)」と、過去のある時点を起点にして現在まで続いていることを表すので、前置詞 since が正解です。since は〈since + 過去の一時点〉で「〜以来」を表し、現在完了(has lived)とセットでよく使われます。for は「〜間」と期間の長さを表すため、起点を示す 2019 には合いません。",
+    "translation": "ウェーバーさんは2019年から、ずっと日本に住んでいます。"
+  },
+  {
+    "id": "q_grammar_600_097",
+    "question_text": "Please stop ______ during the presentation.",
+    "choices": [
+      "talk",
+      "to talk",
+      "talked",
+      "talking"
+    ],
+    "correct_index": 3,
+    "category": "verb_stop_gerund",
+    "category_ja": "動名詞(stop -ing)",
+    "level": "600",
+    "chapter_num": 10,
+    "explanation": "stop の後ろに動名詞〈-ing形〉を置くと「〜するのをやめる」という意味になるので、talking が正解です。stop talking で「話すのをやめる」となります。なお stop to do は「〜するために立ち止まる」と意味が変わるため、「私語をやめる」という文脈では動名詞が適切です。",
+    "translation": "プレゼンテーションの間は、私語をおやめください。"
+  },
+  {
+    "id": "q_grammar_600_098",
+    "question_text": "Would you like something cold ______?",
+    "choices": [
+      "to drink",
+      "drink",
+      "drank",
+      "drinking"
+    ],
+    "correct_index": 0,
+    "category": "infinitive_adjectival",
+    "category_ja": "不定詞(形容詞的用法)",
+    "level": "600",
+    "chapter_num": 10,
+    "explanation": "不定詞〈to + 動詞の原形〉は名詞を後ろから修飾して「〜するための」を表せます。ここでは something cold(何か冷たいもの)を to drink が修飾し、「何か冷たい飲み物」となるので、to drink が正解です。-thing で終わる語は〈-thing + 形容詞 + to do〉の語順になる点も押さえておきましょう。",
+    "translation": "何か冷たい飲み物はいかがですか。"
+  },
+  {
+    "id": "q_grammar_600_099",
+    "question_text": "Please sign the document ______ a black pen.",
+    "choices": [
+      "by",
+      "in",
+      "with",
+      "on"
+    ],
+    "correct_index": 2,
+    "category": "prepositions_with_tool",
+    "category_ja": "前置詞(道具のwith)",
+    "level": "600",
+    "chapter_num": 10,
+    "explanation": "「黒いペンで(という道具を使って)」署名することを表すので、道具・手段を表す前置詞 with が正解です。〈with + 道具〉で「〜を使って」を表します。紛らわしい by も手段を表しますが、by は交通手段や〈by -ing〉の形で使い、具体的な道具には with を使うのが一般的です。",
+    "translation": "その書類には黒いペンで署名してください。"
+  },
+  {
+    "id": "q_grammar_600_100",
+    "question_text": "The new smartphone is popular ______ young people.",
+    "choices": [
+      "between",
+      "along",
+      "within",
+      "among"
+    ],
+    "correct_index": 3,
+    "category": "prepositions_among",
+    "category_ja": "前置詞(among)",
+    "level": "600",
+    "chapter_num": 10,
+    "explanation": "「若者たちの間で」と、3人以上の集団の中で人気があることを表すので、前置詞 among が正解です。among は3つ以上のものや人に囲まれた状況で使います。between は基本的に2つのものの間に使うため、young people(不特定多数)には among が適切です。",
+    "translation": "その新しいスマートフォンは、若者たちの間で人気があります。"
+  }
+]

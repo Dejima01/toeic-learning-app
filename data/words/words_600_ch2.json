@@ -1,0 +1,732 @@
+[
+  {
+    "id": "q_word_600_051",
+    "word": "hire",
+    "meaning": "雇う、採用する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The company plans to hire ten new engineers this year.", "translation": "その会社は今年、エンジニアを10名新たに採用する予定です。"},
+      {"sentence": "We hired a consultant to improve our marketing strategy.", "translation": "マーケティング戦略を改善するためにコンサルタントを雇いました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "hiring", "meaning": "雇用、採用"}
+    ]
+  },
+  {
+    "id": "q_word_600_052",
+    "word": "train",
+    "meaning": "訓練する、研修する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "New employees are trained for two weeks before starting work.", "translation": "新入社員は勤務開始前に2週間の研修を受けます。"},
+      {"sentence": "Ms. Lee will train the staff on the new software.", "translation": "リーさんが新しいソフトウェアについてスタッフを指導します。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "training", "meaning": "研修、訓練"},
+      {"part": "noun", "word": "trainee", "meaning": "研修生"},
+      {"part": "noun", "word": "trainer", "meaning": "指導者、講師"}
+    ]
+  },
+  {
+    "id": "q_word_600_053",
+    "word": "retire",
+    "meaning": "退職する、引退する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "Mr. Tanaka will retire at the end of March.", "translation": "田中さんは3月末で退職します。"},
+      {"sentence": "She retired after working at the firm for thirty years.", "translation": "彼女はその会社で30年間働いた後、退職しました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "retirement", "meaning": "退職、引退"},
+      {"part": "noun", "word": "retiree", "meaning": "退職者"}
+    ]
+  },
+  {
+    "id": "q_word_600_054",
+    "word": "promote",
+    "meaning": "昇進させる、促進する、宣伝する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "He was promoted to sales manager last month.", "translation": "彼は先月、営業部長に昇進しました。"},
+      {"sentence": "The company is promoting its new product on social media.", "translation": "その会社はSNSで新製品を宣伝しています。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "promotion", "meaning": "昇進、販売促進"}
+    ]
+  },
+  {
+    "id": "q_word_600_055",
+    "word": "salary",
+    "meaning": "給料、給与",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The starting salary for this position is quite competitive.", "translation": "この職の初任給は他社に劣らない水準です。"},
+      {"sentence": "Employees receive their salary on the 25th of each month.", "translation": "社員は毎月25日に給料を受け取ります。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "salaried", "meaning": "固定給の"}
+    ]
+  },
+  {
+    "id": "q_word_600_056",
+    "word": "wage",
+    "meaning": "賃金、時給",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The factory raised the hourly wage for part-time workers.", "translation": "その工場はパート従業員の時給を引き上げました。"},
+      {"sentence": "Workers are demanding higher wages and better conditions.", "translation": "労働者たちはより高い賃金と待遇の改善を求めています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_057",
+    "word": "benefit",
+    "meaning": "福利厚生、利益、恩恵",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The company offers excellent benefits, including health insurance.", "translation": "その会社は健康保険を含む充実した福利厚生を提供しています。"},
+      {"sentence": "Both companies will benefit from this partnership.", "translation": "この提携により両社とも利益を得るでしょう。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "beneficial", "meaning": "有益な"}
+    ]
+  },
+  {
+    "id": "q_word_600_058",
+    "word": "bonus",
+    "meaning": "賞与、ボーナス、特典",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "All employees received a year-end bonus in December.", "translation": "全社員が12月に年末賞与を受け取りました。"},
+      {"sentence": "Sales staff can earn a bonus for exceeding their targets.", "translation": "営業スタッフは目標を上回るとボーナスを得ることができます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_059",
+    "word": "interview",
+    "meaning": "面接、インタビュー、面接する",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "Your job interview is scheduled for Tuesday at 10 a.m.", "translation": "採用面接は火曜日の午前10時に予定されています。"},
+      {"sentence": "The manager interviewed five candidates yesterday.", "translation": "部長は昨日、5人の候補者を面接しました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "interviewer", "meaning": "面接官"},
+      {"part": "noun", "word": "interviewee", "meaning": "面接を受ける人"}
+    ]
+  },
+  {
+    "id": "q_word_600_060",
+    "word": "resume",
+    "meaning": "履歴書",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "Please send your resume and cover letter by Friday.", "translation": "履歴書とカバーレターを金曜日までにお送りください。"},
+      {"sentence": "Her resume shows five years of experience in accounting.", "translation": "彼女の履歴書には経理での5年の経験が記載されています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_061",
+    "word": "applicant",
+    "meaning": "応募者、志願者",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "We received over 200 applicants for the marketing position.", "translation": "マーケティング職には200人を超える応募がありました。"},
+      {"sentence": "All applicants must submit their documents online.", "translation": "応募者は全員、書類をオンラインで提出する必要があります。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "apply", "meaning": "応募する、申し込む"},
+      {"part": "noun", "word": "application", "meaning": "応募、申込書"}
+    ]
+  },
+  {
+    "id": "q_word_600_062",
+    "word": "candidate",
+    "meaning": "候補者、志望者",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The ideal candidate should have experience in project management.", "translation": "理想的な候補者はプロジェクト管理の経験がある方です。"},
+      {"sentence": "Three candidates were invited to the second interview.", "translation": "3名の候補者が二次面接に招かれました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "candidacy", "meaning": "立候補、候補者であること"}
+    ]
+  },
+  {
+    "id": "q_word_600_063",
+    "word": "position",
+    "meaning": "職、地位、位置",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "She applied for a position in the human resources department.", "translation": "彼女は人事部の職に応募しました。"},
+      {"sentence": "The position requires fluency in both English and Japanese.", "translation": "この職には英語と日本語の両方の流暢さが求められます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_064",
+    "word": "department",
+    "meaning": "部署、部門、売り場",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "Please contact the sales department for pricing information.", "translation": "価格については営業部までお問い合わせください。"},
+      {"sentence": "The accounting department is located on the third floor.", "translation": "経理部は3階にあります。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "departmental", "meaning": "部門の"}
+    ]
+  },
+  {
+    "id": "q_word_600_065",
+    "word": "division",
+    "meaning": "部門、部署、分割",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The overseas division reported record profits this quarter.", "translation": "海外部門は今四半期に過去最高の利益を報告しました。"},
+      {"sentence": "He was transferred to the research division last year.", "translation": "彼は昨年、研究部門に異動しました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "divide", "meaning": "分ける、分割する"}
+    ]
+  },
+  {
+    "id": "q_word_600_066",
+    "word": "branch",
+    "meaning": "支店、支社、枝",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "Our company opened a new branch in Osaka last month.", "translation": "当社は先月、大阪に新しい支店を開設しました。"},
+      {"sentence": "The bank has branches in more than twenty countries.", "translation": "その銀行は20か国以上に支店を持っています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_067",
+    "word": "headquarters",
+    "meaning": "本社、本部",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The company's headquarters is located in downtown Chicago.", "translation": "その会社の本社はシカゴの中心部にあります。"},
+      {"sentence": "All managers will attend the meeting at headquarters.", "translation": "全管理職が本社での会議に出席します。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_068",
+    "word": "factory",
+    "meaning": "工場",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The factory produces over 5,000 units per day.", "translation": "その工場は1日に5,000個以上を生産しています。"},
+      {"sentence": "The factory will be closed for maintenance next week.", "translation": "工場は来週、整備のため稼働を停止します。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_069",
+    "word": "warehouse",
+    "meaning": "倉庫",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The products are stored in a warehouse near the airport.", "translation": "製品は空港近くの倉庫に保管されています。"},
+      {"sentence": "We need a larger warehouse to handle the growing demand.", "translation": "増加する需要に対応するため、より大きな倉庫が必要です。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_070",
+    "word": "equipment",
+    "meaning": "機器、設備、装置",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "All office equipment must be inspected once a year.", "translation": "すべてのオフィス機器は年に1度点検を受ける必要があります。"},
+      {"sentence": "The company invested in new laboratory equipment.", "translation": "その会社は新しい実験設備に投資しました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "equip", "meaning": "備え付ける、装備させる"}
+    ]
+  },
+  {
+    "id": "q_word_600_071",
+    "word": "supply",
+    "meaning": "供給する、供給、備品",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "Our company supplies parts to several car manufacturers.", "translation": "当社は複数の自動車メーカーに部品を供給しています。"},
+      {"sentence": "Office supplies can be ordered through the online system.", "translation": "事務用品はオンラインシステムから注文できます。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "supplier", "meaning": "供給業者、仕入先"},
+      {"part": "noun", "word": "supply", "meaning": "供給、在庫品"}
+    ]
+  },
+  {
+    "id": "q_word_600_072",
+    "word": "material",
+    "meaning": "材料、原料、資料",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The price of raw materials has risen sharply this year.", "translation": "今年は原材料の価格が急激に上昇しています。"},
+      {"sentence": "Please review the training materials before the session.", "translation": "研修の前に資料に目を通しておいてください。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_073",
+    "word": "inventory",
+    "meaning": "在庫、在庫目録",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "We take inventory at the end of every month.", "translation": "当社では毎月末に棚卸しを行います。"},
+      {"sentence": "The store has a large inventory of winter clothing.", "translation": "その店は冬物衣料の在庫を大量に抱えています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_074",
+    "word": "shipment",
+    "meaning": "発送、出荷、積荷",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The shipment will arrive at the warehouse on Monday.", "translation": "積荷は月曜日に倉庫に到着する予定です。"},
+      {"sentence": "We apologize for the delay in your shipment.", "translation": "ご注文品の発送が遅れておりますことをお詫びいたします。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "ship", "meaning": "発送する、出荷する"},
+      {"part": "noun", "word": "shipping", "meaning": "配送、送料"}
+    ]
+  },
+  {
+    "id": "q_word_600_075",
+    "word": "package",
+    "meaning": "小包、荷物、梱包する",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "A package arrived for you while you were out.", "translation": "外出中にあなた宛ての小包が届きました。"},
+      {"sentence": "Please package the items carefully before shipping.", "translation": "発送前に商品を丁寧に梱包してください。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "packaging", "meaning": "包装、梱包材"}
+    ]
+  },
+  {
+    "id": "q_word_600_076",
+    "word": "envelope",
+    "meaning": "封筒",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "Please put the documents in a large envelope.", "translation": "書類は大きめの封筒に入れてください。"},
+      {"sentence": "The invitation came in a white envelope.", "translation": "招待状は白い封筒に入って届きました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_077",
+    "word": "postage",
+    "meaning": "郵便料金、送料",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "Postage is free for orders over 5,000 yen.", "translation": "5,000円以上のご注文は送料無料です。"},
+      {"sentence": "The postage for international mail has increased.", "translation": "国際郵便の料金が値上がりしました。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "postal", "meaning": "郵便の"}
+    ]
+  },
+  {
+    "id": "q_word_600_078",
+    "word": "receipt",
+    "meaning": "領収書、レシート、受領",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "Please keep your receipt in case you need a refund.", "translation": "返金の際に必要となる場合があるので、レシートは保管してください。"},
+      {"sentence": "You must present a receipt to exchange the item.", "translation": "商品を交換するには領収書の提示が必要です。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "receive", "meaning": "受け取る"}
+    ]
+  },
+  {
+    "id": "q_word_600_079",
+    "word": "refund",
+    "meaning": "返金、払い戻し、返金する",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "You can request a full refund within 30 days of purchase.", "translation": "購入後30日以内であれば全額返金を申請できます。"},
+      {"sentence": "The store refunded the money without any questions.", "translation": "その店は何も聞かずに返金してくれました。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "refundable", "meaning": "返金可能な"}
+    ]
+  },
+  {
+    "id": "q_word_600_080",
+    "word": "exchange",
+    "meaning": "交換する、両替する、交換",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "May I exchange this shirt for a larger size?", "translation": "このシャツを大きいサイズに交換していただけますか。"},
+      {"sentence": "The two companies exchanged information about the project.", "translation": "両社はそのプロジェクトについて情報を交換しました。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "exchangeable", "meaning": "交換可能な"}
+    ]
+  },
+  {
+    "id": "q_word_600_081",
+    "word": "warranty",
+    "meaning": "保証、保証書",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "This laptop comes with a two-year warranty.", "translation": "このノートパソコンには2年間の保証が付いています。"},
+      {"sentence": "The repair is free because the product is still under warranty.", "translation": "その製品はまだ保証期間内なので、修理は無料です。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_082",
+    "word": "repair",
+    "meaning": "修理する、修理",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "A technician will repair the copier this afternoon.", "translation": "技術者が今日の午後にコピー機を修理します。"},
+      {"sentence": "The elevator is under repair until Friday.", "translation": "エレベーターは金曜日まで修理中です。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "repairable", "meaning": "修理可能な"}
+    ]
+  },
+  {
+    "id": "q_word_600_083",
+    "word": "maintain",
+    "meaning": "維持する、整備する、主張する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The company has maintained high quality standards for years.", "translation": "その会社は長年にわたり高い品質基準を維持してきました。"},
+      {"sentence": "Machines must be maintained regularly to avoid breakdowns.", "translation": "故障を防ぐため、機械は定期的に整備しなければなりません。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "maintenance", "meaning": "維持、整備、保守"}
+    ]
+  },
+  {
+    "id": "q_word_600_084",
+    "word": "install",
+    "meaning": "設置する、取り付ける、インストールする",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The technician will install the new air conditioner tomorrow.", "translation": "技術者が明日、新しいエアコンを設置します。"},
+      {"sentence": "Please install the latest version of the software.", "translation": "最新版のソフトウェアをインストールしてください。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "installation", "meaning": "設置、取り付け"}
+    ]
+  },
+  {
+    "id": "q_word_600_085",
+    "word": "replace",
+    "meaning": "取り替える、交換する、代わりを務める",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "We need to replace the broken printer as soon as possible.", "translation": "壊れたプリンターをできるだけ早く交換する必要があります。"},
+      {"sentence": "Ms. Sato will replace Mr. Kim as team leader.", "translation": "佐藤さんがキムさんに代わってチームリーダーを務めます。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "replacement", "meaning": "交換、後任者"}
+    ]
+  },
+  {
+    "id": "q_word_600_086",
+    "word": "broken",
+    "meaning": "壊れた、故障した",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The broken vending machine will be removed tomorrow.", "translation": "故障した自動販売機は明日撤去されます。"},
+      {"sentence": "I received a broken item and would like a refund.", "translation": "壊れた商品が届いたので、返金をお願いしたいです。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "break", "meaning": "壊す、壊れる"}
+    ]
+  },
+  {
+    "id": "q_word_600_087",
+    "word": "damage",
+    "meaning": "損傷、被害、損害を与える",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The storm caused serious damage to the warehouse.", "translation": "その嵐は倉庫に深刻な被害をもたらしました。"},
+      {"sentence": "Please check whether the goods were damaged during shipping.", "translation": "輸送中に商品が損傷しなかったか確認してください。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "damaged", "meaning": "損傷した、破損した"}
+    ]
+  },
+  {
+    "id": "q_word_600_088",
+    "word": "defect",
+    "meaning": "欠陥、不良",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The inspector found a defect in the new model.", "translation": "検査官は新モデルに欠陥を見つけました。"},
+      {"sentence": "Products with defects are removed from the production line.", "translation": "欠陥のある製品は生産ラインから取り除かれます。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "defective", "meaning": "欠陥のある、不良の"}
+    ]
+  },
+  {
+    "id": "q_word_600_089",
+    "word": "quality",
+    "meaning": "品質、質",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "Our customers value quality more than price.", "translation": "当社のお客様は価格よりも品質を重視しています。"},
+      {"sentence": "Every product goes through a strict quality check.", "translation": "すべての製品は厳しい品質検査を通過します。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_090",
+    "word": "quantity",
+    "meaning": "量、数量",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "Please indicate the quantity of items you wish to order.", "translation": "ご注文になりたい商品の数量をご記入ください。"},
+      {"sentence": "Discounts are available for large quantities.", "translation": "大量注文には割引が適用されます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_091",
+    "word": "brochure",
+    "meaning": "パンフレット、小冊子",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "You can find more details in our product brochure.", "translation": "詳細は当社の製品パンフレットをご覧ください。"},
+      {"sentence": "The travel agency sent us a brochure about Hawaii tours.", "translation": "旅行代理店がハワイツアーのパンフレットを送ってくれました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_092",
+    "word": "catalog",
+    "meaning": "カタログ、目録",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "Our new catalog will be released next month.", "translation": "新しいカタログは来月発行されます。"},
+      {"sentence": "You can order any item listed in the catalog online.", "translation": "カタログに掲載されている商品はオンラインで注文できます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_093",
+    "word": "advertisement",
+    "meaning": "広告、宣伝",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "I saw the job advertisement in the newspaper.", "translation": "私は新聞でその求人広告を見ました。"},
+      {"sentence": "The advertisement helped increase sales by 20 percent.", "translation": "その広告により売上が20パーセント増加しました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "advertise", "meaning": "広告する、宣伝する"},
+      {"part": "noun", "word": "advertising", "meaning": "広告業、広告活動"}
+    ]
+  },
+  {
+    "id": "q_word_600_094",
+    "word": "announce",
+    "meaning": "発表する、知らせる",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The company announced the merger this morning.", "translation": "その会社は今朝、合併を発表しました。"},
+      {"sentence": "The winners will be announced at the end of the ceremony.", "translation": "受賞者は式典の最後に発表されます。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "announcement", "meaning": "発表、告知"},
+      {"part": "noun", "word": "announcer", "meaning": "アナウンサー、告知者"}
+    ]
+  },
+  {
+    "id": "q_word_600_095",
+    "word": "notice",
+    "meaning": "通知、掲示、気づく",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "A notice about the schedule change was posted on the wall.", "translation": "予定変更に関するお知らせが壁に掲示されました。"},
+      {"sentence": "Did you notice the error in the report?", "translation": "報告書の誤りに気づきましたか。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "noticeable", "meaning": "目立つ、顕著な"}
+    ]
+  },
+  {
+    "id": "q_word_600_096",
+    "word": "register",
+    "meaning": "登録する、記録する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "Please register for the seminar by August 10.", "translation": "セミナーへのお申し込みは8月10日までにお願いします。"},
+      {"sentence": "You need to register your product to get the warranty.", "translation": "保証を受けるには製品を登録する必要があります。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "registration", "meaning": "登録、登録手続き"},
+      {"part": "adj", "word": "registered", "meaning": "登録済みの"}
+    ]
+  },
+  {
+    "id": "q_word_600_097",
+    "word": "subscribe",
+    "meaning": "定期購読する、加入する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "More than 10,000 people subscribe to our monthly newsletter.", "translation": "1万人以上が当社の月刊ニュースレターを購読しています。"},
+      {"sentence": "You can subscribe to the magazine at a discounted rate.", "translation": "その雑誌は割引価格で定期購読できます。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "subscription", "meaning": "定期購読、加入"},
+      {"part": "noun", "word": "subscriber", "meaning": "購読者、加入者"}
+    ]
+  },
+  {
+    "id": "q_word_600_098",
+    "word": "membership",
+    "meaning": "会員資格、会員であること、会員数",
+    "part_of_speech": "noun",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "Your gym membership expires at the end of this month.", "translation": "あなたのジムの会員資格は今月末で期限が切れます。"},
+      {"sentence": "Membership includes free access to all online courses.", "translation": "会員になると、すべてのオンライン講座を無料で利用できます。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "member", "meaning": "会員、メンバー"}
+    ]
+  },
+  {
+    "id": "q_word_600_099",
+    "word": "renew",
+    "meaning": "更新する、継続する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "Don't forget to renew your contract before it expires.", "translation": "契約が切れる前に更新するのを忘れないでください。"},
+      {"sentence": "You can renew your library card online.", "translation": "図書館のカードはオンラインで更新できます。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "renewal", "meaning": "更新、継続"}
+    ]
+  },
+  {
+    "id": "q_word_600_100",
+    "word": "expire",
+    "meaning": "期限が切れる、失効する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "This coupon expires on December 31.", "translation": "このクーポンは12月31日で期限が切れます。"},
+      {"sentence": "My passport expired last year, so I need a new one.", "translation": "パスポートが昨年失効したので、新しいものが必要です。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "expiration", "meaning": "満了、失効"},
+      {"part": "noun", "word": "expiry", "meaning": "期限切れ"}
+    ]
+  }
+]

@@ -1,0 +1,697 @@
+[
+  {
+    "id": "q_word_600_451",
+    "word": "accomplish",
+    "meaning": "成し遂げる、達成する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "The team accomplished all of its goals for the quarter.", "translation": "チームはその四半期の目標をすべて達成しました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "accomplishment", "meaning": "達成、業績"}
+    ]
+  },
+  {
+    "id": "q_word_600_452",
+    "word": "acquire",
+    "meaning": "獲得する、習得する、買収する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "The company acquired a smaller software firm last year.", "translation": "その会社は昨年、小規模なソフトウェア会社を買収しました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "acquisition", "meaning": "買収、獲得"}
+    ]
+  },
+  {
+    "id": "q_word_600_453",
+    "word": "adjust",
+    "meaning": "調整する、適応する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "Please adjust the temperature if the room feels too cold.", "translation": "室温が低いと感じたら調整してください。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "adjustment", "meaning": "調整"}
+    ]
+  },
+  {
+    "id": "q_word_600_454",
+    "word": "admit",
+    "meaning": "認める、入場を認める",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "He admitted that the report contained a mistake.", "translation": "彼はその報告書に誤りがあったことを認めました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "admission", "meaning": "入場、承認"}
+    ]
+  },
+  {
+    "id": "q_word_600_455",
+    "word": "adopt",
+    "meaning": "採用する、採択する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "The company decided to adopt a new accounting system.", "translation": "その会社は新しい会計システムを採用することにしました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "adoption", "meaning": "採用、採択"}
+    ]
+  },
+  {
+    "id": "q_word_600_456",
+    "word": "anticipate",
+    "meaning": "予想する、期待する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "We anticipate strong sales during the holiday season.", "translation": "休暇シーズンには好調な売上を見込んでいます。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "anticipation", "meaning": "予想、期待"}
+    ]
+  },
+  {
+    "id": "q_word_600_457",
+    "word": "apologize",
+    "meaning": "謝罪する、わびる",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "We apologize for any inconvenience this may cause.", "translation": "ご不便をおかけしますことをお詫び申し上げます。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "apology", "meaning": "謝罪"}
+    ]
+  },
+  {
+    "id": "q_word_600_458",
+    "word": "appreciate",
+    "meaning": "感謝する、正しく評価する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "We would appreciate your prompt reply.", "translation": "早急なご返信をいただけますと幸いです。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "appreciation", "meaning": "感謝、評価"}
+    ]
+  },
+  {
+    "id": "q_word_600_459",
+    "word": "assist",
+    "meaning": "手伝う、支援する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "A staff member will assist you with your luggage.", "translation": "スタッフがお荷物のお手伝いをいたします。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "assistance", "meaning": "援助、支援"},
+      {"part": "noun", "word": "assistant", "meaning": "アシスタント、助手"}
+    ]
+  },
+  {
+    "id": "q_word_600_460",
+    "word": "assume",
+    "meaning": "想定する、思い込む、引き受ける",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "I assumed the meeting had been canceled.", "translation": "会議は中止になったのだと思っていました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "assumption", "meaning": "想定、仮定"}
+    ]
+  },
+  {
+    "id": "q_word_600_461",
+    "word": "assure",
+    "meaning": "保証する、確約する、安心させる",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "I can assure you that the issue will be fixed by tomorrow.", "translation": "その問題は明日までに解決することをお約束します。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "assurance", "meaning": "保証、確約"}
+    ]
+  },
+  {
+    "id": "q_word_600_462",
+    "word": "avoid",
+    "meaning": "避ける",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "Leave early to avoid heavy traffic on the highway.", "translation": "高速道路の渋滞を避けるために早めに出発してください。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_463",
+    "word": "aware",
+    "meaning": "気づいている、認識している",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "Please be aware that the office will be closed on Monday.", "translation": "月曜日は事務所が休業となりますのでご承知おきください。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "awareness", "meaning": "認識、意識"}
+    ]
+  },
+  {
+    "id": "q_word_600_464",
+    "word": "capable",
+    "meaning": "能力がある、〜できる",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "The new machine is capable of producing 500 units an hour.", "translation": "その新しい機械は1時間に500個を生産することができます。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "capability", "meaning": "能力"}
+    ]
+  },
+  {
+    "id": "q_word_600_465",
+    "word": "cautious",
+    "meaning": "慎重な、用心深い",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "Investors have become more cautious about the market.", "translation": "投資家たちは市場についてより慎重になっています。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "caution", "meaning": "用心、注意"},
+      {"part": "adv", "word": "cautiously", "meaning": "慎重に"}
+    ]
+  },
+  {
+    "id": "q_word_600_466",
+    "word": "committed",
+    "meaning": "献身的な、専念している",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "Our staff is committed to providing excellent service.", "translation": "当社のスタッフは優れたサービス提供に専念しています。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "commitment", "meaning": "献身、約束"},
+      {"part": "verb", "word": "commit", "meaning": "献身する、約束する"}
+    ]
+  },
+  {
+    "id": "q_word_600_467",
+    "word": "competitive",
+    "meaning": "競争力のある、競争の激しい",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "We offer competitive salaries and generous benefits.", "translation": "当社は競争力のある給与と充実した福利厚生を提供しています。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "competition", "meaning": "競争"},
+      {"part": "noun", "word": "competitor", "meaning": "競合他社"}
+    ]
+  },
+  {
+    "id": "q_word_600_468",
+    "word": "complicated",
+    "meaning": "複雑な、込み入った",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "The instructions seemed complicated at first glance.", "translation": "その説明書は一見複雑に見えました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "complicate", "meaning": "複雑にする"}
+    ]
+  },
+  {
+    "id": "q_word_600_469",
+    "word": "confident",
+    "meaning": "自信のある、確信している",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "We are confident that sales will improve next quarter.", "translation": "来四半期には売上が改善すると確信しています。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "confidence", "meaning": "自信、確信"}
+    ]
+  },
+  {
+    "id": "q_word_600_470",
+    "word": "considerable",
+    "meaning": "かなりの、相当な",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "The renovation required a considerable amount of time.", "translation": "その改装にはかなりの時間がかかりました。"}
+    ],
+    "derivatives": [
+      {"part": "adv", "word": "considerably", "meaning": "かなり、相当に"}
+    ]
+  },
+  {
+    "id": "q_word_600_471",
+    "word": "consistent",
+    "meaning": "一貫した、安定した",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "The company has maintained consistent growth for five years.", "translation": "その会社は5年間、安定した成長を維持してきました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "consistency", "meaning": "一貫性"},
+      {"part": "adv", "word": "consistently", "meaning": "一貫して"}
+    ]
+  },
+  {
+    "id": "q_word_600_472",
+    "word": "crucial",
+    "meaning": "極めて重要な、決定的な",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "Customer feedback is crucial to improving our products.", "translation": "顧客の意見は製品改善にとって極めて重要です。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_473",
+    "word": "dedicated",
+    "meaning": "献身的な、専念した、専用の",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "We have a dedicated team for customer support.", "translation": "当社には顧客サポート専任のチームがあります。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "dedicate", "meaning": "捧げる"},
+      {"part": "noun", "word": "dedication", "meaning": "献身"}
+    ]
+  },
+  {
+    "id": "q_word_600_474",
+    "word": "delighted",
+    "meaning": "とても喜んでいる、うれしい",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "We are delighted to announce the opening of our new branch.", "translation": "新支店の開設をお知らせできることを大変うれしく思います。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "delight", "meaning": "喜び"}
+    ]
+  },
+  {
+    "id": "q_word_600_475",
+    "word": "eager",
+    "meaning": "熱望している、意欲的な",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "The new employees are eager to learn about the company.", "translation": "新入社員たちは会社について学ぶことに意欲的です。"}
+    ],
+    "derivatives": [
+      {"part": "adv", "word": "eagerly", "meaning": "熱心に"}
+    ]
+  },
+  {
+    "id": "q_word_600_476",
+    "word": "enthusiastic",
+    "meaning": "熱心な、意欲的な",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "She is enthusiastic about the new marketing project.", "translation": "彼女は新しいマーケティングプロジェクトに意欲的です。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "enthusiasm", "meaning": "熱意"}
+    ]
+  },
+  {
+    "id": "q_word_600_477",
+    "word": "essential",
+    "meaning": "不可欠な、必須の",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "Good teamwork is essential for this project's success.", "translation": "良好なチームワークはこのプロジェクトの成功に不可欠です。"}
+    ],
+    "derivatives": [
+      {"part": "adv", "word": "essentially", "meaning": "本質的に"}
+    ]
+  },
+  {
+    "id": "q_word_600_478",
+    "word": "exceptional",
+    "meaning": "並外れた、非常に優れた",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "The hotel is known for its exceptional customer service.", "translation": "そのホテルは並外れた顧客サービスで知られています。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "exception", "meaning": "例外"}
+    ]
+  },
+  {
+    "id": "q_word_600_479",
+    "word": "familiar",
+    "meaning": "よく知られた、精通している",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "Are you familiar with this accounting software?", "translation": "この会計ソフトに精通していますか。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "familiarity", "meaning": "熟知、親しみ"}
+    ]
+  },
+  {
+    "id": "q_word_600_480",
+    "word": "grateful",
+    "meaning": "感謝している",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "We are grateful for your continued support.", "translation": "変わらぬご支援に感謝しております。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "gratitude", "meaning": "感謝"}
+    ]
+  },
+  {
+    "id": "q_word_600_481",
+    "word": "hesitate",
+    "meaning": "ためらう、躊躇する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "Please do not hesitate to contact us with any questions.", "translation": "ご質問がございましたら、遠慮なくご連絡ください。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "hesitation", "meaning": "ためらい"}
+    ]
+  },
+  {
+    "id": "q_word_600_482",
+    "word": "impressive",
+    "meaning": "印象的な、素晴らしい",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "The presentation gave an impressive overview of the results.", "translation": "その発表は結果について印象的な概要を示していました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "impress", "meaning": "感銘を与える"},
+      {"part": "noun", "word": "impression", "meaning": "印象"}
+    ]
+  },
+  {
+    "id": "q_word_600_483",
+    "word": "initial",
+    "meaning": "最初の、当初の",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "The initial cost estimate was lower than the final price.", "translation": "当初の見積もりは最終的な価格より低かったです。"}
+    ],
+    "derivatives": [
+      {"part": "adv", "word": "initially", "meaning": "当初は"}
+    ]
+  },
+  {
+    "id": "q_word_600_484",
+    "word": "innovative",
+    "meaning": "革新的な、独創的な",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "The startup is known for its innovative designs.", "translation": "そのスタートアップは革新的なデザインで知られています。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "innovation", "meaning": "革新"}
+    ]
+  },
+  {
+    "id": "q_word_600_485",
+    "word": "mandatory",
+    "meaning": "義務的な、必須の",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "Attendance at the safety briefing is mandatory for all staff.", "translation": "安全説明会への出席は全スタッフに義務付けられています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_486",
+    "word": "numerous",
+    "meaning": "多数の、たくさんの",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "The company has received numerous awards for its products.", "translation": "その会社は自社製品で数多くの賞を受賞しています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_487",
+    "word": "outstanding",
+    "meaning": "傑出した、未払いの",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "She received an award for her outstanding performance.", "translation": "彼女は傑出した業績に対して賞を受け取りました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_488",
+    "word": "pleased",
+    "meaning": "喜んでいる、満足している",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "We are pleased to inform you that your application was approved.", "translation": "ご応募が承認されましたことをお知らせでき、うれしく思います。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "please", "meaning": "喜ばせる"}
+    ]
+  },
+  {
+    "id": "q_word_600_489",
+    "word": "potential",
+    "meaning": "潜在的な、可能性のある",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "The survey identified several potential customers in the region.", "translation": "その調査でその地域における潜在顧客が数名特定されました。"}
+    ],
+    "derivatives": [
+      {"part": "adv", "word": "potentially", "meaning": "潜在的に"}
+    ]
+  },
+  {
+    "id": "q_word_600_490",
+    "word": "primary",
+    "meaning": "主要な、第一の",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "Our primary goal this year is to expand overseas.", "translation": "今年の主な目標は海外展開です。"}
+    ],
+    "derivatives": [
+      {"part": "adv", "word": "primarily", "meaning": "主に"}
+    ]
+  },
+  {
+    "id": "q_word_600_491",
+    "word": "prior",
+    "meaning": "事前の、前の",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "Prior experience in retail is preferred for this job.", "translation": "この仕事には小売業での事前の経験があると望ましいです。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_492",
+    "word": "professional",
+    "meaning": "専門的な、プロの、専門家",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "Please dress in professional attire for the interview.", "translation": "面接にはビジネスにふさわしい服装でお越しください。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "profession", "meaning": "職業"},
+      {"part": "adv", "word": "professionally", "meaning": "専門的に、プロらしく"}
+    ]
+  },
+  {
+    "id": "q_word_600_493",
+    "word": "prominent",
+    "meaning": "著名な、目立つ",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "A prominent economist will speak at the conference.", "translation": "著名な経済学者がその会議で講演します。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_494",
+    "word": "prompt",
+    "meaning": "迅速な、即座の",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "Thank you for your prompt response to our inquiry.", "translation": "お問い合わせへの迅速なご回答をありがとうございます。"}
+    ],
+    "derivatives": [
+      {"part": "adv", "word": "promptly", "meaning": "迅速に"}
+    ]
+  },
+  {
+    "id": "q_word_600_495",
+    "word": "relevant",
+    "meaning": "関連のある、妥当な",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "Please attach all relevant documents to your application.", "translation": "応募書類にはすべての関連書類を添付してください。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "relevance", "meaning": "関連性"}
+    ]
+  },
+  {
+    "id": "q_word_600_496",
+    "word": "significant",
+    "meaning": "重要な、著しい",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "The new system led to a significant reduction in errors.", "translation": "新しいシステムはエラーの著しい削減につながりました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "significance", "meaning": "重要性"},
+      {"part": "adv", "word": "significantly", "meaning": "著しく"}
+    ]
+  },
+  {
+    "id": "q_word_600_497",
+    "word": "sufficient",
+    "meaning": "十分な",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "Make sure you have sufficient funds before the trip.", "translation": "旅行前に十分な資金があることを確認してください。"}
+    ],
+    "derivatives": [
+      {"part": "adv", "word": "sufficiently", "meaning": "十分に"}
+    ]
+  },
+  {
+    "id": "q_word_600_498",
+    "word": "suitable",
+    "meaning": "適した、ふさわしい",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "This venue is suitable for conferences of up to 200 people.", "translation": "この会場は最大200人までの会議に適しています。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "suit", "meaning": "適する"}
+    ]
+  },
+  {
+    "id": "q_word_600_499",
+    "word": "urgent",
+    "meaning": "緊急の、至急の",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "This is an urgent matter that requires your immediate attention.", "translation": "これは至急のご対応が必要な案件です。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "urgency", "meaning": "緊急性"}
+    ]
+  },
+  {
+    "id": "q_word_600_500",
+    "word": "willing",
+    "meaning": "いとわない、快く〜する",
+    "part_of_speech": "adj",
+    "level": "600",
+    "chapter_num": 10,
+    "example_sentences": [
+      {"sentence": "The company is willing to negotiate the delivery date.", "translation": "その会社は納期について交渉に応じる用意があります。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "willingness", "meaning": "自発性、意欲"}
+    ]
+  }
+]

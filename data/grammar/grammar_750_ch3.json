@@ -1,0 +1,172 @@
+[
+  {
+    "id": "q_grammar_750_021",
+    "question_text": "The IT team ______ on the server issue since early this morning.",
+    "choices": [
+      "has been working",
+      "is working",
+      "works",
+      "worked"
+    ],
+    "correct_index": 0,
+    "category": "present_perfect_progressive",
+    "category_ja": "現在完了進行形",
+    "level": "750",
+    "chapter_num": 3,
+    "explanation": "「since early this morning(今朝早くから)」という起点があり、動作が過去から今もずっと続いていることを表すので、現在完了進行形〈have/has + been + -ing〉の has been working が正解です。現在完了進行形は「(今まで)ずっと〜し続けている」という動作の継続を強調します。単なる現在形の works では、この継続のニュアンスが出せません。",
+    "translation": "IT チームは今朝早くから、ずっとサーバーの問題に取り組んでいます。"
+  },
+  {
+    "id": "q_grammar_750_022",
+    "question_text": "______ the heavy rain, the outdoor event was held as scheduled.",
+    "choices": [
+      "Despite",
+      "Even",
+      "Although",
+      "However"
+    ],
+    "correct_index": 0,
+    "category": "prepositions_despite",
+    "category_ja": "前置詞(譲歩のdespite)",
+    "level": "750",
+    "chapter_num": 3,
+    "explanation": "「大雨にもかかわらず」と譲歩を表し、後ろに名詞句(the heavy rain)が続くので、前置詞 Despite が正解です。despite は「〜にもかかわらず」という意味で、後ろに名詞をとります。Although も「〜だけれども」ですが接続詞なので、後ろには〈主語+動詞〉の文が必要で、名詞句の前には置けません。",
+    "translation": "大雨にもかかわらず、その野外イベントは予定どおり開催されました。"
+  },
+  {
+    "id": "q_grammar_750_023",
+    "question_text": "Please speak louder ______ everyone in the back can hear you.",
+    "choices": [
+      "so that",
+      "in order to",
+      "because of",
+      "despite"
+    ],
+    "correct_index": 0,
+    "category": "conjunction_so_that",
+    "category_ja": "接続詞(目的のso that)",
+    "level": "750",
+    "chapter_num": 3,
+    "explanation": "「後ろの人みんなに聞こえるように」と目的を表し、後ろに〈主語+助動詞+動詞〉(everyone ... can hear)が続くので、接続詞 so that が正解です。so that + 主語 + can 〜 で「〜できるように」という目的を表します。in order to は後ろに動詞の原形をとる形なので、〈主語+動詞〉の文は続けられません。",
+    "translation": "後ろの方にも聞こえるように、もう少し大きな声で話してください。"
+  },
+  {
+    "id": "q_grammar_750_024",
+    "question_text": "The team proposed a highly ______ marketing campaign.",
+    "choices": [
+      "innovation",
+      "innovate",
+      "innovative",
+      "innovatively"
+    ],
+    "correct_index": 2,
+    "category": "pos_adjective_suffix_ive",
+    "category_ja": "品詞(形容詞の接尾辞-ive)",
+    "level": "750",
+    "chapter_num": 3,
+    "explanation": "空欄の直後に名詞 marketing campaign があるので、それを修飾する形容詞 innovative(革新的な)が正解です。動詞 innovate に -ive を付けると形容詞になります。前の highly(非常に)は副詞で形容詞を強調しており、innovation は名詞、innovatively は副詞なので、名詞を修飾する位置には合いません。",
+    "translation": "そのチームは、非常に革新的なマーケティングキャンペーンを提案しました。"
+  },
+  {
+    "id": "q_grammar_750_025",
+    "question_text": "The box is too heavy for me ______ alone.",
+    "choices": [
+      "carried",
+      "carrying",
+      "carry",
+      "to carry"
+    ],
+    "correct_index": 3,
+    "category": "infinitive_too_to",
+    "category_ja": "不定詞(too ~ to do)",
+    "level": "750",
+    "chapter_num": 3,
+    "explanation": "〈too + 形容詞 + (for 人) + to do〉で「(人には)…すぎて〜できない」を表す構文です。ここでは too heavy for me to carry で「私には重すぎて運べない」となるので、不定詞の to carry が正解です。for me は不定詞の意味上の主語(誰にとって、を示す部分)です。",
+    "translation": "その箱は重すぎて、私一人では運べません。"
+  },
+  {
+    "id": "q_grammar_750_026",
+    "question_text": "Please review the report ______ by the finance team.",
+    "choices": [
+      "prepares",
+      "preparation",
+      "preparing",
+      "prepared"
+    ],
+    "correct_index": 3,
+    "category": "participle_postmodifying_past",
+    "category_ja": "過去分詞の後置修飾",
+    "level": "750",
+    "chapter_num": 3,
+    "explanation": "the report(報告書)は「財務チームによって作成された」という受動の関係なので、過去分詞 prepared が名詞を後ろから修飾します。よって prepared が正解です。prepared by the finance team が the report を説明し、「財務チームが作成した報告書」となります。現在分詞 preparing は「〜している」という能動の意味になるため、ここでは合いません。",
+    "translation": "財務チームが作成した報告書をご確認ください。"
+  },
+  {
+    "id": "q_grammar_750_027",
+    "question_text": "I ______ rather take the early flight than the late one.",
+    "choices": [
+      "should",
+      "could",
+      "had",
+      "would"
+    ],
+    "correct_index": 3,
+    "category": "modal_would_rather",
+    "category_ja": "助動詞(would rather)",
+    "level": "750",
+    "chapter_num": 3,
+    "explanation": "空欄の直後に rather、後ろに than があることに注目します。〈would rather A than B〉で「BよりむしろAしたい」という好みを表すので、would が正解です。would rather の後ろは動詞の原形(take)が続きます。この構文はTOEICで頻出なので、would rather ... than の形で覚えておきましょう。",
+    "translation": "私は遅い便より、早い便に乗りたいです。"
+  },
+  {
+    "id": "q_grammar_750_028",
+    "question_text": "Either the manager or his assistants ______ going to attend the trade show.",
+    "choices": [
+      "is",
+      "been",
+      "are",
+      "be"
+    ],
+    "correct_index": 2,
+    "category": "sv_agreement_either_or",
+    "category_ja": "主語と動詞の一致(either A or B)",
+    "level": "750",
+    "chapter_num": 3,
+    "explanation": "either A or B が主語のときは、動詞は B(orの後ろの語)に合わせます。ここでは B にあたる his assistants が複数なので、動詞は are が正解です。「近いほうの主語に合わせる」というのが either ... or ... の一致のルールです。前の the manager(単数)に合わせて is を選ばないよう注意しましょう。",
+    "translation": "マネージャーか、その部下たちのどちらかが、その展示会に出席する予定です。"
+  },
+  {
+    "id": "q_grammar_750_029",
+    "question_text": "This design doesn't work well. Let's try ______ one.",
+    "choices": [
+      "others",
+      "another",
+      "other",
+      "the another"
+    ],
+    "correct_index": 1,
+    "category": "pronoun_another",
+    "category_ja": "代名詞(another)",
+    "level": "750",
+    "chapter_num": 3,
+    "explanation": "「(不特定の)別のもう一つ」を表すには another を使います。空欄の後ろに単数名詞 one が続いており、another は単数名詞の前に置けるので another が正解です。other は単独では単数名詞の前に置けず(the other や others の形になる)、the another という言い方は存在しません。",
+    "translation": "このデザインはうまくいきません。別のものを試してみましょう。"
+  },
+  {
+    "id": "q_grammar_750_030",
+    "question_text": "The success of the outdoor event will depend ______ the weather.",
+    "choices": [
+      "on",
+      "for",
+      "of",
+      "at"
+    ],
+    "correct_index": 0,
+    "category": "prepositions_depend_on",
+    "category_ja": "動詞+前置詞(depend on)",
+    "level": "750",
+    "chapter_num": 3,
+    "explanation": "動詞 depend は前置詞 on と結びついて、depend on 〜「〜次第である・〜による」という意味になります。よって on が正解です。「野外イベントの成功は天候次第だ」という意味になります。depend は of や for ではなく on をとる、という動詞と前置詞の組み合わせで覚えておきましょう。",
+    "translation": "その野外イベントの成功は、天候次第です。"
+  }
+]

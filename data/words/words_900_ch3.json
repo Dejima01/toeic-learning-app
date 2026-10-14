@@ -1,0 +1,634 @@
+[
+  {
+    "id": "q_word_900_101",
+    "word": "exemplify",
+    "meaning": "例証する、体現する",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Her leadership style exemplifies the company's core values.", "translation": "彼女のリーダーシップのあり方はその会社の核となる価値観を体現しています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_102",
+    "word": "epitomize",
+    "meaning": "典型となる、象徴する",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "This product epitomizes the brand's commitment to quality.", "translation": "この製品はそのブランドの品質へのこだわりを象徴しています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_103",
+    "word": "embody",
+    "meaning": "具現化する、体現する",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The new headquarters embodies the company's innovative spirit.", "translation": "新しい本社はその会社の革新的な精神を具現化しています。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "embodiment", "meaning": "具現化、体現"}
+    ]
+  },
+  {
+    "id": "q_word_900_104",
+    "word": "encompass",
+    "meaning": "包含する、含む",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The training program encompasses both technical and soft skills.", "translation": "その研修プログラムは技術面とソフトスキルの両方を含んでいます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_105",
+    "word": "envisage",
+    "meaning": "思い描く、想定する",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The founder envisaged a company that would change the industry.", "translation": "創業者はその業界を変える会社を思い描いていました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_106",
+    "word": "foresee",
+    "meaning": "予見する、見越す",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Analysts foresee a slowdown in the housing market next year.", "translation": "アナリストたちは来年、住宅市場の減速を予見しています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_107",
+    "word": "preempt",
+    "meaning": "先手を打つ、未然に防ぐ",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The company lowered prices to preempt a competitor's move.", "translation": "その会社は競合他社の動きを先取りするため価格を下げました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_108",
+    "word": "avert",
+    "meaning": "回避する、防ぐ",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Quick action by the crew averted a major accident.", "translation": "乗務員の迅速な対応が大事故を回避しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_109",
+    "word": "mitigate",
+    "meaning": "軽減する、緩和する",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The company took steps to mitigate the impact of the recall.", "translation": "その会社はリコールの影響を軽減するための対策を講じました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "mitigation", "meaning": "軽減、緩和"}
+    ]
+  },
+  {
+    "id": "q_word_900_110",
+    "word": "alleviate",
+    "meaning": "緩和する、軽減する",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The new software helped alleviate the workload of the support team.", "translation": "その新しいソフトはサポートチームの業務負担を軽減するのに役立ちました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_111",
+    "word": "exacerbate",
+    "meaning": "悪化させる",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The delay in shipping exacerbated the customer's frustration.", "translation": "配送の遅れが顧客の不満を悪化させました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_112",
+    "word": "aggravate",
+    "meaning": "悪化させる、いら立たせる",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The confusing instructions aggravated the situation further.", "translation": "その分かりにくい説明が状況をさらに悪化させました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_113",
+    "word": "curtail",
+    "meaning": "切り詰める、短縮する",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The company curtailed its spending during the economic downturn.", "translation": "その会社は景気後退中、支出を切り詰めました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_114",
+    "word": "condense",
+    "meaning": "凝縮する、要約する",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Please condense the report into a two-page summary.", "translation": "その報告書を2ページの要約に凝縮してください。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "condensation", "meaning": "凝縮、要約"}
+    ]
+  },
+  {
+    "id": "q_word_900_115",
+    "word": "consolidate",
+    "meaning": "統合する、強化する",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The two departments were consolidated to reduce costs.", "translation": "コスト削減のため、その2つの部署は統合されました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "consolidation", "meaning": "統合"}
+    ]
+  },
+  {
+    "id": "q_word_900_116",
+    "word": "amalgamate",
+    "meaning": "合併する、統合する",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The three small firms amalgamated to form a stronger company.", "translation": "その3つの小さな会社は合併してより強固な会社を形成しました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "amalgamation", "meaning": "合併、統合"}
+    ]
+  },
+  {
+    "id": "q_word_900_117",
+    "word": "synthesize",
+    "meaning": "統合する、合成する",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The report synthesizes data from multiple market studies.", "translation": "その報告書は複数の市場調査からのデータを統合しています。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "synthesis", "meaning": "統合、合成"}
+    ]
+  },
+  {
+    "id": "q_word_900_118",
+    "word": "extrapolate",
+    "meaning": "推定する、外挿する",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Analysts extrapolated future sales from last year's trends.", "translation": "アナリストたちは昨年の傾向から今後の売上を推定しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_119",
+    "word": "deduce",
+    "meaning": "推論する、演繹する",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "From the sales figures, the team deduced that demand had shifted.", "translation": "売上数値から、チームは需要が変化したと推論しました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "deduction", "meaning": "推論、控除"}
+    ]
+  },
+  {
+    "id": "q_word_900_120",
+    "word": "discern",
+    "meaning": "見分ける、識別する",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "It was hard to discern any pattern in the customer complaints.", "translation": "顧客からの苦情に何らかのパターンを見分けるのは困難でした。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_121",
+    "word": "decipher",
+    "meaning": "解読する、判読する",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "It took hours to decipher the handwritten notes.", "translation": "その手書きのメモを判読するのに何時間もかかりました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_122",
+    "word": "elucidate",
+    "meaning": "解明する、明らかにする",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The consultant elucidated the reasons behind the sales decline.", "translation": "コンサルタントは売上減少の背景にある理由を解明しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_123",
+    "word": "expound",
+    "meaning": "詳しく説明する、詳述する",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The professor expounded on the theory in great detail.", "translation": "その教授はその理論について詳細に説明しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_124",
+    "word": "reiterate",
+    "meaning": "繰り返し述べる、強調する",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The manager reiterated the importance of meeting the deadline.", "translation": "マネージャーは締め切りを守ることの重要性を改めて強調しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_125",
+    "word": "underscore",
+    "meaning": "強調する",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The report underscores the need for better data security.", "translation": "その報告書はより優れたデータセキュリティの必要性を強調しています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_126",
+    "word": "accentuate",
+    "meaning": "強調する、際立たせる",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The new packaging accentuates the product's premium quality.", "translation": "その新しいパッケージはその製品の高級感を際立たせています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_127",
+    "word": "allude",
+    "meaning": "ほのめかす、それとなく言及する",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The CEO alluded to possible layoffs during the meeting.", "translation": "CEOは会議中、解雇の可能性についてほのめかしました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "allusion", "meaning": "ほのめかし、言及"}
+    ]
+  },
+  {
+    "id": "q_word_900_128",
+    "word": "insinuate",
+    "meaning": "ほのめかす、暗に示す",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The article insinuated that the company had misled investors.", "translation": "その記事はその会社が投資家を欺いたことを暗にほのめかしていました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_129",
+    "word": "denote",
+    "meaning": "示す、意味する",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "A red flag on the chart denotes a high-priority issue.", "translation": "チャート上の赤い旗は優先度の高い問題を示しています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_130",
+    "word": "ascertain",
+    "meaning": "確かめる、突き止める",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The inspector ascertained the cause of the equipment failure.", "translation": "検査官はその設備故障の原因を突き止めました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_131",
+    "word": "divulge",
+    "meaning": "漏らす、暴露する",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The spokesperson declined to divulge details of the negotiation.", "translation": "広報担当者は交渉の詳細を明かすことを拒みました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_132",
+    "word": "disseminate",
+    "meaning": "広める、普及させる",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The findings were disseminated to all branch offices.", "translation": "その調査結果はすべての支店に広められました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "dissemination", "meaning": "普及、拡散"}
+    ]
+  },
+  {
+    "id": "q_word_900_133",
+    "word": "promulgate",
+    "meaning": "公布する、広める",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The government promulgated the new regulation last month.", "translation": "政府は先月、その新しい規制を公布しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_134",
+    "word": "proliferate",
+    "meaning": "急増する、広がる",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Online retailers have proliferated over the past decade.", "translation": "オンライン小売業者はこの10年で急増しました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "proliferation", "meaning": "急増、拡散"}
+    ]
+  },
+  {
+    "id": "q_word_900_135",
+    "word": "permeate",
+    "meaning": "浸透する、行き渡る",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "A culture of innovation permeates every department of the company.", "translation": "革新の文化がその会社のあらゆる部署に浸透しています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_136",
+    "word": "culminate",
+    "meaning": "頂点に達する、最終的に〜になる",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Years of research culminated in the release of the new drug.", "translation": "長年の研究は新薬の発売という形で結実しました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "culmination", "meaning": "頂点、集大成"}
+    ]
+  },
+  {
+    "id": "q_word_900_137",
+    "word": "commence",
+    "meaning": "開始する",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Construction on the new building will commence next month.", "translation": "その新しい建物の建設は来月開始されます。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "commencement", "meaning": "開始"}
+    ]
+  },
+  {
+    "id": "q_word_900_138",
+    "word": "cease",
+    "meaning": "停止する、やめる",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The factory will cease production of the old model this year.", "translation": "その工場は今年、旧モデルの生産を停止します。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "cessation", "meaning": "停止"}
+    ]
+  },
+  {
+    "id": "q_word_900_139",
+    "word": "wane",
+    "meaning": "衰える、弱まる",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Interest in the product waned after the initial launch.", "translation": "その製品への関心は発売当初の盛り上がりの後、衰えました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_140",
+    "word": "dwindle",
+    "meaning": "徐々に減る、先細りになる",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The company's cash reserves have been dwindling for months.", "translation": "その会社の手元資金は数か月にわたって減り続けています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_141",
+    "word": "taper",
+    "meaning": "徐々に減少する、先細る",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Sales tend to taper off toward the end of the year.", "translation": "売上は年末に向けて徐々に減少する傾向があります。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_142",
+    "word": "rebound",
+    "meaning": "回復する、持ち直す",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The stock market rebounded quickly after the initial drop.", "translation": "株式市場は当初の下落の後、すぐに持ち直しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_143",
+    "word": "recoup",
+    "meaning": "取り戻す、埋め合わせる",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The company hopes to recoup its investment within two years.", "translation": "その会社は2年以内に投資を回収したいと考えています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_144",
+    "word": "recuperate",
+    "meaning": "回復する",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The industry is slowly recuperating from the economic downturn.", "translation": "その業界は景気後退からゆっくりと回復しつつあります。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_145",
+    "word": "reinstate",
+    "meaning": "復職させる、元に戻す",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The employee was reinstated after the investigation cleared him.", "translation": "その従業員は調査で潔白が証明された後、復職しました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "reinstatement", "meaning": "復職、復元"}
+    ]
+  },
+  {
+    "id": "q_word_900_146",
+    "word": "redeem",
+    "meaning": "引き換える、挽回する",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Customers can redeem their points for gift cards.", "translation": "顧客はポイントをギフトカードと引き換えることができます。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "redemption", "meaning": "引き換え、挽回"}
+    ]
+  },
+  {
+    "id": "q_word_900_147",
+    "word": "remit",
+    "meaning": "送金する",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "Please remit payment within 30 days of receiving the invoice.", "translation": "請求書受領後30日以内にお支払いを送金してください。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "remittance", "meaning": "送金"}
+    ]
+  },
+  {
+    "id": "q_word_900_148",
+    "word": "liaison",
+    "meaning": "連絡係、連携",
+    "part_of_speech": "noun",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "She serves as a liaison between the sales and engineering teams.", "translation": "彼女は営業チームと技術チームの間の連絡係を務めています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_149",
+    "word": "embark",
+    "meaning": "着手する、乗り出す",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "The company embarked on a major restructuring plan this year.", "translation": "その会社は今年、大規模な再編計画に着手しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_150",
+    "word": "endeavor",
+    "meaning": "努める、努力する、試み",
+    "part_of_speech": "verb",
+    "level": "900",
+    "chapter_num": 3,
+    "example_sentences": [
+      {"sentence": "We will endeavor to resolve the issue as soon as possible.", "translation": "問題をできるだけ早く解決するよう努めます。"}
+    ],
+    "derivatives": []
+  }
+]

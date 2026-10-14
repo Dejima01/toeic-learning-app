@@ -1,0 +1,1502 @@
+[
+  {
+    "id": "q_grammar_600_001",
+    "question_text": "Mr. Tanaka ______ to the office by train every day.",
+    "choices": [
+      "go",
+      "going",
+      "to go",
+      "goes"
+    ],
+    "correct_index": 3,
+    "category": "present_simple_third_person",
+    "category_ja": "現在形(三単現のs)",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_600_002",
+    "question_text": "We need to hire ______ engineer for the new project.",
+    "choices": [
+      "a",
+      "the",
+      "an",
+      "any"
+    ],
+    "correct_index": 2,
+    "category": "articles_a_an",
+    "category_ja": "冠詞(a/an)",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_600_003",
+    "question_text": "The meeting will start ______ 10 a.m.",
+    "choices": [
+      "at",
+      "on",
+      "in",
+      "by"
+    ],
+    "correct_index": 0,
+    "category": "prepositions_time_at",
+    "category_ja": "前置詞(時のat)",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_600_004",
+    "question_text": "Please fill out this form ______ submit it to the front desk.",
+    "choices": [
+      "but",
+      "or",
+      "and",
+      "so"
+    ],
+    "correct_index": 2,
+    "category": "conjunction_and",
+    "category_ja": "接続詞(and)",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_600_005",
+    "question_text": "Ms. Lee ______ speak three languages fluently.",
+    "choices": [
+      "can",
+      "should",
+      "must",
+      "shall"
+    ],
+    "correct_index": 0,
+    "category": "modal_can_ability",
+    "category_ja": "助動詞(can・能力)",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_600_006",
+    "question_text": "The price of these products ______ very reasonable.",
+    "choices": [
+      "are",
+      "being",
+      "is",
+      "be"
+    ],
+    "correct_index": 2,
+    "category": "sv_agreement_singular_subject",
+    "category_ja": "主語と動詞の一致(単数主語)",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_600_007",
+    "question_text": "The hotel offers ______ service to all guests.",
+    "choices": [
+      "excellence",
+      "excel",
+      "excellently",
+      "excellent"
+    ],
+    "correct_index": 3,
+    "category": "pos_adjective_before_noun",
+    "category_ja": "品詞(名詞の前の形容詞)",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_600_008",
+    "question_text": "The new employees ______ the orientation tomorrow morning.",
+    "choices": [
+      "attends",
+      "will attend",
+      "attend",
+      "attended"
+    ],
+    "correct_index": 1,
+    "category": "future_tense_will",
+    "category_ja": "未来時制(will)",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_600_009",
+    "question_text": "Our headquarters is located ______ Tokyo.",
+    "choices": [
+      "on",
+      "to",
+      "in",
+      "at"
+    ],
+    "correct_index": 2,
+    "category": "prepositions_place_in",
+    "category_ja": "前置詞(場所のin)",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_600_010",
+    "question_text": "This printer is ______ than the old one.",
+    "choices": [
+      "more fast",
+      "faster",
+      "fastest",
+      "fast"
+    ],
+    "correct_index": 1,
+    "category": "comparative_er_than",
+    "category_ja": "比較級(-er than)",
+    "level": "600",
+    "chapter_num": 1
+  },
+  {
+    "id": "q_grammar_600_011",
+    "question_text": "Ms. Sato ______ the client yesterday afternoon.",
+    "choices": [
+      "will visit",
+      "visited",
+      "visits",
+      "visit"
+    ],
+    "correct_index": 1,
+    "category": "past_simple_regular",
+    "category_ja": "過去形(規則動詞)",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "id": "q_grammar_600_012",
+    "question_text": "We stayed at a small hotel. ______ hotel was near the beach.",
+    "choices": [
+      "A",
+      "Some",
+      "The",
+      "An"
+    ],
+    "correct_index": 2,
+    "category": "articles_the",
+    "category_ja": "冠詞(the)",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "id": "q_grammar_600_013",
+    "question_text": "The workshop will be held ______ Monday.",
+    "choices": [
+      "in",
+      "on",
+      "at",
+      "for"
+    ],
+    "correct_index": 1,
+    "category": "prepositions_time_on",
+    "category_ja": "前置詞(時のon)",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "id": "q_grammar_600_014",
+    "question_text": "The product is expensive, ______ it is very popular.",
+    "choices": [
+      "or",
+      "and",
+      "because",
+      "but"
+    ],
+    "correct_index": 3,
+    "category": "conjunction_but",
+    "category_ja": "接続詞(but)",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "id": "q_grammar_600_015",
+    "question_text": "All visitors ______ wear an ID badge inside the building.",
+    "choices": [
+      "would",
+      "may",
+      "can",
+      "must"
+    ],
+    "correct_index": 3,
+    "category": "modal_must_obligation",
+    "category_ja": "助動詞(must・義務)",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "id": "q_grammar_600_016",
+    "question_text": "The documents you requested ______ on your desk.",
+    "choices": [
+      "are",
+      "is",
+      "been",
+      "be"
+    ],
+    "correct_index": 0,
+    "category": "sv_agreement_plural_subject",
+    "category_ja": "主語と動詞の一致(複数主語)",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "id": "q_grammar_600_017",
+    "question_text": "Sales increased ______ in the last quarter.",
+    "choices": [
+      "significantly",
+      "significant",
+      "significance",
+      "signify"
+    ],
+    "correct_index": 0,
+    "category": "pos_adverb_suffix_ly",
+    "category_ja": "品詞(-ly副詞の語形成)",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "id": "q_grammar_600_018",
+    "question_text": "Mr. Brown ______ a phone call right now.",
+    "choices": [
+      "is making",
+      "make",
+      "makes",
+      "made"
+    ],
+    "correct_index": 0,
+    "category": "present_continuous",
+    "category_ja": "現在進行形",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "id": "q_grammar_600_019",
+    "question_text": "Let's meet ______ the main entrance at seven.",
+    "choices": [
+      "on",
+      "of",
+      "in",
+      "at"
+    ],
+    "correct_index": 3,
+    "category": "prepositions_place_at",
+    "category_ja": "前置詞(場所のat)",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "id": "q_grammar_600_020",
+    "question_text": "This is the ______ building in the city.",
+    "choices": [
+      "taller",
+      "tall",
+      "most tall",
+      "tallest"
+    ],
+    "correct_index": 3,
+    "category": "superlative_est",
+    "category_ja": "最上級(-est)",
+    "level": "600",
+    "chapter_num": 2
+  },
+  {
+    "id": "q_grammar_600_021",
+    "question_text": "Our team ______ the sales target last month.",
+    "choices": [
+      "meeting",
+      "met",
+      "meets",
+      "meet"
+    ],
+    "correct_index": 1,
+    "category": "past_simple_irregular",
+    "category_ja": "過去形(不規則動詞)",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "id": "q_grammar_600_022",
+    "question_text": "The new store will open ______ March.",
+    "choices": [
+      "in",
+      "at",
+      "by",
+      "on"
+    ],
+    "correct_index": 0,
+    "category": "prepositions_time_in",
+    "category_ja": "前置詞(時のin)",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "id": "q_grammar_600_023",
+    "question_text": "You can pay by credit card ______ in cash.",
+    "choices": [
+      "or",
+      "and",
+      "but",
+      "so"
+    ],
+    "correct_index": 0,
+    "category": "conjunction_or",
+    "category_ja": "接続詞(or)",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "id": "q_grammar_600_024",
+    "question_text": "You ______ confirm your reservation in advance.",
+    "choices": [
+      "are",
+      "have",
+      "ought",
+      "should"
+    ],
+    "correct_index": 3,
+    "category": "modal_should_advice",
+    "category_ja": "助動詞(should・助言)",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "id": "q_grammar_600_025",
+    "question_text": "There ______ several restaurants near the hotel.",
+    "choices": [
+      "has",
+      "be",
+      "are",
+      "is"
+    ],
+    "correct_index": 2,
+    "category": "sv_agreement_there_is_are",
+    "category_ja": "There is/areの一致",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "id": "q_grammar_600_026",
+    "question_text": "We made a ______ to expand our business overseas.",
+    "choices": [
+      "decidedly",
+      "decisive",
+      "decide",
+      "decision"
+    ],
+    "correct_index": 3,
+    "category": "pos_noun_after_article",
+    "category_ja": "品詞(冠詞の後の名詞)",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "id": "q_grammar_600_027",
+    "question_text": "We ______ launch a new product next month.",
+    "choices": [
+      "go to",
+      "going to",
+      "gone to",
+      "are going to"
+    ],
+    "correct_index": 3,
+    "category": "future_tense_be_going_to",
+    "category_ja": "未来表現(be going to)",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "id": "q_grammar_600_028",
+    "question_text": "Please put the files ______ my desk.",
+    "choices": [
+      "on",
+      "in",
+      "at",
+      "of"
+    ],
+    "correct_index": 0,
+    "category": "prepositions_place_on",
+    "category_ja": "前置詞(場所のon)",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "id": "q_grammar_600_029",
+    "question_text": "This software is ______ than the previous version.",
+    "choices": [
+      "useful",
+      "more useful",
+      "usefully",
+      "most useful"
+    ],
+    "correct_index": 1,
+    "category": "comparative_more_than",
+    "category_ja": "比較級(more ~ than)",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "id": "q_grammar_600_030",
+    "question_text": "I want ______ a new laptop for work.",
+    "choices": [
+      "buying",
+      "bought",
+      "buy",
+      "to buy"
+    ],
+    "correct_index": 3,
+    "category": "infinitive_after_want",
+    "category_ja": "不定詞(want to do)",
+    "level": "600",
+    "chapter_num": 3
+  },
+  {
+    "id": "q_grammar_600_031",
+    "question_text": "Mr. Ito has ______ abroad three times on business.",
+    "choices": [
+      "being",
+      "be",
+      "is",
+      "been"
+    ],
+    "correct_index": 3,
+    "category": "present_perfect_experience",
+    "category_ja": "現在完了(経験)",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "id": "q_grammar_600_032",
+    "question_text": "We have known each other ______ ten years.",
+    "choices": [
+      "for",
+      "since",
+      "during",
+      "from"
+    ],
+    "correct_index": 0,
+    "category": "prepositions_duration_for",
+    "category_ja": "前置詞(期間のfor)",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "id": "q_grammar_600_033",
+    "question_text": "The flight was delayed ______ the weather was bad.",
+    "choices": [
+      "because",
+      "if",
+      "but",
+      "so"
+    ],
+    "correct_index": 0,
+    "category": "conjunction_because",
+    "category_ja": "接続詞(because)",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "id": "q_grammar_600_034",
+    "question_text": "______ I borrow your pen for a moment?",
+    "choices": [
+      "Must",
+      "Would",
+      "Should",
+      "May"
+    ],
+    "correct_index": 3,
+    "category": "modal_may_permission",
+    "category_ja": "助動詞(may・許可)",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "id": "q_grammar_600_035",
+    "question_text": "Please handle the package ______.",
+    "choices": [
+      "care",
+      "careful",
+      "carefully",
+      "caring"
+    ],
+    "correct_index": 2,
+    "category": "pos_adverb_modifying_verb",
+    "category_ja": "品詞(動詞を修飾する副詞)",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "id": "q_grammar_600_036",
+    "question_text": "Our clients enjoyed ______ the new factory.",
+    "choices": [
+      "visit",
+      "visiting",
+      "to visit",
+      "visited"
+    ],
+    "correct_index": 1,
+    "category": "gerund_after_enjoy",
+    "category_ja": "動名詞(enjoy -ing)",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "id": "q_grammar_600_037",
+    "question_text": "______ you have any questions about the schedule?",
+    "choices": [
+      "Is",
+      "Does",
+      "Are",
+      "Do"
+    ],
+    "correct_index": 3,
+    "category": "word_order_question_do",
+    "category_ja": "語順(doを使う疑問文)",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "id": "q_grammar_600_038",
+    "question_text": "English ______ in many countries around the world.",
+    "choices": [
+      "is speaking",
+      "speaks",
+      "spoke",
+      "is spoken"
+    ],
+    "correct_index": 3,
+    "category": "passive_present_simple",
+    "category_ja": "受動態(現在形)",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "id": "q_grammar_600_039",
+    "question_text": "The woman ______ is standing at the door is our new manager.",
+    "choices": [
+      "where",
+      "whose",
+      "who",
+      "which"
+    ],
+    "correct_index": 2,
+    "category": "relative_pronoun_who",
+    "category_ja": "関係代名詞(who)",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "id": "q_grammar_600_040",
+    "question_text": "This is the ______ important meeting of the year.",
+    "choices": [
+      "more",
+      "many",
+      "most",
+      "much"
+    ],
+    "correct_index": 2,
+    "category": "superlative_most",
+    "category_ja": "最上級(most)",
+    "level": "600",
+    "chapter_num": 4
+  },
+  {
+    "id": "q_grammar_600_041",
+    "question_text": "Mr. Davis has just ______ the monthly report.",
+    "choices": [
+      "finishing",
+      "finish",
+      "finished",
+      "finishes"
+    ],
+    "correct_index": 2,
+    "category": "present_perfect_completion",
+    "category_ja": "現在完了(完了)",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "id": "q_grammar_600_042",
+    "question_text": "Please submit the application form ______ Friday.",
+    "choices": [
+      "at",
+      "in",
+      "by",
+      "until"
+    ],
+    "correct_index": 2,
+    "category": "prepositions_by_deadline",
+    "category_ja": "前置詞(期限のby)",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "id": "q_grammar_600_043",
+    "question_text": "Please call me ______ you arrive at the airport.",
+    "choices": [
+      "when",
+      "on",
+      "during",
+      "at"
+    ],
+    "correct_index": 0,
+    "category": "conjunction_when",
+    "category_ja": "接続詞(when)",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "id": "q_grammar_600_044",
+    "question_text": "Employees ______ to wear safety helmets in this area.",
+    "choices": [
+      "have",
+      "should",
+      "can",
+      "must"
+    ],
+    "correct_index": 0,
+    "category": "modal_have_to",
+    "category_ja": "助動詞相当(have to)",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "id": "q_grammar_600_045",
+    "question_text": "Thank you for your generous ______ to our charity event.",
+    "choices": [
+      "donating",
+      "donate",
+      "donated",
+      "donation"
+    ],
+    "correct_index": 3,
+    "category": "pos_noun_suffix_tion",
+    "category_ja": "品詞(名詞の接尾辞-tion)",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "id": "q_grammar_600_046",
+    "question_text": "We decided ______ the meeting until next week.",
+    "choices": [
+      "to postpone",
+      "postpone",
+      "postponing",
+      "postponed"
+    ],
+    "correct_index": 0,
+    "category": "infinitive_after_decide",
+    "category_ja": "不定詞(decide to do)",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "id": "q_grammar_600_047",
+    "question_text": "Mr. Park ______ business trips in December.",
+    "choices": [
+      "take often",
+      "often taking",
+      "takes often",
+      "often takes"
+    ],
+    "correct_index": 3,
+    "category": "word_order_frequency_adverb",
+    "category_ja": "語順(頻度副詞の位置)",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "id": "q_grammar_600_048",
+    "question_text": "The new policy ______ announced at yesterday's meeting.",
+    "choices": [
+      "did",
+      "was",
+      "is",
+      "has"
+    ],
+    "correct_index": 1,
+    "category": "passive_past_simple",
+    "category_ja": "受動態(過去形)",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "id": "q_grammar_600_049",
+    "question_text": "We stayed at a hotel ______ has a beautiful ocean view.",
+    "choices": [
+      "who",
+      "whose",
+      "which",
+      "whom"
+    ],
+    "correct_index": 2,
+    "category": "relative_pronoun_which",
+    "category_ja": "関係代名詞(which)",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "id": "q_grammar_600_050",
+    "question_text": "The new model is ______ as the old one.",
+    "choices": [
+      "as light",
+      "lighter",
+      "more light",
+      "lightest"
+    ],
+    "correct_index": 0,
+    "category": "comparison_as_as",
+    "category_ja": "比較(as ~ as)",
+    "level": "600",
+    "chapter_num": 5
+  },
+  {
+    "id": "q_grammar_600_051",
+    "question_text": "Ms. Garcia ______ for this company since 2020.",
+    "choices": [
+      "works",
+      "worked",
+      "is work",
+      "has worked"
+    ],
+    "correct_index": 3,
+    "category": "present_perfect_continuation",
+    "category_ja": "現在完了(継続)",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "id": "q_grammar_600_052",
+    "question_text": "The store is open ______ 9 p.m. every day.",
+    "choices": [
+      "on",
+      "until",
+      "at",
+      "by"
+    ],
+    "correct_index": 1,
+    "category": "prepositions_until",
+    "category_ja": "前置詞(継続のuntil)",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "id": "q_grammar_600_053",
+    "question_text": "Please turn off your computer ______ you leave the office.",
+    "choices": [
+      "before",
+      "during",
+      "until",
+      "by"
+    ],
+    "correct_index": 0,
+    "category": "conjunction_before",
+    "category_ja": "接続詞(before)",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "id": "q_grammar_600_054",
+    "question_text": "______ you send me the file again, please?",
+    "choices": [
+      "May",
+      "Shall",
+      "Must",
+      "Could"
+    ],
+    "correct_index": 3,
+    "category": "modal_could_polite_request",
+    "category_ja": "助動詞(could・丁寧な依頼)",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "id": "q_grammar_600_055",
+    "question_text": "The ______ of the new system will begin next month.",
+    "choices": [
+      "developed",
+      "develop",
+      "developing",
+      "development"
+    ],
+    "correct_index": 3,
+    "category": "pos_noun_suffix_ment",
+    "category_ja": "品詞(名詞の接尾辞-ment)",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "id": "q_grammar_600_056",
+    "question_text": "Have you finished ______ the sales data?",
+    "choices": [
+      "to analyze",
+      "analyze",
+      "analyzed",
+      "analyzing"
+    ],
+    "correct_index": 3,
+    "category": "gerund_after_finish",
+    "category_ja": "動名詞(finish -ing)",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "id": "q_grammar_600_057",
+    "question_text": "Everyone in the office ______ the new coffee machine.",
+    "choices": [
+      "likes",
+      "liking",
+      "are liking",
+      "like"
+    ],
+    "correct_index": 0,
+    "category": "sv_agreement_everyone_singular",
+    "category_ja": "主語と動詞の一致(everyone)",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "id": "q_grammar_600_058",
+    "question_text": "This report was written ______ Mr. Yamada.",
+    "choices": [
+      "from",
+      "by",
+      "of",
+      "with"
+    ],
+    "correct_index": 1,
+    "category": "passive_with_by_agent",
+    "category_ja": "受動態(行為者のby)",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "id": "q_grammar_600_059",
+    "question_text": "This is the laptop ______ I bought last week.",
+    "choices": [
+      "who",
+      "whose",
+      "what",
+      "that"
+    ],
+    "correct_index": 3,
+    "category": "relative_pronoun_that",
+    "category_ja": "関係代名詞(that)",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "id": "q_grammar_600_060",
+    "question_text": "The seminar will run ______ 1 p.m. to 5 p.m.",
+    "choices": [
+      "since",
+      "between",
+      "from",
+      "at"
+    ],
+    "correct_index": 2,
+    "category": "prepositions_from_to",
+    "category_ja": "前置詞(from A to B)",
+    "level": "600",
+    "chapter_num": 6
+  },
+  {
+    "id": "q_grammar_600_061",
+    "question_text": "I ______ lunch when the phone rang.",
+    "choices": [
+      "has had",
+      "was having",
+      "have",
+      "am having"
+    ],
+    "correct_index": 1,
+    "category": "past_continuous",
+    "category_ja": "過去進行形",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "id": "q_grammar_600_062",
+    "question_text": "Please turn off your phone ______ the presentation.",
+    "choices": [
+      "for",
+      "while",
+      "since",
+      "during"
+    ],
+    "correct_index": 3,
+    "category": "prepositions_duration_during",
+    "category_ja": "前置詞(during)",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "id": "q_grammar_600_063",
+    "question_text": "We will send you a confirmation email ______ we receive your payment.",
+    "choices": [
+      "by",
+      "during",
+      "after",
+      "until"
+    ],
+    "correct_index": 2,
+    "category": "conjunction_after",
+    "category_ja": "接続詞(after)",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "id": "q_grammar_600_064",
+    "question_text": "______ you like some coffee or tea?",
+    "choices": [
+      "May",
+      "Would",
+      "Can",
+      "Will"
+    ],
+    "correct_index": 1,
+    "category": "modal_would_polite_offer",
+    "category_ja": "助動詞(would・丁寧な申し出)",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "id": "q_grammar_600_065",
+    "question_text": "We are ______ for your continued support.",
+    "choices": [
+      "gratitude",
+      "grate",
+      "gratefully",
+      "grateful"
+    ],
+    "correct_index": 3,
+    "category": "pos_adjective_suffix_ful",
+    "category_ja": "品詞(形容詞の接尾辞-ful)",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "id": "q_grammar_600_066",
+    "question_text": "Ms. Novak went to the bank ______ some money.",
+    "choices": [
+      "to withdraw",
+      "withdraw",
+      "withdrawing",
+      "withdrawn"
+    ],
+    "correct_index": 0,
+    "category": "infinitive_of_purpose",
+    "category_ja": "不定詞(目的)",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "id": "q_grammar_600_067",
+    "question_text": "Each employee ______ a company email address.",
+    "choices": [
+      "are having",
+      "having",
+      "have",
+      "has"
+    ],
+    "correct_index": 3,
+    "category": "sv_agreement_each_singular",
+    "category_ja": "主語と動詞の一致(each)",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "id": "q_grammar_600_068",
+    "question_text": "The results ______ announced next Monday.",
+    "choices": [
+      "is",
+      "will be",
+      "will",
+      "has"
+    ],
+    "correct_index": 1,
+    "category": "passive_future_will",
+    "category_ja": "受動態(未来形)",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "id": "q_grammar_600_069",
+    "question_text": "I met a designer ______ work has won several awards.",
+    "choices": [
+      "who",
+      "whose",
+      "whom",
+      "which"
+    ],
+    "correct_index": 1,
+    "category": "relative_pronoun_whose",
+    "category_ja": "関係代名詞(whose)",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "id": "q_grammar_600_070",
+    "question_text": "The bank is ______ the post office and the cafe.",
+    "choices": [
+      "among",
+      "between",
+      "at",
+      "from"
+    ],
+    "correct_index": 1,
+    "category": "prepositions_between",
+    "category_ja": "前置詞(between)",
+    "level": "600",
+    "chapter_num": 7
+  },
+  {
+    "id": "q_grammar_600_071",
+    "question_text": "If it ______ tomorrow, the event will be moved indoors.",
+    "choices": [
+      "raining",
+      "rained",
+      "will rain",
+      "rains"
+    ],
+    "correct_index": 3,
+    "category": "conditional_first_real",
+    "category_ja": "条件文(if+現在形, will)",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "id": "q_grammar_600_072",
+    "question_text": "We had a long discussion ______ the new marketing plan.",
+    "choices": [
+      "in",
+      "about",
+      "at",
+      "to"
+    ],
+    "correct_index": 1,
+    "category": "prepositions_about_topic",
+    "category_ja": "前置詞(話題のabout)",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "id": "q_grammar_600_073",
+    "question_text": "The traffic was heavy, ______ we arrived at the meeting late.",
+    "choices": [
+      "because",
+      "so",
+      "if",
+      "or"
+    ],
+    "correct_index": 1,
+    "category": "conjunction_so",
+    "category_ja": "接続詞(so・結果)",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "id": "q_grammar_600_074",
+    "question_text": "These containers are ______ and eco-friendly.",
+    "choices": [
+      "reusably",
+      "reusable",
+      "reuse",
+      "reusing"
+    ],
+    "correct_index": 1,
+    "category": "pos_adjective_suffix_able",
+    "category_ja": "品詞(形容詞の接尾辞-able)",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "id": "q_grammar_600_075",
+    "question_text": "______ regular exercise is important for your health.",
+    "choices": [
+      "Get",
+      "Gets",
+      "Getting",
+      "Gotten"
+    ],
+    "correct_index": 2,
+    "category": "gerund_as_subject",
+    "category_ja": "動名詞(主語)",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "id": "q_grammar_600_076",
+    "question_text": "The meeting room is ______ for twenty people.",
+    "choices": [
+      "enough large",
+      "enough largely",
+      "large enough",
+      "largely enough"
+    ],
+    "correct_index": 2,
+    "category": "word_order_enough",
+    "category_ja": "語順(形容詞+enough)",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "id": "q_grammar_600_077",
+    "question_text": "This form ______ completed online.",
+    "choices": [
+      "is can",
+      "can",
+      "can being",
+      "can be"
+    ],
+    "correct_index": 3,
+    "category": "passive_modal_can",
+    "category_ja": "受動態(助動詞can+be+過去分詞)",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "id": "q_grammar_600_078",
+    "question_text": "This is the restaurant ______ we held our year-end party.",
+    "choices": [
+      "who",
+      "which",
+      "what",
+      "where"
+    ],
+    "correct_index": 3,
+    "category": "relative_adverb_where",
+    "category_ja": "関係副詞(where)",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "id": "q_grammar_600_079",
+    "question_text": "Mr. Silva flew ______ Chicago for a conference.",
+    "choices": [
+      "at",
+      "in",
+      "to",
+      "on"
+    ],
+    "correct_index": 2,
+    "category": "prepositions_direction_to",
+    "category_ja": "前置詞(方向のto)",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "id": "q_grammar_600_080",
+    "question_text": "The presentation about the new technology was very ______.",
+    "choices": [
+      "interesting",
+      "interested",
+      "interest",
+      "interests"
+    ],
+    "correct_index": 0,
+    "category": "participle_present_adjective",
+    "category_ja": "分詞形容詞(-ing)",
+    "level": "600",
+    "chapter_num": 8
+  },
+  {
+    "id": "q_grammar_600_081",
+    "question_text": "The express train ______ at 9:15 every morning.",
+    "choices": [
+      "is leave",
+      "leaves",
+      "leaving",
+      "leave"
+    ],
+    "correct_index": 1,
+    "category": "present_simple_schedule",
+    "category_ja": "現在形(確定した予定)",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "id": "q_grammar_600_082",
+    "question_text": "Most employees come to work ______ bus.",
+    "choices": [
+      "in",
+      "by",
+      "with",
+      "on"
+    ],
+    "correct_index": 1,
+    "category": "prepositions_means_by",
+    "category_ja": "前置詞(手段のby)",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "id": "q_grammar_600_083",
+    "question_text": "Please do not use your phone ______ you are driving.",
+    "choices": [
+      "while",
+      "between",
+      "until",
+      "during"
+    ],
+    "correct_index": 0,
+    "category": "conjunction_while",
+    "category_ja": "接続詞(while)",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "id": "q_grammar_600_084",
+    "question_text": "The instructions in the manual were ______ clear.",
+    "choices": [
+      "perfected",
+      "perfect",
+      "perfection",
+      "perfectly"
+    ],
+    "correct_index": 3,
+    "category": "pos_adverb_modifying_adjective",
+    "category_ja": "品詞(形容詞を修飾する副詞)",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "id": "q_grammar_600_085",
+    "question_text": "We plan ______ a new branch in Osaka next year.",
+    "choices": [
+      "open",
+      "to open",
+      "opened",
+      "opening"
+    ],
+    "correct_index": 1,
+    "category": "infinitive_after_plan",
+    "category_ja": "不定詞(plan to do)",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "id": "q_grammar_600_086",
+    "question_text": "We were very ______ with the survey results.",
+    "choices": [
+      "satisfied",
+      "satisfy",
+      "satisfying",
+      "satisfaction"
+    ],
+    "correct_index": 0,
+    "category": "participle_past_adjective",
+    "category_ja": "分詞形容詞(-ed)",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "id": "q_grammar_600_087",
+    "question_text": "Please read the first page ______ the user manual.",
+    "choices": [
+      "from",
+      "in",
+      "of",
+      "off"
+    ],
+    "correct_index": 2,
+    "category": "prepositions_of_possession",
+    "category_ja": "前置詞(所有・所属のof)",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "id": "q_grammar_600_088",
+    "question_text": "Thank you for ______ our store today.",
+    "choices": [
+      "visiting",
+      "to visit",
+      "visit",
+      "visited"
+    ],
+    "correct_index": 0,
+    "category": "gerund_after_preposition",
+    "category_ja": "動名詞(前置詞の後)",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "id": "q_grammar_600_089",
+    "question_text": "There is a convenience store ______ our office.",
+    "choices": [
+      "near",
+      "nearly",
+      "next",
+      "close"
+    ],
+    "correct_index": 0,
+    "category": "prepositions_near_location",
+    "category_ja": "前置詞(near)",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "id": "q_grammar_600_090",
+    "question_text": "We appreciate your ______ during the renovation.",
+    "choices": [
+      "patiently",
+      "patient",
+      "patience",
+      "patients"
+    ],
+    "correct_index": 2,
+    "category": "pos_noun_after_possessive",
+    "category_ja": "品詞(所有格の後の名詞)",
+    "level": "600",
+    "chapter_num": 9
+  },
+  {
+    "id": "q_grammar_600_091",
+    "question_text": "I will email you as soon as the report ______ ready.",
+    "choices": [
+      "be",
+      "will be",
+      "is",
+      "was"
+    ],
+    "correct_index": 2,
+    "category": "future_in_time_clause",
+    "category_ja": "時の副詞節(未来でも現在形)",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "id": "q_grammar_600_092",
+    "question_text": "If I ______ more time, I would travel abroad.",
+    "choices": [
+      "will have",
+      "had",
+      "have",
+      "has"
+    ],
+    "correct_index": 1,
+    "category": "conditional_second_basic",
+    "category_ja": "仮定法過去(基本形)",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "id": "q_grammar_600_093",
+    "question_text": "A new bridge ______ built across the river now.",
+    "choices": [
+      "is being",
+      "is",
+      "been",
+      "be"
+    ],
+    "correct_index": 0,
+    "category": "passive_present_progressive",
+    "category_ja": "受動態(現在進行形)",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "id": "q_grammar_600_094",
+    "question_text": "Could you tell me where ______?",
+    "choices": [
+      "the meeting room is",
+      "is the meeting room",
+      "does the meeting room",
+      "the meeting room does"
+    ],
+    "correct_index": 0,
+    "category": "word_order_indirect_question",
+    "category_ja": "語順(間接疑問文)",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "id": "q_grammar_600_095",
+    "question_text": "______ the price was high, we decided to buy the software.",
+    "choices": [
+      "So",
+      "However",
+      "Although",
+      "Because"
+    ],
+    "correct_index": 2,
+    "category": "conjunction_although",
+    "category_ja": "接続詞(although)",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "id": "q_grammar_600_096",
+    "question_text": "Mr. Weber has lived in Japan ______ 2019.",
+    "choices": [
+      "from",
+      "for",
+      "since",
+      "during"
+    ],
+    "correct_index": 2,
+    "category": "prepositions_since_starting_point",
+    "category_ja": "前置詞(起点のsince)",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "id": "q_grammar_600_097",
+    "question_text": "Please stop ______ during the presentation.",
+    "choices": [
+      "talk",
+      "to talk",
+      "talked",
+      "talking"
+    ],
+    "correct_index": 3,
+    "category": "verb_stop_gerund",
+    "category_ja": "動名詞(stop -ing)",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "id": "q_grammar_600_098",
+    "question_text": "Would you like something cold ______?",
+    "choices": [
+      "to drink",
+      "drink",
+      "drank",
+      "drinking"
+    ],
+    "correct_index": 0,
+    "category": "infinitive_adjectival",
+    "category_ja": "不定詞(形容詞的用法)",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "id": "q_grammar_600_099",
+    "question_text": "Please sign the document ______ a black pen.",
+    "choices": [
+      "by",
+      "in",
+      "with",
+      "on"
+    ],
+    "correct_index": 2,
+    "category": "prepositions_with_tool",
+    "category_ja": "前置詞(道具のwith)",
+    "level": "600",
+    "chapter_num": 10
+  },
+  {
+    "id": "q_grammar_600_100",
+    "question_text": "The new smartphone is popular ______ young people.",
+    "choices": [
+      "between",
+      "along",
+      "within",
+      "among"
+    ],
+    "correct_index": 3,
+    "category": "prepositions_among",
+    "category_ja": "前置詞(among)",
+    "level": "600",
+    "chapter_num": 10
+  }
+]

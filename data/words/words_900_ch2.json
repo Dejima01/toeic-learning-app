@@ -1,0 +1,638 @@
+[
+  {
+    "id": "q_word_900_051",
+    "word": "astute",
+    "meaning": "鋭い、抜け目のない",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The astute investor recognized the opportunity before others did.", "translation": "その鋭い投資家は他の人より先にその好機に気づきました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_052",
+    "word": "shrewd",
+    "meaning": "抜け目のない、やり手の",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "She is known as a shrewd negotiator in the industry.", "translation": "彼女は業界で抜け目のない交渉人として知られています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_053",
+    "word": "prudent",
+    "meaning": "賢明な、慎重な",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "It would be prudent to review the contract before signing.", "translation": "署名する前に契約書を確認するのが賢明でしょう。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "prudence", "meaning": "慎重さ、思慮分別"}
+    ]
+  },
+  {
+    "id": "q_word_900_054",
+    "word": "frugal",
+    "meaning": "倹約な、質素な",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The company adopted a frugal approach to cut unnecessary expenses.", "translation": "その会社は無駄な出費を削るため倹約的な方針を採用しました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "frugality", "meaning": "倹約、質素"}
+    ]
+  },
+  {
+    "id": "q_word_900_055",
+    "word": "thrifty",
+    "meaning": "倹約な、節約家の",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "Thrifty shoppers often wait for seasonal sales.", "translation": "節約家の買い物客はよく季節のセールを待ちます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_056",
+    "word": "lavish",
+    "meaning": "豪華な、惜しみない",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The company held a lavish party to celebrate its anniversary.", "translation": "その会社は創立記念を祝うため豪華なパーティーを開きました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_057",
+    "word": "exorbitant",
+    "meaning": "法外な、途方もない",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "Customers complained about the hotel's exorbitant parking fees.", "translation": "顧客はそのホテルの法外な駐車料金について苦情を言いました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_058",
+    "word": "astronomical",
+    "meaning": "天文学的な、法外に高い",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The repair costs turned out to be astronomical.", "translation": "その修理費用は法外に高額だと判明しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_059",
+    "word": "nominal",
+    "meaning": "名目上の、わずかな",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The membership fee is nominal compared to the benefits offered.", "translation": "会費は提供される特典に比べればわずかなものです。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_060",
+    "word": "negligent",
+    "meaning": "怠慢な、不注意な",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The company was found negligent in maintaining the equipment.", "translation": "その会社は設備の保守を怠っていたと判断されました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "negligence", "meaning": "怠慢、過失"}
+    ]
+  },
+  {
+    "id": "q_word_900_061",
+    "word": "culpable",
+    "meaning": "責めを負うべき、有責の",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The investigation found the manager culpable for the safety violation.", "translation": "その調査ではマネージャーが安全違反について責任があると判断されました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_062",
+    "word": "liable",
+    "meaning": "責任がある、〜しがちな",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The company is liable for any damage caused during delivery.", "translation": "その会社は配送中に生じたいかなる損傷にも責任を負います。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "liability", "meaning": "責任、負債"}
+    ]
+  },
+  {
+    "id": "q_word_900_063",
+    "word": "exempt",
+    "meaning": "免除された",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "Nonprofit organizations are exempt from this tax.", "translation": "非営利団体はこの税金を免除されています。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "exemption", "meaning": "免除"}
+    ]
+  },
+  {
+    "id": "q_word_900_064",
+    "word": "immune",
+    "meaning": "免疫のある、影響を受けない",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "No industry is immune to the effects of a global recession.", "translation": "世界的な不況の影響を受けない業界はありません。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "immunity", "meaning": "免疫、免除"}
+    ]
+  },
+  {
+    "id": "q_word_900_065",
+    "word": "susceptible",
+    "meaning": "影響を受けやすい、〜にかかりやすい",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "Small businesses are especially susceptible to changes in the economy.", "translation": "中小企業は特に経済の変化の影響を受けやすいです。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "susceptibility", "meaning": "影響を受けやすさ"}
+    ]
+  },
+  {
+    "id": "q_word_900_066",
+    "word": "vulnerable",
+    "meaning": "脆弱な、傷つきやすい",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The outdated system is vulnerable to cyberattacks.", "translation": "その旧式のシステムはサイバー攻撃に対して脆弱です。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "vulnerability", "meaning": "脆弱性"}
+    ]
+  },
+  {
+    "id": "q_word_900_067",
+    "word": "detrimental",
+    "meaning": "有害な、悪影響を及ぼす",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "Excessive overtime can be detrimental to employee health.", "translation": "過度の残業は従業員の健康に悪影響を及ぼす可能性があります。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_068",
+    "word": "adverse",
+    "meaning": "不利な、逆の",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The medicine may cause adverse side effects in rare cases.", "translation": "その薬はまれに有害な副作用を引き起こすことがあります。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "adversity", "meaning": "逆境、困難"}
+    ]
+  },
+  {
+    "id": "q_word_900_069",
+    "word": "conducive",
+    "meaning": "〜に役立つ、〜を促す",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "A quiet workspace is conducive to better concentration.", "translation": "静かな職場はより良い集中力に役立ちます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_070",
+    "word": "instrumental",
+    "meaning": "重要な役割を果たす、助けとなる",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "She was instrumental in securing the new client.", "translation": "彼女はその新規顧客獲得において重要な役割を果たしました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_071",
+    "word": "pivotal",
+    "meaning": "極めて重要な、中心的な",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "This decision was pivotal to the company's future direction.", "translation": "この決定はその会社の今後の方向性にとって極めて重要でした。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_072",
+    "word": "indispensable",
+    "meaning": "不可欠な、なくてはならない",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "Reliable data has become indispensable for decision-making.", "translation": "信頼できるデータは意思決定に不可欠なものとなりました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_073",
+    "word": "imperative",
+    "meaning": "必須の、緊急の",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "It is imperative that all staff attend the safety briefing.", "translation": "全スタッフが安全説明会に出席することが必須です。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_074",
+    "word": "compulsory",
+    "meaning": "義務的な、強制的な",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "Attendance at the orientation is compulsory for all new hires.", "translation": "オリエンテーションへの出席は新入社員全員に義務付けられています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_075",
+    "word": "obligatory",
+    "meaning": "義務的な、必須の",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "Wearing a helmet is obligatory on the construction site.", "translation": "その建設現場ではヘルメットの着用が義務付けられています。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "obligation", "meaning": "義務"}
+    ]
+  },
+  {
+    "id": "q_word_900_076",
+    "word": "discretionary",
+    "meaning": "任意の、裁量による",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "Managers have a discretionary budget for team activities.", "translation": "マネージャーにはチーム活動のための裁量予算があります。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "discretion", "meaning": "裁量、判断"}
+    ]
+  },
+  {
+    "id": "q_word_900_077",
+    "word": "arbitrary",
+    "meaning": "恣意的な、任意の",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "Employees complained that the decision seemed arbitrary.", "translation": "社員たちはその決定が恣意的に思えると不満を述べました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_078",
+    "word": "cohesive",
+    "meaning": "結束した、まとまりのある",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The manager built a cohesive team over the past year.", "translation": "そのマネージャーはこの1年でまとまりのあるチームを作り上げました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "cohesion", "meaning": "結束、団結"}
+    ]
+  },
+  {
+    "id": "q_word_900_079",
+    "word": "intricate",
+    "meaning": "複雑な、入り組んだ",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The machine has an intricate design with many small parts.", "translation": "その機械は多くの小さな部品からなる複雑な構造をしています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_080",
+    "word": "convoluted",
+    "meaning": "複雑な、込み入った",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The refund process was too convoluted for most customers to follow.", "translation": "その返金手続きはほとんどの顧客にとって複雑すぎました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_081",
+    "word": "cumbersome",
+    "meaning": "扱いにくい、面倒な",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The old approval process was slow and cumbersome.", "translation": "その旧来の承認プロセスは遅く、面倒でした。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_082",
+    "word": "tedious",
+    "meaning": "退屈な、うんざりする",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "Entering the data manually can be a tedious task.", "translation": "手作業でデータを入力するのは退屈な作業になり得ます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_083",
+    "word": "mundane",
+    "meaning": "平凡な、ありふれた",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "Automation freed employees from mundane administrative tasks.", "translation": "自動化により従業員は平凡な事務作業から解放されました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_084",
+    "word": "monotonous",
+    "meaning": "単調な",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The assembly line work can feel monotonous after a while.", "translation": "組み立てラインの作業はしばらくすると単調に感じることがあります。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "monotony", "meaning": "単調さ"}
+    ]
+  },
+  {
+    "id": "q_word_900_085",
+    "word": "lucid",
+    "meaning": "明快な、分かりやすい",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The professor gave a lucid explanation of the complex topic.", "translation": "その教授はその複雑な話題について明快な説明をしました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_086",
+    "word": "succinct",
+    "meaning": "簡潔な",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "Please provide a succinct summary of the report's key points.", "translation": "報告書の要点を簡潔にまとめてください。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_087",
+    "word": "terse",
+    "meaning": "簡潔な、素っ気ない",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "His terse reply left the client feeling unsatisfied.", "translation": "彼の素っ気ない返答に顧客は不満を感じました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_088",
+    "word": "eloquent",
+    "meaning": "雄弁な、説得力のある",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The CEO gave an eloquent speech at the shareholders' meeting.", "translation": "CEOは株主総会で雄弁なスピーチを行いました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "eloquence", "meaning": "雄弁さ"}
+    ]
+  },
+  {
+    "id": "q_word_900_089",
+    "word": "candid",
+    "meaning": "率直な、飾らない",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The manager gave candid feedback about the team's performance.", "translation": "マネージャーはチームの業績について率直なフィードバックをしました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_090",
+    "word": "forthright",
+    "meaning": "率直な、単刀直入な",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "She was forthright about the challenges facing the department.", "translation": "彼女はその部署が直面している課題について率直に話しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_091",
+    "word": "discreet",
+    "meaning": "慎重な、思慮深い",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "Please be discreet when discussing the merger with outside parties.", "translation": "合併について社外の関係者と話す際は慎重にお願いします。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "discretion", "meaning": "慎重さ、分別"}
+    ]
+  },
+  {
+    "id": "q_word_900_092",
+    "word": "tactful",
+    "meaning": "如才ない、機転の利く",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "She handled the customer's complaint in a tactful manner.", "translation": "彼女はその顧客の苦情に如才なく対応しました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "tact", "meaning": "機転、如才なさ"}
+    ]
+  },
+  {
+    "id": "q_word_900_093",
+    "word": "courteous",
+    "meaning": "礼儀正しい、丁寧な",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The staff were courteous and helpful throughout our stay.", "translation": "滞在中、スタッフは終始礼儀正しく親切でした。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "courtesy", "meaning": "礼儀、丁寧さ"}
+    ]
+  },
+  {
+    "id": "q_word_900_094",
+    "word": "amiable",
+    "meaning": "愛想の良い、親しみやすい",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The new manager has an amiable personality that puts staff at ease.", "translation": "新しいマネージャーは親しみやすい人柄でスタッフを安心させています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_095",
+    "word": "affable",
+    "meaning": "気さくな、愛想の良い",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "Customers appreciated the affable way the receptionist greeted them.", "translation": "顧客は受付係の気さくな出迎え方を高く評価しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_096",
+    "word": "cordial",
+    "meaning": "心のこもった、丁重な",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The two companies maintain a cordial business relationship.", "translation": "両社は丁重な取引関係を保っています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_097",
+    "word": "hospitable",
+    "meaning": "もてなしの良い、歓待する",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The staff at the inn were extremely hospitable to guests.", "translation": "その旅館のスタッフは宿泊客に対して非常にもてなしが良かったです。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "hospitality", "meaning": "もてなし、歓待"}
+    ]
+  },
+  {
+    "id": "q_word_900_098",
+    "word": "gracious",
+    "meaning": "上品な、寛大な、丁重な",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The host was gracious enough to welcome late arrivals.", "translation": "その主催者は遅れて到着した人たちも寛大に迎え入れてくれました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_099",
+    "word": "impeccable",
+    "meaning": "完璧な、非の打ちどころのない",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The hotel is known for its impeccable service.", "translation": "そのホテルは完璧なサービスで知られています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_900_100",
+    "word": "flawless",
+    "meaning": "完璧な、欠点のない",
+    "part_of_speech": "adj",
+    "level": "900",
+    "chapter_num": 2,
+    "example_sentences": [
+      {"sentence": "The presentation went off without a hitch, giving a flawless impression.", "translation": "その発表は滞りなく進み、完璧な印象を与えました。"}
+    ],
+    "derivatives": []
+  }
+]

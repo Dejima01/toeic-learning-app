@@ -1,0 +1,640 @@
+[
+  {
+    "id": "q_word_750_201",
+    "word": "logistics",
+    "meaning": "物流、ロジスティクス",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The company outsources its logistics to a third-party provider.", "translation": "その会社は物流業務を外部業者に委託しています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_202",
+    "word": "distribution",
+    "meaning": "流通、配送、分配",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The new distribution center will open next spring.", "translation": "新しい配送センターは来春開業します。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "distribute", "meaning": "配布する、流通させる"}
+    ]
+  },
+  {
+    "id": "q_word_750_203",
+    "word": "freight",
+    "meaning": "貨物、貨物輸送",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The freight will be delivered by truck within three days.", "translation": "その貨物はトラックで3日以内に配送されます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_204",
+    "word": "cargo",
+    "meaning": "積み荷、貨物",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The ship's cargo included electronics and machinery parts.", "translation": "その船の積み荷には電子機器と機械部品が含まれていました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_205",
+    "word": "consignment",
+    "meaning": "委託荷物、委託販売",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The store sells artwork on consignment from local artists.", "translation": "その店は地元の作家から委託された作品を販売しています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_206",
+    "word": "customs",
+    "meaning": "税関",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The shipment was held up at customs for inspection.", "translation": "その荷物は検査のため税関で足止めされました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_207",
+    "word": "tariff",
+    "meaning": "関税",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "New tariffs on imported steel took effect this month.", "translation": "輸入鋼材への新しい関税が今月施行されました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_208",
+    "word": "duty",
+    "meaning": "関税、義務",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "You may have to pay duty on items over a certain value.", "translation": "一定の価値を超える品物には関税がかかる場合があります。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_209",
+    "word": "quarantine",
+    "meaning": "検疫、隔離",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The imported plants were placed under quarantine for two weeks.", "translation": "輸入された植物は2週間検疫を受けました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_210",
+    "word": "embargo",
+    "meaning": "禁輸措置、通商停止",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The trade embargo affected exports to several countries.", "translation": "その通商禁止措置は複数の国への輸出に影響しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_211",
+    "word": "expedite",
+    "meaning": "促進する、迅速に処理する",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "We paid extra to expedite the shipping process.", "translation": "発送手続きを迅速にするため追加料金を支払いました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_212",
+    "word": "dispatch",
+    "meaning": "発送する、派遣する",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The order will be dispatched within 24 hours.", "translation": "ご注文の品は24時間以内に発送されます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_213",
+    "word": "courier",
+    "meaning": "配達業者、宅配便",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The documents were sent by courier this morning.", "translation": "その書類は今朝、宅配便で送られました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_214",
+    "word": "carrier",
+    "meaning": "運送会社、輸送業者",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The company switched to a different shipping carrier last year.", "translation": "その会社は昨年、別の運送会社に切り替えました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "carry", "meaning": "運ぶ"}
+    ]
+  },
+  {
+    "id": "q_word_750_215",
+    "word": "fleet",
+    "meaning": "車両群、船団",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The company operates a fleet of fifty delivery trucks.", "translation": "その会社は50台の配送トラックを保有しています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_216",
+    "word": "depot",
+    "meaning": "倉庫、集積所、車庫",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "Trucks load their cargo at the depot before delivery.", "translation": "トラックは配達前に集積所で積み荷を積み込みます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_217",
+    "word": "terminal",
+    "meaning": "発着所、ターミナル",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The cargo terminal handles shipments from around the world.", "translation": "その貨物ターミナルは世界中からの荷物を取り扱っています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_218",
+    "word": "transit",
+    "meaning": "輸送、通過、乗り継ぎ",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The goods were damaged in transit.", "translation": "その商品は輸送中に破損しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_219",
+    "word": "turnaround",
+    "meaning": "処理時間、方向転換",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The repair shop offers a 24-hour turnaround for most repairs.", "translation": "その修理店はほとんどの修理を24時間で仕上げます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_220",
+    "word": "backlog",
+    "meaning": "未処理の仕事、滞貨",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The team is working overtime to clear the order backlog.", "translation": "チームは未処理の注文を片付けるため残業しています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_221",
+    "word": "bottleneck",
+    "meaning": "ボトルネック、隘路",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The old machine has become a bottleneck in the production line.", "translation": "その古い機械は生産ラインのボトルネックになっています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_222",
+    "word": "capacity",
+    "meaning": "収容能力、生産能力",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The warehouse is operating at full capacity this month.", "translation": "その倉庫は今月、フル稼働しています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_223",
+    "word": "utilization",
+    "meaning": "利用、活用",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "Factory utilization increased after the new schedule was introduced.", "translation": "新しいスケジュールの導入後、工場の稼働率は上昇しました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "utilize", "meaning": "利用する、活用する"}
+    ]
+  },
+  {
+    "id": "q_word_750_224",
+    "word": "throughput",
+    "meaning": "処理能力、生産高",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The new system doubled the factory's throughput.", "translation": "その新システムは工場の処理能力を2倍にしました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_225",
+    "word": "downtime",
+    "meaning": "停止時間、稼働停止",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "Scheduled maintenance caused two hours of downtime.", "translation": "定期メンテナンスにより2時間の稼働停止が生じました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_226",
+    "word": "outage",
+    "meaning": "停止、停電",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "A power outage disrupted operations at the factory for an hour.", "translation": "停電により工場の稼働が1時間中断しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_227",
+    "word": "malfunction",
+    "meaning": "誤作動、故障",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "A sensor malfunction caused the machine to stop unexpectedly.", "translation": "センサーの誤作動によりその機械が予期せず停止しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_228",
+    "word": "calibrate",
+    "meaning": "調整する、較正する",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The equipment must be calibrated regularly for accurate readings.", "translation": "正確な測定値を得るため、その機器は定期的に較正しなければなりません。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "calibration", "meaning": "較正、調整"}
+    ]
+  },
+  {
+    "id": "q_word_750_229",
+    "word": "overhaul",
+    "meaning": "オーバーホール、大修理",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The engine underwent a complete overhaul last month.", "translation": "そのエンジンは先月、完全なオーバーホールを受けました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_230",
+    "word": "refurbish",
+    "meaning": "改装する、修復する",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The hotel plans to refurbish all of its rooms next year.", "translation": "そのホテルは来年、全室を改装する予定です。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "refurbishment", "meaning": "改装、修復"}
+    ]
+  },
+  {
+    "id": "q_word_750_231",
+    "word": "salvage",
+    "meaning": "救助する、再利用する",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The team tried to salvage as much equipment as possible after the flood.", "translation": "チームは洪水の後、できるだけ多くの機器を回収しようとしました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_232",
+    "word": "dispose",
+    "meaning": "処分する、廃棄する",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "Please dispose of the packaging in the recycling bin.", "translation": "梱包材はリサイクル用のごみ箱に処分してください。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "disposal", "meaning": "処分、廃棄"}
+    ]
+  },
+  {
+    "id": "q_word_750_233",
+    "word": "disposal",
+    "meaning": "処分、廃棄",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The factory follows strict rules for waste disposal.", "translation": "その工場は廃棄物処分について厳しい規則に従っています。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "dispose", "meaning": "処分する"}
+    ]
+  },
+  {
+    "id": "q_word_750_234",
+    "word": "sustainability",
+    "meaning": "持続可能性",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The company published a report on its sustainability efforts.", "translation": "その会社は持続可能性への取り組みについての報告書を発表しました。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "sustainable", "meaning": "持続可能な"}
+    ]
+  },
+  {
+    "id": "q_word_750_235",
+    "word": "emission",
+    "meaning": "排出、排出物",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The new engine reduces carbon emissions by 20 percent.", "translation": "その新型エンジンは二酸化炭素排出量を20パーセント削減します。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "emit", "meaning": "排出する"}
+    ]
+  },
+  {
+    "id": "q_word_750_236",
+    "word": "conservation",
+    "meaning": "保全、保護",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The organization focuses on the conservation of endangered species.", "translation": "その団体は絶滅危惧種の保護に力を入れています。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "conserve", "meaning": "保護する、節約する"}
+    ]
+  },
+  {
+    "id": "q_word_750_237",
+    "word": "contamination",
+    "meaning": "汚染",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "Strict procedures prevent contamination of the food products.", "translation": "厳格な手順が食品の汚染を防いでいます。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "contaminate", "meaning": "汚染する"}
+    ]
+  },
+  {
+    "id": "q_word_750_238",
+    "word": "hazard",
+    "meaning": "危険、危険要因",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "Wet floors can be a hazard for warehouse workers.", "translation": "濡れた床は倉庫作業員にとって危険な要因になり得ます。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "hazardous", "meaning": "危険な"}
+    ]
+  },
+  {
+    "id": "q_word_750_239",
+    "word": "precaution",
+    "meaning": "予防措置、用心",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "As a precaution, the plant was temporarily shut down.", "translation": "予防措置として、その工場は一時的に操業を停止しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_240",
+    "word": "safeguard",
+    "meaning": "保護する、保護措置",
+    "part_of_speech": "verb",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The company installed cameras to safeguard the warehouse.", "translation": "その会社は倉庫を保護するためカメラを設置しました。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_241",
+    "word": "inspection",
+    "meaning": "検査、点検",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The vehicle passed its annual safety inspection.", "translation": "その車両は年次の安全点検に合格しました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "inspect", "meaning": "検査する"}
+    ]
+  },
+  {
+    "id": "q_word_750_242",
+    "word": "ventilation",
+    "meaning": "換気、通風",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "Proper ventilation is required in the storage area.", "translation": "その保管区域には適切な換気が必要です。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "ventilate", "meaning": "換気する"}
+    ]
+  },
+  {
+    "id": "q_word_750_243",
+    "word": "insulation",
+    "meaning": "断熱材、絶縁",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "Better insulation can reduce heating costs in winter.", "translation": "断熱性を高めると冬の暖房費を削減できます。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "insulate", "meaning": "断熱する、絶縁する"}
+    ]
+  },
+  {
+    "id": "q_word_750_244",
+    "word": "corrosion",
+    "meaning": "腐食、さび",
+    "part_of_speech": "noun",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The pipes showed signs of corrosion after years of use.", "translation": "その配管は長年の使用で腐食の兆候が見られました。"}
+    ],
+    "derivatives": [
+      {"part": "verb", "word": "corrode", "meaning": "腐食する"}
+    ]
+  },
+  {
+    "id": "q_word_750_245",
+    "word": "durable",
+    "meaning": "耐久性のある、丈夫な",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The new material is more durable than the previous one.", "translation": "その新素材は以前のものより耐久性があります。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "durability", "meaning": "耐久性"}
+    ]
+  },
+  {
+    "id": "q_word_750_246",
+    "word": "sturdy",
+    "meaning": "頑丈な、しっかりした",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "The shelves are made of sturdy steel to hold heavy items.", "translation": "その棚は重い物を支えられるよう頑丈な鋼鉄でできています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_247",
+    "word": "fragile",
+    "meaning": "壊れやすい、もろい",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "Please mark the box as fragile before shipping.", "translation": "発送前に箱に「割れ物注意」と表示してください。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "fragility", "meaning": "壊れやすさ"}
+    ]
+  },
+  {
+    "id": "q_word_750_248",
+    "word": "perishable",
+    "meaning": "腐りやすい、傷みやすい",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "Perishable items should be refrigerated during shipping.", "translation": "傷みやすい商品は輸送中、冷蔵する必要があります。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_249",
+    "word": "flammable",
+    "meaning": "可燃性の、燃えやすい",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "Flammable materials must be stored away from heat sources.", "translation": "可燃性の物質は熱源から離して保管しなければなりません。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_750_250",
+    "word": "toxic",
+    "meaning": "有毒な、毒性の",
+    "part_of_speech": "adj",
+    "level": "750",
+    "chapter_num": 5,
+    "example_sentences": [
+      {"sentence": "Workers must wear gloves when handling toxic chemicals.", "translation": "作業員は有毒な化学物質を扱う際、手袋を着用しなければなりません。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "toxicity", "meaning": "毒性"}
+    ]
+  }
+]

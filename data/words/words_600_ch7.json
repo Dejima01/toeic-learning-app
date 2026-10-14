@@ -1,0 +1,712 @@
+[
+  {
+    "id": "q_word_600_301",
+    "word": "develop",
+    "meaning": "開発する、発展させる",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "The team is developing a new app for online shopping.", "translation": "そのチームはオンラインショッピング用の新しいアプリを開発しています。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "development", "meaning": "開発、発展"},
+      {"part": "noun", "word": "developer", "meaning": "開発者"}
+    ]
+  },
+  {
+    "id": "q_word_600_302",
+    "word": "improve",
+    "meaning": "改善する、向上させる",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "We need to improve customer response times.", "translation": "顧客対応の速度を改善する必要があります。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "improvement", "meaning": "改善、向上"}
+    ]
+  },
+  {
+    "id": "q_word_600_303",
+    "word": "increase",
+    "meaning": "増加する、増やす",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "Sales increased by 15 percent this quarter.", "translation": "今四半期の売上は15パーセント増加しました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "increase", "meaning": "増加"}
+    ]
+  },
+  {
+    "id": "q_word_600_304",
+    "word": "decrease",
+    "meaning": "減少する、減らす",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "The number of complaints has decreased since last year.", "translation": "苦情の件数は昨年より減少しました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "decrease", "meaning": "減少"}
+    ]
+  },
+  {
+    "id": "q_word_600_305",
+    "word": "reduce",
+    "meaning": "減らす、削減する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "The company plans to reduce production costs by 10 percent.", "translation": "その会社は生産コストを10パーセント削減する計画です。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "reduction", "meaning": "削減、減少"}
+    ]
+  },
+  {
+    "id": "q_word_600_306",
+    "word": "expand",
+    "meaning": "拡大する、拡張する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "The firm plans to expand into overseas markets next year.", "translation": "その会社は来年、海外市場へ拡大する計画です。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "expansion", "meaning": "拡大、拡張"}
+    ]
+  },
+  {
+    "id": "q_word_600_307",
+    "word": "extend",
+    "meaning": "延長する、拡張する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "The store decided to extend its business hours during the holidays.", "translation": "その店は休暇期間中、営業時間を延長することにしました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "extension", "meaning": "延長、内線"}
+    ]
+  },
+  {
+    "id": "q_word_600_308",
+    "word": "establish",
+    "meaning": "設立する、確立する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "The company was established in Tokyo in 1985.", "translation": "その会社は1985年に東京で設立されました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "establishment", "meaning": "設立、施設"}
+    ]
+  },
+  {
+    "id": "q_word_600_309",
+    "word": "organize",
+    "meaning": "組織する、企画する、整理する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "She organized the annual charity event this year.", "translation": "彼女は今年、年次チャリティーイベントを企画しました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "organization", "meaning": "組織、団体"},
+      {"part": "noun", "word": "organizer", "meaning": "主催者"}
+    ]
+  },
+  {
+    "id": "q_word_600_310",
+    "word": "arrange",
+    "meaning": "手配する、調整する、並べる",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "I will arrange a meeting with the client next week.", "translation": "来週、クライアントとの打ち合わせを手配します。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "arrangement", "meaning": "手配、調整"}
+    ]
+  },
+  {
+    "id": "q_word_600_311",
+    "word": "manage",
+    "meaning": "経営する、管理する、なんとかやり遂げる",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "She manages a team of ten sales representatives.", "translation": "彼女は10名の営業担当者からなるチームを管理しています。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "management", "meaning": "経営、管理"},
+      {"part": "noun", "word": "manager", "meaning": "マネージャー、管理者"}
+    ]
+  },
+  {
+    "id": "q_word_600_312",
+    "word": "operate",
+    "meaning": "操作する、運営する、稼働する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "The factory operates twenty-four hours a day.", "translation": "その工場は24時間稼働しています。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "operation", "meaning": "運営、操作"},
+      {"part": "adj", "word": "operational", "meaning": "運用上の、稼働可能な"}
+    ]
+  },
+  {
+    "id": "q_word_600_313",
+    "word": "produce",
+    "meaning": "生産する、製造する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "The factory produces over 1,000 units a day.", "translation": "その工場は1日に1,000個以上を生産しています。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "product", "meaning": "製品"},
+      {"part": "noun", "word": "production", "meaning": "生産"}
+    ]
+  },
+  {
+    "id": "q_word_600_314",
+    "word": "manufacture",
+    "meaning": "製造する、生産する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "The company manufactures auto parts for several brands.", "translation": "その会社は複数のブランド向けに自動車部品を製造しています。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "manufacturer", "meaning": "製造業者、メーカー"},
+      {"part": "noun", "word": "manufacturing", "meaning": "製造業"}
+    ]
+  },
+  {
+    "id": "q_word_600_315",
+    "word": "design",
+    "meaning": "設計する、デザインする",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "The building was designed by a famous architect.", "translation": "その建物は著名な建築家によって設計されました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "designer", "meaning": "デザイナー、設計者"}
+    ]
+  },
+  {
+    "id": "q_word_600_316",
+    "word": "create",
+    "meaning": "創造する、作り出す",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "The new factory will create hundreds of jobs.", "translation": "新しい工場は何百もの雇用を生み出すでしょう。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "creation", "meaning": "創造、創作"},
+      {"part": "adj", "word": "creative", "meaning": "創造的な"}
+    ]
+  },
+  {
+    "id": "q_word_600_317",
+    "word": "launch",
+    "meaning": "発売する、開始する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "The company will launch a new smartphone next month.", "translation": "その会社は来月、新しいスマートフォンを発売します。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "launch", "meaning": "発売、開始"}
+    ]
+  },
+  {
+    "id": "q_word_600_318",
+    "word": "introduce",
+    "meaning": "導入する、紹介する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "The store introduced a new loyalty program last month.", "translation": "その店は先月、新しいポイントプログラムを導入しました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "introduction", "meaning": "導入、紹介"}
+    ]
+  },
+  {
+    "id": "q_word_600_319",
+    "word": "release",
+    "meaning": "発売する、公開する、解放する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "The film will be released nationwide in July.", "translation": "その映画は7月に全国で公開されます。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "release", "meaning": "発売、公開"}
+    ]
+  },
+  {
+    "id": "q_word_600_320",
+    "word": "publish",
+    "meaning": "出版する、発行する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "The report will be published on the company's website.", "translation": "その報告書は会社のウェブサイトで公開されます。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "publication", "meaning": "出版、出版物"},
+      {"part": "noun", "word": "publisher", "meaning": "出版社"}
+    ]
+  },
+  {
+    "id": "q_word_600_321",
+    "word": "print",
+    "meaning": "印刷する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "Please print two copies of the contract.", "translation": "契約書を2部印刷してください。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "printer", "meaning": "プリンター"},
+      {"part": "noun", "word": "printout", "meaning": "印刷物"}
+    ]
+  },
+  {
+    "id": "q_word_600_322",
+    "word": "edit",
+    "meaning": "編集する、校正する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "She edited the article before it went to print.", "translation": "彼女は印刷に回す前にその記事を編集しました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "editor", "meaning": "編集者"},
+      {"part": "noun", "word": "edition", "meaning": "版、刊"}
+    ]
+  },
+  {
+    "id": "q_word_600_323",
+    "word": "revise",
+    "meaning": "修正する、改訂する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "Please revise the schedule and send it back by noon.", "translation": "予定表を修正して正午までに送り返してください。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "revision", "meaning": "修正、改訂"}
+    ]
+  },
+  {
+    "id": "q_word_600_324",
+    "word": "review",
+    "meaning": "見直す、検討する、レビュー",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "The manager reviewed the proposal before the meeting.", "translation": "部長は会議の前にその提案書を検討しました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "review", "meaning": "見直し、評価"},
+      {"part": "noun", "word": "reviewer", "meaning": "評者、審査員"}
+    ]
+  },
+  {
+    "id": "q_word_600_325",
+    "word": "examine",
+    "meaning": "調べる、検査する、診察する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "The doctor examined the patient carefully.", "translation": "医師は患者を注意深く診察しました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "examination", "meaning": "検査、試験"}
+    ]
+  },
+  {
+    "id": "q_word_600_326",
+    "word": "inspect",
+    "meaning": "検査する、点検する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "All vehicles are inspected before leaving the factory.", "translation": "すべての車両は工場を出る前に検査されます。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "inspection", "meaning": "検査、点検"},
+      {"part": "noun", "word": "inspector", "meaning": "検査官"}
+    ]
+  },
+  {
+    "id": "q_word_600_327",
+    "word": "investigate",
+    "meaning": "調査する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "The team is investigating the cause of the system failure.", "translation": "チームはシステム障害の原因を調査しています。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "investigation", "meaning": "調査"}
+    ]
+  },
+  {
+    "id": "q_word_600_328",
+    "word": "analyze",
+    "meaning": "分析する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "We need to analyze the survey results before the meeting.", "translation": "会議の前に調査結果を分析する必要があります。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "analysis", "meaning": "分析"},
+      {"part": "noun", "word": "analyst", "meaning": "アナリスト、分析者"}
+    ]
+  },
+  {
+    "id": "q_word_600_329",
+    "word": "compare",
+    "meaning": "比較する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "Please compare the prices of these two suppliers.", "translation": "この2社の仕入先の価格を比較してください。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "comparison", "meaning": "比較"}
+    ]
+  },
+  {
+    "id": "q_word_600_330",
+    "word": "measure",
+    "meaning": "測定する、測る",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "The technician measured the room before installing the equipment.", "translation": "技術者は機器を設置する前に部屋の寸法を測りました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "measurement", "meaning": "測定、寸法"}
+    ]
+  },
+  {
+    "id": "q_word_600_331",
+    "word": "calculate",
+    "meaning": "計算する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "The accountant calculated the total cost of the project.", "translation": "経理担当者はプロジェクトの総費用を計算しました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "calculation", "meaning": "計算"},
+      {"part": "noun", "word": "calculator", "meaning": "計算機"}
+    ]
+  },
+  {
+    "id": "q_word_600_332",
+    "word": "record",
+    "meaning": "記録する、記録",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "Please record the time you arrive and leave each day.", "translation": "毎日の出退勤時刻を記録してください。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_333",
+    "word": "track",
+    "meaning": "追跡する、記録する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "You can track your package online.", "translation": "荷物はオンラインで追跡できます。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_334",
+    "word": "monitor",
+    "meaning": "監視する、観察する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "The staff monitors the machines throughout the night shift.", "translation": "スタッフは夜勤の間ずっと機械を監視しています。"}
+    ],
+    "derivatives": []
+  },
+  {
+    "id": "q_word_600_335",
+    "word": "observe",
+    "meaning": "観察する、気づく、遵守する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "Researchers observed how customers use the app.", "translation": "研究者たちは顧客がそのアプリをどう使うか観察しました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "observation", "meaning": "観察"}
+    ]
+  },
+  {
+    "id": "q_word_600_336",
+    "word": "recognize",
+    "meaning": "認識する、認める、表彰する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "The company recognized her outstanding performance with an award.", "translation": "会社は彼女の優れた業績を表彰しました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "recognition", "meaning": "認識、表彰"}
+    ]
+  },
+  {
+    "id": "q_word_600_337",
+    "word": "identify",
+    "meaning": "特定する、識別する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "The survey helped identify areas for improvement.", "translation": "その調査は改善すべき点を特定するのに役立ちました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "identification", "meaning": "身分証明、識別"}
+    ]
+  },
+  {
+    "id": "q_word_600_338",
+    "word": "determine",
+    "meaning": "決定する、判断する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "The committee will determine the winner next week.", "translation": "委員会は来週、受賞者を決定します。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "determination", "meaning": "決定、決意"}
+    ]
+  },
+  {
+    "id": "q_word_600_339",
+    "word": "decide",
+    "meaning": "決める、決定する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "We haven't decided on a venue for the party yet.", "translation": "パーティーの会場はまだ決めていません。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "decision", "meaning": "決定"}
+    ]
+  },
+  {
+    "id": "q_word_600_340",
+    "word": "select",
+    "meaning": "選ぶ、選択する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "Please select your preferred delivery date from the list.", "translation": "リストから希望の配送日をお選びください。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "selection", "meaning": "選択、品ぞろえ"}
+    ]
+  },
+  {
+    "id": "q_word_600_341",
+    "word": "choose",
+    "meaning": "選ぶ",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "Customers can choose between paper and plastic bags.", "translation": "お客様は紙袋とビニール袋のどちらかをお選びいただけます。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "choice", "meaning": "選択"}
+    ]
+  },
+  {
+    "id": "q_word_600_342",
+    "word": "recommend",
+    "meaning": "推薦する、勧める",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "The waiter recommended the seafood pasta.", "translation": "ウェイターがシーフードパスタを勧めてくれました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "recommendation", "meaning": "推薦、勧め"}
+    ]
+  },
+  {
+    "id": "q_word_600_343",
+    "word": "suggest",
+    "meaning": "提案する、示唆する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "She suggested meeting earlier to avoid the traffic.", "translation": "彼女は渋滞を避けるためもっと早く集合することを提案しました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "suggestion", "meaning": "提案"}
+    ]
+  },
+  {
+    "id": "q_word_600_344",
+    "word": "propose",
+    "meaning": "提案する、申し出る",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "The manager proposed a new schedule for the project.", "translation": "部長はそのプロジェクトの新しい日程を提案しました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "proposal", "meaning": "提案、提案書"}
+    ]
+  },
+  {
+    "id": "q_word_600_345",
+    "word": "advise",
+    "meaning": "助言する、忠告する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "The lawyer advised us to review the contract carefully.", "translation": "弁護士は契約書をよく確認するよう私たちに助言しました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "advice", "meaning": "助言"},
+      {"part": "noun", "word": "advisor", "meaning": "顧問、相談役"}
+    ]
+  },
+  {
+    "id": "q_word_600_346",
+    "word": "encourage",
+    "meaning": "励ます、促す、奨励する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "Employees are encouraged to take part in the training program.", "translation": "社員は研修プログラムへの参加を奨励されています。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "encouragement", "meaning": "励まし、奨励"}
+    ]
+  },
+  {
+    "id": "q_word_600_347",
+    "word": "persuade",
+    "meaning": "説得する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "He persuaded the client to sign the contract.", "translation": "彼は顧客を説得して契約に署名させました。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "persuasion", "meaning": "説得"}
+    ]
+  },
+  {
+    "id": "q_word_600_348",
+    "word": "convince",
+    "meaning": "納得させる、確信させる",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "The data convinced the board to approve the budget.", "translation": "そのデータが取締役会に予算承認を確信させました。"}
+    ],
+    "derivatives": [
+      {"part": "adj", "word": "convinced", "meaning": "確信している"},
+      {"part": "adj", "word": "convincing", "meaning": "説得力のある"}
+    ]
+  },
+  {
+    "id": "q_word_600_349",
+    "word": "inform",
+    "meaning": "知らせる、通知する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "Please inform us of any changes to your schedule.", "translation": "予定に変更があれば私どもにお知らせください。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "information", "meaning": "情報"}
+    ]
+  },
+  {
+    "id": "q_word_600_350",
+    "word": "notify",
+    "meaning": "通知する",
+    "part_of_speech": "verb",
+    "level": "600",
+    "chapter_num": 7,
+    "example_sentences": [
+      {"sentence": "Customers will be notified by e-mail when the item ships.", "translation": "商品が発送されると、お客様にはメールで通知されます。"}
+    ],
+    "derivatives": [
+      {"part": "noun", "word": "notification", "meaning": "通知"}
+    ]
+  }
+]

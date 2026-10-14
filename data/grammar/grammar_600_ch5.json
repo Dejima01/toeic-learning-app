@@ -1,0 +1,172 @@
+[
+  {
+    "id": "q_grammar_600_041",
+    "question_text": "Mr. Davis has just ______ the monthly report.",
+    "choices": [
+      "finishing",
+      "finish",
+      "finished",
+      "finishes"
+    ],
+    "correct_index": 2,
+    "category": "present_perfect_completion",
+    "category_ja": "現在完了(完了)",
+    "level": "600",
+    "chapter_num": 5,
+    "explanation": "「has just ___」の形と、「たった今〜し終えた」という完了の意味から、現在完了〈have/has + 過去分詞〉が入ります。has の後ろには過去分詞が必要なので finished が正解です。just(ちょうど今)は現在完了の完了用法とよく一緒に使われる副詞です。",
+    "translation": "デイビスさんは月次報告書をちょうど今、仕上げたところです。"
+  },
+  {
+    "id": "q_grammar_600_042",
+    "question_text": "Please submit the application form ______ Friday.",
+    "choices": [
+      "at",
+      "in",
+      "by",
+      "until"
+    ],
+    "correct_index": 2,
+    "category": "prepositions_by_deadline",
+    "category_ja": "前置詞(期限のby)",
+    "level": "600",
+    "chapter_num": 5,
+    "explanation": "「金曜日までに提出する」という締め切り・期限を表すので、前置詞 by が正解です。by は「〜までに(その時点までに動作を完了する)」を表します。紛らわしい until は「〜までずっと(継続)」を表すため、提出のような1回で終わる動作には合いません。",
+    "translation": "金曜日までに申込書をご提出ください。"
+  },
+  {
+    "id": "q_grammar_600_043",
+    "question_text": "Please call me ______ you arrive at the airport.",
+    "choices": [
+      "when",
+      "on",
+      "during",
+      "at"
+    ],
+    "correct_index": 0,
+    "category": "conjunction_when",
+    "category_ja": "接続詞(when)",
+    "level": "600",
+    "chapter_num": 5,
+    "explanation": "空欄の後ろに〈主語 + 動詞〉(you arrive)が続き、「空港に着いたときに」と時を表しているので、接続詞 when が正解です。when は後ろに文を続けて「〜するとき」を表します。during は前置詞で、後ろに名詞しか置けないため、文を続けることはできません。",
+    "translation": "空港に着いたら電話してください。"
+  },
+  {
+    "id": "q_grammar_600_044",
+    "question_text": "Employees ______ to wear safety helmets in this area.",
+    "choices": [
+      "have",
+      "should",
+      "can",
+      "must"
+    ],
+    "correct_index": 0,
+    "category": "modal_have_to",
+    "category_ja": "助動詞相当(have to)",
+    "level": "600",
+    "chapter_num": 5,
+    "explanation": "空欄の直後に to があることに注目します。have to 〈have + to + 動詞の原形〉で「〜しなければならない」という義務を表すので、have が正解です。should や must は助動詞で、直後に to を伴わず動詞の原形が続くため、後ろの to と合いません。",
+    "translation": "従業員はこのエリアでは安全ヘルメットを着用しなければなりません。"
+  },
+  {
+    "id": "q_grammar_600_045",
+    "question_text": "Thank you for your generous ______ to our charity event.",
+    "choices": [
+      "donating",
+      "donate",
+      "donated",
+      "donation"
+    ],
+    "correct_index": 3,
+    "category": "pos_noun_suffix_tion",
+    "category_ja": "品詞(名詞の接尾辞-tion)",
+    "level": "600",
+    "chapter_num": 5,
+    "explanation": "空欄の前に「your generous(あなたの寛大な)」という所有格+形容詞があるので、これらに修飾される名詞が入ります。よって名詞の donation(寄付)が正解です。donate は動詞で、-tion を付けると名詞になります。動詞の donate や過去形の donated は名詞の位置には置けません。",
+    "translation": "私たちのチャリティーイベントへの寛大なご寄付、ありがとうございます。"
+  },
+  {
+    "id": "q_grammar_600_046",
+    "question_text": "We decided ______ the meeting until next week.",
+    "choices": [
+      "to postpone",
+      "postpone",
+      "postponing",
+      "postponed"
+    ],
+    "correct_index": 0,
+    "category": "infinitive_after_decide",
+    "category_ja": "不定詞(decide to do)",
+    "level": "600",
+    "chapter_num": 5,
+    "explanation": "動詞 decide は、後ろに「to + 動詞の原形」の不定詞をとって「〜することに決める」を表すので、to postpone が正解です。decide to do は頻出の形です。decide は動名詞(postponing)を目的語にとらない点に注意しましょう。",
+    "translation": "私たちはその会議を来週まで延期することに決めました。"
+  },
+  {
+    "id": "q_grammar_600_047",
+    "question_text": "Mr. Park ______ business trips in December.",
+    "choices": [
+      "take often",
+      "often taking",
+      "takes often",
+      "often takes"
+    ],
+    "correct_index": 3,
+    "category": "word_order_frequency_adverb",
+    "category_ja": "語順(頻度副詞の位置)",
+    "level": "600",
+    "chapter_num": 5,
+    "explanation": "often のような頻度を表す副詞は、一般動詞の前に置くのが基本です。主語 Mr. Park は三人称単数なので動詞は takes となり、その前に often を置いた often takes が正解です。takes often のように動詞の後ろに置くのは不自然です。",
+    "translation": "パークさんは12月によく出張します。"
+  },
+  {
+    "id": "q_grammar_600_048",
+    "question_text": "The new policy ______ announced at yesterday's meeting.",
+    "choices": [
+      "did",
+      "was",
+      "is",
+      "has"
+    ],
+    "correct_index": 1,
+    "category": "passive_past_simple",
+    "category_ja": "受動態(過去形)",
+    "level": "600",
+    "chapter_num": 5,
+    "explanation": "主語 The new policy(新方針)は「発表される」側で、「yesterday(昨日)」という過去の表現があるので、過去の受動態〈was + 過去分詞〉が入ります。よって was announced となる was が正解です。「昨日の会議で発表された」という意味になります。",
+    "translation": "その新しい方針は、昨日の会議で発表されました。"
+  },
+  {
+    "id": "q_grammar_600_049",
+    "question_text": "We stayed at a hotel ______ has a beautiful ocean view.",
+    "choices": [
+      "who",
+      "whose",
+      "which",
+      "whom"
+    ],
+    "correct_index": 2,
+    "category": "relative_pronoun_which",
+    "category_ja": "関係代名詞(which)",
+    "level": "600",
+    "chapter_num": 5,
+    "explanation": "空欄は前の a hotel(物)を説明する関係代名詞で、後ろに動詞 has が続く主語の働きをします。先行詞が「物」で主格なので、which が正解です。who や whom は「人」に使う関係代名詞なので、hotel には使えません。",
+    "translation": "私たちは、美しい海の景色が見えるホテルに泊まりました。"
+  },
+  {
+    "id": "q_grammar_600_050",
+    "question_text": "The new model is ______ as the old one.",
+    "choices": [
+      "as light",
+      "lighter",
+      "more light",
+      "lightest"
+    ],
+    "correct_index": 0,
+    "category": "comparison_as_as",
+    "category_ja": "比較(as ~ as)",
+    "level": "600",
+    "chapter_num": 5,
+    "explanation": "空欄の後ろに as があり、〈as + 形容詞の原級 + as〉で「〜と同じくらい…」を表す構文です。as と as の間には原級(変化しない形)が入るので、as light が正解です。lighter は比較級なので、この as ... as の形には入りません。",
+    "translation": "その新しいモデルは、古いモデルと同じくらい軽いです。"
+  }
+]
