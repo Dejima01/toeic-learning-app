@@ -18,3 +18,4 @@ english-learnig-app/
 .firebase/
 firebase-debug.log
 firebase-debug.*.log
+data/badges_backup/
