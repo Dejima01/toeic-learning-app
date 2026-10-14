@@ -32,7 +32,7 @@ export function GrammarReviewModal({
     >
       <div
         className={`w-full max-w-sm overflow-y-auto rounded-xl shadow-xl ${
-          isBookmarked ? 'bg-yellow-100 dark:bg-amber-950' : 'bg-white dark:bg-gray-800'
+          isBookmarked ? 'bg-yellow-100 dark:bg-indigo-900' : 'bg-white dark:bg-gray-800'
         }`}
         style={{ maxHeight: '80vh' }}
         onClick={(e) => e.stopPropagation()}

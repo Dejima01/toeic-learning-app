@@ -26,7 +26,7 @@ export function GrammarCard({
     <article
       className={`px-4 py-5 border-b border-gray-100 dark:border-gray-700 ${
         isBookmarked
-          ? 'bg-yellow-50 dark:bg-amber-900/55'
+          ? 'bg-yellow-50 dark:bg-indigo-900'
           : 'bg-white dark:bg-gray-900'
       }`}
     >
