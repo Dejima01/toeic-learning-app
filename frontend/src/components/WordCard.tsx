@@ -3,6 +3,10 @@ import { translatePos, translateDerivPart } from '../types/word';
 
 interface WordCardProps {
   word: WordQuestion;
+  /** 章内での通し番号（1 始まり） */
+  number: number;
+  /** 「前回の続き」で着地した対象か（枠線＋初回パルス） */
+  isHighlighted?: boolean;
   /** Step3: 和訳・派生語エリアを表示しているか */
   isRevealed: boolean;
   /** Step4: 復習マーク済みか */
@@ -36,6 +40,8 @@ function HighlightedSentence({ sentence, word }: { sentence: string; word: strin
 
 export function WordCard({
   word,
+  number,
+  isHighlighted = false,
   isRevealed,
   isBookmarked,
   generatedExample,
@@ -49,13 +55,18 @@ export function WordCard({
 
   return (
     <article
-      className={`px-4 py-5 border-b border-gray-100 dark:border-gray-700 ${
+      id={`word-${word.id}`}
+      className={`relative px-4 py-5 border-b border-gray-100 dark:border-gray-700 ${
         isBookmarked
           ? 'bg-yellow-100 dark:bg-indigo-900'
           : 'bg-white dark:bg-gray-900'
+      } ${
+        isHighlighted
+          ? 'resume-focus-pulse ring-2 ring-inset ring-sky-400 dark:ring-sky-300'
+          : ''
       }`}
     >
-      {/* ── ヘッダー行: リロード | 英単語 | 復習フラグ ── */}
+      {/* ── ヘッダー行: リロード | 番号 | 英単語 | 復習フラグ ── */}
       <div className="flex items-center gap-2 mb-3">
         {/* Step5: 例文リロードボタン */}
         <button
@@ -98,8 +109,16 @@ export function WordCard({
           )}
         </button>
 
+        {/* 章内の通し番号 */}
+        <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-black/5 text-sm font-bold tabular-nums text-gray-600 dark:bg-white/15 dark:text-gray-200">
+          {number}
+        </span>
+
         {/* 英単語 */}
         <h2 className="flex-1 text-center text-2xl font-bold tracking-wide dark:text-gray-100">{word.word}</h2>
+
+        {/* 左の番号と幅を揃え、英単語を中央に保つためのスペーサー */}
+        <div className="w-7 shrink-0" />
 
         {/* Step4: 復習フラグボタン */}
         <button

@@ -5,6 +5,8 @@ import { doc, onSnapshot } from 'firebase/firestore';
 import { auth, db } from '../firebase';
 import { MainLayout } from '../components/MainLayout';
 import { useAuth } from '../contexts/AuthContext';
+import { parseResumePosition, resumePath } from '../lib/resumePosition';
+import type { ResumePosition } from '../lib/resumePosition';
 
 type Badge = 'bronze' | 'silver' | 'gold' | null;
 
@@ -18,13 +20,16 @@ export default function HomePage() {
   const { user } = useAuth();
   const navigate = useNavigate();
   const [badge, setBadge] = useState<Badge>(null);
+  const [resume, setResume] = useState<ResumePosition | null>(null);
 
-  // Firestoreからバッジ情報をリアルタイム取得
+  // Firestoreからバッジ・前回の続き位置をリアルタイム取得（同じドキュメントなので購読は1本）
   useEffect(() => {
     if (!user) return;
     const ref = doc(db, 'users', user.uid);
     return onSnapshot(ref, (snap) => {
-      setBadge((snap.data()?.badge as Badge) ?? null);
+      const data = snap.data();
+      setBadge((data?.badge as Badge) ?? null);
+      setResume(parseResumePosition(data?.last_word_position));
     });
   }, [user]);
 
@@ -69,6 +74,16 @@ export default function HomePage() {
 
         {/* ── 中央: モードボタン ── */}
         <div className="flex flex-1 flex-col items-stretch justify-center gap-4">
+          {/* 前回カバーを開いた単語から再開する（記録がなければ出さない） */}
+          {resume && (
+            <Link
+              to={resumePath(resume)}
+              className="block rounded border-2 border-sky-400 dark:border-sky-500 py-3 text-center text-base font-bold text-sky-700 dark:text-sky-300 hover:bg-sky-50 dark:hover:bg-sky-900/40 transition-colors"
+            >
+              単語：前回の続き
+            </Link>
+          )}
+
           <Link
             to="/word"
             className="block rounded bg-sky-200 dark:bg-sky-800 py-4 text-center text-xl font-bold text-gray-800 dark:text-gray-100 hover:bg-sky-300 dark:hover:bg-sky-700 transition-colors"
