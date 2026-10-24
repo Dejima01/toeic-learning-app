@@ -24,7 +24,7 @@ type Phase = 'loading' | 'session' | 'roundEnd' | 'finished';
 export default function ReviewSessionPage() {
   const { user } = useAuth();
   const [searchParams] = useSearchParams();
-  /** 練習モード：今日やった分の流し直し。採点しても記録は動かさない */
+  /** おさらいモード：今日やった分の流し直し。SRS の箱・期限は動かさない */
   const isPractice = searchParams.get('mode') === 'practice';
 
   const [phase, setPhase] = useState<Phase>('loading');
@@ -200,7 +200,7 @@ export default function ReviewSessionPage() {
           ) : (
             <>
               <p className="text-center text-lg font-bold text-gray-700 dark:text-gray-200">
-                {isPractice ? '練習が終わりました' : '今日の復習が終わりました'}
+                {isPractice ? 'おさらいが終わりました' : '今日の復習が終わりました'}
               </p>
               <p className="text-center text-2xl font-bold dark:text-gray-100">
                 {initialCount}問中 {knownCount}問
@@ -248,7 +248,7 @@ export default function ReviewSessionPage() {
         <div className="flex-1 overflow-y-auto px-5 py-6">
           {isPractice && (
             <p className="mb-4 rounded bg-emerald-50 dark:bg-emerald-900/30 py-2 text-center text-sm font-bold text-emerald-700 dark:text-emerald-300">
-              練習モード・記録には影響しません
+              今日やった単語のおさらい
             </p>
           )}
 
