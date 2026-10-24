@@ -8,6 +8,6 @@ export interface GrammarQuestion {
   correct_index: number;
   explanation: string;
   translation: string;
-  level: number;
+  level: string;
   chapter_num: number;
 }
