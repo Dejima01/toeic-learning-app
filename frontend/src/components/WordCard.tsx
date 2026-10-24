@@ -161,7 +161,7 @@ export function WordCard({
 
       {/* 英語例文（対象単語を太字） */}
       {currentExample && (
-        <p className="text-center text-sm leading-relaxed mb-4 dark:text-gray-200">
+        <p className="text-center text-base leading-relaxed mb-4 dark:text-gray-200">
           <HighlightedSentence sentence={currentExample.sentence} word={word.word} />
         </p>
       )}
@@ -187,14 +187,14 @@ export function WordCard({
 
           {/* 例文の和訳 */}
           {currentExample && (
-            <p className="mb-3 text-center text-sm leading-relaxed text-gray-700 dark:text-gray-300">
+            <p className="mb-3 text-center text-base leading-relaxed text-gray-700 dark:text-gray-300">
               {currentExample.translation}
             </p>
           )}
 
           {/* 派生語 */}
           {word.derivatives.length > 0 && (
-            <div className="space-y-0.5 pl-2 text-sm text-gray-600 dark:text-gray-400">
+            <div className="space-y-0.5 pl-2 text-base text-gray-600 dark:text-gray-400">
               {word.derivatives.map((d, i) => (
                 <p key={i}>
                   <span className="text-gray-500 dark:text-gray-500">{translateDerivPart(d.part)}：</span>

@@ -446,7 +446,7 @@ export default function ReviewListPage() {
 
             {/* 英語例文 */}
             {currentExample && (
-              <p className="px-4 pb-3 text-center text-sm leading-relaxed dark:text-gray-200">
+              <p className="px-4 pb-3 text-center text-base leading-relaxed dark:text-gray-200">
                 <HighlightedSentence
                   sentence={currentExample.sentence}
                   word={selectedWord.word}
@@ -464,14 +464,14 @@ export default function ReviewListPage() {
 
               {/* 例文の和訳 */}
               {currentExample && (
-                <p className="mb-3 text-center text-sm leading-relaxed text-gray-700 dark:text-gray-300">
+                <p className="mb-3 text-center text-base leading-relaxed text-gray-700 dark:text-gray-300">
                   {currentExample.translation}
                 </p>
               )}
 
               {/* 派生語 */}
               {selectedWord.derivatives.length > 0 && (
-                <div className="space-y-0.5 pl-2 text-sm text-gray-600 dark:text-gray-400">
+                <div className="space-y-0.5 pl-2 text-base text-gray-600 dark:text-gray-400">
                   {selectedWord.derivatives.map((d, i) => (
                     <p key={i}>
                       <span className="text-gray-500 dark:text-gray-500">{translateDerivPart(d.part)}：</span>
