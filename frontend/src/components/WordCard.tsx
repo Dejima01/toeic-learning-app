@@ -3,6 +3,10 @@ import { translatePos, translateDerivPart } from '../types/word';
 
 interface WordCardProps {
   word: WordQuestion;
+  /** 章内での通し番号（1 始まり） */
+  number: number;
+  /** 「前回の続き」で着地した対象か（枠線＋初回パルス） */
+  isHighlighted?: boolean;
   /** Step3: 和訳・派生語エリアを表示しているか */
   isRevealed: boolean;
   /** Step4: 復習マーク済みか */
@@ -36,6 +40,8 @@ function HighlightedSentence({ sentence, word }: { sentence: string; word: strin
 
 export function WordCard({
   word,
+  number,
+  isHighlighted = false,
   isRevealed,
   isBookmarked,
   generatedExample,
@@ -49,13 +55,18 @@ export function WordCard({
 
   return (
     <article
-      className={`px-4 py-5 border-b border-gray-100 dark:border-gray-700 ${
+      id={`word-${word.id}`}
+      className={`relative px-4 py-5 border-b border-gray-100 dark:border-gray-700 ${
         isBookmarked
           ? 'bg-yellow-100 dark:bg-indigo-900'
           : 'bg-white dark:bg-gray-900'
+      } ${
+        isHighlighted
+          ? 'resume-focus-pulse ring-2 ring-inset ring-sky-400 dark:ring-sky-300'
+          : ''
       }`}
     >
-      {/* ── ヘッダー行: リロード | 英単語 | 復習フラグ ── */}
+      {/* ── ヘッダー行: リロード | 番号 | 英単語 | 復習フラグ ── */}
       <div className="flex items-center gap-2 mb-3">
         {/* Step5: 例文リロードボタン */}
         <button
@@ -98,8 +109,16 @@ export function WordCard({
           )}
         </button>
 
+        {/* 章内の通し番号 */}
+        <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-black/5 text-sm font-bold tabular-nums text-gray-600 dark:bg-white/15 dark:text-gray-200">
+          {number}
+        </span>
+
         {/* 英単語 */}
         <h2 className="flex-1 text-center text-2xl font-bold tracking-wide dark:text-gray-100">{word.word}</h2>
+
+        {/* 左の番号と幅を揃え、英単語を中央に保つためのスペーサー */}
+        <div className="w-7 shrink-0" />
 
         {/* Step4: 復習フラグボタン */}
         <button
@@ -142,7 +161,7 @@ export function WordCard({
 
       {/* 英語例文（対象単語を太字） */}
       {currentExample && (
-        <p className="text-center text-sm leading-relaxed mb-4 dark:text-gray-200">
+        <p className="text-center text-base leading-relaxed mb-4 dark:text-gray-200">
           <HighlightedSentence sentence={currentExample.sentence} word={word.word} />
         </p>
       )}
@@ -168,14 +187,14 @@ export function WordCard({
 
           {/* 例文の和訳 */}
           {currentExample && (
-            <p className="mb-3 text-center text-sm leading-relaxed text-gray-700 dark:text-gray-300">
+            <p className="mb-3 text-center text-base leading-relaxed text-gray-700 dark:text-gray-300">
               {currentExample.translation}
             </p>
           )}
 
           {/* 派生語 */}
           {word.derivatives.length > 0 && (
-            <div className="space-y-0.5 pl-2 text-sm text-gray-600 dark:text-gray-400">
+            <div className="space-y-0.5 pl-2 text-base text-gray-600 dark:text-gray-400">
               {word.derivatives.map((d, i) => (
                 <p key={i}>
                   <span className="text-gray-500 dark:text-gray-500">{translateDerivPart(d.part)}：</span>

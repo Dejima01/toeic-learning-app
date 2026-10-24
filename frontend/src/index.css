@@ -23,3 +23,25 @@ body {
   padding-top: env(safe-area-inset-top);
   padding-bottom: env(safe-area-inset-bottom);
 }
+
+/* 「前回の続き」で着地した単語カード。
+   最初に2回だけパルスして視線を引き、以降は静的な枠線（ring）だけが残る。 */
+@keyframes resume-focus-pulse {
+  0%,
+  100% {
+    box-shadow: inset 0 0 0 0 rgba(56, 189, 248, 0);
+  }
+  50% {
+    box-shadow: inset 0 0 0 6px rgba(56, 189, 248, 0.45);
+  }
+}
+
+.resume-focus-pulse {
+  animation: resume-focus-pulse 0.9s ease-in-out 2;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .resume-focus-pulse {
+    animation: none;
+  }
+}
