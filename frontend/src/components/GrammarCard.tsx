@@ -7,6 +7,8 @@ interface GrammarCardProps {
   /** 選択された選択肢インデックス。未解答は undefined */
   selectedChoice: number | undefined;
   isBookmarked: boolean;
+  /** 「前回の続き」で着地した対象か（枠線＋初回パルス） */
+  isHighlighted?: boolean;
   onSelectChoice: (choiceIndex: number) => void;
   onToggleBookmark: () => void;
 }
@@ -16,6 +18,7 @@ export function GrammarCard({
   questionNumber,
   selectedChoice,
   isBookmarked,
+  isHighlighted = false,
   onSelectChoice,
   onToggleBookmark,
 }: GrammarCardProps) {
@@ -24,10 +27,15 @@ export function GrammarCard({
 
   return (
     <article
-      className={`px-4 py-5 border-b border-gray-100 dark:border-gray-700 ${
+      id={`grammar-${question.id}`}
+      className={`relative px-4 py-5 border-b border-gray-100 dark:border-gray-700 ${
         isBookmarked
           ? 'bg-yellow-50 dark:bg-indigo-900'
           : 'bg-white dark:bg-gray-900'
+      } ${
+        isHighlighted
+          ? 'resume-focus-pulse ring-2 ring-inset ring-sky-400 dark:ring-sky-300'
+          : ''
       }`}
     >
       {/* 問題番号 + 復習フラグ */}

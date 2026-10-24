@@ -20,7 +20,8 @@ export default function HomePage() {
   const { user } = useAuth();
   const navigate = useNavigate();
   const [badge, setBadge] = useState<Badge>(null);
-  const [resume, setResume] = useState<ResumePosition | null>(null);
+  const [wordResume, setWordResume] = useState<ResumePosition | null>(null);
+  const [grammarResume, setGrammarResume] = useState<ResumePosition | null>(null);
 
   // Firestoreからバッジ・前回の続き位置をリアルタイム取得（同じドキュメントなので購読は1本）
   useEffect(() => {
@@ -29,7 +30,8 @@ export default function HomePage() {
     return onSnapshot(ref, (snap) => {
       const data = snap.data();
       setBadge((data?.badge as Badge) ?? null);
-      setResume(parseResumePosition(data?.last_word_position));
+      setWordResume(parseResumePosition(data?.last_word_position));
+      setGrammarResume(parseResumePosition(data?.last_grammar_position));
     });
   }, [user]);
 
@@ -74,14 +76,26 @@ export default function HomePage() {
 
         {/* ── 中央: モードボタン ── */}
         <div className="flex flex-1 flex-col items-stretch justify-center gap-4">
-          {/* 前回カバーを開いた単語から再開する（記録がなければ出さない） */}
-          {resume && (
-            <Link
-              to={resumePath(resume)}
-              className="block rounded border-2 border-sky-400 dark:border-sky-500 py-3 text-center text-base font-bold text-sky-700 dark:text-sky-300 hover:bg-sky-50 dark:hover:bg-sky-900/40 transition-colors"
-            >
-              単語：前回の続き
-            </Link>
+          {/* 前回の続き（記録があるものだけ出す。2つ並んでも縦1行に収める） */}
+          {(wordResume || grammarResume) && (
+            <div className="flex gap-3">
+              {wordResume && (
+                <Link
+                  to={resumePath(wordResume, 'word')}
+                  className="flex-1 rounded border-2 border-sky-400 dark:border-sky-500 py-3 text-center text-sm font-bold text-sky-700 dark:text-sky-300 hover:bg-sky-50 dark:hover:bg-sky-900/40 transition-colors"
+                >
+                  単語：前回の続き
+                </Link>
+              )}
+              {grammarResume && (
+                <Link
+                  to={resumePath(grammarResume, 'grammar')}
+                  className="flex-1 rounded border-2 border-sky-400 dark:border-sky-500 py-3 text-center text-sm font-bold text-sky-700 dark:text-sky-300 hover:bg-sky-50 dark:hover:bg-sky-900/40 transition-colors"
+                >
+                  文法：前回の続き
+                </Link>
+              )}
+            </div>
           )}
 
           <Link

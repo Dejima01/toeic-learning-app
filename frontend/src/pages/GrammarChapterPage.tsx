@@ -1,5 +1,5 @@
-import { useState, useEffect, useCallback } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useState, useEffect, useCallback, useRef } from 'react';
+import { useParams, useNavigate, useSearchParams } from 'react-router-dom';
 import {
   collection,
   query,
@@ -15,6 +15,8 @@ import { db } from '../firebase';
 import { useAuth } from '../contexts/AuthContext';
 import { MainLayout } from '../components/MainLayout';
 import { GrammarCard } from '../components/GrammarCard';
+import { hasNextGrammarChapter } from '../lib/chapters';
+import type { ResumePosition } from '../lib/resumePosition';
 import type { GrammarQuestion } from '../types/grammar';
 
 export default function GrammarChapterPage() {
@@ -23,6 +25,8 @@ export default function GrammarChapterPage() {
   const level = Number(levelStr);
   const chapter = Number(chapterStr);
   const { user } = useAuth();
+  const [searchParams] = useSearchParams();
+  const focusId = searchParams.get('focus');
 
   const [questions, setQuestions] = useState<GrammarQuestion[]>([]);
   const [loading, setLoading] = useState(true);
@@ -32,6 +36,16 @@ export default function GrammarChapterPage() {
 
   // 復習マーク済み: questionId のセット（Firestore リアルタイム同期）
   const [bookmarks, setBookmarks] = useState<Set<string>>(new Set());
+
+  // 「前回の続き」で着地した問題の枠線を、ユーザーが触れたら消すためのフラグ。
+  // 表示するかどうかは URL の focus から導出するので、state は「消したか」だけ持つ
+  const [dismissedFocusId, setDismissedFocusId] = useState<string | null>(null);
+  const highlightedId = focusId && focusId !== dismissedFocusId ? focusId : null;
+
+  // 「前回の続き」位置の書き込みバッファ。直近の1件だけ保持し、
+  // 3秒後・離脱時・バックグラウンド化時にまとめて書く
+  const pendingResume = useRef<ResumePosition | null>(null);
+  const flushTimer = useRef<number | null>(null);
 
   // 問題データ取得（章切り替え時に解答リセット）
   useEffect(() => {
@@ -63,10 +77,77 @@ export default function GrammarChapterPage() {
     );
   }, [user]);
 
+  // 「前回の続き」で指定された問題まで画面中央にスクロールする
+  useEffect(() => {
+    if (!focusId || questions.length === 0) return;
+    document.getElementById(`grammar-${focusId}`)?.scrollIntoView({ block: 'center' });
+  }, [focusId, questions]);
+
+  // ── 「前回の続き」位置の記録 ──
+  const flushResume = useCallback(() => {
+    if (flushTimer.current !== null) {
+      clearTimeout(flushTimer.current);
+      flushTimer.current = null;
+    }
+    const pos = pendingResume.current;
+    if (!pos || !user) return;
+    pendingResume.current = null;
+    setDoc(
+      doc(db, 'users', user.uid),
+      { last_grammar_position: { ...pos, updated_at: serverTimestamp() } },
+      { merge: true },
+    ).catch(() => {
+      // 位置の記録は学習の本筋ではないので、失敗しても黙って諦める
+    });
+  }, [user]);
+
+  // 離脱時・バックグラウンド化時に取りこぼしを書き切る
+  useEffect(() => {
+    const onVisibilityChange = () => {
+      if (document.visibilityState === 'hidden') flushResume();
+    };
+    document.addEventListener('visibilitychange', onVisibilityChange);
+    return () => {
+      document.removeEventListener('visibilitychange', onVisibilityChange);
+      flushResume();
+    };
+  }, [flushResume]);
+
+  /** 解答した問題から「次に再開すべき位置」を解決してバッファに積む */
+  const recordResume = useCallback(
+    (questionId: string) => {
+      const idx = questions.findIndex((q) => q.id === questionId);
+      if (idx === -1) return;
+
+      let pos: ResumePosition;
+      if (idx < questions.length - 1) {
+        // 章の途中 → その問題自身
+        pos = { level, chapter, item_id: questionId };
+      } else if (hasNextGrammarChapter(level, chapter)) {
+        // 章の最後 → 次の章の先頭（解説は閉じたまま・ハイライトなし）
+        pos = { level, chapter: chapter + 1, item_id: null };
+      } else {
+        // 最終章の最後 → 章一覧へ
+        pos = { level, chapter: null, item_id: null };
+      }
+
+      pendingResume.current = pos;
+      if (flushTimer.current !== null) clearTimeout(flushTimer.current);
+      flushTimer.current = window.setTimeout(flushResume, 3000);
+    },
+    [questions, level, chapter, flushResume],
+  );
+
   // 選択肢タップ：解答を記録 + 不正解なら自動復習マーク
   const handleSelectChoice = useCallback(
     async (question: GrammarQuestion, choiceIndex: number) => {
       setAnswers((prev) => new Map(prev).set(question.id, choiceIndex));
+
+      // 着地した問題に触れた時点で枠線の役目は終わり
+      if (question.id === focusId) setDismissedFocusId(question.id);
+
+      // 解答した問題を「前回の続き」として記録（解答は一度きりなので上書きは起きない）
+      recordResume(question.id);
 
       if (!user) return;
       const isWrong = choiceIndex !== question.correct_index;
@@ -77,7 +158,7 @@ export default function GrammarChapterPage() {
         });
       }
     },
-    [user, bookmarks],
+    [user, bookmarks, focusId, recordResume],
   );
 
   // 復習マーク手動トグル
@@ -126,6 +207,7 @@ export default function GrammarChapterPage() {
               questionNumber={idx + 1}
               selectedChoice={answers.get(q.id)}
               isBookmarked={bookmarks.has(q.id)}
+              isHighlighted={highlightedId === q.id}
               onSelectChoice={(choiceIndex) => handleSelectChoice(q, choiceIndex)}
               onToggleBookmark={() => toggleBookmark(q.id)}
             />

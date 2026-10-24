@@ -132,13 +132,13 @@ export default function WordChapterPage() {
       let pos: ResumePosition;
       if (idx < words.length - 1) {
         // 章の途中 → その単語自身
-        pos = { level, chapter, word_id: wordId };
+        pos = { level, chapter, item_id: wordId };
       } else if (hasNextWordChapter(level, chapter)) {
         // 章の最後 → 次の章の先頭（カバーは閉じたまま・ハイライトなし）
-        pos = { level, chapter: chapter + 1, word_id: null };
+        pos = { level, chapter: chapter + 1, item_id: null };
       } else {
         // 最終章の最後 → 章一覧へ
-        pos = { level, chapter: null, word_id: null };
+        pos = { level, chapter: null, item_id: null };
       }
 
       pendingResume.current = pos;
