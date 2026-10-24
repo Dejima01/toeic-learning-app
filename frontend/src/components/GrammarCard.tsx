@@ -81,7 +81,7 @@ export function GrammarCard({
             key={i}
             type="button"
             onClick={() => !isAnswered && onSelectChoice(i)}
-            className={`rounded bg-sky-200 dark:bg-sky-800 py-3 px-3 text-left text-sm text-gray-800 dark:text-gray-100 transition-all
+            className={`rounded bg-sky-200 dark:bg-sky-800 py-3 px-3 text-left text-base text-gray-800 dark:text-gray-100 transition-all
               ${isAnswered ? 'cursor-default' : 'hover:bg-sky-300 dark:hover:bg-sky-700 active:scale-95'}
               ${selectedChoice === i ? 'ring-2 ring-inset ring-gray-900 dark:ring-gray-100' : ''}
             `}
@@ -93,11 +93,11 @@ export function GrammarCard({
 
       {/* 解説エリア：未解答時は青カバー */}
       {!isAnswered ? (
-        <div className="rounded bg-sky-200 dark:bg-sky-800 py-5 text-center text-sm font-bold text-gray-700 dark:text-gray-200">
+        <div className="rounded bg-sky-200 dark:bg-sky-800 py-5 text-center text-base font-bold text-gray-700 dark:text-gray-200">
           選択肢を選ぶと解説が表示されます
         </div>
       ) : (
-        <div className="rounded bg-gray-50 dark:bg-gray-800 px-3 py-3 text-sm leading-relaxed text-gray-700 dark:text-gray-300">
+        <div className="rounded bg-gray-50 dark:bg-gray-800 px-3 py-3 text-base leading-relaxed text-gray-700 dark:text-gray-300">
           <p className="mb-2">
             <span className="font-bold">({correctLabel})</span> {question.explanation}
           </p>

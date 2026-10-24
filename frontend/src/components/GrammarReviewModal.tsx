@@ -105,7 +105,7 @@ export function GrammarReviewModal({
 
         {/* 解説・和訳 */}
         <div className="px-4 pb-4">
-          <div className="rounded bg-gray-50 dark:bg-gray-800 px-3 py-3 text-sm leading-relaxed text-gray-700 dark:text-gray-300">
+          <div className="rounded bg-gray-50 dark:bg-gray-800 px-3 py-3 text-base leading-relaxed text-gray-700 dark:text-gray-300">
             <p className="mb-2">
               <span className="font-bold">({correctLabel})</span> {question.explanation}
             </p>
