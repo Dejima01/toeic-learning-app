@@ -1,5 +1,9 @@
 import { getAuth } from 'firebase/auth';
 import { buildRagContext, loadEmbeddings } from './ragUtils';
+import type { WordQuestion, ExampleSentence } from '../types/word';
+import { translatePos, translateDerivPart } from '../types/word';
+import type { GrammarQuestion } from '../types/grammar';
+import { CHOICE_LABELS } from '../types/grammar';
 
 const BASE_URL = import.meta.env.VITE_PROXY_URL as string;
 
@@ -34,6 +38,55 @@ export interface ChatMessage {
   content: string;
 }
 
+export type ChatContext =
+  | { kind: 'word'; word: WordQuestion; example?: ExampleSentence }
+  | { kind: 'grammar'; question: GrammarQuestion }
+  | { kind: 'chapter'; mode: 'word' | 'grammar'; level: string; chapter: number };
+
+const MAX_HISTORY_MESSAGES = 10;
+
+function formatChatContext(context: ChatContext): string[] {
+  switch (context.kind) {
+    case 'word': {
+      const { word, example } = context;
+      const lines = [
+        '【ユーザーが現在見ている問題】',
+        `単語: ${word.word}（${translatePos(word.part_of_speech)}）意味: ${word.meaning}`,
+      ];
+      if (example) lines.push(`表示中の例文: ${example.sentence} ／ ${example.translation}`);
+      if (word.derivatives.length > 0) {
+        const derivs = word.derivatives
+          .map((d) => `${d.word}（${translateDerivPart(d.part)}）${d.meaning}`)
+          .join(' / ');
+        lines.push(`派生語: ${derivs}`);
+      }
+      return lines;
+    }
+    case 'grammar': {
+      const { question } = context;
+      const label = (i: number) => `(${CHOICE_LABELS[i] ?? i + 1})`;
+      return [
+        '【ユーザーが現在見ている問題】',
+        `問題文: ${question.question_text}`,
+        `選択肢: ${question.choices.map((c, i) => `${label(i)} ${c}`).join(' ')}`,
+        `正解: ${label(question.correct_index)} ${question.choices[question.correct_index] ?? ''}`,
+        `解説: ${question.explanation}`,
+        `和訳: ${question.translation}`,
+      ];
+    }
+    case 'chapter':
+      return [
+        `【ユーザーが現在開いている画面】${context.mode === 'word' ? '単語' : '文法'}モード ${context.level}点レベル 第${context.chapter}章`,
+      ];
+  }
+}
+
+function contextItemId(context: ChatContext | undefined): string | undefined {
+  if (context?.kind === 'word') return context.word.id;
+  if (context?.kind === 'grammar') return context.question.id;
+  return undefined;
+}
+
 async function fetchQueryEmbedding(text: string): Promise<number[]> {
   const res = await fetch(`${BASE_URL}/api/embed`, {
     method: 'POST',
@@ -47,10 +100,10 @@ async function fetchQueryEmbedding(text: string): Promise<number[]> {
   return embedding as number[];
 }
 
-async function retrieveContext(query: string): Promise<string> {
+async function retrieveContext(query: string, excludeIds: ReadonlySet<string>): Promise<string> {
   try {
     const [queryEmbedding] = await Promise.all([fetchQueryEmbedding(query), loadEmbeddings()]);
-    return await buildRagContext(queryEmbedding, 3);
+    return await buildRagContext(queryEmbedding, 3, excludeIds);
   } catch (err) {
     console.warn('RAG context unavailable, falling back:', err);
     return '';
@@ -60,18 +113,25 @@ async function retrieveContext(query: string): Promise<string> {
 export async function sendChatMessage(
   history: ChatMessage[],
   newMessage: string,
+  chatContext?: ChatContext,
 ): Promise<string> {
-  const context = await retrieveContext(newMessage);
+  const viewingId = contextItemId(chatContext);
+  const ragContext = await retrieveContext(newMessage, new Set(viewingId ? [viewingId] : []));
   const lines: string[] = [
     'あなたはTOEIC学習を支援するAIアシスタントです。英語学習に関する質問に日本語で答えてください。回答は必ず150文字以内にしてください。前置きや余分な説明は省き、要点だけを簡潔に答えてください。',
     '',
   ];
-  if (context) {
-    lines.push('以下はアプリ内の関連する学習データです。質問に関係する場合のみ参考にしてください:');
-    lines.push(context);
+  if (chatContext) {
+    lines.push(...formatChatContext(chatContext));
+    lines.push('ユーザーが「この単語」「この問題」「この章」などと言った場合は、上記を指します。');
     lines.push('');
   }
-  for (const msg of history) {
+  if (ragContext) {
+    lines.push('以下はアプリ内の関連する学習データです。質問に関係する場合のみ参考にしてください:');
+    lines.push(ragContext);
+    lines.push('');
+  }
+  for (const msg of history.slice(-MAX_HISTORY_MESSAGES)) {
     lines.push(`${msg.role === 'user' ? 'ユーザー' : 'アシスタント'}: ${msg.content}`);
   }
   lines.push(`ユーザー: ${newMessage}`);

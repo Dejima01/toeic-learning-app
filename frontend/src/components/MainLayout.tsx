@@ -2,6 +2,7 @@ import { useState } from 'react';
 import type { ReactNode } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ChatBot } from './ChatBot';
+import type { ChatContext } from '../lib/proxyClient';
 
 interface MainLayoutProps {
   title?: string;
@@ -9,6 +10,8 @@ interface MainLayoutProps {
   titleContent?: ReactNode;
   showBack?: boolean;
   showChatBot?: boolean;
+  /** チャットボットに渡す表示中の画面・問題 */
+  chatContext?: ChatContext;
   children: ReactNode;
 }
 
@@ -17,6 +20,7 @@ export function MainLayout({
   titleContent,
   showBack = false,
   showChatBot = false,
+  chatContext,
   children,
 }: MainLayoutProps) {
   const navigate = useNavigate();
@@ -60,7 +64,8 @@ export function MainLayout({
             <button
               type="button"
               onClick={() => setChatOpen((v) => !v)}
-              className="flex h-8 w-8 items-center justify-center rounded-full bg-sky-100 dark:bg-sky-900 text-sky-600 dark:text-sky-300 hover:bg-sky-200 dark:hover:bg-sky-800"
+              // 詳細モーダル（fixed z-50）の背景より前面に出し、モーダル表示中も押せるようにする
+              className="relative z-[60] flex h-8 w-8 items-center justify-center rounded-full bg-sky-100 dark:bg-sky-900 text-sky-600 dark:text-sky-300 hover:bg-sky-200 dark:hover:bg-sky-800"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -86,7 +91,7 @@ export function MainLayout({
       {/* スクロール可能なコンテンツエリア */}
       <main className="flex-1 overflow-y-auto">{children}</main>
 
-      {showChatBot && <ChatBot isOpen={chatOpen} onClose={() => setChatOpen(false)} />}
+      {showChatBot && <ChatBot isOpen={chatOpen} onClose={() => setChatOpen(false)} context={chatContext} />}
     </div>
   );
 }

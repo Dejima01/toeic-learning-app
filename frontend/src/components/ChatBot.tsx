@@ -1,16 +1,17 @@
 import { useState, useRef, useEffect, useCallback } from 'react';
 import { sendChatMessage } from '../lib/proxyClient';
-import type { ChatMessage } from '../lib/proxyClient';
+import type { ChatContext, ChatMessage } from '../lib/proxyClient';
 
 interface ChatBotProps {
   isOpen: boolean;
   onClose: () => void;
+  context?: ChatContext;
 }
 
-export function ChatBot({ isOpen, onClose }: ChatBotProps) {
-  const [messages, setMessages] = useState<ChatMessage[]>([
-    { role: 'model', content: '何でも質問して下さい' },
-  ]);
+const GREETING: ChatMessage = { role: 'model', content: '何でも質問して下さい' };
+
+export function ChatBot({ isOpen, onClose, context }: ChatBotProps) {
+  const [messages, setMessages] = useState<ChatMessage[]>([GREETING]);
   const [input, setInput] = useState('');
   const [sending, setSending] = useState(false);
   const bottomRef = useRef<HTMLDivElement>(null);
@@ -22,12 +23,12 @@ export function ChatBot({ isOpen, onClose }: ChatBotProps) {
   const handleSend = useCallback(async () => {
     const text = input.trim();
     if (!text || sending) return;
-    const history = messages;
+    const history = messages.filter((m) => m !== GREETING);
     setInput('');
     setMessages((prev) => [...prev, { role: 'user', content: text }]);
     setSending(true);
     try {
-      const reply = await sendChatMessage(history, text);
+      const reply = await sendChatMessage(history, text, context);
       setMessages((prev) => [...prev, { role: 'model', content: reply }]);
     } catch (err) {
       const msg =
@@ -36,7 +37,7 @@ export function ChatBot({ isOpen, onClose }: ChatBotProps) {
     } finally {
       setSending(false);
     }
-  }, [input, sending, messages]);
+  }, [input, sending, messages, context]);
 
   return (
     <div

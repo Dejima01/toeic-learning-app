@@ -14,7 +14,7 @@ export interface WordQuestion {
   word: string;
   meaning: string;
   part_of_speech: string;
-  level: number;
+  level: string;
   chapter_num: number;
   example_sentences: ExampleSentence[];
   derivatives: Derivative[];

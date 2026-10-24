@@ -44,8 +44,10 @@ export function topK(
   entries: EmbeddingEntry[],
   queryEmbedding: number[],
   k: number,
+  excludeIds: ReadonlySet<string> = new Set(),
 ): { id: string; type: EntryType }[] {
   return entries
+    .filter((e) => !excludeIds.has(e.id))
     .map((e) => ({ id: e.id, type: e.type, score: cosineSimilarity(queryEmbedding, e.embedding) }))
     .sort((x, y) => y.score - x.score)
     .slice(0, k)
@@ -65,9 +67,13 @@ function formatEntry(type: EntryType, data: Record<string, unknown>): string | n
 }
 
 /** 上位 k 件だけ Firestore から取得してコンテキスト文字列を作る（読み取りは最大 k 回） */
-export async function buildRagContext(queryEmbedding: number[], k = 3): Promise<string> {
+export async function buildRagContext(
+  queryEmbedding: number[],
+  k = 3,
+  excludeIds: ReadonlySet<string> = new Set(),
+): Promise<string> {
   const entries = await loadEmbeddings();
-  const hits = topK(entries, queryEmbedding, k);
+  const hits = topK(entries, queryEmbedding, k, excludeIds);
   const snaps = await Promise.all(
     hits.map((h) => getDoc(doc(db, `${h.type}_questions`, h.id))),
   );

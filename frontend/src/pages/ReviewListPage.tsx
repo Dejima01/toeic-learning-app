@@ -14,6 +14,7 @@ import {
 import { db } from '../firebase';
 import { useAuth } from '../contexts/AuthContext';
 import { callGemini } from '../lib/proxyClient';
+import type { ChatContext } from '../lib/proxyClient';
 import { MainLayout } from '../components/MainLayout';
 import { FilledQuestionText } from '../components/FilledQuestionText';
 import { GrammarReviewModal } from '../components/GrammarReviewModal';
@@ -237,6 +238,12 @@ export default function ReviewListPage() {
     ? (generatedExamples.get(selectedWord.id) ?? selectedWord.example_sentences[0])
     : undefined;
 
+  const chatContext: ChatContext | undefined = selectedWord
+    ? { kind: 'word', word: selectedWord, example: currentExample }
+    : selectedGrammarQuestion
+      ? { kind: 'grammar', question: selectedGrammarQuestion }
+      : undefined;
+
   // ヘッダー中央のモード切り替えバー（単語モードのレベル切り替えと同じ組み方）
   const modeSwitcher = (
     <>
@@ -263,7 +270,7 @@ export default function ReviewListPage() {
   );
 
   return (
-    <MainLayout titleContent={modeSwitcher} showBack showChatBot>
+    <MainLayout titleContent={modeSwitcher} showBack showChatBot chatContext={chatContext}>
       {/* ── 文法復習：一覧（問題文の空欄に正解を下線付きで表示） ── */}
       {mode === 'grammar' &&
         (grammarLoading ? (

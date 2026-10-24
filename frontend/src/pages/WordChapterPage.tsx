@@ -215,7 +215,11 @@ export default function WordChapterPage() {
 
   return (
     // ヘッダー: 戻るボタン(左) + チャットボットボタン(右)、タイトルなし
-    <MainLayout showBack showChatBot>
+    <MainLayout
+      showBack
+      showChatBot
+      chatContext={{ kind: 'chapter', mode: 'word', level: String(level), chapter }}
+    >
       {loading ? (
         <div className="flex justify-center pt-16">
           <div className="h-8 w-8 animate-spin rounded-full border-b-2 border-sky-400" />
