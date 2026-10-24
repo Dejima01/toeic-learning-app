@@ -30,6 +30,8 @@ export interface ReviewItem {
   dueAt: Date;
   correctCount: number;
   wrongCount: number;
+  /** 最後に採点した日時（未採点は null） */
+  lastReviewedAt: Date | null;
 }
 
 export interface GradeResult {
@@ -94,7 +96,34 @@ export function normalizeReviewItem(id: string, data: Record<string, unknown> | 
     dueAt,
     correctCount: toCount(data?.correct_count),
     wrongCount: toCount(data?.wrong_count),
+    lastReviewedAt: toDate(data?.last_reviewed_at),
   };
+}
+
+/** 同じ日か（端末のタイムゾーン基準） */
+export function isSameDay(a: Date, b: Date): boolean {
+  return (
+    a.getFullYear() === b.getFullYear() &&
+    a.getMonth() === b.getMonth() &&
+    a.getDate() === b.getDate()
+  );
+}
+
+/**
+ * その日に採点した項目（＝練習モードで流し直す対象）。
+ * 採点した順に並べる。卒業した単語はドキュメントごと消えるので含まれない。
+ */
+export function selectReviewedOn(items: ReviewItem[], date: Date): ReviewItem[] {
+  return items
+    .filter((item) => item.lastReviewedAt !== null && isSameDay(item.lastReviewedAt, date))
+    .sort((a, b) => (a.lastReviewedAt?.getTime() ?? 0) - (b.lastReviewedAt?.getTime() ?? 0));
+}
+
+/** 次の深夜0時（日付またぎで表示を更新するため） */
+export function nextMidnight(from: Date): Date {
+  const d = startOfDay(from);
+  d.setDate(d.getDate() + 1);
+  return d;
 }
 
 /** その項目が今日出題の対象か */

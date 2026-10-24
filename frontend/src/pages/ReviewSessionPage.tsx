@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import {
   collection,
   getDocs,
@@ -16,7 +16,7 @@ import { MainLayout } from '../components/MainLayout';
 import { HighlightedSentence } from '../components/HighlightedSentence';
 import type { WordQuestion } from '../types/word';
 import { translatePos, translateDerivPart } from '../types/word';
-import { normalizeReviewItem, selectDueQueue, gradeItem } from '../lib/srs';
+import { normalizeReviewItem, selectDueQueue, selectReviewedOn, gradeItem } from '../lib/srs';
 import type { Grade, ReviewItem } from '../lib/srs';
 
 /** キューの1件。同一セッション内の再出題は isRetry = true（採点は書き込まない） */
@@ -27,6 +27,9 @@ interface QueueEntry {
 
 export default function ReviewSessionPage() {
   const { user } = useAuth();
+  const [searchParams] = useSearchParams();
+  /** 練習モード：今日やった分の流し直し。採点しても記録は動かさない */
+  const isPractice = searchParams.get('mode') === 'practice';
 
   const [loading, setLoading] = useState(true);
   const [queue, setQueue] = useState<QueueEntry[]>([]);
@@ -49,7 +52,8 @@ export default function ReviewSessionPage() {
     (async () => {
       const snap = await getDocs(collection(db, 'users', user.uid, 'word_bookmarks'));
       const items = snap.docs.map((d) => normalizeReviewItem(d.id, d.data()));
-      const due = selectDueQueue(items, new Date());
+      const now = new Date();
+      const due = isPractice ? selectReviewedOn(items, now) : selectDueQueue(items, now);
 
       const docs = await Promise.all(
         due.map((item) => getDoc(doc(db, 'word_questions', item.id))),
@@ -70,7 +74,7 @@ export default function ReviewSessionPage() {
     return () => {
       cancelled = true;
     };
-  }, [user]);
+  }, [user, isPractice]);
 
   const current = queue[index];
   const currentWord = current ? words.get(current.item.id) : undefined;
@@ -82,8 +86,9 @@ export default function ReviewSessionPage() {
   const handleNext = useCallback(async () => {
     if (!current || !grade || !user) return;
 
-    // 再出題（同日中の2回目）は箱を動かさない。初回の採点だけが記録になる
-    if (!gradedIds.has(current.item.id)) {
+    // 練習モードは記録を一切動かさない（直後の再復習は記憶にほぼ効かないため、
+    // 箱を進めてしまうと期限が不当に先送りされる）
+    if (!isPractice && !gradedIds.has(current.item.id)) {
       const result = gradeItem(current.item, grade, new Date());
       const ref = doc(db, 'users', user.uid, 'word_bookmarks', current.item.id);
 
@@ -108,6 +113,9 @@ export default function ReviewSessionPage() {
         // 記録に失敗してもセッションは進める（次回また期限切れとして拾われる）
       }
 
+    }
+
+    if (!gradedIds.has(current.item.id)) {
       setGradedIds((prev) => new Set(prev).add(current.item.id));
       setReviewedCount((n) => n + 1);
       if (grade === 'known') setKnownCount((n) => n + 1);
@@ -120,7 +128,7 @@ export default function ReviewSessionPage() {
 
     setGrade(null);
     setIndex((i) => i + 1);
-  }, [current, grade, user, gradedIds]);
+  }, [current, grade, user, gradedIds, isPractice]);
 
   // ──────────────── 描画 ────────────────
 
@@ -142,7 +150,7 @@ export default function ReviewSessionPage() {
           {queue.length === 0 ? (
             <>
               <p className="text-center text-lg font-bold text-gray-700 dark:text-gray-200">
-                今日の復習はありません
+                {isPractice ? '今日やった単語はありません' : '今日の復習はありません'}
               </p>
               <p className="text-center text-base text-gray-500 dark:text-gray-400">
                 単語モードで復習マークを付けると、翌日から復習に出てきます。
@@ -151,7 +159,7 @@ export default function ReviewSessionPage() {
           ) : (
             <>
               <p className="text-center text-lg font-bold text-gray-700 dark:text-gray-200">
-                今日の復習が終わりました
+                {isPractice ? '練習が終わりました' : '今日の復習が終わりました'}
               </p>
               <p className="text-center text-2xl font-bold dark:text-gray-100">
                 {reviewedCount}問中 {knownCount}問
@@ -190,6 +198,12 @@ export default function ReviewSessionPage() {
       <div className="flex h-full flex-col">
         {/* ── 出題エリア ── */}
         <div className="flex-1 overflow-y-auto px-5 py-6">
+          {isPractice && (
+            <p className="mb-4 rounded bg-emerald-50 dark:bg-emerald-900/30 py-2 text-center text-sm font-bold text-emerald-700 dark:text-emerald-300">
+              練習モード・記録には影響しません
+            </p>
+          )}
+
           <h2 className="mb-5 text-center text-3xl font-bold tracking-wide dark:text-gray-100">
             {currentWord.word}
           </h2>

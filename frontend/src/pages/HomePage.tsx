@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { signOut } from 'firebase/auth';
 import { collection, doc, onSnapshot } from 'firebase/firestore';
@@ -7,7 +7,8 @@ import { MainLayout } from '../components/MainLayout';
 import { useAuth } from '../contexts/AuthContext';
 import { parseResumePosition, resumePath } from '../lib/resumePosition';
 import type { ResumePosition } from '../lib/resumePosition';
-import { normalizeReviewItem, selectDueQueue } from '../lib/srs';
+import { normalizeReviewItem, selectDueQueue, selectReviewedOn, nextMidnight } from '../lib/srs';
+import type { ReviewItem } from '../lib/srs';
 
 type Badge = 'bronze' | 'silver' | 'gold' | null;
 
@@ -23,7 +24,9 @@ export default function HomePage() {
   const [badge, setBadge] = useState<Badge>(null);
   const [wordResume, setWordResume] = useState<ResumePosition | null>(null);
   const [grammarResume, setGrammarResume] = useState<ResumePosition | null>(null);
-  const [dueCount, setDueCount] = useState(0);
+  const [reviewItems, setReviewItems] = useState<ReviewItem[]>([]);
+  /** 日付をまたいだときに件数を数え直すためのトリガー */
+  const [nowTick, setNowTick] = useState(0);
 
   // Firestoreからバッジ・前回の続き位置をリアルタイム取得（同じドキュメントなので購読は1本）
   useEffect(() => {
@@ -37,14 +40,42 @@ export default function HomePage() {
     });
   }, [user]);
 
-  // 今日の復習に出る件数（復習マークは数十〜数百件程度なので全件読んで数える）
+  // 復習マーク（数十〜数百件程度なので全件読んで手元で数える）
   useEffect(() => {
     if (!user) return;
     return onSnapshot(collection(db, 'users', user.uid, 'word_bookmarks'), (snap) => {
-      const items = snap.docs.map((d) => normalizeReviewItem(d.id, d.data()));
-      setDueCount(selectDueQueue(items, new Date()).length);
+      setReviewItems(snap.docs.map((d) => normalizeReviewItem(d.id, d.data())));
     });
   }, [user]);
+
+  // 日付またぎの対応。件数は new Date() に依存するが Firestore が変わらない限り
+  // 再計算されないので、復帰時と深夜0時に数え直す
+  useEffect(() => {
+    const recount = () => setNowTick((n) => n + 1);
+
+    const onVisibilityChange = () => {
+      if (document.visibilityState === 'visible') recount();
+    };
+    document.addEventListener('visibilitychange', onVisibilityChange);
+
+    const msUntilMidnight = nextMidnight(new Date()).getTime() - Date.now() + 1000;
+    const timer = window.setTimeout(recount, msUntilMidnight);
+
+    return () => {
+      document.removeEventListener('visibilitychange', onVisibilityChange);
+      clearTimeout(timer);
+    };
+  }, [nowTick]);
+
+  // 期限が来ている件数と、今日すでに採点した件数
+  const { dueCount, reviewedTodayCount } = useMemo(() => {
+    const now = new Date();
+    return {
+      dueCount: selectDueQueue(reviewItems, now).length,
+      reviewedTodayCount: selectReviewedOn(reviewItems, now).length,
+    };
+    // nowTick は日付またぎで数え直すためのトリガー
+  }, [reviewItems, nowTick]);
 
   async function handleLogout() {
     await signOut(auth);
@@ -85,14 +116,26 @@ export default function HomePage() {
           </div>
         </div>
 
-        {/* ── 今日の復習（このアプリで毎日最初に押すボタンなので最上段・大きめ） ── */}
-        {dueCount > 0 && (
+        {/* ── 今日の復習（毎日最初に押すボタンなので最上段・大きめ） ── */}
+        {dueCount > 0 ? (
           <Link
             to="/review/today"
             className="mb-4 block rounded-lg bg-sky-500 py-4 text-center text-xl font-bold text-white shadow hover:bg-sky-600 transition-colors"
           >
             今日の復習{'　'}{dueCount}問
           </Link>
+        ) : reviewedTodayCount > 0 ? (
+          // やり切った日。もう一度やりたい人向けに練習モードへ繋ぐ（記録は動かない）
+          <Link
+            to="/review/today?mode=practice"
+            className="mb-4 block rounded-lg border-2 border-emerald-400 dark:border-emerald-600 py-4 text-center text-xl font-bold text-emerald-700 dark:text-emerald-300 hover:bg-emerald-50 dark:hover:bg-emerald-900/30 transition-colors"
+          >
+            今日の復習 完了！
+          </Link>
+        ) : (
+          <p className="mb-4 text-center text-base text-gray-400 dark:text-gray-500">
+            今日の復習はありません
+          </p>
         )}
 
         {/* ── 中央: モードボタン ── */}
