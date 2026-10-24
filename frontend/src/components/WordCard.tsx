@@ -1,5 +1,6 @@
 import type { WordQuestion, ExampleSentence } from '../types/word';
 import { translatePos, translateDerivPart } from '../types/word';
+import { HighlightedSentence } from './HighlightedSentence';
 
 interface WordCardProps {
   word: WordQuestion;
@@ -18,24 +19,6 @@ interface WordCardProps {
   onToggleReveal: () => void;
   onToggleBookmark: () => void;
   onReload: () => void;
-}
-
-/** 例文中の対象単語を太字にする */
-function HighlightedSentence({ sentence, word }: { sentence: string; word: string }) {
-  // 句や複合語（"attribute A to B" など）に対応するため最初の1単語だけ照合
-  const baseWord = word.split(' ')[0];
-  const parts = sentence.split(new RegExp(`(${baseWord})`, 'gi'));
-  return (
-    <>
-      {parts.map((part, i) =>
-        part.toLowerCase() === baseWord.toLowerCase() ? (
-          <strong key={i}>{part}</strong>
-        ) : (
-          <span key={i}>{part}</span>
-        ),
-      )}
-    </>
-  );
 }
 
 export function WordCard({

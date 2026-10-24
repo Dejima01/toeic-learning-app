@@ -1,12 +1,13 @@
 import { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { signOut } from 'firebase/auth';
-import { doc, onSnapshot } from 'firebase/firestore';
+import { collection, doc, onSnapshot } from 'firebase/firestore';
 import { auth, db } from '../firebase';
 import { MainLayout } from '../components/MainLayout';
 import { useAuth } from '../contexts/AuthContext';
 import { parseResumePosition, resumePath } from '../lib/resumePosition';
 import type { ResumePosition } from '../lib/resumePosition';
+import { normalizeReviewItem, selectDueQueue } from '../lib/srs';
 
 type Badge = 'bronze' | 'silver' | 'gold' | null;
 
@@ -22,6 +23,7 @@ export default function HomePage() {
   const [badge, setBadge] = useState<Badge>(null);
   const [wordResume, setWordResume] = useState<ResumePosition | null>(null);
   const [grammarResume, setGrammarResume] = useState<ResumePosition | null>(null);
+  const [dueCount, setDueCount] = useState(0);
 
   // Firestoreからバッジ・前回の続き位置をリアルタイム取得（同じドキュメントなので購読は1本）
   useEffect(() => {
@@ -32,6 +34,15 @@ export default function HomePage() {
       setBadge((data?.badge as Badge) ?? null);
       setWordResume(parseResumePosition(data?.last_word_position));
       setGrammarResume(parseResumePosition(data?.last_grammar_position));
+    });
+  }, [user]);
+
+  // 今日の復習に出る件数（復習マークは数十〜数百件程度なので全件読んで数える）
+  useEffect(() => {
+    if (!user) return;
+    return onSnapshot(collection(db, 'users', user.uid, 'word_bookmarks'), (snap) => {
+      const items = snap.docs.map((d) => normalizeReviewItem(d.id, d.data()));
+      setDueCount(selectDueQueue(items, new Date()).length);
     });
   }, [user]);
 
@@ -73,6 +84,16 @@ export default function HomePage() {
             )}
           </div>
         </div>
+
+        {/* ── 今日の復習（このアプリで毎日最初に押すボタンなので最上段・大きめ） ── */}
+        {dueCount > 0 && (
+          <Link
+            to="/review/today"
+            className="mb-4 block rounded-lg bg-sky-500 py-4 text-center text-xl font-bold text-white shadow hover:bg-sky-600 transition-colors"
+          >
+            今日の復習{'　'}{dueCount}問
+          </Link>
+        )}
 
         {/* ── 中央: モードボタン ── */}
         <div className="flex flex-1 flex-col items-stretch justify-center gap-4">

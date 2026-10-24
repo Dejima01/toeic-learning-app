@@ -16,6 +16,7 @@ import { useAuth } from '../contexts/AuthContext';
 import { callGemini } from '../lib/proxyClient';
 import type { ChatContext } from '../lib/proxyClient';
 import { MainLayout } from '../components/MainLayout';
+import { HighlightedSentence } from '../components/HighlightedSentence';
 import { FilledQuestionText } from '../components/FilledQuestionText';
 import { GrammarReviewModal } from '../components/GrammarReviewModal';
 import type { WordQuestion, ExampleSentence } from '../types/word';
@@ -37,23 +38,6 @@ function posShort(pos: string): string {
     prep: '前', conj: '接', 'noun/verb': '名/動',
   };
   return map[pos.toLowerCase()] ?? pos;
-}
-
-/** 例文中の対象単語を太字にする */
-function HighlightedSentence({ sentence, word }: { sentence: string; word: string }) {
-  const baseWord = word.split(' ')[0];
-  const parts = sentence.split(new RegExp(`(${baseWord})`, 'gi'));
-  return (
-    <>
-      {parts.map((part, i) =>
-        part.toLowerCase() === baseWord.toLowerCase() ? (
-          <strong key={i}>{part}</strong>
-        ) : (
-          <span key={i}>{part}</span>
-        ),
-      )}
-    </>
-  );
 }
 
 export default function ReviewListPage() {
