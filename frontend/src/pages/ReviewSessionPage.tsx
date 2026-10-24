@@ -19,11 +19,7 @@ import { translatePos, translateDerivPart } from '../types/word';
 import { normalizeReviewItem, selectDueQueue, selectReviewedOn, gradeItem } from '../lib/srs';
 import type { Grade, ReviewItem } from '../lib/srs';
 
-/** キューの1件。同一セッション内の再出題は isRetry = true（採点は書き込まない） */
-interface QueueEntry {
-  item: ReviewItem;
-  isRetry: boolean;
-}
+type Phase = 'loading' | 'session' | 'roundEnd' | 'finished';
 
 export default function ReviewSessionPage() {
   const { user } = useAuth();
@@ -31,20 +27,27 @@ export default function ReviewSessionPage() {
   /** 練習モード：今日やった分の流し直し。採点しても記録は動かさない */
   const isPractice = searchParams.get('mode') === 'practice';
 
-  const [loading, setLoading] = useState(true);
-  const [queue, setQueue] = useState<QueueEntry[]>([]);
+  const [phase, setPhase] = useState<Phase>('loading');
   const [words, setWords] = useState<Map<string, WordQuestion>>(new Map());
+
+  /** 最初に出した問題数（結果画面の分母） */
+  const [initialCount, setInitialCount] = useState(0);
+
+  // ── ラウンド制 ──
+  // 分母が途中で増えると不自然なので、間違えた問題はその場で挿し込まず次の周にまわす
+  const [round, setRound] = useState(1);
+  const [roundItems, setRoundItems] = useState<ReviewItem[]>([]);
   const [index, setIndex] = useState(0);
+  /** この周で「覚えていなかった」もの。次の周の出題内容になる */
+  const [wrongItems, setWrongItems] = useState<ReviewItem[]>([]);
 
   /** 現在のカードの採点（未採点は null）。「次へ」を押すまで確定しないので選び直せる */
   const [grade, setGrade] = useState<Grade | null>(null);
 
+  /** 1周目で「覚えていた」だった数（＝記録・集計の対象） */
   const [knownCount, setKnownCount] = useState(0);
-  const [reviewedCount, setReviewedCount] = useState(0);
-  /** 同一セッションで採点済みのID（再出題で二重に箱を動かさないため） */
-  const [gradedIds, setGradedIds] = useState<Set<string>>(new Set());
 
-  // ── 今日の復習キューを作る（セッション中は固定したいので getDocs で1回だけ） ──
+  // ── 出題キューを作る（セッション中は固定したいので getDocs で1回だけ） ──
   useEffect(() => {
     if (!user) return;
     let cancelled = false;
@@ -53,10 +56,10 @@ export default function ReviewSessionPage() {
       const snap = await getDocs(collection(db, 'users', user.uid, 'word_bookmarks'));
       const items = snap.docs.map((d) => normalizeReviewItem(d.id, d.data()));
       const now = new Date();
-      const due = isPractice ? selectReviewedOn(items, now) : selectDueQueue(items, now);
+      const target = isPractice ? selectReviewedOn(items, now) : selectDueQueue(items, now);
 
       const docs = await Promise.all(
-        due.map((item) => getDoc(doc(db, 'word_questions', item.id))),
+        target.map((item) => getDoc(doc(db, 'word_questions', item.id))),
       );
       if (cancelled) return;
 
@@ -66,9 +69,11 @@ export default function ReviewSessionPage() {
       });
 
       // マスターデータを引けなかったものは出しようがないので除外する
+      const queue = target.filter((item) => wordMap.has(item.id));
       setWords(wordMap);
-      setQueue(due.filter((item) => wordMap.has(item.id)).map((item) => ({ item, isRetry: false })));
-      setLoading(false);
+      setRoundItems(queue);
+      setInitialCount(queue.length);
+      setPhase(queue.length === 0 ? 'finished' : 'session');
     })();
 
     return () => {
@@ -76,63 +81,68 @@ export default function ReviewSessionPage() {
     };
   }, [user, isPractice]);
 
-  const current = queue[index];
-  const currentWord = current ? words.get(current.item.id) : undefined;
-  const isFinished = !loading && (queue.length === 0 || index >= queue.length);
-  const totalCards = queue.length;
+  const current = roundItems[index];
+  const currentWord = current ? words.get(current.id) : undefined;
   const example = currentWord?.example_sentences[0];
+  const isLastInRound = index + 1 >= roundItems.length;
 
   // ── 「次へ」で採点を確定して進む ──
   const handleNext = useCallback(async () => {
     if (!current || !grade || !user) return;
 
-    // 練習モードは記録を一切動かさない（直後の再復習は記憶にほぼ効かないため、
-    // 箱を進めてしまうと期限が不当に先送りされる）
-    if (!isPractice && !gradedIds.has(current.item.id)) {
-      const result = gradeItem(current.item, grade, new Date());
-      const ref = doc(db, 'users', user.uid, 'word_bookmarks', current.item.id);
-
-      try {
-        if (result.item === null) {
-          // 箱5をクリア＝卒業。復習マークを外して一覧から消す
-          await deleteDoc(ref);
-        } else {
-          await setDoc(
-            ref,
-            {
-              box: result.item.box,
-              due_at: Timestamp.fromDate(result.item.dueAt),
-              correct_count: result.item.correctCount,
-              wrong_count: result.item.wrongCount,
-              last_reviewed_at: serverTimestamp(),
-            },
-            { merge: true },
-          );
+    // 記録するのは1周目の採点だけ。
+    // 2周目以降は「1周目で思い出せなかった」事実を上書きしてしまうため触らない
+    if (round === 1) {
+      if (!isPractice) {
+        const result = gradeItem(current, grade, new Date());
+        const ref = doc(db, 'users', user.uid, 'word_bookmarks', current.id);
+        try {
+          if (result.item === null) {
+            // 箱5をクリア＝卒業。復習マークを外して一覧から消す
+            await deleteDoc(ref);
+          } else {
+            await setDoc(
+              ref,
+              {
+                box: result.item.box,
+                due_at: Timestamp.fromDate(result.item.dueAt),
+                correct_count: result.item.correctCount,
+                wrong_count: result.item.wrongCount,
+                last_reviewed_at: serverTimestamp(),
+              },
+              { merge: true },
+            );
+          }
+        } catch {
+          // 記録に失敗してもセッションは進める（次回また期限切れとして拾われる）
         }
-      } catch {
-        // 記録に失敗してもセッションは進める（次回また期限切れとして拾われる）
       }
-
-    }
-
-    if (!gradedIds.has(current.item.id)) {
-      setGradedIds((prev) => new Set(prev).add(current.item.id));
-      setReviewedCount((n) => n + 1);
       if (grade === 'known') setKnownCount((n) => n + 1);
     }
 
-    // 「覚えていなかった」は同じセッションの最後にもう一度だけ出す
-    if (grade === 'unknown' && !current.isRetry) {
-      setQueue((prev) => [...prev, { item: current.item, isRetry: true }]);
-    }
-
+    const nextWrong = grade === 'unknown' ? [...wrongItems, current] : wrongItems;
+    setWrongItems(nextWrong);
     setGrade(null);
-    setIndex((i) => i + 1);
-  }, [current, grade, user, gradedIds, isPractice]);
+
+    if (!isLastInRound) {
+      setIndex((i) => i + 1);
+    } else {
+      setPhase(nextWrong.length > 0 ? 'roundEnd' : 'finished');
+    }
+  }, [current, grade, user, round, isPractice, wrongItems, isLastInRound]);
+
+  const startNextRound = useCallback(() => {
+    setRoundItems(wrongItems);
+    setWrongItems([]);
+    setIndex(0);
+    setRound((r) => r + 1);
+    setGrade(null);
+    setPhase('session');
+  }, [wrongItems]);
 
   // ──────────────── 描画 ────────────────
 
-  if (loading) {
+  if (phase === 'loading') {
     return (
       <MainLayout showBack>
         <div className="flex justify-center pt-16">
@@ -142,12 +152,43 @@ export default function ReviewSessionPage() {
     );
   }
 
-  if (isFinished) {
+  // ラウンドの区切り。間違えた分だけで次の周に入る
+  if (phase === 'roundEnd') {
     return (
       <MainLayout showBack>
         <div className="flex h-full flex-col items-center justify-center gap-5 px-6">
-          <p className="text-4xl">{queue.length === 0 ? '🌱' : '🎉'}</p>
-          {queue.length === 0 ? (
+          <p className="text-4xl">🔁</p>
+          <p className="text-center text-lg font-bold text-gray-700 dark:text-gray-200">
+            {round}周目が終わりました
+          </p>
+          <p className="text-center text-base text-gray-500 dark:text-gray-400">
+            覚えていなかった{' '}
+            <span className="text-2xl font-bold text-amber-600 dark:text-amber-400">
+              {wrongItems.length}
+            </span>
+            問を、もう一度出します
+          </p>
+          <button
+            type="button"
+            onClick={startNextRound}
+            className="mt-2 w-full max-w-xs rounded-full bg-sky-400 py-3 text-base font-bold text-white hover:bg-sky-500"
+          >
+            {round + 1}周目へ進む
+          </button>
+          <Link to="/home" className="text-base text-gray-500 dark:text-gray-400 underline">
+            今日はここまでにする
+          </Link>
+        </div>
+      </MainLayout>
+    );
+  }
+
+  if (phase === 'finished') {
+    return (
+      <MainLayout showBack>
+        <div className="flex h-full flex-col items-center justify-center gap-5 px-6">
+          <p className="text-4xl">{initialCount === 0 ? '🌱' : '🎉'}</p>
+          {initialCount === 0 ? (
             <>
               <p className="text-center text-lg font-bold text-gray-700 dark:text-gray-200">
                 {isPractice ? '今日やった単語はありません' : '今日の復習はありません'}
@@ -162,10 +203,10 @@ export default function ReviewSessionPage() {
                 {isPractice ? '練習が終わりました' : '今日の復習が終わりました'}
               </p>
               <p className="text-center text-2xl font-bold dark:text-gray-100">
-                {reviewedCount}問中 {knownCount}問
+                {initialCount}問中 {knownCount}問
               </p>
               <p className="text-center text-base text-gray-500 dark:text-gray-400">
-                覚えていました
+                最初から覚えていました
               </p>
             </>
           )}
@@ -183,6 +224,8 @@ export default function ReviewSessionPage() {
   if (!current || !currentWord) return null;
 
   const isRevealed = grade !== null;
+  const wrongAfterThis = grade === 'unknown' ? wrongItems.length + 1 : wrongItems.length;
+  const nextLabel = !isLastInRound ? '次へ' : wrongAfterThis > 0 ? 'この周を終える' : '結果を見る';
 
   return (
     <MainLayout
@@ -190,7 +233,12 @@ export default function ReviewSessionPage() {
       showChatBot
       titleContent={
         <span className="text-base font-bold tabular-nums dark:text-gray-100">
-          {index + 1} / {totalCards}
+          {round > 1 && (
+            <span className="mr-2 text-sm font-normal text-gray-500 dark:text-gray-400">
+              {round}周目
+            </span>
+          )}
+          {index + 1} / {roundItems.length}
         </span>
       }
       chatContext={{ kind: 'word', word: currentWord, example }}
@@ -239,7 +287,9 @@ export default function ReviewSessionPage() {
                       <span className="text-gray-500 dark:text-gray-500">
                         {translateDerivPart(d.part)}：
                       </span>
-                      {d.word}{'　'}{d.meaning}
+                      {d.word}
+                      {'　'}
+                      {d.meaning}
                     </p>
                   ))}
                 </div>
@@ -282,7 +332,7 @@ export default function ReviewSessionPage() {
               onClick={handleNext}
               className="mt-3 w-full rounded-lg bg-gray-800 dark:bg-gray-200 py-3 text-base font-bold text-white dark:text-gray-900 hover:bg-gray-700 dark:hover:bg-gray-300"
             >
-              {index + 1 >= totalCards ? '結果を見る' : '次へ'}
+              {nextLabel}
             </button>
           )}
         </div>
