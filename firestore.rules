@@ -21,5 +21,32 @@ service cloud.firestore {
         allow read, write: if request.auth != null && request.auth.uid == uid;
       }
     }
+
+    // ご意見・不具合報告: ログインユーザーが自分の uid で作成のみ可（読み取り・更新・削除は不可）
+    match /feedback/{feedbackId} {
+      allow create: if request.auth != null && isValidFeedback(request.resource.data);
+      allow read, update, delete: if false;
+    }
+
+    function isValidFeedback(data) {
+      let fields = ['type', 'body', 'satisfaction', 'contactEmail', 'uid', 'createdAt',
+                    'userAgent', 'screenSize', 'theme'];
+      return data.keys().hasOnly(fields)
+        && data.keys().hasAll(fields)
+        && data.uid == request.auth.uid
+        && data.type in ['bug', 'request', 'other']
+        && data.body is string
+        && data.body.size() >= 1
+        && data.body.size() <= 2000
+        && (data.satisfaction == null
+            || (data.satisfaction is int && data.satisfaction >= 0 && data.satisfaction <= 10))
+        && (data.contactEmail == null || data.contactEmail == request.auth.token.email)
+        && data.createdAt == request.time
+        && data.userAgent is string
+        && data.userAgent.size() <= 1000
+        && data.screenSize is string
+        && data.screenSize.size() <= 50
+        && data.theme in ['light', 'dark'];
+    }
   }
 }

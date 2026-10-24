@@ -33,6 +33,28 @@ export function warmupProxy(): void {
   fetch(`${BASE_URL}/`).catch(() => {});
 }
 
+export interface FeedbackNotifyPayload {
+  feedbackId: string;
+  type: 'bug' | 'request' | 'other';
+  satisfaction: number | null;
+  body: string;
+  hasContact: boolean;
+}
+
+/** 失敗してもユーザーには見せない（エンドポイント未実装の 404 も含む） */
+export async function notifyFeedback(payload: FeedbackNotifyPayload): Promise<void> {
+  try {
+    const res = await fetch(`${BASE_URL}/api/feedback-notify`, {
+      method: 'POST',
+      headers: await authHeaders(),
+      body: JSON.stringify(payload),
+    });
+    if (!res.ok) console.warn('feedback-notify failed:', res.status);
+  } catch (err) {
+    console.warn('feedback-notify failed:', err);
+  }
+}
+
 export interface ChatMessage {
   role: 'user' | 'model';
   content: string;
