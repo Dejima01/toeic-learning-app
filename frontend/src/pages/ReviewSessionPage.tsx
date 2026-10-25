@@ -183,6 +183,14 @@ export default function ReviewSessionPage() {
             </span>
             問を、もう一度出します
           </p>
+
+          {/* 周回画面で終える人も多いので、ここにも残り数を出す（主役は次の周なので控えめに） */}
+          {remainingForLaterDays > 0 && (
+            <p className="text-center text-sm text-gray-500 dark:text-gray-400">
+              残り{remainingForLaterDays}問は明日以降に出ます
+            </p>
+          )}
+
           <button
             type="button"
             onClick={startNextRound}
