@@ -194,7 +194,7 @@ export default function HomePage() {
             {showWord && (
               <ReviewButton
                 to={dueCount > 0 ? '/review/today' : '/review/today?mode=practice'}
-                label="単語"
+                label="単語復習"
                 count={dueCount}
                 done={dueCount === 0 && reviewedTodayCount > 0}
                 compact={showGrammar}
@@ -207,7 +207,7 @@ export default function HomePage() {
                     ? '/review/today/grammar'
                     : '/review/today/grammar?mode=practice'
                 }
-                label="文法"
+                label="文法復習"
                 count={grammarDueCount}
                 done={grammarDueCount === 0 && grammarReviewedToday > 0}
                 compact={showWord}
