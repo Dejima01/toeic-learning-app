@@ -9,6 +9,8 @@ interface GrammarCardProps {
   isBookmarked: boolean;
   /** 「前回の続き」で着地した対象か（枠線＋初回パルス） */
   isHighlighted?: boolean;
+  /** 復習フラグを出すか（復習セッション中は操作対象ではないので隠す） */
+  showBookmark?: boolean;
   onSelectChoice: (choiceIndex: number) => void;
   onToggleBookmark: () => void;
 }
@@ -19,6 +21,7 @@ export function GrammarCard({
   selectedChoice,
   isBookmarked,
   isHighlighted = false,
+  showBookmark = true,
   onSelectChoice,
   onToggleBookmark,
 }: GrammarCardProps) {
@@ -41,6 +44,7 @@ export function GrammarCard({
       {/* 問題番号 + 復習フラグ */}
       <div className="flex items-center justify-between mb-3">
         <span className="text-base font-bold dark:text-gray-100">{questionNumber}.</span>
+        {showBookmark && (
         <button
           type="button"
           onClick={onToggleBookmark}
@@ -77,6 +81,7 @@ export function GrammarCard({
             </svg>
           )}
         </button>
+        )}
       </div>
 
       {/* 問題文 */}

@@ -27,6 +27,7 @@ import GrammarChapterPage from './pages/GrammarChapterPage';
 // フェーズ6: 復習問題一覧
 import ReviewListPage from './pages/ReviewListPage';
 import ReviewSessionPage from './pages/ReviewSessionPage';
+import GrammarReviewSessionPage from './pages/GrammarReviewSessionPage';
 
 // フェーズ7: ランク認定テスト
 import RankTestPage from './pages/RankTestPage';
@@ -61,6 +62,7 @@ function AppRoutes() {
       {/* フェーズ6: 復習問題一覧 */}
       <Route path="/review" element={<PrivateRoute><ReviewListPage /></PrivateRoute>} />
       <Route path="/review/today" element={<PrivateRoute><ReviewSessionPage /></PrivateRoute>} />
+      <Route path="/review/today/grammar" element={<PrivateRoute><GrammarReviewSessionPage /></PrivateRoute>} />
 
       {/* フェーズ7: ランク認定テスト */}
       <Route path="/rank-test" element={<PrivateRoute><RankTestPage /></PrivateRoute>} />

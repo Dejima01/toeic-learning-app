@@ -2,7 +2,12 @@ import { useEffect, useState } from 'react';
 import { doc, onSnapshot, setDoc } from 'firebase/firestore';
 import { db } from '../firebase';
 import { useAuth } from '../contexts/AuthContext';
-import { DAILY_REVIEW_LIMIT_OPTIONS, normalizeDailyLimit } from '../lib/srs';
+import {
+  DAILY_REVIEW_LIMIT_OPTIONS,
+  GRAMMAR_REVIEW_LIMIT_OPTIONS,
+  normalizeDailyLimit,
+  normalizeGrammarDailyLimit,
+} from '../lib/srs';
 import { MainLayout } from '../components/MainLayout';
 import { FeedbackModal } from '../components/FeedbackModal';
 import { useTheme } from '../contexts/ThemeContext';
@@ -11,6 +16,7 @@ export default function SettingsPage() {
   const { isDark, toggle } = useTheme();
   const { user } = useAuth();
   const [dailyLimit, setDailyLimit] = useState(normalizeDailyLimit(undefined));
+  const [grammarLimit, setGrammarLimit] = useState(normalizeGrammarDailyLimit(undefined));
   const [feedbackOpen, setFeedbackOpen] = useState(false);
   const [feedbackSent, setFeedbackSent] = useState(false);
 
@@ -18,6 +24,7 @@ export default function SettingsPage() {
     if (!user) return;
     return onSnapshot(doc(db, 'users', user.uid), (snap) => {
       setDailyLimit(normalizeDailyLimit(snap.data()?.daily_review_limit));
+      setGrammarLimit(normalizeGrammarDailyLimit(snap.data()?.daily_grammar_review_limit));
     });
   }, [user]);
 
@@ -25,6 +32,16 @@ export default function SettingsPage() {
     if (!user) return;
     setDailyLimit(value); // 購読の反映を待たずに即座に見た目を変える
     await setDoc(doc(db, 'users', user.uid), { daily_review_limit: value }, { merge: true });
+  }
+
+  async function changeGrammarLimit(value: number) {
+    if (!user) return;
+    setGrammarLimit(value);
+    await setDoc(
+      doc(db, 'users', user.uid),
+      { daily_grammar_review_limit: value },
+      { merge: true },
+    );
   }
 
   function handleFeedbackSent() {
@@ -68,7 +85,7 @@ export default function SettingsPage() {
         {/* 1日に出す最大問題数 */}
         <div className="px-4 py-4">
           <p className="mb-3 text-base font-medium text-gray-800 dark:text-gray-100">
-            1日に出す最大問題数
+            1日に出す最大問題数（単語）
           </p>
           <div className="flex gap-2">
             {DAILY_REVIEW_LIMIT_OPTIONS.map((value) => (
@@ -79,6 +96,30 @@ export default function SettingsPage() {
                 onClick={() => changeDailyLimit(value)}
                 className={`flex-1 rounded-lg py-2.5 text-base font-bold tabular-nums transition-colors ${
                   dailyLimit === value
+                    ? 'bg-sky-500 text-white'
+                    : 'bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
+                }`}
+              >
+                {value}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* 1日に出す最大問題数（文法） */}
+        <div className="px-4 py-4">
+          <p className="mb-3 text-base font-medium text-gray-800 dark:text-gray-100">
+            1日に出す最大問題数（文法）
+          </p>
+          <div className="flex gap-2">
+            {GRAMMAR_REVIEW_LIMIT_OPTIONS.map((value) => (
+              <button
+                key={value}
+                type="button"
+                aria-pressed={grammarLimit === value}
+                onClick={() => changeGrammarLimit(value)}
+                className={`flex-1 rounded-lg py-2.5 text-base font-bold tabular-nums transition-colors ${
+                  grammarLimit === value
                     ? 'bg-sky-500 text-white'
                     : 'bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
                 }`}

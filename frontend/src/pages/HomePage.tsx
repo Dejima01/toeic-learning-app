@@ -7,7 +7,13 @@ import { MainLayout } from '../components/MainLayout';
 import { useAuth } from '../contexts/AuthContext';
 import { parseResumePosition, resumePath } from '../lib/resumePosition';
 import type { ResumePosition } from '../lib/resumePosition';
-import { normalizeReviewItem, planToday, nextMidnight, normalizeDailyLimit } from '../lib/srs';
+import {
+  normalizeReviewItem,
+  planToday,
+  nextMidnight,
+  normalizeDailyLimit,
+  normalizeGrammarDailyLimit,
+} from '../lib/srs';
 import type { ReviewItem } from '../lib/srs';
 
 type Badge = 'bronze' | 'silver' | 'gold' | null;
@@ -18,6 +24,49 @@ const BADGE_LABEL: Record<string, string> = {
   gold: 'ゴールド',
 };
 
+/** 今日の復習ボタン。出題がある日は件数、やり切った日は「完了！」を出す */
+function ReviewButton({
+  to,
+  label,
+  count,
+  done,
+  compact,
+}: {
+  to: string;
+  label: string;
+  count: number;
+  done: boolean;
+  compact: boolean;
+}) {
+  const base = 'flex-1 block rounded-lg py-4 text-center font-bold transition-colors';
+  const size = compact ? 'text-base' : 'text-xl';
+
+  if (count > 0) {
+    return (
+      <Link to={to} className={`${base} ${size} bg-sky-500 text-white shadow hover:bg-sky-600`}>
+        {label}{'　'}{count}問
+      </Link>
+    );
+  }
+  if (done) {
+    return (
+      <Link
+        to={to}
+        className={`${base} ${size} border-2 border-emerald-400 dark:border-emerald-600 text-emerald-700 dark:text-emerald-300 hover:bg-emerald-50 dark:hover:bg-emerald-900/30`}
+      >
+        {label} 完了！
+      </Link>
+    );
+  }
+  return (
+    <div
+      className={`${base} ${size} border-2 border-gray-200 dark:border-gray-700 text-gray-400 dark:text-gray-600`}
+    >
+      {label}{'　'}なし
+    </div>
+  );
+}
+
 export default function HomePage() {
   const { user } = useAuth();
   const navigate = useNavigate();
@@ -27,7 +76,9 @@ export default function HomePage() {
   const [reviewItems, setReviewItems] = useState<ReviewItem[]>([]);
   /** 日付をまたいだときに件数を数え直すためのトリガー */
   const [nowTick, setNowTick] = useState(0);
+  const [grammarItems, setGrammarItems] = useState<ReviewItem[]>([]);
   const [dailyLimit, setDailyLimit] = useState(normalizeDailyLimit(undefined));
+  const [grammarLimit, setGrammarLimit] = useState(normalizeGrammarDailyLimit(undefined));
 
   // Firestoreからバッジ・前回の続き位置をリアルタイム取得（同じドキュメントなので購読は1本）
   useEffect(() => {
@@ -39,6 +90,7 @@ export default function HomePage() {
       setWordResume(parseResumePosition(data?.last_word_position));
       setGrammarResume(parseResumePosition(data?.last_grammar_position));
       setDailyLimit(normalizeDailyLimit(data?.daily_review_limit));
+      setGrammarLimit(normalizeGrammarDailyLimit(data?.daily_grammar_review_limit));
     });
   }, [user]);
 
@@ -47,6 +99,13 @@ export default function HomePage() {
     if (!user) return;
     return onSnapshot(collection(db, 'users', user.uid, 'word_bookmarks'), (snap) => {
       setReviewItems(snap.docs.map((d) => normalizeReviewItem(d.id, d.data())));
+    });
+  }, [user]);
+
+  useEffect(() => {
+    if (!user) return;
+    return onSnapshot(collection(db, 'users', user.uid, 'grammar_bookmarks'), (snap) => {
+      setGrammarItems(snap.docs.map((d) => normalizeReviewItem(d.id, d.data())));
     });
   }, [user]);
 
@@ -75,8 +134,19 @@ export default function HomePage() {
     () => planToday(reviewItems, new Date(), dailyLimit),
     [reviewItems, dailyLimit, nowTick],
   );
+  const grammarPlan = useMemo(
+    () => planToday(grammarItems, new Date(), grammarLimit),
+    [grammarItems, grammarLimit, nowTick],
+  );
+
   const dueCount = plan.queue.length;
   const reviewedTodayCount = plan.reviewedToday;
+  const grammarDueCount = grammarPlan.queue.length;
+  const grammarReviewedToday = grammarPlan.reviewedToday;
+
+  // 復習マークが1件も無いモードはボタン自体を出さない（死んだボタンを並べないため）
+  const showWord = reviewItems.length > 0;
+  const showGrammar = grammarItems.length > 0;
 
   async function handleLogout() {
     await signOut(auth);
@@ -117,22 +187,33 @@ export default function HomePage() {
           </div>
         </div>
 
-        {/* ── 今日の復習（毎日最初に押すボタンなので最上段・大きめ） ── */}
-        {dueCount > 0 ? (
-          <Link
-            to="/review/today"
-            className="mb-4 block rounded-lg bg-sky-500 py-4 text-center text-xl font-bold text-white shadow hover:bg-sky-600 transition-colors"
-          >
-            今日の復習{'　'}{dueCount}問
-          </Link>
-        ) : reviewedTodayCount > 0 ? (
-          // やり切った日。もう一度やりたい人向けに練習モードへ繋ぐ（記録は動かない）
-          <Link
-            to="/review/today?mode=practice"
-            className="mb-4 block rounded-lg border-2 border-emerald-400 dark:border-emerald-600 py-4 text-center text-xl font-bold text-emerald-700 dark:text-emerald-300 hover:bg-emerald-50 dark:hover:bg-emerald-900/30 transition-colors"
-          >
-            今日の復習 完了！
-          </Link>
+        {/* ── 今日の復習（毎日最初に押すボタンなので最上段・大きめ） ──
+             復習マークがあるモードだけ出す。両方あれば1行を半分ずつ使うので行は増えない */}
+        {showWord || showGrammar ? (
+          <div className="mb-4 flex gap-3">
+            {showWord && (
+              <ReviewButton
+                to={dueCount > 0 ? '/review/today' : '/review/today?mode=practice'}
+                label="単語"
+                count={dueCount}
+                done={dueCount === 0 && reviewedTodayCount > 0}
+                compact={showGrammar}
+              />
+            )}
+            {showGrammar && (
+              <ReviewButton
+                to={
+                  grammarDueCount > 0
+                    ? '/review/today/grammar'
+                    : '/review/today/grammar?mode=practice'
+                }
+                label="文法"
+                count={grammarDueCount}
+                done={grammarDueCount === 0 && grammarReviewedToday > 0}
+                compact={showWord}
+              />
+            )}
+          </div>
         ) : (
           <p className="mb-4 text-center text-base text-gray-400 dark:text-gray-500">
             今日の復習はありません

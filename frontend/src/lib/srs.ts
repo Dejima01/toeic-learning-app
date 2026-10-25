@@ -20,8 +20,18 @@ export const MAX_BOX = BOX_INTERVALS_DAYS.length;
 /** 1日に出す問題数の既定値。設定で変更できる */
 export const DEFAULT_DAILY_REVIEW_LIMIT = 20;
 
-/** 設定で選べる1日の問題数 */
+/** 設定で選べる1日の問題数（単語） */
 export const DAILY_REVIEW_LIMIT_OPTIONS = [10, 20, 30, 40] as const;
+
+/**
+ * 文法の既定値。単語より少ないのは、1問あたりの所要時間が長いため
+ * （英文を読む→4択→解説を読む で30〜60秒。単語は10〜15秒）。
+ * 文法10問で単語20〜30問とおおよそ同じ時間になる。
+ */
+export const DEFAULT_GRAMMAR_REVIEW_LIMIT = 10;
+
+/** 設定で選べる1日の問題数（文法） */
+export const GRAMMAR_REVIEW_LIMIT_OPTIONS = [5, 10, 15, 20] as const;
 
 /** 設定値として妥当な数に丸める（未設定・壊れた値は既定値） */
 export function normalizeDailyLimit(value: unknown): number {
@@ -29,6 +39,14 @@ export function normalizeDailyLimit(value: unknown): number {
     (DAILY_REVIEW_LIMIT_OPTIONS as readonly number[]).includes(value)
     ? value
     : DEFAULT_DAILY_REVIEW_LIMIT;
+}
+
+/** 設定値として妥当な数に丸める（文法）*/
+export function normalizeGrammarDailyLimit(value: unknown): number {
+  return typeof value === 'number' &&
+    (GRAMMAR_REVIEW_LIMIT_OPTIONS as readonly number[]).includes(value)
+    ? value
+    : DEFAULT_GRAMMAR_REVIEW_LIMIT;
 }
 
 export type Grade = 'known' | 'unknown';
