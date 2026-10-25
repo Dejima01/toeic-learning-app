@@ -16,7 +16,7 @@ import { MainLayout } from '../components/MainLayout';
 import { HighlightedSentence } from '../components/HighlightedSentence';
 import type { WordQuestion } from '../types/word';
 import { translatePos, translateDerivPart } from '../types/word';
-import { normalizeReviewItem, selectDueQueue, selectReviewedOn, gradeItem } from '../lib/srs';
+import { normalizeReviewItem, planToday, selectReviewedOn, gradeItem, normalizeDailyLimit } from '../lib/srs';
 import type { Grade, ReviewItem } from '../lib/srs';
 
 type Phase = 'loading' | 'session' | 'roundEnd' | 'finished';
@@ -32,6 +32,8 @@ export default function ReviewSessionPage() {
 
   /** 最初に出した問題数（結果画面の分母） */
   const [initialCount, setInitialCount] = useState(0);
+  /** 今日の上限を超えて明日以降にまわる数（結果画面で知らせる） */
+  const [remainingForLaterDays, setRemainingForLaterDays] = useState(0);
 
   // ── ラウンド制 ──
   // 分母が途中で増えると不自然なので、間違えた問題はその場で挿し込まず次の周にまわす
@@ -53,10 +55,23 @@ export default function ReviewSessionPage() {
     let cancelled = false;
 
     (async () => {
-      const snap = await getDocs(collection(db, 'users', user.uid, 'word_bookmarks'));
+      const [snap, userSnap] = await Promise.all([
+        getDocs(collection(db, 'users', user.uid, 'word_bookmarks')),
+        getDoc(doc(db, 'users', user.uid)),
+      ]);
       const items = snap.docs.map((d) => normalizeReviewItem(d.id, d.data()));
       const now = new Date();
-      const target = isPractice ? selectReviewedOn(items, now) : selectDueQueue(items, now);
+      const dailyLimit = normalizeDailyLimit(userSnap.data()?.daily_review_limit);
+
+      let target;
+      if (isPractice) {
+        target = selectReviewedOn(items, now);
+        setRemainingForLaterDays(0);
+      } else {
+        const plan = planToday(items, now, dailyLimit);
+        target = plan.queue;
+        setRemainingForLaterDays(plan.remaining);
+      }
 
       const docs = await Promise.all(
         target.map((item) => getDoc(doc(db, 'word_questions', item.id))),
@@ -208,6 +223,11 @@ export default function ReviewSessionPage() {
               <p className="text-center text-base text-gray-500 dark:text-gray-400">
                 最初から覚えていました
               </p>
+              {remainingForLaterDays > 0 && (
+                <p className="text-center text-base text-gray-500 dark:text-gray-400">
+                  残り{remainingForLaterDays}問は明日以降に出ます
+                </p>
+              )}
             </>
           )}
           <Link

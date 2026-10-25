@@ -7,7 +7,7 @@ import { MainLayout } from '../components/MainLayout';
 import { useAuth } from '../contexts/AuthContext';
 import { parseResumePosition, resumePath } from '../lib/resumePosition';
 import type { ResumePosition } from '../lib/resumePosition';
-import { normalizeReviewItem, selectDueQueue, selectReviewedOn, nextMidnight } from '../lib/srs';
+import { normalizeReviewItem, planToday, nextMidnight, normalizeDailyLimit } from '../lib/srs';
 import type { ReviewItem } from '../lib/srs';
 
 type Badge = 'bronze' | 'silver' | 'gold' | null;
@@ -27,6 +27,7 @@ export default function HomePage() {
   const [reviewItems, setReviewItems] = useState<ReviewItem[]>([]);
   /** 日付をまたいだときに件数を数え直すためのトリガー */
   const [nowTick, setNowTick] = useState(0);
+  const [dailyLimit, setDailyLimit] = useState(normalizeDailyLimit(undefined));
 
   // Firestoreからバッジ・前回の続き位置をリアルタイム取得（同じドキュメントなので購読は1本）
   useEffect(() => {
@@ -37,6 +38,7 @@ export default function HomePage() {
       setBadge((data?.badge as Badge) ?? null);
       setWordResume(parseResumePosition(data?.last_word_position));
       setGrammarResume(parseResumePosition(data?.last_grammar_position));
+      setDailyLimit(normalizeDailyLimit(data?.daily_review_limit));
     });
   }, [user]);
 
@@ -67,15 +69,14 @@ export default function HomePage() {
     };
   }, [nowTick]);
 
-  // 期限が来ている件数と、今日すでに採点した件数
-  const { dueCount, reviewedTodayCount } = useMemo(() => {
-    const now = new Date();
-    return {
-      dueCount: selectDueQueue(reviewItems, now).length,
-      reviewedTodayCount: selectReviewedOn(reviewItems, now).length,
-    };
-    // nowTick は日付またぎで数え直すためのトリガー
-  }, [reviewItems, nowTick]);
+  // 今日出せる件数と、今日すでに採点した件数
+  // nowTick は日付またぎで数え直すためのトリガー
+  const plan = useMemo(
+    () => planToday(reviewItems, new Date(), dailyLimit),
+    [reviewItems, dailyLimit, nowTick],
+  );
+  const dueCount = plan.queue.length;
+  const reviewedTodayCount = plan.reviewedToday;
 
   async function handleLogout() {
     await signOut(auth);

@@ -17,8 +17,19 @@ export const BOX_INTERVALS_DAYS = [1, 3, 7, 14, 30] as const;
 /** 卒業までの箱の数 */
 export const MAX_BOX = BOX_INTERVALS_DAYS.length;
 
-/** 1回の「今日の復習」で出す上限。溢れた分は翌日以降にまわす */
-export const DAILY_REVIEW_LIMIT = 20;
+/** 1日に出す問題数の既定値。設定で変更できる */
+export const DEFAULT_DAILY_REVIEW_LIMIT = 20;
+
+/** 設定で選べる1日の問題数 */
+export const DAILY_REVIEW_LIMIT_OPTIONS = [10, 20, 30, 40] as const;
+
+/** 設定値として妥当な数に丸める（未設定・壊れた値は既定値） */
+export function normalizeDailyLimit(value: unknown): number {
+  return typeof value === 'number' &&
+    (DAILY_REVIEW_LIMIT_OPTIONS as readonly number[]).includes(value)
+    ? value
+    : DEFAULT_DAILY_REVIEW_LIMIT;
+}
 
 export type Grade = 'known' | 'unknown';
 
@@ -138,12 +149,57 @@ export function isDue(item: ReviewItem, now: Date): boolean {
 export function selectDueQueue(
   items: ReviewItem[],
   now: Date,
-  limit: number = DAILY_REVIEW_LIMIT,
+  limit: number = DEFAULT_DAILY_REVIEW_LIMIT,
 ): ReviewItem[] {
   return items
     .filter((item) => isDue(item, now))
     .sort((a, b) => a.dueAt.getTime() - b.dueAt.getTime())
     .slice(0, limit);
+}
+
+export interface TodayPlan {
+  /** 今から出せる分 */
+  queue: ReviewItem[];
+  /** 今日が期限（やり残しを含む）の総数 */
+  dueTotal: number;
+  /** 1日の上限を超えて明日以降にまわる数 */
+  remaining: number;
+  /** 今日すでに採点した数 */
+  reviewedToday: number;
+}
+
+/**
+ * その日に出す分を決める。
+ *
+ * 上限は「1回に出す数」ではなく「1日に出す数」。すでに今日採点した分を
+ * 差し引くので、上限に達したらその日はもう出てこない。溢れた分は期限が
+ * 来たまま残り、翌日以降に古い順から消化される。
+ *
+ * 注意: 箱5を卒業した単語はドキュメントごと消えるため reviewedToday に
+ * 含まれない。その分だけ上限を数問超えることがあるが実害はない。
+ */
+export function planToday(
+  items: ReviewItem[],
+  now: Date,
+  dailyLimit: number = DEFAULT_DAILY_REVIEW_LIMIT,
+): TodayPlan {
+  const reviewedToday = items.filter(
+    (item) => item.lastReviewedAt !== null && isSameDay(item.lastReviewedAt, now),
+  ).length;
+
+  const allowance = Math.max(0, dailyLimit - reviewedToday);
+  const due = items
+    .filter((item) => isDue(item, now))
+    .sort((a, b) => a.dueAt.getTime() - b.dueAt.getTime());
+
+  const queue = due.slice(0, allowance);
+
+  return {
+    queue,
+    dueTotal: due.length,
+    remaining: due.length - queue.length,
+    reviewedToday,
+  };
 }
 
 /** 採点して次の状態を出す */
