@@ -11,6 +11,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "accountable", "meaning": "責任を負うべき"}
+    ],
+    "similar_words": [
+      {"word": "be responsible for", "meaning": "〜に責任がある、〜を担当している"},
+      {"word": "liability", "meaning": "負債、責任"},
+      {"word": "compliance", "meaning": "遵守、法令順守"}
     ]
   },
   {
@@ -25,6 +30,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "transparent", "meaning": "透明な、明白な"}
+    ],
+    "similar_words": [
+      {"word": "description", "meaning": "説明、記述"},
+      {"word": "awareness", "meaning": "認知、意識"},
+      {"word": "explicit", "meaning": "明確な、明示的な"}
     ]
   },
   {
@@ -37,7 +47,12 @@
     "example_sentences": [
       {"sentence": "The company launched a new sustainability initiative this year.", "translation": "その会社は今年、新しい持続可能性への取り組みを開始しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "innovative", "meaning": "革新的な、独創的な"},
+      {"word": "rule", "meaning": "規則、ルール"},
+      {"word": "opportunity", "meaning": "機会、好機"}
+    ]
   },
   {
     "id": "q_word_750_054",
@@ -51,6 +66,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "strategic", "meaning": "戦略的な"}
+    ],
+    "similar_words": [
+      {"word": "strategic", "meaning": "戦略的な"},
+      {"word": "analysis", "meaning": "分析"},
+      {"word": "knowledge", "meaning": "知識"}
     ]
   },
   {
@@ -65,6 +85,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "strategy", "meaning": "戦略"}
+    ],
+    "similar_words": [
+      {"word": "strategy", "meaning": "戦略"},
+      {"word": "tactical", "meaning": "戦術的な、当面の"},
+      {"word": "knowledge", "meaning": "知識"}
     ]
   },
   {
@@ -79,6 +104,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "tactic", "meaning": "戦術、方策"}
+    ],
+    "similar_words": [
+      {"word": "strategic", "meaning": "戦略的な"},
+      {"word": "temporary", "meaning": "一時的な、臨時の"},
+      {"word": "pragmatic", "meaning": "現実的な、実用的な"}
     ]
   },
   {
@@ -91,7 +121,12 @@
     "example_sentences": [
       {"sentence": "The consultant prepared a comprehensive report on market trends.", "translation": "コンサルタントは市場動向に関する包括的な報告書を作成しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "encompass", "meaning": "包含する、含む"},
+      {"word": "thoroughly", "meaning": "徹底的に、完全に"},
+      {"word": "entire", "meaning": "全体の、全部の"}
+    ]
   },
   {
     "id": "q_word_750_058",
@@ -105,6 +140,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "extend", "meaning": "拡張する、延長する"}
+    ],
+    "similar_words": [
+      {"word": "substantial", "meaning": "かなりの、相当な"},
+      {"word": "expand", "meaning": "拡大する、拡張する"},
+      {"word": "extend", "meaning": "延長する、拡張する"}
     ]
   },
   {
@@ -119,6 +159,11 @@
     ],
     "derivatives": [
       {"part": "adv", "word": "substantially", "meaning": "かなり、実質的に"}
+    ],
+    "similar_words": [
+      {"word": "considerable", "meaning": "かなりの、相当な"},
+      {"word": "sufficient", "meaning": "十分な"},
+      {"word": "significant", "meaning": "重要な、著しい"}
     ]
   },
   {
@@ -133,6 +178,11 @@
     ],
     "derivatives": [
       {"part": "adv", "word": "subsequently", "meaning": "その後、続いて"}
+    ],
+    "similar_words": [
+      {"word": "thereafter", "meaning": "その後、それ以降"},
+      {"word": "additional", "meaning": "追加の、さらなる"},
+      {"word": "in the wake of", "meaning": "〜の後を受けて、〜に続いて"}
     ]
   },
   {
@@ -145,7 +195,12 @@
     "example_sentences": [
       {"sentence": "The preliminary results will be released next week.", "translation": "予備的な結果は来週公表される予定です。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "prior", "meaning": "事前の、前の"},
+      {"word": "provisional", "meaning": "暫定的な、仮の"},
+      {"word": "tentative", "meaning": "仮の、暫定的な"}
+    ]
   },
   {
     "id": "q_word_750_062",
@@ -159,6 +214,11 @@
     ],
     "derivatives": [
       {"part": "adv", "word": "tentatively", "meaning": "仮に、暫定的に"}
+    ],
+    "similar_words": [
+      {"word": "provisional", "meaning": "暫定的な、仮の"},
+      {"word": "temporary", "meaning": "一時的な、臨時の"},
+      {"word": "interim", "meaning": "暫定の、その間の"}
     ]
   },
   {
@@ -171,7 +231,12 @@
     "example_sentences": [
       {"sentence": "A provisional agreement was signed until the final contract is ready.", "translation": "最終契約が準備できるまで、暫定的な合意書に署名しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "tentative", "meaning": "仮の、暫定的な"},
+      {"word": "interim", "meaning": "暫定の、その間の"},
+      {"word": "temporary", "meaning": "一時的な、臨時の"}
+    ]
   },
   {
     "id": "q_word_750_064",
@@ -183,7 +248,12 @@
     "example_sentences": [
       {"sentence": "The company has a contingency plan in case of a power outage.", "translation": "その会社には停電に備えた緊急対応計画があります。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "contingent", "meaning": "〜次第の、条件付きの"},
+      {"word": "prepare", "meaning": "準備する、用意する"},
+      {"word": "urgent", "meaning": "緊急の、至急の"}
+    ]
   },
   {
     "id": "q_word_750_065",
@@ -197,6 +267,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "feasible", "meaning": "実現可能な"}
+    ],
+    "similar_words": [
+      {"word": "feasible", "meaning": "実現可能な"},
+      {"word": "viable", "meaning": "実行可能な、成り立つ"},
+      {"word": "pragmatic", "meaning": "現実的な、実用的な"}
     ]
   },
   {
@@ -211,6 +286,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "viability", "meaning": "実行可能性"}
+    ],
+    "similar_words": [
+      {"word": "feasible", "meaning": "実現可能な"},
+      {"word": "feasibility", "meaning": "実現可能性"},
+      {"word": "valid", "meaning": "有効な、正当な"}
     ]
   },
   {
@@ -223,7 +303,12 @@
     "example_sentences": [
       {"sentence": "The company entered a lucrative contract with a major retailer.", "translation": "その会社は大手小売業者と利益の多い契約を結びました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "profitable", "meaning": "利益になる、もうかる"},
+      {"word": "profit", "meaning": "利益、収益"},
+      {"word": "earn", "meaning": "稼ぐ、得る、獲得する"}
+    ]
   },
   {
     "id": "q_word_750_068",
@@ -237,6 +322,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "profit", "meaning": "利益"}
+    ],
+    "similar_words": [
+      {"word": "profit", "meaning": "利益、収益"},
+      {"word": "lucrative", "meaning": "利益の多い、儲かる"},
+      {"word": "earn", "meaning": "稼ぐ、得る、獲得する"}
     ]
   },
   {
@@ -249,7 +339,12 @@
     "example_sentences": [
       {"sentence": "Switching suppliers proved to be a cost-effective solution.", "translation": "仕入先の変更は費用対効果の高い解決策だと分かりました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "effective", "meaning": "効果的な、有効な"},
+      {"word": "efficient", "meaning": "効率的な、無駄のない"},
+      {"word": "cost", "meaning": "費用、原価、(費用が)かかる"}
+    ]
   },
   {
     "id": "q_word_750_070",
@@ -261,7 +356,12 @@
     "example_sentences": [
       {"sentence": "Working remotely helped the company reduce overhead costs.", "translation": "リモートワークの導入によりその会社は諸経費を削減できました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "cost", "meaning": "費用、原価、(費用が)かかる"},
+      {"word": "expense", "meaning": "費用、経費、支出"},
+      {"word": "budget", "meaning": "予算、経費"}
+    ]
   },
   {
     "id": "q_word_750_071",
@@ -273,7 +373,12 @@
     "example_sentences": [
       {"sentence": "The company's profit margin improved this quarter.", "translation": "その会社の利益率は今四半期に改善しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "marginal", "meaning": "わずかな、限界の"},
+      {"word": "profit", "meaning": "利益、収益"},
+      {"word": "reason", "meaning": "理由"}
+    ]
   },
   {
     "id": "q_word_750_072",
@@ -285,7 +390,12 @@
     "example_sentences": [
       {"sentence": "The team set a benchmark for customer satisfaction scores.", "translation": "チームは顧客満足度スコアの基準を設定しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "standard", "meaning": "基準、標準、標準的な"},
+      {"word": "metric", "meaning": "評価基準、指標"},
+      {"word": "baseline", "meaning": "基準線、基準値"}
+    ]
   },
   {
     "id": "q_word_750_073",
@@ -297,7 +407,12 @@
     "example_sentences": [
       {"sentence": "Reaching one million users was a major milestone for the app.", "translation": "ユーザー数100万人到達はそのアプリにとって大きな節目でした。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "achievement", "meaning": "業績、達成"},
+      {"word": "impediment", "meaning": "妨げ、障害"},
+      {"word": "goal", "meaning": "目標"}
+    ]
   },
   {
     "id": "q_word_750_074",
@@ -311,6 +426,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "deliver", "meaning": "届ける、納品する"}
+    ],
+    "similar_words": [
+      {"word": "item", "meaning": "品物、項目"},
+      {"word": "deliver", "meaning": "配達する、届ける、(スピーチを)行う"},
+      {"word": "outcome", "meaning": "結果、成果"}
     ]
   },
   {
@@ -325,6 +445,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "specify", "meaning": "明記する、指定する"}
+    ],
+    "similar_words": [
+      {"word": "description", "meaning": "説明、記述"},
+      {"word": "stipulate", "meaning": "規定する、明記する"},
+      {"word": "document", "meaning": "書類、文書"}
     ]
   },
   {
@@ -337,7 +462,12 @@
     "example_sentences": [
       {"sentence": "The engineers built a prototype to test the new design.", "translation": "技術者たちは新しい設計を試すため試作品を製作しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "experiment", "meaning": "実験"},
+      {"word": "product", "meaning": "製品、商品"},
+      {"word": "design", "meaning": "設計する、デザインする"}
+    ]
   },
   {
     "id": "q_word_750_077",
@@ -349,7 +479,12 @@
     "example_sentences": [
       {"sentence": "The company filed a patent for its new invention.", "translation": "その会社は新しい発明について特許を出願しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "license", "meaning": "免許、許可証"},
+      {"word": "copyright", "meaning": "著作権"},
+      {"word": "trademark", "meaning": "商標"}
+    ]
   },
   {
     "id": "q_word_750_078",
@@ -361,7 +496,12 @@
     "example_sentences": [
       {"sentence": "The logo is a registered trademark of the company.", "translation": "そのロゴはその会社の登録商標です。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "brand", "meaning": "ブランド、銘柄"},
+      {"word": "license", "meaning": "免許、許可証"},
+      {"word": "patent", "meaning": "特許、特許を取る"}
+    ]
   },
   {
     "id": "q_word_750_079",
@@ -373,7 +513,12 @@
     "example_sentences": [
       {"sentence": "The article is protected by copyright law.", "translation": "その記事は著作権法によって保護されています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "permission", "meaning": "許可"},
+      {"word": "license", "meaning": "免許、許可証"},
+      {"word": "copy", "meaning": "コピー、部、複写する"}
+    ]
   },
   {
     "id": "q_word_750_080",
@@ -385,7 +530,12 @@
     "example_sentences": [
       {"sentence": "The company takes intellectual property rights very seriously.", "translation": "その会社は知的財産権を非常に重視しています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "knowledge", "meaning": "知識"},
+      {"word": "information", "meaning": "情報"},
+      {"word": "professional", "meaning": "専門的な、プロの、専門家"}
+    ]
   },
   {
     "id": "q_word_750_081",
@@ -397,7 +547,12 @@
     "example_sentences": [
       {"sentence": "The company uses proprietary software developed in-house.", "translation": "その会社は自社開発の独自ソフトウェアを使用しています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "confidential", "meaning": "機密の、秘密の"},
+      {"word": "patent", "meaning": "特許、特許を取る"},
+      {"word": "copyright", "meaning": "著作権"}
+    ]
   },
   {
     "id": "q_word_750_082",
@@ -411,6 +566,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "confidentiality", "meaning": "機密性"}
+    ],
+    "similar_words": [
+      {"word": "confident", "meaning": "自信のある、確信している"},
+      {"word": "implicit", "meaning": "暗黙の、それとなく示された"},
+      {"word": "discreet", "meaning": "慎重な、思慮深い"}
     ]
   },
   {
@@ -425,6 +585,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "disclose", "meaning": "開示する、公表する"}
+    ],
+    "similar_words": [
+      {"word": "divulge", "meaning": "漏らす、暴露する"},
+      {"word": "announce", "meaning": "発表する、知らせる"},
+      {"word": "elucidate", "meaning": "解明する、明らかにする"}
     ]
   },
   {
@@ -439,6 +604,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "provide", "meaning": "提供する"}
+    ],
+    "similar_words": [
+      {"word": "provide", "meaning": "提供する、供給する"},
+      {"word": "supply", "meaning": "供給する、供給、備品"},
+      {"word": "clause", "meaning": "条項、箇条"}
     ]
   },
   {
@@ -453,6 +623,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "amend", "meaning": "改正する、修正する"}
+    ],
+    "similar_words": [
+      {"word": "revise", "meaning": "修正する、改訂する"},
+      {"word": "edit", "meaning": "編集する、校正する"},
+      {"word": "improve", "meaning": "改善する、向上させる"}
     ]
   },
   {
@@ -467,6 +642,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "arbitrate", "meaning": "仲裁する"}
+    ],
+    "similar_words": [
+      {"word": "arbitrary", "meaning": "恣意的な、任意の"},
+      {"word": "litigation", "meaning": "訴訟"},
+      {"word": "verdict", "meaning": "評決、判決"}
     ]
   },
   {
@@ -479,7 +659,12 @@
     "example_sentences": [
       {"sentence": "The company wants to avoid costly litigation if possible.", "translation": "その会社は可能であれば費用のかかる訴訟を避けたいと考えています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "plaintiff", "meaning": "原告"},
+      {"word": "liability", "meaning": "負債、責任"},
+      {"word": "law", "meaning": "法律"}
+    ]
   },
   {
     "id": "q_word_750_088",
@@ -493,6 +678,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "settle", "meaning": "解決する、和解する"}
+    ],
+    "similar_words": [
+      {"word": "negotiate", "meaning": "交渉する、話し合って決める"},
+      {"word": "payment", "meaning": "支払い、支払金"},
+      {"word": "litigation", "meaning": "訴訟"}
     ]
   },
   {
@@ -505,7 +695,12 @@
     "example_sentences": [
       {"sentence": "The plaintiff claimed the product caused injury.", "translation": "原告はその製品が負傷の原因になったと主張しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "defendant", "meaning": "被告"},
+      {"word": "litigation", "meaning": "訴訟"},
+      {"word": "law", "meaning": "法律"}
+    ]
   },
   {
     "id": "q_word_750_090",
@@ -517,7 +712,12 @@
     "example_sentences": [
       {"sentence": "The defendant denied all of the allegations in court.", "translation": "被告は法廷ですべての主張を否認しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "plaintiff", "meaning": "原告"},
+      {"word": "verdict", "meaning": "評決、判決"},
+      {"word": "litigation", "meaning": "訴訟"}
+    ]
   },
   {
     "id": "q_word_750_091",
@@ -529,7 +729,12 @@
     "example_sentences": [
       {"sentence": "The jury reached a verdict after three hours of deliberation.", "translation": "陪審員は3時間の審議の後、評決に達しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "decision", "meaning": "決定、決断"},
+      {"word": "decide", "meaning": "決める、決定する"},
+      {"word": "conclusion", "meaning": "結論、結末"}
+    ]
   },
   {
     "id": "q_word_750_092",
@@ -541,7 +746,12 @@
     "example_sentences": [
       {"sentence": "The new statute requires companies to disclose data breaches.", "translation": "新しい法令は企業に情報漏えいの開示を義務付けています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "law", "meaning": "法律"},
+      {"word": "rule", "meaning": "規則、ルール"},
+      {"word": "enact", "meaning": "制定する、施行する"}
+    ]
   },
   {
     "id": "q_word_750_093",
@@ -555,6 +765,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "mandatory", "meaning": "義務的な、必須の"}
+    ],
+    "similar_words": [
+      {"word": "mandatory", "meaning": "義務的な、必須の"},
+      {"word": "demand", "meaning": "需要、要求、要求する"},
+      {"word": "delegate", "meaning": "委任する、権限を委譲する"}
     ]
   },
   {
@@ -569,6 +784,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "enforcement", "meaning": "施行、強制"}
+    ],
+    "similar_words": [
+      {"word": "enact", "meaning": "制定する、施行する"},
+      {"word": "implement", "meaning": "実施する、導入する"},
+      {"word": "rule", "meaning": "規則、ルール"}
     ]
   },
   {
@@ -583,6 +803,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "infringement", "meaning": "侵害"}
+    ],
+    "similar_words": [
+      {"word": "breach", "meaning": "違反、契約違反、違反する"},
+      {"word": "patent", "meaning": "特許、特許を取る"},
+      {"word": "copyright", "meaning": "著作権"}
     ]
   },
   {
@@ -597,6 +822,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "waiver", "meaning": "権利放棄、免除"}
+    ],
+    "similar_words": [
+      {"word": "relinquish", "meaning": "放棄する、明け渡す"},
+      {"word": "avoid", "meaning": "避ける"},
+      {"word": "forfeit", "meaning": "没収される、失う"}
     ]
   },
   {
@@ -612,6 +842,11 @@
     "derivatives": [
       {"part": "noun", "word": "certificate", "meaning": "証明書"},
       {"part": "noun", "word": "certification", "meaning": "認定、証明"}
+    ],
+    "similar_words": [
+      {"word": "verify", "meaning": "確認する、証明する"},
+      {"word": "certificate", "meaning": "証明書、修了証"},
+      {"word": "authenticate", "meaning": "本物と証明する、認証する"}
     ]
   },
   {
@@ -626,6 +861,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "verification", "meaning": "確認、証明"}
+    ],
+    "similar_words": [
+      {"word": "confirm", "meaning": "確認する、確定する"},
+      {"word": "certify", "meaning": "証明する、認定する"},
+      {"word": "authenticate", "meaning": "本物と証明する、認証する"}
     ]
   },
   {
@@ -641,6 +881,11 @@
     "derivatives": [
       {"part": "noun", "word": "validation", "meaning": "検証、正当化"},
       {"part": "adj", "word": "valid", "meaning": "有効な"}
+    ],
+    "similar_words": [
+      {"word": "valid", "meaning": "有効な、正当な"},
+      {"word": "verify", "meaning": "確認する、証明する"},
+      {"word": "confirm", "meaning": "確認する、確定する"}
     ]
   },
   {
@@ -656,6 +901,11 @@
     "derivatives": [
       {"part": "noun", "word": "authentication", "meaning": "認証"},
       {"part": "adj", "word": "authentic", "meaning": "本物の"}
+    ],
+    "similar_words": [
+      {"word": "certify", "meaning": "証明する、認定する"},
+      {"word": "verify", "meaning": "確認する、証明する"},
+      {"word": "attest", "meaning": "証明する、証言する"}
     ]
   }
 ]

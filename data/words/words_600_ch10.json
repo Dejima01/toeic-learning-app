@@ -11,6 +11,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "accomplishment", "meaning": "達成、業績"}
+    ],
+    "similar_words": [
+      {"word": "achievement", "meaning": "業績、達成"},
+      {"word": "complete", "meaning": "完了する、記入する、完全な"},
+      {"word": "carry out", "meaning": "実行する、遂行する"}
     ]
   },
   {
@@ -25,6 +30,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "acquisition", "meaning": "買収、獲得"}
+    ],
+    "similar_words": [
+      {"word": "acquisition", "meaning": "買収、獲得"},
+      {"word": "purchase", "meaning": "購入する、購入(品)"},
+      {"word": "earn", "meaning": "稼ぐ、得る、獲得する"}
     ]
   },
   {
@@ -39,6 +49,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "adjustment", "meaning": "調整"}
+    ],
+    "similar_words": [
+      {"word": "arrange", "meaning": "手配する、調整する、並べる"},
+      {"word": "calibrate", "meaning": "調整する、較正する"},
+      {"word": "suitable", "meaning": "適した、ふさわしい"}
     ]
   },
   {
@@ -53,6 +68,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "admission", "meaning": "入場、承認"}
+    ],
+    "similar_words": [
+      {"word": "admission", "meaning": "入場料、入学、入場許可"},
+      {"word": "acknowledge", "meaning": "認める、承認する"},
+      {"word": "approve", "meaning": "承認する、賛成する"}
     ]
   },
   {
@@ -67,6 +87,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "adoption", "meaning": "採用、採択"}
+    ],
+    "similar_words": [
+      {"word": "hire", "meaning": "雇う、採用する"},
+      {"word": "approve", "meaning": "承認する、賛成する"},
+      {"word": "approval", "meaning": "承認、許可"}
     ]
   },
   {
@@ -81,6 +106,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "anticipation", "meaning": "予想、期待"}
+    ],
+    "similar_words": [
+      {"word": "foresee", "meaning": "予見する、見越す"},
+      {"word": "look forward to", "meaning": "〜を楽しみにする"},
+      {"word": "forecast", "meaning": "予測、予報"}
     ]
   },
   {
@@ -95,6 +125,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "apology", "meaning": "謝罪"}
+    ],
+    "similar_words": [
+      {"word": "reply", "meaning": "返信する、返事、回答"},
+      {"word": "acknowledge", "meaning": "認める、承認する"},
+      {"word": "repair", "meaning": "修理する、修理"}
     ]
   },
   {
@@ -109,6 +144,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "appreciation", "meaning": "感謝、評価"}
+    ],
+    "similar_words": [
+      {"word": "grateful", "meaning": "感謝している"},
+      {"word": "approve", "meaning": "承認する、賛成する"},
+      {"word": "acknowledge", "meaning": "認める、承認する"}
     ]
   },
   {
@@ -124,6 +164,11 @@
     "derivatives": [
       {"part": "noun", "word": "assistance", "meaning": "援助、支援"},
       {"part": "noun", "word": "assistant", "meaning": "アシスタント、助手"}
+    ],
+    "similar_words": [
+      {"word": "provide", "meaning": "提供する、供給する"},
+      {"word": "attend", "meaning": "出席する、参加する"},
+      {"word": "advise", "meaning": "助言する、忠告する"}
     ]
   },
   {
@@ -138,6 +183,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "assumption", "meaning": "想定、仮定"}
+    ],
+    "similar_words": [
+      {"word": "presume", "meaning": "推定する、想定する"},
+      {"word": "undertake", "meaning": "引き受ける、着手する"},
+      {"word": "assign", "meaning": "割り当てる、任命する"}
     ]
   },
   {
@@ -152,6 +202,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "assurance", "meaning": "保証、確約"}
+    ],
+    "similar_words": [
+      {"word": "confirm", "meaning": "確認する、確定する"},
+      {"word": "ascertain", "meaning": "確かめる、突き止める"},
+      {"word": "verify", "meaning": "確認する、証明する"}
     ]
   },
   {
@@ -164,7 +219,12 @@
     "example_sentences": [
       {"sentence": "Leave early to avoid heavy traffic on the highway.", "translation": "高速道路の渋滞を避けるために早めに出発してください。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "avert", "meaning": "回避する、防ぐ"},
+      {"word": "precaution", "meaning": "予防措置、用心"},
+      {"word": "arrive", "meaning": "到着する、届く"}
+    ]
   },
   {
     "id": "q_word_600_463",
@@ -178,6 +238,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "awareness", "meaning": "認識、意識"}
+    ],
+    "similar_words": [
+      {"word": "awareness", "meaning": "認知、意識"},
+      {"word": "knowledge", "meaning": "知識"},
+      {"word": "acknowledge", "meaning": "認める、承認する"}
     ]
   },
   {
@@ -192,6 +257,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "capability", "meaning": "能力"}
+    ],
+    "similar_words": [
+      {"word": "ability", "meaning": "能力、才能"},
+      {"word": "capacity", "meaning": "収容能力、生産能力"},
+      {"word": "potential", "meaning": "潜在的な、可能性のある"}
     ]
   },
   {
@@ -207,6 +277,11 @@
     "derivatives": [
       {"part": "noun", "word": "caution", "meaning": "用心、注意"},
       {"part": "adv", "word": "cautiously", "meaning": "慎重に"}
+    ],
+    "similar_words": [
+      {"word": "carefully", "meaning": "注意深く、慎重に"},
+      {"word": "prudent", "meaning": "賢明な、慎重な"},
+      {"word": "precaution", "meaning": "予防措置、用心"}
     ]
   },
   {
@@ -222,6 +297,11 @@
     "derivatives": [
       {"part": "noun", "word": "commitment", "meaning": "献身、約束"},
       {"part": "verb", "word": "commit", "meaning": "献身する、約束する"}
+    ],
+    "similar_words": [
+      {"word": "dedicated", "meaning": "献身的な、専念した、専用の"},
+      {"word": "enthusiastic", "meaning": "熱心な、意欲的な"},
+      {"word": "reliable", "meaning": "信頼できる、頼りになる"}
     ]
   },
   {
@@ -237,6 +317,11 @@
     "derivatives": [
       {"part": "noun", "word": "competition", "meaning": "競争"},
       {"part": "noun", "word": "competitor", "meaning": "競合他社"}
+    ],
+    "similar_words": [
+      {"word": "compare", "meaning": "比較する"},
+      {"word": "eager", "meaning": "熱望している、意欲的な"},
+      {"word": "enthusiastic", "meaning": "熱心な、意欲的な"}
     ]
   },
   {
@@ -251,6 +336,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "complicate", "meaning": "複雑にする"}
+    ],
+    "similar_words": [
+      {"word": "convoluted", "meaning": "複雑な、込み入った"},
+      {"word": "intricate", "meaning": "複雑な、入り組んだ"},
+      {"word": "cumbersome", "meaning": "扱いにくい、面倒な"}
     ]
   },
   {
@@ -265,6 +355,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "confidence", "meaning": "自信、確信"}
+    ],
+    "similar_words": [
+      {"word": "confirm", "meaning": "確認する、確定する"},
+      {"word": "optimistic", "meaning": "楽観的な"},
+      {"word": "convince", "meaning": "納得させる、確信させる"}
     ]
   },
   {
@@ -279,6 +374,11 @@
     ],
     "derivatives": [
       {"part": "adv", "word": "considerably", "meaning": "かなり、相当に"}
+    ],
+    "similar_words": [
+      {"word": "substantial", "meaning": "かなりの、相当な"},
+      {"word": "remarkable", "meaning": "注目すべき、著しい"},
+      {"word": "noteworthy", "meaning": "注目に値する、注目すべき"}
     ]
   },
   {
@@ -294,6 +394,11 @@
     "derivatives": [
       {"part": "noun", "word": "consistency", "meaning": "一貫性"},
       {"part": "adv", "word": "consistently", "meaning": "一貫して"}
+    ],
+    "similar_words": [
+      {"word": "coherent", "meaning": "首尾一貫した、筋の通った"},
+      {"word": "reliable", "meaning": "信頼できる、頼りになる"},
+      {"word": "durable", "meaning": "耐久性のある、丈夫な"}
     ]
   },
   {
@@ -306,7 +411,12 @@
     "example_sentences": [
       {"sentence": "Customer feedback is crucial to improving our products.", "translation": "顧客の意見は製品改善にとって極めて重要です。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "pivotal", "meaning": "極めて重要な、中心的な"},
+      {"word": "essential", "meaning": "不可欠な、必須の"},
+      {"word": "indispensable", "meaning": "不可欠な、なくてはならない"}
+    ]
   },
   {
     "id": "q_word_600_473",
@@ -321,6 +431,11 @@
     "derivatives": [
       {"part": "verb", "word": "dedicate", "meaning": "捧げる"},
       {"part": "noun", "word": "dedication", "meaning": "献身"}
+    ],
+    "similar_words": [
+      {"word": "committed", "meaning": "献身的な、専念している"},
+      {"word": "diligent", "meaning": "勤勉な、真面目な"},
+      {"word": "enthusiastic", "meaning": "熱心な、意欲的な"}
     ]
   },
   {
@@ -335,6 +450,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "delight", "meaning": "喜び"}
+    ],
+    "similar_words": [
+      {"word": "pleased", "meaning": "喜んでいる、満足している"},
+      {"word": "enthusiastic", "meaning": "熱心な、意欲的な"},
+      {"word": "approval", "meaning": "承認、許可"}
     ]
   },
   {
@@ -349,6 +469,11 @@
     ],
     "derivatives": [
       {"part": "adv", "word": "eagerly", "meaning": "熱心に"}
+    ],
+    "similar_words": [
+      {"word": "enthusiastic", "meaning": "熱心な、意欲的な"},
+      {"word": "urgent", "meaning": "緊急の、至急の"},
+      {"word": "optimistic", "meaning": "楽観的な"}
     ]
   },
   {
@@ -363,6 +488,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "enthusiasm", "meaning": "熱意"}
+    ],
+    "similar_words": [
+      {"word": "eager", "meaning": "熱望している、意欲的な"},
+      {"word": "optimistic", "meaning": "楽観的な"},
+      {"word": "committed", "meaning": "献身的な、専念している"}
     ]
   },
   {
@@ -377,6 +507,11 @@
     ],
     "derivatives": [
       {"part": "adv", "word": "essentially", "meaning": "本質的に"}
+    ],
+    "similar_words": [
+      {"word": "indispensable", "meaning": "不可欠な、なくてはならない"},
+      {"word": "imperative", "meaning": "必須の、緊急の"},
+      {"word": "crucial", "meaning": "極めて重要な、決定的な"}
     ]
   },
   {
@@ -391,6 +526,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "exception", "meaning": "例外"}
+    ],
+    "similar_words": [
+      {"word": "remarkable", "meaning": "注目すべき、著しい"},
+      {"word": "especially", "meaning": "特に、とりわけ"},
+      {"word": "anomaly", "meaning": "異常、例外的なもの"}
     ]
   },
   {
@@ -405,6 +545,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "familiarity", "meaning": "熟知、親しみ"}
+    ],
+    "similar_words": [
+      {"word": "experience", "meaning": "経験、経験する"},
+      {"word": "aware", "meaning": "気づいている、認識している"},
+      {"word": "proficient", "meaning": "熟達した、堪能な"}
     ]
   },
   {
@@ -419,6 +564,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "gratitude", "meaning": "感謝"}
+    ],
+    "similar_words": [
+      {"word": "appreciate", "meaning": "感謝する、正しく評価する"},
+      {"word": "gracious", "meaning": "上品な、寛大な、丁重な"},
+      {"word": "acknowledge", "meaning": "認める、承認する"}
     ]
   },
   {
@@ -433,6 +583,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "hesitation", "meaning": "ためらい"}
+    ],
+    "similar_words": [
+      {"word": "delay", "meaning": "遅延、遅れ、遅らせる"},
+      {"word": "decide", "meaning": "決める、決定する"},
+      {"word": "decision", "meaning": "決定、決断"}
     ]
   },
   {
@@ -448,6 +603,11 @@
     "derivatives": [
       {"part": "verb", "word": "impress", "meaning": "感銘を与える"},
       {"part": "noun", "word": "impression", "meaning": "印象"}
+    ],
+    "similar_words": [
+      {"word": "remarkable", "meaning": "注目すべき、著しい"},
+      {"word": "striking", "meaning": "著しい、印象的な"},
+      {"word": "impeccable", "meaning": "完璧な、非の打ちどころのない"}
     ]
   },
   {
@@ -462,6 +622,11 @@
     ],
     "derivatives": [
       {"part": "adv", "word": "initially", "meaning": "当初は"}
+    ],
+    "similar_words": [
+      {"word": "preliminary", "meaning": "予備の、事前の"},
+      {"word": "primary", "meaning": "主要な、第一の"},
+      {"word": "prior", "meaning": "事前の、前の"}
     ]
   },
   {
@@ -476,6 +641,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "innovation", "meaning": "革新"}
+    ],
+    "similar_words": [
+      {"word": "cutting-edge", "meaning": "最先端の"},
+      {"word": "enthusiastic", "meaning": "熱心な、意欲的な"},
+      {"word": "optimistic", "meaning": "楽観的な"}
     ]
   },
   {
@@ -488,7 +658,12 @@
     "example_sentences": [
       {"sentence": "Attendance at the safety briefing is mandatory for all staff.", "translation": "安全説明会への出席は全スタッフに義務付けられています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "obligatory", "meaning": "義務的な、必須の"},
+      {"word": "compulsory", "meaning": "義務的な、強制的な"},
+      {"word": "imperative", "meaning": "必須の、緊急の"}
+    ]
   },
   {
     "id": "q_word_600_486",
@@ -500,7 +675,12 @@
     "example_sentences": [
       {"sentence": "The company has received numerous awards for its products.", "translation": "その会社は自社製品で数多くの賞を受賞しています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "several", "meaning": "いくつかの、数個の"},
+      {"word": "various", "meaning": "さまざまな、多様な"},
+      {"word": "noteworthy", "meaning": "注目に値する、注目すべき"}
+    ]
   },
   {
     "id": "q_word_600_487",
@@ -512,7 +692,12 @@
     "example_sentences": [
       {"sentence": "She received an award for her outstanding performance.", "translation": "彼女は傑出した業績に対して賞を受け取りました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "remarkable", "meaning": "注目すべき、著しい"},
+      {"word": "exceptional", "meaning": "並外れた、非常に優れた"},
+      {"word": "noteworthy", "meaning": "注目に値する、注目すべき"}
+    ]
   },
   {
     "id": "q_word_600_488",
@@ -526,6 +711,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "please", "meaning": "喜ばせる"}
+    ],
+    "similar_words": [
+      {"word": "delighted", "meaning": "とても喜んでいる、うれしい"},
+      {"word": "approval", "meaning": "承認、許可"},
+      {"word": "grateful", "meaning": "感謝している"}
     ]
   },
   {
@@ -540,6 +730,11 @@
     ],
     "derivatives": [
       {"part": "adv", "word": "potentially", "meaning": "潜在的に"}
+    ],
+    "similar_words": [
+      {"word": "capable", "meaning": "能力がある、〜できる"},
+      {"word": "ability", "meaning": "能力、才能"},
+      {"word": "capacity", "meaning": "収容能力、生産能力"}
     ]
   },
   {
@@ -554,6 +749,11 @@
     ],
     "derivatives": [
       {"part": "adv", "word": "primarily", "meaning": "主に"}
+    ],
+    "similar_words": [
+      {"word": "mainly", "meaning": "主に、主として"},
+      {"word": "initial", "meaning": "最初の、当初の"},
+      {"word": "essential", "meaning": "不可欠な、必須の"}
     ]
   },
   {
@@ -566,7 +766,12 @@
     "example_sentences": [
       {"sentence": "Prior experience in retail is preferred for this job.", "translation": "この仕事には小売業での事前の経験があると望ましいです。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "previous", "meaning": "以前の、前の"},
+      {"word": "preliminary", "meaning": "予備の、事前の"},
+      {"word": "in advance", "meaning": "前もって、事前に"}
+    ]
   },
   {
     "id": "q_word_600_492",
@@ -581,6 +786,11 @@
     "derivatives": [
       {"part": "noun", "word": "profession", "meaning": "職業"},
       {"part": "adv", "word": "professionally", "meaning": "専門的に、プロらしく"}
+    ],
+    "similar_words": [
+      {"word": "proficient", "meaning": "熟達した、堪能な"},
+      {"word": "skill", "meaning": "技能、技術"},
+      {"word": "rule", "meaning": "規則、ルール"}
     ]
   },
   {
@@ -593,7 +803,12 @@
     "example_sentences": [
       {"sentence": "A prominent economist will speak at the conference.", "translation": "著名な経済学者がその会議で講演します。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "remarkable", "meaning": "注目すべき、著しい"},
+      {"word": "significant", "meaning": "重要な、著しい"},
+      {"word": "noteworthy", "meaning": "注目に値する、注目すべき"}
+    ]
   },
   {
     "id": "q_word_600_494",
@@ -607,6 +822,11 @@
     ],
     "derivatives": [
       {"part": "adv", "word": "promptly", "meaning": "迅速に"}
+    ],
+    "similar_words": [
+      {"word": "promptly", "meaning": "迅速に、時間どおりに"},
+      {"word": "immediately", "meaning": "ただちに、すぐに"},
+      {"word": "urgent", "meaning": "緊急の、至急の"}
     ]
   },
   {
@@ -621,6 +841,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "relevance", "meaning": "関連性"}
+    ],
+    "similar_words": [
+      {"word": "valid", "meaning": "有効な、正当な"},
+      {"word": "reliable", "meaning": "信頼できる、頼りになる"},
+      {"word": "suitable", "meaning": "適した、ふさわしい"}
     ]
   },
   {
@@ -636,6 +861,11 @@
     "derivatives": [
       {"part": "noun", "word": "significance", "meaning": "重要性"},
       {"part": "adv", "word": "significantly", "meaning": "著しく"}
+    ],
+    "similar_words": [
+      {"word": "remarkable", "meaning": "注目すべき、著しい"},
+      {"word": "noteworthy", "meaning": "注目に値する、注目すべき"},
+      {"word": "denote", "meaning": "示す、意味する"}
     ]
   },
   {
@@ -650,6 +880,11 @@
     ],
     "derivatives": [
       {"part": "adv", "word": "sufficiently", "meaning": "十分に"}
+    ],
+    "similar_words": [
+      {"word": "substantial", "meaning": "かなりの、相当な"},
+      {"word": "suitable", "meaning": "適した、ふさわしい"},
+      {"word": "additional", "meaning": "追加の、さらなる"}
     ]
   },
   {
@@ -664,6 +899,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "suit", "meaning": "適する"}
+    ],
+    "similar_words": [
+      {"word": "reliable", "meaning": "信頼できる、頼りになる"},
+      {"word": "convenient", "meaning": "便利な、都合のよい"},
+      {"word": "relevant", "meaning": "関連のある、妥当な"}
     ]
   },
   {
@@ -678,6 +918,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "urgency", "meaning": "緊急性"}
+    ],
+    "similar_words": [
+      {"word": "imperative", "meaning": "必須の、緊急の"},
+      {"word": "immediately", "meaning": "ただちに、すぐに"},
+      {"word": "as soon as possible", "meaning": "できるだけ早く"}
     ]
   },
   {
@@ -692,6 +937,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "willingness", "meaning": "自発性、意欲"}
+    ],
+    "similar_words": [
+      {"word": "approval", "meaning": "承認、許可"},
+      {"word": "approve", "meaning": "承認する、賛成する"},
+      {"word": "agreement", "meaning": "合意、契約、同意"}
     ]
   }
 ]

@@ -9,7 +9,12 @@
     "example_sentences": [
       {"sentence": "The offer comes with one caveat: it expires at the end of the month.", "translation": "その提案には一つ注意事項があります。月末に期限切れになるということです。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "cautious", "meaning": "慎重な、用心深い"},
+      {"word": "carefully", "meaning": "注意深く、慎重に"},
+      {"word": "precaution", "meaning": "予防措置、用心"}
+    ]
   },
   {
     "id": "q_word_900_152",
@@ -21,7 +26,12 @@
     "example_sentences": [
       {"sentence": "The company exploited a loophole in the tax code.", "translation": "その会社は税法の抜け穴を利用しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "rule", "meaning": "規則、ルール"},
+      {"word": "law", "meaning": "法律"},
+      {"word": "amendment", "meaning": "改正、修正"}
+    ]
   },
   {
     "id": "q_word_900_153",
@@ -33,7 +43,12 @@
     "example_sentences": [
       {"sentence": "The consultant warned us about common pitfalls in contract negotiations.", "translation": "コンサルタントは契約交渉によくある落とし穴について警告してくれました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "hazard", "meaning": "危険、危険要因"},
+      {"word": "avoid", "meaning": "避ける"},
+      {"word": "problem", "meaning": "問題"}
+    ]
   },
   {
     "id": "q_word_900_154",
@@ -45,7 +60,12 @@
     "example_sentences": [
       {"sentence": "The manager was in a quandary over which candidate to hire.", "translation": "マネージャーはどちらの候補者を採用するか板挟みの状態でした。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "conundrum", "meaning": "難問、謎"},
+      {"word": "predicament", "meaning": "苦境、窮地"},
+      {"word": "problem", "meaning": "問題"}
+    ]
   },
   {
     "id": "q_word_900_155",
@@ -57,7 +77,12 @@
     "example_sentences": [
       {"sentence": "The company found itself in a difficult predicament after the recall.", "translation": "その会社はリコールの後、厳しい苦境に立たされました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "problem", "meaning": "問題"},
+      {"word": "quandary", "meaning": "板挟み、ジレンマ"},
+      {"word": "conundrum", "meaning": "難問、謎"}
+    ]
   },
   {
     "id": "q_word_900_156",
@@ -69,7 +94,12 @@
     "example_sentences": [
       {"sentence": "Balancing cost and quality remains a conundrum for the design team.", "translation": "コストと品質のバランスは設計チームにとって依然として難問です。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "problem", "meaning": "問題"},
+      {"word": "quandary", "meaning": "板挟み、ジレンマ"},
+      {"word": "conclusion", "meaning": "結論、結末"}
+    ]
   },
   {
     "id": "q_word_900_157",
@@ -81,7 +111,12 @@
     "example_sentences": [
       {"sentence": "The policy change had far-reaching ramifications for small businesses.", "translation": "その方針変更は中小企業に広範囲な影響を及ぼしました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "repercussion", "meaning": "反響、影響"},
+      {"word": "effect", "meaning": "効果、影響"},
+      {"word": "aftermath", "meaning": "余波、後始末"}
+    ]
   },
   {
     "id": "q_word_900_158",
@@ -93,7 +128,12 @@
     "example_sentences": [
       {"sentence": "The scandal had serious repercussions for the company's reputation.", "translation": "その不祥事はその会社の評判に深刻な影響を及ぼしました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "effect", "meaning": "効果、影響"},
+      {"word": "ramification", "meaning": "影響、波及効果"},
+      {"word": "aftermath", "meaning": "余波、後始末"}
+    ]
   },
   {
     "id": "q_word_900_159",
@@ -105,7 +145,12 @@
     "example_sentences": [
       {"sentence": "In the aftermath of the merger, several employees were reassigned.", "translation": "合併の余波を受けて、数名の従業員が配置転換されました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "thereafter", "meaning": "その後、それ以降"},
+      {"word": "in the wake of", "meaning": "〜の後を受けて、〜に続いて"},
+      {"word": "repercussion", "meaning": "反響、影響"}
+    ]
   },
   {
     "id": "q_word_900_160",
@@ -117,7 +162,12 @@
     "example_sentences": [
       {"sentence": "Sales typically rise at the onset of the holiday season.", "translation": "売上は通常、休暇シーズンの始まりに上昇します。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "outset", "meaning": "始め、当初"},
+      {"word": "commence", "meaning": "開始する"},
+      {"word": "cause", "meaning": "原因、引き起こす"}
+    ]
   },
   {
     "id": "q_word_900_161",
@@ -129,7 +179,12 @@
     "example_sentences": [
       {"sentence": "The company has grown steadily since its inception in 2005.", "translation": "その会社は2005年の設立以来、着実に成長してきました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "commence", "meaning": "開始する"},
+      {"word": "initial", "meaning": "最初の、当初の"},
+      {"word": "create", "meaning": "創造する、作り出す"}
+    ]
   },
   {
     "id": "q_word_900_162",
@@ -141,7 +196,12 @@
     "example_sentences": [
       {"sentence": "The goals were clearly defined at the outset of the project.", "translation": "そのプロジェクトの当初に目標が明確に定められました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "onset", "meaning": "始まり、発症"},
+      {"word": "outcome", "meaning": "結果、成果"},
+      {"word": "initial", "meaning": "最初の、当初の"}
+    ]
   },
   {
     "id": "q_word_900_163",
@@ -153,7 +213,12 @@
     "example_sentences": [
       {"sentence": "At this juncture, we cannot confirm the launch date.", "translation": "現時点では発売日を確定することはできません。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "opportunity", "meaning": "機会、好機"},
+      {"word": "condition", "meaning": "条件、状態"},
+      {"word": "decision", "meaning": "決定、決断"}
+    ]
   },
   {
     "id": "q_word_900_164",
@@ -165,7 +230,12 @@
     "example_sentences": [
       {"sentence": "The court ruling set a precedent for future cases.", "translation": "その判決は今後の案件に対する先例となりました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "previous", "meaning": "以前の、前の"},
+      {"word": "rule", "meaning": "規則、ルール"},
+      {"word": "prior", "meaning": "事前の、前の"}
+    ]
   },
   {
     "id": "q_word_900_165",
@@ -177,7 +247,12 @@
     "example_sentences": [
       {"sentence": "Setting the final price is the manager's prerogative.", "translation": "最終価格を決定するのはマネージャーの裁量権です。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "jurisdiction", "meaning": "管轄権、権限"},
+      {"word": "permission", "meaning": "許可"},
+      {"word": "discretion", "meaning": "裁量、判断"}
+    ]
   },
   {
     "id": "q_word_900_166",
@@ -191,6 +266,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "discreet", "meaning": "慎重な"}
+    ],
+    "similar_words": [
+      {"word": "discretionary", "meaning": "任意の、裁量による"},
+      {"word": "decision", "meaning": "決定、決断"},
+      {"word": "discreet", "meaning": "慎重な、思慮深い"}
     ]
   },
   {
@@ -203,7 +283,12 @@
     "example_sentences": [
       {"sentence": "The dispute falls outside the jurisdiction of the local court.", "translation": "その紛争は地方裁判所の管轄外です。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "permission", "meaning": "許可"},
+      {"word": "prerogative", "meaning": "特権、裁量権"},
+      {"word": "rule", "meaning": "規則、ルール"}
+    ]
   },
   {
     "id": "q_word_900_168",
@@ -215,7 +300,12 @@
     "example_sentences": [
       {"sentence": "The government introduced austerity measures to reduce the deficit.", "translation": "政府は赤字削減のため緊縮策を導入しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "frugal", "meaning": "倹約な、質素な"},
+      {"word": "thrifty", "meaning": "倹約な、節約家の"},
+      {"word": "sustainability", "meaning": "持続可能性"}
+    ]
   },
   {
     "id": "q_word_900_169",
@@ -227,7 +317,12 @@
     "example_sentences": [
       {"sentence": "The company received a windfall from the unexpected contract.", "translation": "その会社は予期せぬ契約から思いがけない利益を得ました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "pitfall", "meaning": "落とし穴、思わぬ危険"},
+      {"word": "opportunity", "meaning": "機会、好機"},
+      {"word": "profit", "meaning": "利益、収益"}
+    ]
   },
   {
     "id": "q_word_900_170",
@@ -239,7 +334,12 @@
     "example_sentences": [
       {"sentence": "Employees can choose to receive their bonus as a lump sum.", "translation": "従業員はボーナスを一括で受け取ることを選べます。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "payment", "meaning": "支払い、支払金"},
+      {"word": "payroll", "meaning": "給与支払名簿、給与総額"},
+      {"word": "paycheck", "meaning": "給料、給与支払小切手"}
+    ]
   },
   {
     "id": "q_word_900_171",
@@ -251,7 +351,12 @@
     "example_sentences": [
       {"sentence": "The bank required property as collateral for the loan.", "translation": "銀行はそのローンの担保として不動産を求めました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "liability", "meaning": "負債、責任"},
+      {"word": "mortgage", "meaning": "住宅ローン、抵当"},
+      {"word": "asset", "meaning": "資産"}
+    ]
   },
   {
     "id": "q_word_900_172",
@@ -265,6 +370,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "bankrupt", "meaning": "破産した"}
+    ],
+    "similar_words": [
+      {"word": "liquidation", "meaning": "清算、廃業処分"},
+      {"word": "liability", "meaning": "負債、責任"},
+      {"word": "broken", "meaning": "壊れた、故障した"}
     ]
   },
   {
@@ -279,6 +389,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "liquidate", "meaning": "清算する"}
+    ],
+    "similar_words": [
+      {"word": "bankruptcy", "meaning": "破産、倒産"},
+      {"word": "disposal", "meaning": "処分、廃棄"},
+      {"word": "depreciation", "meaning": "減価償却、価値の下落"}
     ]
   },
   {
@@ -293,6 +408,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "depreciate", "meaning": "価値が下がる"}
+    ],
+    "similar_words": [
+      {"word": "deteriorate", "meaning": "悪化する"},
+      {"word": "decrease", "meaning": "減少する、減らす"},
+      {"word": "damage", "meaning": "損傷、被害、損害を与える"}
     ]
   },
   {
@@ -307,6 +427,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "amortize", "meaning": "償却する"}
+    ],
+    "similar_words": [
+      {"word": "depreciation", "meaning": "減価償却、価値の下落"},
+      {"word": "mortgage", "meaning": "住宅ローン、抵当"},
+      {"word": "asset", "meaning": "資産"}
     ]
   },
   {
@@ -321,6 +446,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "value", "meaning": "評価する"}
+    ],
+    "similar_words": [
+      {"word": "appraisal", "meaning": "評価、査定"},
+      {"word": "assessment", "meaning": "評価、査定"},
+      {"word": "evaluate", "meaning": "評価する"}
     ]
   },
   {
@@ -333,7 +463,12 @@
     "example_sentences": [
       {"sentence": "The tenant was several months in arrears on rent.", "translation": "その入居者は家賃を数か月滞納していました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "delinquent", "meaning": "滞納した、非行の"},
+      {"word": "overdue", "meaning": "期限切れの、支払いが遅れた"},
+      {"word": "owe", "meaning": "借りがある、支払う義務がある"}
+    ]
   },
   {
     "id": "q_word_900_178",
@@ -345,7 +480,12 @@
     "example_sentences": [
       {"sentence": "The company was at risk of default on its loan payments.", "translation": "その会社はローンの返済で債務不履行に陥る危険がありました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "defect", "meaning": "欠陥、不良"},
+      {"word": "liability", "meaning": "負債、責任"},
+      {"word": "delinquent", "meaning": "滞納した、非行の"}
+    ]
   },
   {
     "id": "q_word_900_179",
@@ -359,6 +499,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "delinquency", "meaning": "滞納、非行"}
+    ],
+    "similar_words": [
+      {"word": "overdue", "meaning": "期限切れの、支払いが遅れた"},
+      {"word": "negligent", "meaning": "怠慢な、不注意な"},
+      {"word": "arrears", "meaning": "滞納金、未払い金"}
     ]
   },
   {
@@ -371,7 +516,12 @@
     "example_sentences": [
       {"sentence": "Many companies cut jobs during the recession.", "translation": "多くの企業が景気後退の間に人員を削減しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "downturn", "meaning": "下降、悪化"},
+      {"word": "bankruptcy", "meaning": "破産、倒産"},
+      {"word": "decrease", "meaning": "減少する、減らす"}
+    ]
   },
   {
     "id": "q_word_900_181",
@@ -383,7 +533,12 @@
     "example_sentences": [
       {"sentence": "The industry experienced a sharp downturn last year.", "translation": "その業界は昨年、急激な下降を経験しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "recession", "meaning": "景気後退"},
+      {"word": "deteriorate", "meaning": "悪化する"},
+      {"word": "plummet", "meaning": "急落する"}
+    ]
   },
   {
     "id": "q_word_900_182",
@@ -395,7 +550,12 @@
     "example_sentences": [
       {"sentence": "Economists predict an upturn in consumer spending next quarter.", "translation": "エコノミストたちは来四半期の個人消費の好転を予測しています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "soar", "meaning": "急騰する、急上昇する"},
+      {"word": "turnaround", "meaning": "処理時間、方向転換"},
+      {"word": "rebound", "meaning": "回復する、持ち直す"}
+    ]
   },
   {
     "id": "q_word_900_183",
@@ -409,6 +569,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "volatile", "meaning": "不安定な"}
+    ],
+    "similar_words": [
+      {"word": "fluctuate", "meaning": "変動する"},
+      {"word": "turmoil", "meaning": "混乱、動揺"},
+      {"word": "upheaval", "meaning": "大変動、激変"}
     ]
   },
   {
@@ -421,7 +586,12 @@
     "example_sentences": [
       {"sentence": "The industry has been in turmoil since the new regulations took effect.", "translation": "その業界は新しい規制が施行されて以来、混乱状態にあります。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "upheaval", "meaning": "大変動、激変"},
+      {"word": "volatility", "meaning": "変動性、不安定さ"},
+      {"word": "problem", "meaning": "問題"}
+    ]
   },
   {
     "id": "q_word_900_185",
@@ -433,7 +603,12 @@
     "example_sentences": [
       {"sentence": "The merger caused significant upheaval within the organization.", "translation": "その合併は組織内に大きな激変をもたらしました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "turmoil", "meaning": "混乱、動揺"},
+      {"word": "volatility", "meaning": "変動性、不安定さ"},
+      {"word": "fluctuate", "meaning": "変動する"}
+    ]
   },
   {
     "id": "q_word_900_186",
@@ -447,6 +622,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "synergistic", "meaning": "相乗的な"}
+    ],
+    "similar_words": [
+      {"word": "effect", "meaning": "効果、影響"},
+      {"word": "effective", "meaning": "効果的な、有効な"},
+      {"word": "skill", "meaning": "技能、技術"}
     ]
   },
   {
@@ -459,7 +639,12 @@
     "example_sentences": [
       {"sentence": "Larger factories can achieve economies of scale that smaller ones cannot.", "translation": "大規模な工場は小規模な工場にはない規模の経済を実現できます。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "cost-effective", "meaning": "費用対効果の高い"},
+      {"word": "utilization", "meaning": "利用、活用"},
+      {"word": "expense", "meaning": "費用、経費、支出"}
+    ]
   },
   {
     "id": "q_word_900_188",
@@ -471,7 +656,12 @@
     "example_sentences": [
       {"sentence": "The firm conducted due diligence before finalizing the acquisition.", "translation": "その会社は買収を確定する前にデューデリジェンスを実施しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "diligent", "meaning": "勤勉な、真面目な"},
+      {"word": "investigate", "meaning": "調査する"},
+      {"word": "audit", "meaning": "監査、監査する"}
+    ]
   },
   {
     "id": "q_word_900_189",
@@ -483,7 +673,12 @@
     "example_sentences": [
       {"sentence": "As a rule of thumb, save at least 20 percent of your income.", "translation": "経験則として、収入の少なくとも20パーセントは貯蓄すべきです。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "rule", "meaning": "規則、ルール"},
+      {"word": "estimate", "meaning": "見積もり、見積もる、推定する"},
+      {"word": "guideline", "meaning": "指針、ガイドライン"}
+    ]
   },
   {
     "id": "q_word_900_190",
@@ -495,7 +690,12 @@
     "example_sentences": [
       {"sentence": "In light of recent events, the meeting has been postponed.", "translation": "最近の出来事を考慮し、会議は延期されました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "with regard to", "meaning": "〜に関して"},
+      {"word": "according to", "meaning": "〜によれば、〜に従って"},
+      {"word": "accordingly", "meaning": "それに応じて、したがって"}
+    ]
   },
   {
     "id": "q_word_900_191",
@@ -507,7 +707,12 @@
     "example_sentences": [
       {"sentence": "With regard to your inquiry, we will respond within 48 hours.", "translation": "お問い合わせに関しては、48時間以内にご返答いたします。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "in light of", "meaning": "〜を考慮して、〜に鑑みて"},
+      {"word": "according to", "meaning": "〜によれば、〜に従って"},
+      {"word": "relevant", "meaning": "関連のある、妥当な"}
+    ]
   },
   {
     "id": "q_word_900_192",
@@ -519,7 +724,12 @@
     "example_sentences": [
       {"sentence": "Employees received extra vacation days in lieu of a bonus this year.", "translation": "今年、社員はボーナスの代わりに追加の休暇日を受け取りました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "instead of", "meaning": "〜の代わりに"},
+      {"word": "replace", "meaning": "取り替える、交換する、代わりを務める"},
+      {"word": "in light of", "meaning": "〜を考慮して、〜に鑑みて"}
+    ]
   },
   {
     "id": "q_word_900_193",
@@ -531,7 +741,12 @@
     "example_sentences": [
       {"sentence": "The company was on the verge of bankruptcy before the buyout.", "translation": "その会社は買収前、破産寸前でした。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "imminent", "meaning": "差し迫った、今にも起こりそうな"},
+      {"word": "nearly", "meaning": "ほとんど、もう少しで"},
+      {"word": "abrupt", "meaning": "突然の、急な"}
+    ]
   },
   {
     "id": "q_word_900_194",
@@ -543,7 +758,12 @@
     "example_sentences": [
       {"sentence": "In the wake of the scandal, several executives resigned.", "translation": "その不祥事の後を受けて、数名の重役が辞任しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "aftermath", "meaning": "余波、後始末"},
+      {"word": "thereafter", "meaning": "その後、それ以降"},
+      {"word": "subsequent", "meaning": "その後の、続く"}
+    ]
   },
   {
     "id": "q_word_900_195",
@@ -555,7 +775,12 @@
     "example_sentences": [
       {"sentence": "The company's reputation is at stake if the recall is mishandled.", "translation": "リコール対応を誤れば、その会社の評判が危機に瀕します。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "predicament", "meaning": "苦境、窮地"},
+      {"word": "hazard", "meaning": "危険、危険要因"},
+      {"word": "crucial", "meaning": "極めて重要な、決定的な"}
+    ]
   },
   {
     "id": "q_word_900_196",
@@ -567,7 +792,12 @@
     "example_sentences": [
       {"sentence": "The consultant has a full research team at her disposal.", "translation": "そのコンサルタントは研究チーム全体を自由に使うことができます。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "arbitrary", "meaning": "恣意的な、任意の"},
+      {"word": "available", "meaning": "利用できる、入手可能な、手が空いている"},
+      {"word": "disposal", "meaning": "処分、廃棄"}
+    ]
   },
   {
     "id": "q_word_900_197",
@@ -579,7 +809,12 @@
     "example_sentences": [
       {"sentence": "By and large, the new policy has been well received by employees.", "translation": "概して、新しい方針は社員に好意的に受け止められています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "mostly", "meaning": "たいていは、大部分は"},
+      {"word": "across the board", "meaning": "全面的に、一律に"},
+      {"word": "nevertheless", "meaning": "それにもかかわらず、それでも"}
+    ]
   },
   {
     "id": "q_word_900_198",
@@ -591,7 +826,12 @@
     "example_sentences": [
       {"sentence": "The new model's performance is on a par with its top competitors.", "translation": "その新モデルの性能は主要な競合製品に匹敵しています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "compare", "meaning": "比較する"},
+      {"word": "whereas", "meaning": "〜である一方、それに対して"},
+      {"word": "participate in", "meaning": "〜に参加する"}
+    ]
   },
   {
     "id": "q_word_900_199",
@@ -603,7 +843,12 @@
     "example_sentences": [
       {"sentence": "To date, the company has opened twelve new stores this year.", "translation": "これまでのところ、その会社は今年12店舗を新規開店しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "as of", "meaning": "〜時点で、〜付けで"},
+      {"word": "up to date", "meaning": "最新の、最新情報に合わせて"},
+      {"word": "currently", "meaning": "現在、今のところ"}
+    ]
   },
   {
     "id": "q_word_900_200",
@@ -615,6 +860,11 @@
     "example_sentences": [
       {"sentence": "The company implemented a five percent salary increase across the board.", "translation": "その会社は全社員一律で5パーセントの昇給を実施しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "thoroughly", "meaning": "徹底的に、完全に"},
+      {"word": "comprehensive", "meaning": "包括的な、総合的な"},
+      {"word": "with regard to", "meaning": "〜に関して"}
+    ]
   }
 ]

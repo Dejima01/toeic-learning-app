@@ -9,7 +9,12 @@
     "example_sentences": [
       {"sentence": "The company's workforce has grown by 20 percent this year.", "translation": "その会社の従業員数は今年20パーセント増加しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "employee", "meaning": "従業員、社員"},
+      {"word": "personnel", "meaning": "人員、職員"},
+      {"word": "staff", "meaning": "職員、スタッフ"}
+    ]
   },
   {
     "id": "q_word_750_102",
@@ -21,7 +26,12 @@
     "example_sentences": [
       {"sentence": "Only authorized personnel are allowed in this area.", "translation": "この区域には許可を得た職員のみ立ち入ることができます。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "staff", "meaning": "職員、スタッフ"},
+      {"word": "employee", "meaning": "従業員、社員"},
+      {"word": "workforce", "meaning": "労働力、従業員全体"}
+    ]
   },
   {
     "id": "q_word_750_103",
@@ -33,7 +43,12 @@
     "example_sentences": [
       {"sentence": "Employee turnover decreased after the new benefits were introduced.", "translation": "新しい福利厚生の導入後、従業員の離職率は下がりました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "revenue", "meaning": "収益、売上高、歳入"},
+      {"word": "sale", "meaning": "販売、セール、特売"},
+      {"word": "income", "meaning": "収入、所得"}
+    ]
   },
   {
     "id": "q_word_750_104",
@@ -45,7 +60,12 @@
     "example_sentences": [
       {"sentence": "The department plans to reduce staff through attrition rather than layoffs.", "translation": "その部門は解雇ではなく自然減によって人員を削減する計画です。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "turnover", "meaning": "離職率、総売上高"},
+      {"word": "retention", "meaning": "維持、引き留め"},
+      {"word": "attendance", "meaning": "出席、出席者数"}
+    ]
   },
   {
     "id": "q_word_750_105",
@@ -59,6 +79,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "retain", "meaning": "維持する、引き留める"}
+    ],
+    "similar_words": [
+      {"word": "retain", "meaning": "維持する、保持する、引き留める"},
+      {"word": "withhold", "meaning": "差し控える、保留する"},
+      {"word": "delay", "meaning": "遅延、遅れ、遅らせる"}
     ]
   },
   {
@@ -71,7 +96,12 @@
     "example_sentences": [
       {"sentence": "The onboarding process for new hires takes about a week.", "translation": "新入社員の受け入れ研修には約1週間かかります。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "training", "meaning": "研修、訓練"},
+      {"word": "train", "meaning": "訓練する、研修する"},
+      {"word": "intern", "meaning": "インターン、研修生"}
+    ]
   },
   {
     "id": "q_word_750_107",
@@ -83,7 +113,12 @@
     "example_sentences": [
       {"sentence": "All new employees must attend an orientation session on their first day.", "translation": "新入社員は全員、初日にオリエンテーションに出席しなければなりません。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "direction", "meaning": "方向、道順、指示"},
+      {"word": "route", "meaning": "経路、道筋、路線"},
+      {"word": "destination", "meaning": "目的地、行き先"}
+    ]
   },
   {
     "id": "q_word_750_108",
@@ -97,6 +132,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "appraise", "meaning": "評価する、査定する"}
+    ],
+    "similar_words": [
+      {"word": "assessment", "meaning": "評価、査定"},
+      {"word": "valuation", "meaning": "評価額、査定"},
+      {"word": "evaluate", "meaning": "評価する"}
     ]
   },
   {
@@ -111,6 +151,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "promote", "meaning": "昇進させる、促進する"}
+    ],
+    "similar_words": [
+      {"word": "promote", "meaning": "昇進させる、促進する、宣伝する"},
+      {"word": "advertisement", "meaning": "広告、宣伝"},
+      {"word": "publicity", "meaning": "宣伝、広報、知名度"}
     ]
   },
   {
@@ -123,7 +168,12 @@
     "example_sentences": [
       {"sentence": "The company offers incentives for employees who exceed their targets.", "translation": "その会社は目標を上回った社員に奨励金を支給しています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "encourage", "meaning": "励ます、促す、奨励する"},
+      {"word": "scholarship", "meaning": "奨学金"},
+      {"word": "bonus", "meaning": "賞与、ボーナス、特典"}
+    ]
   },
   {
     "id": "q_word_750_111",
@@ -135,7 +185,12 @@
     "example_sentences": [
       {"sentence": "Free lunches are one of the perks of working here.", "translation": "無料の昼食はここで働く役得の一つです。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "benefit", "meaning": "福利厚生、利益、恩恵"},
+      {"word": "permission", "meaning": "許可"},
+      {"word": "prerogative", "meaning": "特権、裁量権"}
+    ]
   },
   {
     "id": "q_word_750_112",
@@ -147,7 +202,12 @@
     "example_sentences": [
       {"sentence": "Employees who are laid off will receive a severance package.", "translation": "解雇される社員には退職手当が支給されます。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "salary", "meaning": "給料、給与"},
+      {"word": "retire", "meaning": "退職する、引退する"},
+      {"word": "depart", "meaning": "出発する"}
+    ]
   },
   {
     "id": "q_word_750_113",
@@ -159,7 +219,12 @@
     "example_sentences": [
       {"sentence": "The company offers a generous pension plan for long-term employees.", "translation": "その会社は長期勤続社員向けに充実した年金制度を提供しています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "retire", "meaning": "退職する、引退する"},
+      {"word": "salary", "meaning": "給料、給与"},
+      {"word": "payment", "meaning": "支払い、支払金"}
+    ]
   },
   {
     "id": "q_word_750_114",
@@ -171,7 +236,12 @@
     "example_sentences": [
       {"sentence": "His tenure as CEO lasted more than fifteen years.", "translation": "彼のCEOとしての在職期間は15年以上に及びました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "probation", "meaning": "試用期間、見習い期間"},
+      {"word": "permanent", "meaning": "永続的な、常勤の"},
+      {"word": "term", "meaning": "条件、期間、用語"}
+    ]
   },
   {
     "id": "q_word_750_115",
@@ -183,7 +253,12 @@
     "example_sentences": [
       {"sentence": "New employees are on probation for the first three months.", "translation": "新入社員は最初の3か月間、試用期間となります。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "provisional", "meaning": "暫定的な、仮の"},
+      {"word": "training", "meaning": "研修、訓練"},
+      {"word": "tenure", "meaning": "在職期間、終身在職権"}
+    ]
   },
   {
     "id": "q_word_750_116",
@@ -195,7 +270,12 @@
     "example_sentences": [
       {"sentence": "Employees can file a grievance through the human resources department.", "translation": "社員は人事部を通じて苦情を申し立てることができます。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "problem", "meaning": "問題"},
+      {"word": "aggravate", "meaning": "悪化させる、いら立たせる"},
+      {"word": "agreement", "meaning": "合意、契約、同意"}
+    ]
   },
   {
     "id": "q_word_750_117",
@@ -207,7 +287,12 @@
     "example_sentences": [
       {"sentence": "The team-building event helped boost employee morale.", "translation": "そのチームビルディングイベントは社員の士気を高めるのに役立ちました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "optimistic", "meaning": "楽観的な"},
+      {"word": "encourage", "meaning": "励ます、促す、奨励する"},
+      {"word": "skill", "meaning": "技能、技術"}
+    ]
   },
   {
     "id": "q_word_750_118",
@@ -221,6 +306,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "productive", "meaning": "生産的な"}
+    ],
+    "similar_words": [
+      {"word": "produce", "meaning": "生産する、製造する"},
+      {"word": "capacity", "meaning": "収容能力、生産能力"},
+      {"word": "product", "meaning": "製品、商品"}
     ]
   },
   {
@@ -235,6 +325,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "absent", "meaning": "欠席の、不在の"}
+    ],
+    "similar_words": [
+      {"word": "absence", "meaning": "欠席、不在、欠勤"},
+      {"word": "attendance", "meaning": "出席、出席者数"},
+      {"word": "agenda", "meaning": "議題、議事日程"}
     ]
   },
   {
@@ -249,6 +344,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "empower", "meaning": "権限を与える"}
+    ],
+    "similar_words": [
+      {"word": "delegate", "meaning": "委任する、権限を委譲する"},
+      {"word": "authorize", "meaning": "権限を与える、正式に許可する"},
+      {"word": "autonomy", "meaning": "自主性、自律性"}
     ]
   },
   {
@@ -263,6 +363,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "autonomous", "meaning": "自主的な、自律した"}
+    ],
+    "similar_words": [
+      {"word": "sustainability", "meaning": "持続可能性"},
+      {"word": "awareness", "meaning": "認知、意識"},
+      {"word": "accountability", "meaning": "説明責任、責任"}
     ]
   },
   {
@@ -277,6 +382,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "hierarchical", "meaning": "階層的な"}
+    ],
+    "similar_words": [
+      {"word": "prioritize", "meaning": "優先させる、優先順位をつける"},
+      {"word": "order", "meaning": "注文する、注文、順序"},
+      {"word": "position", "meaning": "職、地位、位置"}
     ]
   },
   {
@@ -291,6 +401,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "bureaucratic", "meaning": "官僚的な"}
+    ],
+    "similar_words": [
+      {"word": "regulation", "meaning": "規則、規制"},
+      {"word": "office", "meaning": "事務所、オフィス、職"},
+      {"word": "business", "meaning": "事業、ビジネス、商売"}
     ]
   },
   {
@@ -303,7 +418,12 @@
     "example_sentences": [
       {"sentence": "Staff must follow the safety protocol during an emergency.", "translation": "緊急時には職員が安全手順に従わなければなりません。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "procedure", "meaning": "手順、手続き"},
+      {"word": "etiquette", "meaning": "礼儀作法、エチケット"},
+      {"word": "rule", "meaning": "規則、ルール"}
+    ]
   },
   {
     "id": "q_word_750_125",
@@ -315,7 +435,12 @@
     "example_sentences": [
       {"sentence": "Business etiquette varies from country to country.", "translation": "ビジネスマナーは国によって異なります。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "courteous", "meaning": "礼儀正しい、丁寧な"},
+      {"word": "rule", "meaning": "規則、ルール"},
+      {"word": "protocol", "meaning": "手順、規約、儀礼"}
+    ]
   },
   {
     "id": "q_word_750_126",
@@ -327,7 +452,12 @@
     "example_sentences": [
       {"sentence": "The board reached a consensus on the new budget.", "translation": "取締役会は新しい予算について合意に達しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "agreement", "meaning": "合意、契約、同意"},
+      {"word": "unanimous", "meaning": "全会一致の"},
+      {"word": "conclusion", "meaning": "結論、結末"}
+    ]
   },
   {
     "id": "q_word_750_127",
@@ -341,6 +471,11 @@
     ],
     "derivatives": [
       {"part": "adv", "word": "unanimously", "meaning": "満場一致で"}
+    ],
+    "similar_words": [
+      {"word": "consensus", "meaning": "合意、総意"},
+      {"word": "agreement", "meaning": "合意、契約、同意"},
+      {"word": "approve", "meaning": "承認する、賛成する"}
     ]
   },
   {
@@ -355,6 +490,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "deliberation", "meaning": "審議、熟考"}
+    ],
+    "similar_words": [
+      {"word": "cautious", "meaning": "慎重な、用心深い"},
+      {"word": "carefully", "meaning": "注意深く、慎重に"},
+      {"word": "discreet", "meaning": "慎重な、思慮深い"}
     ]
   },
   {
@@ -369,6 +509,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "advocacy", "meaning": "擁護、支持"}
+    ],
+    "similar_words": [
+      {"word": "advise", "meaning": "助言する、忠告する"},
+      {"word": "endorse", "meaning": "支持する、推薦する、承認する"},
+      {"word": "uphold", "meaning": "支持する、維持する"}
     ]
   },
   {
@@ -383,6 +528,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "endorsement", "meaning": "支持、承認"}
+    ],
+    "similar_words": [
+      {"word": "approve", "meaning": "承認する、賛成する"},
+      {"word": "recommend", "meaning": "推薦する、勧める"},
+      {"word": "advocate", "meaning": "支持する、擁護する、支持者"}
     ]
   },
   {
@@ -397,6 +547,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "commendation", "meaning": "称賛、表彰"}
+    ],
+    "similar_words": [
+      {"word": "recommend", "meaning": "推薦する、勧める"},
+      {"word": "approve", "meaning": "承認する、賛成する"},
+      {"word": "appreciate", "meaning": "感謝する、正しく評価する"}
     ]
   },
   {
@@ -411,6 +566,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "acknowledgment", "meaning": "承認、確認"}
+    ],
+    "similar_words": [
+      {"word": "approve", "meaning": "承認する、賛成する"},
+      {"word": "approval", "meaning": "承認、許可"},
+      {"word": "recognize", "meaning": "認識する、認める、表彰する"}
     ]
   },
   {
@@ -425,6 +585,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "clarification", "meaning": "明確化、説明"}
+    ],
+    "similar_words": [
+      {"word": "elucidate", "meaning": "解明する、明らかにする"},
+      {"word": "lucid", "meaning": "明快な、分かりやすい"},
+      {"word": "confirm", "meaning": "確認する、確定する"}
     ]
   },
   {
@@ -439,6 +604,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "elaboration", "meaning": "詳しい説明"}
+    ],
+    "similar_words": [
+      {"word": "expound", "meaning": "詳しく説明する、詳述する"},
+      {"word": "intricate", "meaning": "複雑な、入り組んだ"},
+      {"word": "detail", "meaning": "詳細"}
     ]
   },
   {
@@ -451,7 +621,12 @@
     "example_sentences": [
       {"sentence": "She articulated her concerns clearly during the meeting.", "translation": "彼女は会議中、自分の懸念を明確に述べました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "eloquent", "meaning": "雄弁な、説得力のある"},
+      {"word": "elucidate", "meaning": "解明する、明らかにする"},
+      {"word": "clarify", "meaning": "明確にする、はっきりさせる"}
+    ]
   },
   {
     "id": "q_word_750_136",
@@ -463,7 +638,12 @@
     "example_sentences": [
       {"sentence": "Please keep your report concise and to the point.", "translation": "報告書は簡潔に要点をまとめてください。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "succinct", "meaning": "簡潔な"},
+      {"word": "briefly", "meaning": "簡潔に、手短に"},
+      {"word": "terse", "meaning": "簡潔な、素っ気ない"}
+    ]
   },
   {
     "id": "q_word_750_137",
@@ -477,6 +657,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "coherence", "meaning": "一貫性"}
+    ],
+    "similar_words": [
+      {"word": "cohesive", "meaning": "結束した、まとまりのある"},
+      {"word": "consistent", "meaning": "一貫した、安定した"},
+      {"word": "durable", "meaning": "耐久性のある、丈夫な"}
     ]
   },
   {
@@ -491,6 +676,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "persuade", "meaning": "説得する"}
+    ],
+    "similar_words": [
+      {"word": "persuade", "meaning": "説得する"},
+      {"word": "eloquent", "meaning": "雄弁な、説得力のある"},
+      {"word": "plausible", "meaning": "もっともらしい、説得力のある"}
     ]
   },
   {
@@ -503,7 +693,12 @@
     "example_sentences": [
       {"sentence": "The data provided compelling evidence for the new strategy.", "translation": "そのデータは新しい戦略に説得力のある根拠を与えました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "persuasive", "meaning": "説得力のある"},
+      {"word": "eloquent", "meaning": "雄弁な、説得力のある"},
+      {"word": "plausible", "meaning": "もっともらしい、説得力のある"}
+    ]
   },
   {
     "id": "q_word_750_140",
@@ -517,6 +712,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "feasibility", "meaning": "実現可能性"}
+    ],
+    "similar_words": [
+      {"word": "feasibility", "meaning": "実現可能性"},
+      {"word": "viable", "meaning": "実行可能な、成り立つ"},
+      {"word": "capable", "meaning": "能力がある、〜できる"}
     ]
   },
   {
@@ -529,7 +729,12 @@
     "example_sentences": [
       {"sentence": "He offered a plausible explanation for the delay.", "translation": "彼は遅延についてもっともらしい説明をしました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "credible", "meaning": "信頼できる、信ぴょう性のある"},
+      {"word": "persuasive", "meaning": "説得力のある"},
+      {"word": "valid", "meaning": "有効な、正当な"}
+    ]
   },
   {
     "id": "q_word_750_142",
@@ -543,6 +748,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "credibility", "meaning": "信頼性"}
+    ],
+    "similar_words": [
+      {"word": "plausible", "meaning": "もっともらしい、説得力のある"},
+      {"word": "reliable", "meaning": "信頼できる、頼りになる"},
+      {"word": "valid", "meaning": "有効な、正当な"}
     ]
   },
   {
@@ -557,6 +767,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "skepticism", "meaning": "懐疑"}
+    ],
+    "similar_words": [
+      {"word": "confident", "meaning": "自信のある、確信している"},
+      {"word": "pessimistic", "meaning": "悲観的な"},
+      {"word": "optimistic", "meaning": "楽観的な"}
     ]
   },
   {
@@ -571,6 +786,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "optimism", "meaning": "楽観主義"}
+    ],
+    "similar_words": [
+      {"word": "enthusiastic", "meaning": "熱心な、意欲的な"},
+      {"word": "pessimistic", "meaning": "悲観的な"},
+      {"word": "confident", "meaning": "自信のある、確信している"}
     ]
   },
   {
@@ -585,6 +805,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "pessimism", "meaning": "悲観主義"}
+    ],
+    "similar_words": [
+      {"word": "optimistic", "meaning": "楽観的な"},
+      {"word": "skeptical", "meaning": "懐疑的な"},
+      {"word": "persuasive", "meaning": "説得力のある"}
     ]
   },
   {
@@ -597,7 +822,12 @@
     "example_sentences": [
       {"sentence": "The manager took a pragmatic approach to solving the problem.", "translation": "そのマネージャーはその問題を解決するのに現実的なアプローチを取りました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "feasible", "meaning": "実現可能な"},
+      {"word": "optimistic", "meaning": "楽観的な"},
+      {"word": "problem", "meaning": "問題"}
+    ]
   },
   {
     "id": "q_word_750_147",
@@ -609,7 +839,12 @@
     "example_sentences": [
       {"sentence": "She is known for her meticulous attention to detail.", "translation": "彼女は細部への細心の注意で知られています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "carefully", "meaning": "注意深く、慎重に"},
+      {"word": "diligent", "meaning": "勤勉な、真面目な"},
+      {"word": "cautious", "meaning": "慎重な、用心深い"}
+    ]
   },
   {
     "id": "q_word_750_148",
@@ -623,6 +858,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "diligence", "meaning": "勤勉さ"}
+    ],
+    "similar_words": [
+      {"word": "cautious", "meaning": "慎重な、用心深い"},
+      {"word": "punctual", "meaning": "時間を守る、時間に正確な"},
+      {"word": "meticulous", "meaning": "細心の、几帳面な"}
     ]
   },
   {
@@ -637,6 +877,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "proficiency", "meaning": "熟達、堪能さ"}
+    ],
+    "similar_words": [
+      {"word": "professional", "meaning": "専門的な、プロの、専門家"},
+      {"word": "familiar", "meaning": "よく知られた、精通している"},
+      {"word": "skill", "meaning": "技能、技術"}
     ]
   },
   {
@@ -651,6 +896,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "versatility", "meaning": "多才、汎用性"}
+    ],
+    "similar_words": [
+      {"word": "various", "meaning": "さまざまな、多様な"},
+      {"word": "flexible", "meaning": "柔軟な、融通の利く"},
+      {"word": "capable", "meaning": "能力がある、〜できる"}
     ]
   }
 ]

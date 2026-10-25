@@ -12,6 +12,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "purchaser", "meaning": "購入者"}
+    ],
+    "similar_words": [
+      {"word": "payment", "meaning": "支払い、支払金"},
+      {"word": "merchandise", "meaning": "商品"},
+      {"word": "acquisition", "meaning": "買収、獲得"}
     ]
   },
   {
@@ -28,6 +33,11 @@
     "derivatives": [
       {"part": "noun", "word": "receipt", "meaning": "領収書、受領"},
       {"part": "noun", "word": "recipient", "meaning": "受取人"}
+    ],
+    "similar_words": [
+      {"word": "receipt", "meaning": "領収書、レシート、受領"},
+      {"word": "arrive", "meaning": "到着する、届く"},
+      {"word": "request", "meaning": "依頼する、要請、リクエスト"}
     ]
   },
   {
@@ -43,6 +53,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "offering", "meaning": "提供(物)、売り物"}
+    ],
+    "similar_words": [
+      {"word": "propose", "meaning": "提案する、申し出る"},
+      {"word": "suggest", "meaning": "提案する、示唆する"},
+      {"word": "provide", "meaning": "提供する、供給する"}
     ]
   },
   {
@@ -59,6 +74,11 @@
     "derivatives": [
       {"part": "noun", "word": "provider", "meaning": "提供者、供給業者"},
       {"part": "noun", "word": "provision", "meaning": "提供、(契約の)条項"}
+    ],
+    "similar_words": [
+      {"word": "supply", "meaning": "供給する、供給、備品"},
+      {"word": "provision", "meaning": "条項、規定、供給"},
+      {"word": "offer", "meaning": "提供する、申し出る、提案"}
     ]
   },
   {
@@ -75,6 +95,11 @@
     "derivatives": [
       {"part": "adj", "word": "inclusive", "meaning": "すべて込みの、包括的な"},
       {"part": "noun", "word": "inclusion", "meaning": "含めること、包含"}
+    ],
+    "similar_words": [
+      {"word": "encompass", "meaning": "包含する、含む"},
+      {"word": "incorporate", "meaning": "取り入れる、組み込む"},
+      {"word": "consist of", "meaning": "〜から成る、〜で構成される"}
     ]
   },
   {
@@ -91,6 +116,11 @@
     "derivatives": [
       {"part": "noun", "word": "attendance", "meaning": "出席、出席者数"},
       {"part": "noun", "word": "attendee", "meaning": "出席者"}
+    ],
+    "similar_words": [
+      {"word": "attendance", "meaning": "出席、出席者数"},
+      {"word": "attendee", "meaning": "出席者、参加者"},
+      {"word": "participate in", "meaning": "〜に参加する"}
     ]
   },
   {
@@ -106,6 +136,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "rescheduling", "meaning": "予定の変更"}
+    ],
+    "similar_words": [
+      {"word": "agenda", "meaning": "議題、議事日程"},
+      {"word": "itinerary", "meaning": "旅程、旅行日程表"},
+      {"word": "task", "meaning": "仕事、任務、作業"}
     ]
   },
   {
@@ -119,7 +154,12 @@
       {"sentence": "I would like to order 20 copies of this catalog.", "translation": "このカタログを20部注文したいのですが。"},
       {"sentence": "Your order will be shipped within two business days.", "translation": "ご注文の品は2営業日以内に発送されます。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "request", "meaning": "依頼する、要請、リクエスト"},
+      {"word": "purchase", "meaning": "購入する、購入(品)"},
+      {"word": "arrive", "meaning": "到着する、届く"}
+    ]
   },
   {
     "id": "q_word_600_009",
@@ -134,6 +174,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "delivery", "meaning": "配達、配送"}
+    ],
+    "similar_words": [
+      {"word": "arrive", "meaning": "到着する、届く"},
+      {"word": "send", "meaning": "送る、発送する"},
+      {"word": "courier", "meaning": "配達業者、宅配便"}
     ]
   },
   {
@@ -147,7 +192,12 @@
       {"sentence": "Our customers can return items within 30 days.", "translation": "当店のお客様は30日以内であれば商品を返品できます。"},
       {"sentence": "Please contact customer service for assistance.", "translation": "サポートが必要な場合はカスタマーサービスにご連絡ください。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "consumer", "meaning": "消費者"},
+      {"word": "client", "meaning": "顧客、依頼人、取引先"},
+      {"word": "passenger", "meaning": "乗客、旅客"}
+    ]
   },
   {
     "id": "q_word_600_011",
@@ -163,6 +213,11 @@
     "derivatives": [
       {"part": "noun", "word": "production", "meaning": "生産、製造"},
       {"part": "adj", "word": "productive", "meaning": "生産的な"}
+    ],
+    "similar_words": [
+      {"word": "merchandise", "meaning": "商品"},
+      {"word": "produce", "meaning": "生産する、製造する"},
+      {"word": "item", "meaning": "品物、項目"}
     ]
   },
   {
@@ -178,6 +233,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "serve", "meaning": "仕える、(食事を)出す、対応する"}
+    ],
+    "similar_words": [
+      {"word": "inspection", "meaning": "検査、点検"},
+      {"word": "inspect", "meaning": "検査する、点検する"},
+      {"word": "examine", "meaning": "調べる、検査する、診察する"}
     ]
   },
   {
@@ -194,6 +254,11 @@
     "derivatives": [
       {"part": "adj", "word": "priceless", "meaning": "非常に貴重な"},
       {"part": "noun", "word": "pricing", "meaning": "価格設定"}
+    ],
+    "similar_words": [
+      {"word": "cost", "meaning": "費用、原価、(費用が)かかる"},
+      {"word": "fee", "meaning": "料金、手数料、会費"},
+      {"word": "fare", "meaning": "運賃、料金"}
     ]
   },
   {
@@ -209,6 +274,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "meet", "meaning": "会う、(条件を)満たす"}
+    ],
+    "similar_words": [
+      {"word": "conference", "meaning": "会議、協議会、学会"},
+      {"word": "appointment", "meaning": "(面会の)約束、予約、任命"},
+      {"word": "convene", "meaning": "招集する、開催する"}
     ]
   },
   {
@@ -225,6 +295,11 @@
     "derivatives": [
       {"part": "noun", "word": "officer", "meaning": "役員、担当官"},
       {"part": "adj", "word": "official", "meaning": "公式の"}
+    ],
+    "similar_words": [
+      {"word": "business", "meaning": "事業、ビジネス、商売"},
+      {"word": "task", "meaning": "仕事、任務、作業"},
+      {"word": "function", "meaning": "機能、働き"}
     ]
   },
   {
@@ -242,6 +317,11 @@
       {"part": "verb", "word": "employ", "meaning": "雇用する"},
       {"part": "noun", "word": "employer", "meaning": "雇用主"},
       {"part": "noun", "word": "employment", "meaning": "雇用"}
+    ],
+    "similar_words": [
+      {"word": "workforce", "meaning": "労働力、従業員全体"},
+      {"word": "staff", "meaning": "職員、スタッフ"},
+      {"word": "coworker", "meaning": "同僚、仕事仲間"}
     ]
   },
   {
@@ -258,6 +338,11 @@
     "derivatives": [
       {"part": "verb", "word": "manage", "meaning": "管理する、なんとかやり遂げる"},
       {"part": "noun", "word": "management", "meaning": "経営、管理(職)"}
+    ],
+    "similar_words": [
+      {"word": "manage", "meaning": "経営する、管理する、なんとかやり遂げる"},
+      {"word": "supervisor", "meaning": "上司、監督者"},
+      {"word": "executive", "meaning": "重役、幹部、経営幹部の"}
     ]
   },
   {
@@ -271,7 +356,12 @@
       {"sentence": "The company was founded in 1985.", "translation": "その会社は1985年に設立されました。"},
       {"sentence": "She works for a software company in Osaka.", "translation": "彼女は大阪のソフトウェア会社で働いています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "corporation", "meaning": "企業、法人"},
+      {"word": "enterprise", "meaning": "企業、事業"},
+      {"word": "experience", "meaning": "経験、経験する"}
+    ]
   },
   {
     "id": "q_word_600_019",
@@ -284,7 +374,12 @@
       {"sentence": "He started his own business five years ago.", "translation": "彼は5年前に自分の事業を始めました。"},
       {"sentence": "She is in Chicago on business this week.", "translation": "彼女は今週、出張でシカゴにいます。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "enterprise", "meaning": "企業、事業"},
+      {"word": "office", "meaning": "事務所、オフィス、職"},
+      {"word": "project", "meaning": "プロジェクト、計画、事業"}
+    ]
   },
   {
     "id": "q_word_600_020",
@@ -299,6 +394,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "contractor", "meaning": "請負業者"}
+    ],
+    "similar_words": [
+      {"word": "agreement", "meaning": "合意、契約、同意"},
+      {"word": "lease", "meaning": "賃貸借契約、賃貸する、賃借する"},
+      {"word": "breach", "meaning": "違反、契約違反、違反する"}
     ]
   },
   {
@@ -314,6 +414,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "signature", "meaning": "署名、サイン"}
+    ],
+    "similar_words": [
+      {"word": "function", "meaning": "機能、働き"},
+      {"word": "denote", "meaning": "示す、意味する"},
+      {"word": "sign up for", "meaning": "〜に申し込む、〜に登録する"}
     ]
   },
   {
@@ -329,6 +434,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "sender", "meaning": "送り主、差出人"}
+    ],
+    "similar_words": [
+      {"word": "dispatch", "meaning": "発送する、派遣する"},
+      {"word": "reply", "meaning": "返信する、返事、回答"},
+      {"word": "shipment", "meaning": "発送、出荷、積荷"}
     ]
   },
   {
@@ -342,7 +452,12 @@
       {"sentence": "Please contact us if you have any questions.", "translation": "ご質問がありましたらご連絡ください。"},
       {"sentence": "You can find my contact information on my business card.", "translation": "私の連絡先は名刺に記載されています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "get in touch with", "meaning": "〜と連絡を取る"},
+      {"word": "arrive", "meaning": "到着する、届く"},
+      {"word": "reply", "meaning": "返信する、返事、回答"}
+    ]
   },
   {
     "id": "q_word_600_024",
@@ -355,7 +470,12 @@
       {"sentence": "We request that all visitors sign in at the front desk.", "translation": "来訪者の皆様には受付での記帳をお願いしています。"},
       {"sentence": "Your request for a refund has been approved.", "translation": "返金のご依頼が承認されました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "demand", "meaning": "需要、要求、要求する"},
+      {"word": "requirement", "meaning": "必要条件、要件"},
+      {"word": "receive", "meaning": "受け取る、受領する"}
+    ]
   },
   {
     "id": "q_word_600_025",
@@ -368,7 +488,12 @@
       {"sentence": "Please reply to this email by Friday.", "translation": "金曜日までにこのメールにご返信ください。"},
       {"sentence": "I have not received a reply from the vendor yet.", "translation": "まだ業者から返事をもらっていません。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "send", "meaning": "送る、発送する"},
+      {"word": "respond to", "meaning": "〜に応答する、〜に対応する"},
+      {"word": "receive", "meaning": "受け取る、受領する"}
+    ]
   },
   {
     "id": "q_word_600_026",
@@ -383,6 +508,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "confirmation", "meaning": "確認、確認書"}
+    ],
+    "similar_words": [
+      {"word": "verify", "meaning": "確認する、証明する"},
+      {"word": "confident", "meaning": "自信のある、確信している"},
+      {"word": "acknowledge", "meaning": "認める、承認する"}
     ]
   },
   {
@@ -398,6 +528,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "cancellation", "meaning": "取り消し、キャンセル"}
+    ],
+    "similar_words": [
+      {"word": "revoke", "meaning": "取り消す、無効にする"},
+      {"word": "annul", "meaning": "無効にする、取り消す"},
+      {"word": "rescind", "meaning": "撤回する、無効にする"}
     ]
   },
   {
@@ -413,6 +548,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "arrival", "meaning": "到着"}
+    ],
+    "similar_words": [
+      {"word": "arrival", "meaning": "到着"},
+      {"word": "receive", "meaning": "受け取る、受領する"},
+      {"word": "depart", "meaning": "出発する"}
     ]
   },
   {
@@ -428,6 +568,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "departure", "meaning": "出発"}
+    ],
+    "similar_words": [
+      {"word": "departure", "meaning": "出発、発車"},
+      {"word": "arrival", "meaning": "到着"},
+      {"word": "arrive", "meaning": "到着する、届く"}
     ]
   },
   {
@@ -443,6 +588,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "availability", "meaning": "利用可能性、空き状況"}
+    ],
+    "similar_words": [
+      {"word": "capable", "meaning": "能力がある、〜できる"},
+      {"word": "afford", "meaning": "(金銭的・時間的に)余裕がある"},
+      {"word": "contact", "meaning": "連絡する、連絡、接触"}
     ]
   },
   {
@@ -456,7 +606,12 @@
       {"sentence": "This item is currently out of stock.", "translation": "この商品は現在在庫切れです。"},
       {"sentence": "Let's move on to the next item on the agenda.", "translation": "議題の次の項目に移りましょう。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "inventory", "meaning": "在庫、在庫目録"},
+      {"word": "product", "meaning": "製品、商品"},
+      {"word": "merchandise", "meaning": "商品"}
+    ]
   },
   {
     "id": "q_word_600_032",
@@ -471,6 +626,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "storage", "meaning": "保管、倉庫"}
+    ],
+    "similar_words": [
+      {"word": "record", "meaning": "記録する、記録"},
+      {"word": "reserve", "meaning": "予約する、取っておく"},
+      {"word": "register", "meaning": "登録する、記録する"}
     ]
   },
   {
@@ -486,6 +646,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "marketing", "meaning": "マーケティング、販売促進活動"}
+    ],
+    "similar_words": [
+      {"word": "merchandise", "meaning": "商品"},
+      {"word": "business", "meaning": "事業、ビジネス、商売"},
+      {"word": "niche", "meaning": "隙間市場、ニッチ"}
     ]
   },
   {
@@ -501,6 +666,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "sell", "meaning": "売る"}
+    ],
+    "similar_words": [
+      {"word": "discount", "meaning": "割引、値引きする"},
+      {"word": "price", "meaning": "価格、値段"},
+      {"word": "transaction", "meaning": "取引、売買"}
     ]
   },
   {
@@ -516,6 +686,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "discounted", "meaning": "割引された"}
+    ],
+    "similar_words": [
+      {"word": "coupon", "meaning": "クーポン、割引券"},
+      {"word": "sale", "meaning": "販売、セール、特売"},
+      {"word": "bargain", "meaning": "お買い得品、掘り出し物、交渉する"}
     ]
   },
   {
@@ -532,6 +707,11 @@
     "derivatives": [
       {"part": "verb", "word": "pay", "meaning": "支払う"},
       {"part": "adj", "word": "payable", "meaning": "支払うべき"}
+    ],
+    "similar_words": [
+      {"word": "purchase", "meaning": "購入する、購入(品)"},
+      {"word": "wage", "meaning": "賃金、時給"},
+      {"word": "refund", "meaning": "返金、払い戻し、返金する"}
     ]
   },
   {
@@ -545,7 +725,12 @@
       {"sentence": "Please find the invoice attached to this email.", "translation": "このメールに請求書を添付しておりますのでご確認ください。"},
       {"sentence": "The invoice number is printed at the top of the page.", "translation": "請求書番号はページの上部に印字されています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "bill", "meaning": "請求書、紙幣、請求する"},
+      {"word": "receipt", "meaning": "領収書、レシート、受領"},
+      {"word": "request", "meaning": "依頼する、要請、リクエスト"}
+    ]
   },
   {
     "id": "q_word_600_038",
@@ -558,7 +743,12 @@
       {"sentence": "Please write your name and address on the form.", "translation": "用紙に氏名と住所をご記入ください。"},
       {"sentence": "The manager promised to address the customer's complaint.", "translation": "マネージャーは顧客の苦情に対処すると約束しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "problem", "meaning": "問題"},
+      {"word": "reply", "meaning": "返信する、返事、回答"},
+      {"word": "contact", "meaning": "連絡する、連絡、接触"}
+    ]
   },
   {
     "id": "q_word_600_039",
@@ -573,6 +763,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "documentation", "meaning": "文書化、証拠書類"}
+    ],
+    "similar_words": [
+      {"word": "report", "meaning": "報告書、報告する"},
+      {"word": "description", "meaning": "説明、記述"},
+      {"word": "specification", "meaning": "仕様、仕様書"}
     ]
   },
   {
@@ -588,6 +783,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "reporter", "meaning": "記者、報告者"}
+    ],
+    "similar_words": [
+      {"word": "record", "meaning": "記録する、記録"},
+      {"word": "inform", "meaning": "知らせる、通知する"},
+      {"word": "description", "meaning": "説明、記述"}
     ]
   },
   {
@@ -603,6 +803,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "copier", "meaning": "コピー機"}
+    ],
+    "similar_words": [
+      {"word": "print", "meaning": "印刷する"},
+      {"word": "copyright", "meaning": "著作権"},
+      {"word": "record", "meaning": "記録する、記録"}
     ]
   },
   {
@@ -618,6 +823,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "staffing", "meaning": "人員配置"}
+    ],
+    "similar_words": [
+      {"word": "personnel", "meaning": "人員、職員"},
+      {"word": "employee", "meaning": "従業員、社員"},
+      {"word": "office", "meaning": "事務所、オフィス、職"}
     ]
   },
   {
@@ -631,7 +841,12 @@
       {"sentence": "She is meeting with an important client this afternoon.", "translation": "彼女は今日の午後、重要な取引先と会っています。"},
       {"sentence": "Our firm has clients in over 20 countries.", "translation": "当社は20か国以上に顧客を抱えています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "customer", "meaning": "顧客、客"},
+      {"word": "consumer", "meaning": "消費者"},
+      {"word": "account", "meaning": "口座、取引先、説明"}
+    ]
   },
   {
     "id": "q_word_600_044",
@@ -646,6 +861,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "appoint", "meaning": "任命する"}
+    ],
+    "similar_words": [
+      {"word": "meeting", "meaning": "会議、打ち合わせ"},
+      {"word": "interview", "meaning": "面接、インタビュー、面接する"},
+      {"word": "approval", "meaning": "承認、許可"}
     ]
   },
   {
@@ -659,7 +879,12 @@
       {"sentence": "The deadline for applications is March 31.", "translation": "応募の締め切りは3月31日です。"},
       {"sentence": "We worked overtime to meet the deadline.", "translation": "締め切りに間に合わせるために残業しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "due", "meaning": "期限の、支払期日の、予定されて"},
+      {"word": "no later than", "meaning": "遅くとも〜までに"},
+      {"word": "urgent", "meaning": "緊急の、至急の"}
+    ]
   },
   {
     "id": "q_word_600_046",
@@ -672,7 +897,12 @@
       {"sentence": "The construction project will be completed in June.", "translation": "その建設プロジェクトは6月に完了する予定です。"},
       {"sentence": "She was chosen to lead the new project.", "translation": "彼女は新しいプロジェクトのリーダーに選ばれました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "business", "meaning": "事業、ビジネス、商売"},
+      {"word": "objective", "meaning": "目的、目標"},
+      {"word": "enterprise", "meaning": "企業、事業"}
+    ]
   },
   {
     "id": "q_word_600_047",
@@ -685,7 +915,12 @@
       {"sentence": "My first task is to organize the client files.", "translation": "私の最初の仕事は顧客ファイルを整理することです。"},
       {"sentence": "The tasks were assigned to each team member.", "translation": "作業は各チームメンバーに割り当てられました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "assignment", "meaning": "任務、割り当て、課題"},
+      {"word": "problem", "meaning": "問題"},
+      {"word": "schedule", "meaning": "予定する、予定表、スケジュール"}
+    ]
   },
   {
     "id": "q_word_600_048",
@@ -700,6 +935,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "updated", "meaning": "更新された、最新の"}
+    ],
+    "similar_words": [
+      {"word": "up to date", "meaning": "最新の、最新情報に合わせて"},
+      {"word": "renew", "meaning": "更新する、継続する"},
+      {"word": "report", "meaning": "報告書、報告する"}
     ]
   },
   {
@@ -716,6 +956,11 @@
     "derivatives": [
       {"part": "noun", "word": "completion", "meaning": "完了、完成"},
       {"part": "adv", "word": "completely", "meaning": "完全に"}
+    ],
+    "similar_words": [
+      {"word": "accomplish", "meaning": "成し遂げる、達成する"},
+      {"word": "fill out", "meaning": "記入する"},
+      {"word": "improve", "meaning": "改善する、向上させる"}
     ]
   },
   {
@@ -732,6 +977,11 @@
     "derivatives": [
       {"part": "noun", "word": "preparation", "meaning": "準備"},
       {"part": "adj", "word": "prepared", "meaning": "準備ができた"}
+    ],
+    "similar_words": [
+      {"word": "set up", "meaning": "設置する、設立する、準備する"},
+      {"word": "improve", "meaning": "改善する、向上させる"},
+      {"word": "arrange", "meaning": "手配する、調整する、並べる"}
     ]
   }
 ]

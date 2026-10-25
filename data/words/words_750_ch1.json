@@ -11,6 +11,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "implementation", "meaning": "実施、導入"}
+    ],
+    "similar_words": [
+      {"word": "carry out", "meaning": "実行する、遂行する"},
+      {"word": "integrate", "meaning": "統合する"},
+      {"word": "improve", "meaning": "改善する、向上させる"}
     ]
   },
   {
@@ -26,6 +31,11 @@
     "derivatives": [
       {"part": "noun", "word": "facilitation", "meaning": "促進、円滑化"},
       {"part": "noun", "word": "facilitator", "meaning": "進行役、まとめ役"}
+    ],
+    "similar_words": [
+      {"word": "expedite", "meaning": "促進する、迅速に処理する"},
+      {"word": "conducive", "meaning": "〜に役立つ、〜を促す"},
+      {"word": "accelerate", "meaning": "加速する、早める"}
     ]
   },
   {
@@ -40,6 +50,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "allocation", "meaning": "割り当て、配分"}
+    ],
+    "similar_words": [
+      {"word": "assign", "meaning": "割り当てる、任命する"},
+      {"word": "quota", "meaning": "割り当て、ノルマ"},
+      {"word": "assignment", "meaning": "任務、割り当て、課題"}
     ]
   },
   {
@@ -54,6 +69,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "collaboration", "meaning": "協力、共同作業"}
+    ],
+    "similar_words": [
+      {"word": "colleague", "meaning": "同僚"},
+      {"word": "corroborate", "meaning": "裏付ける、確証する"},
+      {"word": "participate in", "meaning": "〜に参加する"}
     ]
   },
   {
@@ -69,6 +89,11 @@
     "derivatives": [
       {"part": "noun", "word": "coordination", "meaning": "調整"},
       {"part": "noun", "word": "coordinator", "meaning": "調整役、コーディネーター"}
+    ],
+    "similar_words": [
+      {"word": "arrange", "meaning": "手配する、調整する、並べる"},
+      {"word": "organize", "meaning": "組織する、企画する、整理する"},
+      {"word": "adjust", "meaning": "調整する、適応する"}
     ]
   },
   {
@@ -83,6 +108,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "delegation", "meaning": "委任、代表団"}
+    ],
+    "similar_words": [
+      {"word": "empowerment", "meaning": "権限委譲、力を与えること"},
+      {"word": "assign", "meaning": "割り当てる、任命する"},
+      {"word": "committee", "meaning": "委員会"}
     ]
   },
   {
@@ -97,6 +127,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "designation", "meaning": "指定、指名"}
+    ],
+    "similar_words": [
+      {"word": "assign", "meaning": "割り当てる、任命する"},
+      {"word": "design", "meaning": "設計する、デザインする"},
+      {"word": "identify", "meaning": "特定する、識別する"}
     ]
   },
   {
@@ -111,6 +146,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "enhancement", "meaning": "強化、向上"}
+    ],
+    "similar_words": [
+      {"word": "improve", "meaning": "改善する、向上させる"},
+      {"word": "increase", "meaning": "増加する、増やす"},
+      {"word": "accentuate", "meaning": "強調する、際立たせる"}
     ]
   },
   {
@@ -125,6 +165,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "evaluation", "meaning": "評価"}
+    ],
+    "similar_words": [
+      {"word": "assessment", "meaning": "評価、査定"},
+      {"word": "estimate", "meaning": "見積もり、見積もる、推定する"},
+      {"word": "appraisal", "meaning": "評価、査定"}
     ]
   },
   {
@@ -140,6 +185,11 @@
     "derivatives": [
       {"part": "noun", "word": "execution", "meaning": "実行、遂行"},
       {"part": "noun", "word": "executive", "meaning": "重役、経営幹部"}
+    ],
+    "similar_words": [
+      {"word": "carry out", "meaning": "実行する、遂行する"},
+      {"word": "accomplish", "meaning": "成し遂げる、達成する"},
+      {"word": "implement", "meaning": "実施する、導入する"}
     ]
   },
   {
@@ -154,6 +204,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "generation", "meaning": "生成、発生"}
+    ],
+    "similar_words": [
+      {"word": "create", "meaning": "創造する、作り出す"},
+      {"word": "produce", "meaning": "生産する、製造する"},
+      {"word": "manufacture", "meaning": "製造する、生産する"}
     ]
   },
   {
@@ -168,6 +223,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "incorporation", "meaning": "組み込み、法人化"}
+    ],
+    "similar_words": [
+      {"word": "integrate", "meaning": "統合する"},
+      {"word": "include", "meaning": "含む、含める"},
+      {"word": "amalgamate", "meaning": "合併する、統合する"}
     ]
   },
   {
@@ -182,6 +242,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "integration", "meaning": "統合"}
+    ],
+    "similar_words": [
+      {"word": "consolidate", "meaning": "統合する、強化する"},
+      {"word": "incorporate", "meaning": "取り入れる、組み込む"},
+      {"word": "synthesize", "meaning": "統合する、合成する"}
     ]
   },
   {
@@ -194,7 +259,12 @@
     "example_sentences": [
       {"sentence": "The company leveraged its brand name to enter new markets.", "translation": "その会社は自社のブランド名を活用して新市場に参入しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "utilization", "meaning": "利用、活用"},
+      {"word": "facilitate", "meaning": "促進する、円滑にする"},
+      {"word": "improve", "meaning": "改善する、向上させる"}
+    ]
   },
   {
     "id": "q_word_750_015",
@@ -208,6 +278,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "optimization", "meaning": "最適化"}
+    ],
+    "similar_words": [
+      {"word": "improve", "meaning": "改善する、向上させる"},
+      {"word": "optimistic", "meaning": "楽観的な"},
+      {"word": "adjust", "meaning": "調整する、適応する"}
     ]
   },
   {
@@ -222,6 +297,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "priority", "meaning": "優先事項"}
+    ],
+    "similar_words": [
+      {"word": "urgent", "meaning": "緊急の、至急の"},
+      {"word": "hierarchy", "meaning": "階層、序列"},
+      {"word": "improve", "meaning": "改善する、向上させる"}
     ]
   },
   {
@@ -234,7 +314,12 @@
     "example_sentences": [
       {"sentence": "The new software helped streamline the ordering process.", "translation": "その新しいソフトは注文プロセスの効率化に役立ちました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "optimize", "meaning": "最適化する"},
+      {"word": "efficient", "meaning": "効率的な、無駄のない"},
+      {"word": "improve", "meaning": "改善する、向上させる"}
+    ]
   },
   {
     "id": "q_word_750_018",
@@ -248,6 +333,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "undertaking", "meaning": "事業、引き受けること"}
+    ],
+    "similar_words": [
+      {"word": "embark", "meaning": "着手する、乗り出す"},
+      {"word": "assume", "meaning": "想定する、思い込む、引き受ける"},
+      {"word": "task", "meaning": "仕事、任務、作業"}
     ]
   },
   {
@@ -262,6 +352,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "compliance", "meaning": "遵守"}
+    ],
+    "similar_words": [
+      {"word": "compliance", "meaning": "遵守、法令順守"},
+      {"word": "adhere", "meaning": "順守する、固く守る"},
+      {"word": "observe", "meaning": "観察する、気づく、遵守する"}
     ]
   },
   {
@@ -276,6 +371,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "adherence", "meaning": "順守"}
+    ],
+    "similar_words": [
+      {"word": "comply", "meaning": "従う、遵守する"},
+      {"word": "abide", "meaning": "従う、順守する"},
+      {"word": "compliance", "meaning": "遵守、法令順守"}
     ]
   },
   {
@@ -288,7 +388,12 @@
     "example_sentences": [
       {"sentence": "Ms. Kato oversees all operations at the branch.", "translation": "加藤さんはその支店のすべての業務を統括しています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "supervise", "meaning": "監督する、指導する"},
+      {"word": "oversight", "meaning": "見落とし、監督"},
+      {"word": "supervisor", "meaning": "上司、監督者"}
+    ]
   },
   {
     "id": "q_word_750_022",
@@ -303,6 +408,11 @@
     "derivatives": [
       {"part": "noun", "word": "supervisor", "meaning": "上司、監督者"},
       {"part": "noun", "word": "supervision", "meaning": "監督"}
+    ],
+    "similar_words": [
+      {"word": "supervisor", "meaning": "上司、監督者"},
+      {"word": "oversee", "meaning": "監督する、統括する"},
+      {"word": "mentor", "meaning": "指導する、助言者"}
     ]
   },
   {
@@ -317,6 +427,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "mentorship", "meaning": "指導、助言関係"}
+    ],
+    "similar_words": [
+      {"word": "supervise", "meaning": "監督する、指導する"},
+      {"word": "advise", "meaning": "助言する、忠告する"},
+      {"word": "supervisor", "meaning": "上司、監督者"}
     ]
   },
   {
@@ -332,6 +447,11 @@
     "derivatives": [
       {"part": "noun", "word": "recruitment", "meaning": "採用、募集"},
       {"part": "noun", "word": "recruiter", "meaning": "採用担当者"}
+    ],
+    "similar_words": [
+      {"word": "hire", "meaning": "雇う、採用する"},
+      {"word": "solicit", "meaning": "求める、勧誘する"},
+      {"word": "adopt", "meaning": "採用する、採択する"}
     ]
   },
   {
@@ -346,6 +466,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "retention", "meaning": "維持、保持"}
+    ],
+    "similar_words": [
+      {"word": "retention", "meaning": "維持、引き留め"},
+      {"word": "withhold", "meaning": "差し控える、保留する"},
+      {"word": "reserve", "meaning": "予約する、取っておく"}
     ]
   },
   {
@@ -360,6 +485,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "compensation", "meaning": "補償、報酬"}
+    ],
+    "similar_words": [
+      {"word": "recoup", "meaning": "取り戻す、埋め合わせる"},
+      {"word": "adjust", "meaning": "調整する、適応する"},
+      {"word": "reimburse", "meaning": "払い戻す、返金する"}
     ]
   },
   {
@@ -374,6 +504,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "reimbursement", "meaning": "払い戻し、返金"}
+    ],
+    "similar_words": [
+      {"word": "refund", "meaning": "返金、払い戻し、返金する"},
+      {"word": "recoup", "meaning": "取り戻す、埋め合わせる"},
+      {"word": "payment", "meaning": "支払い、支払金"}
     ]
   },
   {
@@ -388,6 +523,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "expend", "meaning": "費やす、支出する"}
+    ],
+    "similar_words": [
+      {"word": "expense", "meaning": "費用、経費、支出"},
+      {"word": "spend", "meaning": "(お金・時間を)使う、費やす"},
+      {"word": "budget", "meaning": "予算、経費"}
     ]
   },
   {
@@ -402,6 +542,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "procure", "meaning": "調達する"}
+    ],
+    "similar_words": [
+      {"word": "purchase", "meaning": "購入する、購入(品)"},
+      {"word": "provision", "meaning": "条項、規定、供給"},
+      {"word": "acquisition", "meaning": "買収、獲得"}
     ]
   },
   {
@@ -416,6 +561,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "acquire", "meaning": "獲得する、買収する"}
+    ],
+    "similar_words": [
+      {"word": "acquire", "meaning": "獲得する、習得する、買収する"},
+      {"word": "purchase", "meaning": "購入する、購入(品)"},
+      {"word": "take over", "meaning": "引き継ぐ、買収する"}
     ]
   },
   {
@@ -430,6 +580,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "merge", "meaning": "合併する"}
+    ],
+    "similar_words": [
+      {"word": "amalgamate", "meaning": "合併する、統合する"},
+      {"word": "consolidate", "meaning": "統合する、強化する"},
+      {"word": "acquisition", "meaning": "買収、獲得"}
     ]
   },
   {
@@ -442,7 +597,12 @@
     "example_sentences": [
       {"sentence": "The company established a subsidiary in Vietnam last year.", "translation": "その会社は昨年、ベトナムに子会社を設立しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "branch", "meaning": "支店、支社、枝"},
+      {"word": "corporation", "meaning": "企業、法人"},
+      {"word": "company", "meaning": "会社、企業、同伴"}
+    ]
   },
   {
     "id": "q_word_750_033",
@@ -456,6 +616,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "affiliation", "meaning": "提携、加盟"}
+    ],
+    "similar_words": [
+      {"word": "subsidiary", "meaning": "子会社"},
+      {"word": "company", "meaning": "会社、企業、同伴"},
+      {"word": "branch", "meaning": "支店、支社、枝"}
     ]
   },
   {
@@ -468,7 +633,12 @@
     "example_sentences": [
       {"sentence": "All major stakeholders were invited to the planning meeting.", "translation": "主要な利害関係者は全員、企画会議に招かれました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "shareholder", "meaning": "株主"},
+      {"word": "interest", "meaning": "利子、利息、関心"},
+      {"word": "reason", "meaning": "理由"}
+    ]
   },
   {
     "id": "q_word_750_035",
@@ -480,7 +650,12 @@
     "example_sentences": [
       {"sentence": "The annual shareholder meeting will be held in June.", "translation": "年次株主総会は6月に開催されます。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "equity", "meaning": "株式、自己資本"},
+      {"word": "stakeholder", "meaning": "利害関係者"},
+      {"word": "dividend", "meaning": "配当金"}
+    ]
   },
   {
     "id": "q_word_750_036",
@@ -494,6 +669,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "entrepreneurship", "meaning": "起業家精神"}
+    ],
+    "similar_words": [
+      {"word": "founder", "meaning": "創業者、設立者"},
+      {"word": "enterprise", "meaning": "企業、事業"},
+      {"word": "business", "meaning": "事業、ビジネス、商売"}
     ]
   },
   {
@@ -506,7 +686,12 @@
     "example_sentences": [
       {"sentence": "The software is designed for use by large enterprises.", "translation": "そのソフトは大企業での使用を想定して設計されています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "business", "meaning": "事業、ビジネス、商売"},
+      {"word": "venture", "meaning": "事業、ベンチャー、思い切って行う"},
+      {"word": "entrepreneur", "meaning": "起業家"}
+    ]
   },
   {
     "id": "q_word_750_038",
@@ -520,6 +705,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "corporate", "meaning": "企業の、法人の"}
+    ],
+    "similar_words": [
+      {"word": "company", "meaning": "会社、企業、同伴"},
+      {"word": "enterprise", "meaning": "企業、事業"},
+      {"word": "business", "meaning": "事業、ビジネス、商売"}
     ]
   },
   {
@@ -532,7 +722,12 @@
     "example_sentences": [
       {"sentence": "The two firms formed a joint venture to develop the technology.", "translation": "両社はその技術を開発するため合弁事業を設立しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "enterprise", "meaning": "企業、事業"},
+      {"word": "business", "meaning": "事業、ビジネス、商売"},
+      {"word": "embark", "meaning": "着手する、乗り出す"}
+    ]
   },
   {
     "id": "q_word_750_040",
@@ -544,7 +739,12 @@
     "example_sentences": [
       {"sentence": "The company's main asset is its brand reputation.", "translation": "その会社の主な資産はブランドの評判です。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "equity", "meaning": "株式、自己資本"},
+      {"word": "tax", "meaning": "税、税金"},
+      {"word": "knowledge", "meaning": "知識"}
+    ]
   },
   {
     "id": "q_word_750_041",
@@ -558,6 +758,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "liable", "meaning": "責任がある"}
+    ],
+    "similar_words": [
+      {"word": "liable", "meaning": "責任がある、〜しがちな"},
+      {"word": "owe", "meaning": "借りがある、支払う義務がある"},
+      {"word": "accountability", "meaning": "説明責任、責任"}
     ]
   },
   {
@@ -570,7 +775,12 @@
     "example_sentences": [
       {"sentence": "Investors bought a ten percent equity stake in the company.", "translation": "投資家たちはその会社の株式10パーセントを取得しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "asset", "meaning": "資産"},
+      {"word": "shareholder", "meaning": "株主"},
+      {"word": "profit", "meaning": "利益、収益"}
+    ]
   },
   {
     "id": "q_word_750_043",
@@ -582,7 +792,12 @@
     "example_sentences": [
       {"sentence": "The company will pay a dividend of 50 yen per share.", "translation": "その会社は1株あたり50円の配当金を支払います。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "shareholder", "meaning": "株主"},
+      {"word": "profit", "meaning": "利益、収益"},
+      {"word": "payment", "meaning": "支払い、支払金"}
+    ]
   },
   {
     "id": "q_word_750_044",
@@ -594,7 +809,12 @@
     "example_sentences": [
       {"sentence": "Her investment portfolio includes stocks and bonds.", "translation": "彼女の投資ポートフォリオには株式と債券が含まれています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "asset", "meaning": "資産"},
+      {"word": "information", "meaning": "情報"},
+      {"word": "project", "meaning": "プロジェクト、計画、事業"}
+    ]
   },
   {
     "id": "q_word_750_045",
@@ -608,6 +828,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "auditor", "meaning": "監査人"}
+    ],
+    "similar_words": [
+      {"word": "inspect", "meaning": "検査する、点検する"},
+      {"word": "inspection", "meaning": "検査、点検"},
+      {"word": "examine", "meaning": "調べる、検査する、診察する"}
     ]
   },
   {
@@ -623,6 +848,11 @@
     "derivatives": [
       {"part": "verb", "word": "comply", "meaning": "従う、遵守する"},
       {"part": "adj", "word": "compliant", "meaning": "準拠した、従順な"}
+    ],
+    "similar_words": [
+      {"word": "comply", "meaning": "従う、遵守する"},
+      {"word": "abide", "meaning": "従う、順守する"},
+      {"word": "adhere", "meaning": "順守する、固く守る"}
     ]
   },
   {
@@ -635,7 +865,12 @@
     "example_sentences": [
       {"sentence": "The fiscal year ends on March 31.", "translation": "会計年度は3月31日に終了します。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "tax", "meaning": "税、税金"},
+      {"word": "budget", "meaning": "予算、経費"},
+      {"word": "frugal", "meaning": "倹約な、質素な"}
+    ]
   },
   {
     "id": "q_word_750_048",
@@ -647,7 +882,12 @@
     "example_sentences": [
       {"sentence": "The central bank adjusted its monetary policy last week.", "translation": "中央銀行は先週、金融政策を調整しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "currency", "meaning": "通貨、貨幣"},
+      {"word": "monotonous", "meaning": "単調な"},
+      {"word": "payment", "meaning": "支払い、支払金"}
+    ]
   },
   {
     "id": "q_word_750_049",
@@ -659,7 +899,12 @@
     "example_sentences": [
       {"sentence": "The country recorded a trade surplus for the third year in a row.", "translation": "その国は3年連続で貿易黒字を記録しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "deficit", "meaning": "赤字、不足"},
+      {"word": "balance", "meaning": "残高、収支、均衡"},
+      {"word": "profit", "meaning": "利益、収益"}
+    ]
   },
   {
     "id": "q_word_750_050",
@@ -671,6 +916,11 @@
     "example_sentences": [
       {"sentence": "The company reported a budget deficit for the second quarter.", "translation": "その会社は第2四半期の予算赤字を報告しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "defect", "meaning": "欠陥、不良"},
+      {"word": "surplus", "meaning": "余剰、黒字"},
+      {"word": "budget", "meaning": "予算、経費"}
+    ]
   }
 ]

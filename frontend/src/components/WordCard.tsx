@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import type { WordQuestion, ExampleSentence } from '../types/word';
 import { translatePos, translateDerivPart } from '../types/word';
 import { HighlightedSentence } from './HighlightedSentence';
@@ -35,6 +36,10 @@ export function WordCard({
 }: WordCardProps) {
   // リロード生成済みならそちらを表示、未生成なら Firestore のデフォルト例文
   const currentExample = generatedExample ?? word.example_sentences[0];
+
+  // 関連する単語は折りたたんでおく。常時出すとカードが4行伸びるため
+  const [similarOpen, setSimilarOpen] = useState(false);
+  const similarWords = word.similar_words ?? [];
 
   return (
     <article
@@ -184,6 +189,42 @@ export function WordCard({
                   {d.word}　{d.meaning}
                 </p>
               ))}
+            </div>
+          )}
+
+          {/* 関連する単語（折りたたみ。カバーを外した後にだけ出す） */}
+          {similarWords.length > 0 && (
+            <div className="mt-2">
+              <button
+                type="button"
+                onClick={() => setSimilarOpen((v) => !v)}
+                aria-expanded={similarOpen}
+                className="flex items-center gap-1 pl-2 text-base text-sky-600 dark:text-sky-400"
+              >
+                関連する単語
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth={2.5}
+                  className={`h-4 w-4 transition-transform ${similarOpen ? 'rotate-180' : ''}`}
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                </svg>
+              </button>
+
+              {similarOpen && (
+                <div className="mt-1 space-y-0.5 pl-2 text-base text-gray-600 dark:text-gray-400">
+                  {similarWords.map((s, i) => (
+                    <p key={i}>
+                      <span className="font-medium text-gray-700 dark:text-gray-300">{s.word}</span>
+                      {'　'}
+                      {s.meaning}
+                    </p>
+                  ))}
+                </div>
+              )}
             </div>
           )}
         </div>

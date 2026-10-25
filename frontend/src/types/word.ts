@@ -3,6 +3,12 @@ export interface ExampleSentence {
   translation: string;
 }
 
+/** 意味が近い単語。scripts/generate_similar_words.py が事前計算して単語データに持たせる */
+export interface SimilarWord {
+  word: string;
+  meaning: string;
+}
+
 export interface Derivative {
   part: string;
   word: string;
@@ -18,6 +24,8 @@ export interface WordQuestion {
   chapter_num: number;
   example_sentences: ExampleSentence[];
   derivatives: Derivative[];
+  /** 関連する単語（常に3件）。古いデータには無いこともある */
+  similar_words?: SimilarWord[];
 }
 
 /** part_of_speech の英語キー → 日本語 */

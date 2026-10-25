@@ -9,7 +9,12 @@
     "example_sentences": [
       {"sentence": "This internship is a great opportunity to gain experience.", "translation": "このインターンシップは経験を積む絶好の機会です。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "knowledge", "meaning": "知識"},
+      {"word": "option", "meaning": "選択肢、オプション"},
+      {"word": "occasionally", "meaning": "時々、たまに"}
+    ]
   },
   {
     "id": "q_word_600_352",
@@ -23,6 +28,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "experienced", "meaning": "経験豊富な"}
+    ],
+    "similar_words": [
+      {"word": "experiment", "meaning": "実験"},
+      {"word": "explanation", "meaning": "説明"},
+      {"word": "expense", "meaning": "費用、経費、支出"}
     ]
   },
   {
@@ -37,6 +47,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "skilled", "meaning": "熟練した"}
+    ],
+    "similar_words": [
+      {"word": "ability", "meaning": "能力、才能"},
+      {"word": "knowledge", "meaning": "知識"},
+      {"word": "professional", "meaning": "専門的な、プロの、専門家"}
     ]
   },
   {
@@ -51,6 +66,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "able", "meaning": "できる、能力がある"}
+    ],
+    "similar_words": [
+      {"word": "skill", "meaning": "技能、技術"},
+      {"word": "capable", "meaning": "能力がある、〜できる"},
+      {"word": "capacity", "meaning": "収容能力、生産能力"}
     ]
   },
   {
@@ -65,6 +85,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "knowledgeable", "meaning": "知識が豊富な"}
+    ],
+    "similar_words": [
+      {"word": "information", "meaning": "情報"},
+      {"word": "awareness", "meaning": "認知、意識"},
+      {"word": "aware", "meaning": "気づいている、認識している"}
     ]
   },
   {
@@ -80,6 +105,11 @@
     "derivatives": [
       {"part": "verb", "word": "educate", "meaning": "教育する"},
       {"part": "adj", "word": "educational", "meaning": "教育的な"}
+    ],
+    "similar_words": [
+      {"word": "curriculum", "meaning": "カリキュラム、教育課程"},
+      {"word": "training", "meaning": "研修、訓練"},
+      {"word": "degree", "meaning": "学位、程度"}
     ]
   },
   {
@@ -92,7 +122,12 @@
     "example_sentences": [
       {"sentence": "A bachelor's degree in business is preferred for this role.", "translation": "この職には経営学の学士号があると望ましいです。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "education", "meaning": "教育、学歴"},
+      {"word": "position", "meaning": "職、地位、位置"},
+      {"word": "knowledge", "meaning": "知識"}
+    ]
   },
   {
     "id": "q_word_600_358",
@@ -107,6 +142,11 @@
     "derivatives": [
       {"part": "verb", "word": "qualify", "meaning": "資格を得る"},
       {"part": "adj", "word": "qualified", "meaning": "資格のある"}
+    ],
+    "similar_words": [
+      {"word": "quality", "meaning": "品質、質"},
+      {"word": "condition", "meaning": "条件、状態"},
+      {"word": "requirement", "meaning": "必要条件、要件"}
     ]
   },
   {
@@ -122,6 +162,11 @@
     "derivatives": [
       {"part": "verb", "word": "certify", "meaning": "証明する"},
       {"part": "noun", "word": "certification", "meaning": "認定、資格認定"}
+    ],
+    "similar_words": [
+      {"word": "certify", "meaning": "証明する、認定する"},
+      {"word": "license", "meaning": "免許、許可証"},
+      {"word": "verify", "meaning": "確認する、証明する"}
     ]
   },
   {
@@ -136,6 +181,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "train", "meaning": "訓練する"}
+    ],
+    "similar_words": [
+      {"word": "train", "meaning": "訓練する、研修する"},
+      {"word": "education", "meaning": "教育、学歴"},
+      {"word": "seminar", "meaning": "セミナー、研修会"}
     ]
   },
   {
@@ -148,7 +198,12 @@
     "example_sentences": [
       {"sentence": "He built his career in the finance industry.", "translation": "彼は金融業界でキャリアを築いてきました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "education", "meaning": "教育、学歴"},
+      {"word": "achievement", "meaning": "業績、達成"},
+      {"word": "ability", "meaning": "能力、才能"}
+    ]
   },
   {
     "id": "q_word_600_362",
@@ -162,6 +217,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "achieve", "meaning": "達成する"}
+    ],
+    "similar_words": [
+      {"word": "accomplish", "meaning": "成し遂げる、達成する"},
+      {"word": "skill", "meaning": "技能、技術"},
+      {"word": "ability", "meaning": "能力、才能"}
     ]
   },
   {
@@ -174,7 +234,12 @@
     "example_sentences": [
       {"sentence": "Our sales goal for this year is 50 million yen.", "translation": "今年の売上目標は5,000万円です。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "objective", "meaning": "目的、目標"},
+      {"word": "purpose", "meaning": "目的"},
+      {"word": "knowledge", "meaning": "知識"}
+    ]
   },
   {
     "id": "q_word_600_364",
@@ -186,7 +251,12 @@
     "example_sentences": [
       {"sentence": "The main objective of the meeting is to finalize the budget.", "translation": "この会議の主な目的は予算を確定することです。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "goal", "meaning": "目標"},
+      {"word": "purpose", "meaning": "目的"},
+      {"word": "project", "meaning": "プロジェクト、計画、事業"}
+    ]
   },
   {
     "id": "q_word_600_365",
@@ -198,7 +268,12 @@
     "example_sentences": [
       {"sentence": "The purpose of this survey is to improve our services.", "translation": "この調査の目的はサービスを改善することです。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "objective", "meaning": "目的、目標"},
+      {"word": "goal", "meaning": "目標"},
+      {"word": "reason", "meaning": "理由"}
+    ]
   },
   {
     "id": "q_word_600_366",
@@ -212,6 +287,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "result", "meaning": "結果として生じる"}
+    ],
+    "similar_words": [
+      {"word": "outcome", "meaning": "結果、成果"},
+      {"word": "result in", "meaning": "〜という結果になる"},
+      {"word": "conclusion", "meaning": "結論、結末"}
     ]
   },
   {
@@ -224,7 +304,12 @@
     "example_sentences": [
       {"sentence": "We are satisfied with the outcome of the negotiations.", "translation": "私たちは交渉の結果に満足しています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "result", "meaning": "結果"},
+      {"word": "conclusion", "meaning": "結論、結末"},
+      {"word": "result in", "meaning": "〜という結果になる"}
+    ]
   },
   {
     "id": "q_word_600_368",
@@ -238,6 +323,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "effective", "meaning": "効果的な"}
+    ],
+    "similar_words": [
+      {"word": "effective", "meaning": "効果的な、有効な"},
+      {"word": "explanation", "meaning": "説明"},
+      {"word": "description", "meaning": "説明、記述"}
     ]
   },
   {
@@ -250,7 +340,12 @@
     "example_sentences": [
       {"sentence": "The engineer identified the cause of the malfunction.", "translation": "技術者は故障の原因を特定しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "reason", "meaning": "理由"},
+      {"word": "due to", "meaning": "〜が原因で、〜のために"},
+      {"word": "explanation", "meaning": "説明"}
+    ]
   },
   {
     "id": "q_word_600_370",
@@ -264,6 +359,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "reasonable", "meaning": "妥当な、手頃な"}
+    ],
+    "similar_words": [
+      {"word": "cause", "meaning": "原因、引き起こす"},
+      {"word": "explanation", "meaning": "説明"},
+      {"word": "purpose", "meaning": "目的"}
     ]
   },
   {
@@ -276,7 +376,12 @@
     "example_sentences": [
       {"sentence": "We need to address this issue before the launch.", "translation": "発売前にこの問題に対処する必要があります。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "problem", "meaning": "問題"},
+      {"word": "publish", "meaning": "出版する、発行する"},
+      {"word": "address", "meaning": "住所、宛先、(問題に)対処する"}
+    ]
   },
   {
     "id": "q_word_600_372",
@@ -288,7 +393,12 @@
     "example_sentences": [
       {"sentence": "The technician quickly solved the printer problem.", "translation": "技術者はプリンターの問題をすばやく解決しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "issue", "meaning": "問題、論点、発行する"},
+      {"word": "solution", "meaning": "解決策、解決"},
+      {"word": "task", "meaning": "仕事、任務、作業"}
+    ]
   },
   {
     "id": "q_word_600_373",
@@ -302,6 +412,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "solve", "meaning": "解決する"}
+    ],
+    "similar_words": [
+      {"word": "problem", "meaning": "問題"},
+      {"word": "figure out", "meaning": "理解する、解決する"},
+      {"word": "conclusion", "meaning": "結論、結末"}
     ]
   },
   {
@@ -314,7 +429,12 @@
     "example_sentences": [
       {"sentence": "Please select your preferred payment method at checkout.", "translation": "お会計の際に希望のお支払い方法をお選びください。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "rule", "meaning": "規則、ルール"},
+      {"word": "measure", "meaning": "測定する、測る"},
+      {"word": "knowledge", "meaning": "知識"}
+    ]
   },
   {
     "id": "q_word_600_375",
@@ -328,6 +448,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "procedure", "meaning": "手順"}
+    ],
+    "similar_words": [
+      {"word": "procedure", "meaning": "手順、手続き"},
+      {"word": "produce", "meaning": "生産する、製造する"},
+      {"word": "method", "meaning": "方法、方式"}
     ]
   },
   {
@@ -340,7 +465,12 @@
     "example_sentences": [
       {"sentence": "Employees must follow the safety procedure at all times.", "translation": "社員は常に安全手順に従わなければなりません。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "protocol", "meaning": "手順、規約、儀礼"},
+      {"word": "process", "meaning": "過程、工程、処理する"},
+      {"word": "method", "meaning": "方法、方式"}
+    ]
   },
   {
     "id": "q_word_600_377",
@@ -352,7 +482,12 @@
     "example_sentences": [
       {"sentence": "Our return policy allows exchanges within 14 days.", "translation": "当社の返品規定では14日以内の交換が可能です。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "guideline", "meaning": "指針、ガイドライン"},
+      {"word": "rule", "meaning": "規則、ルール"},
+      {"word": "regulation", "meaning": "規則、規制"}
+    ]
   },
   {
     "id": "q_word_600_378",
@@ -366,6 +501,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "regulate", "meaning": "規制する"}
+    ],
+    "similar_words": [
+      {"word": "rule", "meaning": "規則、ルール"},
+      {"word": "regularly", "meaning": "定期的に、規則正しく"},
+      {"word": "compliance", "meaning": "遵守、法令順守"}
     ]
   },
   {
@@ -378,7 +518,12 @@
     "example_sentences": [
       {"sentence": "Please review the company rules before your first day.", "translation": "出勤初日の前に会社の規則をご確認ください。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "regulation", "meaning": "規則、規制"},
+      {"word": "law", "meaning": "法律"},
+      {"word": "method", "meaning": "方法、方式"}
+    ]
   },
   {
     "id": "q_word_600_380",
@@ -392,6 +537,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "lawyer", "meaning": "弁護士"}
+    ],
+    "similar_words": [
+      {"word": "rule", "meaning": "規則、ルール"},
+      {"word": "statute", "meaning": "法令、成文法"},
+      {"word": "knowledge", "meaning": "知識"}
     ]
   },
   {
@@ -406,6 +556,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "require", "meaning": "必要とする"}
+    ],
+    "similar_words": [
+      {"word": "demand", "meaning": "需要、要求、要求する"},
+      {"word": "request", "meaning": "依頼する、要請、リクエスト"},
+      {"word": "qualification", "meaning": "資格、条件"}
     ]
   },
   {
@@ -418,7 +573,12 @@
     "example_sentences": [
       {"sentence": "Our products meet international quality standards.", "translation": "当社の製品は国際的な品質基準を満たしています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "benchmark", "meaning": "基準、指標"},
+      {"word": "rule", "meaning": "規則、ルール"},
+      {"word": "baseline", "meaning": "基準線、基準値"}
+    ]
   },
   {
     "id": "q_word_600_383",
@@ -430,7 +590,12 @@
     "example_sentences": [
       {"sentence": "Please follow the guidelines when submitting your report.", "translation": "報告書を提出する際は指針に従ってください。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "rule", "meaning": "規則、ルール"},
+      {"word": "policy", "meaning": "方針、政策、規定"},
+      {"word": "instruction", "meaning": "指示、説明"}
+    ]
   },
   {
     "id": "q_word_600_384",
@@ -444,6 +609,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "instruct", "meaning": "指示する"}
+    ],
+    "similar_words": [
+      {"word": "explanation", "meaning": "説明"},
+      {"word": "description", "meaning": "説明、記述"},
+      {"word": "direction", "meaning": "方向、道順、指示"}
     ]
   },
   {
@@ -456,7 +626,12 @@
     "example_sentences": [
       {"sentence": "Please refer to the manual if you have any questions.", "translation": "ご不明な点は説明書をご参照ください。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "instruction", "meaning": "指示、説明"},
+      {"word": "explanation", "meaning": "説明"},
+      {"word": "document", "meaning": "書類、文書"}
+    ]
   },
   {
     "id": "q_word_600_386",
@@ -470,6 +645,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "detailed", "meaning": "詳細な"}
+    ],
+    "similar_words": [
+      {"word": "description", "meaning": "説明、記述"},
+      {"word": "information", "meaning": "情報"},
+      {"word": "explanation", "meaning": "説明"}
     ]
   },
   {
@@ -482,7 +662,12 @@
     "example_sentences": [
       {"sentence": "The new model has several useful features.", "translation": "その新モデルにはいくつかの便利な機能があります。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "function", "meaning": "機能、働き"},
+      {"word": "detail", "meaning": "詳細"},
+      {"word": "experience", "meaning": "経験、経験する"}
+    ]
   },
   {
     "id": "q_word_600_388",
@@ -496,6 +681,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "functional", "meaning": "機能的な"}
+    ],
+    "similar_words": [
+      {"word": "feature", "meaning": "特徴、機能"},
+      {"word": "task", "meaning": "仕事、任務、作業"},
+      {"word": "ability", "meaning": "能力、才能"}
     ]
   },
   {
@@ -508,7 +698,12 @@
     "example_sentences": [
       {"sentence": "The main disadvantage of this plan is its high cost.", "translation": "このプランの主な欠点はコストが高いことです。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "drawback", "meaning": "欠点、難点"},
+      {"word": "adverse", "meaning": "不利な、逆の"},
+      {"word": "problem", "meaning": "問題"}
+    ]
   },
   {
     "id": "q_word_600_390",
@@ -520,7 +715,12 @@
     "example_sentences": [
       {"sentence": "One drawback of the new system is its slow start-up time.", "translation": "新しいシステムの難点の一つは起動が遅いことです。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "disadvantage", "meaning": "不利な点、欠点"},
+      {"word": "defect", "meaning": "欠陥、不良"},
+      {"word": "problem", "meaning": "問題"}
+    ]
   },
   {
     "id": "q_word_600_391",
@@ -534,6 +734,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "optional", "meaning": "任意の、選択できる"}
+    ],
+    "similar_words": [
+      {"word": "choice", "meaning": "選択、選択肢"},
+      {"word": "alternative", "meaning": "代替案、選択肢"},
+      {"word": "choose", "meaning": "選ぶ"}
     ]
   },
   {
@@ -548,6 +753,11 @@
     ],
     "derivatives": [
       {"part": "adv", "word": "alternatively", "meaning": "代わりに、あるいは"}
+    ],
+    "similar_words": [
+      {"word": "option", "meaning": "選択肢、オプション"},
+      {"word": "choice", "meaning": "選択、選択肢"},
+      {"word": "instead of", "meaning": "〜の代わりに"}
     ]
   },
   {
@@ -562,6 +772,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "choose", "meaning": "選ぶ"}
+    ],
+    "similar_words": [
+      {"word": "choose", "meaning": "選ぶ"},
+      {"word": "option", "meaning": "選択肢、オプション"},
+      {"word": "decision", "meaning": "決定、決断"}
     ]
   },
   {
@@ -576,6 +791,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "decide", "meaning": "決める"}
+    ],
+    "similar_words": [
+      {"word": "decide", "meaning": "決める、決定する"},
+      {"word": "determine", "meaning": "決定する、判断する"},
+      {"word": "choice", "meaning": "選択、選択肢"}
     ]
   },
   {
@@ -590,6 +810,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "conclude", "meaning": "結論づける"}
+    ],
+    "similar_words": [
+      {"word": "result", "meaning": "結果"},
+      {"word": "decision", "meaning": "決定、決断"},
+      {"word": "determine", "meaning": "決定する、判断する"}
     ]
   },
   {
@@ -604,6 +829,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "summarize", "meaning": "要約する"}
+    ],
+    "similar_words": [
+      {"word": "briefly", "meaning": "簡潔に、手短に"},
+      {"word": "description", "meaning": "説明、記述"},
+      {"word": "knowledge", "meaning": "知識"}
     ]
   },
   {
@@ -618,6 +848,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "describe", "meaning": "説明する、描写する"}
+    ],
+    "similar_words": [
+      {"word": "explanation", "meaning": "説明"},
+      {"word": "detail", "meaning": "詳細"},
+      {"word": "instruction", "meaning": "指示、説明"}
     ]
   },
   {
@@ -632,6 +867,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "explain", "meaning": "説明する"}
+    ],
+    "similar_words": [
+      {"word": "description", "meaning": "説明、記述"},
+      {"word": "reason", "meaning": "理由"},
+      {"word": "instruction", "meaning": "指示、説明"}
     ]
   },
   {
@@ -644,7 +884,12 @@
     "example_sentences": [
       {"sentence": "Let me give you an example of how this works.", "translation": "これがどう機能するか、一例をお示しします。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "exemplify", "meaning": "例証する、体現する"},
+      {"word": "explanation", "meaning": "説明"},
+      {"word": "description", "meaning": "説明、記述"}
+    ]
   },
   {
     "id": "q_word_600_400",
@@ -658,6 +903,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "inform", "meaning": "知らせる"}
+    ],
+    "similar_words": [
+      {"word": "knowledge", "meaning": "知識"},
+      {"word": "inform", "meaning": "知らせる、通知する"},
+      {"word": "detail", "meaning": "詳細"}
     ]
   }
 ]

@@ -12,6 +12,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "reservation", "meaning": "予約"}
+    ],
+    "similar_words": [
+      {"word": "reservation", "meaning": "予約"},
+      {"word": "book", "meaning": "予約する"},
+      {"word": "withhold", "meaning": "差し控える、保留する"}
     ]
   },
   {
@@ -27,6 +32,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "reserve", "meaning": "予約する"}
+    ],
+    "similar_words": [
+      {"word": "reserve", "meaning": "予約する、取っておく"},
+      {"word": "book", "meaning": "予約する"},
+      {"word": "confirm", "meaning": "確認する、確定する"}
     ]
   },
   {
@@ -42,6 +52,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "booking", "meaning": "予約"}
+    ],
+    "similar_words": [
+      {"word": "reservation", "meaning": "予約"},
+      {"word": "reserve", "meaning": "予約する、取っておく"},
+      {"word": "confirm", "meaning": "確認する、確定する"}
     ]
   },
   {
@@ -57,6 +72,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "fly", "meaning": "飛ぶ、飛行機で行く"}
+    ],
+    "similar_words": [
+      {"word": "passenger", "meaning": "乗客、旅客"},
+      {"word": "boarding", "meaning": "搭乗、乗車"},
+      {"word": "freight", "meaning": "貨物、貨物輸送"}
     ]
   },
   {
@@ -70,7 +90,12 @@
       {"sentence": "All passengers must show their boarding passes at the gate.", "translation": "乗客の皆様はゲートで搭乗券をご提示ください。"},
       {"sentence": "The train was crowded with passengers this morning.", "translation": "今朝、電車は乗客で混雑していました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "boarding", "meaning": "搭乗、乗車"},
+      {"word": "tourist", "meaning": "観光客、旅行者"},
+      {"word": "flight", "meaning": "(飛行機の)便、フライト、飛行"}
+    ]
   },
   {
     "id": "q_word_600_106",
@@ -83,7 +108,12 @@
       {"sentence": "You can leave your luggage at the front desk.", "translation": "お荷物はフロントに預けていただけます。"},
       {"sentence": "Each passenger is allowed one piece of carry-on luggage.", "translation": "乗客一人につき機内持ち込み手荷物1個が認められています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "baggage", "meaning": "手荷物、荷物"},
+      {"word": "passenger", "meaning": "乗客、旅客"},
+      {"word": "package", "meaning": "小包、荷物、梱包する"}
+    ]
   },
   {
     "id": "q_word_600_107",
@@ -96,7 +126,12 @@
       {"sentence": "Please pick up your baggage at carousel number three.", "translation": "お荷物は3番のターンテーブルでお受け取りください。"},
       {"sentence": "There is an extra charge for excess baggage.", "translation": "重量超過の荷物には追加料金がかかります。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "luggage", "meaning": "手荷物、旅行かばん"},
+      {"word": "package", "meaning": "小包、荷物、梱包する"},
+      {"word": "passenger", "meaning": "乗客、旅客"}
+    ]
   },
   {
     "id": "q_word_600_108",
@@ -111,6 +146,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "board", "meaning": "搭乗する、乗り込む"}
+    ],
+    "similar_words": [
+      {"word": "passenger", "meaning": "乗客、旅客"},
+      {"word": "check-in", "meaning": "チェックイン、搭乗手続き"},
+      {"word": "arrival", "meaning": "到着"}
     ]
   },
   {
@@ -124,7 +164,12 @@
       {"sentence": "Kyoto is a popular destination for foreign tourists.", "translation": "京都は外国人観光客に人気の目的地です。"},
       {"sentence": "We should arrive at our destination by six o'clock.", "translation": "6時までには目的地に到着するはずです。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "direction", "meaning": "方向、道順、指示"},
+      {"word": "tourist", "meaning": "観光客、旅行者"},
+      {"word": "departure", "meaning": "出発、発車"}
+    ]
   },
   {
     "id": "q_word_600_110",
@@ -137,7 +182,12 @@
       {"sentence": "I have attached the itinerary for your business trip.", "translation": "出張の旅程表を添付いたしました。"},
       {"sentence": "The itinerary includes a factory tour on the second day.", "translation": "旅程には2日目の工場見学が含まれています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "schedule", "meaning": "予定する、予定表、スケジュール"},
+      {"word": "agenda", "meaning": "議題、議事日程"},
+      {"word": "flight", "meaning": "(飛行機の)便、フライト、飛行"}
+    ]
   },
   {
     "id": "q_word_600_111",
@@ -150,7 +200,12 @@
       {"sentence": "The bus fare from the airport is 1,200 yen.", "translation": "空港からのバス運賃は1,200円です。"},
       {"sentence": "Train fares will increase starting next April.", "translation": "電車の運賃は来年4月から値上げされます。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "fee", "meaning": "料金、手数料、会費"},
+      {"word": "price", "meaning": "価格、値段"},
+      {"word": "charge", "meaning": "請求する、料金、担当"}
+    ]
   },
   {
     "id": "q_word_600_112",
@@ -163,7 +218,12 @@
       {"sentence": "A round-trip ticket is cheaper than two one-way tickets.", "translation": "往復券は片道券を2枚買うより安いです。"},
       {"sentence": "The company will cover your round-trip airfare.", "translation": "会社が往復の航空券代を負担します。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "itinerary", "meaning": "旅程、旅行日程表"},
+      {"word": "destination", "meaning": "目的地、行き先"},
+      {"word": "transit", "meaning": "輸送、通過、乗り継ぎ"}
+    ]
   },
   {
     "id": "q_word_600_113",
@@ -176,7 +236,12 @@
       {"sentence": "I would prefer an aisle seat, please.", "translation": "通路側の席をお願いしたいのですが。"},
       {"sentence": "You can find batteries in aisle five.", "translation": "電池は5番通路にございます。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "route", "meaning": "経路、道筋、路線"},
+      {"word": "passenger", "meaning": "乗客、旅客"},
+      {"word": "arrival", "meaning": "到着"}
+    ]
   },
   {
     "id": "q_word_600_114",
@@ -192,6 +257,11 @@
     "derivatives": [
       {"part": "noun", "word": "transfer", "meaning": "乗り換え、異動、振替"},
       {"part": "adj", "word": "transferable", "meaning": "譲渡できる、移動可能な"}
+    ],
+    "similar_words": [
+      {"word": "exchange", "meaning": "交換する、両替する、交換"},
+      {"word": "transit", "meaning": "輸送、通過、乗り継ぎ"},
+      {"word": "shift", "meaning": "交代勤務、シフト、変更"}
     ]
   },
   {
@@ -207,6 +277,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "delayed", "meaning": "遅れた、遅延した"}
+    ],
+    "similar_words": [
+      {"word": "postpone", "meaning": "延期する"},
+      {"word": "hesitate", "meaning": "ためらう、躊躇する"},
+      {"word": "put off", "meaning": "延期する"}
     ]
   },
   {
@@ -222,6 +297,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "depart", "meaning": "出発する"}
+    ],
+    "similar_words": [
+      {"word": "depart", "meaning": "出発する"},
+      {"word": "arrival", "meaning": "到着"},
+      {"word": "terminal", "meaning": "発着所、ターミナル"}
     ]
   },
   {
@@ -237,6 +317,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "arrive", "meaning": "到着する"}
+    ],
+    "similar_words": [
+      {"word": "arrive", "meaning": "到着する、届く"},
+      {"word": "departure", "meaning": "出発、発車"},
+      {"word": "depart", "meaning": "出発する"}
     ]
   },
   {
@@ -252,6 +337,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "accommodate", "meaning": "収容する、宿泊させる"}
+    ],
+    "similar_words": [
+      {"word": "lodging", "meaning": "宿泊、宿、宿泊先"},
+      {"word": "amenity", "meaning": "設備、備品、アメニティ"},
+      {"word": "rental", "meaning": "賃貸、レンタル、賃貸の"}
     ]
   },
   {
@@ -267,6 +357,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "lodge", "meaning": "宿泊する、泊める"}
+    ],
+    "similar_words": [
+      {"word": "accommodation", "meaning": "宿泊施設、宿泊設備"},
+      {"word": "luggage", "meaning": "手荷物、旅行かばん"},
+      {"word": "parking", "meaning": "駐車、駐車場"}
     ]
   },
   {
@@ -282,6 +377,11 @@
     ],
     "derivatives": [
       {"part": "phrase", "word": "check in", "meaning": "チェックインする、搭乗手続きをする"}
+    ],
+    "similar_words": [
+      {"word": "boarding", "meaning": "搭乗、乗車"},
+      {"word": "passenger", "meaning": "乗客、旅客"},
+      {"word": "checkout", "meaning": "会計、レジ、チェックアウト"}
     ]
   },
   {
@@ -295,7 +395,12 @@
       {"sentence": "The hotel offers amenities such as a gym and a pool.", "translation": "そのホテルにはジムやプールなどの設備があります。"},
       {"sentence": "Free Wi-Fi is a standard amenity in most hotels.", "translation": "無料Wi-Fiはほとんどのホテルで標準的な設備です。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "accommodation", "meaning": "宿泊施設、宿泊設備"},
+      {"word": "equipment", "meaning": "機器、設備、装置"},
+      {"word": "convenient", "meaning": "便利な、都合のよい"}
+    ]
   },
   {
     "id": "q_word_600_122",
@@ -310,6 +415,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "vacant", "meaning": "空いている、空席の"}
+    ],
+    "similar_words": [
+      {"word": "absence", "meaning": "欠席、不在、欠勤"},
+      {"word": "applicant", "meaning": "応募者、志願者"},
+      {"word": "appointment", "meaning": "(面会の)約束、予約、任命"}
     ]
   },
   {
@@ -326,6 +436,11 @@
     "derivatives": [
       {"part": "noun", "word": "tourism", "meaning": "観光業、観光"},
       {"part": "noun", "word": "tour", "meaning": "旅行、見学"}
+    ],
+    "similar_words": [
+      {"word": "sightseeing", "meaning": "観光、見物"},
+      {"word": "passenger", "meaning": "乗客、旅客"},
+      {"word": "customer", "meaning": "顧客、客"}
     ]
   },
   {
@@ -339,7 +454,12 @@
       {"sentence": "We went sightseeing in Rome on our last day.", "translation": "最終日にローマを観光しました。"},
       {"sentence": "A sightseeing bus tour departs from the station every hour.", "translation": "観光バスツアーは駅から1時間おきに出発します。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "tourist", "meaning": "観光客、旅行者"},
+      {"word": "observe", "meaning": "観察する、気づく、遵守する"},
+      {"word": "destination", "meaning": "目的地、行き先"}
+    ]
   },
   {
     "id": "q_word_600_125",
@@ -352,7 +472,12 @@
       {"sentence": "I bought some souvenirs for my colleagues.", "translation": "同僚のためにお土産をいくつか買いました。"},
       {"sentence": "The souvenir shop is located next to the exit.", "translation": "土産物店は出口の隣にあります。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "merchandise", "meaning": "商品"},
+      {"word": "product", "meaning": "製品、商品"},
+      {"word": "voucher", "meaning": "引換券、商品券"}
+    ]
   },
   {
     "id": "q_word_600_126",
@@ -365,7 +490,12 @@
       {"sentence": "No vehicles are allowed in this area on weekends.", "translation": "週末はこの区域への車両の乗り入れが禁止されています。"},
       {"sentence": "The company purchased three new delivery vehicles.", "translation": "その会社は新しい配送車両を3台購入しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "flight", "meaning": "(飛行機の)便、フライト、飛行"},
+      {"word": "traffic", "meaning": "交通、交通量、往来"},
+      {"word": "departure", "meaning": "出発、発車"}
+    ]
   },
   {
     "id": "q_word_600_127",
@@ -378,7 +508,12 @@
       {"sentence": "I was late for the meeting because of heavy traffic.", "translation": "交通渋滞のせいで会議に遅刻しました。"},
       {"sentence": "Traffic is usually light on Sunday mornings.", "translation": "日曜の朝は普段、交通量が少ないです。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "highway", "meaning": "幹線道路、高速道路"},
+      {"word": "intersection", "meaning": "交差点"},
+      {"word": "pedestrian", "meaning": "歩行者"}
+    ]
   },
   {
     "id": "q_word_600_128",
@@ -391,7 +526,12 @@
       {"sentence": "The highway will be closed for repairs this weekend.", "translation": "その幹線道路は今週末、補修工事のため通行止めになります。"},
       {"sentence": "Take the highway to save about thirty minutes.", "translation": "高速道路を使えば30分ほど節約できます。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "traffic", "meaning": "交通、交通量、往来"},
+      {"word": "route", "meaning": "経路、道筋、路線"},
+      {"word": "intersection", "meaning": "交差点"}
+    ]
   },
   {
     "id": "q_word_600_129",
@@ -404,7 +544,12 @@
       {"sentence": "Drivers must stop for pedestrians at the crosswalk.", "translation": "運転手は横断歩道で歩行者のために停止しなければなりません。"},
       {"sentence": "The street was closed to create a pedestrian zone.", "translation": "歩行者天国にするため、その通りは閉鎖されました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "traffic", "meaning": "交通、交通量、往来"},
+      {"word": "passenger", "meaning": "乗客、旅客"},
+      {"word": "vehicle", "meaning": "車両、乗り物"}
+    ]
   },
   {
     "id": "q_word_600_130",
@@ -419,6 +564,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "intersect", "meaning": "交差する"}
+    ],
+    "similar_words": [
+      {"word": "traffic", "meaning": "交通、交通量、往来"},
+      {"word": "highway", "meaning": "幹線道路、高速道路"},
+      {"word": "law", "meaning": "法律"}
     ]
   },
   {
@@ -434,6 +584,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "park", "meaning": "駐車する"}
+    ],
+    "similar_words": [
+      {"word": "boarding", "meaning": "搭乗、乗車"},
+      {"word": "arrival", "meaning": "到着"},
+      {"word": "lodging", "meaning": "宿泊、宿、宿泊先"}
     ]
   },
   {
@@ -447,7 +602,12 @@
       {"sentence": "Rising fuel prices have increased shipping costs.", "translation": "燃料価格の高騰により輸送費が増加しました。"},
       {"sentence": "This model uses less fuel than the previous one.", "translation": "このモデルは前のモデルより燃料の消費が少ないです。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "supply", "meaning": "供給する、供給、備品"},
+      {"word": "provide", "meaning": "提供する、供給する"},
+      {"word": "vehicle", "meaning": "車両、乗り物"}
+    ]
   },
   {
     "id": "q_word_600_133",
@@ -462,6 +622,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "rent", "meaning": "借りる、貸す"}
+    ],
+    "similar_words": [
+      {"word": "lease", "meaning": "賃貸借契約、賃貸する、賃借する"},
+      {"word": "accommodation", "meaning": "宿泊施設、宿泊設備"},
+      {"word": "tenant", "meaning": "賃借人、入居者、テナント"}
     ]
   },
   {
@@ -477,6 +642,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "licensed", "meaning": "免許を持った、認可された"}
+    ],
+    "similar_words": [
+      {"word": "permission", "meaning": "許可"},
+      {"word": "approval", "meaning": "承認、許可"},
+      {"word": "authorize", "meaning": "権限を与える、正式に許可する"}
     ]
   },
   {
@@ -490,7 +660,12 @@
       {"sentence": "This is the fastest route to the airport.", "translation": "これが空港までの最短ルートです。"},
       {"sentence": "The bus route was changed due to road construction.", "translation": "道路工事のため、バスの路線が変更されました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "direction", "meaning": "方向、道順、指示"},
+      {"word": "rule", "meaning": "規則、ルール"},
+      {"word": "highway", "meaning": "幹線道路、高速道路"}
+    ]
   },
   {
     "id": "q_word_600_136",
@@ -506,6 +681,11 @@
     "derivatives": [
       {"part": "verb", "word": "direct", "meaning": "指示する、案内する"},
       {"part": "adv", "word": "directly", "meaning": "直接に、まっすぐに"}
+    ],
+    "similar_words": [
+      {"word": "instruction", "meaning": "指示、説明"},
+      {"word": "destination", "meaning": "目的地、行き先"},
+      {"word": "route", "meaning": "経路、道筋、路線"}
     ]
   },
   {
@@ -519,7 +699,12 @@
       {"sentence": "Our new office is located in downtown Nagoya.", "translation": "当社の新しいオフィスは名古屋の中心街にあります。"},
       {"sentence": "Let's go downtown for lunch today.", "translation": "今日は昼食に街の中心部へ行きましょう。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "parking", "meaning": "駐車、駐車場"},
+      {"word": "destination", "meaning": "目的地、行き先"},
+      {"word": "sightseeing", "meaning": "観光、見物"}
+    ]
   },
   {
     "id": "q_word_600_138",
@@ -534,6 +719,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "suburban", "meaning": "郊外の"}
+    ],
+    "similar_words": [
+      {"word": "neighborhood", "meaning": "近所、地域、地区"},
+      {"word": "resident", "meaning": "住民、居住者"},
+      {"word": "parking", "meaning": "駐車、駐車場"}
     ]
   },
   {
@@ -549,6 +739,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "neighbor", "meaning": "隣人、近所の人"}
+    ],
+    "similar_words": [
+      {"word": "suburb", "meaning": "郊外"},
+      {"word": "resident", "meaning": "住民、居住者"},
+      {"word": "apartment", "meaning": "アパート、集合住宅の一室"}
     ]
   },
   {
@@ -566,6 +761,11 @@
       {"part": "verb", "word": "reside", "meaning": "居住する"},
       {"part": "noun", "word": "residence", "meaning": "住居、居住"},
       {"part": "adj", "word": "residential", "meaning": "住宅の、居住用の"}
+    ],
+    "similar_words": [
+      {"word": "passenger", "meaning": "乗客、旅客"},
+      {"word": "tenant", "meaning": "賃借人、入居者、テナント"},
+      {"word": "neighborhood", "meaning": "近所、地域、地区"}
     ]
   },
   {
@@ -579,7 +779,12 @@
       {"sentence": "She rented an apartment close to her office.", "translation": "彼女は職場の近くにアパートを借りました。"},
       {"sentence": "The apartment comes with a small balcony.", "translation": "その部屋には小さなバルコニーが付いています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "resident", "meaning": "住民、居住者"},
+      {"word": "neighborhood", "meaning": "近所、地域、地区"},
+      {"word": "tenant", "meaning": "賃借人、入居者、テナント"}
+    ]
   },
   {
     "id": "q_word_600_142",
@@ -592,7 +797,12 @@
       {"sentence": "Our office lease expires at the end of the year.", "translation": "当社のオフィスの賃貸契約は年末で切れます。"},
       {"sentence": "The company leased a larger space downtown.", "translation": "その会社は中心街により広いスペースを借りました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "rental", "meaning": "賃貸、レンタル、賃貸の"},
+      {"word": "tenant", "meaning": "賃借人、入居者、テナント"},
+      {"word": "contract", "meaning": "契約、契約書"}
+    ]
   },
   {
     "id": "q_word_600_143",
@@ -605,7 +815,12 @@
       {"sentence": "Tenants must pay the rent by the fifth of each month.", "translation": "入居者は毎月5日までに家賃を支払う必要があります。"},
       {"sentence": "A new tenant will move into the office next door.", "translation": "隣のオフィスに新しいテナントが入居します。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "lease", "meaning": "賃貸借契約、賃貸する、賃借する"},
+      {"word": "rental", "meaning": "賃貸、レンタル、賃貸の"},
+      {"word": "resident", "meaning": "住民、居住者"}
+    ]
   },
   {
     "id": "q_word_600_144",
@@ -618,7 +833,12 @@
       {"sentence": "I asked my landlord to fix the air conditioner.", "translation": "大家さんにエアコンを直してもらうよう頼みました。"},
       {"sentence": "The landlord agreed to lower the rent slightly.", "translation": "家主は家賃を少し下げることに同意しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "rental", "meaning": "賃貸、レンタル、賃貸の"},
+      {"word": "tenant", "meaning": "賃借人、入居者、テナント"},
+      {"word": "lease", "meaning": "賃貸借契約、賃貸する、賃借する"}
+    ]
   },
   {
     "id": "q_word_600_145",
@@ -631,7 +851,12 @@
       {"sentence": "The rent includes utilities such as water and gas.", "translation": "家賃には水道やガスなどの公共料金が含まれています。"},
       {"sentence": "Utility bills tend to be higher in winter.", "translation": "光熱費は冬に高くなる傾向があります。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "utilization", "meaning": "利用、活用"},
+      {"word": "electricity", "meaning": "電気、電力"},
+      {"word": "expense", "meaning": "費用、経費、支出"}
+    ]
   },
   {
     "id": "q_word_600_146",
@@ -647,6 +872,11 @@
     "derivatives": [
       {"part": "verb", "word": "furnish", "meaning": "家具を備え付ける"},
       {"part": "adj", "word": "furnished", "meaning": "家具付きの"}
+    ],
+    "similar_words": [
+      {"word": "office", "meaning": "事務所、オフィス、職"},
+      {"word": "market", "meaning": "市場、マーケット"},
+      {"word": "warehouse", "meaning": "倉庫"}
     ]
   },
   {
@@ -660,7 +890,12 @@
       {"sentence": "The store is having a sale on kitchen appliances.", "translation": "その店ではキッチン家電のセールを行っています。"},
       {"sentence": "All appliances in the room are less than a year old.", "translation": "部屋の電化製品はすべて購入から1年未満です。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "equipment", "meaning": "機器、設備、装置"},
+      {"word": "electricity", "meaning": "電気、電力"},
+      {"word": "product", "meaning": "製品、商品"}
+    ]
   },
   {
     "id": "q_word_600_148",
@@ -675,6 +910,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "renovate", "meaning": "改装する、修復する"}
+    ],
+    "similar_words": [
+      {"word": "refurbish", "meaning": "改装する、修復する"},
+      {"word": "repair", "meaning": "修理する、修理"},
+      {"word": "improve", "meaning": "改善する、向上させる"}
     ]
   },
   {
@@ -690,6 +930,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "plumbing", "meaning": "配管、配管工事"}
+    ],
+    "similar_words": [
+      {"word": "repair", "meaning": "修理する、修理"},
+      {"word": "office", "meaning": "事務所、オフィス、職"},
+      {"word": "service", "meaning": "サービス、業務、点検"}
     ]
   },
   {
@@ -706,6 +951,11 @@
     "derivatives": [
       {"part": "adj", "word": "electric", "meaning": "電気の、電動の"},
       {"part": "noun", "word": "electrician", "meaning": "電気技師"}
+    ],
+    "similar_words": [
+      {"word": "ability", "meaning": "能力、才能"},
+      {"word": "appliance", "meaning": "電化製品、器具"},
+      {"word": "utility", "meaning": "公共料金、公共設備、実用性"}
     ]
   }
 ]

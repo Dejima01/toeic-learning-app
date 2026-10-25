@@ -12,6 +12,11 @@
     "derivatives": [
       {"part": "noun", "word": "development", "meaning": "開発、発展"},
       {"part": "noun", "word": "developer", "meaning": "開発者"}
+    ],
+    "similar_words": [
+      {"word": "improve", "meaning": "改善する、向上させる"},
+      {"word": "establish", "meaning": "設立する、確立する"},
+      {"word": "evaluate", "meaning": "評価する"}
     ]
   },
   {
@@ -26,6 +31,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "improvement", "meaning": "改善、向上"}
+    ],
+    "similar_words": [
+      {"word": "increase", "meaning": "増加する、増やす"},
+      {"word": "enhance", "meaning": "高める、強化する"},
+      {"word": "develop", "meaning": "開発する、発展させる"}
     ]
   },
   {
@@ -40,6 +50,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "increase", "meaning": "増加"}
+    ],
+    "similar_words": [
+      {"word": "improve", "meaning": "改善する、向上させる"},
+      {"word": "expand", "meaning": "拡大する、拡張する"},
+      {"word": "decrease", "meaning": "減少する、減らす"}
     ]
   },
   {
@@ -54,6 +69,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "decrease", "meaning": "減少"}
+    ],
+    "similar_words": [
+      {"word": "reduce", "meaning": "減らす、削減する"},
+      {"word": "diminish", "meaning": "減少する、減らす"},
+      {"word": "alleviate", "meaning": "緩和する、軽減する"}
     ]
   },
   {
@@ -68,6 +88,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "reduction", "meaning": "削減、減少"}
+    ],
+    "similar_words": [
+      {"word": "decrease", "meaning": "減少する、減らす"},
+      {"word": "diminish", "meaning": "減少する、減らす"},
+      {"word": "mitigate", "meaning": "軽減する、緩和する"}
     ]
   },
   {
@@ -82,6 +107,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "expansion", "meaning": "拡大、拡張"}
+    ],
+    "similar_words": [
+      {"word": "extend", "meaning": "延長する、拡張する"},
+      {"word": "increase", "meaning": "増加する、増やす"},
+      {"word": "develop", "meaning": "開発する、発展させる"}
     ]
   },
   {
@@ -96,6 +126,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "extension", "meaning": "延長、内線"}
+    ],
+    "similar_words": [
+      {"word": "expand", "meaning": "拡大する、拡張する"},
+      {"word": "extrapolate", "meaning": "推定する、外挿する"},
+      {"word": "increase", "meaning": "増加する、増やす"}
     ]
   },
   {
@@ -110,6 +145,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "establishment", "meaning": "設立、施設"}
+    ],
+    "similar_words": [
+      {"word": "set up", "meaning": "設置する、設立する、準備する"},
+      {"word": "create", "meaning": "創造する、作り出す"},
+      {"word": "install", "meaning": "設置する、取り付ける、インストールする"}
     ]
   },
   {
@@ -125,6 +165,11 @@
     "derivatives": [
       {"part": "noun", "word": "organization", "meaning": "組織、団体"},
       {"part": "noun", "word": "organizer", "meaning": "主催者"}
+    ],
+    "similar_words": [
+      {"word": "organizer", "meaning": "主催者、まとめ役"},
+      {"word": "arrange", "meaning": "手配する、調整する、並べる"},
+      {"word": "coordinate", "meaning": "調整する、まとめる"}
     ]
   },
   {
@@ -139,6 +184,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "arrangement", "meaning": "手配、調整"}
+    ],
+    "similar_words": [
+      {"word": "coordinate", "meaning": "調整する、まとめる"},
+      {"word": "adjust", "meaning": "調整する、適応する"},
+      {"word": "organize", "meaning": "組織する、企画する、整理する"}
     ]
   },
   {
@@ -154,6 +204,11 @@
     "derivatives": [
       {"part": "noun", "word": "management", "meaning": "経営、管理"},
       {"part": "noun", "word": "manager", "meaning": "マネージャー、管理者"}
+    ],
+    "similar_words": [
+      {"word": "manager", "meaning": "部長、管理者、マネージャー"},
+      {"word": "accomplish", "meaning": "成し遂げる、達成する"},
+      {"word": "improve", "meaning": "改善する、向上させる"}
     ]
   },
   {
@@ -169,6 +224,11 @@
     "derivatives": [
       {"part": "noun", "word": "operation", "meaning": "運営、操作"},
       {"part": "adj", "word": "operational", "meaning": "運用上の、稼働可能な"}
+    ],
+    "similar_words": [
+      {"word": "function", "meaning": "機能、働き"},
+      {"word": "execute", "meaning": "実行する、遂行する"},
+      {"word": "carry out", "meaning": "実行する、遂行する"}
     ]
   },
   {
@@ -184,6 +244,11 @@
     "derivatives": [
       {"part": "noun", "word": "product", "meaning": "製品"},
       {"part": "noun", "word": "production", "meaning": "生産"}
+    ],
+    "similar_words": [
+      {"word": "manufacture", "meaning": "製造する、生産する"},
+      {"word": "product", "meaning": "製品、商品"},
+      {"word": "provide", "meaning": "提供する、供給する"}
     ]
   },
   {
@@ -199,6 +264,11 @@
     "derivatives": [
       {"part": "noun", "word": "manufacturer", "meaning": "製造業者、メーカー"},
       {"part": "noun", "word": "manufacturing", "meaning": "製造業"}
+    ],
+    "similar_words": [
+      {"word": "produce", "meaning": "生産する、製造する"},
+      {"word": "factory", "meaning": "工場"},
+      {"word": "create", "meaning": "創造する、作り出す"}
     ]
   },
   {
@@ -213,6 +283,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "designer", "meaning": "デザイナー、設計者"}
+    ],
+    "similar_words": [
+      {"word": "description", "meaning": "説明、記述"},
+      {"word": "create", "meaning": "創造する、作り出す"},
+      {"word": "measure", "meaning": "測定する、測る"}
     ]
   },
   {
@@ -228,6 +303,11 @@
     "derivatives": [
       {"part": "noun", "word": "creation", "meaning": "創造、創作"},
       {"part": "adj", "word": "creative", "meaning": "創造的な"}
+    ],
+    "similar_words": [
+      {"word": "design", "meaning": "設計する、デザインする"},
+      {"word": "generate", "meaning": "生み出す、発生させる"},
+      {"word": "establish", "meaning": "設立する、確立する"}
     ]
   },
   {
@@ -242,6 +322,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "launch", "meaning": "発売、開始"}
+    ],
+    "similar_words": [
+      {"word": "release", "meaning": "発売する、公開する、解放する"},
+      {"word": "commence", "meaning": "開始する"},
+      {"word": "introduce", "meaning": "導入する、紹介する"}
     ]
   },
   {
@@ -256,6 +341,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "introduction", "meaning": "導入、紹介"}
+    ],
+    "similar_words": [
+      {"word": "include", "meaning": "含む、含める"},
+      {"word": "offer", "meaning": "提供する、申し出る、提案"},
+      {"word": "propose", "meaning": "提案する、申し出る"}
     ]
   },
   {
@@ -270,6 +360,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "release", "meaning": "発売、公開"}
+    ],
+    "similar_words": [
+      {"word": "publish", "meaning": "出版する、発行する"},
+      {"word": "relinquish", "meaning": "放棄する、明け渡す"},
+      {"word": "launch", "meaning": "発売する、開始する"}
     ]
   },
   {
@@ -285,6 +380,11 @@
     "derivatives": [
       {"part": "noun", "word": "publication", "meaning": "出版、出版物"},
       {"part": "noun", "word": "publisher", "meaning": "出版社"}
+    ],
+    "similar_words": [
+      {"word": "issue", "meaning": "問題、論点、発行する"},
+      {"word": "release", "meaning": "発売する、公開する、解放する"},
+      {"word": "print", "meaning": "印刷する"}
     ]
   },
   {
@@ -300,6 +400,11 @@
     "derivatives": [
       {"part": "noun", "word": "printer", "meaning": "プリンター"},
       {"part": "noun", "word": "printout", "meaning": "印刷物"}
+    ],
+    "similar_words": [
+      {"word": "copy", "meaning": "コピー、部、複写する"},
+      {"word": "publish", "meaning": "出版する、発行する"},
+      {"word": "reply", "meaning": "返信する、返事、回答"}
     ]
   },
   {
@@ -315,6 +420,11 @@
     "derivatives": [
       {"part": "noun", "word": "editor", "meaning": "編集者"},
       {"part": "noun", "word": "edition", "meaning": "版、刊"}
+    ],
+    "similar_words": [
+      {"word": "revise", "meaning": "修正する、改訂する"},
+      {"word": "amendment", "meaning": "改正、修正"},
+      {"word": "publish", "meaning": "出版する、発行する"}
     ]
   },
   {
@@ -329,6 +439,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "revision", "meaning": "修正、改訂"}
+    ],
+    "similar_words": [
+      {"word": "amendment", "meaning": "改正、修正"},
+      {"word": "edit", "meaning": "編集する、校正する"},
+      {"word": "review", "meaning": "見直す、検討する、レビュー"}
     ]
   },
   {
@@ -344,6 +459,11 @@
     "derivatives": [
       {"part": "noun", "word": "review", "meaning": "見直し、評価"},
       {"part": "noun", "word": "reviewer", "meaning": "評者、審査員"}
+    ],
+    "similar_words": [
+      {"word": "go over", "meaning": "見直す、検討する"},
+      {"word": "revise", "meaning": "修正する、改訂する"},
+      {"word": "evaluate", "meaning": "評価する"}
     ]
   },
   {
@@ -358,6 +478,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "examination", "meaning": "検査、試験"}
+    ],
+    "similar_words": [
+      {"word": "inspect", "meaning": "検査する、点検する"},
+      {"word": "inspection", "meaning": "検査、点検"},
+      {"word": "investigate", "meaning": "調査する"}
     ]
   },
   {
@@ -373,6 +498,11 @@
     "derivatives": [
       {"part": "noun", "word": "inspection", "meaning": "検査、点検"},
       {"part": "noun", "word": "inspector", "meaning": "検査官"}
+    ],
+    "similar_words": [
+      {"word": "inspection", "meaning": "検査、点検"},
+      {"word": "examine", "meaning": "調べる、検査する、診察する"},
+      {"word": "service", "meaning": "サービス、業務、点検"}
     ]
   },
   {
@@ -387,6 +517,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "investigation", "meaning": "調査"}
+    ],
+    "similar_words": [
+      {"word": "examine", "meaning": "調べる、検査する、診察する"},
+      {"word": "inspect", "meaning": "検査する、点検する"},
+      {"word": "survey", "meaning": "調査、アンケート"}
     ]
   },
   {
@@ -402,6 +537,11 @@
     "derivatives": [
       {"part": "noun", "word": "analysis", "meaning": "分析"},
       {"part": "noun", "word": "analyst", "meaning": "アナリスト、分析者"}
+    ],
+    "similar_words": [
+      {"word": "analysis", "meaning": "分析"},
+      {"word": "deduce", "meaning": "推論する、演繹する"},
+      {"word": "determine", "meaning": "決定する、判断する"}
     ]
   },
   {
@@ -416,6 +556,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "comparison", "meaning": "比較"}
+    ],
+    "similar_words": [
+      {"word": "calculate", "meaning": "計算する"},
+      {"word": "improve", "meaning": "改善する、向上させる"},
+      {"word": "measure", "meaning": "測定する、測る"}
     ]
   },
   {
@@ -430,6 +575,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "measurement", "meaning": "測定、寸法"}
+    ],
+    "similar_words": [
+      {"word": "calculate", "meaning": "計算する"},
+      {"word": "record", "meaning": "記録する、記録"},
+      {"word": "estimate", "meaning": "見積もり、見積もる、推定する"}
     ]
   },
   {
@@ -445,6 +595,11 @@
     "derivatives": [
       {"part": "noun", "word": "calculation", "meaning": "計算"},
       {"part": "noun", "word": "calculator", "meaning": "計算機"}
+    ],
+    "similar_words": [
+      {"word": "estimate", "meaning": "見積もり、見積もる、推定する"},
+      {"word": "measure", "meaning": "測定する、測る"},
+      {"word": "determine", "meaning": "決定する、判断する"}
     ]
   },
   {
@@ -457,7 +612,12 @@
     "example_sentences": [
       {"sentence": "Please record the time you arrive and leave each day.", "translation": "毎日の出退勤時刻を記録してください。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "register", "meaning": "登録する、記録する"},
+      {"word": "track", "meaning": "追跡する、記録する"},
+      {"word": "report", "meaning": "報告書、報告する"}
+    ]
   },
   {
     "id": "q_word_600_333",
@@ -469,7 +629,12 @@
     "example_sentences": [
       {"sentence": "You can track your package online.", "translation": "荷物はオンラインで追跡できます。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "record", "meaning": "記録する、記録"},
+      {"word": "register", "meaning": "登録する、記録する"},
+      {"word": "measure", "meaning": "測定する、測る"}
+    ]
   },
   {
     "id": "q_word_600_334",
@@ -481,7 +646,12 @@
     "example_sentences": [
       {"sentence": "The staff monitors the machines throughout the night shift.", "translation": "スタッフは夜勤の間ずっと機械を監視しています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "observe", "meaning": "観察する、気づく、遵守する"},
+      {"word": "measure", "meaning": "測定する、測る"},
+      {"word": "examine", "meaning": "調べる、検査する、診察する"}
+    ]
   },
   {
     "id": "q_word_600_335",
@@ -495,6 +665,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "observation", "meaning": "観察"}
+    ],
+    "similar_words": [
+      {"word": "monitor", "meaning": "監視する、観察する"},
+      {"word": "comply", "meaning": "従う、遵守する"},
+      {"word": "notice", "meaning": "通知、掲示、気づく"}
     ]
   },
   {
@@ -509,6 +684,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "recognition", "meaning": "認識、表彰"}
+    ],
+    "similar_words": [
+      {"word": "acknowledge", "meaning": "認める、承認する"},
+      {"word": "identify", "meaning": "特定する、識別する"},
+      {"word": "discern", "meaning": "見分ける、識別する"}
     ]
   },
   {
@@ -523,6 +703,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "identification", "meaning": "身分証明、識別"}
+    ],
+    "similar_words": [
+      {"word": "discern", "meaning": "見分ける、識別する"},
+      {"word": "determine", "meaning": "決定する、判断する"},
+      {"word": "recognize", "meaning": "認識する、認める、表彰する"}
     ]
   },
   {
@@ -537,6 +722,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "determination", "meaning": "決定、決意"}
+    ],
+    "similar_words": [
+      {"word": "decide", "meaning": "決める、決定する"},
+      {"word": "decision", "meaning": "決定、決断"},
+      {"word": "conclusion", "meaning": "結論、結末"}
     ]
   },
   {
@@ -551,6 +741,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "decision", "meaning": "決定"}
+    ],
+    "similar_words": [
+      {"word": "decision", "meaning": "決定、決断"},
+      {"word": "determine", "meaning": "決定する、判断する"},
+      {"word": "choose", "meaning": "選ぶ"}
     ]
   },
   {
@@ -565,6 +760,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "selection", "meaning": "選択、品ぞろえ"}
+    ],
+    "similar_words": [
+      {"word": "choose", "meaning": "選ぶ"},
+      {"word": "choice", "meaning": "選択、選択肢"},
+      {"word": "option", "meaning": "選択肢、オプション"}
     ]
   },
   {
@@ -579,6 +779,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "choice", "meaning": "選択"}
+    ],
+    "similar_words": [
+      {"word": "choice", "meaning": "選択、選択肢"},
+      {"word": "select", "meaning": "選ぶ、選択する"},
+      {"word": "decide", "meaning": "決める、決定する"}
     ]
   },
   {
@@ -593,6 +798,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "recommendation", "meaning": "推薦、勧め"}
+    ],
+    "similar_words": [
+      {"word": "commend", "meaning": "称賛する、推奨する"},
+      {"word": "referral", "meaning": "紹介、推薦"},
+      {"word": "suggest", "meaning": "提案する、示唆する"}
     ]
   },
   {
@@ -607,6 +817,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "suggestion", "meaning": "提案"}
+    ],
+    "similar_words": [
+      {"word": "offer", "meaning": "提供する、申し出る、提案"},
+      {"word": "propose", "meaning": "提案する、申し出る"},
+      {"word": "recommend", "meaning": "推薦する、勧める"}
     ]
   },
   {
@@ -621,6 +836,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "proposal", "meaning": "提案、提案書"}
+    ],
+    "similar_words": [
+      {"word": "offer", "meaning": "提供する、申し出る、提案"},
+      {"word": "suggest", "meaning": "提案する、示唆する"},
+      {"word": "submit", "meaning": "提出する"}
     ]
   },
   {
@@ -636,6 +856,11 @@
     "derivatives": [
       {"part": "noun", "word": "advice", "meaning": "助言"},
       {"part": "noun", "word": "advisor", "meaning": "顧問、相談役"}
+    ],
+    "similar_words": [
+      {"word": "persuade", "meaning": "説得する"},
+      {"word": "recommend", "meaning": "推薦する、勧める"},
+      {"word": "encourage", "meaning": "励ます、促す、奨励する"}
     ]
   },
   {
@@ -650,6 +875,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "encouragement", "meaning": "励まし、奨励"}
+    ],
+    "similar_words": [
+      {"word": "advise", "meaning": "助言する、忠告する"},
+      {"word": "incentive", "meaning": "奨励金、動機付け"},
+      {"word": "recommend", "meaning": "推薦する、勧める"}
     ]
   },
   {
@@ -664,6 +894,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "persuasion", "meaning": "説得"}
+    ],
+    "similar_words": [
+      {"word": "persuasive", "meaning": "説得力のある"},
+      {"word": "convince", "meaning": "納得させる、確信させる"},
+      {"word": "advise", "meaning": "助言する、忠告する"}
     ]
   },
   {
@@ -679,6 +914,11 @@
     "derivatives": [
       {"part": "adj", "word": "convinced", "meaning": "確信している"},
       {"part": "adj", "word": "convincing", "meaning": "説得力のある"}
+    ],
+    "similar_words": [
+      {"word": "persuade", "meaning": "説得する"},
+      {"word": "confirm", "meaning": "確認する、確定する"},
+      {"word": "confident", "meaning": "自信のある、確信している"}
     ]
   },
   {
@@ -693,6 +933,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "information", "meaning": "情報"}
+    ],
+    "similar_words": [
+      {"word": "notify", "meaning": "通知する"},
+      {"word": "announce", "meaning": "発表する、知らせる"},
+      {"word": "information", "meaning": "情報"}
     ]
   },
   {
@@ -707,6 +952,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "notification", "meaning": "通知"}
+    ],
+    "similar_words": [
+      {"word": "inform", "meaning": "知らせる、通知する"},
+      {"word": "notice", "meaning": "通知、掲示、気づく"},
+      {"word": "reminder", "meaning": "リマインダー、確認の通知、思い出させるもの"}
     ]
   }
 ]

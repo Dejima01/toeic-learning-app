@@ -9,7 +9,12 @@
     "example_sentences": [
       {"sentence": "The company outsources its logistics to a third-party provider.", "translation": "その会社は物流業務を外部業者に委託しています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "freight", "meaning": "貨物、貨物輸送"},
+      {"word": "route", "meaning": "経路、道筋、路線"},
+      {"word": "distribution", "meaning": "流通、配送、分配"}
+    ]
   },
   {
     "id": "q_word_750_202",
@@ -23,6 +28,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "distribute", "meaning": "配布する、流通させる"}
+    ],
+    "similar_words": [
+      {"word": "distribute", "meaning": "配布する、流通させる"},
+      {"word": "logistics", "meaning": "物流、ロジスティクス"},
+      {"word": "allocate", "meaning": "割り当てる、配分する"}
     ]
   },
   {
@@ -35,7 +45,12 @@
     "example_sentences": [
       {"sentence": "The freight will be delivered by truck within three days.", "translation": "その貨物はトラックで3日以内に配送されます。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "cargo", "meaning": "積み荷、貨物"},
+      {"word": "shipment", "meaning": "発送、出荷、積荷"},
+      {"word": "flight", "meaning": "(飛行機の)便、フライト、飛行"}
+    ]
   },
   {
     "id": "q_word_750_204",
@@ -47,7 +62,12 @@
     "example_sentences": [
       {"sentence": "The ship's cargo included electronics and machinery parts.", "translation": "その船の積み荷には電子機器と機械部品が含まれていました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "freight", "meaning": "貨物、貨物輸送"},
+      {"word": "shipment", "meaning": "発送、出荷、積荷"},
+      {"word": "warehouse", "meaning": "倉庫"}
+    ]
   },
   {
     "id": "q_word_750_205",
@@ -59,7 +79,12 @@
     "example_sentences": [
       {"sentence": "The store sells artwork on consignment from local artists.", "translation": "その店は地元の作家から委託された作品を販売しています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "shipment", "meaning": "発送、出荷、積荷"},
+      {"word": "cargo", "meaning": "積み荷、貨物"},
+      {"word": "baggage", "meaning": "手荷物、荷物"}
+    ]
   },
   {
     "id": "q_word_750_206",
@@ -71,7 +96,12 @@
     "example_sentences": [
       {"sentence": "The shipment was held up at customs for inspection.", "translation": "その荷物は検査のため税関で足止めされました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "duty", "meaning": "関税、義務"},
+      {"word": "tariff", "meaning": "関税"},
+      {"word": "tax", "meaning": "税、税金"}
+    ]
   },
   {
     "id": "q_word_750_207",
@@ -83,7 +113,12 @@
     "example_sentences": [
       {"sentence": "New tariffs on imported steel took effect this month.", "translation": "輸入鋼材への新しい関税が今月施行されました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "duty", "meaning": "関税、義務"},
+      {"word": "tax", "meaning": "税、税金"},
+      {"word": "customs", "meaning": "税関"}
+    ]
   },
   {
     "id": "q_word_750_208",
@@ -95,7 +130,12 @@
     "example_sentences": [
       {"sentence": "You may have to pay duty on items over a certain value.", "translation": "一定の価値を超える品物には関税がかかる場合があります。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "tariff", "meaning": "関税"},
+      {"word": "customs", "meaning": "税関"},
+      {"word": "tax", "meaning": "税、税金"}
+    ]
   },
   {
     "id": "q_word_750_209",
@@ -107,7 +147,12 @@
     "example_sentences": [
       {"sentence": "The imported plants were placed under quarantine for two weeks.", "translation": "輸入された植物は2週間検疫を受けました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "precaution", "meaning": "予防措置、用心"},
+      {"word": "flight", "meaning": "(飛行機の)便、フライト、飛行"},
+      {"word": "contamination", "meaning": "汚染"}
+    ]
   },
   {
     "id": "q_word_750_210",
@@ -119,7 +164,12 @@
     "example_sentences": [
       {"sentence": "The trade embargo affected exports to several countries.", "translation": "その通商禁止措置は複数の国への輸出に影響しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "quarantine", "meaning": "検疫、隔離"},
+      {"word": "currency", "meaning": "通貨、貨幣"},
+      {"word": "embark", "meaning": "着手する、乗り出す"}
+    ]
   },
   {
     "id": "q_word_750_211",
@@ -131,7 +181,12 @@
     "example_sentences": [
       {"sentence": "We paid extra to expedite the shipping process.", "translation": "発送手続きを迅速にするため追加料金を支払いました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "accelerate", "meaning": "加速する、早める"},
+      {"word": "facilitate", "meaning": "促進する、円滑にする"},
+      {"word": "urgent", "meaning": "緊急の、至急の"}
+    ]
   },
   {
     "id": "q_word_750_212",
@@ -143,7 +198,12 @@
     "example_sentences": [
       {"sentence": "The order will be dispatched within 24 hours.", "translation": "ご注文の品は24時間以内に発送されます。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "send", "meaning": "送る、発送する"},
+      {"word": "shipment", "meaning": "発送、出荷、積荷"},
+      {"word": "dispose", "meaning": "処分する、廃棄する"}
+    ]
   },
   {
     "id": "q_word_750_213",
@@ -155,7 +215,12 @@
     "example_sentences": [
       {"sentence": "The documents were sent by courier this morning.", "translation": "その書類は今朝、宅配便で送られました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "carrier", "meaning": "運送会社、輸送業者"},
+      {"word": "deliver", "meaning": "配達する、届ける、(スピーチを)行う"},
+      {"word": "dispatch", "meaning": "発送する、派遣する"}
+    ]
   },
   {
     "id": "q_word_750_214",
@@ -169,6 +234,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "carry", "meaning": "運ぶ"}
+    ],
+    "similar_words": [
+      {"word": "freight", "meaning": "貨物、貨物輸送"},
+      {"word": "courier", "meaning": "配達業者、宅配便"},
+      {"word": "cargo", "meaning": "積み荷、貨物"}
     ]
   },
   {
@@ -181,7 +251,12 @@
     "example_sentences": [
       {"sentence": "The company operates a fleet of fifty delivery trucks.", "translation": "その会社は50台の配送トラックを保有しています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "vehicle", "meaning": "車両、乗り物"},
+      {"word": "freight", "meaning": "貨物、貨物輸送"},
+      {"word": "flight", "meaning": "(飛行機の)便、フライト、飛行"}
+    ]
   },
   {
     "id": "q_word_750_216",
@@ -193,7 +268,12 @@
     "example_sentences": [
       {"sentence": "Trucks load their cargo at the depot before delivery.", "translation": "トラックは配達前に集積所で積み荷を積み込みます。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "warehouse", "meaning": "倉庫"},
+      {"word": "departure", "meaning": "出発、発車"},
+      {"word": "store", "meaning": "店、保管する"}
+    ]
   },
   {
     "id": "q_word_750_217",
@@ -205,7 +285,12 @@
     "example_sentences": [
       {"sentence": "The cargo terminal handles shipments from around the world.", "translation": "その貨物ターミナルは世界中からの荷物を取り扱っています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "departure", "meaning": "出発、発車"},
+      {"word": "arrival", "meaning": "到着"},
+      {"word": "depart", "meaning": "出発する"}
+    ]
   },
   {
     "id": "q_word_750_218",
@@ -217,7 +302,12 @@
     "example_sentences": [
       {"sentence": "The goods were damaged in transit.", "translation": "その商品は輸送中に破損しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "transfer", "meaning": "乗り換える、移す、転勤する"},
+      {"word": "traffic", "meaning": "交通、交通量、往来"},
+      {"word": "route", "meaning": "経路、道筋、路線"}
+    ]
   },
   {
     "id": "q_word_750_219",
@@ -229,7 +319,12 @@
     "example_sentences": [
       {"sentence": "The repair shop offers a 24-hour turnaround for most repairs.", "translation": "その修理店はほとんどの修理を24時間で仕上げます。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "upturn", "meaning": "好転、上昇"},
+      {"word": "turnover", "meaning": "離職率、総売上高"},
+      {"word": "round-trip", "meaning": "往復の"}
+    ]
   },
   {
     "id": "q_word_750_220",
@@ -241,7 +336,12 @@
     "example_sentences": [
       {"sentence": "The team is working overtime to clear the order backlog.", "translation": "チームは未処理の注文を片付けるため残業しています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "workload", "meaning": "仕事量、作業量"},
+      {"word": "arrears", "meaning": "滞納金、未払い金"},
+      {"word": "delay", "meaning": "遅延、遅れ、遅らせる"}
+    ]
   },
   {
     "id": "q_word_750_221",
@@ -253,7 +353,12 @@
     "example_sentences": [
       {"sentence": "The old machine has become a bottleneck in the production line.", "translation": "その古い機械は生産ラインのボトルネックになっています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "constraint", "meaning": "制約、制限"},
+      {"word": "impediment", "meaning": "妨げ、障害"},
+      {"word": "aisle", "meaning": "通路"}
+    ]
   },
   {
     "id": "q_word_750_222",
@@ -265,7 +370,12 @@
     "example_sentences": [
       {"sentence": "The warehouse is operating at full capacity this month.", "translation": "その倉庫は今月、フル稼働しています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "capable", "meaning": "能力がある、〜できる"},
+      {"word": "ability", "meaning": "能力、才能"},
+      {"word": "throughput", "meaning": "処理能力、生産高"}
+    ]
   },
   {
     "id": "q_word_750_223",
@@ -279,6 +389,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "utilize", "meaning": "利用する、活用する"}
+    ],
+    "similar_words": [
+      {"word": "utility", "meaning": "公共料金、公共設備、実用性"},
+      {"word": "effective", "meaning": "効果的な、有効な"},
+      {"word": "function", "meaning": "機能、働き"}
     ]
   },
   {
@@ -291,7 +406,12 @@
     "example_sentences": [
       {"sentence": "The new system doubled the factory's throughput.", "translation": "その新システムは工場の処理能力を2倍にしました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "capacity", "meaning": "収容能力、生産能力"},
+      {"word": "productivity", "meaning": "生産性"},
+      {"word": "process", "meaning": "過程、工程、処理する"}
+    ]
   },
   {
     "id": "q_word_750_225",
@@ -303,7 +423,12 @@
     "example_sentences": [
       {"sentence": "Scheduled maintenance caused two hours of downtime.", "translation": "定期メンテナンスにより2時間の稼働停止が生じました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "outage", "meaning": "停止、停電"},
+      {"word": "delay", "meaning": "遅延、遅れ、遅らせる"},
+      {"word": "out of order", "meaning": "故障して"}
+    ]
   },
   {
     "id": "q_word_750_226",
@@ -315,7 +440,12 @@
     "example_sentences": [
       {"sentence": "A power outage disrupted operations at the factory for an hour.", "translation": "停電により工場の稼働が1時間中断しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "downtime", "meaning": "停止時間、稼働停止"},
+      {"word": "out of order", "meaning": "故障して"},
+      {"word": "broken", "meaning": "壊れた、故障した"}
+    ]
   },
   {
     "id": "q_word_750_227",
@@ -327,7 +457,12 @@
     "example_sentences": [
       {"sentence": "A sensor malfunction caused the machine to stop unexpectedly.", "translation": "センサーの誤作動によりその機械が予期せず停止しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "broken", "meaning": "壊れた、故障した"},
+      {"word": "out of order", "meaning": "故障して"},
+      {"word": "glitch", "meaning": "不具合、システム上の欠陥"}
+    ]
   },
   {
     "id": "q_word_750_228",
@@ -341,6 +476,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "calibration", "meaning": "較正、調整"}
+    ],
+    "similar_words": [
+      {"word": "adjust", "meaning": "調整する、適応する"},
+      {"word": "calculate", "meaning": "計算する"},
+      {"word": "measure", "meaning": "測定する、測る"}
     ]
   },
   {
@@ -353,7 +493,12 @@
     "example_sentences": [
       {"sentence": "The engine underwent a complete overhaul last month.", "translation": "そのエンジンは先月、完全なオーバーホールを受けました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "repair", "meaning": "修理する、修理"},
+      {"word": "refurbish", "meaning": "改装する、修復する"},
+      {"word": "renovation", "meaning": "改装、改修"}
+    ]
   },
   {
     "id": "q_word_750_230",
@@ -367,6 +512,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "refurbishment", "meaning": "改装、修復"}
+    ],
+    "similar_words": [
+      {"word": "renovation", "meaning": "改装、改修"},
+      {"word": "repair", "meaning": "修理する、修理"},
+      {"word": "recuperate", "meaning": "回復する"}
     ]
   },
   {
@@ -379,7 +529,12 @@
     "example_sentences": [
       {"sentence": "The team tried to salvage as much equipment as possible after the flood.", "translation": "チームは洪水の後、できるだけ多くの機器を回収しようとしました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "recuperate", "meaning": "回復する"},
+      {"word": "repair", "meaning": "修理する、修理"},
+      {"word": "recoup", "meaning": "取り戻す、埋め合わせる"}
+    ]
   },
   {
     "id": "q_word_750_232",
@@ -393,6 +548,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "disposal", "meaning": "処分、廃棄"}
+    ],
+    "similar_words": [
+      {"word": "disposal", "meaning": "処分、廃棄"},
+      {"word": "abolish", "meaning": "廃止する"},
+      {"word": "reduce", "meaning": "減らす、削減する"}
     ]
   },
   {
@@ -407,6 +567,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "dispose", "meaning": "処分する"}
+    ],
+    "similar_words": [
+      {"word": "dispose", "meaning": "処分する、廃棄する"},
+      {"word": "abolish", "meaning": "廃止する"},
+      {"word": "reject", "meaning": "拒否する、却下する"}
     ]
   },
   {
@@ -421,6 +586,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "sustainable", "meaning": "持続可能な"}
+    ],
+    "similar_words": [
+      {"word": "autonomy", "meaning": "自主性、自律性"},
+      {"word": "durable", "meaning": "耐久性のある、丈夫な"},
+      {"word": "accountability", "meaning": "説明責任、責任"}
     ]
   },
   {
@@ -435,6 +605,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "emit", "meaning": "排出する"}
+    ],
+    "similar_words": [
+      {"word": "contamination", "meaning": "汚染"},
+      {"word": "disposal", "meaning": "処分、廃棄"},
+      {"word": "effect", "meaning": "効果、影響"}
     ]
   },
   {
@@ -449,6 +624,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "conserve", "meaning": "保護する、節約する"}
+    ],
+    "similar_words": [
+      {"word": "sustainability", "meaning": "持続可能性"},
+      {"word": "reserve", "meaning": "予約する、取っておく"},
+      {"word": "safeguard", "meaning": "保護する、保護措置"}
     ]
   },
   {
@@ -463,6 +643,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "contaminate", "meaning": "汚染する"}
+    ],
+    "similar_words": [
+      {"word": "corrosion", "meaning": "腐食、さび"},
+      {"word": "defect", "meaning": "欠陥、不良"},
+      {"word": "emission", "meaning": "排出、排出物"}
     ]
   },
   {
@@ -477,6 +662,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "hazardous", "meaning": "危険な"}
+    ],
+    "similar_words": [
+      {"word": "problem", "meaning": "問題"},
+      {"word": "task", "meaning": "仕事、任務、作業"},
+      {"word": "damage", "meaning": "損傷、被害、損害を与える"}
     ]
   },
   {
@@ -489,7 +679,12 @@
     "example_sentences": [
       {"sentence": "As a precaution, the plant was temporarily shut down.", "translation": "予防措置として、その工場は一時的に操業を停止しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "cautious", "meaning": "慎重な、用心深い"},
+      {"word": "safeguard", "meaning": "保護する、保護措置"},
+      {"word": "prudent", "meaning": "賢明な、慎重な"}
+    ]
   },
   {
     "id": "q_word_750_240",
@@ -501,7 +696,12 @@
     "example_sentences": [
       {"sentence": "The company installed cameras to safeguard the warehouse.", "translation": "その会社は倉庫を保護するためカメラを設置しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "precaution", "meaning": "予防措置、用心"},
+      {"word": "procedure", "meaning": "手順、手続き"},
+      {"word": "uphold", "meaning": "支持する、維持する"}
+    ]
   },
   {
     "id": "q_word_750_241",
@@ -515,6 +715,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "inspect", "meaning": "検査する"}
+    ],
+    "similar_words": [
+      {"word": "inspect", "meaning": "検査する、点検する"},
+      {"word": "service", "meaning": "サービス、業務、点検"},
+      {"word": "examine", "meaning": "調べる、検査する、診察する"}
     ]
   },
   {
@@ -529,6 +734,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "ventilate", "meaning": "換気する"}
+    ],
+    "similar_words": [
+      {"word": "explanation", "meaning": "説明"},
+      {"word": "thoroughly", "meaning": "徹底的に、完全に"},
+      {"word": "inspection", "meaning": "検査、点検"}
     ]
   },
   {
@@ -543,6 +753,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "insulate", "meaning": "断熱する、絶縁する"}
+    ],
+    "similar_words": [
+      {"word": "insurance", "meaning": "保険"},
+      {"word": "example", "meaning": "例、実例"},
+      {"word": "explanation", "meaning": "説明"}
     ]
   },
   {
@@ -557,6 +772,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "corrode", "meaning": "腐食する"}
+    ],
+    "similar_words": [
+      {"word": "contamination", "meaning": "汚染"},
+      {"word": "deteriorate", "meaning": "悪化する"},
+      {"word": "defect", "meaning": "欠陥、不良"}
     ]
   },
   {
@@ -571,6 +791,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "durability", "meaning": "耐久性"}
+    ],
+    "similar_words": [
+      {"word": "sturdy", "meaning": "頑丈な、しっかりした"},
+      {"word": "fragile", "meaning": "壊れやすい、もろい"},
+      {"word": "reliable", "meaning": "信頼できる、頼りになる"}
     ]
   },
   {
@@ -583,7 +808,12 @@
     "example_sentences": [
       {"sentence": "The shelves are made of sturdy steel to hold heavy items.", "translation": "その棚は重い物を支えられるよう頑丈な鋼鉄でできています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "durable", "meaning": "耐久性のある、丈夫な"},
+      {"word": "suitable", "meaning": "適した、ふさわしい"},
+      {"word": "reliable", "meaning": "信頼できる、頼りになる"}
+    ]
   },
   {
     "id": "q_word_750_247",
@@ -597,6 +827,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "fragility", "meaning": "壊れやすさ"}
+    ],
+    "similar_words": [
+      {"word": "vulnerable", "meaning": "脆弱な、傷つきやすい"},
+      {"word": "durable", "meaning": "耐久性のある、丈夫な"},
+      {"word": "broken", "meaning": "壊れた、故障した"}
     ]
   },
   {
@@ -609,7 +844,12 @@
     "example_sentences": [
       {"sentence": "Perishable items should be refrigerated during shipping.", "translation": "傷みやすい商品は輸送中、冷蔵する必要があります。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "fragile", "meaning": "壊れやすい、もろい"},
+      {"word": "damage", "meaning": "損傷、被害、損害を与える"},
+      {"word": "expire", "meaning": "期限が切れる、失効する"}
+    ]
   },
   {
     "id": "q_word_750_249",
@@ -621,7 +861,12 @@
     "example_sentences": [
       {"sentence": "Flammable materials must be stored away from heat sources.", "translation": "可燃性の物質は熱源から離して保管しなければなりません。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "fuel", "meaning": "燃料、燃料を供給する"},
+      {"word": "fragile", "meaning": "壊れやすい、もろい"},
+      {"word": "liable", "meaning": "責任がある、〜しがちな"}
+    ]
   },
   {
     "id": "q_word_750_250",
@@ -635,6 +880,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "toxicity", "meaning": "毒性"}
+    ],
+    "similar_words": [
+      {"word": "flammable", "meaning": "可燃性の、燃えやすい"},
+      {"word": "extremely", "meaning": "極めて、非常に"},
+      {"word": "effect", "meaning": "効果、影響"}
     ]
   }
 ]

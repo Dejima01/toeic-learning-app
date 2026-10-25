@@ -12,6 +12,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "budgetary", "meaning": "予算の、予算上の"}
+    ],
+    "similar_words": [
+      {"word": "expense", "meaning": "費用、経費、支出"},
+      {"word": "expenditure", "meaning": "支出、経費"},
+      {"word": "cost", "meaning": "費用、原価、(費用が)かかる"}
     ]
   },
   {
@@ -27,6 +32,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "expensive", "meaning": "高価な、費用のかかる"}
+    ],
+    "similar_words": [
+      {"word": "expenditure", "meaning": "支出、経費"},
+      {"word": "cost", "meaning": "費用、原価、(費用が)かかる"},
+      {"word": "spend", "meaning": "(お金・時間を)使う、費やす"}
     ]
   },
   {
@@ -42,6 +52,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "costly", "meaning": "高価な、犠牲の大きい"}
+    ],
+    "similar_words": [
+      {"word": "expense", "meaning": "費用、経費、支出"},
+      {"word": "price", "meaning": "価格、値段"},
+      {"word": "cost-effective", "meaning": "費用対効果の高い"}
     ]
   },
   {
@@ -57,6 +72,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "affordable", "meaning": "手頃な価格の"}
+    ],
+    "similar_words": [
+      {"word": "capable", "meaning": "能力がある、〜できる"},
+      {"word": "available", "meaning": "利用できる、入手可能な、手が空いている"},
+      {"word": "cost", "meaning": "費用、原価、(費用が)かかる"}
     ]
   },
   {
@@ -72,6 +92,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "charge", "meaning": "料金、請求額"}
+    ],
+    "similar_words": [
+      {"word": "in charge of", "meaning": "〜を担当して、〜の責任者で"},
+      {"word": "fee", "meaning": "料金、手数料、会費"},
+      {"word": "cost", "meaning": "費用、原価、(費用が)かかる"}
     ]
   },
   {
@@ -85,7 +110,12 @@
       {"sentence": "There is a small fee for using the parking lot.", "translation": "駐車場の利用には少額の料金がかかります。"},
       {"sentence": "The membership fee is 5,000 yen per year.", "translation": "会費は年間5,000円です。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "cost", "meaning": "費用、原価、(費用が)かかる"},
+      {"word": "price", "meaning": "価格、値段"},
+      {"word": "fare", "meaning": "運賃、料金"}
+    ]
   },
   {
     "id": "q_word_600_207",
@@ -100,6 +130,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "billing", "meaning": "請求、請求事務"}
+    ],
+    "similar_words": [
+      {"word": "invoice", "meaning": "請求書、送り状"},
+      {"word": "request", "meaning": "依頼する、要請、リクエスト"},
+      {"word": "notice", "meaning": "通知、掲示、気づく"}
     ]
   },
   {
@@ -113,7 +148,12 @@
       {"sentence": "A deposit of 10,000 yen is required to reserve the room.", "translation": "部屋の予約には1万円の保証金が必要です。"},
       {"sentence": "She deposited her paycheck into her savings account.", "translation": "彼女は給料を普通預金口座に預け入れました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "payment", "meaning": "支払い、支払金"},
+      {"word": "reserve", "meaning": "予約する、取っておく"},
+      {"word": "reservation", "meaning": "予約"}
+    ]
   },
   {
     "id": "q_word_600_209",
@@ -128,6 +168,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "withdrawal", "meaning": "引き出し、撤回"}
+    ],
+    "similar_words": [
+      {"word": "revoke", "meaning": "取り消す、無効にする"},
+      {"word": "rescind", "meaning": "撤回する、無効にする"},
+      {"word": "cancel", "meaning": "取り消す、中止する、キャンセルする"}
     ]
   },
   {
@@ -144,6 +189,11 @@
     "derivatives": [
       {"part": "noun", "word": "accountant", "meaning": "会計士、経理担当者"},
       {"part": "noun", "word": "accounting", "meaning": "会計、経理"}
+    ],
+    "similar_words": [
+      {"word": "explanation", "meaning": "説明"},
+      {"word": "description", "meaning": "説明、記述"},
+      {"word": "transaction", "meaning": "取引、売買"}
     ]
   },
   {
@@ -157,7 +207,12 @@
       {"sentence": "You can check your account balance online.", "translation": "口座残高はオンラインで確認できます。"},
       {"sentence": "The remaining balance must be paid within 30 days.", "translation": "残額は30日以内にお支払いいただく必要があります。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "budget", "meaning": "予算、経費"},
+      {"word": "surplus", "meaning": "余剰、黒字"},
+      {"word": "profit", "meaning": "利益、収益"}
+    ]
   },
   {
     "id": "q_word_600_212",
@@ -170,7 +225,12 @@
       {"sentence": "The company applied for a bank loan to expand its factory.", "translation": "その会社は工場拡張のため銀行融資を申請しました。"},
       {"sentence": "He is still paying off his student loan.", "translation": "彼は今も学生ローンを返済しています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "mortgage", "meaning": "住宅ローン、抵当"},
+      {"word": "asset", "meaning": "資産"},
+      {"word": "law", "meaning": "法律"}
+    ]
   },
   {
     "id": "q_word_600_213",
@@ -186,6 +246,11 @@
     "derivatives": [
       {"part": "adj", "word": "interested", "meaning": "興味を持った"},
       {"part": "adj", "word": "interesting", "meaning": "興味深い"}
+    ],
+    "similar_words": [
+      {"word": "reason", "meaning": "理由"},
+      {"word": "knowledge", "meaning": "知識"},
+      {"word": "stakeholder", "meaning": "利害関係者"}
     ]
   },
   {
@@ -199,7 +264,12 @@
       {"sentence": "They took out a mortgage to buy their first house.", "translation": "彼らは最初の家を買うために住宅ローンを組みました。"},
       {"sentence": "Mortgage payments are due on the first of each month.", "translation": "住宅ローンの支払いは毎月1日が期日です。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "loan", "meaning": "融資、ローン、貸付金"},
+      {"word": "asset", "meaning": "資産"},
+      {"word": "lease", "meaning": "賃貸借契約、賃貸する、賃借する"}
+    ]
   },
   {
     "id": "q_word_600_215",
@@ -215,6 +285,11 @@
     "derivatives": [
       {"part": "verb", "word": "insure", "meaning": "保険をかける"},
       {"part": "noun", "word": "insurer", "meaning": "保険会社"}
+    ],
+    "similar_words": [
+      {"word": "experience", "meaning": "経験、経験する"},
+      {"word": "payment", "meaning": "支払い、支払金"},
+      {"word": "warranty", "meaning": "保証、保証書"}
     ]
   },
   {
@@ -230,6 +305,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "taxable", "meaning": "課税対象の"}
+    ],
+    "similar_words": [
+      {"word": "duty", "meaning": "関税、義務"},
+      {"word": "income", "meaning": "収入、所得"},
+      {"word": "tariff", "meaning": "関税"}
     ]
   },
   {
@@ -243,7 +323,12 @@
       {"sentence": "His monthly income increased after the promotion.", "translation": "昇進後、彼の月収は増えました。"},
       {"sentence": "The store's main source of income is online sales.", "translation": "その店の主な収入源はオンライン販売です。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "revenue", "meaning": "収益、売上高、歳入"},
+      {"word": "earn", "meaning": "稼ぐ、得る、獲得する"},
+      {"word": "salary", "meaning": "給料、給与"}
+    ]
   },
   {
     "id": "q_word_600_218",
@@ -258,6 +343,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "profitable", "meaning": "もうかる、利益になる"}
+    ],
+    "similar_words": [
+      {"word": "profitable", "meaning": "利益になる、もうかる"},
+      {"word": "revenue", "meaning": "収益、売上高、歳入"},
+      {"word": "earn", "meaning": "稼ぐ、得る、獲得する"}
     ]
   },
   {
@@ -271,7 +361,12 @@
       {"sentence": "Annual revenue grew by 15 percent this year.", "translation": "年間の売上高は今年15パーセント伸びました。"},
       {"sentence": "Advertising accounts for most of the company's revenue.", "translation": "広告がその会社の収益の大半を占めています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "income", "meaning": "収入、所得"},
+      {"word": "profit", "meaning": "利益、収益"},
+      {"word": "tax", "meaning": "税、税金"}
+    ]
   },
   {
     "id": "q_word_600_220",
@@ -286,6 +381,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "earnings", "meaning": "収益、所得"}
+    ],
+    "similar_words": [
+      {"word": "income", "meaning": "収入、所得"},
+      {"word": "profit", "meaning": "利益、収益"},
+      {"word": "salary", "meaning": "給料、給与"}
     ]
   },
   {
@@ -301,6 +401,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "spending", "meaning": "支出、出費"}
+    ],
+    "similar_words": [
+      {"word": "expense", "meaning": "費用、経費、支出"},
+      {"word": "expenditure", "meaning": "支出、経費"},
+      {"word": "cost", "meaning": "費用、原価、(費用が)かかる"}
     ]
   },
   {
@@ -314,7 +419,12 @@
       {"sentence": "You still owe us 30,000 yen for the last order.", "translation": "前回のご注文分3万円がまだ未払いです。"},
       {"sentence": "I owe you a favor for helping me yesterday.", "translation": "昨日助けてもらった借りがあります。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "liability", "meaning": "負債、責任"},
+      {"word": "due", "meaning": "期限の、支払期日の、予定されて"},
+      {"word": "overdue", "meaning": "期限切れの、支払いが遅れた"}
+    ]
   },
   {
     "id": "q_word_600_223",
@@ -327,7 +437,12 @@
       {"sentence": "You can exchange foreign currency at the airport.", "translation": "空港で外貨を両替できます。"},
       {"sentence": "Changes in currency rates affect our export prices.", "translation": "為替レートの変動は当社の輸出価格に影響します。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "monetary", "meaning": "金銭の、通貨の"},
+      {"word": "cash", "meaning": "現金"},
+      {"word": "exchange", "meaning": "交換する、両替する、交換"}
+    ]
   },
   {
     "id": "q_word_600_224",
@@ -340,7 +455,12 @@
       {"sentence": "Would you like to pay in cash or by card?", "translation": "お支払いは現金ですか、カードですか。"},
       {"sentence": "The shop only accepts cash for small purchases.", "translation": "その店では少額の買い物は現金のみの取り扱いです。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "currency", "meaning": "通貨、貨幣"},
+      {"word": "tax", "meaning": "税、税金"},
+      {"word": "asset", "meaning": "資産"}
+    ]
   },
   {
     "id": "q_word_600_225",
@@ -355,6 +475,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "creditor", "meaning": "債権者"}
+    ],
+    "similar_words": [
+      {"word": "credible", "meaning": "信頼できる、信ぴょう性のある"},
+      {"word": "sale", "meaning": "販売、セール、特売"},
+      {"word": "payment", "meaning": "支払い、支払金"}
     ]
   },
   {
@@ -370,6 +495,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "transact", "meaning": "取引する"}
+    ],
+    "similar_words": [
+      {"word": "purchase", "meaning": "購入する、購入(品)"},
+      {"word": "business", "meaning": "事業、ビジネス、商売"},
+      {"word": "sale", "meaning": "販売、セール、特売"}
     ]
   },
   {
@@ -383,7 +513,12 @@
       {"sentence": "This jacket is a real bargain at half price.", "translation": "このジャケットは半額で本当にお買い得です。"},
       {"sentence": "They bargained with the supplier over the price.", "translation": "彼らは価格について仕入先と交渉しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "discount", "meaning": "割引、値引きする"},
+      {"word": "negotiate", "meaning": "交渉する、話し合って決める"},
+      {"word": "sale", "meaning": "販売、セール、特売"}
+    ]
   },
   {
     "id": "q_word_600_228",
@@ -396,7 +531,12 @@
       {"sentence": "This coupon gives you 20 percent off any item.", "translation": "このクーポンでどの商品も20パーセント引きになります。"},
       {"sentence": "Please present the coupon at the register.", "translation": "レジでクーポンをご提示ください。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "discount", "meaning": "割引、値引きする"},
+      {"word": "voucher", "meaning": "引換券、商品券"},
+      {"word": "receipt", "meaning": "領収書、レシート、受領"}
+    ]
   },
   {
     "id": "q_word_600_229",
@@ -409,7 +549,12 @@
       {"sentence": "Each guest will receive a voucher for a free breakfast.", "translation": "宿泊客には無料朝食の引換券が配られます。"},
       {"sentence": "The voucher can be used at any of our branches.", "translation": "その商品券は当社のどの店舗でもご利用いただけます。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "coupon", "meaning": "クーポン、割引券"},
+      {"word": "receipt", "meaning": "領収書、レシート、受領"},
+      {"word": "purchase", "meaning": "購入する、購入(品)"}
+    ]
   },
   {
     "id": "q_word_600_230",
@@ -422,7 +567,12 @@
       {"sentence": "Please pay the cashier at the front of the store.", "translation": "店の前方のレジ係にお支払いください。"},
       {"sentence": "The cashier handed me a receipt and my change.", "translation": "レジ係はレシートとお釣りを渡してくれました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "checkout", "meaning": "会計、レジ、チェックアウト"},
+      {"word": "receptionist", "meaning": "受付係"},
+      {"word": "cash", "meaning": "現金"}
+    ]
   },
   {
     "id": "q_word_600_231",
@@ -437,6 +587,11 @@
     ],
     "derivatives": [
       {"part": "phrase", "word": "check out", "meaning": "会計を済ませる、チェックアウトする"}
+    ],
+    "similar_words": [
+      {"word": "cashier", "meaning": "レジ係、会計係"},
+      {"word": "check-in", "meaning": "チェックイン、搭乗手続き"},
+      {"word": "receipt", "meaning": "領収書、レシート、受領"}
     ]
   },
   {
@@ -452,6 +607,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "wholesaler", "meaning": "卸売業者"}
+    ],
+    "similar_words": [
+      {"word": "retail", "meaning": "小売、小売の"},
+      {"word": "warehouse", "meaning": "倉庫"},
+      {"word": "supplier", "meaning": "供給業者、仕入先"}
     ]
   },
   {
@@ -467,6 +627,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "retailer", "meaning": "小売業者、小売店"}
+    ],
+    "similar_words": [
+      {"word": "wholesale", "meaning": "卸売の、卸売"},
+      {"word": "sale", "meaning": "販売、セール、特売"},
+      {"word": "consumer", "meaning": "消費者"}
     ]
   },
   {
@@ -480,7 +645,12 @@
       {"sentence": "All merchandise on this shelf is 30 percent off.", "translation": "この棚の商品はすべて30パーセント引きです。"},
       {"sentence": "Damaged merchandise can be returned within a week.", "translation": "破損した商品は1週間以内に返品できます。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "product", "meaning": "製品、商品"},
+      {"word": "purchase", "meaning": "購入する、購入(品)"},
+      {"word": "market", "meaning": "市場、マーケット"}
+    ]
   },
   {
     "id": "q_word_600_235",
@@ -493,7 +663,12 @@
       {"sentence": "We are looking for a new vendor for office supplies.", "translation": "事務用品の新しい販売業者を探しています。"},
       {"sentence": "Several food vendors will set up booths at the festival.", "translation": "祭りでは複数の飲食業者が屋台を出します。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "supplier", "meaning": "供給業者、仕入先"},
+      {"word": "market", "meaning": "市場、マーケット"},
+      {"word": "merchandise", "meaning": "商品"}
+    ]
   },
   {
     "id": "q_word_600_236",
@@ -508,6 +683,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "supply", "meaning": "供給する"}
+    ],
+    "similar_words": [
+      {"word": "supply", "meaning": "供給する、供給、備品"},
+      {"word": "vendor", "meaning": "販売業者、売り主、露天商"},
+      {"word": "wholesale", "meaning": "卸売の、卸売"}
     ]
   },
   {
@@ -524,6 +704,11 @@
     "derivatives": [
       {"part": "verb", "word": "consume", "meaning": "消費する"},
       {"part": "noun", "word": "consumption", "meaning": "消費"}
+    ],
+    "similar_words": [
+      {"word": "customer", "meaning": "顧客、客"},
+      {"word": "retail", "meaning": "小売、小売の"},
+      {"word": "participant", "meaning": "参加者"}
     ]
   },
   {
@@ -537,7 +722,12 @@
       {"sentence": "Demand for electric cars is growing rapidly.", "translation": "電気自動車の需要は急速に伸びています。"},
       {"sentence": "Customers are demanding faster delivery.", "translation": "顧客はより迅速な配送を求めています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "request", "meaning": "依頼する、要請、リクエスト"},
+      {"word": "requirement", "meaning": "必要条件、要件"},
+      {"word": "supply", "meaning": "供給する、供給、備品"}
+    ]
   },
   {
     "id": "q_word_600_239",
@@ -552,6 +742,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "estimated", "meaning": "見積もりの、推定の"}
+    ],
+    "similar_words": [
+      {"word": "quote", "meaning": "見積もり(を出す)、引用する"},
+      {"word": "calculate", "meaning": "計算する"},
+      {"word": "extrapolate", "meaning": "推定する、外挿する"}
     ]
   },
   {
@@ -567,6 +762,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "quotation", "meaning": "見積書、引用"}
+    ],
+    "similar_words": [
+      {"word": "estimate", "meaning": "見積もり、見積もる、推定する"},
+      {"word": "price", "meaning": "価格、値段"},
+      {"word": "cost", "meaning": "費用、原価、(費用が)かかる"}
     ]
   },
   {
@@ -582,6 +782,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "bidder", "meaning": "入札者"}
+    ],
+    "similar_words": [
+      {"word": "offer", "meaning": "提供する、申し出る、提案"},
+      {"word": "estimate", "meaning": "見積もり、見積もる、推定する"},
+      {"word": "price", "meaning": "価格、値段"}
     ]
   },
   {
@@ -598,6 +803,11 @@
     "derivatives": [
       {"part": "noun", "word": "negotiation", "meaning": "交渉"},
       {"part": "adj", "word": "negotiable", "meaning": "交渉の余地がある"}
+    ],
+    "similar_words": [
+      {"word": "bargain", "meaning": "お買い得品、掘り出し物、交渉する"},
+      {"word": "agreement", "meaning": "合意、契約、同意"},
+      {"word": "decide", "meaning": "決める、決定する"}
     ]
   },
   {
@@ -613,6 +823,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "agree", "meaning": "同意する、合意する"}
+    ],
+    "similar_words": [
+      {"word": "consensus", "meaning": "合意、総意"},
+      {"word": "approval", "meaning": "承認、許可"},
+      {"word": "approve", "meaning": "承認する、賛成する"}
     ]
   },
   {
@@ -626,7 +841,12 @@
       {"sentence": "Please read the terms of the contract carefully.", "translation": "契約条件をよくお読みください。"},
       {"sentence": "The loan has a term of five years.", "translation": "そのローンの期間は5年です。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "condition", "meaning": "条件、状態"},
+      {"word": "clause", "meaning": "条項、箇条"},
+      {"word": "description", "meaning": "説明、記述"}
+    ]
   },
   {
     "id": "q_word_600_245",
@@ -641,6 +861,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "conditional", "meaning": "条件付きの"}
+    ],
+    "similar_words": [
+      {"word": "term", "meaning": "条件、期間、用語"},
+      {"word": "qualification", "meaning": "資格、条件"},
+      {"word": "description", "meaning": "説明、記述"}
     ]
   },
   {
@@ -654,7 +879,12 @@
       {"sentence": "The contract includes a clause about early cancellation.", "translation": "その契約には早期解約に関する条項が含まれています。"},
       {"sentence": "Our lawyer suggested removing the third clause.", "translation": "当社の弁護士は第3条項を削除するよう提案しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "term", "meaning": "条件、期間、用語"},
+      {"word": "provision", "meaning": "条項、規定、供給"},
+      {"word": "contract", "meaning": "契約、契約書"}
+    ]
   },
   {
     "id": "q_word_600_247",
@@ -667,7 +897,12 @@
       {"sentence": "Late delivery may be considered a breach of contract.", "translation": "納品の遅れは契約違反とみなされる可能性があります。"},
       {"sentence": "The company was sued for breaching the agreement.", "translation": "その会社は契約に違反したとして訴えられました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "contract", "meaning": "契約、契約書"},
+      {"word": "infringe", "meaning": "侵害する、違反する"},
+      {"word": "rule", "meaning": "規則、ルール"}
+    ]
   },
   {
     "id": "q_word_600_248",
@@ -683,6 +918,11 @@
     "derivatives": [
       {"part": "noun", "word": "validity", "meaning": "有効性、正当性"},
       {"part": "verb", "word": "validate", "meaning": "有効にする、確認する"}
+    ],
+    "similar_words": [
+      {"word": "validate", "meaning": "有効にする、正当性を確認する"},
+      {"word": "relevant", "meaning": "関連のある、妥当な"},
+      {"word": "effective", "meaning": "効果的な、有効な"}
     ]
   },
   {
@@ -696,7 +936,12 @@
       {"sentence": "The final payment is due on June 30.", "translation": "最終支払いの期日は6月30日です。"},
       {"sentence": "The report is due at the end of this week.", "translation": "報告書の提出期限は今週末です。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "overdue", "meaning": "期限切れの、支払いが遅れた"},
+      {"word": "deadline", "meaning": "締め切り、期限"},
+      {"word": "urgent", "meaning": "緊急の、至急の"}
+    ]
   },
   {
     "id": "q_word_600_250",
@@ -709,6 +954,11 @@
       {"sentence": "Your payment is two weeks overdue.", "translation": "お支払いが2週間遅れています。"},
       {"sentence": "There is a small fine for overdue library books.", "translation": "図書館の本を延滞すると少額の罰金がかかります。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "due", "meaning": "期限の、支払期日の、予定されて"},
+      {"word": "delinquent", "meaning": "滞納した、非行の"},
+      {"word": "owe", "meaning": "借りがある、支払う義務がある"}
+    ]
   }
 ]

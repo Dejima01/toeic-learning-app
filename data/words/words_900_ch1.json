@@ -11,6 +11,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "scrutiny", "meaning": "精査、監視"}
+    ],
+    "similar_words": [
+      {"word": "ascertain", "meaning": "確かめる、突き止める"},
+      {"word": "examine", "meaning": "調べる、検査する、診察する"},
+      {"word": "inspect", "meaning": "検査する、点検する"}
     ]
   },
   {
@@ -23,7 +28,12 @@
     "example_sentences": [
       {"sentence": "There was a discrepancy between the invoice and the delivery record.", "translation": "請求書と納品記録に食い違いがありました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "irregularity", "meaning": "不規則性、不正"},
+      {"word": "discretion", "meaning": "裁量、判断"},
+      {"word": "deviation", "meaning": "逸脱、偏差"}
+    ]
   },
   {
     "id": "q_word_900_003",
@@ -37,6 +47,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "anomalous", "meaning": "異常な"}
+    ],
+    "similar_words": [
+      {"word": "deviation", "meaning": "逸脱、偏差"},
+      {"word": "exceptional", "meaning": "並外れた、非常に優れた"},
+      {"word": "irregularity", "meaning": "不規則性、不正"}
     ]
   },
   {
@@ -51,6 +66,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "deviate", "meaning": "逸脱する"}
+    ],
+    "similar_words": [
+      {"word": "anomaly", "meaning": "異常、例外的なもの"},
+      {"word": "description", "meaning": "説明、記述"},
+      {"word": "irregularity", "meaning": "不規則性、不正"}
     ]
   },
   {
@@ -65,6 +85,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "irregular", "meaning": "不規則な"}
+    ],
+    "similar_words": [
+      {"word": "anomaly", "meaning": "異常、例外的なもの"},
+      {"word": "deviation", "meaning": "逸脱、偏差"},
+      {"word": "arbitrary", "meaning": "恣意的な、任意の"}
     ]
   },
   {
@@ -77,7 +102,12 @@
     "example_sentences": [
       {"sentence": "The missing signature was simply an oversight, not an intentional error.", "translation": "署名の欠落は単なる見落としであり、意図的な誤りではありませんでした。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "oversee", "meaning": "監督する、統括する"},
+      {"word": "supervise", "meaning": "監督する、指導する"},
+      {"word": "go over", "meaning": "見直す、検討する"}
+    ]
   },
   {
     "id": "q_word_900_007",
@@ -89,7 +119,12 @@
     "example_sentences": [
       {"sentence": "The delay was caused by a lapse in communication between teams.", "translation": "その遅延はチーム間の連絡のミスによって生じました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "expire", "meaning": "期限が切れる、失効する"},
+      {"word": "delay", "meaning": "遅延、遅れ、遅らせる"},
+      {"word": "absence", "meaning": "欠席、不在、欠勤"}
+    ]
   },
   {
     "id": "q_word_900_008",
@@ -101,7 +136,12 @@
     "example_sentences": [
       {"sentence": "A software glitch caused the website to crash briefly.", "translation": "ソフトウェアの不具合によりそのウェブサイトが一時的にダウンしました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "defect", "meaning": "欠陥、不良"},
+      {"word": "malfunction", "meaning": "誤作動、故障"},
+      {"word": "broken", "meaning": "壊れた、故障した"}
+    ]
   },
   {
     "id": "q_word_900_009",
@@ -113,7 +153,12 @@
     "example_sentences": [
       {"sentence": "The project suffered a setback when a key supplier withdrew.", "translation": "主要な仕入先が撤退し、そのプロジェクトは大きな痛手を受けました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "impediment", "meaning": "妨げ、障害"},
+      {"word": "drawback", "meaning": "欠点、難点"},
+      {"word": "hindrance", "meaning": "妨げ、邪魔"}
+    ]
   },
   {
     "id": "q_word_900_010",
@@ -125,7 +170,12 @@
     "example_sentences": [
       {"sentence": "High costs remain a major impediment to expansion.", "translation": "高コストが依然として事業拡大の大きな障害となっています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "hindrance", "meaning": "妨げ、邪魔"},
+      {"word": "problem", "meaning": "問題"},
+      {"word": "preclude", "meaning": "妨げる、不可能にする"}
+    ]
   },
   {
     "id": "q_word_900_011",
@@ -139,6 +189,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "hinder", "meaning": "妨げる"}
+    ],
+    "similar_words": [
+      {"word": "impediment", "meaning": "妨げ、障害"},
+      {"word": "problem", "meaning": "問題"},
+      {"word": "preclude", "meaning": "妨げる、不可能にする"}
     ]
   },
   {
@@ -151,7 +206,12 @@
     "example_sentences": [
       {"sentence": "The project must be completed within strict budget constraints.", "translation": "そのプロジェクトは厳しい予算制約の中で完了させなければなりません。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "requirement", "meaning": "必要条件、要件"},
+      {"word": "problem", "meaning": "問題"},
+      {"word": "entail", "meaning": "伴う、必要とする"}
+    ]
   },
   {
     "id": "q_word_900_013",
@@ -165,6 +225,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "deter", "meaning": "思いとどまらせる"}
+    ],
+    "similar_words": [
+      {"word": "determine", "meaning": "決定する、判断する"},
+      {"word": "reiterate", "meaning": "繰り返し述べる、強調する"},
+      {"word": "avert", "meaning": "回避する、防ぐ"}
     ]
   },
   {
@@ -179,6 +244,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "contingency", "meaning": "不測の事態"}
+    ],
+    "similar_words": [
+      {"word": "contingency", "meaning": "不測の事態、緊急事態への備え"},
+      {"word": "condition", "meaning": "条件、状態"},
+      {"word": "depend on", "meaning": "〜に頼る、〜次第である"}
     ]
   },
   {
@@ -193,6 +263,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "stipulation", "meaning": "規定、条項"}
+    ],
+    "similar_words": [
+      {"word": "specification", "meaning": "仕様、仕様書"},
+      {"word": "requirement", "meaning": "必要条件、要件"},
+      {"word": "request", "meaning": "依頼する、要請、リクエスト"}
     ]
   },
   {
@@ -205,7 +280,12 @@
     "example_sentences": [
       {"sentence": "The clause precludes the vendor from working with competitors.", "translation": "その条項は業者が競合他社と取引することを妨げています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "hindrance", "meaning": "妨げ、邪魔"},
+      {"word": "impediment", "meaning": "妨げ、障害"},
+      {"word": "avoid", "meaning": "避ける"}
+    ]
   },
   {
     "id": "q_word_900_017",
@@ -219,6 +299,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "presumption", "meaning": "推定"}
+    ],
+    "similar_words": [
+      {"word": "assume", "meaning": "想定する、思い込む、引き受ける"},
+      {"word": "infer", "meaning": "推測する、推論する"},
+      {"word": "estimate", "meaning": "見積もり、見積もる、推定する"}
     ]
   },
   {
@@ -233,6 +318,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "inference", "meaning": "推論"}
+    ],
+    "similar_words": [
+      {"word": "deduce", "meaning": "推論する、演繹する"},
+      {"word": "presume", "meaning": "推定する、想定する"},
+      {"word": "estimate", "meaning": "見積もり、見積もる、推定する"}
     ]
   },
   {
@@ -247,6 +337,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "allegation", "meaning": "申し立て、主張"}
+    ],
+    "similar_words": [
+      {"word": "attest", "meaning": "証明する、証言する"},
+      {"word": "testify", "meaning": "証言する"},
+      {"word": "report", "meaning": "報告書、報告する"}
     ]
   },
   {
@@ -259,7 +354,12 @@
     "example_sentences": [
       {"sentence": "The inspector attested that the building met all safety codes.", "translation": "検査官はその建物がすべての安全基準を満たしていると証明しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "testify", "meaning": "証言する"},
+      {"word": "certify", "meaning": "証明する、認定する"},
+      {"word": "verify", "meaning": "確認する、証明する"}
+    ]
   },
   {
     "id": "q_word_900_021",
@@ -271,7 +371,12 @@
     "example_sentences": [
       {"sentence": "The witness's statement corroborated the manager's account of the incident.", "translation": "目撃者の証言はその出来事に関するマネージャーの説明を裏付けました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "substantiate", "meaning": "実証する、裏付ける"},
+      {"word": "confirm", "meaning": "確認する、確定する"},
+      {"word": "attest", "meaning": "証明する、証言する"}
+    ]
   },
   {
     "id": "q_word_900_022",
@@ -283,7 +388,12 @@
     "example_sentences": [
       {"sentence": "The company failed to substantiate its claims about the product's benefits.", "translation": "その会社は製品の効能に関する主張を実証できませんでした。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "corroborate", "meaning": "裏付ける、確証する"},
+      {"word": "ascertain", "meaning": "確かめる、突き止める"},
+      {"word": "attest", "meaning": "証明する、証言する"}
+    ]
   },
   {
     "id": "q_word_900_023",
@@ -295,7 +405,12 @@
     "example_sentences": [
       {"sentence": "The investigation ultimately vindicated the employee's decision.", "translation": "その調査は最終的にその従業員の判断が正しかったことを証明しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "valid", "meaning": "有効な、正当な"},
+      {"word": "acquit", "meaning": "無罪とする"},
+      {"word": "certify", "meaning": "証明する、認定する"}
+    ]
   },
   {
     "id": "q_word_900_024",
@@ -309,6 +424,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "rebuttal", "meaning": "反論"}
+    ],
+    "similar_words": [
+      {"word": "refute", "meaning": "反証する、論破する"},
+      {"word": "reject", "meaning": "拒否する、却下する"},
+      {"word": "reply", "meaning": "返信する、返事、回答"}
     ]
   },
   {
@@ -321,7 +441,12 @@
     "example_sentences": [
       {"sentence": "New evidence refuted the earlier findings of the report.", "translation": "新しい証拠がその報告書の以前の結論に反証しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "rebut", "meaning": "反論する、論破する"},
+      {"word": "reject", "meaning": "拒否する、却下する"},
+      {"word": "persuade", "meaning": "説得する"}
+    ]
   },
   {
     "id": "q_word_900_026",
@@ -335,6 +460,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "concession", "meaning": "譲歩"}
+    ],
+    "similar_words": [
+      {"word": "acknowledge", "meaning": "認める、承認する"},
+      {"word": "consensus", "meaning": "合意、総意"},
+      {"word": "agreement", "meaning": "合意、契約、同意"}
     ]
   },
   {
@@ -347,7 +477,12 @@
     "example_sentences": [
       {"sentence": "He relinquished his position as director after the merger.", "translation": "彼は合併後、取締役の地位を退きました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "release", "meaning": "発売する、公開する、解放する"},
+      {"word": "waive", "meaning": "放棄する、免除する"},
+      {"word": "forfeit", "meaning": "没収される、失う"}
+    ]
   },
   {
     "id": "q_word_900_028",
@@ -359,7 +494,12 @@
     "example_sentences": [
       {"sentence": "Customers who cancel late will forfeit their deposit.", "translation": "遅れてキャンセルしたお客様は預り金を失うことになります。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "damage", "meaning": "損傷、被害、損害を与える"},
+      {"word": "revoke", "meaning": "取り消す、無効にする"},
+      {"word": "void", "meaning": "無効にする、無効な"}
+    ]
   },
   {
     "id": "q_word_900_029",
@@ -371,7 +511,12 @@
     "example_sentences": [
       {"sentence": "The company rescinded the job offer after a background check.", "translation": "その会社は身元調査の後、内定を取り消しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "revoke", "meaning": "取り消す、無効にする"},
+      {"word": "repeal", "meaning": "廃止する、撤回する"},
+      {"word": "annul", "meaning": "無効にする、取り消す"}
+    ]
   },
   {
     "id": "q_word_900_030",
@@ -385,6 +530,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "revocation", "meaning": "取り消し"}
+    ],
+    "similar_words": [
+      {"word": "rescind", "meaning": "撤回する、無効にする"},
+      {"word": "cancel", "meaning": "取り消す、中止する、キャンセルする"},
+      {"word": "annul", "meaning": "無効にする、取り消す"}
     ]
   },
   {
@@ -397,7 +547,12 @@
     "example_sentences": [
       {"sentence": "The court nullified the contract due to a legal error.", "translation": "裁判所は法的な誤りを理由にその契約を無効にしました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "void", "meaning": "無効にする、無効な"},
+      {"word": "annul", "meaning": "無効にする、取り消す"},
+      {"word": "revoke", "meaning": "取り消す、無効にする"}
+    ]
   },
   {
     "id": "q_word_900_032",
@@ -409,7 +564,12 @@
     "example_sentences": [
       {"sentence": "Any unauthorized changes will void the warranty.", "translation": "許可のない改造は保証を無効にします。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "nullify", "meaning": "無効にする"},
+      {"word": "annul", "meaning": "無効にする、取り消す"},
+      {"word": "revoke", "meaning": "取り消す、無効にする"}
+    ]
   },
   {
     "id": "q_word_900_033",
@@ -423,6 +583,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "annulment", "meaning": "無効、取り消し"}
+    ],
+    "similar_words": [
+      {"word": "revoke", "meaning": "取り消す、無効にする"},
+      {"word": "nullify", "meaning": "無効にする"},
+      {"word": "rescind", "meaning": "撤回する、無効にする"}
     ]
   },
   {
@@ -435,7 +600,12 @@
     "example_sentences": [
       {"sentence": "The new policy supersedes all previous guidelines.", "translation": "新しい方針は従来のガイドラインすべてに取って代わります。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "replace", "meaning": "取り替える、交換する、代わりを務める"},
+      {"word": "surpass", "meaning": "上回る、しのぐ"},
+      {"word": "rescind", "meaning": "撤回する、無効にする"}
+    ]
   },
   {
     "id": "q_word_900_035",
@@ -447,7 +617,12 @@
     "example_sentences": [
       {"sentence": "Lawmakers voted to repeal the outdated regulation.", "translation": "議員たちはその時代遅れの規制を廃止することを議決しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "rescind", "meaning": "撤回する、無効にする"},
+      {"word": "abolish", "meaning": "廃止する"},
+      {"word": "revoke", "meaning": "取り消す、無効にする"}
+    ]
   },
   {
     "id": "q_word_900_036",
@@ -461,6 +636,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "abolition", "meaning": "廃止"}
+    ],
+    "similar_words": [
+      {"word": "repeal", "meaning": "廃止する、撤回する"},
+      {"word": "cancel", "meaning": "取り消す、中止する、キャンセルする"},
+      {"word": "revoke", "meaning": "取り消す、無効にする"}
     ]
   },
   {
@@ -475,6 +655,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "enactment", "meaning": "制定"}
+    ],
+    "similar_words": [
+      {"word": "enforce", "meaning": "施行する、強制する"},
+      {"word": "establish", "meaning": "設立する、確立する"},
+      {"word": "implement", "meaning": "実施する、導入する"}
     ]
   },
   {
@@ -489,6 +674,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "ratification", "meaning": "批准、承認"}
+    ],
+    "similar_words": [
+      {"word": "approve", "meaning": "承認する、賛成する"},
+      {"word": "approval", "meaning": "承認、許可"},
+      {"word": "validate", "meaning": "有効にする、正当性を確認する"}
     ]
   },
   {
@@ -503,6 +693,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "adjournment", "meaning": "休会、延期"}
+    ],
+    "similar_words": [
+      {"word": "postpone", "meaning": "延期する"},
+      {"word": "put off", "meaning": "延期する"},
+      {"word": "delay", "meaning": "遅延、遅れ、遅らせる"}
     ]
   },
   {
@@ -515,7 +710,12 @@
     "example_sentences": [
       {"sentence": "The board will convene next Monday to discuss the budget.", "translation": "取締役会は予算について話し合うため来週月曜日に招集されます。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "meeting", "meaning": "会議、打ち合わせ"},
+      {"word": "summon", "meaning": "召喚する、呼び出す"},
+      {"word": "conference", "meaning": "会議、協議会、学会"}
+    ]
   },
   {
     "id": "q_word_900_041",
@@ -527,7 +727,12 @@
     "example_sentences": [
       {"sentence": "The chairperson will preside over today's meeting.", "translation": "議長が本日の会議を主宰します。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "chairperson", "meaning": "議長、委員長"},
+      {"word": "president", "meaning": "社長、会長、大統領"},
+      {"word": "committee", "meaning": "委員会"}
+    ]
   },
   {
     "id": "q_word_900_042",
@@ -539,7 +744,12 @@
     "example_sentences": [
       {"sentence": "The manager summoned all staff to an emergency meeting.", "translation": "マネージャーは緊急会議のため全スタッフを召集しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "convene", "meaning": "招集する、開催する"},
+      {"word": "hire", "meaning": "雇う、採用する"},
+      {"word": "request", "meaning": "依頼する、要請、リクエスト"}
+    ]
   },
   {
     "id": "q_word_900_043",
@@ -553,6 +763,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "testimony", "meaning": "証言"}
+    ],
+    "similar_words": [
+      {"word": "attest", "meaning": "証明する、証言する"},
+      {"word": "report", "meaning": "報告書、報告する"},
+      {"word": "certify", "meaning": "証明する、認定する"}
     ]
   },
   {
@@ -567,6 +782,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "acquittal", "meaning": "無罪判決"}
+    ],
+    "similar_words": [
+      {"word": "vindicate", "meaning": "潔白を証明する、正当性を証明する"},
+      {"word": "verdict", "meaning": "評決、判決"},
+      {"word": "acknowledge", "meaning": "認める、承認する"}
     ]
   },
   {
@@ -581,6 +801,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "solicitation", "meaning": "勧誘、要請"}
+    ],
+    "similar_words": [
+      {"word": "request", "meaning": "依頼する、要請、リクエスト"},
+      {"word": "recruit", "meaning": "採用する、募集する"},
+      {"word": "demand", "meaning": "需要、要求、要求する"}
     ]
   },
   {
@@ -593,7 +818,12 @@
     "example_sentences": [
       {"sentence": "The new role entails frequent travel to overseas branches.", "translation": "その新しい職務には海外支店への頻繁な出張が伴います。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "include", "meaning": "含む、含める"},
+      {"word": "therefore", "meaning": "したがって、それゆえ"},
+      {"word": "requirement", "meaning": "必要条件、要件"}
+    ]
   },
   {
     "id": "q_word_900_047",
@@ -605,7 +835,12 @@
     "example_sentences": [
       {"sentence": "The seriousness of the issue warrants immediate action.", "translation": "その問題の深刻さは即座の対応を正当化します。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "warranty", "meaning": "保証、保証書"},
+      {"word": "assure", "meaning": "保証する、確約する、安心させる"},
+      {"word": "valid", "meaning": "有効な、正当な"}
+    ]
   },
   {
     "id": "q_word_900_048",
@@ -617,7 +852,12 @@
     "example_sentences": [
       {"sentence": "The court upheld the original decision on appeal.", "translation": "裁判所は控訴審で原判決を支持しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "maintain", "meaning": "維持する、整備する、主張する"},
+      {"word": "advocate", "meaning": "支持する、擁護する、支持者"},
+      {"word": "safeguard", "meaning": "保護する、保護措置"}
+    ]
   },
   {
     "id": "q_word_900_049",
@@ -629,7 +869,12 @@
     "example_sentences": [
       {"sentence": "The bank withheld approval of the loan pending further review.", "translation": "銀行はさらなる審査を保留してそのローンの承認を差し控えました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "retain", "meaning": "維持する、保持する、引き留める"},
+      {"word": "retention", "meaning": "維持、引き留め"},
+      {"word": "reserve", "meaning": "予約する、取っておく"}
+    ]
   },
   {
     "id": "q_word_900_050",
@@ -641,6 +886,11 @@
     "example_sentences": [
       {"sentence": "All members must abide by the club's rules.", "translation": "会員は全員、クラブの規則に従わなければなりません。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "adhere", "meaning": "順守する、固く守る"},
+      {"word": "comply", "meaning": "従う、遵守する"},
+      {"word": "compliance", "meaning": "遵守、法令順守"}
+    ]
   }
 ]

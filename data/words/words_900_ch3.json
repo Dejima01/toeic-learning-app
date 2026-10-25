@@ -9,7 +9,12 @@
     "example_sentences": [
       {"sentence": "Her leadership style exemplifies the company's core values.", "translation": "彼女のリーダーシップのあり方はその会社の核となる価値観を体現しています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "example", "meaning": "例、実例"},
+      {"word": "embody", "meaning": "具現化する、体現する"},
+      {"word": "epitomize", "meaning": "典型となる、象徴する"}
+    ]
   },
   {
     "id": "q_word_900_102",
@@ -21,7 +26,12 @@
     "example_sentences": [
       {"sentence": "This product epitomizes the brand's commitment to quality.", "translation": "この製品はそのブランドの品質へのこだわりを象徴しています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "exemplify", "meaning": "例証する、体現する"},
+      {"word": "embody", "meaning": "具現化する、体現する"},
+      {"word": "denote", "meaning": "示す、意味する"}
+    ]
   },
   {
     "id": "q_word_900_103",
@@ -35,6 +45,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "embodiment", "meaning": "具現化、体現"}
+    ],
+    "similar_words": [
+      {"word": "exemplify", "meaning": "例証する、体現する"},
+      {"word": "epitomize", "meaning": "典型となる、象徴する"},
+      {"word": "encompass", "meaning": "包含する、含む"}
     ]
   },
   {
@@ -47,7 +62,12 @@
     "example_sentences": [
       {"sentence": "The training program encompasses both technical and soft skills.", "translation": "その研修プログラムは技術面とソフトスキルの両方を含んでいます。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "include", "meaning": "含む、含める"},
+      {"word": "comprehensive", "meaning": "包括的な、総合的な"},
+      {"word": "incorporate", "meaning": "取り入れる、組み込む"}
+    ]
   },
   {
     "id": "q_word_900_105",
@@ -59,7 +79,12 @@
     "example_sentences": [
       {"sentence": "The founder envisaged a company that would change the industry.", "translation": "創業者はその業界を変える会社を思い描いていました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "foresee", "meaning": "予見する、見越す"},
+      {"word": "anticipate", "meaning": "予想する、期待する"},
+      {"word": "projection", "meaning": "予測、見通し"}
+    ]
   },
   {
     "id": "q_word_900_106",
@@ -71,7 +96,12 @@
     "example_sentences": [
       {"sentence": "Analysts foresee a slowdown in the housing market next year.", "translation": "アナリストたちは来年、住宅市場の減速を予見しています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "anticipate", "meaning": "予想する、期待する"},
+      {"word": "forecast", "meaning": "予測、予報"},
+      {"word": "envisage", "meaning": "思い描く、想定する"}
+    ]
   },
   {
     "id": "q_word_900_107",
@@ -83,7 +113,12 @@
     "example_sentences": [
       {"sentence": "The company lowered prices to preempt a competitor's move.", "translation": "その会社は競合他社の動きを先取りするため価格を下げました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "foresee", "meaning": "予見する、見越す"},
+      {"word": "avert", "meaning": "回避する、防ぐ"},
+      {"word": "avoid", "meaning": "避ける"}
+    ]
   },
   {
     "id": "q_word_900_108",
@@ -95,7 +130,12 @@
     "example_sentences": [
       {"sentence": "Quick action by the crew averted a major accident.", "translation": "乗務員の迅速な対応が大事故を回避しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "avoid", "meaning": "避ける"},
+      {"word": "precaution", "meaning": "予防措置、用心"},
+      {"word": "cancel", "meaning": "取り消す、中止する、キャンセルする"}
+    ]
   },
   {
     "id": "q_word_900_109",
@@ -109,6 +149,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "mitigation", "meaning": "軽減、緩和"}
+    ],
+    "similar_words": [
+      {"word": "alleviate", "meaning": "緩和する、軽減する"},
+      {"word": "reduce", "meaning": "減らす、削減する"},
+      {"word": "diminish", "meaning": "減少する、減らす"}
     ]
   },
   {
@@ -121,7 +166,12 @@
     "example_sentences": [
       {"sentence": "The new software helped alleviate the workload of the support team.", "translation": "その新しいソフトはサポートチームの業務負担を軽減するのに役立ちました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "mitigate", "meaning": "軽減する、緩和する"},
+      {"word": "decrease", "meaning": "減少する、減らす"},
+      {"word": "reduce", "meaning": "減らす、削減する"}
+    ]
   },
   {
     "id": "q_word_900_111",
@@ -133,7 +183,12 @@
     "example_sentences": [
       {"sentence": "The delay in shipping exacerbated the customer's frustration.", "translation": "配送の遅れが顧客の不満を悪化させました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "aggravate", "meaning": "悪化させる、いら立たせる"},
+      {"word": "deteriorate", "meaning": "悪化する"},
+      {"word": "alleviate", "meaning": "緩和する、軽減する"}
+    ]
   },
   {
     "id": "q_word_900_112",
@@ -145,7 +200,12 @@
     "example_sentences": [
       {"sentence": "The confusing instructions aggravated the situation further.", "translation": "その分かりにくい説明が状況をさらに悪化させました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "exacerbate", "meaning": "悪化させる"},
+      {"word": "deteriorate", "meaning": "悪化する"},
+      {"word": "alleviate", "meaning": "緩和する、軽減する"}
+    ]
   },
   {
     "id": "q_word_900_113",
@@ -157,7 +217,12 @@
     "example_sentences": [
       {"sentence": "The company curtailed its spending during the economic downturn.", "translation": "その会社は景気後退中、支出を切り詰めました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "reduce", "meaning": "減らす、削減する"},
+      {"word": "diminish", "meaning": "減少する、減らす"},
+      {"word": "decrease", "meaning": "減少する、減らす"}
+    ]
   },
   {
     "id": "q_word_900_114",
@@ -171,6 +236,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "condensation", "meaning": "凝縮、要約"}
+    ],
+    "similar_words": [
+      {"word": "concise", "meaning": "簡潔な"},
+      {"word": "summary", "meaning": "要約、概要"},
+      {"word": "reduce", "meaning": "減らす、削減する"}
     ]
   },
   {
@@ -185,6 +255,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "consolidation", "meaning": "統合"}
+    ],
+    "similar_words": [
+      {"word": "integrate", "meaning": "統合する"},
+      {"word": "amalgamate", "meaning": "合併する、統合する"},
+      {"word": "synthesize", "meaning": "統合する、合成する"}
     ]
   },
   {
@@ -199,6 +274,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "amalgamation", "meaning": "合併、統合"}
+    ],
+    "similar_words": [
+      {"word": "merger", "meaning": "合併"},
+      {"word": "consolidate", "meaning": "統合する、強化する"},
+      {"word": "integrate", "meaning": "統合する"}
     ]
   },
   {
@@ -213,6 +293,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "synthesis", "meaning": "統合、合成"}
+    ],
+    "similar_words": [
+      {"word": "integrate", "meaning": "統合する"},
+      {"word": "consolidate", "meaning": "統合する、強化する"},
+      {"word": "amalgamate", "meaning": "合併する、統合する"}
     ]
   },
   {
@@ -225,7 +310,12 @@
     "example_sentences": [
       {"sentence": "Analysts extrapolated future sales from last year's trends.", "translation": "アナリストたちは昨年の傾向から今後の売上を推定しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "estimate", "meaning": "見積もり、見積もる、推定する"},
+      {"word": "extend", "meaning": "延長する、拡張する"},
+      {"word": "projection", "meaning": "予測、見通し"}
+    ]
   },
   {
     "id": "q_word_900_119",
@@ -239,6 +329,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "deduction", "meaning": "推論、控除"}
+    ],
+    "similar_words": [
+      {"word": "infer", "meaning": "推測する、推論する"},
+      {"word": "presume", "meaning": "推定する、想定する"},
+      {"word": "determine", "meaning": "決定する、判断する"}
     ]
   },
   {
@@ -251,7 +346,12 @@
     "example_sentences": [
       {"sentence": "It was hard to discern any pattern in the customer complaints.", "translation": "顧客からの苦情に何らかのパターンを見分けるのは困難でした。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "identify", "meaning": "特定する、識別する"},
+      {"word": "ascertain", "meaning": "確かめる、突き止める"},
+      {"word": "determine", "meaning": "決定する、判断する"}
+    ]
   },
   {
     "id": "q_word_900_121",
@@ -263,7 +363,12 @@
     "example_sentences": [
       {"sentence": "It took hours to decipher the handwritten notes.", "translation": "その手書きのメモを判読するのに何時間もかかりました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "figure out", "meaning": "理解する、解決する"},
+      {"word": "analyze", "meaning": "分析する"},
+      {"word": "discern", "meaning": "見分ける、識別する"}
+    ]
   },
   {
     "id": "q_word_900_122",
@@ -275,7 +380,12 @@
     "example_sentences": [
       {"sentence": "The consultant elucidated the reasons behind the sales decline.", "translation": "コンサルタントは売上減少の背景にある理由を解明しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "clarify", "meaning": "明確にする、はっきりさせる"},
+      {"word": "explanation", "meaning": "説明"},
+      {"word": "explicit", "meaning": "明確な、明示的な"}
+    ]
   },
   {
     "id": "q_word_900_123",
@@ -287,7 +397,12 @@
     "example_sentences": [
       {"sentence": "The professor expounded on the theory in great detail.", "translation": "その教授はその理論について詳細に説明しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "elaborate", "meaning": "詳しく説明する、精巧な"},
+      {"word": "explanation", "meaning": "説明"},
+      {"word": "elucidate", "meaning": "解明する、明らかにする"}
+    ]
   },
   {
     "id": "q_word_900_124",
@@ -299,7 +414,12 @@
     "example_sentences": [
       {"sentence": "The manager reiterated the importance of meeting the deadline.", "translation": "マネージャーは締め切りを守ることの重要性を改めて強調しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "remind", "meaning": "思い出させる、念を押す"},
+      {"word": "request", "meaning": "依頼する、要請、リクエスト"},
+      {"word": "summary", "meaning": "要約、概要"}
+    ]
   },
   {
     "id": "q_word_900_125",
@@ -311,7 +431,12 @@
     "example_sentences": [
       {"sentence": "The report underscores the need for better data security.", "translation": "その報告書はより優れたデータセキュリティの必要性を強調しています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "accentuate", "meaning": "強調する、際立たせる"},
+      {"word": "reiterate", "meaning": "繰り返し述べる、強調する"},
+      {"word": "explicit", "meaning": "明確な、明示的な"}
+    ]
   },
   {
     "id": "q_word_900_126",
@@ -323,7 +448,12 @@
     "example_sentences": [
       {"sentence": "The new packaging accentuates the product's premium quality.", "translation": "その新しいパッケージはその製品の高級感を際立たせています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "underscore", "meaning": "強調する"},
+      {"word": "enhance", "meaning": "高める、強化する"},
+      {"word": "feature", "meaning": "特徴、機能"}
+    ]
   },
   {
     "id": "q_word_900_127",
@@ -337,6 +467,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "allusion", "meaning": "ほのめかし、言及"}
+    ],
+    "similar_words": [
+      {"word": "insinuate", "meaning": "ほのめかす、暗に示す"},
+      {"word": "suggest", "meaning": "提案する、示唆する"},
+      {"word": "implicit", "meaning": "暗黙の、それとなく示された"}
     ]
   },
   {
@@ -349,7 +484,12 @@
     "example_sentences": [
       {"sentence": "The article insinuated that the company had misled investors.", "translation": "その記事はその会社が投資家を欺いたことを暗にほのめかしていました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "allude", "meaning": "ほのめかす、それとなく言及する"},
+      {"word": "suggest", "meaning": "提案する、示唆する"},
+      {"word": "implicit", "meaning": "暗黙の、それとなく示された"}
+    ]
   },
   {
     "id": "q_word_900_129",
@@ -361,7 +501,12 @@
     "example_sentences": [
       {"sentence": "A red flag on the chart denotes a high-priority issue.", "translation": "チャート上の赤い旗は優先度の高い問題を示しています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "significant", "meaning": "重要な、著しい"},
+      {"word": "description", "meaning": "説明、記述"},
+      {"word": "explanation", "meaning": "説明"}
+    ]
   },
   {
     "id": "q_word_900_130",
@@ -373,7 +518,12 @@
     "example_sentences": [
       {"sentence": "The inspector ascertained the cause of the equipment failure.", "translation": "検査官はその設備故障の原因を突き止めました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "verify", "meaning": "確認する、証明する"},
+      {"word": "find out", "meaning": "見つけ出す、知る、分かる"},
+      {"word": "confirm", "meaning": "確認する、確定する"}
+    ]
   },
   {
     "id": "q_word_900_131",
@@ -385,7 +535,12 @@
     "example_sentences": [
       {"sentence": "The spokesperson declined to divulge details of the negotiation.", "translation": "広報担当者は交渉の詳細を明かすことを拒みました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "disclosure", "meaning": "開示、公表"},
+      {"word": "report", "meaning": "報告書、報告する"},
+      {"word": "find out", "meaning": "見つけ出す、知る、分かる"}
+    ]
   },
   {
     "id": "q_word_900_132",
@@ -399,6 +554,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "dissemination", "meaning": "普及、拡散"}
+    ],
+    "similar_words": [
+      {"word": "distribute", "meaning": "配布する、流通させる"},
+      {"word": "promulgate", "meaning": "公布する、広める"},
+      {"word": "announce", "meaning": "発表する、知らせる"}
     ]
   },
   {
@@ -411,7 +571,12 @@
     "example_sentences": [
       {"sentence": "The government promulgated the new regulation last month.", "translation": "政府は先月、その新しい規制を公布しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "disseminate", "meaning": "広める、普及させる"},
+      {"word": "announce", "meaning": "発表する、知らせる"},
+      {"word": "publish", "meaning": "出版する、発行する"}
+    ]
   },
   {
     "id": "q_word_900_134",
@@ -425,6 +590,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "proliferation", "meaning": "急増、拡散"}
+    ],
+    "similar_words": [
+      {"word": "increase", "meaning": "増加する、増やす"},
+      {"word": "expand", "meaning": "拡大する、拡張する"},
+      {"word": "rapidly", "meaning": "急速に、素早く"}
     ]
   },
   {
@@ -437,7 +607,12 @@
     "example_sentences": [
       {"sentence": "A culture of innovation permeates every department of the company.", "translation": "革新の文化がその会社のあらゆる部署に浸透しています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "effect", "meaning": "効果、影響"},
+      {"word": "proliferate", "meaning": "急増する、広がる"},
+      {"word": "distribute", "meaning": "配布する、流通させる"}
+    ]
   },
   {
     "id": "q_word_900_136",
@@ -451,6 +626,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "culmination", "meaning": "頂点、集大成"}
+    ],
+    "similar_words": [
+      {"word": "conclusion", "meaning": "結論、結末"},
+      {"word": "eventually", "meaning": "最終的に、結局"},
+      {"word": "accomplish", "meaning": "成し遂げる、達成する"}
     ]
   },
   {
@@ -465,6 +645,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "commencement", "meaning": "開始"}
+    ],
+    "similar_words": [
+      {"word": "embark", "meaning": "着手する、乗り出す"},
+      {"word": "undertake", "meaning": "引き受ける、着手する"},
+      {"word": "inception", "meaning": "発端、開始"}
     ]
   },
   {
@@ -479,6 +664,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "cessation", "meaning": "停止"}
+    ],
+    "similar_words": [
+      {"word": "cancel", "meaning": "取り消す、中止する、キャンセルする"},
+      {"word": "abolish", "meaning": "廃止する"},
+      {"word": "decrease", "meaning": "減少する、減らす"}
     ]
   },
   {
@@ -491,7 +681,12 @@
     "example_sentences": [
       {"sentence": "Interest in the product waned after the initial launch.", "translation": "その製品への関心は発売当初の盛り上がりの後、衰えました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "decrease", "meaning": "減少する、減らす"},
+      {"word": "diminish", "meaning": "減少する、減らす"},
+      {"word": "dwindle", "meaning": "徐々に減る、先細りになる"}
+    ]
   },
   {
     "id": "q_word_900_140",
@@ -503,7 +698,12 @@
     "example_sentences": [
       {"sentence": "The company's cash reserves have been dwindling for months.", "translation": "その会社の手元資金は数か月にわたって減り続けています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "decrease", "meaning": "減少する、減らす"},
+      {"word": "diminish", "meaning": "減少する、減らす"},
+      {"word": "taper", "meaning": "徐々に減少する、先細る"}
+    ]
   },
   {
     "id": "q_word_900_141",
@@ -515,7 +715,12 @@
     "example_sentences": [
       {"sentence": "Sales tend to taper off toward the end of the year.", "translation": "売上は年末に向けて徐々に減少する傾向があります。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "dwindle", "meaning": "徐々に減る、先細りになる"},
+      {"word": "decrease", "meaning": "減少する、減らす"},
+      {"word": "gradually", "meaning": "徐々に、次第に"}
+    ]
   },
   {
     "id": "q_word_900_142",
@@ -527,7 +732,12 @@
     "example_sentences": [
       {"sentence": "The stock market rebounded quickly after the initial drop.", "translation": "株式市場は当初の下落の後、すぐに持ち直しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "recuperate", "meaning": "回復する"},
+      {"word": "recoup", "meaning": "取り戻す、埋め合わせる"},
+      {"word": "reimburse", "meaning": "払い戻す、返金する"}
+    ]
   },
   {
     "id": "q_word_900_143",
@@ -539,7 +749,12 @@
     "example_sentences": [
       {"sentence": "The company hopes to recoup its investment within two years.", "translation": "その会社は2年以内に投資を回収したいと考えています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "recuperate", "meaning": "回復する"},
+      {"word": "compensate", "meaning": "補償する、埋め合わせる"},
+      {"word": "reimburse", "meaning": "払い戻す、返金する"}
+    ]
   },
   {
     "id": "q_word_900_144",
@@ -551,7 +766,12 @@
     "example_sentences": [
       {"sentence": "The industry is slowly recuperating from the economic downturn.", "translation": "その業界は景気後退からゆっくりと回復しつつあります。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "recoup", "meaning": "取り戻す、埋め合わせる"},
+      {"word": "rebound", "meaning": "回復する、持ち直す"},
+      {"word": "repair", "meaning": "修理する、修理"}
+    ]
   },
   {
     "id": "q_word_900_145",
@@ -565,6 +785,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "reinstatement", "meaning": "復職、復元"}
+    ],
+    "similar_words": [
+      {"word": "revoke", "meaning": "取り消す、無効にする"},
+      {"word": "redeem", "meaning": "引き換える、挽回する"},
+      {"word": "reimburse", "meaning": "払い戻す、返金する"}
     ]
   },
   {
@@ -579,6 +804,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "redemption", "meaning": "引き換え、挽回"}
+    ],
+    "similar_words": [
+      {"word": "recoup", "meaning": "取り戻す、埋め合わせる"},
+      {"word": "rebound", "meaning": "回復する、持ち直す"},
+      {"word": "reimburse", "meaning": "払い戻す、返金する"}
     ]
   },
   {
@@ -593,6 +823,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "remittance", "meaning": "送金"}
+    ],
+    "similar_words": [
+      {"word": "send", "meaning": "送る、発送する"},
+      {"word": "receive", "meaning": "受け取る、受領する"},
+      {"word": "payment", "meaning": "支払い、支払金"}
     ]
   },
   {
@@ -605,7 +840,12 @@
     "example_sentences": [
       {"sentence": "She serves as a liaison between the sales and engineering teams.", "translation": "彼女は営業チームと技術チームの間の連絡係を務めています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "liability", "meaning": "負債、責任"},
+      {"word": "stakeholder", "meaning": "利害関係者"},
+      {"word": "collaborate", "meaning": "協力する、共同で行う"}
+    ]
   },
   {
     "id": "q_word_900_149",
@@ -617,7 +857,12 @@
     "example_sentences": [
       {"sentence": "The company embarked on a major restructuring plan this year.", "translation": "その会社は今年、大規模な再編計画に着手しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "undertake", "meaning": "引き受ける、着手する"},
+      {"word": "depart", "meaning": "出発する"},
+      {"word": "boarding", "meaning": "搭乗、乗車"}
+    ]
   },
   {
     "id": "q_word_900_150",
@@ -629,6 +874,11 @@
     "example_sentences": [
       {"sentence": "We will endeavor to resolve the issue as soon as possible.", "translation": "問題をできるだけ早く解決するよう努めます。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "enterprise", "meaning": "企業、事業"},
+      {"word": "undertake", "meaning": "引き受ける、着手する"},
+      {"word": "accomplish", "meaning": "成し遂げる、達成する"}
+    ]
   }
 ]

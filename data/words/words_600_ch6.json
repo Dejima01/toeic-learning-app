@@ -12,6 +12,11 @@
     "derivatives": [
       {"part": "noun", "word": "efficiency", "meaning": "効率、能率"},
       {"part": "adv", "word": "efficiently", "meaning": "効率的に"}
+    ],
+    "similar_words": [
+      {"word": "effective", "meaning": "効果的な、有効な"},
+      {"word": "cost-effective", "meaning": "費用対効果の高い"},
+      {"word": "convenient", "meaning": "便利な、都合のよい"}
     ]
   },
   {
@@ -27,6 +32,11 @@
     "derivatives": [
       {"part": "noun", "word": "effect", "meaning": "効果、影響"},
       {"part": "adv", "word": "effectively", "meaning": "効果的に"}
+    ],
+    "similar_words": [
+      {"word": "effect", "meaning": "効果、影響"},
+      {"word": "cost-effective", "meaning": "費用対効果の高い"},
+      {"word": "efficient", "meaning": "効率的な、無駄のない"}
     ]
   },
   {
@@ -42,6 +52,11 @@
     "derivatives": [
       {"part": "noun", "word": "convenience", "meaning": "便利、好都合"},
       {"part": "adv", "word": "conveniently", "meaning": "便利に、都合よく"}
+    ],
+    "similar_words": [
+      {"word": "suitable", "meaning": "適した、ふさわしい"},
+      {"word": "reliable", "meaning": "信頼できる、頼りになる"},
+      {"word": "relevant", "meaning": "関連のある、妥当な"}
     ]
   },
   {
@@ -57,6 +72,11 @@
     "derivatives": [
       {"part": "verb", "word": "rely", "meaning": "頼る、当てにする"},
       {"part": "noun", "word": "reliability", "meaning": "信頼性"}
+    ],
+    "similar_words": [
+      {"word": "credible", "meaning": "信頼できる、信ぴょう性のある"},
+      {"word": "relevant", "meaning": "関連のある、妥当な"},
+      {"word": "suitable", "meaning": "適した、ふさわしい"}
     ]
   },
   {
@@ -71,6 +91,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "flexibility", "meaning": "柔軟性"}
+    ],
+    "similar_words": [
+      {"word": "versatile", "meaning": "多才な、用途の広い"},
+      {"word": "suitable", "meaning": "適した、ふさわしい"},
+      {"word": "convenient", "meaning": "便利な、都合のよい"}
     ]
   },
   {
@@ -86,6 +111,11 @@
     "derivatives": [
       {"part": "adv", "word": "punctually", "meaning": "時間どおりに"},
       {"part": "noun", "word": "punctuality", "meaning": "時間厳守"}
+    ],
+    "similar_words": [
+      {"word": "on time", "meaning": "時間どおりに、定刻に"},
+      {"word": "promptly", "meaning": "迅速に、時間どおりに"},
+      {"word": "immediately", "meaning": "ただちに、すぐに"}
     ]
   },
   {
@@ -100,6 +130,11 @@
     ],
     "derivatives": [
       {"part": "adv", "word": "temporarily", "meaning": "一時的に"}
+    ],
+    "similar_words": [
+      {"word": "provisional", "meaning": "暫定的な、仮の"},
+      {"word": "interim", "meaning": "暫定の、その間の"},
+      {"word": "tentative", "meaning": "仮の、暫定的な"}
     ]
   },
   {
@@ -114,6 +149,11 @@
     ],
     "derivatives": [
       {"part": "adv", "word": "permanently", "meaning": "永久に、恒久的に"}
+    ],
+    "similar_words": [
+      {"word": "durable", "meaning": "耐久性のある、丈夫な"},
+      {"word": "temporary", "meaning": "一時的な、臨時の"},
+      {"word": "monthly", "meaning": "毎月の、月1回の"}
     ]
   },
   {
@@ -130,6 +170,11 @@
       {"part": "verb", "word": "add", "meaning": "加える"},
       {"part": "noun", "word": "addition", "meaning": "追加"},
       {"part": "adv", "word": "additionally", "meaning": "さらに、加えて"}
+    ],
+    "similar_words": [
+      {"word": "in addition to", "meaning": "〜に加えて"},
+      {"word": "furthermore", "meaning": "さらに、その上"},
+      {"word": "moreover", "meaning": "さらに、その上"}
     ]
   },
   {
@@ -145,6 +190,11 @@
     "derivatives": [
       {"part": "verb", "word": "vary", "meaning": "異なる、変わる"},
       {"part": "noun", "word": "variety", "meaning": "多様性、種類"}
+    ],
+    "similar_words": [
+      {"word": "several", "meaning": "いくつかの、数個の"},
+      {"word": "versatile", "meaning": "多才な、用途の広い"},
+      {"word": "numerous", "meaning": "多数の、たくさんの"}
     ]
   },
   {
@@ -157,7 +207,12 @@
     "example_sentences": [
       {"sentence": "Several employees have already signed up for the seminar.", "translation": "すでに数名の社員がセミナーに申し込んでいます。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "numerous", "meaning": "多数の、たくさんの"},
+      {"word": "various", "meaning": "さまざまな、多様な"},
+      {"word": "additional", "meaning": "追加の、さらなる"}
+    ]
   },
   {
     "id": "q_word_600_262",
@@ -171,6 +226,11 @@
     ],
     "derivatives": [
       {"part": "adv", "word": "entirely", "meaning": "完全に、まったく"}
+    ],
+    "similar_words": [
+      {"word": "thoroughly", "meaning": "徹底的に、完全に"},
+      {"word": "comprehensive", "meaning": "包括的な、総合的な"},
+      {"word": "complete", "meaning": "完了する、記入する、完全な"}
     ]
   },
   {
@@ -185,6 +245,11 @@
     ],
     "derivatives": [
       {"part": "adv", "word": "currently", "meaning": "現在、今のところ"}
+    ],
+    "similar_words": [
+      {"word": "currently", "meaning": "現在、今のところ"},
+      {"word": "recent", "meaning": "最近の、近ごろの"},
+      {"word": "standard", "meaning": "基準、標準、標準的な"}
     ]
   },
   {
@@ -199,6 +264,11 @@
     ],
     "derivatives": [
       {"part": "adv", "word": "recently", "meaning": "最近"}
+    ],
+    "similar_words": [
+      {"word": "recently", "meaning": "最近、近ごろ"},
+      {"word": "current", "meaning": "現在の、今の"},
+      {"word": "trend", "meaning": "傾向、トレンド"}
     ]
   },
   {
@@ -213,6 +283,11 @@
     ],
     "derivatives": [
       {"part": "adv", "word": "previously", "meaning": "以前に"}
+    ],
+    "similar_words": [
+      {"word": "prior", "meaning": "事前の、前の"},
+      {"word": "precedent", "meaning": "先例、前例"},
+      {"word": "preliminary", "meaning": "予備の、事前の"}
     ]
   },
   {
@@ -225,7 +300,12 @@
     "example_sentences": [
       {"sentence": "Details of the upcoming event will be announced soon.", "translation": "今度のイベントの詳細は近日中に発表されます。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "forthcoming", "meaning": "来たるべき、今度の"},
+      {"word": "imminent", "meaning": "差し迫った、今にも起こりそうな"},
+      {"word": "look forward to", "meaning": "〜を楽しみにする"}
+    ]
   },
   {
     "id": "q_word_600_267",
@@ -239,6 +319,11 @@
     ],
     "derivatives": [
       {"part": "adv", "word": "annually", "meaning": "毎年、年1回"}
+    ],
+    "similar_words": [
+      {"word": "quarterly", "meaning": "四半期ごとの、年4回の"},
+      {"word": "monthly", "meaning": "毎月の、月1回の"},
+      {"word": "weekly", "meaning": "毎週の、週1回の"}
     ]
   },
   {
@@ -253,6 +338,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "month", "meaning": "月"}
+    ],
+    "similar_words": [
+      {"word": "regularly", "meaning": "定期的に、規則正しく"},
+      {"word": "weekly", "meaning": "毎週の、週1回の"},
+      {"word": "quarterly", "meaning": "四半期ごとの、年4回の"}
     ]
   },
   {
@@ -267,6 +357,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "quarter", "meaning": "四半期、4分の1"}
+    ],
+    "similar_words": [
+      {"word": "annual", "meaning": "年1回の、年次の、年間の"},
+      {"word": "monthly", "meaning": "毎月の、月1回の"},
+      {"word": "weekly", "meaning": "毎週の、週1回の"}
     ]
   },
   {
@@ -281,6 +376,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "week", "meaning": "週"}
+    ],
+    "similar_words": [
+      {"word": "monthly", "meaning": "毎月の、月1回の"},
+      {"word": "regularly", "meaning": "定期的に、規則正しく"},
+      {"word": "frequent", "meaning": "頻繁な、たびたびの"}
     ]
   },
   {
@@ -296,6 +396,11 @@
     "derivatives": [
       {"part": "adv", "word": "frequently", "meaning": "頻繁に"},
       {"part": "noun", "word": "frequency", "meaning": "頻度"}
+    ],
+    "similar_words": [
+      {"word": "regularly", "meaning": "定期的に、規則正しく"},
+      {"word": "occasionally", "meaning": "時々、たまに"},
+      {"word": "weekly", "meaning": "毎週の、週1回の"}
     ]
   },
   {
@@ -311,6 +416,11 @@
     "derivatives": [
       {"part": "adj", "word": "occasional", "meaning": "時折の"},
       {"part": "noun", "word": "occasion", "meaning": "機会、場合"}
+    ],
+    "similar_words": [
+      {"word": "regularly", "meaning": "定期的に、規則正しく"},
+      {"word": "frequent", "meaning": "頻繁な、たびたびの"},
+      {"word": "opportunity", "meaning": "機会、好機"}
     ]
   },
   {
@@ -325,6 +435,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "immediate", "meaning": "即座の、当面の"}
+    ],
+    "similar_words": [
+      {"word": "right away", "meaning": "すぐに、ただちに"},
+      {"word": "promptly", "meaning": "迅速に、時間どおりに"},
+      {"word": "urgent", "meaning": "緊急の、至急の"}
     ]
   },
   {
@@ -339,6 +454,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "prompt", "meaning": "迅速な、即座の"}
+    ],
+    "similar_words": [
+      {"word": "prompt", "meaning": "迅速な、即座の"},
+      {"word": "immediately", "meaning": "ただちに、すぐに"},
+      {"word": "right away", "meaning": "すぐに、ただちに"}
     ]
   },
   {
@@ -353,6 +473,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "approximate", "meaning": "おおよその"}
+    ],
+    "similar_words": [
+      {"word": "approval", "meaning": "承認、許可"},
+      {"word": "estimate", "meaning": "見積もり、見積もる、推定する"},
+      {"word": "exactly", "meaning": "正確に、ちょうど"}
     ]
   },
   {
@@ -367,6 +492,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "near", "meaning": "近い"}
+    ],
+    "similar_words": [
+      {"word": "approximately", "meaning": "およそ、約"},
+      {"word": "on the verge of", "meaning": "〜の間際で、〜寸前で"},
+      {"word": "exactly", "meaning": "正確に、ちょうど"}
     ]
   },
   {
@@ -381,6 +511,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "special", "meaning": "特別な"}
+    ],
+    "similar_words": [
+      {"word": "particularly", "meaning": "特に、とりわけ"},
+      {"word": "exceptional", "meaning": "並外れた、非常に優れた"},
+      {"word": "remarkable", "meaning": "注目すべき、著しい"}
     ]
   },
   {
@@ -395,6 +530,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "particular", "meaning": "特定の、特別な"}
+    ],
+    "similar_words": [
+      {"word": "especially", "meaning": "特に、とりわけ"},
+      {"word": "typically", "meaning": "たいてい、通常、典型的に"},
+      {"word": "exceptional", "meaning": "並外れた、非常に優れた"}
     ]
   },
   {
@@ -409,6 +549,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "extreme", "meaning": "極端な"}
+    ],
+    "similar_words": [
+      {"word": "exceptional", "meaning": "並外れた、非常に優れた"},
+      {"word": "thoroughly", "meaning": "徹底的に、完全に"},
+      {"word": "crucial", "meaning": "極めて重要な、決定的な"}
     ]
   },
   {
@@ -423,6 +568,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "slight", "meaning": "わずかな"}
+    ],
+    "similar_words": [
+      {"word": "gradually", "meaning": "徐々に、次第に"},
+      {"word": "description", "meaning": "説明、記述"},
+      {"word": "mostly", "meaning": "たいていは、大部分は"}
     ]
   },
   {
@@ -437,6 +587,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "gradual", "meaning": "徐々の、緩やかな"}
+    ],
+    "similar_words": [
+      {"word": "incremental", "meaning": "段階的な、少しずつ増える"},
+      {"word": "eventually", "meaning": "最終的に、結局"},
+      {"word": "regularly", "meaning": "定期的に、規則正しく"}
     ]
   },
   {
@@ -451,6 +606,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "rapid", "meaning": "急速な"}
+    ],
+    "similar_words": [
+      {"word": "as soon as possible", "meaning": "できるだけ早く"},
+      {"word": "exponential", "meaning": "急激な、指数関数的な"},
+      {"word": "immediately", "meaning": "ただちに、すぐに"}
     ]
   },
   {
@@ -465,6 +625,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "current", "meaning": "現在の"}
+    ],
+    "similar_words": [
+      {"word": "current", "meaning": "現在の、今の"},
+      {"word": "as of", "meaning": "〜時点で、〜付けで"},
+      {"word": "recently", "meaning": "最近、近ごろ"}
     ]
   },
   {
@@ -479,6 +644,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "recent", "meaning": "最近の"}
+    ],
+    "similar_words": [
+      {"word": "recent", "meaning": "最近の、近ごろの"},
+      {"word": "currently", "meaning": "現在、今のところ"},
+      {"word": "current", "meaning": "現在の、今の"}
     ]
   },
   {
@@ -493,6 +663,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "eventual", "meaning": "最終的な"}
+    ],
+    "similar_words": [
+      {"word": "finally", "meaning": "ついに、最後に"},
+      {"word": "conclusion", "meaning": "結論、結末"},
+      {"word": "determine", "meaning": "決定する、判断する"}
     ]
   },
   {
@@ -507,6 +682,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "final", "meaning": "最後の、最終の"}
+    ],
+    "similar_words": [
+      {"word": "eventually", "meaning": "最終的に、結局"},
+      {"word": "conclusion", "meaning": "結論、結末"},
+      {"word": "accomplish", "meaning": "成し遂げる、達成する"}
     ]
   },
   {
@@ -521,6 +701,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "normal", "meaning": "通常の、普通の"}
+    ],
+    "similar_words": [
+      {"word": "typically", "meaning": "たいてい、通常、典型的に"},
+      {"word": "mostly", "meaning": "たいていは、大部分は"},
+      {"word": "mainly", "meaning": "主に、主として"}
     ]
   },
   {
@@ -535,6 +720,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "typical", "meaning": "典型的な、よくある"}
+    ],
+    "similar_words": [
+      {"word": "mostly", "meaning": "たいていは、大部分は"},
+      {"word": "normally", "meaning": "通常は、普段は"},
+      {"word": "particularly", "meaning": "特に、とりわけ"}
     ]
   },
   {
@@ -549,6 +739,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "regular", "meaning": "定期的な、通常の"}
+    ],
+    "similar_words": [
+      {"word": "monthly", "meaning": "毎月の、月1回の"},
+      {"word": "weekly", "meaning": "毎週の、週1回の"},
+      {"word": "occasionally", "meaning": "時々、たまに"}
     ]
   },
   {
@@ -563,6 +758,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "proper", "meaning": "適切な、正しい"}
+    ],
+    "similar_words": [
+      {"word": "valid", "meaning": "有効な、正当な"},
+      {"word": "directly", "meaning": "直接に、まっすぐに"},
+      {"word": "carefully", "meaning": "注意深く、慎重に"}
     ]
   },
   {
@@ -578,6 +778,11 @@
     "derivatives": [
       {"part": "adj", "word": "careful", "meaning": "注意深い"},
       {"part": "noun", "word": "care", "meaning": "注意、世話"}
+    ],
+    "similar_words": [
+      {"word": "cautious", "meaning": "慎重な、用心深い"},
+      {"word": "meticulous", "meaning": "細心の、几帳面な"},
+      {"word": "deliberate", "meaning": "熟考する、慎重な、意図的な"}
     ]
   },
   {
@@ -592,6 +797,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "thorough", "meaning": "徹底的な、入念な"}
+    ],
+    "similar_words": [
+      {"word": "ascertain", "meaning": "確かめる、突き止める"},
+      {"word": "extremely", "meaning": "極めて、非常に"},
+      {"word": "carefully", "meaning": "注意深く、慎重に"}
     ]
   },
   {
@@ -606,6 +816,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "brief", "meaning": "短い、簡潔な"}
+    ],
+    "similar_words": [
+      {"word": "succinct", "meaning": "簡潔な"},
+      {"word": "concise", "meaning": "簡潔な"},
+      {"word": "summary", "meaning": "要約、概要"}
     ]
   },
   {
@@ -620,6 +835,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "direct", "meaning": "直接の"}
+    ],
+    "similar_words": [
+      {"word": "direction", "meaning": "方向、道順、指示"},
+      {"word": "properly", "meaning": "適切に、正しく"},
+      {"word": "immediately", "meaning": "ただちに、すぐに"}
     ]
   },
   {
@@ -634,6 +854,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "exact", "meaning": "正確な"}
+    ],
+    "similar_words": [
+      {"word": "approximately", "meaning": "およそ、約"},
+      {"word": "nearly", "meaning": "ほとんど、もう少しで"},
+      {"word": "explicit", "meaning": "明確な、明示的な"}
     ]
   },
   {
@@ -648,6 +873,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "main", "meaning": "主な、主要な"}
+    ],
+    "similar_words": [
+      {"word": "mostly", "meaning": "たいていは、大部分は"},
+      {"word": "primary", "meaning": "主要な、第一の"},
+      {"word": "normally", "meaning": "通常は、普段は"}
     ]
   },
   {
@@ -660,7 +890,12 @@
     "example_sentences": [
       {"sentence": "The audience was mostly made up of local residents.", "translation": "聴衆の大半は地元の住民でした。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "mainly", "meaning": "主に、主として"},
+      {"word": "typically", "meaning": "たいてい、通常、典型的に"},
+      {"word": "normally", "meaning": "通常は、普段は"}
+    ]
   },
   {
     "id": "q_word_600_298",
@@ -672,7 +907,12 @@
     "example_sentences": [
       {"sentence": "Please confirm by Friday; otherwise, your booking will be canceled.", "translation": "金曜日までにご確認ください。そうでない場合、ご予約は取り消されます。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "moreover", "meaning": "さらに、その上"},
+      {"word": "therefore", "meaning": "したがって、それゆえ"},
+      {"word": "furthermore", "meaning": "さらに、その上"}
+    ]
   },
   {
     "id": "q_word_600_299",
@@ -684,7 +924,12 @@
     "example_sentences": [
       {"sentence": "The hotel is close to the station. Moreover, it offers free breakfast.", "translation": "そのホテルは駅に近く、さらに朝食も無料です。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "furthermore", "meaning": "さらに、その上"},
+      {"word": "therefore", "meaning": "したがって、それゆえ"},
+      {"word": "additional", "meaning": "追加の、さらなる"}
+    ]
   },
   {
     "id": "q_word_600_300",
@@ -696,6 +941,11 @@
     "example_sentences": [
       {"sentence": "Costs have risen; therefore, we must raise our prices.", "translation": "コストが上がったため、価格を引き上げざるを得ません。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "hence", "meaning": "したがって、それゆえ"},
+      {"word": "consequently", "meaning": "その結果、したがって"},
+      {"word": "nevertheless", "meaning": "それにもかかわらず、それでも"}
+    ]
   }
 ]

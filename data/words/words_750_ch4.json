@@ -9,7 +9,12 @@
     "example_sentences": [
       {"sentence": "The company launched a new advertising campaign last week.", "translation": "その会社は先週、新しい広告キャンペーンを開始しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "candidate", "meaning": "候補者、志望者"},
+      {"word": "cause", "meaning": "原因、引き起こす"},
+      {"word": "advertisement", "meaning": "広告、宣伝"}
+    ]
   },
   {
     "id": "q_word_750_152",
@@ -23,6 +28,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "publicize", "meaning": "宣伝する、公表する"}
+    ],
+    "similar_words": [
+      {"word": "exposure", "meaning": "露出、知名度、さらされること"},
+      {"word": "advertisement", "meaning": "広告、宣伝"},
+      {"word": "promote", "meaning": "昇進させる、促進する、宣伝する"}
     ]
   },
   {
@@ -37,6 +47,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "sponsor", "meaning": "スポンサー、後援者"}
+    ],
+    "similar_words": [
+      {"word": "brand", "meaning": "ブランド、銘柄"},
+      {"word": "contract", "meaning": "契約、契約書"},
+      {"word": "agreement", "meaning": "合意、契約、同意"}
     ]
   },
   {
@@ -49,7 +64,12 @@
     "example_sentences": [
       {"sentence": "The organization runs an outreach program for local schools.", "translation": "その団体は地元の学校向けに支援活動プログラムを運営しています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "assist", "meaning": "手伝う、支援する"},
+      {"word": "awareness", "meaning": "認知、意識"},
+      {"word": "provide", "meaning": "提供する、供給する"}
+    ]
   },
   {
     "id": "q_word_750_155",
@@ -61,7 +81,12 @@
     "example_sentences": [
       {"sentence": "The product targets a younger demographic.", "translation": "その製品はより若い層をターゲットにしています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "purpose", "meaning": "目的"},
+      {"word": "description", "meaning": "説明、記述"},
+      {"word": "participant", "meaning": "参加者"}
+    ]
   },
   {
     "id": "q_word_750_156",
@@ -75,6 +100,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "segmentation", "meaning": "セグメント化、区分"}
+    ],
+    "similar_words": [
+      {"word": "division", "meaning": "部門、部署、分割"},
+      {"word": "specification", "meaning": "仕様、仕様書"},
+      {"word": "summary", "meaning": "要約、概要"}
     ]
   },
   {
@@ -87,7 +117,12 @@
     "example_sentences": [
       {"sentence": "The startup found a niche in the eco-friendly packaging market.", "translation": "そのスタートアップは環境に優しい包装市場でニッチを見つけました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "market", "meaning": "市場、マーケット"},
+      {"word": "opportunity", "meaning": "機会、好機"},
+      {"word": "brand", "meaning": "ブランド、銘柄"}
+    ]
   },
   {
     "id": "q_word_750_158",
@@ -101,6 +136,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "branding", "meaning": "ブランディング"}
+    ],
+    "similar_words": [
+      {"word": "trademark", "meaning": "商標"},
+      {"word": "quality", "meaning": "品質、質"},
+      {"word": "identify", "meaning": "特定する、識別する"}
     ]
   },
   {
@@ -115,6 +155,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "aware", "meaning": "気づいている"}
+    ],
+    "similar_words": [
+      {"word": "aware", "meaning": "気づいている、認識している"},
+      {"word": "knowledge", "meaning": "知識"},
+      {"word": "notice", "meaning": "通知、掲示、気づく"}
     ]
   },
   {
@@ -129,6 +174,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "loyal", "meaning": "忠実な"}
+    ],
+    "similar_words": [
+      {"word": "committed", "meaning": "献身的な、専念している"},
+      {"word": "license", "meaning": "免許、許可証"},
+      {"word": "knowledge", "meaning": "知識"}
     ]
   },
   {
@@ -141,7 +191,12 @@
     "example_sentences": [
       {"sentence": "The website features testimonials from satisfied customers.", "translation": "そのウェブサイトには満足した顧客からの推薦の言葉が掲載されています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "referral", "meaning": "紹介、推薦"},
+      {"word": "recommend", "meaning": "推薦する、勧める"},
+      {"word": "testify", "meaning": "証言する"}
+    ]
   },
   {
     "id": "q_word_750_162",
@@ -155,6 +210,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "refer", "meaning": "紹介する、言及する"}
+    ],
+    "similar_words": [
+      {"word": "recommend", "meaning": "推薦する、勧める"},
+      {"word": "testimonial", "meaning": "推薦の言葉、体験談"},
+      {"word": "commend", "meaning": "称賛する、推奨する"}
     ]
   },
   {
@@ -169,6 +229,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "convert", "meaning": "転換する、変える"}
+    ],
+    "similar_words": [
+      {"word": "exchange", "meaning": "交換する、両替する、交換"},
+      {"word": "contract", "meaning": "契約、契約書"},
+      {"word": "transaction", "meaning": "取引、売買"}
     ]
   },
   {
@@ -183,6 +248,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "engage", "meaning": "関与させる、引き込む"}
+    ],
+    "similar_words": [
+      {"word": "agreement", "meaning": "合意、契約、同意"},
+      {"word": "experience", "meaning": "経験、経験する"},
+      {"word": "knowledge", "meaning": "知識"}
     ]
   },
   {
@@ -197,6 +267,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "impress", "meaning": "感銘を与える"}
+    ],
+    "similar_words": [
+      {"word": "impressive", "meaning": "印象的な、素晴らしい"},
+      {"word": "effect", "meaning": "効果、影響"},
+      {"word": "description", "meaning": "説明、記述"}
     ]
   },
   {
@@ -211,6 +286,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "expose", "meaning": "さらす、露出させる"}
+    ],
+    "similar_words": [
+      {"word": "publicity", "meaning": "宣伝、広報、知名度"},
+      {"word": "effect", "meaning": "効果、影響"},
+      {"word": "experience", "meaning": "経験、経験する"}
     ]
   },
   {
@@ -225,6 +305,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "circulate", "meaning": "流通させる、循環する"}
+    ],
+    "similar_words": [
+      {"word": "distribute", "meaning": "配布する、流通させる"},
+      {"word": "traffic", "meaning": "交通、交通量、往来"},
+      {"word": "distribution", "meaning": "流通、配送、分配"}
     ]
   },
   {
@@ -239,6 +324,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "subscribe", "meaning": "定期購読する"}
+    ],
+    "similar_words": [
+      {"word": "subscribe", "meaning": "定期購読する、加入する"},
+      {"word": "monthly", "meaning": "毎月の、月1回の"},
+      {"word": "contract", "meaning": "契約、契約書"}
     ]
   },
   {
@@ -251,7 +341,12 @@
     "example_sentences": [
       {"sentence": "The film's premiere attracted a large crowd of fans.", "translation": "その映画の初公開には多くのファンが集まりました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "debut", "meaning": "初登場、デビュー"},
+      {"word": "release", "meaning": "発売する、公開する、解放する"},
+      {"word": "initial", "meaning": "最初の、当初の"}
+    ]
   },
   {
     "id": "q_word_750_170",
@@ -263,7 +358,12 @@
     "example_sentences": [
       {"sentence": "The new product will make its debut at the trade show.", "translation": "その新製品は展示会でお披露目される予定です。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "premiere", "meaning": "初演、初公開"},
+      {"word": "introduce", "meaning": "導入する、紹介する"},
+      {"word": "depart", "meaning": "出発する"}
+    ]
   },
   {
     "id": "q_word_750_171",
@@ -277,6 +377,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "exhibition", "meaning": "展覧会、展示会"}
+    ],
+    "similar_words": [
+      {"word": "exhibition", "meaning": "展覧会、展示会"},
+      {"word": "pavilion", "meaning": "パビリオン、展示館"},
+      {"word": "report", "meaning": "報告書、報告する"}
     ]
   },
   {
@@ -291,6 +396,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "exhibit", "meaning": "展示品、展示する"}
+    ],
+    "similar_words": [
+      {"word": "exhibit", "meaning": "展示品、展示する"},
+      {"word": "pavilion", "meaning": "パビリオン、展示館"},
+      {"word": "experience", "meaning": "経験、経験する"}
     ]
   },
   {
@@ -303,7 +413,12 @@
     "example_sentences": [
       {"sentence": "The graduation ceremony will be held in the main auditorium.", "translation": "卒業式はメイン講堂で行われます。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "laboratory", "meaning": "研究室、実験室"},
+      {"word": "venue", "meaning": "会場、開催地"},
+      {"word": "warehouse", "meaning": "倉庫"}
+    ]
   },
   {
     "id": "q_word_750_174",
@@ -315,7 +430,12 @@
     "example_sentences": [
       {"sentence": "Each country has its own pavilion at the international expo.", "translation": "その国際博覧会では各国がそれぞれ独自のパビリオンを持っています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "exhibition", "meaning": "展覧会、展示会"},
+      {"word": "exhibit", "meaning": "展示品、展示する"},
+      {"word": "venue", "meaning": "会場、開催地"}
+    ]
   },
   {
     "id": "q_word_750_175",
@@ -329,6 +449,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "admit", "meaning": "入場を認める、認める"}
+    ],
+    "similar_words": [
+      {"word": "admit", "meaning": "認める、入場を認める"},
+      {"word": "fee", "meaning": "料金、手数料、会費"},
+      {"word": "permission", "meaning": "許可"}
     ]
   },
   {
@@ -343,6 +468,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "enroll", "meaning": "登録する、入会する"}
+    ],
+    "similar_words": [
+      {"word": "membership", "meaning": "会員資格、会員であること、会員数"},
+      {"word": "admission", "meaning": "入場料、入学、入場許可"},
+      {"word": "sign up for", "meaning": "〜に申し込む、〜に登録する"}
     ]
   },
   {
@@ -355,7 +485,12 @@
     "example_sentences": [
       {"sentence": "The school revised its curriculum to include more practical training.", "translation": "その学校はより実践的な研修を含めるようカリキュラムを改訂しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "education", "meaning": "教育、学歴"},
+      {"word": "agenda", "meaning": "議題、議事日程"},
+      {"word": "degree", "meaning": "学位、程度"}
+    ]
   },
   {
     "id": "q_word_750_178",
@@ -367,7 +502,12 @@
     "example_sentences": [
       {"sentence": "Tuition fees will increase by five percent next semester.", "translation": "来学期、授業料は5パーセント上昇します。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "education", "meaning": "教育、学歴"},
+      {"word": "scholarship", "meaning": "奨学金"},
+      {"word": "payment", "meaning": "支払い、支払金"}
+    ]
   },
   {
     "id": "q_word_750_179",
@@ -379,7 +519,12 @@
     "example_sentences": [
       {"sentence": "She received a scholarship to study abroad for a year.", "translation": "彼女は1年間の海外留学のために奨学金を受け取りました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "tuition", "meaning": "授業料、学費"},
+      {"word": "education", "meaning": "教育、学歴"},
+      {"word": "incentive", "meaning": "奨励金、動機付け"}
+    ]
   },
   {
     "id": "q_word_750_180",
@@ -391,7 +536,12 @@
     "example_sentences": [
       {"sentence": "The university invited alumni to speak at the career fair.", "translation": "その大学は就職イベントで講演するため卒業生を招きました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "degree", "meaning": "学位、程度"},
+      {"word": "colleague", "meaning": "同僚"},
+      {"word": "scholarship", "meaning": "奨学金"}
+    ]
   },
   {
     "id": "q_word_750_181",
@@ -403,7 +553,12 @@
     "example_sentences": [
       {"sentence": "The faculty voted to update the course requirements.", "translation": "教授陣は履修要件の更新について投票しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "staff", "meaning": "職員、スタッフ"},
+      {"word": "degree", "meaning": "学位、程度"},
+      {"word": "tuition", "meaning": "授業料、学費"}
+    ]
   },
   {
     "id": "q_word_750_182",
@@ -415,7 +570,12 @@
     "example_sentences": [
       {"sentence": "The dean welcomed the new students at the ceremony.", "translation": "学部長は式典で新入生を歓迎しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "degree", "meaning": "学位、程度"},
+      {"word": "president", "meaning": "社長、会長、大統領"},
+      {"word": "office", "meaning": "事務所、オフィス、職"}
+    ]
   },
   {
     "id": "q_word_750_183",
@@ -427,7 +587,12 @@
     "example_sentences": [
       {"sentence": "The samples were sent to the laboratory for testing.", "translation": "そのサンプルは検査のため研究室に送られました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "experiment", "meaning": "実験"},
+      {"word": "rule", "meaning": "規則、ルール"},
+      {"word": "auditorium", "meaning": "講堂、大講義室"}
+    ]
   },
   {
     "id": "q_word_750_184",
@@ -441,6 +606,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "experimental", "meaning": "実験的な"}
+    ],
+    "similar_words": [
+      {"word": "experience", "meaning": "経験、経験する"},
+      {"word": "laboratory", "meaning": "研究室、実験室"},
+      {"word": "example", "meaning": "例、実例"}
     ]
   },
   {
@@ -453,7 +623,12 @@
     "example_sentences": [
       {"sentence": "The data supported the researchers' original hypothesis.", "translation": "そのデータは研究者たちの当初の仮説を裏付けました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "deduce", "meaning": "推論する、演繹する"},
+      {"word": "experiment", "meaning": "実験"},
+      {"word": "knowledge", "meaning": "知識"}
+    ]
   },
   {
     "id": "q_word_750_186",
@@ -467,6 +642,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "analyze", "meaning": "分析する"}
+    ],
+    "similar_words": [
+      {"word": "analyze", "meaning": "分析する"},
+      {"word": "knowledge", "meaning": "知識"},
+      {"word": "information", "meaning": "情報"}
     ]
   },
   {
@@ -481,6 +661,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "find", "meaning": "見つける、分かる"}
+    ],
+    "similar_words": [
+      {"word": "result", "meaning": "結果"},
+      {"word": "find out", "meaning": "見つけ出す、知る、分かる"},
+      {"word": "survey", "meaning": "調査、アンケート"}
     ]
   },
   {
@@ -493,7 +678,12 @@
     "example_sentences": [
       {"sentence": "The company conducted a survey to measure customer satisfaction.", "translation": "その会社は顧客満足度を測るため調査を実施しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "questionnaire", "meaning": "アンケート用紙、質問票"},
+      {"word": "investigate", "meaning": "調査する"},
+      {"word": "interview", "meaning": "面接、インタビュー、面接する"}
+    ]
   },
   {
     "id": "q_word_750_189",
@@ -505,7 +695,12 @@
     "example_sentences": [
       {"sentence": "Please complete the questionnaire before you leave the store.", "translation": "お店を出る前にアンケート用紙にご記入ください。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "survey", "meaning": "調査、アンケート"},
+      {"word": "document", "meaning": "書類、文書"},
+      {"word": "handout", "meaning": "配布資料、プリント"}
+    ]
   },
   {
     "id": "q_word_750_190",
@@ -519,6 +714,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "respond", "meaning": "回答する、応答する"}
+    ],
+    "similar_words": [
+      {"word": "reply", "meaning": "返信する、返事、回答"},
+      {"word": "report", "meaning": "報告書、報告する"},
+      {"word": "survey", "meaning": "調査、アンケート"}
     ]
   },
   {
@@ -531,7 +731,12 @@
     "example_sentences": [
       {"sentence": "We welcome any feedback on how to improve our service.", "translation": "サービス改善のためのご意見をお待ちしております。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "reply", "meaning": "返信する、返事、回答"},
+      {"word": "effect", "meaning": "効果、影響"},
+      {"word": "contact", "meaning": "連絡する、連絡、接触"}
+    ]
   },
   {
     "id": "q_word_750_192",
@@ -543,7 +748,12 @@
     "example_sentences": [
       {"sentence": "Candidates must meet several criteria to qualify for the position.", "translation": "候補者はその職の資格を得るためにいくつかの基準を満たす必要があります。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "determine", "meaning": "決定する、判断する"},
+      {"word": "metric", "meaning": "評価基準、指標"},
+      {"word": "benchmark", "meaning": "基準、指標"}
+    ]
   },
   {
     "id": "q_word_750_193",
@@ -557,6 +767,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "assess", "meaning": "評価する"}
+    ],
+    "similar_words": [
+      {"word": "appraisal", "meaning": "評価、査定"},
+      {"word": "evaluate", "meaning": "評価する"},
+      {"word": "valuation", "meaning": "評価額、査定"}
     ]
   },
   {
@@ -569,7 +784,12 @@
     "example_sentences": [
       {"sentence": "Customer satisfaction is the key metric for this project.", "translation": "顧客満足度がこのプロジェクトの主要な指標です。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "benchmark", "meaning": "基準、指標"},
+      {"word": "criteria", "meaning": "基準、判断基準"},
+      {"word": "measure", "meaning": "測定する、測る"}
+    ]
   },
   {
     "id": "q_word_750_195",
@@ -581,7 +801,12 @@
     "example_sentences": [
       {"sentence": "The sales team exceeded its monthly quota again this month.", "translation": "営業チームは今月も月間ノルマを上回りました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "allocate", "meaning": "割り当てる、配分する"},
+      {"word": "assignment", "meaning": "任務、割り当て、課題"},
+      {"word": "quantity", "meaning": "量、数量"}
+    ]
   },
   {
     "id": "q_word_750_196",
@@ -593,7 +818,12 @@
     "example_sentences": [
       {"sentence": "Orders above a certain threshold qualify for free shipping.", "translation": "一定のしきい値を超える注文は送料無料の対象になります。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "criteria", "meaning": "基準、判断基準"},
+      {"word": "baseline", "meaning": "基準線、基準値"},
+      {"word": "measure", "meaning": "測定する、測る"}
+    ]
   },
   {
     "id": "q_word_750_197",
@@ -605,7 +835,12 @@
     "example_sentences": [
       {"sentence": "Last year's sales figures will serve as the baseline for comparison.", "translation": "昨年の売上数値が比較の基準値として使われます。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "benchmark", "meaning": "基準、指標"},
+      {"word": "standard", "meaning": "基準、標準、標準的な"},
+      {"word": "guideline", "meaning": "指針、ガイドライン"}
+    ]
   },
   {
     "id": "q_word_750_198",
@@ -619,6 +854,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "project", "meaning": "予測する、見積もる"}
+    ],
+    "similar_words": [
+      {"word": "forecast", "meaning": "予測、予報"},
+      {"word": "foresee", "meaning": "予見する、見越す"},
+      {"word": "anticipate", "meaning": "予想する、期待する"}
     ]
   },
   {
@@ -631,7 +871,12 @@
     "example_sentences": [
       {"sentence": "The economic forecast predicts steady growth next year.", "translation": "経済予測は来年の安定した成長を見込んでいます。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "foresee", "meaning": "予見する、見越す"},
+      {"word": "anticipate", "meaning": "予想する、期待する"},
+      {"word": "projection", "meaning": "予測、見通し"}
+    ]
   },
   {
     "id": "q_word_750_200",
@@ -643,6 +888,11 @@
     "example_sentences": [
       {"sentence": "The report highlights the latest trends in online shopping.", "translation": "その報告書はオンラインショッピングの最新の傾向を取り上げています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "current", "meaning": "現在の、今の"},
+      {"word": "knowledge", "meaning": "知識"},
+      {"word": "experience", "meaning": "経験、経験する"}
+    ]
   }
 ]

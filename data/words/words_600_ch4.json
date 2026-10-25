@@ -13,6 +13,11 @@
     "derivatives": [
       {"part": "verb", "word": "correspond", "meaning": "文通する、一致する"},
       {"part": "noun", "word": "correspondent", "meaning": "通信員、文通相手"}
+    ],
+    "similar_words": [
+      {"word": "contact", "meaning": "連絡する、連絡、接触"},
+      {"word": "agreement", "meaning": "合意、契約、同意"},
+      {"word": "reply", "meaning": "返信する、返事、回答"}
     ]
   },
   {
@@ -26,7 +31,12 @@
       {"sentence": "The manager sent a memo about the new dress code.", "translation": "部長は新しい服装規定に関する社内文書を送りました。"},
       {"sentence": "Did you read the memo about Friday's meeting?", "translation": "金曜日の会議についてのメモは読みましたか。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "document", "meaning": "書類、文書"},
+      {"word": "schedule", "meaning": "予定する、予定表、スケジュール"},
+      {"word": "minutes", "meaning": "議事録"}
+    ]
   },
   {
     "id": "q_word_600_153",
@@ -39,7 +49,12 @@
       {"sentence": "The agenda for tomorrow's meeting is attached.", "translation": "明日の会議の議題を添付しました。"},
       {"sentence": "Budget cuts are the first item on the agenda.", "translation": "予算削減が議題の最初の項目です。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "schedule", "meaning": "予定する、予定表、スケジュール"},
+      {"word": "itinerary", "meaning": "旅程、旅行日程表"},
+      {"word": "meeting", "meaning": "会議、打ち合わせ"}
+    ]
   },
   {
     "id": "q_word_600_154",
@@ -52,7 +67,12 @@
       {"sentence": "Ms. Chen will take the minutes at today's meeting.", "translation": "本日の会議ではチェンさんが議事録を取ります。"},
       {"sentence": "The minutes of the last meeting were sent by e-mail.", "translation": "前回の会議の議事録はメールで送付されました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "agenda", "meaning": "議題、議事日程"},
+      {"word": "committee", "meaning": "委員会"},
+      {"word": "meeting", "meaning": "会議、打ち合わせ"}
+    ]
   },
   {
     "id": "q_word_600_155",
@@ -68,6 +88,11 @@
     "derivatives": [
       {"part": "verb", "word": "present", "meaning": "発表する、提示する"},
       {"part": "noun", "word": "presenter", "meaning": "発表者"}
+    ],
+    "similar_words": [
+      {"word": "description", "meaning": "説明、記述"},
+      {"word": "exhibition", "meaning": "展覧会、展示会"},
+      {"word": "explanation", "meaning": "説明"}
     ]
   },
   {
@@ -81,7 +106,12 @@
       {"sentence": "The annual sales conference will be held in Osaka.", "translation": "年次営業会議は大阪で開催されます。"},
       {"sentence": "He is attending an international conference this week.", "translation": "彼は今週、国際会議に出席しています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "meeting", "meaning": "会議、打ち合わせ"},
+      {"word": "seminar", "meaning": "セミナー、研修会"},
+      {"word": "committee", "meaning": "委員会"}
+    ]
   },
   {
     "id": "q_word_600_157",
@@ -94,7 +124,12 @@
       {"sentence": "The marketing seminar starts at nine on Monday.", "translation": "マーケティングのセミナーは月曜9時に始まります。"},
       {"sentence": "Registration for the seminar closes this Friday.", "translation": "セミナーの申し込みは今週の金曜日で締め切られます。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "workshop", "meaning": "講習会、研修、作業場"},
+      {"word": "conference", "meaning": "会議、協議会、学会"},
+      {"word": "training", "meaning": "研修、訓練"}
+    ]
   },
   {
     "id": "q_word_600_158",
@@ -107,7 +142,12 @@
       {"sentence": "We attended a workshop on effective communication.", "translation": "効果的なコミュニケーションに関する講習会に参加しました。"},
       {"sentence": "The workshop is limited to twenty participants.", "translation": "その講習会は参加者20名までに限られています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "seminar", "meaning": "セミナー、研修会"},
+      {"word": "training", "meaning": "研修、訓練"},
+      {"word": "conference", "meaning": "会議、協議会、学会"}
+    ]
   },
   {
     "id": "q_word_600_159",
@@ -120,7 +160,12 @@
       {"sentence": "The morning session will focus on customer service.", "translation": "午前の部では顧客サービスを中心に取り上げます。"},
       {"sentence": "A question-and-answer session will follow the speech.", "translation": "講演の後に質疑応答の時間があります。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "meeting", "meaning": "会議、打ち合わせ"},
+      {"word": "committee", "meaning": "委員会"},
+      {"word": "minutes", "meaning": "議事録"}
+    ]
   },
   {
     "id": "q_word_600_160",
@@ -136,6 +181,11 @@
     "derivatives": [
       {"part": "verb", "word": "participate", "meaning": "参加する"},
       {"part": "noun", "word": "participation", "meaning": "参加"}
+    ],
+    "similar_words": [
+      {"word": "attendee", "meaning": "出席者、参加者"},
+      {"word": "participate in", "meaning": "〜に参加する"},
+      {"word": "applicant", "meaning": "応募者、志願者"}
     ]
   },
   {
@@ -151,6 +201,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "attend", "meaning": "出席する"}
+    ],
+    "similar_words": [
+      {"word": "attend", "meaning": "出席する、参加する"},
+      {"word": "attendance", "meaning": "出席、出席者数"},
+      {"word": "participant", "meaning": "参加者"}
     ]
   },
   {
@@ -167,6 +222,11 @@
     "derivatives": [
       {"part": "verb", "word": "organize", "meaning": "主催する、まとめる"},
       {"part": "noun", "word": "organization", "meaning": "組織、団体"}
+    ],
+    "similar_words": [
+      {"word": "organize", "meaning": "組織する、企画する、整理する"},
+      {"word": "coordinate", "meaning": "調整する、まとめる"},
+      {"word": "manager", "meaning": "部長、管理者、マネージャー"}
     ]
   },
   {
@@ -180,7 +240,12 @@
       {"sentence": "The venue for the concert has been changed.", "translation": "コンサートの会場が変更になりました。"},
       {"sentence": "We are looking for a larger venue for the ceremony.", "translation": "式典のためにもっと広い会場を探しています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "take place", "meaning": "行われる、開催される"},
+      {"word": "conference", "meaning": "会議、協議会、学会"},
+      {"word": "meeting", "meaning": "会議、打ち合わせ"}
+    ]
   },
   {
     "id": "q_word_600_164",
@@ -195,6 +260,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "postponement", "meaning": "延期"}
+    ],
+    "similar_words": [
+      {"word": "put off", "meaning": "延期する"},
+      {"word": "adjourn", "meaning": "休会する、延期する"},
+      {"word": "delay", "meaning": "遅延、遅れ、遅らせる"}
     ]
   },
   {
@@ -208,7 +278,12 @@
       {"sentence": "Could we reschedule our meeting for Thursday?", "translation": "打ち合わせを木曜日に変更できますか。"},
       {"sentence": "The appointment has been rescheduled for 2 p.m.", "translation": "予約は午後2時に変更されました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "postpone", "meaning": "延期する"},
+      {"word": "schedule", "meaning": "予定する、予定表、スケジュール"},
+      {"word": "agenda", "meaning": "議題、議事日程"}
+    ]
   },
   {
     "id": "q_word_600_166",
@@ -223,6 +298,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "reminder", "meaning": "リマインダー、確認の通知"}
+    ],
+    "similar_words": [
+      {"word": "reminder", "meaning": "リマインダー、確認の通知、思い出させるもの"},
+      {"word": "reiterate", "meaning": "繰り返し述べる、強調する"},
+      {"word": "inform", "meaning": "知らせる、通知する"}
     ]
   },
   {
@@ -238,6 +318,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "remind", "meaning": "思い出させる"}
+    ],
+    "similar_words": [
+      {"word": "remind", "meaning": "思い出させる、念を押す"},
+      {"word": "notify", "meaning": "通知する"},
+      {"word": "notice", "meaning": "通知、掲示、気づく"}
     ]
   },
   {
@@ -254,6 +339,11 @@
     "derivatives": [
       {"part": "noun", "word": "distribution", "meaning": "配布、流通"},
       {"part": "noun", "word": "distributor", "meaning": "販売代理店、流通業者"}
+    ],
+    "similar_words": [
+      {"word": "distribution", "meaning": "流通、配送、分配"},
+      {"word": "disseminate", "meaning": "広める、普及させる"},
+      {"word": "provide", "meaning": "提供する、供給する"}
     ]
   },
   {
@@ -267,7 +357,12 @@
       {"sentence": "You can find the figures on page two of the handout.", "translation": "数値は配布資料の2ページ目に載っています。"},
       {"sentence": "There are extra handouts on the table by the door.", "translation": "予備の資料はドア横のテーブルにあります。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "document", "meaning": "書類、文書"},
+      {"word": "questionnaire", "meaning": "アンケート用紙、質問票"},
+      {"word": "print", "meaning": "印刷する"}
+    ]
   },
   {
     "id": "q_word_600_170",
@@ -282,6 +377,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "submission", "meaning": "提出、提出物"}
+    ],
+    "similar_words": [
+      {"word": "hand in", "meaning": "提出する"},
+      {"word": "turn in", "meaning": "提出する"},
+      {"word": "propose", "meaning": "提案する、申し出る"}
     ]
   },
   {
@@ -297,6 +397,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "approve", "meaning": "承認する"}
+    ],
+    "similar_words": [
+      {"word": "approve", "meaning": "承認する、賛成する"},
+      {"word": "permission", "meaning": "許可"},
+      {"word": "acknowledge", "meaning": "認める、承認する"}
     ]
   },
   {
@@ -312,6 +417,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "approval", "meaning": "承認、許可"}
+    ],
+    "similar_words": [
+      {"word": "approval", "meaning": "承認、許可"},
+      {"word": "acknowledge", "meaning": "認める、承認する"},
+      {"word": "agreement", "meaning": "合意、契約、同意"}
     ]
   },
   {
@@ -327,6 +437,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "rejection", "meaning": "拒否、却下"}
+    ],
+    "similar_words": [
+      {"word": "refute", "meaning": "反証する、論破する"},
+      {"word": "cancel", "meaning": "取り消す、中止する、キャンセルする"},
+      {"word": "rebut", "meaning": "反論する、論破する"}
     ]
   },
   {
@@ -342,6 +457,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "permit", "meaning": "許可する"}
+    ],
+    "similar_words": [
+      {"word": "approval", "meaning": "承認、許可"},
+      {"word": "license", "meaning": "免許、許可証"},
+      {"word": "authorize", "meaning": "権限を与える、正式に許可する"}
     ]
   },
   {
@@ -358,6 +478,11 @@
     "derivatives": [
       {"part": "noun", "word": "authorization", "meaning": "承認、許可"},
       {"part": "noun", "word": "authority", "meaning": "権限、当局"}
+    ],
+    "similar_words": [
+      {"word": "permission", "meaning": "許可"},
+      {"word": "approval", "meaning": "承認、許可"},
+      {"word": "approve", "meaning": "承認する、賛成する"}
     ]
   },
   {
@@ -373,6 +498,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "assignment", "meaning": "任務、割り当て、課題"}
+    ],
+    "similar_words": [
+      {"word": "assignment", "meaning": "任務、割り当て、課題"},
+      {"word": "allocate", "meaning": "割り当てる、配分する"},
+      {"word": "designate", "meaning": "指名する、指定する"}
     ]
   },
   {
@@ -388,6 +518,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "assign", "meaning": "割り当てる"}
+    ],
+    "similar_words": [
+      {"word": "assign", "meaning": "割り当てる、任命する"},
+      {"word": "task", "meaning": "仕事、任務、作業"},
+      {"word": "schedule", "meaning": "予定する、予定表、スケジュール"}
     ]
   },
   {
@@ -401,7 +536,12 @@
       {"sentence": "I discussed the idea with a colleague from another team.", "translation": "その案について別のチームの同僚と話し合いました。"},
       {"sentence": "My colleagues threw a party for my promotion.", "translation": "同僚たちが私の昇進祝いのパーティーを開いてくれました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "coworker", "meaning": "同僚、仕事仲間"},
+      {"word": "collaborate", "meaning": "協力する、共同で行う"},
+      {"word": "employee", "meaning": "従業員、社員"}
+    ]
   },
   {
     "id": "q_word_600_179",
@@ -414,7 +554,12 @@
       {"sentence": "A coworker offered to help me finish the report.", "translation": "同僚が報告書を仕上げるのを手伝うと申し出てくれました。"},
       {"sentence": "She gets along well with her coworkers.", "translation": "彼女は仕事仲間とうまくやっています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "colleague", "meaning": "同僚"},
+      {"word": "employee", "meaning": "従業員、社員"},
+      {"word": "office", "meaning": "事務所、オフィス、職"}
+    ]
   },
   {
     "id": "q_word_600_180",
@@ -430,6 +575,11 @@
     "derivatives": [
       {"part": "verb", "word": "supervise", "meaning": "監督する、指導する"},
       {"part": "noun", "word": "supervision", "meaning": "監督、管理"}
+    ],
+    "similar_words": [
+      {"word": "supervise", "meaning": "監督する、指導する"},
+      {"word": "oversee", "meaning": "監督する、統括する"},
+      {"word": "manager", "meaning": "部長、管理者、マネージャー"}
     ]
   },
   {
@@ -443,7 +593,12 @@
       {"sentence": "Several executives attended the shareholders' meeting.", "translation": "数名の幹部が株主総会に出席しました。"},
       {"sentence": "She was hired as a marketing executive last year.", "translation": "彼女は昨年、マーケティング部門の幹部として採用されました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "manager", "meaning": "部長、管理者、マネージャー"},
+      {"word": "president", "meaning": "社長、会長、大統領"},
+      {"word": "execute", "meaning": "実行する、遂行する"}
+    ]
   },
   {
     "id": "q_word_600_182",
@@ -458,6 +613,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "presidential", "meaning": "社長の、大統領の"}
+    ],
+    "similar_words": [
+      {"word": "preside", "meaning": "議長を務める、主宰する"},
+      {"word": "committee", "meaning": "委員会"},
+      {"word": "chairperson", "meaning": "議長、委員長"}
     ]
   },
   {
@@ -474,6 +634,11 @@
     "derivatives": [
       {"part": "verb", "word": "found", "meaning": "設立する、創立する"},
       {"part": "noun", "word": "foundation", "meaning": "設立、財団、基礎"}
+    ],
+    "similar_words": [
+      {"word": "entrepreneur", "meaning": "起業家"},
+      {"word": "establish", "meaning": "設立する、確立する"},
+      {"word": "create", "meaning": "創造する、作り出す"}
     ]
   },
   {
@@ -487,7 +652,12 @@
       {"sentence": "The board will meet to discuss the merger next week.", "translation": "取締役会は来週、合併について話し合うために集まります。"},
       {"sentence": "She was elected to the board of directors.", "translation": "彼女は取締役会のメンバーに選出されました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "committee", "meaning": "委員会"},
+      {"word": "president", "meaning": "社長、会長、大統領"},
+      {"word": "meeting", "meaning": "会議、打ち合わせ"}
+    ]
   },
   {
     "id": "q_word_600_185",
@@ -500,7 +670,12 @@
       {"sentence": "The planning committee meets on the first Monday of each month.", "translation": "企画委員会は毎月第1月曜日に開かれます。"},
       {"sentence": "A committee was formed to review the safety rules.", "translation": "安全規則を見直すために委員会が設置されました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "board", "meaning": "取締役会、委員会、板"},
+      {"word": "meeting", "meaning": "会議、打ち合わせ"},
+      {"word": "knowledge", "meaning": "知識"}
+    ]
   },
   {
     "id": "q_word_600_186",
@@ -515,6 +690,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "chair", "meaning": "議長を務める"}
+    ],
+    "similar_words": [
+      {"word": "preside", "meaning": "議長を務める、主宰する"},
+      {"word": "committee", "meaning": "委員会"},
+      {"word": "president", "meaning": "社長、会長、大統領"}
     ]
   },
   {
@@ -528,7 +708,12 @@
       {"sentence": "A company spokesperson answered questions from reporters.", "translation": "会社の広報担当者が記者からの質問に答えました。"},
       {"sentence": "The spokesperson confirmed the new product's release date.", "translation": "広報担当者は新製品の発売日を認めました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "publicity", "meaning": "宣伝、広報、知名度"},
+      {"word": "representative", "meaning": "代表者、担当者、代理人"},
+      {"word": "interview", "meaning": "面接、インタビュー、面接する"}
+    ]
   },
   {
     "id": "q_word_600_188",
@@ -543,6 +728,11 @@
     ],
     "derivatives": [
       {"part": "verb", "word": "represent", "meaning": "代表する、表す"}
+    ],
+    "similar_words": [
+      {"word": "on behalf of", "meaning": "〜を代表して、〜に代わって"},
+      {"word": "delegate", "meaning": "委任する、権限を委譲する"},
+      {"word": "replace", "meaning": "取り替える、交換する、代わりを務める"}
     ]
   },
   {
@@ -558,6 +748,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "reception", "meaning": "受付、歓迎会"}
+    ],
+    "similar_words": [
+      {"word": "secretary", "meaning": "秘書、書記"},
+      {"word": "cashier", "meaning": "レジ係、会計係"},
+      {"word": "receive", "meaning": "受け取る、受領する"}
     ]
   },
   {
@@ -571,7 +766,12 @@
       {"sentence": "My secretary will send you the details by e-mail.", "translation": "秘書が詳細をメールでお送りします。"},
       {"sentence": "The secretary arranged the president's travel schedule.", "translation": "秘書が社長の出張日程を手配しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "office", "meaning": "事務所、オフィス、職"},
+      {"word": "receptionist", "meaning": "受付係"},
+      {"word": "committee", "meaning": "委員会"}
+    ]
   },
   {
     "id": "q_word_600_191",
@@ -586,6 +786,11 @@
     ],
     "derivatives": [
       {"part": "noun", "word": "internship", "meaning": "インターンシップ、就業体験"}
+    ],
+    "similar_words": [
+      {"word": "training", "meaning": "研修、訓練"},
+      {"word": "train", "meaning": "訓練する、研修する"},
+      {"word": "workshop", "meaning": "講習会、研修、作業場"}
     ]
   },
   {
@@ -599,7 +804,12 @@
       {"sentence": "My workload has increased since the merger.", "translation": "合併以来、私の仕事量は増えました。"},
       {"sentence": "The new system will reduce the staff's workload.", "translation": "新しいシステムはスタッフの作業量を減らすでしょう。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "task", "meaning": "仕事、任務、作業"},
+      {"word": "calculate", "meaning": "計算する"},
+      {"word": "backlog", "meaning": "未処理の仕事、滞貨"}
+    ]
   },
   {
     "id": "q_word_600_193",
@@ -612,7 +822,12 @@
       {"sentence": "Employees are paid extra for overtime.", "translation": "社員には残業に対して追加の手当が支払われます。"},
       {"sentence": "We had to work overtime to meet the deadline.", "translation": "締め切りに間に合わせるため残業しなければなりませんでした。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "wage", "meaning": "賃金、時給"},
+      {"word": "workload", "meaning": "仕事量、作業量"},
+      {"word": "downtime", "meaning": "停止時間、稼働停止"}
+    ]
   },
   {
     "id": "q_word_600_194",
@@ -625,7 +840,12 @@
       {"sentence": "I work the night shift three times a week.", "translation": "私は週に3回、夜勤に入っています。"},
       {"sentence": "Could you cover my shift on Saturday?", "translation": "土曜日のシフトを代わってもらえますか。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "transfer", "meaning": "乗り換える、移す、転勤する"},
+      {"word": "replace", "meaning": "取り替える、交換する、代わりを務める"},
+      {"word": "flight", "meaning": "(飛行機の)便、フライト、飛行"}
+    ]
   },
   {
     "id": "q_word_600_195",
@@ -638,7 +858,12 @@
       {"sentence": "The company has over 200 employees on its payroll.", "translation": "その会社には200人を超える従業員が在籍しています。"},
       {"sentence": "Contact the payroll department about your salary.", "translation": "給与については給与課にお問い合わせください。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "paycheck", "meaning": "給料、給与支払小切手"},
+      {"word": "payment", "meaning": "支払い、支払金"},
+      {"word": "wage", "meaning": "賃金、時給"}
+    ]
   },
   {
     "id": "q_word_600_196",
@@ -651,7 +876,12 @@
       {"sentence": "Employees receive their paychecks every other Friday.", "translation": "社員は隔週の金曜日に給料を受け取ります。"},
       {"sentence": "There was an error in my paycheck this month.", "translation": "今月の給与に誤りがありました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "payroll", "meaning": "給与支払名簿、給与総額"},
+      {"word": "salary", "meaning": "給料、給与"},
+      {"word": "wage", "meaning": "賃金、時給"}
+    ]
   },
   {
     "id": "q_word_600_197",
@@ -664,7 +894,12 @@
       {"sentence": "Please submit your timesheet by Friday afternoon.", "translation": "勤務時間記録表を金曜の午後までに提出してください。"},
       {"sentence": "Don't forget to record your overtime on the timesheet.", "translation": "タイムシートに残業時間を記入するのを忘れないでください。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "schedule", "meaning": "予定する、予定表、スケジュール"},
+      {"word": "itinerary", "meaning": "旅程、旅行日程表"},
+      {"word": "record", "meaning": "記録する、記録"}
+    ]
   },
   {
     "id": "q_word_600_198",
@@ -679,6 +914,11 @@
     ],
     "derivatives": [
       {"part": "adj", "word": "absent", "meaning": "欠席の、不在の"}
+    ],
+    "similar_words": [
+      {"word": "absenteeism", "meaning": "常習的欠勤"},
+      {"word": "attendance", "meaning": "出席、出席者数"},
+      {"word": "vacancy", "meaning": "空室、空き、欠員"}
     ]
   },
   {
@@ -695,6 +935,11 @@
     "derivatives": [
       {"part": "verb", "word": "attend", "meaning": "出席する"},
       {"part": "noun", "word": "attendant", "meaning": "係員、案内係"}
+    ],
+    "similar_words": [
+      {"word": "attend", "meaning": "出席する、参加する"},
+      {"word": "attendee", "meaning": "出席者、参加者"},
+      {"word": "absence", "meaning": "欠席、不在、欠勤"}
     ]
   },
   {
@@ -711,6 +956,11 @@
     "derivatives": [
       {"part": "noun", "word": "attachment", "meaning": "添付ファイル、付属品"},
       {"part": "adj", "word": "attached", "meaning": "添付された、付属の"}
+    ],
+    "similar_words": [
+      {"word": "install", "meaning": "設置する、取り付ける、インストールする"},
+      {"word": "send", "meaning": "送る、発送する"},
+      {"word": "submit", "meaning": "提出する"}
     ]
   }
 ]

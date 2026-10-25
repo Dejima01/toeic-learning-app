@@ -9,7 +9,12 @@
     "example_sentences": [
       {"sentence": "Ms. Sato is in charge of the marketing department.", "translation": "佐藤さんがマーケティング部門を担当しています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "be responsible for", "meaning": "〜に責任がある、〜を担当している"},
+      {"word": "charge", "meaning": "請求する、料金、担当"},
+      {"word": "on duty", "meaning": "勤務中で、当番で"}
+    ]
   },
   {
     "id": "q_word_600_402",
@@ -21,7 +26,12 @@
     "example_sentences": [
       {"sentence": "Please book your seat in advance to avoid disappointment.", "translation": "満席を避けるため、事前に座席をご予約ください。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "prior", "meaning": "事前の、前の"},
+      {"word": "prepare", "meaning": "準備する、用意する"},
+      {"word": "preliminary", "meaning": "予備の、事前の"}
+    ]
   },
   {
     "id": "q_word_600_403",
@@ -33,7 +43,12 @@
     "example_sentences": [
       {"sentence": "The train departed exactly on time.", "translation": "電車はちょうど定刻に発車しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "punctual", "meaning": "時間を守る、時間に正確な"},
+      {"word": "promptly", "meaning": "迅速に、時間どおりに"},
+      {"word": "immediately", "meaning": "ただちに、すぐに"}
+    ]
   },
   {
     "id": "q_word_600_404",
@@ -45,7 +60,12 @@
     "example_sentences": [
       {"sentence": "The item you ordered is currently out of stock.", "translation": "ご注文の商品は現在、在庫切れとなっております。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "run out of", "meaning": "〜を使い果たす、〜がなくなる"},
+      {"word": "out of order", "meaning": "故障して"},
+      {"word": "inventory", "meaning": "在庫、在庫目録"}
+    ]
   },
   {
     "id": "q_word_600_405",
@@ -57,7 +77,12 @@
     "example_sentences": [
       {"sentence": "The flight was delayed due to bad weather.", "translation": "悪天候のため、その便は遅延しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "cause", "meaning": "原因、引き起こす"},
+      {"word": "therefore", "meaning": "したがって、それゆえ"},
+      {"word": "contribute to", "meaning": "〜に貢献する、〜の一因となる"}
+    ]
   },
   {
     "id": "q_word_600_406",
@@ -69,7 +94,12 @@
     "example_sentences": [
       {"sentence": "As of next Monday, the office will move to a new building.", "translation": "来週の月曜日付けで、オフィスは新しいビルに移転します。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "currently", "meaning": "現在、今のところ"},
+      {"word": "recently", "meaning": "最近、近ごろ"},
+      {"word": "according to", "meaning": "〜によれば、〜に従って"}
+    ]
   },
   {
     "id": "q_word_600_407",
@@ -81,7 +111,12 @@
     "example_sentences": [
       {"sentence": "According to the schedule, the meeting starts at ten.", "translation": "予定表によると、会議は10時に始まります。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "accordingly", "meaning": "それに応じて、したがって"},
+      {"word": "with regard to", "meaning": "〜に関して"},
+      {"word": "agreement", "meaning": "合意、契約、同意"}
+    ]
   },
   {
     "id": "q_word_600_408",
@@ -93,7 +128,12 @@
     "example_sentences": [
       {"sentence": "In addition to her salary, she receives a monthly bonus.", "translation": "給料に加えて、彼女は毎月ボーナスを受け取っています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "additional", "meaning": "追加の、さらなる"},
+      {"word": "furthermore", "meaning": "さらに、その上"},
+      {"word": "moreover", "meaning": "さらに、その上"}
+    ]
   },
   {
     "id": "q_word_600_409",
@@ -105,7 +145,12 @@
     "example_sentences": [
       {"sentence": "We decided to use e-mail instead of phone calls.", "translation": "私たちは電話の代わりにメールを使うことにしました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "in lieu of", "meaning": "〜の代わりに"},
+      {"word": "replace", "meaning": "取り替える、交換する、代わりを務める"},
+      {"word": "alternative", "meaning": "代替案、選択肢"}
+    ]
   },
   {
     "id": "q_word_600_410",
@@ -117,7 +162,12 @@
     "example_sentences": [
       {"sentence": "I would like to thank you all on behalf of the team.", "translation": "チームを代表して、皆様に感謝申し上げます。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "representative", "meaning": "代表者、担当者、代理人"},
+      {"word": "be responsible for", "meaning": "〜に責任がある、〜を担当している"},
+      {"word": "in lieu of", "meaning": "〜の代わりに"}
+    ]
   },
   {
     "id": "q_word_600_411",
@@ -129,7 +179,12 @@
     "example_sentences": [
       {"sentence": "Each manager is responsible for their own department's budget.", "translation": "各マネージャーが自部門の予算に責任を持っています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "in charge of", "meaning": "〜を担当して、〜の責任者で"},
+      {"word": "accountability", "meaning": "説明責任、責任"},
+      {"word": "liable", "meaning": "責任がある、〜しがちな"}
+    ]
   },
   {
     "id": "q_word_600_412",
@@ -141,7 +196,12 @@
     "example_sentences": [
       {"sentence": "The award ceremony will take place in the main hall.", "translation": "表彰式はメインホールで行われます。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "venue", "meaning": "会場、開催地"},
+      {"word": "attend", "meaning": "出席する、参加する"},
+      {"word": "participate in", "meaning": "〜に参加する"}
+    ]
   },
   {
     "id": "q_word_600_413",
@@ -153,7 +213,12 @@
     "example_sentences": [
       {"sentence": "The team carried out the plan without any problems.", "translation": "チームはその計画を問題なく実行しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "execute", "meaning": "実行する、遂行する"},
+      {"word": "implement", "meaning": "実施する、導入する"},
+      {"word": "accomplish", "meaning": "成し遂げる、達成する"}
+    ]
   },
   {
     "id": "q_word_600_414",
@@ -165,7 +230,12 @@
     "example_sentences": [
       {"sentence": "Please fill out this form before your appointment.", "translation": "ご予約の前にこの用紙にご記入ください。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "complete", "meaning": "完了する、記入する、完全な"},
+      {"word": "submit", "meaning": "提出する"},
+      {"word": "record", "meaning": "記録する、記録"}
+    ]
   },
   {
     "id": "q_word_600_415",
@@ -177,7 +247,12 @@
     "example_sentences": [
       {"sentence": "I need to find out why the shipment was delayed.", "translation": "なぜ発送が遅れたのか調べる必要があります。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "figure out", "meaning": "理解する、解決する"},
+      {"word": "ascertain", "meaning": "確かめる、突き止める"},
+      {"word": "knowledge", "meaning": "知識"}
+    ]
   },
   {
     "id": "q_word_600_416",
@@ -189,7 +264,12 @@
     "example_sentences": [
       {"sentence": "It took a while to figure out how the software works.", "translation": "そのソフトの使い方を理解するのに時間がかかりました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "find out", "meaning": "見つけ出す、知る、分かる"},
+      {"word": "problem", "meaning": "問題"},
+      {"word": "determine", "meaning": "決定する、判断する"}
+    ]
   },
   {
     "id": "q_word_600_417",
@@ -201,7 +281,12 @@
     "example_sentences": [
       {"sentence": "Please turn in your report by Friday afternoon.", "translation": "報告書は金曜日の午後までに提出してください。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "hand in", "meaning": "提出する"},
+      {"word": "submit", "meaning": "提出する"},
+      {"word": "attend", "meaning": "出席する、参加する"}
+    ]
   },
   {
     "id": "q_word_600_418",
@@ -213,7 +298,12 @@
     "example_sentences": [
       {"sentence": "Students must hand in their assignments by Monday.", "translation": "学生は月曜日までに課題を提出しなければなりません。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "turn in", "meaning": "提出する"},
+      {"word": "submit", "meaning": "提出する"},
+      {"word": "attend", "meaning": "出席する、参加する"}
+    ]
   },
   {
     "id": "q_word_600_419",
@@ -225,7 +315,12 @@
     "example_sentences": [
       {"sentence": "We need to set up the projector before the presentation.", "translation": "発表の前にプロジェクターを設置する必要があります。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "establish", "meaning": "設立する、確立する"},
+      {"word": "install", "meaning": "設置する、取り付ける、インストールする"},
+      {"word": "prepare", "meaning": "準備する、用意する"}
+    ]
   },
   {
     "id": "q_word_600_420",
@@ -237,7 +332,12 @@
     "example_sentences": [
       {"sentence": "Could you pick up some office supplies on your way in?", "translation": "出社の途中で事務用品を買ってきてもらえますか。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "receive", "meaning": "受け取る、受領する"},
+      {"word": "arrive", "meaning": "到着する、届く"},
+      {"word": "drop off", "meaning": "届ける、降ろす"}
+    ]
   },
   {
     "id": "q_word_600_421",
@@ -249,7 +349,12 @@
     "example_sentences": [
       {"sentence": "I will drop off the documents at your office this afternoon.", "translation": "今日の午後、書類を御社に届けます。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "pick up", "meaning": "受け取る、迎えに行く、拾い上げる"},
+      {"word": "arrive", "meaning": "到着する、届く"},
+      {"word": "send", "meaning": "送る、発送する"}
+    ]
   },
   {
     "id": "q_word_600_422",
@@ -261,7 +366,12 @@
     "example_sentences": [
       {"sentence": "We look forward to seeing you at the conference.", "translation": "会議でお会いできることを楽しみにしております。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "anticipate", "meaning": "予想する、期待する"},
+      {"word": "experience", "meaning": "経験、経験する"},
+      {"word": "upcoming", "meaning": "今度の、近づいている"}
+    ]
   },
   {
     "id": "q_word_600_423",
@@ -273,7 +383,12 @@
     "example_sentences": [
       {"sentence": "Please get in touch with us if you have any questions.", "translation": "ご質問がございましたらご連絡ください。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "contact", "meaning": "連絡する、連絡、接触"},
+      {"word": "find out", "meaning": "見つけ出す、知る、分かる"},
+      {"word": "arrive", "meaning": "到着する、届く"}
+    ]
   },
   {
     "id": "q_word_600_424",
@@ -285,7 +400,12 @@
     "example_sentences": [
       {"sentence": "We are about to run out of printer paper.", "translation": "もうすぐコピー用紙がなくなりそうです。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "out of stock", "meaning": "在庫切れで"},
+      {"word": "decrease", "meaning": "減少する、減らす"},
+      {"word": "quantity", "meaning": "量、数量"}
+    ]
   },
   {
     "id": "q_word_600_425",
@@ -297,7 +417,12 @@
     "example_sentences": [
       {"sentence": "The customer service team deals with complaints daily.", "translation": "顧客サービスチームは日々苦情に対応しています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "negotiate", "meaning": "交渉する、話し合って決める"},
+      {"word": "problem", "meaning": "問題"},
+      {"word": "address", "meaning": "住所、宛先、(問題に)対処する"}
+    ]
   },
   {
     "id": "q_word_600_426",
@@ -309,7 +434,12 @@
     "example_sentences": [
       {"sentence": "Employees can sign up for the workshop online.", "translation": "社員は講習会にオンラインで申し込めます。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "apply for", "meaning": "〜に応募する、〜を申し込む"},
+      {"word": "subscribe", "meaning": "定期購読する、加入する"},
+      {"word": "participate in", "meaning": "〜に参加する"}
+    ]
   },
   {
     "id": "q_word_600_427",
@@ -321,7 +451,12 @@
     "example_sentences": [
       {"sentence": "Mr. Lee will take over the project next week.", "translation": "リーさんが来週、そのプロジェクトを引き継ぎます。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "undertake", "meaning": "引き受ける、着手する"},
+      {"word": "acquire", "meaning": "獲得する、習得する、買収する"},
+      {"word": "acquisition", "meaning": "買収、獲得"}
+    ]
   },
   {
     "id": "q_word_600_428",
@@ -333,7 +468,12 @@
     "example_sentences": [
       {"sentence": "The company put off the product launch until autumn.", "translation": "その会社は製品の発売を秋まで延期しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "postpone", "meaning": "延期する"},
+      {"word": "adjourn", "meaning": "休会する、延期する"},
+      {"word": "delay", "meaning": "遅延、遅れ、遅らせる"}
+    ]
   },
   {
     "id": "q_word_600_429",
@@ -345,7 +485,12 @@
     "example_sentences": [
       {"sentence": "The team came up with a creative solution to the problem.", "translation": "チームはその問題に対する独創的な解決策を思いつきました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "figure out", "meaning": "理解する、解決する"},
+      {"word": "suggest", "meaning": "提案する、示唆する"},
+      {"word": "find out", "meaning": "見つけ出す、知る、分かる"}
+    ]
   },
   {
     "id": "q_word_600_430",
@@ -357,7 +502,12 @@
     "example_sentences": [
       {"sentence": "Let's go over the details before the meeting.", "translation": "会議の前に詳細を確認しましょう。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "review", "meaning": "見直す、検討する、レビュー"},
+      {"word": "oversight", "meaning": "見落とし、監督"},
+      {"word": "overhaul", "meaning": "オーバーホール、大修理"}
+    ]
   },
   {
     "id": "q_word_600_431",
@@ -369,7 +519,12 @@
     "example_sentences": [
       {"sentence": "This quarter, we will focus on improving customer satisfaction.", "translation": "今四半期は顧客満足度の向上に重点を置きます。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "depend on", "meaning": "〜に頼る、〜次第である"},
+      {"word": "improve", "meaning": "改善する、向上させる"},
+      {"word": "observe", "meaning": "観察する、気づく、遵守する"}
+    ]
   },
   {
     "id": "q_word_600_432",
@@ -381,7 +536,12 @@
     "example_sentences": [
       {"sentence": "More than 100 employees participated in the training session.", "translation": "100人を超える社員がその研修に参加しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "attend", "meaning": "出席する、参加する"},
+      {"word": "participant", "meaning": "参加者"},
+      {"word": "sign up for", "meaning": "〜に申し込む、〜に登録する"}
+    ]
   },
   {
     "id": "q_word_600_433",
@@ -393,7 +553,12 @@
     "example_sentences": [
       {"sentence": "She applied for the manager position last week.", "translation": "彼女は先週、マネージャー職に応募しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "sign up for", "meaning": "〜に申し込む、〜に登録する"},
+      {"word": "applicant", "meaning": "応募者、志願者"},
+      {"word": "participate in", "meaning": "〜に参加する"}
+    ]
   },
   {
     "id": "q_word_600_434",
@@ -405,7 +570,12 @@
     "example_sentences": [
       {"sentence": "Please respond to this e-mail by Thursday.", "translation": "木曜日までにこのメールにご返信ください。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "reply", "meaning": "返信する、返事、回答"},
+      {"word": "receive", "meaning": "受け取る、受領する"},
+      {"word": "arrive", "meaning": "到着する、届く"}
+    ]
   },
   {
     "id": "q_word_600_435",
@@ -417,7 +587,12 @@
     "example_sentences": [
       {"sentence": "The final price depends on the size of the order.", "translation": "最終的な価格は注文の量によります。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "reliable", "meaning": "信頼できる、頼りになる"},
+      {"word": "according to", "meaning": "〜によれば、〜に従って"},
+      {"word": "decide", "meaning": "決める、決定する"}
+    ]
   },
   {
     "id": "q_word_600_436",
@@ -429,7 +604,12 @@
     "example_sentences": [
       {"sentence": "Poor communication can lead to misunderstandings.", "translation": "コミュニケーション不足は誤解につながることがあります。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "result in", "meaning": "〜という結果になる"},
+      {"word": "cause", "meaning": "原因、引き起こす"},
+      {"word": "due to", "meaning": "〜が原因で、〜のために"}
+    ]
   },
   {
     "id": "q_word_600_437",
@@ -441,7 +621,12 @@
     "example_sentences": [
       {"sentence": "The new marketing campaign resulted in higher sales.", "translation": "新しいマーケティング施策は売上の増加という結果になりました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "result", "meaning": "結果"},
+      {"word": "consequently", "meaning": "その結果、したがって"},
+      {"word": "outcome", "meaning": "結果、成果"}
+    ]
   },
   {
     "id": "q_word_600_438",
@@ -453,7 +638,12 @@
     "example_sentences": [
       {"sentence": "Her hard work contributed to the project's success.", "translation": "彼女の努力がそのプロジェクトの成功に貢献しました。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "due to", "meaning": "〜が原因で、〜のために"},
+      {"word": "cause", "meaning": "原因、引き起こす"},
+      {"word": "lead to", "meaning": "〜につながる、〜を引き起こす"}
+    ]
   },
   {
     "id": "q_word_600_439",
@@ -465,7 +655,12 @@
     "example_sentences": [
       {"sentence": "The committee consists of five members from different departments.", "translation": "その委員会は異なる部門の5名から構成されています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "include", "meaning": "含む、含める"},
+      {"word": "cost", "meaning": "費用、原価、(費用が)かかる"},
+      {"word": "method", "meaning": "方法、方式"}
+    ]
   },
   {
     "id": "q_word_600_440",
@@ -477,7 +672,12 @@
     "example_sentences": [
       {"sentence": "The delivery is supposed to arrive by noon.", "translation": "配達は正午までに届くことになっています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "according to", "meaning": "〜によれば、〜に従って"},
+      {"word": "look forward to", "meaning": "〜を楽しみにする"},
+      {"word": "anticipate", "meaning": "予想する、期待する"}
+    ]
   },
   {
     "id": "q_word_600_441",
@@ -489,7 +689,12 @@
     "example_sentences": [
       {"sentence": "Please submit the form no later than Friday.", "translation": "遅くとも金曜日までに用紙を提出してください。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "at the latest", "meaning": "遅くとも"},
+      {"word": "deadline", "meaning": "締め切り、期限"},
+      {"word": "as soon as possible", "meaning": "できるだけ早く"}
+    ]
   },
   {
     "id": "q_word_600_442",
@@ -501,7 +706,12 @@
     "example_sentences": [
       {"sentence": "Repairs are free of charge during the warranty period.", "translation": "保証期間中の修理は無料です。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "fee", "meaning": "料金、手数料、会費"},
+      {"word": "charge", "meaning": "請求する、料金、担当"},
+      {"word": "in charge of", "meaning": "〜を担当して、〜の責任者で"}
+    ]
   },
   {
     "id": "q_word_600_443",
@@ -513,7 +723,12 @@
     "example_sentences": [
       {"sentence": "The new station building is still under construction.", "translation": "新しい駅舎はまだ建設中です。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "on duty", "meaning": "勤務中で、当番で"},
+      {"word": "on the verge of", "meaning": "〜の間際で、〜寸前で"},
+      {"word": "pending", "meaning": "保留中の、未決定の"}
+    ]
   },
   {
     "id": "q_word_600_444",
@@ -525,7 +740,12 @@
     "example_sentences": [
       {"sentence": "The elevator on the third floor is out of order.", "translation": "3階のエレベーターは故障中です。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "broken", "meaning": "壊れた、故障した"},
+      {"word": "malfunction", "meaning": "誤作動、故障"},
+      {"word": "out of stock", "meaning": "在庫切れで"}
+    ]
   },
   {
     "id": "q_word_600_445",
@@ -537,7 +757,12 @@
     "example_sentences": [
       {"sentence": "Please keep your contact information up to date.", "translation": "連絡先情報は常に最新の状態に保ってください。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "update", "meaning": "更新する、最新情報"},
+      {"word": "current", "meaning": "現在の、今の"},
+      {"word": "state-of-the-art", "meaning": "最新式の、最先端の"}
+    ]
   },
   {
     "id": "q_word_600_446",
@@ -549,7 +774,12 @@
     "example_sentences": [
       {"sentence": "You must sign the contract in person at our office.", "translation": "契約書には当社の事務所で直接ご署名いただく必要があります。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "directly", "meaning": "直接に、まっすぐに"},
+      {"word": "attend", "meaning": "出席する、参加する"},
+      {"word": "participate in", "meaning": "〜に参加する"}
+    ]
   },
   {
     "id": "q_word_600_447",
@@ -561,7 +791,12 @@
     "example_sentences": [
       {"sentence": "Two security guards are on duty at all times.", "translation": "常時2名の警備員が勤務しています。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "duty", "meaning": "関税、義務"},
+      {"word": "in charge of", "meaning": "〜を担当して、〜の責任者で"},
+      {"word": "task", "meaning": "仕事、任務、作業"}
+    ]
   },
   {
     "id": "q_word_600_448",
@@ -573,7 +808,12 @@
     "example_sentences": [
       {"sentence": "We need your reply by Wednesday at the latest.", "translation": "遅くとも水曜日までにご返信をお願いします。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "no later than", "meaning": "遅くとも〜までに"},
+      {"word": "deadline", "meaning": "締め切り、期限"},
+      {"word": "finally", "meaning": "ついに、最後に"}
+    ]
   },
   {
     "id": "q_word_600_449",
@@ -585,7 +825,12 @@
     "example_sentences": [
       {"sentence": "I will send you the file right away.", "translation": "すぐにそのファイルをお送りします。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "immediately", "meaning": "ただちに、すぐに"},
+      {"word": "promptly", "meaning": "迅速に、時間どおりに"},
+      {"word": "as soon as possible", "meaning": "できるだけ早く"}
+    ]
   },
   {
     "id": "q_word_600_450",
@@ -597,6 +842,11 @@
     "example_sentences": [
       {"sentence": "Please reply to this message as soon as possible.", "translation": "このメッセージにできるだけ早くご返信ください。"}
     ],
-    "derivatives": []
+    "derivatives": [],
+    "similar_words": [
+      {"word": "immediately", "meaning": "ただちに、すぐに"},
+      {"word": "right away", "meaning": "すぐに、ただちに"},
+      {"word": "urgent", "meaning": "緊急の、至急の"}
+    ]
   }
 ]
