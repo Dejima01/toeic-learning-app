@@ -197,7 +197,12 @@ export function WordCard({
             <div className="mt-2">
               <button
                 type="button"
-                onClick={() => setSimilarOpen((v) => !v)}
+                onClick={(e) => {
+                  // 展開エリア全体が onToggleReveal を持つので、
+                  // ここで止めないとカバーが閉じてしまう
+                  e.stopPropagation();
+                  setSimilarOpen((v) => !v);
+                }}
                 aria-expanded={similarOpen}
                 className="flex items-center gap-1 pl-2 text-base text-sky-600 dark:text-sky-400"
               >
