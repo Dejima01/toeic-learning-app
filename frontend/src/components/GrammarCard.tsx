@@ -28,6 +28,18 @@ export function GrammarCard({
   const isAnswered = selectedChoice !== undefined;
   const correctLabel = LABELS[question.correct_index];
 
+  /**
+   * 選択肢の枠線。解説を読まなくても正誤が分かるようにする。
+   * 色の割り当てはランク認定テストと揃えてある（赤＝正解、黒＝自分の選択）。
+   * 自分の選択が正解なら赤になるので、「押した選択肢が赤かどうか」だけ見ればよい。
+   */
+  function choiceRing(i: number): string {
+    if (!isAnswered) return '';
+    if (i === question.correct_index) return 'ring-2 ring-inset ring-red-500';
+    if (i === selectedChoice) return 'ring-2 ring-inset ring-gray-900 dark:ring-gray-100';
+    return '';
+  }
+
   return (
     <article
       id={`grammar-${question.id}`}
@@ -96,7 +108,7 @@ export function GrammarCard({
             onClick={() => !isAnswered && onSelectChoice(i)}
             className={`rounded bg-sky-200 dark:bg-sky-800 py-3 px-3 text-left text-base text-gray-800 dark:text-gray-100 transition-all
               ${isAnswered ? 'cursor-default' : 'hover:bg-sky-300 dark:hover:bg-sky-700 active:scale-95'}
-              ${selectedChoice === i ? 'ring-2 ring-inset ring-gray-900 dark:ring-gray-100' : ''}
+              ${choiceRing(i)}
             `}
           >
             {LABELS[i]} : {choice}
