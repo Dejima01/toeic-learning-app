@@ -177,6 +177,7 @@ export default function GrammarChapterPage() {
 
   return (
     <MainLayout
+      title={`文法：${level}点台 第${chapter}章`}
       showBack
       showChatBot
       chatContext={{ kind: 'chapter', mode: 'grammar', level: String(level), chapter }}
