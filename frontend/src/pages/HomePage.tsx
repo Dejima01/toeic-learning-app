@@ -15,6 +15,10 @@ import {
   normalizeGrammarDailyLimit,
 } from '../lib/srs';
 import type { ReviewItem } from '../lib/srs';
+import type { StudyDay, StreakTier } from '../lib/studyLog';
+import { normalizeStudyDay, calcStreak, streakTier } from '../lib/studyLog';
+import { recordDayState } from '../lib/recordStudy';
+import { StudyCalendar } from '../components/StudyCalendar';
 
 type Badge = 'bronze' | 'silver' | 'gold' | null;
 
@@ -22,6 +26,15 @@ const BADGE_LABEL: Record<string, string> = {
   bronze: 'ブロンズ',
   silver: 'シルバー',
   gold: 'ゴールド',
+};
+
+/** 連続日数のチップ。続くほど見た目が豪華になる（3/7/14/30日で変化） */
+const STREAK_STYLE: Record<StreakTier, string> = {
+  plain: 'text-gray-500 dark:text-gray-400',
+  blue: 'text-sky-600 dark:text-sky-400 font-bold',
+  bordered: 'text-sky-700 dark:text-sky-300 font-bold border-2 border-sky-400 dark:border-sky-500',
+  gold: 'text-amber-700 dark:text-amber-300 font-bold border-2 border-amber-400',
+  radiant: 'text-amber-700 dark:text-amber-200 font-bold border-2 border-amber-400 streak-radiant',
 };
 
 /** 今日の復習ボタン。出題がある日は件数、やり切った日は「完了！」を出す */
@@ -79,6 +92,8 @@ export default function HomePage() {
   const [grammarItems, setGrammarItems] = useState<ReviewItem[]>([]);
   const [dailyLimit, setDailyLimit] = useState(normalizeDailyLimit(undefined));
   const [grammarLimit, setGrammarLimit] = useState(normalizeGrammarDailyLimit(undefined));
+  const [studyDays, setStudyDays] = useState<Map<string, StudyDay>>(new Map());
+  const [calendarOpen, setCalendarOpen] = useState(false);
 
   // Firestoreからバッジ・前回の続き位置をリアルタイム取得（同じドキュメントなので購読は1本）
   useEffect(() => {
@@ -106,6 +121,13 @@ export default function HomePage() {
     if (!user) return;
     return onSnapshot(collection(db, 'users', user.uid, 'grammar_bookmarks'), (snap) => {
       setGrammarItems(snap.docs.map((d) => normalizeReviewItem(d.id, d.data())));
+    });
+  }, [user]);
+
+  useEffect(() => {
+    if (!user) return;
+    return onSnapshot(collection(db, 'users', user.uid, 'study_days'), (snap) => {
+      setStudyDays(new Map(snap.docs.map((d) => [d.id, normalizeStudyDay(d.id, d.data())])));
     });
   }, [user]);
 
@@ -148,6 +170,19 @@ export default function HomePage() {
   const showWord = reviewItems.length > 0;
   const showGrammar = grammarItems.length > 0;
 
+  const streak = calcStreak(studyDays, new Date());
+  const tier = streakTier(streak);
+
+  // 「今日やることがあったか」と「やり切ったか」を記録する。
+  // 出題0の日を銅（サボり）と区別するために hadDue が要る
+  const hadDue = dueCount > 0 || grammarDueCount > 0 || reviewedTodayCount > 0 || grammarReviewedToday > 0;
+  const completed = hadDue && dueCount === 0 && grammarDueCount === 0;
+
+  useEffect(() => {
+    if (!user) return;
+    recordDayState(user.uid, { hadDue, completed });
+  }, [user, hadDue, completed]);
+
   async function handleLogout() {
     await signOut(auth);
     navigate('/', { replace: true });
@@ -158,8 +193,15 @@ export default function HomePage() {
     <MainLayout>
       <div className="flex h-full flex-col overflow-y-auto px-5 pt-4 pb-2">
 
-        {/* ── 右上: 設定ボタン ── */}
-        <div className="flex justify-end">
+        {/* ── 上部: 連続日数（左）と設定（右） ── */}
+        <div className="flex items-center justify-between">
+          <button
+            type="button"
+            onClick={() => setCalendarOpen(true)}
+            className={`rounded-lg px-3 py-1.5 text-sm tabular-nums transition-colors ${STREAK_STYLE[tier]}`}
+          >
+            🔥 {streak}日
+          </button>
           <Link
             to="/settings"
             className="rounded-lg bg-sky-200 dark:bg-sky-800 px-5 py-2 text-sm font-bold text-gray-800 dark:text-gray-100 hover:bg-sky-300 dark:hover:bg-sky-700 transition-colors"
@@ -283,6 +325,10 @@ export default function HomePage() {
           ログアウト
         </button>
       </div>
+
+      {calendarOpen && (
+        <StudyCalendar days={studyDays} onClose={() => setCalendarOpen(false)} />
+      )}
     </MainLayout>
   );
 }

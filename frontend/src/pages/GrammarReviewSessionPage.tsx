@@ -12,6 +12,7 @@ import {
 } from 'firebase/firestore';
 import { db } from '../firebase';
 import { useAuth } from '../contexts/AuthContext';
+import { recordReviewed } from '../lib/recordStudy';
 import { MainLayout } from '../components/MainLayout';
 import { GrammarCard } from '../components/GrammarCard';
 import type { GrammarQuestion } from '../types/grammar';
@@ -131,6 +132,8 @@ export default function GrammarReviewSessionPage() {
         }
       }
       if (isCorrect) setKnownCount((n) => n + 1);
+      // 学習の日別記録（カレンダーとストリークの材料）
+      void recordReviewed(user.uid, 'grammar');
     }
 
     setSelectedChoice(undefined);

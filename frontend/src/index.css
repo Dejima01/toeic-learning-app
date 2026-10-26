@@ -45,3 +45,24 @@ body {
     animation: none;
   }
 }
+
+/* 連続学習30日以上のチップ。控えめに明滅させる */
+@keyframes streak-radiance {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(251, 191, 36, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 10px 2px rgba(251, 191, 36, 0.75);
+  }
+}
+
+.streak-radiant {
+  animation: streak-radiance 2.4s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .streak-radiant {
+    animation: none;
+  }
+}

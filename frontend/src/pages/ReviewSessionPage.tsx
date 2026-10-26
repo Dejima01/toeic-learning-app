@@ -12,6 +12,7 @@ import {
 } from 'firebase/firestore';
 import { db } from '../firebase';
 import { useAuth } from '../contexts/AuthContext';
+import { recordReviewed } from '../lib/recordStudy';
 import { MainLayout } from '../components/MainLayout';
 import { HighlightedSentence } from '../components/HighlightedSentence';
 import type { WordQuestion } from '../types/word';
@@ -133,6 +134,8 @@ export default function ReviewSessionPage() {
         }
       }
       if (grade === 'known') setKnownCount((n) => n + 1);
+      // 学習の日別記録（カレンダーとストリークの材料）
+      void recordReviewed(user.uid, 'word');
     }
 
     const nextWrong = grade === 'unknown' ? [...wrongItems, current] : wrongItems;
