@@ -217,6 +217,8 @@ export default function WordChapterPage() {
     <MainLayout
       title={`第${chapter}章`}
       showBack
+      // ホームの「前回の続き」から来た場合でも章一覧へ戻す
+      backTo={`/word?level=${level}`}
       showChatBot
       chatContext={{ kind: 'chapter', mode: 'word', level: String(level), chapter }}
     >

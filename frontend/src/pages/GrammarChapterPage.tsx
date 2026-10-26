@@ -179,6 +179,8 @@ export default function GrammarChapterPage() {
     <MainLayout
       title={`第${chapter}章`}
       showBack
+      // ホームの「前回の続き」から来た場合でも章一覧へ戻す
+      backTo={`/grammar?level=${level}`}
       showChatBot
       chatContext={{ kind: 'chapter', mode: 'grammar', level: String(level), chapter }}
     >

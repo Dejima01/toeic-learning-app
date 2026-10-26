@@ -9,6 +9,8 @@ interface MainLayoutProps {
   /** ヘッダー中央に任意の要素を置く（指定時は title より優先） */
   titleContent?: ReactNode;
   showBack?: boolean;
+  /** 戻るボタンの行き先。省略時は履歴を1つ戻る */
+  backTo?: string;
   showChatBot?: boolean;
   /** チャットボットに渡す表示中の画面・問題 */
   chatContext?: ChatContext;
@@ -19,6 +21,7 @@ export function MainLayout({
   title,
   titleContent,
   showBack = false,
+  backTo,
   showChatBot = false,
   chatContext,
   children,
@@ -36,7 +39,7 @@ export function MainLayout({
           {showBack ? (
             <button
               type="button"
-              onClick={() => navigate(-1)}
+              onClick={() => (backTo ? navigate(backTo, { replace: true }) : navigate(-1))}
               className="flex h-8 w-8 items-center justify-center rounded-full border border-gray-400 dark:border-gray-600 text-gray-600 dark:text-gray-300"
             >
               <svg
