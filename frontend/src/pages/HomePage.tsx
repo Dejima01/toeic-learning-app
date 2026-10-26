@@ -33,7 +33,7 @@ const STREAK_STYLE: Record<StreakTier, string> = {
   // どの段階でも枠を出す（押せることが分かるように）
   plain: 'border-2 border-gray-300 dark:border-gray-600 text-gray-500 dark:text-gray-400',
   blue: 'border-2 border-sky-300 dark:border-sky-700 text-sky-600 dark:text-sky-400 font-bold',
-  bordered: 'border-2 border-sky-400 dark:border-sky-500 text-sky-700 dark:text-sky-300 font-bold',
+  bordered: 'border-2 border-sky-700/40 metal-steel font-bold',
   gold: 'border-2 border-amber-600/40 metal-gold font-bold',
   radiant: 'border-2 border-amber-600/40 metal-gold font-bold streak-radiant',
 };

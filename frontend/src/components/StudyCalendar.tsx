@@ -20,11 +20,13 @@ const RANK_STYLE: Record<DayRank, string> = {
   none: 'text-gray-400 dark:text-gray-600',
 };
 
+// 見出しで「何の色か」を一度だけ言い、ラベルは短く揃える。
+// 「やり切った」だけでは何をやり切ったのか伝わらなかったため
 const LEGEND: { rank: DayRank; label: string }[] = [
-  { rank: 'gold', label: 'やり切った' },
-  { rank: 'silver', label: '途中まで' },
-  { rank: 'bronze', label: '開いただけ' },
-  { rank: 'rest', label: 'お休み' },
+  { rank: 'gold', label: '全部やった' },
+  { rank: 'silver', label: '途中でやめた' },
+  { rank: 'bronze', label: 'やらなかった' },
+  { rank: 'rest', label: '出題がなかった' },
 ];
 
 interface StudyCalendarProps {
@@ -134,13 +136,16 @@ export function StudyCalendar({ days, onClose }: StudyCalendarProps) {
         </div>
 
         {/* 色の意味 */}
-        <div className="grid grid-cols-2 gap-x-3 gap-y-1.5 border-t border-gray-200 dark:border-gray-700 px-4 py-3">
+        <div className="border-t border-gray-200 dark:border-gray-700 px-4 py-3">
+          <p className="mb-2 text-sm font-bold text-gray-700 dark:text-gray-300">今日の復習の記録</p>
+          <div className="grid grid-cols-2 gap-x-3 gap-y-1.5">
           {LEGEND.map(({ rank, label }) => (
             <div key={rank} className="flex items-center gap-2">
               <span className={`h-4 w-4 shrink-0 rounded ${RANK_STYLE[rank]}`} />
               <span className="text-sm text-gray-600 dark:text-gray-400">{label}</span>
             </div>
           ))}
+          </div>
         </div>
 
         {/* 連続日数 */}
