@@ -214,9 +214,8 @@ export default function WordChapterPage() {
   }, []);
 
   return (
-    // ヘッダー: 戻るボタン(左) + チャットボットボタン(右)、タイトルなし
     <MainLayout
-      title={`単語：${level}点台 第${chapter}章`}
+      title={`第${chapter}章`}
       showBack
       showChatBot
       chatContext={{ kind: 'chapter', mode: 'word', level: String(level), chapter }}
