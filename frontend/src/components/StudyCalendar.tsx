@@ -13,9 +13,9 @@ const WEEKDAYS = ['日', '月', '火', '水', '木', '金', '土'] as const;
 
 /** 達成度ごとのマスの見た目 */
 const RANK_STYLE: Record<DayRank, string> = {
-  gold: 'bg-amber-400 text-amber-950 font-bold',
-  silver: 'bg-slate-300 dark:bg-slate-400 text-slate-900 font-bold',
-  bronze: 'bg-orange-800/70 text-orange-50',
+  gold: 'metal-gold font-bold',
+  silver: 'metal-silver font-bold',
+  bronze: 'metal-copper font-bold',
   rest: 'bg-gray-200 dark:bg-gray-700 text-gray-500 dark:text-gray-400',
   none: 'text-gray-400 dark:text-gray-600',
 };
@@ -124,7 +124,7 @@ export function StudyCalendar({ days, onClose }: StudyCalendarProps) {
               <div
                 key={key}
                 className={`flex aspect-square items-center justify-center rounded-md text-sm tabular-nums ${RANK_STYLE[rank]} ${
-                  isToday ? 'ring-2 ring-inset ring-sky-500' : ''
+                  isToday ? 'calendar-today' : ''
                 }`}
               >
                 {Number(key.slice(8))}

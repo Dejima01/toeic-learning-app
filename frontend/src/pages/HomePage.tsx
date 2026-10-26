@@ -30,11 +30,12 @@ const BADGE_LABEL: Record<string, string> = {
 
 /** 連続日数のチップ。続くほど見た目が豪華になる（3/7/14/30日で変化） */
 const STREAK_STYLE: Record<StreakTier, string> = {
-  plain: 'text-gray-500 dark:text-gray-400',
-  blue: 'text-sky-600 dark:text-sky-400 font-bold',
-  bordered: 'text-sky-700 dark:text-sky-300 font-bold border-2 border-sky-400 dark:border-sky-500',
-  gold: 'text-amber-700 dark:text-amber-300 font-bold border-2 border-amber-400',
-  radiant: 'text-amber-700 dark:text-amber-200 font-bold border-2 border-amber-400 streak-radiant',
+  // どの段階でも枠を出す（押せることが分かるように）
+  plain: 'border-2 border-gray-300 dark:border-gray-600 text-gray-500 dark:text-gray-400',
+  blue: 'border-2 border-sky-300 dark:border-sky-700 text-sky-600 dark:text-sky-400 font-bold',
+  bordered: 'border-2 border-sky-400 dark:border-sky-500 text-sky-700 dark:text-sky-300 font-bold',
+  gold: 'border-2 border-amber-600/40 metal-gold font-bold',
+  radiant: 'border-2 border-amber-600/40 metal-gold font-bold streak-radiant',
 };
 
 /** 今日の復習ボタン。出題がある日は件数、やり切った日は「完了！」を出す */
