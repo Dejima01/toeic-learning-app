@@ -10,6 +10,7 @@ import {
 } from '../lib/srs';
 import { MainLayout } from '../components/MainLayout';
 import { FeedbackModal } from '../components/FeedbackModal';
+import { TutorialModal } from '../components/TutorialModal';
 import { useTheme } from '../contexts/ThemeContext';
 
 export default function SettingsPage() {
@@ -19,6 +20,7 @@ export default function SettingsPage() {
   const [grammarLimit, setGrammarLimit] = useState(normalizeGrammarDailyLimit(undefined));
   const [feedbackOpen, setFeedbackOpen] = useState(false);
   const [feedbackSent, setFeedbackSent] = useState(false);
+  const [tutorialOpen, setTutorialOpen] = useState(false);
 
   useEffect(() => {
     if (!user) return;
@@ -130,6 +132,27 @@ export default function SettingsPage() {
           </div>
         </div>
 
+        {/* 使い方を見る */}
+        <button
+          type="button"
+          onClick={() => setTutorialOpen(true)}
+          className="flex w-full items-center justify-between px-4 py-4 text-left transition-colors hover:bg-gray-50 dark:hover:bg-gray-800"
+        >
+          <span className="text-base font-medium text-gray-800 dark:text-gray-100">
+            使い方を見る
+          </span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={2}
+            stroke="currentColor"
+            className="h-4 w-4 text-gray-400 dark:text-gray-500"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+          </svg>
+        </button>
+
         {/* ご意見・不具合報告 */}
         <button
           type="button"
@@ -155,6 +178,8 @@ export default function SettingsPage() {
       {feedbackOpen && (
         <FeedbackModal onClose={() => setFeedbackOpen(false)} onSent={handleFeedbackSent} />
       )}
+
+      {tutorialOpen && <TutorialModal onClose={() => setTutorialOpen(false)} />}
     </MainLayout>
   );
 }
