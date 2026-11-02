@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { signOut } from 'firebase/auth';
-import { collection, doc, onSnapshot } from 'firebase/firestore';
+import { collection, doc, onSnapshot, setDoc } from 'firebase/firestore';
 import { auth, db } from '../firebase';
 import { MainLayout } from '../components/MainLayout';
 import { useAuth } from '../contexts/AuthContext';
@@ -19,6 +19,7 @@ import type { StudyDay, StreakTier } from '../lib/studyLog';
 import { normalizeStudyDay, calcStreak, streakTier } from '../lib/studyLog';
 import { recordDayState } from '../lib/recordStudy';
 import { StudyCalendar } from '../components/StudyCalendar';
+import { TutorialModal, TUTORIAL_VERSION } from '../components/TutorialModal';
 
 type Badge = 'bronze' | 'silver' | 'gold' | null;
 
@@ -95,6 +96,7 @@ export default function HomePage() {
   const [grammarLimit, setGrammarLimit] = useState(normalizeGrammarDailyLimit(undefined));
   const [studyDays, setStudyDays] = useState<Map<string, StudyDay>>(new Map());
   const [calendarOpen, setCalendarOpen] = useState(false);
+  const [tutorialOpen, setTutorialOpen] = useState(false);
 
   // Firestoreからバッジ・前回の続き位置をリアルタイム取得（同じドキュメントなので購読は1本）
   useEffect(() => {
@@ -107,8 +109,23 @@ export default function HomePage() {
       setGrammarResume(parseResumePosition(data?.last_grammar_position));
       setDailyLimit(normalizeDailyLimit(data?.daily_review_limit));
       setGrammarLimit(normalizeGrammarDailyLimit(data?.daily_grammar_review_limit));
+      // 届いたデータで判定する（読み込み前に一瞬開いてしまわないように）
+      const seen = typeof data?.tutorial_seen_version === 'number' ? data.tutorial_seen_version : 0;
+      if (seen < TUTORIAL_VERSION) setTutorialOpen(true);
     });
   }, [user]);
+
+  function closeTutorial() {
+    setTutorialOpen(false);
+    if (!user) return;
+    setDoc(
+      doc(db, 'users', user.uid),
+      { tutorial_seen_version: TUTORIAL_VERSION },
+      { merge: true },
+    ).catch(() => {
+      // 保存に失敗しても次回もう一度出るだけなので、ここでは何もしない
+    });
+  }
 
   // 復習マーク（数十〜数百件程度なので全件読んで手元で数える）
   useEffect(() => {
@@ -330,6 +347,8 @@ export default function HomePage() {
       {calendarOpen && (
         <StudyCalendar days={studyDays} onClose={() => setCalendarOpen(false)} />
       )}
+
+      {tutorialOpen && <TutorialModal onClose={closeTutorial} />}
     </MainLayout>
   );
 }
