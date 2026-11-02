@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import {
   collection,
@@ -13,6 +13,9 @@ import {
 import { db } from '../firebase';
 import { useAuth } from '../contexts/AuthContext';
 import { recordReviewed } from '../lib/recordStudy';
+import { normalizeRankingState } from '../lib/ranking';
+import type { RankingState } from '../lib/ranking';
+import { recordRankingEvent } from '../lib/rankingSync';
 import { MainLayout } from '../components/MainLayout';
 import { HighlightedSentence } from '../components/HighlightedSentence';
 import type { WordQuestion } from '../types/word';
@@ -50,6 +53,9 @@ export default function ReviewSessionPage() {
   /** 1周目で「覚えていた」だった数（＝記録・集計の対象） */
   const [knownCount, setKnownCount] = useState(0);
 
+  /** ランキング用の状態（読み込み時の users ドキュメントの写し） */
+  const rankingStateRef = useRef<RankingState | null>(null);
+
   // ── 出題キューを作る（セッション中は固定したいので getDocs で1回だけ） ──
   useEffect(() => {
     if (!user) return;
@@ -63,6 +69,7 @@ export default function ReviewSessionPage() {
       const items = snap.docs.map((d) => normalizeReviewItem(d.id, d.data()));
       const now = new Date();
       const dailyLimit = normalizeDailyLimit(userSnap.data()?.daily_review_limit);
+      rankingStateRef.current = normalizeRankingState(userSnap.data()?.ranking_state);
 
       let target;
       if (isPractice) {
@@ -136,6 +143,7 @@ export default function ReviewSessionPage() {
       if (grade === 'known') setKnownCount((n) => n + 1);
       // 学習の日別記録（カレンダーとストリークの材料）
       void recordReviewed(user.uid, 'word');
+      void recordRankingEvent(user.uid, rankingStateRef.current, 'study');
     }
 
     const nextWrong = grade === 'unknown' ? [...wrongItems, current] : wrongItems;

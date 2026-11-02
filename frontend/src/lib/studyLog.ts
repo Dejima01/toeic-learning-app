@@ -74,15 +74,30 @@ export function rankOf(day: StudyDay | undefined): DayRank {
   return 'bronze';
 }
 
-/** ストリークが続く達成度か */
+/**
+ * 連続日数の数え方。ホームの 🔥・カレンダー・ランキングで共通。
+ *
+ *   金・銀（1問以上解いた）     → +1
+ *   休み（復習がなかった）       → 維持（増えも途切れもしない）
+ *   銅（手をつけなかった）・なし → 途切れる
+ */
+export function countsForStreak(rank: DayRank): boolean {
+  return rank === 'gold' || rank === 'silver';
+}
+
+export function bridgesStreak(rank: DayRank): boolean {
+  return rank === 'rest';
+}
+
+/** 途切れずにつながっている日か（+1 する日と維持する日） */
 export function keepsStreak(rank: DayRank): boolean {
-  return rank === 'gold' || rank === 'silver' || rank === 'rest';
+  return countsForStreak(rank) || bridgesStreak(rank);
 }
 
 /**
  * 今日から遡って連続日数を数える。
  *
- * 今日がまだ「なし」や「銅」でも、昨日までの連続は生きているとみなす。
+ * 今日はまだ途中なので、銅やなしでも途切れとはみなさず昨日までを数える。
  * 朝いちばんに開いた時点で 0日 と出ると、積み上げが消えたように見えるため。
  */
 export function calcStreak(days: Map<string, StudyDay>, today: Date): number {
@@ -90,23 +105,19 @@ export function calcStreak(days: Map<string, StudyDay>, today: Date): number {
   const cursor = new Date(today);
 
   const todayRank = rankOf(days.get(toDateKey(cursor)));
-  if (keepsStreak(todayRank)) {
-    streak += 1;
-  } else if (todayRank === 'bronze') {
-    // 開いたのに何もしていない日は、その時点で途切れている
-    return 0;
-  }
+  if (countsForStreak(todayRank)) streak += 1;
 
-  // 今日の結果にかかわらず、昨日から遡って数える
   cursor.setDate(cursor.getDate() - 1);
-  while (keepsStreak(rankOf(days.get(toDateKey(cursor))))) {
-    streak += 1;
+  for (;;) {
+    const rank = rankOf(days.get(toDateKey(cursor)));
+    if (!keepsStreak(rank)) break;
+    if (countsForStreak(rank)) streak += 1;
     cursor.setDate(cursor.getDate() - 1);
   }
   return streak;
 }
 
-/** 記録全体での最長連続日数 */
+/** 記録全体での最長連続日数（数え方は calcStreak と同じ） */
 export function calcLongestStreak(days: Map<string, StudyDay>): number {
   const keys = [...days.keys()].sort();
   if (keys.length === 0) return 0;
@@ -117,10 +128,11 @@ export function calcLongestStreak(days: Map<string, StudyDay>): number {
   const last = fromDateKey(keys[keys.length - 1]);
 
   while (cursor.getTime() <= last.getTime()) {
-    if (keepsStreak(rankOf(days.get(toDateKey(cursor))))) {
+    const rank = rankOf(days.get(toDateKey(cursor)));
+    if (countsForStreak(rank)) {
       run += 1;
       if (run > longest) longest = run;
-    } else {
+    } else if (!bridgesStreak(rank)) {
       run = 0;
     }
     cursor.setDate(cursor.getDate() + 1);

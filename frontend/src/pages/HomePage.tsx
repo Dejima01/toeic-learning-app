@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { signOut } from 'firebase/auth';
 import { collection, doc, onSnapshot, setDoc } from 'firebase/firestore';
@@ -16,8 +16,19 @@ import {
 } from '../lib/srs';
 import type { ReviewItem } from '../lib/srs';
 import type { StudyDay, StreakTier } from '../lib/studyLog';
-import { normalizeStudyDay, calcStreak, streakTier } from '../lib/studyLog';
+import {
+  normalizeStudyDay,
+  calcStreak,
+  streakTier,
+  rankOf,
+  toDateKey,
+  countsForStreak,
+  bridgesStreak,
+} from '../lib/studyLog';
 import { recordDayState } from '../lib/recordStudy';
+import { normalizeRankingState } from '../lib/ranking';
+import type { RankingState } from '../lib/ranking';
+import { recordRankingEvent, registerRanking } from '../lib/rankingSync';
 import { StudyCalendar } from '../components/StudyCalendar';
 import { TutorialModal, TUTORIAL_VERSION } from '../components/TutorialModal';
 
@@ -97,6 +108,12 @@ export default function HomePage() {
   const [studyDays, setStudyDays] = useState<Map<string, StudyDay>>(new Map());
   const [calendarOpen, setCalendarOpen] = useState(false);
   const [tutorialOpen, setTutorialOpen] = useState(false);
+  const [userLoaded, setUserLoaded] = useState(false);
+  const [studyDaysLoaded, setStudyDaysLoaded] = useState(false);
+  const [nickname, setNickname] = useState<string | null>(null);
+  const [rankingHidden, setRankingHidden] = useState(false);
+  const [rankingState, setRankingState] = useState<RankingState | null>(null);
+  const registerTried = useRef(false);
 
   // Firestoreからバッジ・前回の続き位置をリアルタイム取得（同じドキュメントなので購読は1本）
   useEffect(() => {
@@ -112,6 +129,10 @@ export default function HomePage() {
       // 届いたデータで判定する（読み込み前に一瞬開いてしまわないように）
       const seen = typeof data?.tutorial_seen_version === 'number' ? data.tutorial_seen_version : 0;
       if (seen < TUTORIAL_VERSION) setTutorialOpen(true);
+      setNickname(typeof data?.nickname === 'string' ? data.nickname : null);
+      setRankingHidden(data?.ranking_hidden === true);
+      setRankingState(normalizeRankingState(data?.ranking_state));
+      setUserLoaded(true);
     });
   }, [user]);
 
@@ -146,6 +167,7 @@ export default function HomePage() {
     if (!user) return;
     return onSnapshot(collection(db, 'users', user.uid, 'study_days'), (snap) => {
       setStudyDays(new Map(snap.docs.map((d) => [d.id, normalizeStudyDay(d.id, d.data())])));
+      setStudyDaysLoaded(true);
     });
   }, [user]);
 
@@ -200,6 +222,22 @@ export default function HomePage() {
     if (!user) return;
     recordDayState(user.uid, { hadDue, completed });
   }, [user, hadDue, completed]);
+
+  // ── ランキング ──
+  // 初回は、読み込み済みのカレンダーの記録から計算して登録する（追加の読み取りなし）
+  useEffect(() => {
+    if (!user || !userLoaded || !studyDaysLoaded || rankingState || registerTried.current) return;
+    registerTried.current = true;
+    void registerRanking(user.uid, studyDays, { nickname, hidden: rankingHidden });
+  }, [user, userLoaded, studyDaysLoaded, rankingState, studyDays, nickname, rankingHidden]);
+
+  // 今日の記録を反映する。変化がなければ書き込まない
+  useEffect(() => {
+    if (!user || !rankingState) return;
+    const todayRank = rankOf(studyDays.get(toDateKey(new Date())));
+    if (countsForStreak(todayRank)) void recordRankingEvent(user.uid, rankingState, 'study');
+    else if (bridgesStreak(todayRank)) void recordRankingEvent(user.uid, rankingState, 'rest');
+  }, [user, rankingState, studyDays]);
 
   async function handleLogout() {
     await signOut(auth);
@@ -345,7 +383,11 @@ export default function HomePage() {
       </div>
 
       {calendarOpen && (
-        <StudyCalendar days={studyDays} onClose={() => setCalendarOpen(false)} />
+        <StudyCalendar
+          days={studyDays}
+          nickname={nickname}
+          onClose={() => setCalendarOpen(false)}
+        />
       )}
 
       {tutorialOpen && <TutorialModal onClose={closeTutorial} />}
