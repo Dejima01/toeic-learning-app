@@ -202,10 +202,59 @@ function ReviewListFigure() {
             </div>
           ))}
         </div>
-        <div className="mt-2 flex justify-end">
-          <span className="rounded-2xl rounded-br-sm bg-sky-200 px-3 py-1.5 text-xs text-gray-800 shadow dark:bg-sky-800 dark:text-gray-100">
-            💬 この単語の例文は？
-          </span>
+      </div>
+    </Figure>
+  );
+}
+
+const CHAT_ICON_PATH =
+  'M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 0 1 .865-.501 48.172 48.172 0 0 0 3.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z';
+
+function ChatBotFigure() {
+  return (
+    <Figure>
+      <div className="flex w-full flex-col gap-2">
+        <div className="overflow-hidden rounded-md border border-gray-200 bg-white dark:border-gray-700 dark:bg-gray-800">
+          {/* 画面右上のチャットボタン（MainLayout と同じ見た目） */}
+          <div className="flex items-center justify-between border-b border-gray-100 px-3 py-1.5 dark:border-gray-700">
+            <span className="text-xs font-bold text-gray-500 dark:text-gray-400">
+              アプリを離れずに質問
+            </span>
+            <span className="flex h-7 w-7 items-center justify-center rounded-full bg-sky-100 text-sky-600 ring-2 ring-sky-400 dark:bg-sky-900 dark:text-sky-300">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={1.5}
+                aria-hidden="true"
+                className="h-4 w-4"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" d={CHAT_ICON_PATH} />
+              </svg>
+            </span>
+          </div>
+          {/* 開いたチャット欄 */}
+          <div className="flex flex-col gap-1.5 px-3 py-2 text-xs leading-snug">
+            <span className="max-w-[80%] self-end rounded-2xl bg-sky-200 px-3 py-1.5 text-gray-800 dark:bg-sky-800 dark:text-gray-100">
+              この単語の例文をもう1つ教えて
+            </span>
+            <span className="max-w-[85%] self-start rounded-2xl bg-gray-200 px-3 py-1.5 text-gray-800 dark:bg-gray-700 dark:text-gray-200">
+              I will attend the meeting tomorrow.
+              <br />
+              （明日の会議に出席します）
+            </span>
+          </div>
+        </div>
+        <div className="flex flex-wrap items-center justify-center gap-1 text-[11px]">
+          <span className="text-gray-500 dark:text-gray-400">使える画面：</span>
+          {['単語モード', '文法モード', '復習問題一覧'].map((label) => (
+            <span
+              key={label}
+              className="rounded-full bg-sky-100 px-2 py-0.5 font-bold text-sky-800 dark:bg-sky-900 dark:text-sky-100"
+            >
+              {label}
+            </span>
+          ))}
         </div>
       </div>
     </Figure>
@@ -352,9 +401,25 @@ const SLIDES: Slide[] = [
     body: (
       <>
         マークを付けた単語・文法をまとめて確認できます。問題をタップすると詳細が開き、
-        右上の吹き出しボタンからチャットボットに<strong>その問題について質問</strong>できます。
+        そのままチャットボットに質問もできます（次のページで紹介）。
         <span className="mt-1 block text-xs text-gray-500 dark:text-gray-400">
           ※ マークを外すと、その問題の復習の進み具合もリセットされます
+        </span>
+      </>
+    ),
+  },
+  {
+    title: 'AIチャットボットに質問しよう',
+    figure: <ChatBotFigure />,
+    body: (
+      <>
+        <span className="mb-1 block font-bold text-sky-600 dark:text-sky-400">
+          分からないことがあっても、辞書や検索を開かずにアプリの中で調べ物が完結します。
+        </span>
+        画面右上の吹き出しボタンから、単語の意味・例文・文法の解説などを日本語で質問できます。
+        いま開いている章や問題を踏まえて答えるので、「この単語」「この問題」で通じます。
+        <span className="mt-1 block text-xs text-gray-500 dark:text-gray-400">
+          ※ 回答は短め（150文字程度）です。画面を移動すると会話はリセットされます
         </span>
       </>
     ),
