@@ -37,6 +37,13 @@ export default function EntryPage() {
           >
             ログイン
           </Link>
+
+          <Link
+            to="/trial"
+            className="block w-full rounded border-2 border-sky-400 py-3 text-center text-base font-bold text-sky-700 transition-colors hover:bg-sky-50 dark:border-sky-500 dark:text-sky-300 dark:hover:bg-sky-900/40"
+          >
+            ログインせずに試す
+          </Link>
         </div>
 
         <Link

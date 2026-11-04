@@ -4,6 +4,7 @@ import { warmupProxy } from './lib/proxyClient';
 import { AuthProvider } from './contexts/AuthContext';
 import { ThemeProvider } from './contexts/ThemeContext';
 import { PrivateRoute } from './components/PrivateRoute';
+import { PublicOnlyRoute } from './components/PublicOnlyRoute';
 
 // 認証ページ
 import EntryPage from './pages/EntryPage';
@@ -11,6 +12,11 @@ import LoginPage from './pages/LoginPage';
 import SignupPage from './pages/SignupPage';
 import ForgotPasswordPage from './pages/ForgotPasswordPage';
 import PasswordResetPage from './pages/PasswordResetPage';
+
+// お試しページ
+import TrialHomePage from './pages/TrialHomePage';
+import TrialWordPage from './pages/TrialWordPage';
+import TrialGrammarPage from './pages/TrialGrammarPage';
 
 // ログイン後ページ
 import HomePage from './pages/HomePage';
@@ -46,6 +52,11 @@ function AppRoutes() {
       <Route path="/signup" element={<SignupPage />} />
       <Route path="/forgot-password" element={<ForgotPasswordPage />} />
       <Route path="/reset-password" element={<PasswordResetPage />} />
+
+      {/* ── お試し（ログインしていない人だけ） ── */}
+      <Route path="/trial" element={<PublicOnlyRoute><TrialHomePage /></PublicOnlyRoute>} />
+      <Route path="/trial/word" element={<PublicOnlyRoute><TrialWordPage /></PublicOnlyRoute>} />
+      <Route path="/trial/grammar" element={<PublicOnlyRoute><TrialGrammarPage /></PublicOnlyRoute>} />
 
       {/* ── 要ログイン ── */}
       <Route path="/home" element={<PrivateRoute><HomePage /></PrivateRoute>} />
