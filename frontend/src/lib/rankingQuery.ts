@@ -86,7 +86,10 @@ async function loadSnapshot(today: Date): Promise<Record<string, number> | null>
   weekAgo.setDate(weekAgo.getDate() - 7);
   const snap = await getDoc(doc(db, 'leaderboard_snapshots', toDateKey(weekAgo)));
   const ranks = snap.data()?.ranks;
-  return ranks && typeof ranks === 'object' ? (ranks as Record<string, number>) : null;
+  // 公開前の 0 人の記録は「データなし」扱いにする（全員が NEW にならないように）
+  return ranks && typeof ranks === 'object' && Object.keys(ranks).length > 0
+    ? (ranks as Record<string, number>)
+    : null;
 }
 
 function toRow(kind: RankingKind, snap: DocumentSnapshot, rank: number, myUid: string): RankingRow {
