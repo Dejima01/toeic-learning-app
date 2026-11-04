@@ -8,6 +8,17 @@ import {
   calcLongestStreak,
   earliestDate,
 } from '../lib/studyLog';
+import type { RankingKind } from '../lib/rankingQuery';
+import { RankingList } from './RankingList';
+import { StreakInfo } from './StreakInfo';
+
+type Tab = 'calendar' | RankingKind;
+
+const TABS: { id: Tab; label: string }[] = [
+  { id: 'calendar', label: 'カレンダー' },
+  { id: 'streak', label: '連続記録' },
+  { id: 'longest', label: '最長記録' },
+];
 
 const WEEKDAYS = ['日', '月', '火', '水', '木', '金', '土'] as const;
 
@@ -31,13 +42,25 @@ const LEGEND: { rank: DayRank; label: string }[] = [
 
 interface StudyCalendarProps {
   days: Map<string, StudyDay>;
+  /** 自分のニックネーム（未設定なら null＝名無しさん） */
+  nickname: string | null;
   onClose: () => void;
 }
 
-export function StudyCalendar({ days, onClose }: StudyCalendarProps) {
+export function StudyCalendar({ days, nickname, onClose }: StudyCalendarProps) {
   const today = new Date();
   const todayKey = toDateKey(today);
   const [shown, setShown] = useState(() => new Date(today.getFullYear(), today.getMonth(), 1));
+  const [tab, setTab] = useState<Tab>('calendar');
+  // 一度開いたランキングは隠すだけにして、タブを戻っても読み直さない
+  const [visited, setVisited] = useState<Set<Tab>>(() => new Set(['calendar']));
+  const [infoOpen, setInfoOpen] = useState(false);
+
+  function selectTab(next: Tab) {
+    setTab(next);
+    setInfoOpen(false);
+    setVisited((prev) => (prev.has(next) ? prev : new Set(prev).add(next)));
+  }
 
   const streak = calcStreak(days, today);
   const longest = calcLongestStreak(days);
@@ -61,10 +84,53 @@ export function StudyCalendar({ days, onClose }: StudyCalendarProps) {
       onClick={onClose}
     >
       <div
-        className="w-full max-w-sm overflow-y-auto rounded-xl bg-white dark:bg-gray-800 shadow-xl"
+        className="relative w-full max-w-sm overflow-y-auto rounded-xl bg-white dark:bg-gray-800 shadow-xl"
         style={{ maxHeight: '85vh' }}
         onClick={(e) => e.stopPropagation()}
       >
+        {/* タブ・閉じる */}
+        <div className="flex items-center gap-2 border-b border-gray-200 px-3 pt-3 dark:border-gray-700">
+          <div role="tablist" className="flex flex-1 gap-1">
+            {TABS.map((t) => (
+              <button
+                key={t.id}
+                type="button"
+                role="tab"
+                aria-selected={tab === t.id}
+                onClick={() => selectTab(t.id)}
+                className={`flex-1 whitespace-nowrap border-b-2 px-1 pb-2 text-sm font-bold transition-colors ${
+                  tab === t.id
+                    ? 'border-sky-500 text-sky-600 dark:text-sky-400'
+                    : 'border-transparent text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200'
+                }`}
+              >
+                {t.label}
+              </button>
+            ))}
+          </div>
+          <button
+            type="button"
+            onClick={onClose}
+            aria-label="閉じる"
+            className="mb-2 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-gray-700 text-white"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth={2.5}
+              className="h-4 w-4"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+
+        <div className={tab === 'calendar' ? '' : 'hidden'}>
+        {infoOpen && <StreakInfo onClose={() => setInfoOpen(false)} />}
+        <div className={infoOpen ? 'hidden' : ''}>
+
         {/* 月の切り替え */}
         <div className="flex items-center px-4 pb-2 pt-4">
           <button
@@ -90,20 +156,11 @@ export function StudyCalendar({ days, onClose }: StudyCalendarProps) {
           </button>
           <button
             type="button"
-            onClick={onClose}
-            aria-label="閉じる"
-            className="ml-2 flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-gray-700 text-white"
+            onClick={() => setInfoOpen(true)}
+            aria-label="カレンダーの見方"
+            className="ml-2 flex h-8 w-8 shrink-0 items-center justify-center rounded-full border-2 border-sky-400 text-sm font-bold text-sky-600 hover:bg-sky-50 dark:border-sky-500 dark:text-sky-300 dark:hover:bg-sky-900/40"
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth={2.5}
-              className="h-4 w-4"
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
-            </svg>
+            i
           </button>
         </div>
 
@@ -161,6 +218,17 @@ export function StudyCalendar({ days, onClose }: StudyCalendarProps) {
             </p>
           </div>
         </div>
+        </div>
+        </div>
+
+        {(['streak', 'longest'] as const).map(
+          (kind) =>
+            visited.has(kind) && (
+              <div key={kind} className={tab === kind ? '' : 'hidden'}>
+                <RankingList kind={kind} nickname={nickname} />
+              </div>
+            ),
+        )}
       </div>
     </div>
   );

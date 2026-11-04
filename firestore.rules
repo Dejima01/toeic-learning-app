@@ -48,5 +48,90 @@ service cloud.firestore {
         && data.screenSize.size() <= 50
         && data.theme in ['light', 'dark'];
     }
+
+    // 連続記録・最長記録ランキング: ログインユーザーは誰でも読める、書けるのは本人のみ
+    match /leaderboard/{uid} {
+      allow read: if request.auth != null;
+      allow create: if request.auth != null && request.auth.uid == uid
+                    && validLeaderboardCreate(request.resource.data);
+      allow update: if request.auth != null && request.auth.uid == uid
+                    && validLeaderboardUpdate(resource.data, request.resource.data);
+      allow delete: if false;
+    }
+
+    // 1週間前の順位の記録: GitHub Actions（管理者権限）だけが書く
+    match /leaderboard_snapshots/{date} {
+      allow read: if request.auth != null;
+      allow write: if false;
+    }
+
+    // 日付は端末のローカル日付を「1970-01-01 からの日数」にした整数。時差を考えて前後1日を許す
+    function serverDay() {
+      return math.floor(request.time.toMillis() / 86400000);
+    }
+
+    function nearToday(day) {
+      return day >= serverDay() - 1 && day <= serverDay() + 1;
+    }
+
+    function validLeaderboardShape(d) {
+      let fields = ['nickname', 'hidden', 'streak', 'longest', 'lastStudyDay', 'lastActiveDay',
+                    'streakReachedAt', 'longestReachedAt', 'updatedAt'];
+      return d.keys().hasOnly(fields)
+        && d.keys().hasAll(fields)
+        && (d.nickname == null
+            || (d.nickname is string && d.nickname.size() >= 1 && d.nickname.size() <= 12))
+        && d.hidden is bool
+        && d.streak is int && d.longest is int
+        && d.streak >= 0 && d.longest >= d.streak
+        && d.lastStudyDay is int && d.lastActiveDay is int
+        && d.lastStudyDay >= 0 && d.lastActiveDay >= d.lastStudyDay
+        && d.lastActiveDay <= serverDay() + 1
+        && d.streakReachedAt is timestamp && d.longestReachedAt is timestamp
+        && d.updatedAt == request.time;
+    }
+
+    // 初回登録は過去の記録から計算した値なので +1 の検証はできない。
+    // 学習カレンダーを公開した 2026-10-26（20752日目）以降の日数を上限にする
+    function validLeaderboardCreate(d) {
+      return validLeaderboardShape(d)
+        && d.longest <= serverDay() - 20752 + 2
+        && d.streakReachedAt == request.time
+        && d.longestReachedAt == request.time;
+    }
+
+    function validLeaderboardUpdate(o, n) {
+      return validLeaderboardShape(n)
+        && n.lastStudyDay >= o.lastStudyDay
+        && n.lastActiveDay >= o.lastActiveDay
+        && (n.lastStudyDay == o.lastStudyDay || nearToday(n.lastStudyDay))
+        && (n.lastActiveDay == o.lastActiveDay || nearToday(n.lastActiveDay))
+        && validStreakChange(o, n)
+        && validLongestChange(o, n);
+    }
+
+    // 連続日数は「変えない」「前回+1」「1」のどれか。0 は書かない（日付が古いことで途切れを表す）
+    function validStreakChange(o, n) {
+      return (
+          // 変えない（ニックネーム・非表示の変更、休みの日）
+          n.lastStudyDay == o.lastStudyDay
+          && n.streak == o.streak
+          && n.streakReachedAt == o.streakReachedAt
+          && (n.lastActiveDay == o.lastActiveDay || o.lastActiveDay >= n.lastActiveDay - 1)
+        ) || (
+          // 新しい学習日
+          n.lastStudyDay > o.lastStudyDay
+          && n.lastActiveDay == n.lastStudyDay
+          && n.streakReachedAt == request.time
+          && (n.streak == 1
+              || (o.lastActiveDay >= n.lastStudyDay - 1 && n.streak == o.streak + 1))
+        );
+    }
+
+    // 最長記録は減らせない。増やすときは連続日数と同じ値まで
+    function validLongestChange(o, n) {
+      return (n.longest == o.longest && n.longestReachedAt == o.longestReachedAt)
+        || (n.longest > o.longest && n.longest == n.streak && n.longestReachedAt == request.time);
+    }
   }
 }

@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import type { ReactNode } from 'react';
 
 /** 自動表示の既読判定に使う版数。ガイドを大きく改訂したら上げると全員に再表示される */
-export const TUTORIAL_VERSION = 1;
+export const TUTORIAL_VERSION = 2;
 
 const FLAG_PATH_SOLID =
   'M3 2.25a.75.75 0 0 1 .75.75v.54l1.838-.46a9.75 9.75 0 0 1 6.725.738l.108.054A8.25 8.25 0 0 0 18 4.524l3.11-.732a.75.75 0 0 1 .917.81 47.784 47.784 0 0 0 .005 10.337.75.75 0 0 1-.574.812l-3.114.733a9.75 9.75 0 0 1-6.594-.77l-.108-.054a8.25 8.25 0 0 0-5.69-.625l-2.202.55V21a.75.75 0 0 1-1.5 0V3A.75.75 0 0 1 3 2.25Z';
@@ -331,11 +331,29 @@ function CalendarFigure() {
             </div>
           ))}
         </div>
-        <div className="flex items-center justify-center gap-1.5 pt-1 text-xs tabular-nums">
-          <span className="rounded-md border-2 border-gray-300 px-1.5 py-0.5 text-gray-500 dark:border-gray-600 dark:text-gray-400">🔥1日</span>
-          <span className="rounded-md border-2 border-sky-300 px-1.5 py-0.5 font-bold text-sky-600 dark:border-sky-700 dark:text-sky-400">🔥3日</span>
-          <span className="metal-steel rounded-md border-2 border-sky-700/40 px-1.5 py-0.5 font-bold">🔥7日</span>
-          <span className="metal-gold rounded-md border-2 border-amber-600/40 px-1.5 py-0.5 font-bold">🔥14日</span>
+        <div className="mt-1 overflow-hidden rounded-md border border-gray-200 text-[11px] dark:border-gray-700">
+          <div className="flex bg-white font-bold dark:bg-gray-800">
+            <span className="flex-1 py-1 text-center text-gray-400">カレンダー</span>
+            <span className="flex-1 border-b-2 border-sky-500 py-1 text-center text-sky-600 dark:text-sky-400">連続記録</span>
+            <span className="flex-1 py-1 text-center text-gray-400">最長記録</span>
+          </div>
+          {[
+            { rank: 1, name: 'さくら', days: 21, change: '↑2', changeClass: 'text-emerald-600 dark:text-emerald-400', me: false },
+            { rank: 2, name: 'あなた', days: 15, change: 'NEW', changeClass: 'text-sky-600 dark:text-sky-400', me: true },
+            { rank: 2, name: '名無しさん', days: 15, change: '→', changeClass: 'text-gray-500 dark:text-gray-400', me: false },
+          ].map((r) => (
+            <div
+              key={r.name}
+              className={`flex items-center gap-2 border-t border-gray-100 px-2 py-1 tabular-nums dark:border-gray-700 ${
+                r.me ? 'bg-sky-100 font-bold text-sky-900 dark:bg-sky-900 dark:text-sky-50' : 'bg-white text-gray-700 dark:bg-gray-800 dark:text-gray-200'
+              }`}
+            >
+              <span className="w-6 text-right">{r.rank}位</span>
+              <span className="flex-1 truncate">{r.name}</span>
+              <span>{r.days}日</span>
+              <span className={`w-7 text-right text-[10px] ${r.changeClass}`}>{r.change}</span>
+            </div>
+          ))}
         </div>
       </div>
     </Figure>
@@ -434,12 +452,16 @@ const SLIDES: Slide[] = [
     ),
   },
   {
-    title: 'カレンダーで続けた日を確認',
+    title: 'カレンダーとランキング',
     figure: <CalendarFigure />,
     body: (
       <>
         ホーム左上の <strong>🔥◯日</strong> をタップすると、毎日の復習の記録が見られます。
-        続けるほど 🔥 の表示が豪華になります。
+        復習を1問以上解いた日が +1、復習がない日はアプリを開けば連続が続きます。
+        <strong>連続記録・最長記録のランキング</strong>でほかの人とも競えます。
+        <span className="mt-1 block text-xs text-gray-500 dark:text-gray-400">
+          ※ ニックネームとランキングへの表示／非表示は設定で変えられます
+        </span>
       </>
     ),
   },
